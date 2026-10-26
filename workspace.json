@@ -1,0 +1,274 @@
+{
+  "main": {
+    "id": "c9aebd6caf156700",
+    "type": "split",
+    "children": [
+      {
+        "id": "323287fd684632fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6024bb65162606ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/Endpoint Badge.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Endpoint Badge"
+            }
+          },
+          {
+            "id": "b94e64cb2a05fcc3",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Sem título.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Sem título"
+            }
+          },
+          {
+            "id": "a82d2a84878f6ca8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsdian.md/obsidian-developer-docs/en/Reference/TypeScript API/PluginSettingTab/(constructor).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "(constructor)"
+            }
+          }
+        ],
+        "currentTab": 2,
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a19360a549813bf9",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b20b972f87c0b87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d0f6c7a2ee89c63",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "8d3ff61f69b46645",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "d1b5910f663dd2a4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 383.5
+  },
+  "right": {
+    "id": "a7e51a1588b7caef",
+    "type": "split",
+    "children": [
+      {
+        "id": "e85060d19051605e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ddc9df46e8f824f7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Sem títuloSem título.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos"
+            }
+          },
+          {
+            "id": "6758ee77750fc7b9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "397ebc72c997f801",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "9a414e8486fa3c50",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "6b00fc92b5e71168",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 295.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "8d3ff61f69b46645",
+  "lastOpenFiles": [
+    "Sem título.base",
+    "Sem título.canvas",
+    "Sem títuloSem título.md",
+    "Clippings/Endpoint Badge.md",
+    "Clippings/TensorFlow.md",
+    "Shields.io/shields-tests/vendor-take-2/cran/spec.js",
+    "Shields.io/shields-tests/vendor/travis/spec.js",
+    "Shields.io/shields-tests/vendor/travis/fixtures.json",
+    "Shields.io/shields-tests/vendor/ctan/spec.js",
+    "Shields.io/shields-tests/vendor/ctan/fixtures.json",
+    "Shields.io/shields-tests/vendor/cran/spec.js",
+    "Shields.io/shields-tests/vendor/cran/fixtures.json",
+    "Shields.io/shields-tests/vendor-take-2/service-tester.js",
+    "Shields.io/shields-tests/vendor-take-2/main.spec.js",
+    "Shields.io/shields-tests/vendor-take-2/icedfrisby-nock.js",
+    "Shields.io/shields-tests/vendor-sketches/shopping.md",
+    "Shields.io/shields-tests/LICENSE.md",
+    "Shields.io/shields-tests/README.md",
+    "Shields.io/uptime-monitoring/graphs/git-hub-issues-badge/response-time.png",
+    "Shields.io/uptime-monitoring/graphs/static-badge/response-time.png",
+    "Shields.io/uptime-monitoring/graphs/static-badge/response-time-year.png",
+    "Shields.io/uptime-monitoring/graphs/static-badge/response-time-week.png",
+    "Shields.io/uptime-monitoring/graphs/static-badge/response-time-month.png",
+    "Shields.io/uptime-monitoring/graphs/static-badge/response-time-day.png",
+    "Shields.io/uptime-monitoring/graphs/shields-io-homepage/response-time.png",
+    "Shields.io/uptime-monitoring/graphs/shields-io-homepage/response-time-year.png",
+    "Shields.io/uptime-monitoring/graphs/shields-io-homepage/response-time-month.png",
+    "Shields.io/uptime-monitoring/graphs/shields-io-homepage/response-time-week.png",
+    "Shields.io/uptime-monitoring/README.md",
+    "Shields.io/svg-to-image-proxy/CHANGELOG.md",
+    "Shields.io/svg-to-image-proxy/README.md",
+    "Shields.io/stability-badges/README.md",
+    "Shields.io/stability-badges/LICENSE.md",
+    "Shields.io/squint/README.md",
+    "Shields.io/squint/CONTRIBUTING.md",
+    "Shields.io/squint/CODE_OF_CONDUCT.md",
+    "Shields.io/shields/vendor/http-deceiver/README.md",
+    "Shields.io/shields/spec/SPECIFICATION.md",
+    "Shields.io/shields/spec/motivation.md",
+    "Shields.io/shields/frontend/src/pages/privacy.md",
+    "Shields.io/shields/frontend/src/pages/donate.md",
+    "Shields.io/shields/frontend/src/pages/community.md",
+    "Shields.io/shields/frontend/docs/static-badges.md",
+    "Shields.io/shields/frontend/docs/logos.md",
+    "Shields.io/shields/frontend/docs/index.md",
+    "Shields.io/shields/frontend/blog/2025-06-06-simpleicons15.md",
+    "Shields.io/shields/frontend/blog/2026-06-21-mit-apache-license.md",
+    "Obsdian.md/jsoncanvas/sample.canvas"
+  ]
+}
