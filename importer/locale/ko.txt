@@ -1,0 +1,2499 @@
+[command.import-notes]
+original=Import notes
+translation=노트 가져오기
+
+[nouns.file-with-count]
+original={{count}} file
+translation={{count}}개 파일
+
+[nouns.file-with-count_plural]
+original={{count}} files
+translation={{count}}개 파일
+
+[nouns.note-with-count]
+original={{count}} note
+translation={{count}}개 노트
+
+[nouns.note-with-count_plural]
+original={{count}} notes
+translation={{count}}개 노트
+
+[nouns.item-with-count]
+original={{count}} item
+translation={{count}}개 항목
+
+[nouns.item-with-count_plural]
+original={{count}} items
+translation={{count}}개 항목
+
+[nouns.record-with-count]
+original={{count}} record
+translation={{count}}개 레코드
+
+[nouns.record-with-count_plural]
+original={{count}} records
+translation={{count}}개 레코드
+
+[nouns.base-with-count]
+original={{count}} base
+translation={{count}}개 베이스
+
+[nouns.base-with-count_plural]
+original={{count}} bases
+translation={{count}}개 베이스
+
+[nouns.template-with-count]
+original={{count}} template
+translation={{count}}개 템플릿
+
+[nouns.template-with-count_plural]
+original={{count}} templates
+translation={{count}}개 템플릿
+
+[nouns.failure-with-count]
+original={{count}} failure
+translation={{count}}개 실패
+
+[nouns.failure-with-count_plural]
+original={{count}} failures
+translation={{count}}개 실패
+
+[nouns.second-with-count]
+original={{count}} second
+translation={{count}}초
+
+[nouns.second-with-count_plural]
+original={{count}} seconds
+translation={{count}}초
+
+[nouns.relation-placeholder-with-count]
+original={{count}} relation placeholder
+translation={{count}}개 관계 플레이스홀더
+
+[nouns.relation-placeholder-with-count_plural]
+original={{count}} relation placeholders
+translation={{count}}개 관계 플레이스홀더
+
+[nouns.linked-database-with-count]
+original={{count}} linked database
+translation={{count}}개 링크된 데이터베이스
+
+[nouns.linked-database-with-count_plural]
+original={{count}} linked databases
+translation={{count}}개 링크된 데이터베이스
+
+[nouns.mention-link-with-count]
+original={{count}} mention link
+translation={{count}}개 멘션 링크
+
+[nouns.mention-link-with-count_plural]
+original={{count}} mention links
+translation={{count}}개 멘션 링크
+
+[nouns.synced-reference-with-count]
+original={{count}} synced child reference
+translation={{count}}개 동기화된 하위 참조
+
+[nouns.synced-reference-with-count_plural]
+original={{count}} synced child references
+translation={{count}}개 동기화된 하위 참조
+
+[nouns.new-item-with-count]
+original={{count}} new item
+translation={{count}}개 신규 항목
+
+[nouns.new-item-with-count_plural]
+original={{count}} new items
+translation={{count}}개 신규 항목
+
+[nouns.page-with-count]
+original={{count}} page
+translation={{count}}개 페이지
+
+[nouns.page-with-count_plural]
+original={{count}} pages
+translation={{count}}개 페이지
+
+[group.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[group.notion.name]
+original=Notion
+translation=Notion
+
+[outliner.name-flatten-outlines]
+original=Flatten outlines
+translation=개요 펼치기
+
+[outliner.desc-flatten-outlines]
+original=Convert outlines into paragraphs, headings, and lists.
+translation=개요를 단락, 제목, 목록으로 변환해요.
+
+[modal.title-pick-format]
+original=Import data into Obsidian
+translation=Obsidian으로 데이터 가져오기
+
+[modal.title-choose-method]
+original=Choose how to import
+translation=가져오기 방법 선택
+
+[modal.title-import-from]
+original=Import from {{format}}
+translation={{format}}에서 가져오기
+
+[modal.search-placeholder]
+original=Filter...
+translation=필터...
+
+[modal.msg-no-formats]
+original=No formats found.
+translation=서식을 찾을 수 없어요.
+
+[modal.msg-drop-to-import]
+original=Drop files to import
+translation=가져올 파일을 놓기하세요
+
+[modal.button-show-all-formats]
+original=Show all formats
+translation=모두 표시하기
+
+[modal.button-continue]
+original=Continue
+translation=계속
+
+[modal.button-import]
+original=Import
+translation=가져오기
+
+[modal.button-back]
+original=Back
+translation=뒤로
+
+[modal.button-help]
+original=Help
+translation=도움말
+
+[modal.button-pause]
+original=Pause
+translation=중지
+
+[modal.button-resume]
+original=Resume
+translation=재개
+
+[modal.button-stop]
+original=Stop
+translation=정지
+
+[modal.button-save-report]
+original=Save report
+translation=보고서 저장
+
+[modal.msg-report-failed]
+original=Could not save the import report.
+translation=가져오기 보고서를 저장할 수 없었어요.
+
+[modal.button-import-more]
+original=Import more
+translation=더 가져오기
+
+[modal.button-done]
+original=Done
+translation=완료
+
+[modal.msg-unexpected-auth]
+original=Unexpected auth event. Please restart the auth process.
+translation=예기치 않은 인증 이벤트예요. 인증 과정을 다시 시작해 주세요.
+
+[progress.stat-imported]
+original=imported
+translation=가져옴
+
+[progress.stat-attachments]
+original=attachments
+translation=첨부 파일
+
+[progress.stat-remaining]
+original=remaining
+translation=남음
+
+[progress.stat-skipped]
+original=skipped
+translation=건너뜀
+
+[progress.stat-failed]
+original=failed
+translation=실패
+
+[progress.label-skipped]
+original=Skipped: 
+translation=건너뜀: 
+
+[progress.label-failed]
+original=Failed: 
+translation=실패함: 
+
+[progress.label-entry]
+original="{{name}}"
+translation="{{name}}"
+
+[progress.label-entry-with-reason]
+original="{{name}}" because {{reason}}
+translation="{{name}}" - 이유: {{reason}}
+
+[progress.label-paused]
+original=Paused
+translation=일시 정지됨
+
+[progress.label-paused-with]
+original=Paused - {{status}}
+translation=일시 정지됨 - {{status}}
+
+[progress.label-importing]
+original=Importing
+translation=가져오는 중
+
+[progress.label-remaining]
+original={{count}} remaining...
+translation={{count}}개 남음...
+
+[progress.label-remaining_plural]
+original={{count}} remaining...
+translation={{count}}개 남음...
+
+[progress.label-paused-remaining]
+original=Paused - {{count}} remaining
+translation=일시 정지됨 - {{count}}개 남음
+
+[progress.label-paused-remaining_plural]
+original=Paused - {{count}} remaining
+translation=일시 정지됨 - {{count}}개 남음
+
+[progress.status-stopping]
+original=Stopping...
+translation=중지하는 중...
+
+[progress.msg-stopped]
+original=Import stopped.
+translation=가져오기가 중지되었어요.
+
+[progress.msg-errors]
+original=Import finished with errors.
+translation=가져오기가 에러와 함께 완료되었어요.
+
+[progress.msg-complete]
+original=Import complete.
+translation=가져오기가 완료되었어요.
+
+[progress.msg-imported-count]
+original={{count}} note imported
+translation={{count}}개 노트를 가져왔어요
+
+[progress.msg-imported-count_plural]
+original={{count}} notes imported
+translation={{count}}개 노트를 가져왔어요
+
+[progress.msg-click-to-show]
+original={{counts}}. Select to show.
+translation={{counts}}. 선택하여 표시해요.
+
+[progress.status-waiting]
+original=Waiting {{duration}} ({{reason}})
+translation=대기 중 {{duration}} ({{reason}})
+
+[progress.status-standardizing]
+original=Standardizing Markdown ({{current}}/{{total}})
+translation=마크다운 표준화 중 ({{current}}/{{total}})
+
+[progress.label-finalization]
+original=Markdown finalization
+translation=마크다운 마무리
+
+[report.file-name]
+original={{date}} {{importer}} import log
+translation={{date}} {{importer}} 가져오기 로그
+
+[report.title]
+original={{importer}} import
+translation={{importer}} 가져오기
+
+[report.msg-finished]
+original=Finished {{when}}. {{counts}}.
+translation={{when}}에 완료됐어요. {{counts}}.
+
+[report.msg-stopped]
+original=Stopped {{when}}. {{counts}}.
+translation={{when}}에 중단됐어요. {{counts}}.
+
+[report.heading-failed]
+original=Failed ({{count}})
+translation=실패함 ({{count}})
+
+[report.heading-skipped]
+original=Skipped ({{count}})
+translation=건너뜀 ({{count}})
+
+[report.heading-messages]
+original=Messages
+translation=메시지
+
+[report.count-notes]
+original={{count}} note imported
+translation={{count}}개 노트를 가져왔어요
+
+[report.count-notes_plural]
+original={{count}} notes imported
+translation={{count}}개 노트를 가져왔어요
+
+[report.count-attachments]
+original={{count}} attachment downloaded
+translation={{count}}개 첨부 파일을 다운로드했어요
+
+[report.count-attachments_plural]
+original={{count}} attachments downloaded
+translation={{count}}개 첨부파일을 다운로드했어요
+
+[report.count-skipped]
+original={{count}} item skipped
+translation={{count}}개 항목을 건너뛰었어요
+
+[report.count-skipped_plural]
+original={{count}} items skipped
+translation={{count}}개 항목을 건너뛰었어요
+
+[report.count-failed]
+original={{count}} item failed
+translation={{count}}개 항목이 실패했어요
+
+[report.count-failed_plural]
+original={{count}} items failed
+translation={{count}}개 항목이 실패했어요
+
+[source.desc]
+original=Drag and drop, or choose files to import.
+translation=드래그 앤 놓기하거나 가져올 파일을 선택하세요.
+
+[source.desc-choose]
+original=Choose files to import.
+translation=가져올 파일을 선택하세요.
+
+[source.button-choose-file]
+original=Choose file
+translation=파일 선택
+
+[source.button-choose-files]
+original=Choose files
+translation=파일 선택
+
+[source.button-choose-folders]
+original=Choose folders
+translation=폴더 선택
+
+[source.dialog-pick-files]
+original=Pick files to import
+translation=가져올 파일 선택
+
+[source.dialog-pick-folders]
+original=Folders to import
+translation=가져올 폴더
+
+[source.desc-folders]
+original=Everything in checked folders is imported. Uncheck folders to exclude them.
+translation=체크된 폴더의 모든 항목이 가져와져요. 폴더를 체크 해제하면 제외할 수 있어요.
+
+[source.msg-pick-source-first]
+original=Choose files or folders first.
+translation=먼저 파일이나 폴더를 선택하세요.
+
+[source.msg-reading-folders]
+original=Reading folders...
+translation=폴더를 읽는 중...
+
+[source.msg-no-folders]
+original=No folders found.
+translation=폴더를 찾을 수 없어요.
+
+[source.msg-android-folder-failed]
+original=Could not choose that folder.
+translation=해당 폴더를 선택할 수 없어요.
+
+[source.msg-android-folder-read-failed]
+original=Could not read that folder.
+translation=해당 폴더를 읽을 수 없어요.
+
+[source.msg-android-folder-unavailable]
+original=Folder selection is unavailable on this device.
+translation=이 기기에서 폴더 선택을 사용할 수 없어요.
+
+[source.msg-android-root-folder]
+original=Choose a folder other than the root of your device.
+translation=기기의 루트가 아닌 그 외 폴더를 선택해 주세요.
+
+[source.msg-flat-files]
+original={{count}} file will be imported.
+translation={{count}}개 파일을 가져올 거예요.
+
+[source.msg-flat-files_plural]
+original={{count}} files will be imported.
+translation={{count}}개 파일을 가져올 거예요.
+
+[source.msg-nothing-to-import]
+original=Nothing to import there. Pick {{extensions}} files, or a folder holding some.
+translation=가져올 항목이 없어요. {{extensions}} 파일이나 해당 파일이 포함된 폴더를 선택하세요.
+
+[source.msg-will-import]
+original={{files}} will be imported: 
+translation={{files}}개를 가져올 예정이에요: 
+
+[source.msg-more-files]
+original=and {{count}} more file
+translation=and {{count}}개 더 파일
+
+[source.msg-more-files_plural]
+original=and {{count}} more files
+translation=and {{count}}개 더 파일
+
+[source.button-remove-file]
+original=Remove from the import
+translation=가져오기에서 삭제
+
+[output.label-source-id]
+original=source ID
+translation=원본 ID
+
+[output.name-save-source-id]
+original=Save {{label}}
+translation={{label}} 저장
+
+[output.desc-save-source-id]
+original=Add the {{label}} to note properties so future imports can recognize moved or renamed notes.
+translation={{label}}을(를) 노트 속성에 추가하면 이후 가져오기에서 이동되거나 이름이 바뀐 노트를 인식할 수 있어요.
+
+[output.name-folder]
+original=Output folder
+translation=출력 폴더
+
+[output.desc-folder]
+original=Where imported notes will be saved. Leave blank to use the top level of the vault.
+translation=가져온 노트가 저장될 위치예요. 비워 두면 보관함 최상위에 저장돼요.
+
+[output.name-template]
+original=Template
+translation=템플릿
+
+[output.desc-template]
+original=Optional Markdown template from this vault. Use variables such as {{title}}, {{content}}, and {{date}}.
+translation=이 보관함에 있는 마크다운 템플릿(선택 사항)이에요. {{title}}, {{content}}, {{date}} 같은 변수를 사용할 수 있어요.
+
+[output.placeholder-template]
+original=Templates/Import.md
+translation=Templates/Import.md
+
+[output.msg-template-not-found]
+original=Template must be a Markdown file in this vault: {{path}}
+translation=템플릿은 이 보관함에 있는 마크다운 파일이어야 해요: {{path}}
+
+[output.name-attachments]
+original=Attachment location
+translation=첨부 파일 위치
+
+[output.desc-attachments]
+original=Where imported images and files will be saved.
+translation=가져온 이미지와 파일이 저장될 위치예요.
+
+[output.name-subfolder]
+original=Subfolder name
+translation=하위 폴더 이름
+
+[output.desc-subfolder]
+original=Folder to use inside each imported note's folder.
+translation=가져온 각 노트의 폴더 내에서 사용할 폴더예요.
+
+[output.name-attachment-folder]
+original=Attachment folder
+translation=첨부 파일 폴더
+
+[output.desc-attachment-folder]
+original=Folder path from the top level of the vault.
+translation=보관함 최상위로부터의 폴더 경로예요.
+
+[output.name-duplicates]
+original=Existing notes
+translation=기존 노트
+
+[output.desc-duplicates]
+original=Choose what to do when an imported note matches one in your vault. "{{update}}" skips unchanged notes and preserves newer local edits when modification dates are available.
+translation=가져온 노트가 보관함에 있는 노트와 일치할 때 수행할 작업을 선택하세요. "{{update}}"는 변경되지 않은 노트를 건너뛰고, 수정 날짜가 있으면 더 최근의 로컬 편집 내용을 보존해요.
+
+[output.option-create-copy]
+original=Create a copy
+translation=복사본 생성
+
+[output.option-skip]
+original=Skip
+translation=건너뛰기
+
+[output.option-update]
+original=Update
+translation=업데이트
+
+[output.option-attachments-vault]
+original=Vault folder
+translation=보관함 최상위 폴더
+
+[output.option-attachments-folder]
+original=In the folder specified below
+translation=아래에 지정된 폴더
+
+[output.option-attachments-note]
+original=Same folder as the note
+translation=노트와 같은 폴더
+
+[output.option-attachments-subfolder]
+original=In subfolder under the note
+translation=노트 아래 하위 폴더에
+
+[common.msg-pick-file]
+original=Please pick at least one file to import.
+translation=가져올 파일을 하나 이상 선택하세요.
+
+[common.msg-pick-output]
+original=Please select a location to export to.
+translation=내보낼 위치를 선택하세요.
+
+[common.msg-pick-import-location]
+original=Please select a location to import your files to.
+translation=파일을 가져올 위치를 선택하세요.
+
+[common.msg-unknown-error]
+original=Unknown error
+translation=알수없는 오류
+
+[common.name-export]
+original=Export your data
+translation=데이터 내보내기
+
+[common.label-learn-more]
+original=Learn more
+translation=자세히 알아보기
+
+[common.button-instructions]
+original=Instructions
+translation=안내
+
+[common.button-open]
+original=Open
+translation=열기
+
+[common.status-processing]
+original=Processing {{name}}
+translation={{name}} 처리 중
+
+[common.status-importing-note]
+original=Importing note {{name}}
+translation=노트 {{name}} 가져오는 중
+
+[common.status-importing-attachment]
+original=Importing attachment {{name}}
+translation=첨부 파일 {{name}} 가져오는 중
+
+[common.status-cancelled]
+original=Import cancelled
+translation=가져오기 취소됨
+
+[reason.already-in-vault]
+original=it is already in the vault
+translation=이미 보관함에 있어요
+
+[reason.unchanged-since-import]
+original=it has not changed since the last import
+translation=마지막 가져오기 이후 변경된 사항이 없어요
+
+[reason.edited-since-import]
+original=it has been edited in Obsidian since the last import
+translation=마지막 가져오기 이후 Obsidian에서 편집되었어요
+
+[reason.file-not-in-vault]
+original=The imported file did not appear in the vault.
+translation=가져온 파일이 보관함에 나타나지 않았어요.
+
+[reason.folder-not-created]
+original=Failed to create folder at "{{path}}"
+translation="{{path}}"에 폴더 생성을 실패함
+
+[tree.button-select-all]
+original=Select all
+translation=전체 선택
+
+[tree.button-deselect-all]
+original=Deselect all
+translation=모두 선택 취소
+
+[tree.button-load]
+original=Load
+translation=불러오기
+
+[tree.button-loading]
+original=Loading...
+translation=로딩 중...
+
+[tree.button-refresh]
+original=Refresh
+translation=새로고침
+
+[tree.placeholder-filter]
+original=Filter...
+translation=필터...
+
+[tree.msg-no-matches]
+original=No results found.
+translation=결과를 찾지 못했습니다.
+
+[request.msg-unauthorized]
+original={{service}} did not accept the request for {{subject}}. {{credential}}
+translation={{service}}에서 {{subject}}에 대한 요청을 수락하지 않았어요. {{credential}}
+
+[request.msg-forbidden]
+original={{service}} would not give access to {{subject}}. {{credential}}
+translation={{service}}에서 {{subject}}에 대한 접근을 허용하지 않았어요. {{credential}}
+
+[request.msg-not-found]
+original={{service}} could not find {{subject}}.
+translation={{service}}에서 {{subject}}을(를) 찾을 수 없어요.
+
+[request.msg-rate-limited]
+original={{service}} is limiting how fast {{subject}} can be read. Wait a few minutes and try again.
+translation={{service}}에서 {{subject}}을(를) 읽는 속도를 제한하고 있어요. 몇 분 후에 다시 시도해 주세요.
+
+[request.msg-timed-out]
+original={{service}} took too long to return {{subject}}. Try again shortly.
+translation={{service}}에서 {{subject}}을(를) 반환하는 데 너무 오래 걸렸어요. 잠시 후 다시 시도해 주세요.
+
+[request.msg-unavailable]
+original={{service}} could not return {{subject}} right now. Try again shortly.
+translation={{service}}에서 지금 {{subject}}을(를) 반환할 수 없어요. 잠시 후 다시 시도해 주세요.
+
+[request.msg-failed-with-code]
+original=Could not read {{subject}}: {{message}} ({{code}})
+translation={{subject}}을(를) 읽을 수 없어요: {{message}} ({{code}})
+
+[request.msg-failed-with-message]
+original=Could not read {{subject}}: {{message}}
+translation={{subject}}을(를) 읽을 수 없어요: {{message}}
+
+[request.msg-failed-with-reported-code]
+original=Could not read {{subject}}. {{service}} reported {{code}}.
+translation={{subject}}을(를) 읽을 수 없어요. {{service}}에서 {{code}}을(를) 보고했어요.
+
+[request.msg-failed]
+original=Could not read {{subject}}.
+translation={{subject}}을(를) 읽을 수 없어요.
+
+[template.msg-intro]
+original=Configure how your data should be imported. Use {{syntax}} syntax to reference field values.
+translation=데이터를 가져올 방법을 설정하세요. {{syntax}} 구문을 사용하여 필드 값을 참조할 수 있어요.
+
+[template.msg-note-template-intro]
+original=Review examples of how your notes will be imported.
+translation=노트가 어떻게 가져와지는지 예시를 확인해 보세요.
+
+[template.name-title]
+original=Note title
+translation=파일 이름 변경
+
+[template.desc-title]
+original=Template for the note title. Use variables like {{field_name}} to insert values.
+translation=노트 제목 템플릿이에요. {{field_name}} 같은 변수를 사용하여 값을 삽입할 수 있어요.
+
+[template.name-location]
+original=Note location
+translation=노트 위치
+
+[template.desc-location]
+original=Template for note location/path. Use {{field_name}} to organize notes.
+translation=노트 위치/경로 템플릿이에요. {{field_name}}을 사용하여 노트를 정리하세요.
+
+[template.name-content]
+original=Note content
+translation=노트 내용
+
+[template.desc-content]
+original=Template for the note content. Use variables like {{field_name}} to insert values.
+translation=노트 내용 템플릿이에요. {{field_name}} 같은 변수를 사용하여 값을 삽입할 수 있어요.
+
+[template.name-template-file]
+original=Template
+translation=템플릿
+
+[template.desc-template-file]
+original=Optional. Choose a template from your vault to format the note content. See Help for {{link}}.
+translation=선택 사항이에요. 보관함에서 노트 내용의 서식을 지정할 템플릿을 선택하세요. {{link}}에 대해서는 도움말을 참고하세요.
+
+[template.link-template-syntax]
+original=template syntax
+translation=템플릿 구문
+
+[template.heading-preview]
+original=Preview
+translation=미리보기
+
+[template.status-loading-preview]
+original=Loading preview...
+translation=미리보기 로드 중...
+
+[template.button-edit-template]
+original=Edit
+translation=편집
+
+[template.button-save-template]
+original=Save
+translation=저장
+
+[template.button-reset-template]
+original=Reset to default
+translation=기본값으로 초기화
+
+[template.button-start-import]
+original=Start import
+translation=가져오기 시작
+
+[template.link-show-more]
+original=Show more
+translation=더 보기
+
+[template.name-template-editor]
+original=Template source
+translation=템플릿 원본
+
+[template.label-edit-import-template]
+original=Edit import template
+translation=가져오기 템플릿 편집
+
+[template.button-add-property]
+original=Add property
+translation=속성 추가
+
+[template.button-previous-preview]
+original=Previous preview
+translation=이전 미리보기
+
+[template.button-next-preview]
+original=Next preview
+translation=다음 미리보기
+
+[template.msg-diagnostic]
+original=Line {{line}}: {{message}}
+translation={{line}}번째 줄: {{message}}
+
+[template.heading-properties]
+original=Properties
+translation=속성
+
+[template.column-property-name]
+original=Property name
+translation=속성 이름
+
+[template.column-property-value]
+original=Property value
+translation=속성 값
+
+[template.column-example]
+original=Example
+translation=예시
+
+[template.action-delete-property]
+original=Delete property
+translation=속성 삭제
+
+[template.msg-title-required]
+original=Please provide a note title template.
+translation=노트 제목 템플릿을 입력해 주세요.
+
+[importer.airtable-api.name]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.option-text]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-id]
+original=Airtable record ID
+translation=Airtable 레코드 ID
+
+[importer.airtable-api.name-token]
+original=Airtable personal access token
+translation=Airtable 개인 액세스 토큰
+
+[importer.airtable-api.desc-token]
+original=Create a personal access token in your Airtable account settings.
+translation=Airtable 계정 설정에서 개인 액세스 토큰을 생성하세요.
+
+[importer.airtable-api.link-get-token]
+original=Get token
+translation=토큰 받기
+
+[importer.airtable-api.name-tables]
+original=Tables to import
+translation=가져올 테이블
+
+[importer.airtable-api.desc-tables]
+original=Load your Airtable bases and tables, then choose what to import.
+translation=Airtable 베이스와 테이블을 불러온 다음, 가져올 항목을 선택하세요.
+
+[importer.airtable-api.hint-tables]
+original=Load your Airtable bases and tables to get started.
+translation=시작하려면 Airtable 베이스와 테이블을 불러오세요.
+
+[importer.airtable-api.msg-fetching-bases]
+original=Fetching bases...
+translation=베이스를 가져오는 중...
+
+[importer.airtable-api.msg-no-bases]
+original=No bases found.
+translation=베이스를 찾을 수 없어요.
+
+[importer.airtable-api.label-service]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-subject]
+original=your bases
+translation=베이스
+
+[importer.airtable-api.label-credential]
+original=Check that your personal access token is current and has access to them.
+translation=개인 액세스 토큰이 유효하고 베이스에 대한 접근 권한이 있는지 확인하세요.
+
+[importer.airtable-api.name-formulas]
+original=Convert formulas
+translation=수식 변환
+
+[importer.airtable-api.desc-formulas]
+original=Try to convert formulas to Obsidian syntax, or import as static values.
+translation=수식을 Obsidian 구문으로 변환하거나, 정적 값으로 가져와요.
+
+[importer.airtable-api.option-formula-hybrid]
+original=Obsidian syntax (with fallback)
+translation=Obsidian 구문 (폴백 포함)
+
+[importer.airtable-api.option-formula-static]
+original=Static values only
+translation=정적 값만
+
+[importer.airtable-api.name-download-attachments]
+original=Download attachments
+translation=첨부파일 다운로드
+
+[importer.airtable-api.desc-download-attachments]
+original=Download attachment files to local vault. If disabled or download fails, external URLs will be used.
+translation=첨부 파일을 로컬 보관함에 다운로드해요. 비활성화하거나 다운로드에 실패하면 외부 URL이 사용돼요.
+
+[importer.airtable-api.name-view-property]
+original=View property name
+translation=보기 속성 이름
+
+[importer.airtable-api.desc-view-property]
+original=Property name to track which views a record belongs to. Each record will have a list of view names it appears in.
+translation=레코드가 속한 보기를 추적할 속성 이름이에요. 각 레코드에 해당 레코드가 표시되는 보기 이름 목록이 포함돼요.
+
+[importer.airtable-api.msg-token-first]
+original=Please enter your Airtable personal access token first.
+translation=먼저 Airtable 개인 액세스 토큰을 입력해 주세요.
+
+[importer.airtable-api.msg-token-missing]
+original=Please enter your Airtable personal access token.
+translation=Airtable 개인 액세스 토큰을 입력해 주세요.
+
+[importer.airtable-api.msg-load-bases-failed]
+original=Failed to load bases: {{error}}
+translation=베이스를 불러오지 못했어요: {{error}}
+
+[importer.airtable-api.msg-load-tables-failed]
+original=Failed to load tables for "{{base}}": {{error}}
+translation="{{base}}"의 표를 불러오지 못했어요: {{error}}
+
+[importer.airtable-api.msg-pick-table]
+original=Please select at least one table to import.
+translation=가져올 표를 하나 이상 선택해 주세요.
+
+[importer.airtable-api.msg-loading-fields]
+original=Loading fields...
+translation=필드를 불러오는 중...
+
+[importer.airtable-api.msg-no-fields]
+original=No fields found in selected tables. Please check your selection.
+translation=선택한 표에서 필드를 찾을 수 없어요. 선택 항목을 확인해 주세요.
+
+[importer.airtable-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=가져오기 실패함: {{error}}
+
+[importer.airtable-api.label-base-position]
+original= (base {{index}} of {{total}})
+translation= (베이스 {{index}}/{{total}})
+
+[importer.airtable-api.label-base]
+original=Base: {{name}}
+translation=베이스: {{name}}
+
+[importer.airtable-api.label-linked-table]
+original=Linked table: {{name}}
+translation=연결된 표: {{name}}
+
+[importer.airtable-api.label-table-view]
+original={{table}} > {{view}}
+translation={{table}} > {{view}}
+
+[importer.airtable-api.label-import]
+original=Airtable API import
+translation=Airtable API 가져오기
+
+[importer.airtable-api.status-connecting]
+original=Connecting to Airtable API
+translation=Airtable API에 연결하는 중
+
+[importer.airtable-api.status-loading-tables]
+original=Loading tables for {{base}}
+translation={{base}}의 표를 불러오는 중
+
+[importer.airtable-api.status-fetching-tables]
+original=Fetching tables for base {{base}}...
+translation=베이스 {{base}}의 표를 가져오는 중...
+
+[importer.airtable-api.status-found-bases]
+original=Found {{bases}} to import
+translation=가져올 베이스 {{bases}}개를 찾았어요
+
+[importer.airtable-api.status-fetching-base]
+original=Fetching data from {{base}}{{position}}
+translation={{base}}{{position}}에서 데이터를 가져오는 중
+
+[importer.airtable-api.status-preparing-records]
+original=Preparing records from {{base}}{{position}}
+translation={{base}}{{position}}의 레코드를 준비하는 중
+
+[importer.airtable-api.status-reading-names]
+original=Reading names from {{table}}{{position}}
+translation={{table}}{{position}}에서 이름을 읽는 중
+
+[importer.airtable-api.status-planning]
+original=Working out where {{table}}{{position}} goes
+translation={{table}}{{position}}의 위치를 결정하는 중
+
+[importer.airtable-api.status-fetching-records]
+original=Fetching records from {{table}}{{position}}
+translation={{table}}{{position}}에서 레코드를 가져오는 중
+
+[importer.airtable-api.status-fetched-records]
+original=Fetched {{records}} from {{table}}{{position}}
+translation={{table}}{{position}}에서 {{records}}개를 가져왔어요
+
+[importer.airtable-api.status-fetching-view]
+original=Fetching view {{view}} from {{table}}{{position}}
+translation={{table}}{{position}}에서 보기 {{view}}를 가져오는 중
+
+[importer.airtable-api.status-creating-notes]
+original=Creating notes in {{table}}{{position}}
+translation={{table}}{{position}}에 노트를 생성하는 중
+
+[importer.airtable-api.status-updating-types]
+original=Updating property types
+translation=속성 유형을 업데이트하는 중
+
+[importer.airtable-api.status-complete]
+original=Import complete
+translation=가져오기 완료
+
+[importer.airtable-api.status-rate-limited]
+original=Rate limited, waiting {{seconds}}s (attempt {{attempt}}/{{total}})...
+translation=속도 제한됨, {{seconds}}초 대기 중 (시도 {{attempt}}/{{total}})...
+
+[importer.airtable-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}
+translation=첨부 파일 다운로드 중: {{name}}
+
+[importer.airtable-api.reason-no-record-names]
+original=Could not read record names
+translation=레코드 이름을 읽을 수 없었어요
+
+[importer.airtable-api.reason-empty-record]
+original=Empty record
+translation=빈 레코드
+
+[importer.airtable-api.desc-no-modified-time]
+original=Airtable does not say when a record last changed, so "{{update}}" compares the note with the record instead. A note you have edited yourself reads as changed, and will be written over.
+translation=Airtable은 레코드가 마지막으로 변경된 시점을 알려주지 않아서, "{{update}}"는 노트와 레코드를 비교해요. 직접 편집한 노트는 변경된 사항으로 인식되어 덮어쓰여요.
+
+[importer.apple-notes.name]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.option-text]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.label-id]
+original=Apple Notes ID
+translation=Apple Notes ID
+
+[importer.apple-notes.msg-platform]
+original=Due to platform limitations, Apple Notes cannot be exported from this device. Open your vault on a Mac to export from Apple Notes.
+translation=플랫폼 제한으로 인해 이 기기에서는 Apple Notes를 내보낼 수 없어요. Mac에서 보관함을 열어 Apple Notes에서 내보내세요.
+
+[importer.apple-notes.name-prefix-format]
+original=File prefix format
+translation=파일 접두사 서식
+
+[importer.apple-notes.desc-prefix-format]
+original=Format for the creation date prefix in filenames. Use YYYY, MM, DD for year, month, day. Leave blank for no prefix.
+translation=파일 이름에 붙는 생성 날짜 접두사의 서식이에요. YYYY, MM, DD를 사용해 연, 월, 일을 지정하세요. 접두사를 사용하지 않으려면 비워 두세요.
+
+[importer.apple-notes.name-omit-first-line]
+original=Omit first line
+translation=첫 번째 줄 생략
+
+[importer.apple-notes.desc-omit-first-line]
+original=Don't include the first line in the text, since Apple Notes uses it as the title. It will still be used as the note name.
+translation=Apple Notes는 첫 번째 줄을 제목으로 사용하므로, 텍스트에 포함하지 않아요. 노트 이름으로는 계속 사용돼요.
+
+[importer.apple-notes.name-handwriting]
+original=Include handwriting text
+translation=필기 텍스트 포함
+
+[importer.apple-notes.desc-handwriting]
+original=When Apple Notes has detected handwriting in drawings, include it as text before the drawing.
+translation=Apple Notes가 그림에서 필기를 인식한 경우, 그림 앞에 텍스트로 포함해요.
+
+[importer.apple-notes.name-data-folder]
+original=Apple Notes data folder
+translation=Apple Notes 데이터 폴더
+
+[importer.apple-notes.desc-data-folder]
+original=macOS only lets Obsidian read your notes once you have pointed it at the folder they are kept in.
+translation=macOS에서는 노트가 저장된 폴더를 지정해야 Obsidian이 노트를 읽을 수 있어요.
+
+[importer.apple-notes.button-select-folder]
+original=Select folder
+translation=폴더 선택
+
+[importer.apple-notes.msg-wrong-folder]
+original=Ensure you have selected the correct Apple Notes data folder.
+translation=올바른 Apple Notes 데이터 폴더를 선택했는지 확인해 주세요.
+
+[importer.apple-notes.msg-dialog-folder]
+original=Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data.
+translation=Apple Notes 데이터를 Obsidian이 읽을 수 있도록 "group.com.apple.notes" 폴더를 선택해 주세요.
+
+[importer.apple-notes.msg-import-failed]
+original=Data import failed. Ensure you have selected the correct Apple Notes data folder.
+translation=데이터 가져오기에 실패함. 올바른 Apple Notes 데이터 폴더를 선택했는지 확인해 주세요.
+
+[importer.apple-notes.msg-pick-folders]
+original=Please select at least one folder to import.
+translation=가져올 폴더를 하나 이상 선택해 주세요.
+
+[importer.apple-notes.name-folders]
+original=Folders to import
+translation=가져올 폴더
+
+[importer.apple-notes.desc-folders]
+original=Pick the folders whose notes to bring across.
+translation=노트를 가져올 폴더를 선택해 주세요.
+
+[importer.apple-notes.msg-no-access]
+original=Allow access to your notes to see the folders in them.
+translation=폴더를 보려면 노트에 대한 접근을 허용해 주세요.
+
+[importer.apple-notes.msg-no-folders]
+original=No folders found.
+translation=폴더를 찾을 수 없어요.
+
+[importer.apple-notes.msg-database-busy]
+original=Your Apple Notes database is in use. Quit Notes and try again.
+translation=Apple Notes 데이터베이스가 사용 중이에요. Notes를 종료하고 다시 시도해 주세요.
+
+[importer.apple-notes.msg-database-unreadable]
+original=Could not open your Apple Notes database. {{hint}}
+translation=Apple Notes 데이터베이스를 열 수 없어요. {{hint}}
+
+[importer.apple-notes.msg-read-failed-with-detail]
+original=Could not read your notes: {{detail}}
+translation=노트를 읽을 수 없어요: {{detail}}
+
+[importer.apple-notes.msg-read-failed]
+original=Could not read your notes.
+translation=노트를 읽을 수 없어요.
+
+[importer.apple-notes.reason-password-protected]
+original=note is password protected
+translation=비밀번호로 보호된 노트예요
+
+[importer.apple-notes.reason-duplicate]
+original=note is a duplicate
+translation=복제된 노트예요
+
+[importer.apple-notes.reason-unchanged]
+original=note unchanged since last import
+translation=마지막 가져오기 이후 변경되지 않은 노트예요
+
+[importer.apple-notes.reason-attachment-exists]
+original=attachment already exists
+translation=첨부 파일이 이미 존재해요
+
+[importer.apple-notes.reason-attachment-unchanged]
+original=attachment unchanged since last import
+translation=마지막 가져오기 이후 변경되지 않은 첨부 파일이에요
+
+[importer.apple-notes.reason-not-downloaded]
+original=it has not been downloaded from iCloud - open the note in Apple Notes to fetch it
+translation=iCloud에서 다운로드되지 않았어요 - Apple Notes에서 해당 노트를 열어 가져와 주세요
+
+[importer.apple-notes.label-attachment]
+original=Attachment {{id}}
+translation=첨부 파일 {{id}}
+
+[importer.apple-notes.reason-no-attachment-row]
+original=no {{uti}} row to read it from
+translation=읽을 수 있는 {{uti}} 행이 없어요
+
+[importer.apple-notes.label-attachment-in-note]
+original={{name}} in {{note}}
+translation={{note}}의 {{name}}
+
+[importer.apple-journal.name]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.option-text]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.file-type]
+original=Journal entries
+translation=Journal 항목
+
+[importer.apple-journal.desc-files]
+original=Export your entries from the Journal app, then pick the HTML files it wrote to iCloud Drive.
+translation=Journal app에서 항목을 내보낸 다음, iCloud Drive에 생성된 HTML 파일을 선택하세요.
+
+[importer.apple-journal.heading-metadata]
+original=Journal metadata
+translation=Journal 메타데이터
+
+[importer.apple-journal.name-front-matter]
+original=Add metadata as frontmatter
+translation=메타데이터를 프런트매터로 추가
+
+[importer.apple-journal.desc-front-matter]
+original=Capture state-of-mind, contact, and similar tokens in YAML when available.
+translation=사용 가능한 경우 마음 상태, 연락처 및 유사한 토큰을 YAML로 캡처해요.
+
+[importer.apple-journal.reason-index-file]
+original=index file is not a journal entry
+translation=인덱스 파일은 저널 항목이 아니에요
+
+[importer.bear.name]
+original=Bear
+translation=Bear
+
+[importer.bear.option-text]
+original=Bear (.bear2bk, .zip)
+translation=Bear (.bear2bk, .zip)
+
+[importer.bear.file-type]
+original=Bear backups
+translation=Bear 백업 파일
+
+[importer.bear.label-id]
+original=Bear ID
+translation=Bear ID
+
+[importer.bear.desc-export]
+original=Back up your notes in Bear and choose the resulting .bear2bk file. On iPhone and iPad, you can also export Application Data and choose its .zip file.
+translation=Bear에서 노트를 백업하고 생성된 .bear2bk 파일을 선택하세요. iPhone and iPad에서는 Application Data를 내보낸 후 .zip 파일을 선택할 수도 있어요.
+
+[importer.bear.name-tags-property]
+original=Move tags to a property
+translation=태그를 속성으로 이동
+
+[importer.bear.desc-tags-property]
+original=When enabled, tags are taken out of the note and listed in its tags property. Bear keeps tags in the text of a note, and Obsidian reads them there too.
+translation=활성화됨 상태이면, 태그를 노트 본문에서 제거하고 태그 속성에 나열해요. Bear는 노트의 텍스트 안에 태그를 보관하며, Obsidian도 그곳에서 태그를 읽어요.
+
+[importer.bear.name-flatten-tags]
+original=Flatten nested tags
+translation=중첩 태그 펼치기
+
+[importer.bear.desc-flatten-tags]
+original=When enabled, tags will be split on slashes (/) during import.
+translation=활성화됨 상태이면 가져오기 시 태그가 슬래시(/)를 기준으로 분리돼요.
+
+[importer.bear.status-importing-asset]
+original=Importing asset {{name}}
+translation=애셋 가져오는 중: {{name}}
+
+[importer.bear.status-updating-links]
+original=Updating internal links…
+translation=내부 링크를 업데이트하는 중…
+
+[importer.bear.reason-unknown-type]
+original=unknown type of file
+translation=알수없음 유형의 파일
+
+[importer.bear.reason-encrypted]
+original=encrypted note
+translation=암호화된 노트
+
+[importer.bear.reason-missing-attachment]
+original=the attachment is missing from the export
+translation=내보내기에 첨부 파일이 누락되어 있어요
+
+[importer.csv.name]
+original=CSV
+translation=CSV
+
+[importer.csv.option-text]
+original=CSV (.csv)
+translation=CSV (.csv)
+
+[importer.csv.file-type]
+original=CSV
+translation=CSV
+
+[importer.csv.desc-export]
+original=Export your table as CSV from the app it lives in, such as Excel, Google Sheets, Numbers, Notion, or Airtable.
+translation=Excel, Google Sheets, Numbers, Notion, Airtable 등 사용 중인 앱에서 표를 CSV로 내보내세요.
+
+[importer.csv.name-header-row]
+original=CSV has header row
+translation=CSV에 머리글 행이 있음
+
+[importer.csv.desc-header-row]
+original=If enabled, the first row of the CSV file will be treated as column headers.
+translation=활성화됨이면 CSV 파일의 첫 번째 행이 열 머리글로 처리돼요.
+
+[importer.csv.name-source-title]
+original=Source title
+translation=원본 제목
+
+[importer.csv.desc-source-title]
+original=Creates the {{title}} value used by the final note title template. Use CSV column variables like {{column_name}}.
+translation=최종 노트 제목 템플릿에서 사용하는 {{title}} 값을 생성해요. {{column_name}} 같은 CSV 열 변수를 사용할 수 있어요.
+
+[importer.csv.msg-pick-file]
+original=Please pick at least one CSV file to import.
+translation=가져올 CSV 파일을 하나 이상 선택해 주세요.
+
+[importer.csv.msg-one-at-a-time]
+original=CSV files must be imported one at a time.
+translation=CSV 파일은 한 번에 하나씩만 가져올 수 있어요.
+
+[importer.csv.msg-no-data]
+original=No data found in {{name}}.
+translation={{name}}에서 데이터를 찾을 수 없어요.
+
+[importer.csv.msg-no-configuration]
+original=Configuration is missing.
+translation=구성이 누락되어 있어요.
+
+[importer.csv.status-parsing]
+original=Parsing {{name}}
+translation={{name}} 파싱 중
+
+[importer.csv.status-creating-note]
+original=Creating note: {{title}}
+translation=노트 생성 중: {{title}}
+
+[importer.csv.label-row]
+original=Row {{number}}
+translation=행 {{number}}
+
+[importer.csv.reason-empty-title]
+original=Empty title
+translation=비어 있음 제목
+
+[importer.files.name]
+original=Files and folders
+translation=파일 and 폴더
+
+[importer.files.option-text]
+original=Copy files and folders into your vault
+translation=파일 and 폴더를 보관함으로 복사해요
+
+[importer.files.name-source]
+original=Files to copy
+translation=복사할 파일
+
+[importer.files.desc-source]
+original=Drop files or folders anywhere in the window to copy them into your vault.
+translation=창 아무 곳에나 파일 또는 폴더를 놓기하면 보관함으로 복사돼요.
+
+[importer.evernote.name]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.option-text]
+original=Evernote (.enex)
+translation=Evernote (.enex)
+
+[importer.evernote.file-type]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.desc-export]
+original=Export your notebooks in ENEX format, you will receive one .enex file per notebook.
+translation=노트북을 ENEX 형식으로 내보내세요. 노트북당 하나의 .enex 파일을 받게 돼요.
+
+[importer.evernote.msg-unresolved-links]
+original={{count}} link could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}}개 링크를 노트에 매칭할 수 없었어요. ENEX 내보내기에는 링크가 어떤 노트를 가리키는지 기록되지 않고, Evernote에서 표시되던 제목만 포함돼요. 그래서 링크 생성 후 이름이 변경된 노트는 더 이상 일치하지 않아요. Obsidian에서 해결되지 않은 링크 아래에 표시돼요.
+
+[importer.evernote.msg-unresolved-links_plural]
+original={{count}} links could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}}개 링크를 노트에 매칭할 수 없었어요. ENEX 내보내기에는 링크가 어떤 노트를 가리키는지 기록되지 않고, Evernote에서 표시되던 제목만 포함돼요. 그래서 링크 생성 후 이름이 변경된 노트는 더 이상 일치하지 않아요. Obsidian에서 해결되지 않은 링크 아래에 표시돼요.
+
+[importer.keep.name]
+original=Google Keep
+translation=Google Keep
+
+[importer.keep.option-text]
+original=Google Keep (.zip, .json)
+translation=Google Keep (.zip, .json)
+
+[importer.keep.file-type]
+original=Notes & attachments
+translation=노트 및 첨부파일
+
+[importer.keep.desc-export]
+original=Get your Google Keep data from Google Takeout.
+translation=Google Takeout에서 Google Keep 데이터를 받으세요.
+
+[importer.keep.name-archived]
+original=Import archived notes
+translation=보관된 노트 가져오기
+
+[importer.keep.desc-archived]
+original=If imported, files archived in Google Keep will be tagged as archived.
+translation=가져오면 Google Keep에서 보관된 파일에 보관됨 태그가 추가돼요.
+
+[importer.keep.name-deleted]
+original=Import deleted notes
+translation=삭제된 노트 가져오기
+
+[importer.keep.desc-deleted]
+original=If imported, files deleted in Google Keep will be tagged as deleted. Deleted notes will only exist in your Google export if deleted recently.
+translation=가져오면 Google Keep에서 삭제된 파일에 삭제됨 태그가 추가돼요. 삭제된 노트는 최근에 삭제된 경우에만 Google 내보내기에 포함돼요.
+
+[importer.keep.reason-invalid-json]
+original=Invalid Google Keep JSON
+translation=유효하지 않은 Google Keep JSON
+
+[importer.keep.reason-archived]
+original=Archived note
+translation=보관된 노트
+
+[importer.keep.reason-deleted]
+original=Deleted note
+translation=삭제된 노트
+
+[importer.html.name]
+original=HTML files
+translation=HTML 파일
+
+[importer.html.option-text]
+original=HTML (.html, .zip)
+translation=HTML (.html, .zip)
+
+[importer.html.label-id]
+original=HTML source path
+translation=HTML 원본 경로
+
+[importer.html.desc-source-identity]
+original=Changing which folder or zip file you choose can change the source path, so existing notes may not be recognized.
+translation=선택하는 폴더나 zip 파일이 달라지면 원본 경로도 변경될 수 있어서, 기존 노트가 인식되지 않을 수 있어요.
+
+[importer.html.file-type]
+original=HTML
+translation=HTML
+
+[importer.html.desc-export]
+original=Save the pages you want to keep as HTML. If the app they are in has an importer of its own, use that instead: it keeps more of your data.
+translation=보관하고 싶은 페이지를 HTML로 저장하세요. 해당 앱에 자체 가져오기 도구가 있다면 그것을 사용하세요. 더 많은 데이터를 유지할 수 있어요.
+
+[importer.html.desc-source]
+original=Choose individual HTML files, whole folders, or zip files. Pages in folders stay organized the same way.
+translation=개별 HTML 파일, 전체 폴더 또는 zip 파일을 선택하세요. 폴더 안의 페이지는 동일한 구조로 정리돼요.
+
+[importer.html.name-extract-main-content]
+original=Extract main content
+translation=본문 콘텐츠 추출
+
+[importer.html.desc-extract-main-content]
+original=Remove navigation, sidebars, footers, and other page clutter.
+translation=내비게이션, 사이드바, 푸터 and 그 외 페이지 요소를 삭제해요.
+
+[importer.html.name-size-limit]
+original=Attachment size limit (MB)
+translation=첨부 파일 크기 제한 (MB)
+
+[importer.html.name-minimum-image-size]
+original=Minimum image size (px)
+translation=최소 이미지 크기 (px)
+
+[importer.html.desc-set-zero-to-disable]
+original=Set 0 to disable.
+translation=0으로 설정하면 비활성화돼요.
+
+[importer.html.status-downloading]
+original=Downloading attachment for {{name}}
+translation={{name}}의 첨부 파일을 다운로드하는 중
+
+[importer.markdown.name]
+original=Markdown
+translation=마크다운
+
+[importer.markdown.option-text]
+original=Markdown (.md, .txt, .zip)
+translation=마크다운 (.md, .txt, .zip)
+
+[importer.markdown.file-type]
+original=Markdown and text
+translation=마크다운 and 텍스트
+
+[importer.markdown.desc-source]
+original=Choose individual Markdown or text files, whole folders, or zip files. Everything in folders stays organized the same way.
+translation=개별 마크다운 또는 텍스트 파일, 전체 폴더, zip 파일을 선택하세요. 폴더 내 항목은 동일한 구조로 유지돼요.
+
+[importer.markdown.name-standardize-formatting]
+original=Standardize formatting
+translation=서식 표준화
+
+[importer.markdown.desc-standardize-formatting]
+original=Use this vault's settings for lists, indentation, and links.
+translation=이 보관함의 설정에 따라 목록, 들여쓰기, 링크를 적용해요.
+
+[importer.markdown.name-tags-as-properties]
+original=Convert inline tags to properties
+translation=인라인 태그를 속성으로 변환
+
+[importer.markdown.desc-tags-as-properties]
+original=Move tags written in the body of a note into its tags property.
+translation=노트 본문에 작성된 태그를 태그 속성으로 이동해요.
+
+[importer.logseq.name]
+original=Logseq
+translation=Logseq
+
+[importer.logseq.option-text]
+original=Logseq (.md)
+translation=Logseq (.md)
+
+[importer.logseq.label-id]
+original=Logseq source
+translation=Logseq 원본
+
+[importer.logseq.desc-instructions]
+original=Read the instructions for importing from Logseq.
+translation=Logseq에서 가져오기 위한 안내를 읽어보세요.
+
+[importer.logseq.desc-files]
+original=Choose one graph folder containing pages, journals, and assets.
+translation=페이지, 저널, 에셋이 포함된 그래프 폴더 하나를 선택하세요.
+
+[importer.logseq.name-use-daily-notes]
+original=Use daily notes settings
+translation=일일 노트 설정 사용
+
+[importer.logseq.desc-use-daily-notes]
+original=Write journals to the configured daily notes folder and filename format.
+translation=저널을 설정된 일일 노트 폴더 and 파일 이름 서식으로 기록해요.
+
+[importer.logseq.name-queries]
+original=Keep queries
+translation=검색어 유지
+
+[importer.logseq.desc-queries]
+original=Obsidian doesn't support Logseq's query format, so queries are imported as code blocks.
+translation=Obsidian은 Logseq의 검색어 서식을 지원하지 않으므로, 검색어는 코드 블록으로 가져와요.
+
+[importer.logseq.name-flashcards]
+original=Keep flashcards
+translation=플래시카드 유지
+
+[importer.logseq.desc-flashcards]
+original=Obsidian doesn't support Logseq's flashcards, so card markers and cloze wrappers are imported as plain text.
+translation=Obsidian은 Logseq의 플래시카드를 지원하지 않으므로, 카드 마커 and 클로즈 래퍼는 일반 텍스트로 가져와요.
+
+[importer.logseq.name-time-tracking]
+original=Keep time tracking
+translation=시간 추적 유지
+
+[importer.logseq.desc-time-tracking]
+original=Obsidian doesn't support Logseq's time tracking, so LOGBOOK and CLOCK entries are imported as plain text.
+translation=Obsidian은 Logseq의 시간 추적을 지원하지 않으므로, LOGBOOK and CLOCK 항목은 일반 텍스트로 가져와요.
+
+[importer.logseq.msg-pick-graph]
+original=Please choose one Logseq graph folder.
+translation=Logseq 그래프 폴더 하나를 선택하세요.
+
+[importer.logseq.msg-no-notes]
+original=The selected folder has no Markdown notes under pages or journals.
+translation=선택한 폴더의 pages 또는 journals 아래에 마크다운 노트가 없어요.
+
+[importer.logseq.reason-empty-page]
+original=The converted page is empty
+translation=변환된 페이지가 비어 있어요
+
+[importer.logseq.reason-missing-asset]
+original=Referenced by {{name}}, but missing from the graph
+translation={{name}}에서 참조하지만 그래프에 존재하지 않아요
+
+[importer.logseq.reason-whiteboards]
+original=Logseq whiteboards are not supported by Obsidian
+translation=Logseq 화이트보드는 Obsidian에서 지원하지 않아요
+
+[importer.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.option-text]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.method-name]
+original=Microsoft account
+translation=Microsoft 계정
+
+[importer.onenote.method-desc]
+original=Sign into your Microsoft account and import the notebooks that are synced to OneDrive. Requires an internet connection.
+translation=Microsoft 계정에 로그인하고 OneDrive에 동기화됨 노트북을 가져와요. 인터넷 연결이 필요해요.
+
+[importer.onenote.label-id]
+original=OneNote ID
+translation=OneNote ID
+
+[importer.onenote.name-incompatible]
+original=Import incompatible attachments
+translation=호환되지 않는 첨부파일 가져오기
+
+[importer.onenote.desc-incompatible]
+original=Imports incompatible attachments which cannot be embedded in Obsidian, such as .exe files.
+translation=.exe 파일 등 Obsidian에 삽입할 수 없는 호환되지 않는 첨부파일을 가져와요.
+
+[importer.onenote.name-account]
+original=Microsoft account
+translation=Microsoft 계정
+
+[importer.onenote.desc-sign-in]
+original=Sign in to import your OneNote notebooks.
+translation=OneNote 노트북을 가져오려면 로그인하세요.
+
+[importer.onenote.desc-sign-in-organization]
+original=Sign in to import your OneNote notebooks. A work or school account may need your organization to approve access.
+translation=OneNote 노트북을 가져오려면 로그인하세요. 회사 또는 학교 계정은 조직의 액세스 승인이 필요할 수 있어요.
+
+[importer.onenote.desc-signed-in]
+original=Signed in as {{name}} ({{email}}).
+translation={{name}} ({{email}})으로 로그인되어 있어요.
+
+[importer.onenote.button-sign-in]
+original=Sign in
+translation=로그인
+
+[importer.onenote.button-sign-out]
+original=Sign out
+translation=로그아웃
+
+[importer.onenote.button-work-account]
+original=Use work or school access
+translation=회사 또는 학교 액세스 사용
+
+[importer.onenote.msg-sign-in-failed]
+original=An error occurred while trying to sign you in.
+translation=로그인하는 중 오류가 발생했어요.
+
+[importer.onenote.msg-sign-in-details]
+original=Show error details
+translation=오류 세부 정보 표시
+
+[importer.onenote.msg-signed-out]
+original=Sign in to see your OneNote notebooks.
+translation=OneNote 노트북을 보려면 로그인하세요.
+
+[importer.onenote.msg-please-sign-in]
+original=Please sign in to your Microsoft account.
+translation=Microsoft 계정에 로그인해 주세요.
+
+[importer.onenote.name-sections]
+original=Sections to import
+translation=가져올 섹션
+
+[importer.onenote.desc-sections]
+original=Select a notebook, or sections within it.
+translation=노트북 또는 그 안의 섹션을 선택하세요.
+
+[importer.onenote.msg-loading-notebooks]
+original=Loading notebooks...
+translation=노트북 불러오는 중...
+
+[importer.onenote.msg-no-notebooks]
+original=No notebooks found.
+translation=노트북을 찾을 수 없어요.
+
+[importer.onenote.msg-scope-refused]
+original=OneNote did not grant this sign-in access to your notebooks. Sign out and sign in again to ask for work or school access, which your organization may need to approve.
+translation=OneNote에서 이 로그인에 노트북 액세스 권한을 부여하지 않았어요. 로그아웃한 후 다시 로그인하여 회사 또는 학교 액세스를 요청하세요. 조직의 승인이 필요할 수 있어요.
+
+[importer.onenote.label-service]
+original=OneNote
+translation=OneNote
+
+[importer.onenote.label-subject]
+original=your notebooks
+translation=노트북
+
+[importer.onenote.label-credential]
+original=Sign out and back in to try again.
+translation=로그아웃한 후 다시 로그인하여 재시도하세요.
+
+[importer.onenote.status-finding]
+original=Finding notes to import
+translation=가져올 노트를 찾는 중
+
+[importer.onenote.status-finding-in]
+original=Finding notes in {{section}}
+translation={{section}}에서 노트를 찾는 중
+
+[importer.onenote.status-finding-in-section]
+original=Finding notes in {{section}} (section {{index}} of {{total}})
+translation={{section}}에서 노트를 찾는 중 (섹션 {{index}}/{{total}})
+
+[importer.onenote.status-importing-notes]
+original=Importing {{notes}}
+translation={{notes}} 가져오는 중
+
+[importer.onenote.status-downloading]
+original=Downloading attachment {{name}}
+translation=첨부 파일 {{name}} 다운로드 중
+
+[importer.onenote.msg-too-many-errors]
+original=Microsoft OneNote returned too many consecutive errors.
+translation=Microsoft OneNote에서 너무 많은 연속 오류를 반환했어요.
+
+[importer.onenote.label-unknown-page]
+original=<unknown>
+translation=<알수없음>
+
+[importer.onenote.reason-too-many-failures]
+original=import was canceled (after too many pages failed to load)
+translation=가져오기가 취소되었어요 (너무 많은 페이지 불러오기가 실패함)
+
+[importer.onenote.label-ink]
+original={{page}} - Ink.svg
+translation={{page}} - Ink.svg
+
+[importer.onenote.label-attachment]
+original=OneNote attachment
+translation=OneNote 첨부 파일
+
+[importer.onenote.label-image]
+original=OneNote image
+translation=OneNote 이미지
+
+[importer.onenote.reason-no-attachment-name]
+original=the attachment did not say what it was called
+translation=첨부 파일의 이름 정보가 없어요
+
+[importer.onenote.reason-no-attachment-url]
+original=the attachment did not include a download URL
+translation=첨부 파일에 다운로드 URL이 포함되어 있지 않아요
+
+[importer.onenote.reason-no-image-url]
+original=the image did not include a download URL
+translation=이미지에 다운로드 URL이 포함되어 있지 않아요
+
+[importer.onenote-file.name]
+original=Microsoft OneNote (export file)
+translation=Microsoft OneNote (내보내기 파일)
+
+[importer.onenote-file.option-text]
+original=Microsoft OneNote (.one, .onepkg)
+translation=Microsoft OneNote (.one, .onepkg)
+
+[importer.onenote-file.method-name]
+original=File import
+translation=파일 가져오기
+
+[importer.onenote-file.method-desc]
+original=Import using OneNote export files (.one, .onepkg) from your computer. Requires no account or internet connection, and works for notebooks that were never synced.
+translation=컴퓨터에 있는 OneNote 내보내기 파일(.one, .onepkg)을 사용해 가져와요. 계정이나 인터넷 연결이 필요 없고, 동기화된 적 없는 노트북에서도 사용할 수 있어요.
+
+[importer.onenote-file.file-type]
+original=OneNote export
+translation=OneNote 내보내기
+
+[importer.onenote-file.label-id]
+original=OneNote ID
+translation=OneNote ID
+
+[importer.onenote-file.desc-backup-folder]
+original=OneNote for Windows keeps its own backups, and this opens there. Pick the notebooks or sections you want.
+translation=Windows용 OneNote는 자체 백업을 보관하고 있으며, 해당 위치가 열려요. 원하는 노트북이나 섹션을 선택하세요.
+
+[importer.onenote-file.desc-export]
+original=In OneNote for Windows, right-click a notebook and export it to save a .onepkg file, or export a single section as .one.
+translation=Windows용 OneNote에서 노트북을 마우스 오른쪽 버튼으로 클릭하고 내보내기를 선택하면 .onepkg 파일로 저장할 수 있고, 단일 섹션은 .one으로 내보낼 수 있어요.
+
+[importer.onenote-file.name-sections]
+original=Sections to import
+translation=가져올 섹션
+
+[importer.onenote-file.desc-sections]
+original=Choose which sections to import.
+translation=가져올 섹션을 선택하세요.
+
+[importer.onenote-file.msg-loading-sections]
+original=Reading sections…
+translation=섹션을 읽는 중…
+
+[importer.onenote-file.msg-no-sections]
+original=No sections found in this file.
+translation=이 파일에서 섹션을 찾을 수 없어요.
+
+[importer.onenote-file.msg-pick-file-first]
+original=Choose a OneNote file first.
+translation=먼저 OneNote 파일을 선택하세요.
+
+[importer.onenote-file.status-reading-section]
+original=Reading {{name}}
+translation={{name}} 읽는 중
+
+[importer.onenote-file.status-importing-section]
+original=Importing {{name}} ({{index}} of {{total}})
+translation={{name}} 가져오는 중 ({{total}}개 중 {{index}})
+
+[importer.onenote-file.reason-rights-protected]
+original=the file is rights-protected, and can only be opened by an account with permission to it
+translation=파일이 권한으로 보호되어 있어서, 접근 권한이 있는 계정으로만 열 수 있어요
+
+[importer.onenote-file.reason-unsupported]
+original=the file uses a OneNote format this importer cannot read yet
+translation=이 가져오기 도구가 아직 읽을 수 없는 OneNote 형식을 사용하는 파일이에요
+
+[importer.onenote-file.reason-malformed]
+original=the file does not describe the OneNote structures it claims to
+translation=파일이 선언한 OneNote 구조와 실제 내용이 일치하지 않아요
+
+[importer.onenote-file.reason-too-large]
+original=the file is larger than this importer is willing to expand
+translation=파일이 이 가져오기 도구가 펴기를 허용하는 크기보다 커요
+
+[importer.onenote-file.reason-no-attachment-data]
+original=the attachment held no data
+translation=첨부 파일에 데이터가 없어요
+
+[importer.notion-api.name]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.option-text]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.method-name]
+original=Notion account (recommended)
+translation=Notion 계정 (추천됨)
+
+[importer.notion-api.method-desc]
+original=Imports your entire workspace, including databases and formulas which are converted to bases. Requires a Notion integration token and an internet connection.
+translation=데이터베이스와 수식을 포함한 전체 작업 공간을 가져와요. 수식은 베이스로 변환돼요. Notion 통합 토큰과 인터넷 연결이 필요해요.
+
+[importer.notion-api.label-id]
+original=Notion ID
+translation=Notion ID
+
+[importer.notion-api.name-token]
+original=Notion API token
+translation=Notion API 토큰
+
+[importer.notion-api.desc-token]
+original=To get an API token create a connection in Notion and give it access to pages in your workspace.
+translation=API 토큰을 받으려면 Notion에서 연결을 생성하고 작업 공간의 페이지에 대한 접근 권한을 부여하세요.
+
+[importer.notion-api.link-get-token]
+original=Get API token
+translation=API 토큰 받기
+
+[importer.notion-api.name-pages]
+original=Pages to import
+translation=가져올 페이지
+
+[importer.notion-api.desc-pages]
+original=Load your Notion pages and databases, then choose what to import. If a page or database is missing, check that your Notion connection has access to it.
+translation=Notion 페이지와 데이터베이스를 불러온 다음 가져올 항목을 선택하세요. 페이지나 데이터베이스가 보이지 않으면 Notion 연결에 해당 항목에 대한 접근 권한이 있는지 확인하세요.
+
+[importer.notion-api.hint-pages]
+original=Load your Notion pages and databases to get started.
+translation=시작하려면 Notion 페이지와 데이터베이스를 불러오세요.
+
+[importer.notion-api.msg-loading-pages]
+original=Loading pages and databases...
+translation=페이지와 데이터베이스를 불러오는 중...
+
+[importer.notion-api.msg-no-pages]
+original=No pages or databases found. Make sure your connection has access to the pages you want to import.
+translation=페이지나 데이터베이스를 찾을 수 없어요. 연결에 가져올 페이지의 접근 권한이 있는지 확인하세요.
+
+[importer.notion-api.label-service]
+original=Notion
+translation=Notion
+
+[importer.notion-api.label-subject]
+original=your pages
+translation=페이지
+
+[importer.notion-api.label-credential]
+original=Check that your token is current and that the connection has access to them.
+translation=토큰이 유효한지, 연결에 해당 항목의 접근 권한이 있는지 확인하세요.
+
+[importer.notion-api.name-formulas]
+original=Convert formulas
+translation=수식 변환
+
+[importer.notion-api.desc-formulas]
+original=By default Notion formulas are converted to Obsidian syntax. If any Notion syntax is not supported the static values will be saved instead. Alternatively you can import all formulas as static values.
+translation=기본값으로 Notion 수식은 Obsidian 구문으로 변환돼요. 지원되지 않는 Notion 구문이 있으면 정적 값으로 저장돼요. 또는 모든 수식을 정적 값으로 가져올 수도 있어요.
+
+[importer.notion-api.option-formula-hybrid]
+original=Obsidian syntax
+translation=Obsidian 구문
+
+[importer.notion-api.option-formula-static]
+original=Static values
+translation=정적 값
+
+[importer.notion-api.name-download-external]
+original=Download external attachments
+translation=외부 첨부 파일 다운로드
+
+[importer.notion-api.desc-download-external]
+original=Download external attachments (external URLs) to local files. Notion-hosted files are always downloaded.
+translation=외부 첨부 파일(외부 URL)을 로컬 파일로 다운로드해요. Notion에서 호스팅하는 파일은 항상 다운로드돼요.
+
+[importer.notion-api.name-single-line-breaks]
+original=Single line breaks
+translation=단일 줄바꿈
+
+[importer.notion-api.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break instead of two. Some blocks (lists, toggles, tables) will still use double line breaks when required for proper Markdown syntax.
+translation=Notion 블록을 두 줄 바꿈 대신 한 줄 바꿈으로 구분해요. 일부 블록(목록, 토글, 테이블)은 올바른 마크다운 구문을 위해 여전히 두 줄 바꿈을 사용해요.
+
+[importer.notion-api.name-cover-property]
+original=Cover property name
+translation=커버 속성 이름
+
+[importer.notion-api.desc-cover-property]
+original=Property name for page cover image in YAML frontmatter. 
+translation=YAML 프런트매터에서 페이지 커버 이미지에 사용할 속성 이름이에요. 
+
+[importer.notion-api.desc-cover-property-conflicts]
+original=Leave as "cover" if you don't have conflicts with existing properties.
+translation=기존 속성과 충돌이 없다면 "cover"로 두세요.
+
+[importer.notion-api.name-database-property]
+original=Database property name
+translation=데이터베이스 속성 이름
+
+[importer.notion-api.desc-database-property]
+original=Property name in page frontmatter to link pages to their database .base file (default: "base")
+translation=페이지를 데이터베이스 .base 파일에 링크하기 위한 페이지 프런트매터의 속성 이름이에요 (기본값: "base")
+
+[importer.notion-api.name-linked-databases]
+original=Import linked databases
+translation=연결된 데이터베이스 가져오기
+
+[importer.notion-api.desc-linked-databases]
+original=Also import databases that the selected pages link to, so relations become links rather than names. This imports pages you did not select.
+translation=선택한 페이지가 링크하는 데이터베이스도 함께 가져와서, 관계가 이름 대신 링크로 표시돼요. 선택하지 않은 페이지도 가져오게 돼요.
+
+[importer.notion-api.msg-token-first]
+original=Please enter your Notion API token first.
+translation=먼저 Notion API 토큰을 입력해 주세요.
+
+[importer.notion-api.msg-token-missing]
+original=Please enter your Notion API token.
+translation=Notion API 토큰을 입력해 주세요.
+
+[importer.notion-api.msg-load-pages-failed]
+original=Failed to load pages: {{error}}
+translation=페이지 불러오기 실패함: {{error}}
+
+[importer.notion-api.msg-pick-page]
+original=Please select at least one page or database to import.
+translation=가져올 페이지 또는 데이터베이스를 하나 이상 선택해 주세요.
+
+[importer.notion-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=가져오기 실패함: {{error}}
+
+[importer.notion-api.status-loading-items]
+original=Loading... ({{items}}, page {{page}})
+translation=로딩 중... ({{items}}, 페이지 {{page}})
+
+[importer.notion-api.status-connecting]
+original=Connecting to Notion API...
+translation=Notion API에 연결하는 중...
+
+[importer.notion-api.status-fetching]
+original=Fetching page content from Notion...
+translation=Notion에서 페이지 콘텐츠를 가져오는 중...
+
+[importer.notion-api.status-preparing]
+original=Preparing to import {{items}}...
+translation={{items}} 가져오기를 준비하는 중...
+
+[importer.notion-api.status-importing-items]
+original=Importing {{items}}...
+translation={{items}} 가져오는 중...
+
+[importer.notion-api.status-importing-item]
+original=Importing item {{index}}/{{total}}...
+translation=항목 {{index}}/{{total}} 가져오는 중...
+
+[importer.notion-api.status-importing-title]
+original=Importing: {{title}}
+translation=가져오는 중: {{title}}
+
+[importer.notion-api.status-relation-links]
+original=Processing relation links...
+translation=관계 링크 처리 중...
+
+[importer.notion-api.status-mention-links]
+original=Processing mention links...
+translation=멘션 링크 처리 중...
+
+[importer.notion-api.status-synced-blocks]
+original=Processing synced block child references...
+translation=동기화된 블록 하위 참조 처리 중...
+
+[importer.notion-api.status-cleaning-ids]
+original=Cleaning up notion-id attributes...
+translation=notion-id 속성 정리 중...
+
+[importer.notion-api.status-done]
+original=Import completed successfully!
+translation=가져오기가 성공적으로 완료되었어요!
+
+[importer.notion-api.status-replacing-relations]
+original=Replacing {{placeholders}}...
+translation={{placeholders}} 교체 중...
+
+[importer.notion-api.status-replacing-relation-links]
+original=Replacing relation placeholders with wiki links...
+translation=관계 플레이스홀더를 위키 링크로 교체 중...
+
+[importer.notion-api.status-importing-linked-databases]
+original=Importing {{databases}}...
+translation={{databases}} 가져오는 중...
+
+[importer.notion-api.status-importing-unimported]
+original=Importing unimported database {{id}}...
+translation=가져오지 않은 데이터베이스 {{id}} 가져오는 중...
+
+[importer.notion-api.status-replacing-mentions]
+original=Replacing mention placeholders...
+translation=멘션 플레이스홀더 교체 중...
+
+[importer.notion-api.status-replaced-mentions]
+original=Replaced {{links}} in {{files}}.
+translation={{files}}개의 파일에서 {{links}}개를 교체했어요.
+
+[importer.notion-api.status-replacing-synced]
+original=Replacing synced block child references...
+translation=동기화된 블록 하위 참조 교체 중...
+
+[importer.notion-api.status-replaced-synced]
+original=Replaced {{references}} in {{files}} (imported {{imported}}).
+translation={{files}}개의 파일에서 {{references}}개의 참조를 교체했어요 ({{imported}}개 가져옴).
+
+[importer.notion-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}...
+translation=첨부 파일 다운로드 중: {{name}}...
+
+[importer.notion-api.status-rate-limited]
+original=Rate limited. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=속도 제한됨. 재시도 전 {{seconds}}초 대기 중 ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying]
+original=Notion returned {{status}}. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=Notion에서 {{status}}을(를) 반환했어요. {{seconds}}초 후 재시도해요 ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying-attachment]
+original={{name}}: {{failure}}. Retrying in {{seconds}} seconds ({{attempt}}/{{total}})...
+translation={{name}}: {{failure}}. {{seconds}}초 후에 다시 시도해요 ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-processing-data-source]
+original=Processing database from data source: {{id}}...
+translation=데이터 원본에서 데이터베이스를 처리하고 있어요: {{id}}...
+
+[importer.notion-api.status-processing-database]
+original=Processing database: {{title}}...
+translation=데이터베이스 처리 중: {{title}}...
+
+[importer.notion-api.status-found-pages]
+original=Found {{pages}} in database {{title}}
+translation=데이터베이스 {{title}}에서 {{pages}}개를 찾았어요
+
+[importer.notion-api.status-found-templates]
+original=Found {{templates}} in database {{title}}
+translation=데이터베이스 {{title}}에서 {{templates}}개를 찾았어요
+
+[importer.notion-api.status-importing-template]
+original=Importing template: {{name}}...
+translation=템플릿 가져오는 중: {{name}}...
+
+[importer.notion-api.label-import]
+original=Notion API import
+translation=Notion API 가져오기
+
+[importer.notion-api.label-item]
+original=Import item {{id}}
+translation=항목 {{id}} 가져오기
+
+[importer.notion-api.label-page]
+original=Page {{id}}
+translation=페이지 {{id}}
+
+[importer.notion-api.label-page-with-title]
+original=Page: {{title}} ({{id}})
+translation=페이지: {{title}} ({{id}})
+
+[importer.notion-api.label-relation-page]
+original=Relation page {{id}}
+translation=관계 페이지 {{id}}
+
+[importer.notion-api.label-database-with-id]
+original=Database: {{title}} ({{id}})
+translation=데이터베이스: {{title}} ({{id}})
+
+[importer.notion-api.label-mention-file]
+original=Mention file {{path}}
+translation=멘션 파일 {{path}}
+
+[importer.notion-api.label-synced-block-file]
+original=Synced block file {{path}}
+translation=동기화됨 블록 파일 {{path}}
+
+[importer.notion-api.label-attachment]
+original=Attachment: {{name}}
+translation=첨부 파일: {{name}}
+
+[importer.notion-api.label-child-page]
+original=Child page: {{title}}
+translation=하위 페이지: {{title}}
+
+[importer.notion-api.label-synced-block]
+original=Synced block: {{name}}
+translation=동기화됨 블록: {{name}}
+
+[importer.notion-api.label-attachment-image]
+original=Image attachment
+translation=이미지 첨부 파일
+
+[importer.notion-api.label-attachment-video]
+original=Video attachment
+translation=동영상 첨부 파일
+
+[importer.notion-api.label-attachment-audio]
+original=Audio attachment
+translation=오디오 첨부 파일
+
+[importer.notion-api.label-attachment-file]
+original=File attachment
+translation=파일 첨부 파일
+
+[importer.notion-api.label-attachment-pdf]
+original=PDF attachment
+translation=PDF 첨부 파일
+
+[importer.notion-api.label-preview-child-page]
+original=Child page
+translation=하위 페이지
+
+[importer.notion-api.label-preview-database]
+original=Database
+translation=데이터베이스
+
+[importer.notion-api.msg-preview-nested-content]
+original=Nested content is not loaded in the preview.
+translation=중첩된 콘텐츠는 미리보기에 로드되지 않아요.
+
+[importer.notion-api.msg-preview-content-not-loaded]
+original={{type}} is not loaded in the preview.
+translation={{type}}은(는) 미리보기에 로드되지 않아요.
+
+[importer.notion-api.msg-preview-content-not-loaded-with-caption]
+original={{type}}: {{caption}} is not loaded in the preview.
+translation={{type}}: {{caption}}은(는) 미리보기에 로드되지 않아요.
+
+[importer.notion-api.msg-preview-block-not-expanded]
+original={{type}} is not expanded in the preview.
+translation={{type}}은(는) 미리보기에서 펼쳐지지 않아요.
+
+[importer.notion-api.label-fetch-children]
+original=Fetch children for {{context}} {{id}}
+translation={{context}} {{id}}의 하위 항목 가져오기
+
+[importer.notion-api.block-paragraph]
+original=paragraph
+translation=단락
+
+[importer.notion-api.block-bulleted-list-item]
+original=bulleted list item
+translation=글머리 기호 목록 항목
+
+[importer.notion-api.block-numbered-list-item]
+original=numbered list item
+translation=번호 매기기 목록 항목
+
+[importer.notion-api.block-todo-item]
+original=to-do item
+translation=할 일 항목
+
+[importer.notion-api.block-quote]
+original=quote block
+translation=인용 블록
+
+[importer.notion-api.block-callout]
+original=callout block
+translation=콜아웃 블록
+
+[importer.notion-api.block-toggle]
+original=toggle block
+translation=토글 블록
+
+[importer.notion-api.block-toggleable-heading]
+original=toggleable heading
+translation=토글 가능한 제목
+
+[importer.notion-api.block-column]
+original=column
+translation=열
+
+[importer.notion-api.block-column-list]
+original=column list
+translation=열 목록
+
+[importer.notion-api.block-table]
+original=table
+translation=표
+
+[importer.notion-api.block-generic]
+original=block
+translation=블록
+
+[importer.notion-api.label-meeting-notes]
+original=Meeting notes: {{name}}
+translation=회의 노트: {{name}}
+
+[importer.notion-api.label-meeting-notes-section]
+original=Meeting notes: {{name}} ({{section}})
+translation=회의 노트: {{name}} ({{section}})
+
+[importer.notion-api.label-untitled-meeting]
+original=Meeting notes {{id}}
+translation=회의 노트 {{id}}
+
+[importer.notion-api.section-summary]
+original=summary
+translation=요약
+
+[importer.notion-api.section-notes]
+original=notes
+translation=노트
+
+[importer.notion-api.section-transcript]
+original=transcript
+translation=녹취록
+
+[importer.notion-api.label-fetch-children-block]
+original=Fetch children for block {{id}}
+translation=블록 {{id}}의 하위 항목 가져오기
+
+[importer.notion-api.reason-not-in-tree]
+original=Item not found in tree
+translation=트리에서 항목을 찾을 수 없어요
+
+[importer.notion-api.reason-unknown-type]
+original=Unknown type: {{type}}
+translation=알수없음 유형: {{type}}
+
+[importer.notion-api.reason-earlier-import]
+original=an earlier import had already written it
+translation=이전 가져오기에서 이미 기록되었어요
+
+[importer.notion-api.reason-attachment-exists]
+original={{path}} is already in the vault, the same size (incremental import)
+translation={{path}}이(가) 이미 보관함에 같은 크기로 존재해요 (증분 가져오기)
+
+[importer.notion-api.reason-http-status]
+original=HTTP {{status}}
+translation=HTTP {{status}}
+
+[importer.notion-api.reason-meeting-notes-pending]
+original=Notion has not finished generating them ({{status}})
+translation=Notion이 아직 생성을 완료하지 않았어요 ({{status}})
+
+[importer.notion-api.reason-rate-limit-gave-up]
+original=rate limited, and gave up after {{retries}} retries
+translation=요청 제한으로 {{retries}}번 재시도 후 중단했어요
+
+[importer.notion-api.reason-gave-up]
+original={{reason}}, and gave up after {{retries}} retries
+translation={{reason}}, {{retries}}번 재시도 후 중단했어요
+
+[importer.notion-api.reason-kept-link]
+original={{reason}}; kept the link to {{url}}
+translation={{reason}}; {{url}}로의 링크를 유지했어요
+
+[importer.notion.name]
+original=Notion
+translation=Notion
+
+[importer.notion.option-text]
+original=Notion (.zip)
+translation=Notion (.zip)
+
+[importer.notion.method-name]
+original=File import
+translation=파일 가져오기
+
+[importer.notion.method-desc]
+original=Imports using a Notion export file (.zip). Requires no API token or internet connection, but does not preserve databases.
+translation=Notion 내보내기 파일(.zip)을 사용해 가져와요. API 토큰이나 인터넷 연결이 필요 없지만 데이터베이스는 보존되지 않아요.
+
+[importer.notion.file-type]
+original=Exported Notion
+translation=내보낸 Notion
+
+[importer.notion.label-id]
+original=Notion ID
+translation=Notion ID
+
+[importer.notion.desc-export]
+original=Export your workspace in HTML format, you will receive a zip file.
+translation=작업 공간을 HTML 서식으로 내보내면 zip 파일을 받게 돼요.
+
+[importer.notion.desc-files]
+original=Pick the zip file Notion sent you.
+translation=Notion에서 보낸 zip 파일을 선택하세요.
+
+[importer.notion.name-subfolders]
+original=Save parent pages in subfolders
+translation=상위 페이지를 하위 폴더에 저장
+
+[importer.notion.desc-subfolders]
+original=Places the parent database pages in the same folder as the nested content.
+translation=상위 데이터베이스 페이지를 중첩 콘텐츠와 같은 폴더에 배치해요.
+
+[importer.notion.name-single-line-breaks]
+original=Single line breaks
+translation=단일 줄 바꿈
+
+[importer.notion.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break (default is 2).
+translation=Notion 블록을 줄 바꿈 하나로만 구분해요 (기본값은 2).
+
+[importer.notion.msg-unknown-property]
+original=Property "{{property}}" has an unknown type ({{type}}); kept its value as text.
+translation=속성 "{{property}}"의 유형({{type}})을 알 수 없어요. 값을 텍스트로 유지했어요.
+
+[importer.notion.msg-unparsed-date]
+original=Could not determine the date in property "{{property}}": {{value}}. Kept its value as text.
+translation=속성 "{{property}}"에서 날짜를 확인할 수 없어요: {{value}}. 값을 텍스트로 유지했어요.
+
+[importer.notion.status-looking]
+original=Looking for files to import
+translation=가져올 파일을 찾는 중
+
+[importer.notion.status-resolving]
+original=Resolving links and de-duplicating files
+translation=링크를 확인하고 중복 파일을 제거하는 중
+
+[importer.notion.status-starting]
+original=Starting import
+translation=가져오기 시작 중
+
+[importer.notion.msg-markdown-export]
+original=This is a Markdown export. Export your Notion workspace as HTML instead.
+translation=이것은 마크다운 내보내기예요. Notion 작업 공간을 HTML로 내보내세요.
+
+[importer.notion.reason-markdown-export]
+original=it is a Markdown export; export your Notion workspace as HTML instead
+translation=Markdown 내보내기 파일이에요. Notion 작업 공간을 HTML로 다시 내보내세요
+
+[importer.notion.reason-no-page-body]
+original=page body was not found
+translation=페이지 본문을 찾을 수 없어요
+
+[importer.roam-json.name]
+original=Roam Research
+translation=Roam Research
+
+[importer.roam-json.option-text]
+original=Roam Research (.json)
+translation=Roam Research (.json)
+
+[importer.roam-json.file-type]
+original=Roam (.json)
+translation=Roam (.json)
+
+[importer.roam-json.label-id]
+original=Roam UID
+translation=Roam UID
+
+[importer.roam-json.desc-export]
+original=Export your data in JSON format.
+translation=데이터를 JSON 서식으로 내보내세요.
+
+[importer.roam-json.desc-files]
+original=Pick the JSON file from your Roam export.
+translation=Roam 내보내기에서 JSON 파일을 선택하세요.
+
+[importer.roam-json.name-embed-block-references]
+original=Show referenced blocks in place
+translation=참조된 블록을 해당 위치에 표시
+
+[importer.roam-json.desc-embed-block-references]
+original=Roam shows the contents of a referenced block where the reference stands. If enabled, references become embeds rather than links.
+translation=Roam은 참조가 있는 위치에 참조된 블록의 내용을 보여줘요. 활성화됨 상태에서는 참조가 링크 대신 임베드로 변환돼요.
+
+[importer.roam-json.name-drop-unresolved-references]
+original=Remove references to missing blocks
+translation=누락된 블록에 대한 참조 삭제
+
+[importer.roam-json.desc-drop-unresolved-references]
+original=Some references name a block that is not in the export. If enabled, they are removed; if not, they are kept as Roam wrote them.
+translation=일부 참조는 내보내기에 존재하지 않는 블록을 가리켜요. 활성화됨 상태에서는 해당 참조가 삭제되고, 아니면 Roam이 작성한 그대로 유지돼요.
+
+[importer.roam-json.name-convert-attributes]
+original=Convert attributes to properties
+translation=Roam 속성을 Obsidian 속성으로 변환
+
+[importer.roam-json.desc-convert-attributes]
+original=Convert eligible top-level Roam attributes into Obsidian properties. Referenced attributes remain in the note so links to them keep working.
+translation=적합한 최상위 Roam Research 속성을 Obsidian 속성으로 변환해요. 참조된 속성은 노트에 그대로 남아 링크가 계속 작동해요.
+
+[importer.roam-json.name-tags-as-links]
+original=Convert tags to links
+translation=태그를 링크로 변환
+
+[importer.roam-json.desc-tags-as-links]
+original=A tag in Roam is a reference to the page of that name. If enabled, "#tag" becomes "[[tag]]".
+translation=Roam에서 태그는 해당 이름의 페이지에 대한 참조예요. 활성화됨 상태에서는 "#tag"가 "[[tag]]"로 변환돼요.
+
+[importer.roam-json.name-drop-queries]
+original=Remove queries
+translation=검색어 삭제
+
+[importer.roam-json.desc-drop-queries]
+original=If enabled, queries are removed. If not, a query becomes an Obsidian search that shows its results in the note.
+translation=활성화됨 상태에서는 검색어가 삭제돼요. 아니면 검색어가 노트에 결과를 표시하는 Obsidian 검색으로 변환돼요.
+
+[importer.roam-json.reason-empty-title]
+original=Title is empty
+translation=제목이 비어 있어요
+
+[importer.roam-json.reason-unexpected-extension]
+original=Unexpected file extension
+translation=예상하지 못한 확장자예요
+
+[importer.textbundle.name]
+original=Textbundle files
+translation=Textbundle 파일
+
+[importer.textbundle.option-text]
+original=Textbundle (.textbundle, .textpack)
+translation=Textbundle (.textbundle, .textpack)
+
+[importer.textbundle.file-type]
+original=Textbundle
+translation=Textbundle
+
+[importer.textbundle.desc-export]
+original=Export your notes as textbundle or textpack, which Agenda, Craft, Taio, Ulysses and Zettlr can all write.
+translation=노트를 textbundle 또는 textpack으로 내보내세요. Agenda, Craft, Taio, Ulysses, Zettlr에서 모두 이 형식으로 내보낼 수 있어요.
+
+[importer.textbundle.msg-platform]
+original=Due to platform limitations, only textpack and zip files can be imported from this device. Open your vault on a Mac to import textbundle files.
+translation=플랫폼 제한으로 인해 이 기기에서는 textpack and zip 파일만 가져올 수 있어요. textbundle 파일을 가져오려면 Mac에서 보관함을 열어 주세요.
+
+[importer.textbundle.reason-no-markdown]
+original=The textbundle does not contain markdown
+translation=textbundle에 마크다운이 포함되어 있지 않아요
+
+[importer.textbundle.reason-not-media]
+original=the file is not a media or markdown file.
+translation=미디어 또는 마크다운 파일이 아니에요.
+
+[importer.textbundle.reason-already-exists]
+original=the file already exists.
+translation=파일이 이미 존재해요.
+
+[importer.tomboy.name]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.option-text]
+original=Tomboy/Gnote (.note)
+translation=Tomboy/Gnote (.note)
+
+[importer.tomboy.file-type]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.label-id]
+original=Tomboy ID
+translation=Tomboy ID
+
+[importer.tomboy.desc-files-mac]
+original=Tomboy notes are typically found in: ~/Library/Application Support/Tomboy
+translation=Tomboy 노트는 보통 다음 위치에 있어요: ~/Library/Application Support/Tomboy
+
+[importer.tomboy.desc-files-windows]
+original=Tomboy notes are typically found in: %APPDATA%\\Tomboy
+translation=Tomboy 노트는 보통 다음 위치에 있어요: %APPDATA%\\Tomboy
+
+[importer.tomboy.desc-files-linux]
+original=Tomboy notes are typically found in: ~/.local/share/tomboy - or GNote: ~/.local/share/gnote
+translation=Tomboy 노트는 보통 다음 위치에 있어요: ~/.local/share/tomboy - 또는 GNote: ~/.local/share/gnote
+
+[importer.tomboy.name-todo]
+original=Convert TODO lists to checkboxes
+translation=TODO 목록을 체크박스로 변환
+
+[importer.tomboy.desc-todo]
+original=When enabled, lists in notes with "TODO" in the title will be converted to task lists with checkboxes. Strikethrough items will be marked as completed.
+translation=활성화됨 상태에서는 제목에 "TODO"가 포함된 노트의 목록이 체크박스가 있는 작업 목록으로 변환돼요. 취소선 항목은 완료로 표시돼요.
+
+[importer.tomboy.name-keep-title]
+original=Keep title in Markdown
+translation=마크다운에 제목 유지
+
+[importer.tomboy.desc-keep-title]
+original=Choose whether to keep the note title in the Markdown content. The automatic option keeps titles only when special characters are lost in filename conversion.
+translation=마크다운 콘텐츠에 노트 제목을 유지할지 선택해요. 자동 옵션은 파일 이름 변환 시 특수 문자가 손실되는 경우에만 제목을 유지해요.
+
+[importer.tomboy.option-automatic]
+original=Automatic
+translation=자동
+
+[importer.tomboy.option-keep-titles]
+original=Keep titles
+translation=제목 유지
+
+[importer.tomboy.option-filename-only]
+original=Filename only
+translation=파일 이름만

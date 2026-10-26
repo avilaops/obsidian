@@ -1,0 +1,2499 @@
+[command.import-notes]
+original=Import notes
+translation=Імпортувати нотатки
+
+[nouns.file-with-count]
+original={{count}} file
+translation={{count}} файлів
+
+[nouns.file-with-count_plural]
+original={{count}} files
+translation={{count}} файл
+
+[nouns.note-with-count]
+original={{count}} note
+translation={{count}} нотатка
+
+[nouns.note-with-count_plural]
+original={{count}} notes
+translation={{count}} нотаток
+
+[nouns.item-with-count]
+original={{count}} item
+translation={{count}} елемент
+
+[nouns.item-with-count_plural]
+original={{count}} items
+translation={{count}} елементів
+
+[nouns.record-with-count]
+original={{count}} record
+translation={{count}} запис
+
+[nouns.record-with-count_plural]
+original={{count}} records
+translation={{count}} записів
+
+[nouns.base-with-count]
+original={{count}} base
+translation={{count}} база
+
+[nouns.base-with-count_plural]
+original={{count}} bases
+translation={{count}} баз
+
+[nouns.template-with-count]
+original={{count}} template
+translation={{count}} шаблон
+
+[nouns.template-with-count_plural]
+original={{count}} templates
+translation={{count}} шаблонів
+
+[nouns.failure-with-count]
+original={{count}} failure
+translation={{count}} помилка
+
+[nouns.failure-with-count_plural]
+original={{count}} failures
+translation={{count}} помилок
+
+[nouns.second-with-count]
+original={{count}} second
+translation={{count}} секунда
+
+[nouns.second-with-count_plural]
+original={{count}} seconds
+translation={{count}} секунд
+
+[nouns.relation-placeholder-with-count]
+original={{count}} relation placeholder
+translation={{count}} заповнювач зв'язку
+
+[nouns.relation-placeholder-with-count_plural]
+original={{count}} relation placeholders
+translation={{count}} заповнювачів зв'язків
+
+[nouns.linked-database-with-count]
+original={{count}} linked database
+translation={{count}} пов'язана база даних
+
+[nouns.linked-database-with-count_plural]
+original={{count}} linked databases
+translation={{count}} пов'язаних баз даних
+
+[nouns.mention-link-with-count]
+original={{count}} mention link
+translation={{count}} посилання-згадка
+
+[nouns.mention-link-with-count_plural]
+original={{count}} mention links
+translation={{count}} посилань-згадок
+
+[nouns.synced-reference-with-count]
+original={{count}} synced child reference
+translation={{count}} синхронізоване дочірнє посилання
+
+[nouns.synced-reference-with-count_plural]
+original={{count}} synced child references
+translation={{count}} синхронізованих дочірніх посилань
+
+[nouns.new-item-with-count]
+original={{count}} new item
+translation={{count}} новий елемент
+
+[nouns.new-item-with-count_plural]
+original={{count}} new items
+translation={{count}} нових елементів
+
+[nouns.page-with-count]
+original={{count}} page
+translation={{count}} сторінка
+
+[nouns.page-with-count_plural]
+original={{count}} pages
+translation={{count}} сторінок
+
+[group.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[group.notion.name]
+original=Notion
+translation=Notion
+
+[outliner.name-flatten-outlines]
+original=Flatten outlines
+translation=Вирівняти структуру
+
+[outliner.desc-flatten-outlines]
+original=Convert outlines into paragraphs, headings, and lists.
+translation=Перетворити структуру на абзаци, заголовки та списки.
+
+[modal.title-pick-format]
+original=Import data into Obsidian
+translation=Імпортувати дані в Obsidian
+
+[modal.title-choose-method]
+original=Choose how to import
+translation=Оберіть спосіб імпорту
+
+[modal.title-import-from]
+original=Import from {{format}}
+translation=Імпорт із {{format}}
+
+[modal.search-placeholder]
+original=Filter...
+translation=Фільтр...
+
+[modal.msg-no-formats]
+original=No formats found.
+translation=Формати не знайдено.
+
+[modal.msg-drop-to-import]
+original=Drop files to import
+translation=Відпустіть файли для імпорту
+
+[modal.button-show-all-formats]
+original=Show all formats
+translation=Показати все формати
+
+[modal.button-continue]
+original=Continue
+translation=Продовжити
+
+[modal.button-import]
+original=Import
+translation=Імпортувати
+
+[modal.button-back]
+original=Back
+translation=Назад
+
+[modal.button-help]
+original=Help
+translation=Довідка
+
+[modal.button-pause]
+original=Pause
+translation=Пауза
+
+[modal.button-resume]
+original=Resume
+translation=Продовжити
+
+[modal.button-stop]
+original=Stop
+translation=Стоп
+
+[modal.button-save-report]
+original=Save report
+translation=Зберегти звіт
+
+[modal.msg-report-failed]
+original=Could not save the import report.
+translation=Не вдалося зберегти звіт імпорту.
+
+[modal.button-import-more]
+original=Import more
+translation=Імпортувати ще
+
+[modal.button-done]
+original=Done
+translation=Готово
+
+[modal.msg-unexpected-auth]
+original=Unexpected auth event. Please restart the auth process.
+translation=Неочікувана подія автентифікації. Будь ласка, перезапустіть процес автентифікації.
+
+[progress.stat-imported]
+original=imported
+translation=імпортовано
+
+[progress.stat-attachments]
+original=attachments
+translation=Вкладення
+
+[progress.stat-remaining]
+original=remaining
+translation=залишилось
+
+[progress.stat-skipped]
+original=skipped
+translation=Пропущено
+
+[progress.stat-failed]
+original=failed
+translation=Не вдалося
+
+[progress.label-skipped]
+original=Skipped: 
+translation=Пропущено: 
+
+[progress.label-failed]
+original=Failed: 
+translation=Не вдалося: 
+
+[progress.label-entry]
+original="{{name}}"
+translation="{{name}}"
+
+[progress.label-entry-with-reason]
+original="{{name}}" because {{reason}}
+translation="{{name}}", причина: {{reason}}
+
+[progress.label-paused]
+original=Paused
+translation=Призупинено
+
+[progress.label-paused-with]
+original=Paused - {{status}}
+translation=Призупинено — {{status}}
+
+[progress.label-importing]
+original=Importing
+translation=Імпортування
+
+[progress.label-remaining]
+original={{count}} remaining...
+translation=Залишилась {{count}}...
+
+[progress.label-remaining_plural]
+original={{count}} remaining...
+translation=Залишилось {{count}}...
+
+[progress.label-paused-remaining]
+original=Paused - {{count}} remaining
+translation=Призупинено — залишилась {{count}}
+
+[progress.label-paused-remaining_plural]
+original=Paused - {{count}} remaining
+translation=Призупинено — залишилось {{count}}
+
+[progress.status-stopping]
+original=Stopping...
+translation=Зупинка...
+
+[progress.msg-stopped]
+original=Import stopped.
+translation=Імпорт зупинено.
+
+[progress.msg-errors]
+original=Import finished with errors.
+translation=Імпорт завершено з помилками.
+
+[progress.msg-complete]
+original=Import complete.
+translation=Імпорт завершено.
+
+[progress.msg-imported-count]
+original={{count}} note imported
+translation={{count}} нотатку імпортовано
+
+[progress.msg-imported-count_plural]
+original={{count}} notes imported
+translation={{count}} нотаток імпортовано
+
+[progress.msg-click-to-show]
+original={{counts}}. Select to show.
+translation={{counts}}. Натисніть, щоб показати.
+
+[progress.status-waiting]
+original=Waiting {{duration}} ({{reason}})
+translation=Очікування {{duration}} ({{reason}})
+
+[progress.status-standardizing]
+original=Standardizing Markdown ({{current}}/{{total}})
+translation=Стандартизація Markdown ({{current}}/{{total}})
+
+[progress.label-finalization]
+original=Markdown finalization
+translation=Фіналізація Markdown
+
+[report.file-name]
+original={{date}} {{importer}} import log
+translation={{date}} журнал імпорту {{importer}}
+
+[report.title]
+original={{importer}} import
+translation=Імпорт {{importer}}
+
+[report.msg-finished]
+original=Finished {{when}}. {{counts}}.
+translation=Завершено {{when}}. {{counts}}.
+
+[report.msg-stopped]
+original=Stopped {{when}}. {{counts}}.
+translation=Зупинено {{when}}. {{counts}}.
+
+[report.heading-failed]
+original=Failed ({{count}})
+translation=Не вдалося ({{count}})
+
+[report.heading-skipped]
+original=Skipped ({{count}})
+translation=Пропущено ({{count}})
+
+[report.heading-messages]
+original=Messages
+translation=Повідомлення
+
+[report.count-notes]
+original={{count}} note imported
+translation={{count}} нотатку імпортовано
+
+[report.count-notes_plural]
+original={{count}} notes imported
+translation={{count}} нотаток імпортовано
+
+[report.count-attachments]
+original={{count}} attachment downloaded
+translation={{count}} вкладення завантажено
+
+[report.count-attachments_plural]
+original={{count}} attachments downloaded
+translation={{count}} вкладень завантажено
+
+[report.count-skipped]
+original={{count}} item skipped
+translation={{count}} елемент пропущено
+
+[report.count-skipped_plural]
+original={{count}} items skipped
+translation={{count}} елементів пропущено
+
+[report.count-failed]
+original={{count}} item failed
+translation={{count}} елемент не вдалося
+
+[report.count-failed_plural]
+original={{count}} items failed
+translation={{count}} елементів не вдалося
+
+[source.desc]
+original=Drag and drop, or choose files to import.
+translation=Перетягнути і відпустити або обрати файли для імпорту.
+
+[source.desc-choose]
+original=Choose files to import.
+translation=Обрати файли для імпорту.
+
+[source.button-choose-file]
+original=Choose file
+translation=Обрати файл
+
+[source.button-choose-files]
+original=Choose files
+translation=Обрати файли
+
+[source.button-choose-folders]
+original=Choose folders
+translation=Обрати теки
+
+[source.dialog-pick-files]
+original=Pick files to import
+translation=Оберіть файли для імпорту
+
+[source.dialog-pick-folders]
+original=Folders to import
+translation=Теки для імпорту
+
+[source.desc-folders]
+original=Everything in checked folders is imported. Uncheck folders to exclude them.
+translation=Усе у позначених теках буде імпортовано. Зніміть позначку з тек, щоб виключити їх.
+
+[source.msg-pick-source-first]
+original=Choose files or folders first.
+translation=Спочатку оберіть файли або теки.
+
+[source.msg-reading-folders]
+original=Reading folders...
+translation=Читання тек...
+
+[source.msg-no-folders]
+original=No folders found.
+translation=Теки не знайдено.
+
+[source.msg-android-folder-failed]
+original=Could not choose that folder.
+translation=Не вдалося обрати цю теку.
+
+[source.msg-android-folder-read-failed]
+original=Could not read that folder.
+translation=Не вдалося прочитати цю теку.
+
+[source.msg-android-folder-unavailable]
+original=Folder selection is unavailable on this device.
+translation=Вибір теки недоступний на цьому пристрої.
+
+[source.msg-android-root-folder]
+original=Choose a folder other than the root of your device.
+translation=Оберіть теку, відмінну від кореневої теки вашого пристрою.
+
+[source.msg-flat-files]
+original={{count}} file will be imported.
+translation={{count}} файл буде імпортовано.
+
+[source.msg-flat-files_plural]
+original={{count}} files will be imported.
+translation={{count}} файлів буде імпортовано.
+
+[source.msg-nothing-to-import]
+original=Nothing to import there. Pick {{extensions}} files, or a folder holding some.
+translation=Нічого імпортувати. Оберіть файли {{extensions}} або теку, що їх містить.
+
+[source.msg-will-import]
+original={{files}} will be imported: 
+translation={{files}} буде імпортовано: 
+
+[source.msg-more-files]
+original=and {{count}} more file
+translation=і ще {{count}} файл
+
+[source.msg-more-files_plural]
+original=and {{count}} more files
+translation=і ще {{count}} файлів
+
+[source.button-remove-file]
+original=Remove from the import
+translation=Видалити з імпорту
+
+[output.label-source-id]
+original=source ID
+translation=ідентифікатор джерела
+
+[output.name-save-source-id]
+original=Save {{label}}
+translation=Зберегти {{label}}
+
+[output.desc-save-source-id]
+original=Add the {{label}} to note properties so future imports can recognize moved or renamed notes.
+translation=Додати {{label}} до властивостей нотатки, щоб майбутні імпорти могли розпізнавати переміщені або перейменовані нотатки.
+
+[output.name-folder]
+original=Output folder
+translation=Тека призначення
+
+[output.desc-folder]
+original=Where imported notes will be saved. Leave blank to use the top level of the vault.
+translation=Де зберігатимуться імпортовані нотатки. Залиште порожнім, щоб використати кореневий рівень сховища.
+
+[output.name-template]
+original=Template
+translation=шаблон
+
+[output.desc-template]
+original=Optional Markdown template from this vault. Use variables such as {{title}}, {{content}}, and {{date}}.
+translation=Необов'язковий шаблон Markdown із цього сховища. Використовуйте змінні, такі як {{title}}, {{content}} і {{date}}.
+
+[output.placeholder-template]
+original=Templates/Import.md
+translation=Шаблони/Import.md
+
+[output.msg-template-not-found]
+original=Template must be a Markdown file in this vault: {{path}}
+translation=Шаблон має бути файлом Markdown у цьому сховищі: {{path}}
+
+[output.name-attachments]
+original=Attachment location
+translation=Розташування вкладень
+
+[output.desc-attachments]
+original=Where imported images and files will be saved.
+translation=Де зберігатимуться імпортовані зображення та файли.
+
+[output.name-subfolder]
+original=Subfolder name
+translation=Ім'я підтеки
+
+[output.desc-subfolder]
+original=Folder to use inside each imported note's folder.
+translation=Підтека всередині теки кожної імпортованої нотатки.
+
+[output.name-attachment-folder]
+original=Attachment folder
+translation=Тека вкладень
+
+[output.desc-attachment-folder]
+original=Folder path from the top level of the vault.
+translation=Шлях теки від кореневого рівня сховища.
+
+[output.name-duplicates]
+original=Existing notes
+translation=Наявні нотатки
+
+[output.desc-duplicates]
+original=Choose what to do when an imported note matches one in your vault. "{{update}}" skips unchanged notes and preserves newer local edits when modification dates are available.
+translation=Оберіть, що робити, коли імпортована нотатка збігається з наявною у сховищі. "{{update}}" пропускає незмінені нотатки та зберігає новіші локальні редагування, якщо доступні дати модифікації.
+
+[output.option-create-copy]
+original=Create a copy
+translation=Створити копію
+
+[output.option-skip]
+original=Skip
+translation=Пропустити
+
+[output.option-update]
+original=Update
+translation=Оновити
+
+[output.option-attachments-vault]
+original=Vault folder
+translation=У корені сховища
+
+[output.option-attachments-folder]
+original=In the folder specified below
+translation=В обраній нижче теці
+
+[output.option-attachments-note]
+original=Same folder as the note
+translation=У тій самій теці, що й нотатка
+
+[output.option-attachments-subfolder]
+original=In subfolder under the note
+translation=У підтеці нотатки
+
+[common.msg-pick-file]
+original=Please pick at least one file to import.
+translation=Будь ласка, оберіть принаймні один файл для імпорту.
+
+[common.msg-pick-output]
+original=Please select a location to export to.
+translation=Будь ласка, оберіть розташування для експорту.
+
+[common.msg-pick-import-location]
+original=Please select a location to import your files to.
+translation=Будь ласка, оберіть розташування для імпорту файлів.
+
+[common.msg-unknown-error]
+original=Unknown error
+translation=Невідома помилка
+
+[common.name-export]
+original=Export your data
+translation=Експортуйте свої дані
+
+[common.label-learn-more]
+original=Learn more
+translation=Дізнатися більше
+
+[common.button-instructions]
+original=Instructions
+translation=Інструкції
+
+[common.button-open]
+original=Open
+translation=Відкрити
+
+[common.status-processing]
+original=Processing {{name}}
+translation=Обробка {{name}}
+
+[common.status-importing-note]
+original=Importing note {{name}}
+translation=Імпорт нотатки {{name}}
+
+[common.status-importing-attachment]
+original=Importing attachment {{name}}
+translation=Імпорт вкладення {{name}}
+
+[common.status-cancelled]
+original=Import cancelled
+translation=Імпорт скасовано
+
+[reason.already-in-vault]
+original=it is already in the vault
+translation=вже є у сховищі
+
+[reason.unchanged-since-import]
+original=it has not changed since the last import
+translation=не змінилась з моменту останнього імпорту
+
+[reason.edited-since-import]
+original=it has been edited in Obsidian since the last import
+translation=була відредагована в Obsidian з моменту останнього імпорту
+
+[reason.file-not-in-vault]
+original=The imported file did not appear in the vault.
+translation=Імпортований файл не з'явився у сховищі.
+
+[reason.folder-not-created]
+original=Failed to create folder at "{{path}}"
+translation=Не вдалося створити теку за шляхом "{{path}}"
+
+[tree.button-select-all]
+original=Select all
+translation=Вибрати все
+
+[tree.button-deselect-all]
+original=Deselect all
+translation=Зняти виділення
+
+[tree.button-load]
+original=Load
+translation=Завантажити
+
+[tree.button-loading]
+original=Loading...
+translation=Завантаження...
+
+[tree.button-refresh]
+original=Refresh
+translation=Оновити
+
+[tree.placeholder-filter]
+original=Filter...
+translation=Фільтр...
+
+[tree.msg-no-matches]
+original=No results found.
+translation=Нічого не знайдено.
+
+[request.msg-unauthorized]
+original={{service}} did not accept the request for {{subject}}. {{credential}}
+translation={{service}} не прийняв запит на {{subject}}. {{credential}}
+
+[request.msg-forbidden]
+original={{service}} would not give access to {{subject}}. {{credential}}
+translation={{service}} не надав доступ до {{subject}}. {{credential}}
+
+[request.msg-not-found]
+original={{service}} could not find {{subject}}.
+translation={{service}} не вдалося знайти {{subject}}.
+
+[request.msg-rate-limited]
+original={{service}} is limiting how fast {{subject}} can be read. Wait a few minutes and try again.
+translation={{service}} обмежує швидкість читання {{subject}}. Зачекайте кілька хвилин і спробуйте знову.
+
+[request.msg-timed-out]
+original={{service}} took too long to return {{subject}}. Try again shortly.
+translation={{service}} надто довго повертав {{subject}}. Спробуйте знову незабаром.
+
+[request.msg-unavailable]
+original={{service}} could not return {{subject}} right now. Try again shortly.
+translation={{service}} не зміг повернути {{subject}} зараз. Спробуйте знову незабаром.
+
+[request.msg-failed-with-code]
+original=Could not read {{subject}}: {{message}} ({{code}})
+translation=Не вдалося прочитати {{subject}}: {{message}} ({{code}})
+
+[request.msg-failed-with-message]
+original=Could not read {{subject}}: {{message}}
+translation=Не вдалося прочитати {{subject}}: {{message}}
+
+[request.msg-failed-with-reported-code]
+original=Could not read {{subject}}. {{service}} reported {{code}}.
+translation=Не вдалося прочитати {{subject}}. {{service}} повідомив {{code}}.
+
+[request.msg-failed]
+original=Could not read {{subject}}.
+translation=Не вдалося прочитати {{subject}}.
+
+[template.msg-intro]
+original=Configure how your data should be imported. Use {{syntax}} syntax to reference field values.
+translation=Налаштуйте спосіб імпорту даних. Використовуйте синтаксис {{syntax}} для посилання на значення полів.
+
+[template.msg-note-template-intro]
+original=Review examples of how your notes will be imported.
+translation=Перегляньте приклади того, як будуть імпортовані ваші нотатки.
+
+[template.name-title]
+original=Note title
+translation=Перейменувати файл
+
+[template.desc-title]
+original=Template for the note title. Use variables like {{field_name}} to insert values.
+translation=Шаблон для назви нотатки. Використовуйте змінні на кшталт {{field_name}} для вставки значень.
+
+[template.name-location]
+original=Note location
+translation=Розташування нотатки
+
+[template.desc-location]
+original=Template for note location/path. Use {{field_name}} to organize notes.
+translation=Шаблон для розташування/шляху нотатки. Використовуйте {{field_name}} для організації нотаток.
+
+[template.name-content]
+original=Note content
+translation=Вміст нотатки
+
+[template.desc-content]
+original=Template for the note content. Use variables like {{field_name}} to insert values.
+translation=Шаблон для вмісту нотатки. Використовуйте змінні на кшталт {{field_name}} для вставки значень.
+
+[template.name-template-file]
+original=Template
+translation=шаблон
+
+[template.desc-template-file]
+original=Optional. Choose a template from your vault to format the note content. See Help for {{link}}.
+translation=Необов'язково. Оберіть шаблон зі свого сховища, щоб форматувати вміст нотатки. Докладніше див. у Довідці: {{link}}.
+
+[template.link-template-syntax]
+original=template syntax
+translation=синтаксис шаблонів
+
+[template.heading-preview]
+original=Preview
+translation=Перегляд
+
+[template.status-loading-preview]
+original=Loading preview...
+translation=Завантаження перегляду...
+
+[template.button-edit-template]
+original=Edit
+translation=Редагувати
+
+[template.button-save-template]
+original=Save
+translation=Зберегти
+
+[template.button-reset-template]
+original=Reset to default
+translation=Скинути за замовчуванням
+
+[template.button-start-import]
+original=Start import
+translation=Почати імпорт
+
+[template.link-show-more]
+original=Show more
+translation=Показати більше
+
+[template.name-template-editor]
+original=Template source
+translation=Джерельний код шаблону
+
+[template.label-edit-import-template]
+original=Edit import template
+translation=Редагувати шаблон імпорту
+
+[template.button-add-property]
+original=Add property
+translation=Додати властивість
+
+[template.button-previous-preview]
+original=Previous preview
+translation=Попередній перегляд
+
+[template.button-next-preview]
+original=Next preview
+translation=Наступний перегляд
+
+[template.msg-diagnostic]
+original=Line {{line}}: {{message}}
+translation=Рядок {{line}}: {{message}}
+
+[template.heading-properties]
+original=Properties
+translation=Властивості
+
+[template.column-property-name]
+original=Property name
+translation=Назва властивості
+
+[template.column-property-value]
+original=Property value
+translation=Значення властивості
+
+[template.column-example]
+original=Example
+translation=Приклад
+
+[template.action-delete-property]
+original=Delete property
+translation=Видалити властивість
+
+[template.msg-title-required]
+original=Please provide a note title template.
+translation=Будь ласка, вкажіть шаблон назви нотатки.
+
+[importer.airtable-api.name]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.option-text]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-id]
+original=Airtable record ID
+translation=Ідентифікатор запису Airtable
+
+[importer.airtable-api.name-token]
+original=Airtable personal access token
+translation=Персональний токен доступу Airtable
+
+[importer.airtable-api.desc-token]
+original=Create a personal access token in your Airtable account settings.
+translation=Створіть особистий токен доступу в налаштуваннях облікового запису Airtable.
+
+[importer.airtable-api.link-get-token]
+original=Get token
+translation=Отримати токен
+
+[importer.airtable-api.name-tables]
+original=Tables to import
+translation=Таблиці для імпорту
+
+[importer.airtable-api.desc-tables]
+original=Load your Airtable bases and tables, then choose what to import.
+translation=Завантажте бази й таблиці Airtable, а потім оберіть, що імпортувати.
+
+[importer.airtable-api.hint-tables]
+original=Load your Airtable bases and tables to get started.
+translation=Завантажте бази й таблиці Airtable, щоб почати.
+
+[importer.airtable-api.msg-fetching-bases]
+original=Fetching bases...
+translation=Отримання баз…
+
+[importer.airtable-api.msg-no-bases]
+original=No bases found.
+translation=Баз не знайдено.
+
+[importer.airtable-api.label-service]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-subject]
+original=your bases
+translation=ваші бази
+
+[importer.airtable-api.label-credential]
+original=Check that your personal access token is current and has access to them.
+translation=Переконайтеся, що ваш персональний токен доступу є дійсним і має доступ до них.
+
+[importer.airtable-api.name-formulas]
+original=Convert formulas
+translation=Конвертувати формули
+
+[importer.airtable-api.desc-formulas]
+original=Try to convert formulas to Obsidian syntax, or import as static values.
+translation=Спробувати конвертувати формули в синтаксис Obsidian або імпортувати як статичні значення.
+
+[importer.airtable-api.option-formula-hybrid]
+original=Obsidian syntax (with fallback)
+translation=Синтаксис Obsidian (з резервним варіантом)
+
+[importer.airtable-api.option-formula-static]
+original=Static values only
+translation=Лише статичні значення
+
+[importer.airtable-api.name-download-attachments]
+original=Download attachments
+translation=Завантажити вкладення
+
+[importer.airtable-api.desc-download-attachments]
+original=Download attachment files to local vault. If disabled or download fails, external URLs will be used.
+translation=Завантажити файли вкладень до локального сховища. Якщо вимкнено або завантаження не вдалося, будуть використані зовнішні URL.
+
+[importer.airtable-api.name-view-property]
+original=View property name
+translation=Назва властивості подання
+
+[importer.airtable-api.desc-view-property]
+original=Property name to track which views a record belongs to. Each record will have a list of view names it appears in.
+translation=Назва властивості для відстеження, до яких подань належить запис. Кожен запис міститиме список назв подань, у яких він з'являється.
+
+[importer.airtable-api.msg-token-first]
+original=Please enter your Airtable personal access token first.
+translation=Спочатку введіть персональний токен доступу Airtable.
+
+[importer.airtable-api.msg-token-missing]
+original=Please enter your Airtable personal access token.
+translation=Будь ласка, введіть персональний токен доступу Airtable.
+
+[importer.airtable-api.msg-load-bases-failed]
+original=Failed to load bases: {{error}}
+translation=Не вдалося завантажити бази: {{error}}
+
+[importer.airtable-api.msg-load-tables-failed]
+original=Failed to load tables for "{{base}}": {{error}}
+translation=Не вдалося завантажити таблиці для "{{base}}": {{error}}
+
+[importer.airtable-api.msg-pick-table]
+original=Please select at least one table to import.
+translation=Виберіть принаймні одну таблицю для імпорту.
+
+[importer.airtable-api.msg-loading-fields]
+original=Loading fields...
+translation=Завантаження полів...
+
+[importer.airtable-api.msg-no-fields]
+original=No fields found in selected tables. Please check your selection.
+translation=У вибраних таблицях не знайдено полів. Перевірте свій вибір.
+
+[importer.airtable-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=Не вдалося імпортувати: {{error}}
+
+[importer.airtable-api.label-base-position]
+original= (base {{index}} of {{total}})
+translation= (база {{index}} з {{total}})
+
+[importer.airtable-api.label-base]
+original=Base: {{name}}
+translation=База: {{name}}
+
+[importer.airtable-api.label-linked-table]
+original=Linked table: {{name}}
+translation=Повʼязана таблиця: {{name}}
+
+[importer.airtable-api.label-table-view]
+original={{table}} > {{view}}
+translation={{table}} > {{view}}
+
+[importer.airtable-api.label-import]
+original=Airtable API import
+translation=Імпорт через Airtable API
+
+[importer.airtable-api.status-connecting]
+original=Connecting to Airtable API
+translation=Підключення до Airtable API
+
+[importer.airtable-api.status-loading-tables]
+original=Loading tables for {{base}}
+translation=Завантаження таблиць для {{base}}
+
+[importer.airtable-api.status-fetching-tables]
+original=Fetching tables for base {{base}}...
+translation=Отримання таблиць для бази {{base}}...
+
+[importer.airtable-api.status-found-bases]
+original=Found {{bases}} to import
+translation=Знайдено {{bases}} для імпорту
+
+[importer.airtable-api.status-fetching-base]
+original=Fetching data from {{base}}{{position}}
+translation=Отримання даних із {{base}}{{position}}
+
+[importer.airtable-api.status-preparing-records]
+original=Preparing records from {{base}}{{position}}
+translation=Підготовка записів із {{base}}{{position}}
+
+[importer.airtable-api.status-reading-names]
+original=Reading names from {{table}}{{position}}
+translation=Читання назв із {{table}}{{position}}
+
+[importer.airtable-api.status-planning]
+original=Working out where {{table}}{{position}} goes
+translation=Визначення місця для {{table}}{{position}}
+
+[importer.airtable-api.status-fetching-records]
+original=Fetching records from {{table}}{{position}}
+translation=Отримання записів із {{table}}{{position}}
+
+[importer.airtable-api.status-fetched-records]
+original=Fetched {{records}} from {{table}}{{position}}
+translation=Отримано {{records}} із {{table}}{{position}}
+
+[importer.airtable-api.status-fetching-view]
+original=Fetching view {{view}} from {{table}}{{position}}
+translation=Отримання виду {{view}} із {{table}}{{position}}
+
+[importer.airtable-api.status-creating-notes]
+original=Creating notes in {{table}}{{position}}
+translation=Створення нотаток у {{table}}{{position}}
+
+[importer.airtable-api.status-updating-types]
+original=Updating property types
+translation=Оновлення типів властивостей
+
+[importer.airtable-api.status-complete]
+original=Import complete
+translation=Імпорт завершено
+
+[importer.airtable-api.status-rate-limited]
+original=Rate limited, waiting {{seconds}}s (attempt {{attempt}}/{{total}})...
+translation=Обмеження частоти запитів, очікування {{seconds}} с (спроба {{attempt}}/{{total}})...
+
+[importer.airtable-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}
+translation=Завантаження вкладення: {{name}}
+
+[importer.airtable-api.reason-no-record-names]
+original=Could not read record names
+translation=Не вдалося прочитати назви записів
+
+[importer.airtable-api.reason-empty-record]
+original=Empty record
+translation=Порожній запис
+
+[importer.airtable-api.desc-no-modified-time]
+original=Airtable does not say when a record last changed, so "{{update}}" compares the note with the record instead. A note you have edited yourself reads as changed, and will be written over.
+translation=Airtable не повідомляє, коли запис було останній раз змінено, тому "{{update}}" порівнює нотатку із записом. Нотатка, яку ви редагували самостійно, буде визначена як змінена і перезаписана.
+
+[importer.apple-notes.name]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.option-text]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.label-id]
+original=Apple Notes ID
+translation=Apple Notes ID
+
+[importer.apple-notes.msg-platform]
+original=Due to platform limitations, Apple Notes cannot be exported from this device. Open your vault on a Mac to export from Apple Notes.
+translation=Через обмеження платформи Apple Notes неможливо експортувати з цього пристрою. Відкрийте своє сховище на Mac, щоб експортувати з Apple Notes.
+
+[importer.apple-notes.name-prefix-format]
+original=File prefix format
+translation=Формат префікса файлу
+
+[importer.apple-notes.desc-prefix-format]
+original=Format for the creation date prefix in filenames. Use YYYY, MM, DD for year, month, day. Leave blank for no prefix.
+translation=Формат префікса дати створення в іменах файлів. Використовуйте YYYY, MM, DD для року, місяця, дня. Залиште порожнім, щоб не додавати префікс.
+
+[importer.apple-notes.name-omit-first-line]
+original=Omit first line
+translation=Пропустити перший рядок
+
+[importer.apple-notes.desc-omit-first-line]
+original=Don't include the first line in the text, since Apple Notes uses it as the title. It will still be used as the note name.
+translation=Не включати перший рядок у текст, оскільки Apple Notes використовує його як назву. Він все одно буде використаний як назва нотатки.
+
+[importer.apple-notes.name-handwriting]
+original=Include handwriting text
+translation=Включити рукописний текст
+
+[importer.apple-notes.desc-handwriting]
+original=When Apple Notes has detected handwriting in drawings, include it as text before the drawing.
+translation=Якщо Apple Notes розпізнав рукописний текст у малюнках, включити його як текст перед малюнком.
+
+[importer.apple-notes.name-data-folder]
+original=Apple Notes data folder
+translation=Тека даних Apple Notes
+
+[importer.apple-notes.desc-data-folder]
+original=macOS only lets Obsidian read your notes once you have pointed it at the folder they are kept in.
+translation=macOS дозволяє Obsidian читати ваші нотатки лише після того, як ви вкажете теку, в якій вони зберігаються.
+
+[importer.apple-notes.button-select-folder]
+original=Select folder
+translation=Вибрати теку
+
+[importer.apple-notes.msg-wrong-folder]
+original=Ensure you have selected the correct Apple Notes data folder.
+translation=Переконайтеся, що ви вибрали правильну теку даних Apple Notes.
+
+[importer.apple-notes.msg-dialog-folder]
+original=Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data.
+translation=Виберіть теку "group.com.apple.notes", щоб дозволити Obsidian читати дані Apple Notes.
+
+[importer.apple-notes.msg-import-failed]
+original=Data import failed. Ensure you have selected the correct Apple Notes data folder.
+translation=Не вдалося імпортувати дані. Переконайтеся, що ви вибрали правильну теку даних Apple Notes.
+
+[importer.apple-notes.msg-pick-folders]
+original=Please select at least one folder to import.
+translation=Будь ласка, виберіть принаймні одну теку для імпорту.
+
+[importer.apple-notes.name-folders]
+original=Folders to import
+translation=Теки для імпорту
+
+[importer.apple-notes.desc-folders]
+original=Pick the folders whose notes to bring across.
+translation=Виберіть теки, нотатки з яких потрібно перенести.
+
+[importer.apple-notes.msg-no-access]
+original=Allow access to your notes to see the folders in them.
+translation=Дозвольте доступ до ваших нотаток, щоб побачити теки в них.
+
+[importer.apple-notes.msg-no-folders]
+original=No folders found.
+translation=Теки не знайдено.
+
+[importer.apple-notes.msg-database-busy]
+original=Your Apple Notes database is in use. Quit Notes and try again.
+translation=База даних Apple Notes використовується. Закрийте Notes і спробуйте ще раз.
+
+[importer.apple-notes.msg-database-unreadable]
+original=Could not open your Apple Notes database. {{hint}}
+translation=Не вдалося відкрити базу даних Apple Notes. {{hint}}
+
+[importer.apple-notes.msg-read-failed-with-detail]
+original=Could not read your notes: {{detail}}
+translation=Не вдалося прочитати ваші нотатки: {{detail}}
+
+[importer.apple-notes.msg-read-failed]
+original=Could not read your notes.
+translation=Не вдалося прочитати ваші нотатки.
+
+[importer.apple-notes.reason-password-protected]
+original=note is password protected
+translation=нотатка захищена паролем
+
+[importer.apple-notes.reason-duplicate]
+original=note is a duplicate
+translation=нотатка є дублікатом
+
+[importer.apple-notes.reason-unchanged]
+original=note unchanged since last import
+translation=нотатка не змінилася з останнього імпорту
+
+[importer.apple-notes.reason-attachment-exists]
+original=attachment already exists
+translation=вкладення вже існує
+
+[importer.apple-notes.reason-attachment-unchanged]
+original=attachment unchanged since last import
+translation=вкладення не змінилося з останнього імпорту
+
+[importer.apple-notes.reason-not-downloaded]
+original=it has not been downloaded from iCloud - open the note in Apple Notes to fetch it
+translation=не було завантажено з iCloud — відкрийте нотатку в Apple Notes, щоб отримати її
+
+[importer.apple-notes.label-attachment]
+original=Attachment {{id}}
+translation=Вкладення {{id}}
+
+[importer.apple-notes.reason-no-attachment-row]
+original=no {{uti}} row to read it from
+translation=немає рядка {{uti}} для його зчитування
+
+[importer.apple-notes.label-attachment-in-note]
+original={{name}} in {{note}}
+translation={{name}} у {{note}}
+
+[importer.apple-journal.name]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.option-text]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.file-type]
+original=Journal entries
+translation=Записи щоденника
+
+[importer.apple-journal.desc-files]
+original=Export your entries from the Journal app, then pick the HTML files it wrote to iCloud Drive.
+translation=Експортуйте записи із застосунку Journal app, а потім оберіть HTML файли, які він записав на iCloud Drive.
+
+[importer.apple-journal.heading-metadata]
+original=Journal metadata
+translation=Метадані Journal
+
+[importer.apple-journal.name-front-matter]
+original=Add metadata as frontmatter
+translation=Додати метадані як початкові метадані
+
+[importer.apple-journal.desc-front-matter]
+original=Capture state-of-mind, contact, and similar tokens in YAML when available.
+translation=Зберігати стан душі, контакти та подібні токени у YAML, якщо вони доступні.
+
+[importer.apple-journal.reason-index-file]
+original=index file is not a journal entry
+translation=індексний файл не є записом щоденника
+
+[importer.bear.name]
+original=Bear
+translation=Bear
+
+[importer.bear.option-text]
+original=Bear (.bear2bk, .zip)
+translation=Bear (.bear2bk, .zip)
+
+[importer.bear.file-type]
+original=Bear backups
+translation=Резервні копії Bear
+
+[importer.bear.label-id]
+original=Bear ID
+translation=Bear ID
+
+[importer.bear.desc-export]
+original=Back up your notes in Bear and choose the resulting .bear2bk file. On iPhone and iPad, you can also export Application Data and choose its .zip file.
+translation=Створіть резервну копію нотаток у Bear і оберіть отриманий файл .bear2bk. На iPhone та iPad ви також можете експортувати Application Data й обрати його файл .zip.
+
+[importer.bear.name-tags-property]
+original=Move tags to a property
+translation=Перемістити мітки у властивість
+
+[importer.bear.desc-tags-property]
+original=When enabled, tags are taken out of the note and listed in its tags property. Bear keeps tags in the text of a note, and Obsidian reads them there too.
+translation=Коли увімкнено, мітки вилучаються з нотатки і додаються до її властивості tags. Bear зберігає мітки в тексті нотатки, і Obsidian також зчитує їх звідти.
+
+[importer.bear.name-flatten-tags]
+original=Flatten nested tags
+translation=Вирівняти вкладені мітки
+
+[importer.bear.desc-flatten-tags]
+original=When enabled, tags will be split on slashes (/) during import.
+translation=Якщо увімкнено, мітки будуть розділені по скісних рисках (/) під час імпорту.
+
+[importer.bear.status-importing-asset]
+original=Importing asset {{name}}
+translation=Імпортування ресурсу {{name}}
+
+[importer.bear.status-updating-links]
+original=Updating internal links…
+translation=Оновлення внутрішніх посилань…
+
+[importer.bear.reason-unknown-type]
+original=unknown type of file
+translation=Невідомий тип файлу
+
+[importer.bear.reason-encrypted]
+original=encrypted note
+translation=зашифрована нотатка
+
+[importer.bear.reason-missing-attachment]
+original=the attachment is missing from the export
+translation=вкладення відсутнє в експорті
+
+[importer.csv.name]
+original=CSV
+translation=CSV
+
+[importer.csv.option-text]
+original=CSV (.csv)
+translation=CSV (.csv)
+
+[importer.csv.file-type]
+original=CSV
+translation=CSV
+
+[importer.csv.desc-export]
+original=Export your table as CSV from the app it lives in, such as Excel, Google Sheets, Numbers, Notion, or Airtable.
+translation=Експортуйте таблицю як CSV із застосунку, в якому вона знаходиться, наприклад Excel, Google Sheets, Numbers, Notion або Airtable.
+
+[importer.csv.name-header-row]
+original=CSV has header row
+translation=CSV має рядок заголовків
+
+[importer.csv.desc-header-row]
+original=If enabled, the first row of the CSV file will be treated as column headers.
+translation=Якщо увімкнено, перший рядок CSV-файлу буде використано як заголовки стовпців.
+
+[importer.csv.name-source-title]
+original=Source title
+translation=Вихідна назва
+
+[importer.csv.desc-source-title]
+original=Creates the {{title}} value used by the final note title template. Use CSV column variables like {{column_name}}.
+translation=Створює значення {{title}}, яке використовується в кінцевому шаблоні назви нотатки. Використовуйте змінні стовпців CSV на кшталт {{column_name}}.
+
+[importer.csv.msg-pick-file]
+original=Please pick at least one CSV file to import.
+translation=Будь ласка, виберіть принаймні один CSV-файл для імпорту.
+
+[importer.csv.msg-one-at-a-time]
+original=CSV files must be imported one at a time.
+translation=CSV-файли потрібно імпортувати по одному.
+
+[importer.csv.msg-no-data]
+original=No data found in {{name}}.
+translation=Дані не знайдено в {{name}}.
+
+[importer.csv.msg-no-configuration]
+original=Configuration is missing.
+translation=Конфігурацію не знайдено.
+
+[importer.csv.status-parsing]
+original=Parsing {{name}}
+translation=Аналіз {{name}}
+
+[importer.csv.status-creating-note]
+original=Creating note: {{title}}
+translation=Створення нотатки: {{title}}
+
+[importer.csv.label-row]
+original=Row {{number}}
+translation=Рядок {{number}}
+
+[importer.csv.reason-empty-title]
+original=Empty title
+translation=Порожня назва
+
+[importer.files.name]
+original=Files and folders
+translation=Файли і папки
+
+[importer.files.option-text]
+original=Copy files and folders into your vault
+translation=Копіювати файли і папки до вашого сховища
+
+[importer.files.name-source]
+original=Files to copy
+translation=Файли для копіювання
+
+[importer.files.desc-source]
+original=Drop files or folders anywhere in the window to copy them into your vault.
+translation=Відпустіть файли або папки будь-де у вікні, щоб копіювати їх до вашого сховища.
+
+[importer.evernote.name]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.option-text]
+original=Evernote (.enex)
+translation=Evernote (.enex)
+
+[importer.evernote.file-type]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.desc-export]
+original=Export your notebooks in ENEX format, you will receive one .enex file per notebook.
+translation=Експортуйте свої нотатники у форматі ENEX — ви отримаєте один файл .enex для кожного нотатника.
+
+[importer.evernote.msg-unresolved-links]
+original={{count}} link could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} посилання не вдалося зіставити з нотаткою. Експорт ENEX не вказує, на яку нотатку веде посилання, а лише назву, яка відображалася в Evernote, тому перейменована після створення посилання нотатка більше не відповідає йому. Obsidian показує їх у нерозвʼязаних посиланнях.
+
+[importer.evernote.msg-unresolved-links_plural]
+original={{count}} links could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} посилань не вдалося зіставити з нотаткою. Експорт ENEX не вказує, на яку нотатку веде посилання, а лише назву, яка відображалася в Evernote, тому перейменована після створення посилання нотатка більше не відповідає йому. Obsidian показує їх у нерозвʼязаних посиланнях.
+
+[importer.keep.name]
+original=Google Keep
+translation=Google Keep
+
+[importer.keep.option-text]
+original=Google Keep (.zip, .json)
+translation=Google Keep (.zip, .json)
+
+[importer.keep.file-type]
+original=Notes & attachments
+translation=Нотатки та вкладення
+
+[importer.keep.desc-export]
+original=Get your Google Keep data from Google Takeout.
+translation=Отримайте дані Google Keep через Google Takeout.
+
+[importer.keep.name-archived]
+original=Import archived notes
+translation=Імпортувати архівовані нотатки
+
+[importer.keep.desc-archived]
+original=If imported, files archived in Google Keep will be tagged as archived.
+translation=Якщо імпортовано, файли, архівовані в Google Keep, будуть позначені тегом як архівовані.
+
+[importer.keep.name-deleted]
+original=Import deleted notes
+translation=Імпортувати видалені нотатки
+
+[importer.keep.desc-deleted]
+original=If imported, files deleted in Google Keep will be tagged as deleted. Deleted notes will only exist in your Google export if deleted recently.
+translation=Якщо імпортовано, файли, видалені в Google Keep, будуть позначені тегом як видалені. Видалені нотатки будуть присутні у вашому експорті Google, лише якщо їх було видалено нещодавно.
+
+[importer.keep.reason-invalid-json]
+original=Invalid Google Keep JSON
+translation=Недійсний Google Keep JSON
+
+[importer.keep.reason-archived]
+original=Archived note
+translation=Архівована нотатка
+
+[importer.keep.reason-deleted]
+original=Deleted note
+translation=Видалена нотатка
+
+[importer.html.name]
+original=HTML files
+translation=HTML-файли
+
+[importer.html.option-text]
+original=HTML (.html, .zip)
+translation=HTML (.html, .zip)
+
+[importer.html.label-id]
+original=HTML source path
+translation=Шлях до джерела HTML
+
+[importer.html.desc-source-identity]
+original=Changing which folder or zip file you choose can change the source path, so existing notes may not be recognized.
+translation=Зміна обраної теки або zip-файлу може змінити шлях до джерела, тому наявні нотатки можуть не бути розпізнані.
+
+[importer.html.file-type]
+original=HTML
+translation=HTML
+
+[importer.html.desc-export]
+original=Save the pages you want to keep as HTML. If the app they are in has an importer of its own, use that instead: it keeps more of your data.
+translation=Збережіть потрібні сторінки як HTML. Якщо застосунок, в якому вони знаходяться, має власний імпортер, скористайтеся ним: він збереже більше ваших даних.
+
+[importer.html.desc-source]
+original=Choose individual HTML files, whole folders, or zip files. Pages in folders stay organized the same way.
+translation=Оберіть окремі HTML-файли, цілі теки або zip-файли. Сторінки в теках зберігають ту саму структуру.
+
+[importer.html.name-extract-main-content]
+original=Extract main content
+translation=Витягнути основний вміст
+
+[importer.html.desc-extract-main-content]
+original=Remove navigation, sidebars, footers, and other page clutter.
+translation=Видалити навігацію, бічні панелі, нижні колонтитули та інший зайвий вміст сторінки.
+
+[importer.html.name-size-limit]
+original=Attachment size limit (MB)
+translation=Обмеження розміру вкладення (MB)
+
+[importer.html.name-minimum-image-size]
+original=Minimum image size (px)
+translation=Мінімальний розмір зображення (пікс.)
+
+[importer.html.desc-set-zero-to-disable]
+original=Set 0 to disable.
+translation=Встановіть 0, щоб вимкнути.
+
+[importer.html.status-downloading]
+original=Downloading attachment for {{name}}
+translation=Завантаження вкладення для {{name}}
+
+[importer.markdown.name]
+original=Markdown
+translation=Markdown
+
+[importer.markdown.option-text]
+original=Markdown (.md, .txt, .zip)
+translation=Markdown (.md, .txt, .zip)
+
+[importer.markdown.file-type]
+original=Markdown and text
+translation=Markdown і Текст
+
+[importer.markdown.desc-source]
+original=Choose individual Markdown or text files, whole folders, or zip files. Everything in folders stays organized the same way.
+translation=Оберіть окремі файли Markdown або текстові файли, цілі теки чи zip-файли. Вміст тек зберігає свою структуру.
+
+[importer.markdown.name-standardize-formatting]
+original=Standardize formatting
+translation=Стандартизувати форматування
+
+[importer.markdown.desc-standardize-formatting]
+original=Use this vault's settings for lists, indentation, and links.
+translation=Використовувати налаштування цього сховища для списків, відступів і посилань.
+
+[importer.markdown.name-tags-as-properties]
+original=Convert inline tags to properties
+translation=Перетворити вбудовані мітки на властивості
+
+[importer.markdown.desc-tags-as-properties]
+original=Move tags written in the body of a note into its tags property.
+translation=Перемістити мітки з тексту нотатки до її властивості міток.
+
+[importer.logseq.name]
+original=Logseq
+translation=Logseq
+
+[importer.logseq.option-text]
+original=Logseq (.md)
+translation=Logseq (.md)
+
+[importer.logseq.label-id]
+original=Logseq source
+translation=Джерело Logseq
+
+[importer.logseq.desc-instructions]
+original=Read the instructions for importing from Logseq.
+translation=Прочитайте інструкцію з імпорту з Logseq.
+
+[importer.logseq.desc-files]
+original=Choose one graph folder containing pages, journals, and assets.
+translation=Оберіть одну теку графа, що містить сторінки, журнали та ресурси.
+
+[importer.logseq.name-use-daily-notes]
+original=Use daily notes settings
+translation=Використовувати налаштування щоденних нотаток
+
+[importer.logseq.desc-use-daily-notes]
+original=Write journals to the configured daily notes folder and filename format.
+translation=Записувати журнали до налаштованої теки щоденних нотаток у відповідному форматі імен файлів.
+
+[importer.logseq.name-queries]
+original=Keep queries
+translation=Зберегти запити
+
+[importer.logseq.desc-queries]
+original=Obsidian doesn't support Logseq's query format, so queries are imported as code blocks.
+translation=Obsidian не підтримує формат запитів Logseq, тому запити імпортуються як блоки коду.
+
+[importer.logseq.name-flashcards]
+original=Keep flashcards
+translation=Зберегти картки
+
+[importer.logseq.desc-flashcards]
+original=Obsidian doesn't support Logseq's flashcards, so card markers and cloze wrappers are imported as plain text.
+translation=Obsidian не підтримує картки Logseq, тому маркери карток і обгортки cloze імпортуються як звичайний текст.
+
+[importer.logseq.name-time-tracking]
+original=Keep time tracking
+translation=Зберегти відстеження часу
+
+[importer.logseq.desc-time-tracking]
+original=Obsidian doesn't support Logseq's time tracking, so LOGBOOK and CLOCK entries are imported as plain text.
+translation=Obsidian не підтримує відстеження часу Logseq, тому записи LOGBOOK і CLOCK імпортуються як звичайний текст.
+
+[importer.logseq.msg-pick-graph]
+original=Please choose one Logseq graph folder.
+translation=Будь ласка, оберіть одну теку графа Logseq.
+
+[importer.logseq.msg-no-notes]
+original=The selected folder has no Markdown notes under pages or journals.
+translation=Вибрана тека не містить нотаток Markdown у підтеках pages або journals.
+
+[importer.logseq.reason-empty-page]
+original=The converted page is empty
+translation=Перетворена сторінка є пустою
+
+[importer.logseq.reason-missing-asset]
+original=Referenced by {{name}}, but missing from the graph
+translation=Використовується у {{name}}, але відсутній у графі
+
+[importer.logseq.reason-whiteboards]
+original=Logseq whiteboards are not supported by Obsidian
+translation=Дошки Logseq не підтримуються Obsidian
+
+[importer.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.option-text]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.method-name]
+original=Microsoft account
+translation=Обліковий запис Microsoft
+
+[importer.onenote.method-desc]
+original=Sign into your Microsoft account and import the notebooks that are synced to OneDrive. Requires an internet connection.
+translation=Увійдіть у свій обліковий запис Microsoft і імпортуйте записники, синхронізовано з OneDrive. Потрібне підключення до Інтернету.
+
+[importer.onenote.label-id]
+original=OneNote ID
+translation=OneNote ідентифікатор
+
+[importer.onenote.name-incompatible]
+original=Import incompatible attachments
+translation=Імпортувати несумісні вкладення
+
+[importer.onenote.desc-incompatible]
+original=Imports incompatible attachments which cannot be embedded in Obsidian, such as .exe files.
+translation=Імпортує несумісні вкладення, які не можна вбудувати в Obsidian, наприклад файли .exe.
+
+[importer.onenote.name-account]
+original=Microsoft account
+translation=Обліковий запис Microsoft
+
+[importer.onenote.desc-sign-in]
+original=Sign in to import your OneNote notebooks.
+translation=Увійдіть, щоб імпортувати записники OneNote.
+
+[importer.onenote.desc-sign-in-organization]
+original=Sign in to import your OneNote notebooks. A work or school account may need your organization to approve access.
+translation=Увійдіть, щоб імпортувати записники OneNote. Для робочого або навчального облікового запису може знадобитися схвалення доступу вашою організацією.
+
+[importer.onenote.desc-signed-in]
+original=Signed in as {{name}} ({{email}}).
+translation=Ви увійшли як {{name}} ({{email}}).
+
+[importer.onenote.button-sign-in]
+original=Sign in
+translation=Увійти
+
+[importer.onenote.button-sign-out]
+original=Sign out
+translation=Вийти
+
+[importer.onenote.button-work-account]
+original=Use work or school access
+translation=Використати робочий або навчальний доступ
+
+[importer.onenote.msg-sign-in-failed]
+original=An error occurred while trying to sign you in.
+translation=Під час входу сталася помилка.
+
+[importer.onenote.msg-sign-in-details]
+original=Show error details
+translation=Показати деталі помилки
+
+[importer.onenote.msg-signed-out]
+original=Sign in to see your OneNote notebooks.
+translation=Увійдіть, щоб побачити свої записники OneNote.
+
+[importer.onenote.msg-please-sign-in]
+original=Please sign in to your Microsoft account.
+translation=Будь ласка, увійдіть у свій обліковий запис Microsoft.
+
+[importer.onenote.name-sections]
+original=Sections to import
+translation=Розділи для імпорту
+
+[importer.onenote.desc-sections]
+original=Select a notebook, or sections within it.
+translation=Виберіть записник або розділи в ньому.
+
+[importer.onenote.msg-loading-notebooks]
+original=Loading notebooks...
+translation=Завантаження записників…
+
+[importer.onenote.msg-no-notebooks]
+original=No notebooks found.
+translation=Записників не знайдено.
+
+[importer.onenote.msg-scope-refused]
+original=OneNote did not grant this sign-in access to your notebooks. Sign out and sign in again to ask for work or school access, which your organization may need to approve.
+translation=OneNote не надав цьому входу доступ до ваших записників. Вийдіть і увійдіть знову, щоб запросити робочий або навчальний доступ, який може потребувати схвалення вашою організацією.
+
+[importer.onenote.label-service]
+original=OneNote
+translation=OneNote
+
+[importer.onenote.label-subject]
+original=your notebooks
+translation=ваші записники
+
+[importer.onenote.label-credential]
+original=Sign out and back in to try again.
+translation=Вийдіть і увійдіть знову, щоб спробувати ще раз.
+
+[importer.onenote.status-finding]
+original=Finding notes to import
+translation=Пошук нотаток для імпорту
+
+[importer.onenote.status-finding-in]
+original=Finding notes in {{section}}
+translation=Пошук нотаток у {{section}}
+
+[importer.onenote.status-finding-in-section]
+original=Finding notes in {{section}} (section {{index}} of {{total}})
+translation=Пошук нотаток у {{section}} (розділ {{index}} з {{total}})
+
+[importer.onenote.status-importing-notes]
+original=Importing {{notes}}
+translation=Імпорт {{notes}}
+
+[importer.onenote.status-downloading]
+original=Downloading attachment {{name}}
+translation=Завантаження вкладення {{name}}
+
+[importer.onenote.msg-too-many-errors]
+original=Microsoft OneNote returned too many consecutive errors.
+translation=Microsoft OneNote повернув занадто багато послідовних помилок.
+
+[importer.onenote.label-unknown-page]
+original=<unknown>
+translation=<Невідомий>
+
+[importer.onenote.reason-too-many-failures]
+original=import was canceled (after too many pages failed to load)
+translation=імпорт скасовано (після занадто великої кількості сторінок, які не вдалося завантажити)
+
+[importer.onenote.label-ink]
+original={{page}} - Ink.svg
+translation={{page}} - Ink.svg
+
+[importer.onenote.label-attachment]
+original=OneNote attachment
+translation=Вкладення OneNote
+
+[importer.onenote.label-image]
+original=OneNote image
+translation=Зображення OneNote
+
+[importer.onenote.reason-no-attachment-name]
+original=the attachment did not say what it was called
+translation=вкладення не містило інформації про свою назву
+
+[importer.onenote.reason-no-attachment-url]
+original=the attachment did not include a download URL
+translation=вкладення не містило URL для завантаження
+
+[importer.onenote.reason-no-image-url]
+original=the image did not include a download URL
+translation=зображення не містило URL для завантаження
+
+[importer.onenote-file.name]
+original=Microsoft OneNote (export file)
+translation=Microsoft OneNote (файл експорту)
+
+[importer.onenote-file.option-text]
+original=Microsoft OneNote (.one, .onepkg)
+translation=Microsoft OneNote (.one, .onepkg)
+
+[importer.onenote-file.method-name]
+original=File import
+translation=Імпорт з файлу
+
+[importer.onenote-file.method-desc]
+original=Import using OneNote export files (.one, .onepkg) from your computer. Requires no account or internet connection, and works for notebooks that were never synced.
+translation=Імпорт з файлів експорту OneNote (.one, .onepkg) з вашого комп'ютера. Не потребує облікового запису чи підключення до інтернету та працює з записниками, які ніколи не були синхронізовано.
+
+[importer.onenote-file.file-type]
+original=OneNote export
+translation=Експорт OneNote
+
+[importer.onenote-file.label-id]
+original=OneNote ID
+translation=Ідентифікатор OneNote
+
+[importer.onenote-file.desc-backup-folder]
+original=OneNote for Windows keeps its own backups, and this opens there. Pick the notebooks or sections you want.
+translation=OneNote для Windows зберігає власні резервні копії — цей пункт відкриває саме їх. Оберіть потрібні записники або розділи.
+
+[importer.onenote-file.desc-export]
+original=In OneNote for Windows, right-click a notebook and export it to save a .onepkg file, or export a single section as .one.
+translation=У OneNote для Windows клацніть правою кнопкою на записнику та експортуйте його, щоб зберегти файл .onepkg, або експортуйте окремий розділ як .one.
+
+[importer.onenote-file.name-sections]
+original=Sections to import
+translation=Розділи для імпорту
+
+[importer.onenote-file.desc-sections]
+original=Choose which sections to import.
+translation=Оберіть розділи для імпорту.
+
+[importer.onenote-file.msg-loading-sections]
+original=Reading sections…
+translation=Читання розділів…
+
+[importer.onenote-file.msg-no-sections]
+original=No sections found in this file.
+translation=У цьому файлі не знайдено розділів.
+
+[importer.onenote-file.msg-pick-file-first]
+original=Choose a OneNote file first.
+translation=Спочатку оберіть файл OneNote.
+
+[importer.onenote-file.status-reading-section]
+original=Reading {{name}}
+translation=Читання {{name}}
+
+[importer.onenote-file.status-importing-section]
+original=Importing {{name}} ({{index}} of {{total}})
+translation=Імпорт {{name}} ({{index}} з {{total}})
+
+[importer.onenote-file.reason-rights-protected]
+original=the file is rights-protected, and can only be opened by an account with permission to it
+translation=файл захищений правами доступу і може бути відкритий лише обліковим записом з відповідним дозволом
+
+[importer.onenote-file.reason-unsupported]
+original=the file uses a OneNote format this importer cannot read yet
+translation=файл використовує формат OneNote, який цей імпортер поки не підтримує
+
+[importer.onenote-file.reason-malformed]
+original=the file does not describe the OneNote structures it claims to
+translation=файл не описує структури OneNote, які він заявляє
+
+[importer.onenote-file.reason-too-large]
+original=the file is larger than this importer is willing to expand
+translation=файл завеликий для обробки цим імпортером
+
+[importer.onenote-file.reason-no-attachment-data]
+original=the attachment held no data
+translation=вкладення не містить даних
+
+[importer.notion-api.name]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.option-text]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.method-name]
+original=Notion account (recommended)
+translation=Обліковий запис Notion (Рекомендовано)
+
+[importer.notion-api.method-desc]
+original=Imports your entire workspace, including databases and formulas which are converted to bases. Requires a Notion integration token and an internet connection.
+translation=Імпортує весь ваш робочий простір, включно з базами даних і формулами, які конвертуються в бази. Потрібен токен інтеграції Notion і підключення до інтернету.
+
+[importer.notion-api.label-id]
+original=Notion ID
+translation=Ідентифікатор Notion
+
+[importer.notion-api.name-token]
+original=Notion API token
+translation=Токен API Notion
+
+[importer.notion-api.desc-token]
+original=To get an API token create a connection in Notion and give it access to pages in your workspace.
+translation=Щоб отримати токен API, створіть підключення в Notion і надайте йому доступ до сторінок у вашому робочому просторі.
+
+[importer.notion-api.link-get-token]
+original=Get API token
+translation=Отримати токен API
+
+[importer.notion-api.name-pages]
+original=Pages to import
+translation=Сторінки для імпорту
+
+[importer.notion-api.desc-pages]
+original=Load your Notion pages and databases, then choose what to import. If a page or database is missing, check that your Notion connection has access to it.
+translation=Завантажте сторінки й бази даних Notion, потім оберіть, що імпортувати. Якщо сторінка або база даних відсутня, перевірте, чи має ваше підключення Notion доступ до неї.
+
+[importer.notion-api.hint-pages]
+original=Load your Notion pages and databases to get started.
+translation=Завантажте сторінки й бази даних Notion, щоб почати.
+
+[importer.notion-api.msg-loading-pages]
+original=Loading pages and databases...
+translation=Завантаження сторінок і баз даних...
+
+[importer.notion-api.msg-no-pages]
+original=No pages or databases found. Make sure your connection has access to the pages you want to import.
+translation=Сторінок або баз даних не знайдено. Переконайтеся, що ваше підключення має доступ до сторінок, які ви хочете імпортувати.
+
+[importer.notion-api.label-service]
+original=Notion
+translation=Notion
+
+[importer.notion-api.label-subject]
+original=your pages
+translation=ваші сторінки
+
+[importer.notion-api.label-credential]
+original=Check that your token is current and that the connection has access to them.
+translation=Перевірте, що ваш токен актуальний і що підключення має до них доступ.
+
+[importer.notion-api.name-formulas]
+original=Convert formulas
+translation=Конвертувати формули
+
+[importer.notion-api.desc-formulas]
+original=By default Notion formulas are converted to Obsidian syntax. If any Notion syntax is not supported the static values will be saved instead. Alternatively you can import all formulas as static values.
+translation=За замовчуванням формули Notion конвертуються в синтаксис Obsidian. Якщо якийсь синтаксис Notion не підтримується, замість нього зберігатимуться статичні значення. Також можна імпортувати всі формули як статичні значення.
+
+[importer.notion-api.option-formula-hybrid]
+original=Obsidian syntax
+translation=Синтаксис Obsidian
+
+[importer.notion-api.option-formula-static]
+original=Static values
+translation=Статичні значення
+
+[importer.notion-api.name-download-external]
+original=Download external attachments
+translation=Завантажити зовнішні вкладення
+
+[importer.notion-api.desc-download-external]
+original=Download external attachments (external URLs) to local files. Notion-hosted files are always downloaded.
+translation=Завантажувати зовнішні вкладення (зовнішні URL) як локальні файли. Файли, розміщені на Notion, завантажуються завжди.
+
+[importer.notion-api.name-single-line-breaks]
+original=Single line breaks
+translation=Одинарні переноси рядків
+
+[importer.notion-api.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break instead of two. Some blocks (lists, toggles, tables) will still use double line breaks when required for proper Markdown syntax.
+translation=Розділяти блоки Notion лише одним переносом рядка замість двох. Деякі блоки (списки, перемикачі, таблиці) все одно використовуватимуть подвійний перенос, коли це потрібно для коректного синтаксису Markdown.
+
+[importer.notion-api.name-cover-property]
+original=Cover property name
+translation=Назва властивості обкладинки
+
+[importer.notion-api.desc-cover-property]
+original=Property name for page cover image in YAML frontmatter. 
+translation=Назва властивості для зображення обкладинки сторінки в початкових метаданих YAML. 
+
+[importer.notion-api.desc-cover-property-conflicts]
+original=Leave as "cover" if you don't have conflicts with existing properties.
+translation=Залиште як "cover", якщо немає конфліктів з наявними властивостями.
+
+[importer.notion-api.name-database-property]
+original=Database property name
+translation=Назва властивості бази даних
+
+[importer.notion-api.desc-database-property]
+original=Property name in page frontmatter to link pages to their database .base file (default: "base")
+translation=Назва властивості в початкових метаданих сторінки для зв'язку сторінок із файлом .base їхньої бази даних (за замовчуванням: "base")
+
+[importer.notion-api.name-linked-databases]
+original=Import linked databases
+translation=Імпортувати пов'язані бази даних
+
+[importer.notion-api.desc-linked-databases]
+original=Also import databases that the selected pages link to, so relations become links rather than names. This imports pages you did not select.
+translation=Також імпортувати бази даних, на які посилаються вибрані сторінки, щоб зв'язки перетворювалися на посилання, а не на назви. Це імпортує сторінки, які ви не вибирали.
+
+[importer.notion-api.msg-token-first]
+original=Please enter your Notion API token first.
+translation=Спочатку введіть токен Notion API.
+
+[importer.notion-api.msg-token-missing]
+original=Please enter your Notion API token.
+translation=Введіть токен Notion API.
+
+[importer.notion-api.msg-load-pages-failed]
+original=Failed to load pages: {{error}}
+translation=Не вдалося завантажити сторінки: {{error}}
+
+[importer.notion-api.msg-pick-page]
+original=Please select at least one page or database to import.
+translation=Виберіть принаймні одну сторінку або базу даних для імпорту.
+
+[importer.notion-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=Імпорт не вдався: {{error}}
+
+[importer.notion-api.status-loading-items]
+original=Loading... ({{items}}, page {{page}})
+translation=Завантаження... ({{items}}, сторінка {{page}})
+
+[importer.notion-api.status-connecting]
+original=Connecting to Notion API...
+translation=Підключення до Notion API...
+
+[importer.notion-api.status-fetching]
+original=Fetching page content from Notion...
+translation=Отримання вмісту сторінки з Notion...
+
+[importer.notion-api.status-preparing]
+original=Preparing to import {{items}}...
+translation=Підготовка до імпорту {{items}}...
+
+[importer.notion-api.status-importing-items]
+original=Importing {{items}}...
+translation=Імпорт {{items}}...
+
+[importer.notion-api.status-importing-item]
+original=Importing item {{index}}/{{total}}...
+translation=Імпорт елемента {{index}}/{{total}}...
+
+[importer.notion-api.status-importing-title]
+original=Importing: {{title}}
+translation=Імпорт: {{title}}
+
+[importer.notion-api.status-relation-links]
+original=Processing relation links...
+translation=Обробка посилань зв'язків...
+
+[importer.notion-api.status-mention-links]
+original=Processing mention links...
+translation=Обробка посилань згадок...
+
+[importer.notion-api.status-synced-blocks]
+original=Processing synced block child references...
+translation=Обробка дочірніх посилань синхронізованих блоків...
+
+[importer.notion-api.status-cleaning-ids]
+original=Cleaning up notion-id attributes...
+translation=Очищення атрибутів notion-id...
+
+[importer.notion-api.status-done]
+original=Import completed successfully!
+translation=Імпорт успішно завершено!
+
+[importer.notion-api.status-replacing-relations]
+original=Replacing {{placeholders}}...
+translation=Заміна {{placeholders}}...
+
+[importer.notion-api.status-replacing-relation-links]
+original=Replacing relation placeholders with wiki links...
+translation=Заміна заповнювачів зв'язків на wiki-посилання...
+
+[importer.notion-api.status-importing-linked-databases]
+original=Importing {{databases}}...
+translation=Імпорт {{databases}}...
+
+[importer.notion-api.status-importing-unimported]
+original=Importing unimported database {{id}}...
+translation=Імпорт неімпортованої бази даних {{id}}...
+
+[importer.notion-api.status-replacing-mentions]
+original=Replacing mention placeholders...
+translation=Заміна заповнювачів згадок...
+
+[importer.notion-api.status-replaced-mentions]
+original=Replaced {{links}} in {{files}}.
+translation=Замінено {{links}} у {{files}}.
+
+[importer.notion-api.status-replacing-synced]
+original=Replacing synced block child references...
+translation=Заміна дочірніх посилань синхронізованих блоків...
+
+[importer.notion-api.status-replaced-synced]
+original=Replaced {{references}} in {{files}} (imported {{imported}}).
+translation=Замінено {{references}} у {{files}} (імпортовано {{imported}}).
+
+[importer.notion-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}...
+translation=Завантаження вкладення: {{name}}...
+
+[importer.notion-api.status-rate-limited]
+original=Rate limited. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=Обмеження частоти запитів. Очікування {{seconds}} секунд перед повтором ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying]
+original=Notion returned {{status}}. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=Notion повернув {{status}}. Очікування {{seconds}} секунд перед повтором ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying-attachment]
+original={{name}}: {{failure}}. Retrying in {{seconds}} seconds ({{attempt}}/{{total}})...
+translation={{name}}: {{failure}}. Повторна спроба через {{seconds}} секунд ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-processing-data-source]
+original=Processing database from data source: {{id}}...
+translation=Обробка бази даних із джерела даних: {{id}}...
+
+[importer.notion-api.status-processing-database]
+original=Processing database: {{title}}...
+translation=Обробка бази даних: {{title}}...
+
+[importer.notion-api.status-found-pages]
+original=Found {{pages}} in database {{title}}
+translation=Знайдено {{pages}} у базі даних {{title}}
+
+[importer.notion-api.status-found-templates]
+original=Found {{templates}} in database {{title}}
+translation=Знайдено {{templates}} у базі даних {{title}}
+
+[importer.notion-api.status-importing-template]
+original=Importing template: {{name}}...
+translation=Імпорт шаблону: {{name}}...
+
+[importer.notion-api.label-import]
+original=Notion API import
+translation=Імпорт через Notion API
+
+[importer.notion-api.label-item]
+original=Import item {{id}}
+translation=Імпорт елемента {{id}}
+
+[importer.notion-api.label-page]
+original=Page {{id}}
+translation=Сторінка {{id}}
+
+[importer.notion-api.label-page-with-title]
+original=Page: {{title}} ({{id}})
+translation=Сторінка: {{title}} ({{id}})
+
+[importer.notion-api.label-relation-page]
+original=Relation page {{id}}
+translation=Сторінка зв'язку {{id}}
+
+[importer.notion-api.label-database-with-id]
+original=Database: {{title}} ({{id}})
+translation=База даних: {{title}} ({{id}})
+
+[importer.notion-api.label-mention-file]
+original=Mention file {{path}}
+translation=Файл згадки {{path}}
+
+[importer.notion-api.label-synced-block-file]
+original=Synced block file {{path}}
+translation=Файл синхронізованого блоку {{path}}
+
+[importer.notion-api.label-attachment]
+original=Attachment: {{name}}
+translation=Вкладення: {{name}}
+
+[importer.notion-api.label-child-page]
+original=Child page: {{title}}
+translation=Дочірня сторінка: {{title}}
+
+[importer.notion-api.label-synced-block]
+original=Synced block: {{name}}
+translation=Синхронізований блок: {{name}}
+
+[importer.notion-api.label-attachment-image]
+original=Image attachment
+translation=Вкладене зображення
+
+[importer.notion-api.label-attachment-video]
+original=Video attachment
+translation=Вкладене відео
+
+[importer.notion-api.label-attachment-audio]
+original=Audio attachment
+translation=Аудіовкладення
+
+[importer.notion-api.label-attachment-file]
+original=File attachment
+translation=Вкладений файл
+
+[importer.notion-api.label-attachment-pdf]
+original=PDF attachment
+translation=Вкладений PDF
+
+[importer.notion-api.label-preview-child-page]
+original=Child page
+translation=Дочірня сторінка
+
+[importer.notion-api.label-preview-database]
+original=Database
+translation=База даних
+
+[importer.notion-api.msg-preview-nested-content]
+original=Nested content is not loaded in the preview.
+translation=Вкладений вміст не завантажується у перегляді.
+
+[importer.notion-api.msg-preview-content-not-loaded]
+original={{type}} is not loaded in the preview.
+translation={{type}} не завантажено у перегляді.
+
+[importer.notion-api.msg-preview-content-not-loaded-with-caption]
+original={{type}}: {{caption}} is not loaded in the preview.
+translation={{type}}: {{caption}} не завантажено у перегляді.
+
+[importer.notion-api.msg-preview-block-not-expanded]
+original={{type}} is not expanded in the preview.
+translation={{type}} не розгорнуто у перегляді.
+
+[importer.notion-api.label-fetch-children]
+original=Fetch children for {{context}} {{id}}
+translation=Завантаження дочірніх елементів для {{context}} {{id}}
+
+[importer.notion-api.block-paragraph]
+original=paragraph
+translation=Абзац
+
+[importer.notion-api.block-bulleted-list-item]
+original=bulleted list item
+translation=елемент маркованого списку
+
+[importer.notion-api.block-numbered-list-item]
+original=numbered list item
+translation=елемент нумерованого списку
+
+[importer.notion-api.block-todo-item]
+original=to-do item
+translation=елемент завдань
+
+[importer.notion-api.block-quote]
+original=quote block
+translation=блок цитати
+
+[importer.notion-api.block-callout]
+original=callout block
+translation=блок виноски
+
+[importer.notion-api.block-toggle]
+original=toggle block
+translation=блок перемикача
+
+[importer.notion-api.block-toggleable-heading]
+original=toggleable heading
+translation=заголовок з перемикачем
+
+[importer.notion-api.block-column]
+original=column
+translation=Стовпець
+
+[importer.notion-api.block-column-list]
+original=column list
+translation=список стовпців
+
+[importer.notion-api.block-table]
+original=table
+translation=Таблиця
+
+[importer.notion-api.block-generic]
+original=block
+translation=блок
+
+[importer.notion-api.label-meeting-notes]
+original=Meeting notes: {{name}}
+translation=Нотатки зустрічі: {{name}}
+
+[importer.notion-api.label-meeting-notes-section]
+original=Meeting notes: {{name}} ({{section}})
+translation=Нотатки зустрічі: {{name}} ({{section}})
+
+[importer.notion-api.label-untitled-meeting]
+original=Meeting notes {{id}}
+translation=Нотатки зустрічі {{id}}
+
+[importer.notion-api.section-summary]
+original=summary
+translation=Підсумок
+
+[importer.notion-api.section-notes]
+original=notes
+translation=нотатки
+
+[importer.notion-api.section-transcript]
+original=transcript
+translation=транскрипція
+
+[importer.notion-api.label-fetch-children-block]
+original=Fetch children for block {{id}}
+translation=Завантаження дочірніх елементів блоку {{id}}
+
+[importer.notion-api.reason-not-in-tree]
+original=Item not found in tree
+translation=Елемент не знайдено в дереві
+
+[importer.notion-api.reason-unknown-type]
+original=Unknown type: {{type}}
+translation=Невідомий тип: {{type}}
+
+[importer.notion-api.reason-earlier-import]
+original=an earlier import had already written it
+translation=попередній імпорт вже записав його
+
+[importer.notion-api.reason-attachment-exists]
+original={{path}} is already in the vault, the same size (incremental import)
+translation={{path}} вже є у сховищі з таким самим розміром (інкрементний імпорт)
+
+[importer.notion-api.reason-http-status]
+original=HTTP {{status}}
+translation=HTTP {{status}}
+
+[importer.notion-api.reason-meeting-notes-pending]
+original=Notion has not finished generating them ({{status}})
+translation=Notion ще не завершив їх генерацію ({{status}})
+
+[importer.notion-api.reason-rate-limit-gave-up]
+original=rate limited, and gave up after {{retries}} retries
+translation=обмеження частоти запитів, спроби вичерпано після {{retries}} повторів
+
+[importer.notion-api.reason-gave-up]
+original={{reason}}, and gave up after {{retries}} retries
+translation={{reason}}, спроби вичерпано після {{retries}} повторів
+
+[importer.notion-api.reason-kept-link]
+original={{reason}}; kept the link to {{url}}
+translation={{reason}}; збережено посилання на {{url}}
+
+[importer.notion.name]
+original=Notion
+translation=Notion
+
+[importer.notion.option-text]
+original=Notion (.zip)
+translation=Notion (.zip)
+
+[importer.notion.method-name]
+original=File import
+translation=Імпорт із файлу
+
+[importer.notion.method-desc]
+original=Imports using a Notion export file (.zip). Requires no API token or internet connection, but does not preserve databases.
+translation=Імпортує з експортованого файлу Notion (.zip). Не потребує API-токена чи підключення до інтернету, але не зберігає бази даних.
+
+[importer.notion.file-type]
+original=Exported Notion
+translation=Експортований Notion
+
+[importer.notion.label-id]
+original=Notion ID
+translation=Notion ID
+
+[importer.notion.desc-export]
+original=Export your workspace in HTML format, you will receive a zip file.
+translation=Експортуйте робочий простір у форматі HTML — ви отримаєте zip-файл.
+
+[importer.notion.desc-files]
+original=Pick the zip file Notion sent you.
+translation=Виберіть zip-файл, отриманий від Notion.
+
+[importer.notion.name-subfolders]
+original=Save parent pages in subfolders
+translation=Зберігати батьківські сторінки у підтеках
+
+[importer.notion.desc-subfolders]
+original=Places the parent database pages in the same folder as the nested content.
+translation=Розміщує батьківські сторінки бази даних у тій самій теці, що й вкладений вміст.
+
+[importer.notion.name-single-line-breaks]
+original=Single line breaks
+translation=Одинарні розриви рядків
+
+[importer.notion.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break (default is 2).
+translation=Розділяти блоки Notion лише одним розривом рядка (за замовчуванням — 2).
+
+[importer.notion.msg-unknown-property]
+original=Property "{{property}}" has an unknown type ({{type}}); kept its value as text.
+translation=Властивість "{{property}}" має невідомий тип ({{type}}); значення збережено як текст.
+
+[importer.notion.msg-unparsed-date]
+original=Could not determine the date in property "{{property}}": {{value}}. Kept its value as text.
+translation=Не вдалося визначити дату у властивості "{{property}}": {{value}}. Значення збережено як текст.
+
+[importer.notion.status-looking]
+original=Looking for files to import
+translation=Пошук файлів для імпорту
+
+[importer.notion.status-resolving]
+original=Resolving links and de-duplicating files
+translation=Розв'язання посилань і усунення дублікатів файлів
+
+[importer.notion.status-starting]
+original=Starting import
+translation=Початок імпорту
+
+[importer.notion.msg-markdown-export]
+original=This is a Markdown export. Export your Notion workspace as HTML instead.
+translation=Це експорт у Markdown. Натомість експортуйте свій робочий простір Notion як HTML.
+
+[importer.notion.reason-markdown-export]
+original=it is a Markdown export; export your Notion workspace as HTML instead
+translation=це експорт у Markdown; натомість експортуйте робочий простір Notion як HTML
+
+[importer.notion.reason-no-page-body]
+original=page body was not found
+translation=тіло сторінки не знайдено
+
+[importer.roam-json.name]
+original=Roam Research
+translation=Roam Research
+
+[importer.roam-json.option-text]
+original=Roam Research (.json)
+translation=Roam Research (.json)
+
+[importer.roam-json.file-type]
+original=Roam (.json)
+translation=Roam (.json)
+
+[importer.roam-json.label-id]
+original=Roam UID
+translation=Roam UID
+
+[importer.roam-json.desc-export]
+original=Export your data in JSON format.
+translation=Експортуйте свої дані у форматі JSON.
+
+[importer.roam-json.desc-files]
+original=Pick the JSON file from your Roam export.
+translation=Виберіть JSON-файл з експорту Roam.
+
+[importer.roam-json.name-embed-block-references]
+original=Show referenced blocks in place
+translation=Показувати вміст блоків за посиланням
+
+[importer.roam-json.desc-embed-block-references]
+original=Roam shows the contents of a referenced block where the reference stands. If enabled, references become embeds rather than links.
+translation=Roam показує вміст блоку, на який є посилання, на місці цього посилання. Якщо увімкнено, посилання стають вбудуваннями, а не посиланнями.
+
+[importer.roam-json.name-drop-unresolved-references]
+original=Remove references to missing blocks
+translation=Видалити посилання на відсутні блоки
+
+[importer.roam-json.desc-drop-unresolved-references]
+original=Some references name a block that is not in the export. If enabled, they are removed; if not, they are kept as Roam wrote them.
+translation=Деякі посилання вказують на блок, якого немає в експорті. Якщо увімкнено, вони видаляються; якщо ні — залишаються так, як їх записав Roam.
+
+[importer.roam-json.name-convert-attributes]
+original=Convert attributes to properties
+translation=Перетворити атрибути на властивості
+
+[importer.roam-json.desc-convert-attributes]
+original=Convert eligible top-level Roam attributes into Obsidian properties. Referenced attributes remain in the note so links to them keep working.
+translation=Перетворює відповідні атрибути верхнього рівня Roam на властивості Obsidian. Атрибути з посиланнями залишаються в нотатці, щоб посилання на них продовжували працювати.
+
+[importer.roam-json.name-tags-as-links]
+original=Convert tags to links
+translation=Перетворити мітки на посилання
+
+[importer.roam-json.desc-tags-as-links]
+original=A tag in Roam is a reference to the page of that name. If enabled, "#tag" becomes "[[tag]]".
+translation=Мітка в Roam — це посилання на сторінку з такою назвою. Якщо увімкнено, "#tag" стає "[[tag]]".
+
+[importer.roam-json.name-drop-queries]
+original=Remove queries
+translation=Видалити запити
+
+[importer.roam-json.desc-drop-queries]
+original=If enabled, queries are removed. If not, a query becomes an Obsidian search that shows its results in the note.
+translation=Якщо увімкнено, запити видаляються. Якщо ні, запит стає пошуком Obsidian, який показує результати в нотатці.
+
+[importer.roam-json.reason-empty-title]
+original=Title is empty
+translation=Назва є пустою
+
+[importer.roam-json.reason-unexpected-extension]
+original=Unexpected file extension
+translation=Неочікуване extension
+
+[importer.textbundle.name]
+original=Textbundle files
+translation=Файли Textbundle
+
+[importer.textbundle.option-text]
+original=Textbundle (.textbundle, .textpack)
+translation=Textbundle (.textbundle, .textpack)
+
+[importer.textbundle.file-type]
+original=Textbundle
+translation=Textbundle
+
+[importer.textbundle.desc-export]
+original=Export your notes as textbundle or textpack, which Agenda, Craft, Taio, Ulysses and Zettlr can all write.
+translation=Експортуйте нотатки як textbundle або textpack — цей формат підтримують Agenda, Craft, Taio, Ulysses і Zettlr.
+
+[importer.textbundle.msg-platform]
+original=Due to platform limitations, only textpack and zip files can be imported from this device. Open your vault on a Mac to import textbundle files.
+translation=Через обмеження платформи з цього пристрою можна імпортувати лише файли textpack і zip. Відкрийте своє сховище на Mac, щоб імпортувати файли textbundle.
+
+[importer.textbundle.reason-no-markdown]
+original=The textbundle does not contain markdown
+translation=Textbundle не містить Markdown
+
+[importer.textbundle.reason-not-media]
+original=the file is not a media or markdown file.
+translation=файл не є медіафайлом або файлом Markdown.
+
+[importer.textbundle.reason-already-exists]
+original=the file already exists.
+translation=файл уже існує.
+
+[importer.tomboy.name]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.option-text]
+original=Tomboy/Gnote (.note)
+translation=Tomboy/Gnote (.note)
+
+[importer.tomboy.file-type]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.label-id]
+original=Tomboy ID
+translation=Tomboy ID
+
+[importer.tomboy.desc-files-mac]
+original=Tomboy notes are typically found in: ~/Library/Application Support/Tomboy
+translation=Нотатки Tomboy зазвичай знаходяться в: ~/Library/Application Support/Tomboy
+
+[importer.tomboy.desc-files-windows]
+original=Tomboy notes are typically found in: %APPDATA%\\Tomboy
+translation=Нотатки Tomboy зазвичай знаходяться в: %APPDATA%\\Tomboy
+
+[importer.tomboy.desc-files-linux]
+original=Tomboy notes are typically found in: ~/.local/share/tomboy - or GNote: ~/.local/share/gnote
+translation=Нотатки Tomboy зазвичай знаходяться в: ~/.local/share/tomboy — або GNote: ~/.local/share/gnote
+
+[importer.tomboy.name-todo]
+original=Convert TODO lists to checkboxes
+translation=Перетворити списки TODO на прапорці
+
+[importer.tomboy.desc-todo]
+original=When enabled, lists in notes with "TODO" in the title will be converted to task lists with checkboxes. Strikethrough items will be marked as completed.
+translation=Якщо увімкнено, списки в нотатках із "TODO" в назві будуть перетворені на списки завдань із прапорцями. Закреслені елементи будуть позначені як виконані.
+
+[importer.tomboy.name-keep-title]
+original=Keep title in Markdown
+translation=Зберігати назву в Markdown
+
+[importer.tomboy.desc-keep-title]
+original=Choose whether to keep the note title in the Markdown content. The automatic option keeps titles only when special characters are lost in filename conversion.
+translation=Обрати, чи зберігати назву нотатки у вмісті Markdown. Автоматично — назви зберігаються лише тоді, коли спеціальні символи втрачаються при перетворенні на ім'я файлу.
+
+[importer.tomboy.option-automatic]
+original=Automatic
+translation=Автоматично
+
+[importer.tomboy.option-keep-titles]
+original=Keep titles
+translation=Зберігати назви
+
+[importer.tomboy.option-filename-only]
+original=Filename only
+translation=Лише ім'я файлу

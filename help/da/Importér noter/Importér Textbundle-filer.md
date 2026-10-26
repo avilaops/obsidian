@@ -1,0 +1,42 @@
+---
+permalink: import/textbundle
+aliases:
+  - Import af Textbundle filer
+  - Import af noter/Import af Textbundle filer
+cssclasses:
+  - soft-embed
+---
+Obsidian giver dig mulighed for nemt at importere [Textbundle](https://textbundle.org/)-filer ved hjælp af det officielle [[Importér|Importer-plugin]].
+
+Hvis du importerer noter fra en bestemt applikation, vil du måske først gennemgå listen over applikationer, der understøttes af [[Importér|Importer-pluginnet]], for at se om der findes en specifik konverter, der bedre bevarer de data, du migrerer.
+
+Textbundle-formatet samler Markdown-tekst og alle refererede billeder i en enkelt fil, hvilket giver en mere problemfri måde at flytte data ud af en sandboxet applikation. Textbundle-eksport understøttes af [mange applikationer](https://textbundle.org/), herunder Agenda, Craft, Taio, Ulysses, Zettlr og flere.
+
+## Importér Textbundle-filer til Obsidian
+
+Du skal bruge det officielle Obsidian [[Importér]]-plugin, som du kan [installere her](obsidian://show-plugin?id=obsidian-importer).
+
+1. Åbn **[[Indstillinger]]**.
+2. Gå til **Fællesskabsplugins** og [installér Importer](obsidian://show-plugin?id=obsidian-importer).
+3. Aktivér Importer-pluginnet.
+4. Åbn **Importer**-pluginnet ved hjælp af kommandopaletten eller værktøjslinjeikonen.
+5. Under **Filformat** vælg **Textbundle (.textbundle, .textpack).**
+6. Vælg placeringen af dine Textbundle- eller Textpack-filer. Zip-filer understøttes også.
+7. Vælg **Importér** for at gennemgå den genererede skabelon og forhåndsvise eksempler fra dine noter.
+8. Vælg **Importér** igen, og vent til importen er færdig.
+
+## Tilpas importerede noter
+
+Før importen begynder, viser Importer en forhåndsvisning genereret fra de valgte Textbundle-filer. Du kan redigere den genererede skabelon eller vælge en Markdown-skabelon fra din boks. Se [[Importér skabeloner|Importer-skabeloner]].
+
+## Fejlfinding
+
+### Ingen filer er valgt til import
+
+Textbundle-importen kan kun importere én Textbundle-fil ad gangen, og kun på Mac-enheder. I stedet kan du komprimere alle de Textbundle-filer, du ønsker at importere, til en enkelt .zip-fil og importere denne i stedet fra enhver enhed.
+
+## Skabeloner
+
+Brug [[Importér skabeloner|Importer-skabeloner]] til fuldt ud at konfigurere, hvordan dine data importeres.
+
+![[Importér skabeloner#Variabler]]

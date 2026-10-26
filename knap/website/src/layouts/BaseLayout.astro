@@ -1,0 +1,67 @@
+---
+import '../styles/global.scss';
+import { formatPageTitle } from '../lib/page-title';
+
+interface Props {
+  title?: string;
+  description?: string;
+  markdownPath?: string;
+}
+
+const {
+  title,
+  description = 'Knap is a simple template language that turns data into Markdown using logic, variables, and filters.',
+  markdownPath,
+} = Astro.props;
+const pageTitle = formatPageTitle(title);
+const canonicalPath = Astro.url.pathname.replace(/\/index\.html$/, '/').replace(/\.html$/, '');
+const canonical = new URL(canonicalPath, Astro.site);
+const socialImage = new URL('/social.png', Astro.site);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="preconnect" href="https://rsms.me/" crossorigin />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    {markdownPath && <link rel="alternate" type="text/markdown" href={markdownPath} title={`${title ?? 'Knap'} as Markdown`} />}
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={socialImage} />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImage} />
+    <title>{pageTitle}</title>
+    <style is:inline>
+      html[data-initial-hash] { scroll-behavior: auto; }
+      a { color: inherit; text-decoration: none; }
+      button.header-action { appearance: none; border: 1px solid transparent; outline: 0; background: transparent; color: inherit; font: inherit; }
+    </style>
+    <script is:inline>
+      if (window.location.hash) {
+        document.documentElement.dataset.initialHash = '';
+        window.addEventListener('load', () => {
+          window.requestAnimationFrame(() => {
+            window.requestAnimationFrame(() => delete document.documentElement.dataset.initialHash);
+          });
+        }, { once: true });
+      }
+    </script>
+  </head>
+  <body><slot /></body>
+</html>
+
+<script>
+  import '../scripts/site';
+</script>

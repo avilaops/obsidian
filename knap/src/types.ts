@@ -1,0 +1,99 @@
+import type { ASTNode, ParserResult } from './parser';
+import type { TemplateError, TemplateWarning, TemplateWarningCode } from './errors';
+
+export type TemplateValue = unknown;
+export type TemplateVariables = Record<string, TemplateValue>;
+
+export interface ParamValidationResult {
+	valid: boolean;
+	error?: string;
+}
+
+export type ParamValidator = (param: string | undefined) => ParamValidationResult;
+
+export interface FilterMetadata {
+	example?: string;
+	validateParams?: ParamValidator;
+}
+
+export interface FilterWarning {
+	message: string;
+	code?: TemplateWarningCode;
+}
+
+export interface FilterContext<TContext = unknown> {
+	variables: TemplateVariables;
+	context?: TContext;
+	/** The value before Knap serializes it for the filter's string argument. */
+	rawValue?: TemplateValue;
+	/** Evaluated filter arguments before Knap serializes them into the parameter string. */
+	rawArguments?: TemplateValue[];
+	reportWarning?: (warning: FilterWarning) => void;
+	/** False makes split literal and disables regex replacements. */
+	allowRegex?: boolean;
+	/** Host budget checks, also used between built-in filter operations. */
+	checkValue?: (value: unknown) => void;
+	checkLength?: (length: number) => void;
+}
+
+export interface TemplateFilter<TContext = unknown> {
+	(value: string, param?: string, context?: FilterContext<TContext>): TemplateValue | Promise<TemplateValue>;
+	metadata?: FilterMetadata;
+}
+
+export type FilterRegistry<TContext = unknown> = Record<string, TemplateFilter<TContext>>;
+
+export interface VariableResolverContext<TContext = unknown> {
+	variables: TemplateVariables;
+	context?: TContext;
+}
+
+export type VariableResolver<TContext = unknown> = (
+	name: string,
+	context: VariableResolverContext<TContext>,
+) => TemplateValue | Promise<TemplateValue>;
+
+export interface EngineOptions<TContext = unknown> {
+	filters?: FilterRegistry<TContext>;
+	limits?: RenderLimits;
+	/** Native regexes require worker/process isolation for untrusted input. Defaults to true. */
+	allowRegex?: boolean;
+}
+
+export interface RenderLimits {
+	maxTemplateLength?: number;
+	maxOutputLength?: number;
+	maxValueLength?: number;
+	maxOperations?: number;
+	maxDepth?: number;
+}
+
+export interface ParseOptions {
+	maxTemplateLength?: number;
+	maxDepth?: number;
+}
+
+export interface RenderInput<TContext = unknown> {
+	variables: TemplateVariables;
+	context?: TContext;
+	resolveVariable?: VariableResolver<TContext>;
+}
+
+export interface RenderOptions {
+	trimOutput?: boolean;
+	limits?: RenderLimits;
+}
+
+export interface TemplateResult {
+	output: string;
+	errors: TemplateError[];
+	warnings: TemplateWarning[];
+}
+
+export interface TemplateEngine<TContext = unknown> {
+	readonly filters: Readonly<FilterRegistry<TContext>>;
+	parse(template: string): ParserResult;
+	validate(templateOrAst: string | ASTNode[]): TemplateError[];
+	render(template: string, input: RenderInput<TContext>, options?: RenderOptions): Promise<TemplateResult>;
+	renderOrThrow(template: string, input: RenderInput<TContext>, options?: RenderOptions): Promise<string>;
+}

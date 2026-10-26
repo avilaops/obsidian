@@ -1,0 +1,78 @@
+import type { IconName, SettingTab } from 'obsidian';
+
+declare module 'obsidian' {
+	/** Obsidian 1.13 API missing from the published types. */
+	class SettingPage {
+		rootEl: HTMLElement;
+		titlebarEl: HTMLElement;
+		containerEl: HTMLElement;
+		title: string;
+		display(): void;
+		hide(): void;
+	}
+
+	/** Runtime fields missing from the published types. */
+	interface SettingGroup {
+		groupEl: HTMLElement;
+		listEl: HTMLElement;
+	}
+
+	/** Obsidian 1.13 methods missing from the published types. */
+	interface Setting {
+		setNavigable(onNavigate: () => void): this;
+		setAction(onAction: () => void): this;
+		setIcon(icon: IconName | null): this;
+	}
+
+	interface App {
+		setting: {
+			open(): void;
+			close(): void;
+			openTabById(id: string): void;
+			openPage(page: SettingPage): void;
+			closePage(): void;
+			activeTab: SettingTab | null;
+		};
+
+		metadataTypeManager: {
+			getAssignedWidget: (key: string) => string | null;
+			setType: (key: string, type: string) => void;
+		};
+	}
+
+	interface Vault {
+		getConfig: (key: string) => any;
+
+		/**
+		 * Look up a file or folder, ignoring case.
+		 *
+		 * getAbstractFileByPath is an exact key match on the vault's file map, but
+		 * macOS and Windows filesystems are case-insensitive: "Tron.md" and "TRON.md"
+		 * are one file on disk while the public lookup reports only the exact
+		 * spelling as existing, so a caller relying on it never sees the conflict.
+		 *
+		 * Only for questions of the form "does this already exist?". To pick a path
+		 * to create at, use getUniqueFilePath, which asks the vault for a free one.
+		 */
+		getAbstractFileByPathInsensitive(path: string): TAbstractFile | null;
+
+		/**
+		 * Get a free path to create a file at, appending 1, 2, etc. if needed.
+		 *
+		 * What Obsidian itself uses when creating a note: it applies the "space +
+		 * number" convention and compares case-insensitively, so it will not hand
+		 * back a path that collides with an existing file on a case-insensitive
+		 * filesystem.
+		 */
+		getAvailablePath(base: string, extension?: string): string;
+	}
+
+	interface TFolder {
+		getParentPrefix(): string;
+	}
+
+	interface SecretStorage {
+		// Available at runtime but missing from Obsidian's public types.
+		deleteSecret(id: string): void;
+	}
+}

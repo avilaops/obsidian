@@ -1,0 +1,159 @@
+.example-card {
+  min-width: 0;
+  margin: 0 0 20px;
+  overflow: hidden;
+  border-radius: var(--radius-panel);
+  background: var(--panel);
+  padding: 12px 20px 24px;
+}
+
+.example-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 28px;
+  margin-right: -8px;
+  color: var(--muted);
+  font-size: var(--font-size-small);
+}
+
+.example-opening {
+  min-width: 0;
+  overflow: hidden;
+  font-family: var(--font-mono);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.example-figure {
+  display: grid;
+  // A track that can shrink, so a wide diagram scales down instead of widening the card.
+  grid-template-columns: minmax(0, 1fr);
+  place-items: center;
+  container: example / inline-size;
+  min-height: 120px;
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: var(--font-size-small);
+
+  // The diagram sits on the panel, so its tokens step up one level from the page.
+  &[data-pele-theme] {
+    --pele-bg: var(--panel);
+    --pele-surface: var(--line);
+    --pele-surface-alt: var(--line-hover);
+    --pele-border: var(--line-active);
+  }
+
+  svg { display: block; }
+}
+
+// A box of its own for each drawing, as wide as the figure, so that its zoom has a width to
+// follow. The drawing is centered in it and shrinks as a lone one does.
+.example-wide, .example-medium, .example-narrow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  place-items: center;
+  width: 100%;
+}
+.example-medium, .example-narrow { display: none; }
+
+// The drawings are 640, 480 and 320 wide. Each gives way to the next where it would be shrunk by
+// more than a little, going by the width of the figure and not of the screen: the docs column
+// is narrow on a small desktop as well as on a phone.
+@container example (max-width: 599px) {
+  .has-medium > .example-wide { display: none; }
+  .example-medium { display: grid; }
+}
+
+@container example (max-width: 439px) {
+  .has-narrow > .example-wide, .has-narrow > .example-medium { display: none; }
+  .example-narrow { display: grid; }
+}
+
+@media (max-width: 760px) {
+  .example-card { padding-inline: 16px; }
+}
+
+.example-title {
+  min-width: 0;
+  color: var(--paper);
+}
+
+.example-note {
+  color: var(--muted);
+}
+
+.example-error {
+  margin: 14px 0 0;
+  overflow-x: auto;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: var(--font-size-small);
+  white-space: pre-wrap;
+}
+
+.compare-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: 14px;
+
+  @media (max-width: 760px) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.compare-side {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 10px;
+  min-width: 0;
+}
+
+.compare-name {
+  color: var(--muted);
+  font-size: var(--font-size-small);
+}
+
+.compare-drawing {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  place-items: center;
+  min-height: 80px;
+
+  &[data-pele-theme] {
+    --pele-bg: var(--panel);
+    --pele-surface: var(--line);
+    --pele-surface-alt: var(--line-hover);
+    --pele-border: var(--line-active);
+  }
+
+  svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.compare-list {
+  border-top: 1px solid var(--line);
+}
+
+.markdown-doc .compare-row {
+  display: grid;
+  grid-template-columns: 180px 1fr auto;
+  gap: 20px;
+  align-items: baseline;
+  border-bottom: 1px solid var(--line);
+  padding-block: 13px;
+  color: var(--muted);
+  font-size: var(--font-size-small);
+  text-decoration: none;
+
+  .compare-row-title { color: var(--paper); }
+
+  @media (hover: hover) {
+    &:hover { color: var(--paper); }
+  }
+}

@@ -1,0 +1,2787 @@
+[heading.bases/How to use bases]
+original=How to use bases
+translation=របៀបប្រើ bases
+
+[heading.bases/View types]
+original=View types
+translation=ប្រភេទទិដ្ឋភាព
+
+[heading.bases/Toolbar]
+original=Toolbar
+translation=របារឧបករណ៍
+
+[heading.bases/Add and switch views]
+original=Add and switch views
+translation=បន្ថែម និងប្តូរទិដ្ឋភាព
+
+[heading.bases/View settings]
+original=View settings
+translation=ការកំណត់ទិដ្ឋភាព
+
+[heading.bases/Layout]
+original=Layout
+translation=ប្លង់
+
+[heading.bases/Filters]
+original=Filters
+translation=តម្រង
+
+[heading.bases/Components of a filter]
+original=Components of a filter
+translation=សមាសធាតុនៃតម្រង
+
+[heading.bases/Conjunctions]
+original=Conjunctions
+translation=សន្ធិ
+
+[heading.bases/Filter groups]
+original=Filter groups
+translation=ក្រុមតម្រង
+
+[heading.bases/Advanced filter editor]
+original=Advanced filter editor
+translation=កម្មវិធីកែសម្រួលតម្រងកម្រិតខ្ពស់
+
+[heading.bases/Sort and group results]
+original=Sort and group results
+translation=តម្រៀប និងដាក់ជាក្រុមលទ្ធផល
+
+[heading.bases/Add a sort]
+original=Add a sort
+translation=បន្ថែមការតម្រៀប
+
+[heading.bases/Remove a sort]
+original=Remove a sort
+translation=ដកការតម្រៀបចេញ
+
+[heading.bases/Limit, copy, and export results]
+original=Limit, copy, and export results
+translation=កំណត់ ចម្លង និងនាំចេញលទ្ធផល
+
+[heading.bases/Limit results]
+original=Limit results
+translation=កំណត់លទ្ធផល
+
+[heading.bases/Copy to clipboard]
+original=Copy to clipboard
+translation=ចម្លងទៅក្ដារតម្បៀតអត់សារ
+
+[heading.bases/Export CSV]
+original=Export CSV
+translation=នាំចេញ CSV
+
+[heading.bases/Embed a view]
+original=Embed a view
+translation=បង្កប់ទិដ្ឋភាព
+
+[heading.bases/Create a new base]
+original=Create a new base
+translation=បង្កើត base ថ្មីមួយ
+
+[heading.bases/Embed a base]
+original=Embed a base
+translation=បង្កប់ base
+
+[heading.bases/Embed a base file]
+original=Embed a base file
+translation=បង្កប់ឯកសារ base
+
+[heading.bases/Embed a base as a code block]
+original=Embed a base as a code block
+translation=បង្កប់ base ជា code block
+
+[heading.bases/Settings]
+original=Settings
+translation=ការកំណត់
+
+[heading.bases/Card size]
+original=Card size
+translation=ទំហំកាត
+
+[heading.bases/Image property]
+original=Image property
+translation=លក្ខណៈសម្បត្តិរូបភាព
+
+[heading.bases/Image fit]
+original=Image fit
+translation=ការសម្របរូបភាព
+
+[heading.bases/Image aspect ratio]
+original=Image aspect ratio
+translation=សមាមាត្ររូបភាព
+
+[heading.bases/Row height]
+original=Row height
+translation=កម្ពស់ជួរដេក
+
+[heading.bases/Summaries]
+original=Summaries
+translation=សេចក្តីសង្ខេប
+
+[heading.bases/Add a summary]
+original=Add a summary
+translation=បន្ថែមសេចក្តីសង្ខេប
+
+[heading.bases/Built-in summaries]
+original=Built-in summaries
+translation=សេចក្តីសង្ខេបដែលមានស្រាប់
+
+[heading.bases/All property types]
+original=All property types
+translation=ប្រភេទលក្ខណៈសម្បត្តិទាំងអស់
+
+[heading.bases/Numbers]
+original=Numbers
+translation=លេខ
+
+[heading.bases/Dates]
+original=Dates
+translation=កាលបរិច្ឆេទ
+
+[heading.bases/Checkbox]
+original=Checkbox
+translation=ប្រអប់ធីក
+
+[heading.bases/Custom summaries]
+original=Custom summaries
+translation=សេចក្តីសង្ខេបផ្ទាល់ខ្លួន
+
+[heading.bases/Shortcuts]
+original=Shortcuts
+translation=ផ្លូវកាត់
+
+[heading.bases/Markers]
+original=Markers
+translation=សញ្ញាសម្គាល់
+
+[heading.bases/Indent properties]
+original=Indent properties
+translation=បន្ទាប់បន្សំលក្ខណៈសម្បត្តិ
+
+[heading.bases/Separators]
+original=Separators
+translation=សញ្ញាបំបែក
+
+[heading.bases/Install the Maps plugin]
+original=Install the Maps plugin
+translation=ដំឡើងកម្មវិធីជំនួយ Maps
+
+[heading.bases/Example]
+original=Example
+translation=ឧទាហរណ៍
+
+[heading.bases/Coordinates]
+original=Coordinates
+translation=កូអរដោនេ
+
+[heading.bases/Icons]
+original=Icons
+translation=រូបតំណាង
+
+[heading.bases/Use a formula to define icons]
+original=Use a formula to define icons
+translation=ប្រើរូបមន្តដើម្បីកំណត់រូបតំណាង
+
+[heading.bases/Colors]
+original=Colors
+translation=ពណ៌
+
+[heading.bases/Background]
+original=Background
+translation=ផ្ទៃខាងក្រោយ
+
+[heading.bases/Map tiles]
+original=Map tiles
+translation=ក្រឡាផែនទី
+
+[heading.bases/Useful links]
+original=Useful links
+translation=តំណភ្ជាប់មានប្រយោជន៍
+
+[heading.bases/Tips]
+original=Tips
+translation=គន្លឹះ
+
+[heading.bases/Troubleshooting]
+original=Troubleshooting
+translation=ការដោះស្រាយបញ្ហា
+
+[heading.bases/Global]
+original=Global
+translation=ជាសកល
+
+[heading.bases/Any]
+original=Any
+translation=ណាមួយ
+
+[heading.bases/Date]
+original=Date
+translation=កាលបរិច្ឆេទ
+
+[heading.bases/Fields]
+original=Fields
+translation=វាល
+
+[heading.bases/String]
+original=String
+translation=ខ្សែអក្សរ
+
+[heading.bases/Number]
+original=Number
+translation=លេខ
+
+[heading.bases/List]
+original=List
+translation=បញ្ជី
+
+[heading.bases/Link]
+original=Link
+translation=តំណភ្ជាប់
+
+[heading.bases/File]
+original=File
+translation=ឯកសារ
+
+[heading.bases/Object]
+original=Object
+translation=វត្ថុ
+
+[heading.bases/Regular expression]
+original=Regular expression
+translation=កន្សោមទៀងទាត់
+
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=ដាក់កាតជាក្រុមក្នុងជួរឈរ
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=ធ្វើការជាមួយកាត និងជួរឈរ
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=លាក់ជួរឈរទទេ
+
+[heading.bases/Column width]
+original=Column width
+translation=ទទឹងជួរឈរ
+
+[heading.formulas/What formulas can do]
+original=What formulas can do
+translation=អ្វីដែលរូបមន្តអាចធ្វើបាន
+
+[heading.formulas/Create a formula property]
+original=Create a formula property
+translation=បង្កើតលក្ខណៈសម្បត្តិរូបមន្ត
+
+[heading.formulas/Write a formula]
+original=Write a formula
+translation=សរសេររូបមន្ត
+
+[heading.formulas/Reference properties]
+original=Reference properties
+translation=យោងលក្ខណៈសម្បត្តិ
+
+[heading.formulas/Use operators]
+original=Use operators
+translation=ប្រើសញ្ញាប្រមាណវិធី
+
+[heading.formulas/Use functions]
+original=Use functions
+translation=ប្រើអនុគមន៍
+
+[heading.formulas/Formula examples]
+original=Formula examples
+translation=ឧទាហរណ៍រូបមន្ត
+
+[heading.formulas/Calculate a deadline]
+original=Calculate a deadline
+translation=គណនាថ្ងៃផុតកំណត់
+
+[heading.formulas/Display overdue status]
+original=Display overdue status
+translation=បង្ហាញស្ថានភាពហួសកំណត់
+
+[heading.formulas/Format currency]
+original=Format currency
+translation=ធ្វើទ្រង់ទ្រាយរូបិយប័ណ្ណ
+
+[heading.formulas/Count list items]
+original=Count list items
+translation=រាប់ធាតុបញ្ជី
+
+[heading.formulas/Calculate priority score]
+original=Calculate priority score
+translation=គណនាពិន្ទុអាទិភាព
+
+[heading.formulas/Combine text fields]
+original=Combine text fields
+translation=បញ្ចូលគ្នាវាលអត្ថបទ
+
+[heading.formulas/Calculate total cost]
+original=Calculate total cost
+translation=គណនាថ្លៃសរុប
+
+[heading.formulas/Data types]
+original=Data types
+translation=ប្រភេទទិន្នន័យ
+
+[heading.formulas/Reference other formulas]
+original=Reference other formulas
+translation=យោងរូបមន្តផ្សេងទៀត
+
+[heading.android/Sync]
+original=Sync
+translation=សមកាលកម្ម
+
+[heading.android/Vault location]
+original=Vault location
+translation=ទីតាំង vault
+
+[heading.android/Device storage]
+original=Device storage
+translation=ទំហំផ្ទុកឧបករណ៍
+
+[heading.android/App storage]
+original=App storage
+translation=ទំហំផ្ទុកកម្មវិធី
+
+[heading.ios/Sync]
+original=Sync
+translation=សមកាលកម្ម
+
+[heading.ios/Lock Screen and Control Center widgets]
+original=Lock Screen and Control Center widgets
+translation=Widgets របារចាក់សោ និងមជ្ឈមណ្ឌលគ្រប់គ្រង
+
+[heading.ios/Home Screen widgets]
+original=Home Screen widgets
+translation=Widgets អេក្រង់ដើម
+
+[heading.ios/Customizing widgets]
+original=Customizing widgets
+translation=ការកំណត់ widgets តាមតម្រូវការ
+
+[heading.ios/Share Sheet Extension]
+original=Share Sheet Extension
+translation=ផ្នែកបន្ថែម Share Sheet
+
+[heading.ios/Siri integration]
+original=Siri integration
+translation=ការរួមបញ្ចូល Siri
+
+[heading.ios/Spotlight integration]
+original=Spotlight integration
+translation=ការរួមបញ្ចូល Spotlight
+
+[heading.2fa/Enable 2FA]
+original=Enable 2FA
+translation=បើក 2FA
+
+[heading.2fa/Generate recovery codes]
+original=Generate recovery codes
+translation=បង្កើតកូដសង្គ្រោះ
+
+[heading.2fa/Disable 2FA]
+original=Disable 2FA
+translation=បិទ 2FA
+
+[heading.2fa/FAQ]
+original=FAQ
+translation=សំណួរដែលគេសួរញឹកញាប់
+
+[heading.early-access/Enable early access versions for desktop]
+original=Enable early access versions for desktop
+translation=បើកកំណែចូលប្រើមុនសម្រាប់កុំព្យូទ័រ
+
+[heading.early-access/Install early access versions on mobile devices]
+original=Install early access versions on mobile devices
+translation=ដំឡើងកំណែចូលប្រើមុននៅលើឧបករណ៍ទូរសព្ទ
+
+[heading.early-access/Report issues and other feedback]
+original=Report issues and other feedback
+translation=រាយការណ៍បញ្ហា និងមតិកែលម្អផ្សេងទៀត
+
+[heading.early-access/Switch back to public versions on desktop]
+original=Switch back to public versions on desktop
+translation=ប្តូរត្រឡប់ទៅកំណែសាធារណៈនៅលើកុំព្យូទ័រ
+
+[heading.early-access/Switch back to public versions on mobile]
+original=Switch back to public versions on mobile
+translation=ប្តូរត្រឡប់ទៅកំណែសាធារណៈនៅលើទូរសព្ទ
+
+[heading.community-code-of-conduct/The rules]
+original=The rules
+translation=វិធាន
+
+[heading.community-code-of-conduct/Serious offenses]
+original=Serious offenses
+translation=បទល្មើសធ្ងន់ធ្ងរ
+
+[heading.community-code-of-conduct/Harassment]
+original=Harassment
+translation=ការបៀតបៀន
+
+[heading.community-code-of-conduct/Threats]
+original=Threats
+translation=ការគំរាម
+
+[heading.community-code-of-conduct/Blatant -isms]
+original=Blatant -isms
+translation=ការរើសអើងយ៉ាងច្បាស់លាស់
+
+[heading.community-code-of-conduct/Other offenses]
+original=Other offenses
+translation=បទល្មើសផ្សេងទៀត
+
+[heading.community-code-of-conduct/Belligerence]
+original=Belligerence
+translation=ការប្រឈមមុខ
+
+[heading.community-code-of-conduct/Being especially unpleasant]
+original=Being especially unpleasant
+translation=ការប្រព្រឹត្តអាក្រក់ជាពិសេស
+
+[heading.community-code-of-conduct/Unsolicited messages to community members]
+original=Unsolicited messages to community members
+translation=ការផ្ញើសាររំខានដល់សមាជិកសហគមន៍
+
+[heading.community-code-of-conduct/Other behaviors]
+original=Other behaviors
+translation=អាកប្បកិរិយាផ្សេងទៀត
+
+[heading.community-code-of-conduct/Sea-lioning]
+original=Sea-lioning
+translation=ការ Sea-lioning
+
+[heading.community-code-of-conduct/"Feed me"]
+original="Feed me"
+translation="បំពេញខ្ញុំ"
+
+[heading.community-code-of-conduct/Campaigning]
+original=Campaigning
+translation=ការចោទសំណូមពរជាបន្ត
+
+[heading.community-code-of-conduct/Excessive self promotion]
+original=Excessive self promotion
+translation=ការផ្សព្វផ្សាយខ្លួនឯងហួសហេតុ
+
+[heading.obsidian/What is Obsidian]
+original=What is Obsidian
+translation=Obsidian ជាអ្វី
+
+[heading.obsidian/How we're different]
+original=How we're different
+translation=តើយើងខុសគ្នាយ៉ាងដូចម្ដេច
+
+[heading.obsidian/You own and control your data]
+original=You own and control your data
+translation=អ្នកជាម្ចាស់ និងគ្រប់គ្រងទិន្នន័យរបស់អ្នក
+
+[heading.obsidian/Links are first-class citizens]
+original=Links are first-class citizens
+translation=តំណភ្ជាប់ជាពលរដ្ឋថ្នាក់ទីមួយ
+
+[heading.obsidian/Your own toolkit]
+original=Your own toolkit
+translation=ឧបករណ៍ផ្ទាល់ខ្លួនរបស់អ្នក
+
+[heading.obsidian/Follow our development]
+original=Follow our development
+translation=តាមដានការអភិវឌ្ឍន៍របស់យើង
+
+[heading.credits/Team]
+original=Team
+translation=ក្រុម
+
+[heading.credits/Development]
+original=Development
+translation=ការអភិវឌ្ឍន៍
+
+[heading.credits/Product & Operations]
+original=Product & Operations
+translation=ផលិតផល និងប្រតិបត្តិការ
+
+[heading.credits/Moderators]
+original=Moderators
+translation=អ្នកសម្របសម្រួល
+
+[heading.credits/Retired]
+original=Retired
+translation=ចូលនិវត្តន៍
+
+[heading.credits/Plugin inspirations]
+original=Plugin inspirations
+translation=ការបំផុសគំនិតកម្មវិធីជំនួយ
+
+[heading.credits/Builds]
+original=Builds
+translation=ការបង្កើត
+
+[heading.credits/Translators]
+original=Translators
+translation=អ្នកបកប្រែ
+
+[heading.credits/Documentation]
+original=Documentation
+translation=ឯកសារ
+
+[heading.credits/Add your name]
+original=Add your name
+translation=បន្ថែមឈ្មោះរបស់អ្នក
+
+[heading.credits/Third party acknowledgements]
+original=Third party acknowledgements
+translation=ការទទួលស្គាល់ភាគីទីបី
+
+[heading.credits/Previous logo]
+original=Previous logo
+translation=និមិត្តសញ្ញាមុន
+
+[heading.publish/Quick start]
+original=Quick start
+translation=ចាប់ផ្តើមរហ័ស
+
+[heading.publish/Commands]
+original=Commands
+translation=ពាក្យបញ្ជា
+
+[heading.publish/Permalinks]
+original=Permalinks
+translation=តំណភ្ជាប់អចិន្ត្រៃយ៍
+
+[heading.publish/Metadata]
+original=Metadata
+translation=មេតាដាតា
+
+[heading.publish/How to use Obsidian Publish]
+original=How to use Obsidian Publish
+translation=របៀបប្រើ Obsidian Publish
+
+[heading.publish/Description]
+original=Description
+translation=ការពណ៌នា
+
+[heading.publish/Image]
+original=Image
+translation=រូបភាព
+
+[heading.publish/Prerequisites]
+original=Prerequisites
+translation=តម្រូវការជាមុន
+
+[heading.publish/Plausible, Fathom, and other analytics services]
+original=Plausible, Fathom, and other analytics services
+translation=Plausible, Fathom និងសេវាកម្មវិភាគផ្សេងទៀត
+
+[heading.publish/Troubleshooting]
+original=Troubleshooting
+translation=ការដោះស្រាយបញ្ហា
+
+[heading.publish/Set up using CloudFlare]
+original=Set up using CloudFlare
+translation=ដំឡើងដោយប្រើ CloudFlare
+
+[heading.publish/Set up using a proxy]
+original=Set up using a proxy
+translation=ដំឡើងដោយប្រើ proxy
+
+[heading.publish/Supported HTTP X-Headers]
+original=Supported HTTP X-Headers
+translation=HTTP X-Headers ដែលគាំទ្រ
+
+[heading.publish/Redirect old site to custom domain]
+original=Redirect old site to custom domain
+translation=បញ្ជូនបន្តគេហទំព័រចាស់ទៅដូមែនផ្ទាល់ខ្លួន
+
+[heading.publish/Troubleshoot]
+original=Troubleshoot
+translation=ដោះស្រាយបញ្ហា
+
+[heading.publish/Community plugins]
+original=Community plugins
+translation=កម្មវិធីជំនួយសហគមន៍
+
+[heading.publish/Graph]
+original=Graph
+translation=ក្រាហ្វ
+
+[heading.publish/Media files]
+original=Media files
+translation=ឯកសារមេឌៀ
+
+[heading.publish/Search]
+original=Search
+translation=ការស្វែងរក
+
+[heading.publish/General]
+original=General
+translation=ទូទៅ
+
+[heading.publish/Publishing notes]
+original=Publishing notes
+translation=ការផ្សាយកំណត់ត្រា
+
+[heading.publish/CSS and themes]
+original=CSS and themes
+translation=CSS និងរូបរាង
+
+[heading.publish/Redirect old notes]
+original=Redirect old notes
+translation=បញ្ជូនបន្តកំណត់ត្រាចាស់
+
+[heading.publish/Static assets]
+original=Static assets
+translation=ទ្រព្យសម្បត្តិថេរ
+
+[heading.publish/Use a community theme]
+original=Use a community theme
+translation=ប្រើរូបរាងសហគមន៍
+
+[heading.publish/Enable UI features]
+original=Enable UI features
+translation=បើកដំណើរការមុខងារ UI
+
+[heading.publish/Customize navigation]
+original=Customize navigation
+translation=ប្ដូរការរុករកតាមតម្រូវការ
+
+[heading.publish/Accessing Customize navigation options]
+original=Accessing Customize navigation options
+translation=ការចូលប្រើជម្រើសប្ដូរការរុករកតាមតម្រូវការ
+
+[heading.publish/Adjust navigation items]
+original=Adjust navigation items
+translation=កែតម្រូវធាតុរុករក
+
+[heading.publish/Hide and unhide navigation items]
+original=Hide and unhide navigation items
+translation=លាក់ និងបង្ហាញធាតុរុករក
+
+[heading.publish/FAQ]
+original=FAQ
+translation=សំណួរដែលគេសួរញឹកញាប់
+
+[heading.publish/Publish notes]
+original=Publish notes
+translation=ផ្សាយកំណត់ត្រា
+
+[heading.publish/Unpublish notes]
+original=Unpublish notes
+translation=ដកកំណត់ត្រាចេញពីការផ្សាយ
+
+[heading.publish/Update a published note]
+original=Update a published note
+translation=ធ្វើបច្ចុប្បន្នភាពកំណត់ត្រាដែលបានផ្សាយ
+
+[heading.publish/Publish linked data]
+original=Publish linked data
+translation=ផ្សាយទិន្នន័យដែលមានតំណភ្ជាប់
+
+[heading.publish/Automatically select data to publish]
+original=Automatically select data to publish
+translation=ជ្រើសរើសទិន្នន័យដើម្បីផ្សាយដោយស្វ័យប្រវត្តិ
+
+[heading.publish/Ignore data]
+original=Ignore data
+translation=មិនអើពើទិន្នន័យ
+
+[heading.publish/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=ចូលដោយប្រើគណនី Obsidian របស់អ្នក
+
+[heading.publish/Enable Obsidian Publish]
+original=Enable Obsidian Publish
+translation=បើកដំណើរការ Obsidian Publish
+
+[heading.publish/Open Publish]
+original=Open Publish
+translation=បើក Publish
+
+[heading.publish/Open via Command palette]
+original=Open via Command palette
+translation=បើកតាមក្ដារលាយពាក្យបញ្ជា
+
+[heading.publish/Open via hotkey]
+original=Open via hotkey
+translation=បើកតាមផ្លូវកាត់ក្តារចុច
+
+[heading.publish/Open via ribbon]
+original=Open via ribbon
+translation=បើកតាមរីបិន
+
+[heading.publish/Create a new site]
+original=Create a new site
+translation=បង្កើតគេហទំព័រថ្មី
+
+[heading.publish/Set a site name]
+original=Set a site name
+translation=កំណត់ឈ្មោះគេហទំព័រ
+
+[heading.publish/Select notes to publish]
+original=Select notes to publish
+translation=ជ្រើសរើសកំណត់ត្រាដើម្បីផ្សាយ
+
+[heading.publish/Next steps]
+original=Next steps
+translation=ជំហានបន្ទាប់
+
+[heading.publish/Add a collaborator to a site]
+original=Add a collaborator to a site
+translation=បន្ថែមអ្នកសហការទៅគេហទំព័រ
+
+[heading.publish/Remove a collaborator from a site]
+original=Remove a collaborator from a site
+translation=ដកអ្នកសហការចេញពីគេហទំព័រ
+
+[heading.publish/Sync changes between collaborators]
+original=Sync changes between collaborators
+translation=សមកាលកម្មការផ្លាស់ប្ដូររវាងអ្នកសហការ
+
+[heading.publish/Permissions]
+original=Permissions
+translation=សិទ្ធិ
+
+[heading.publish/Password protection]
+original=Password protection
+translation=ការការពារដោយពាក្យសម្ងាត់
+
+[heading.publish/Add a site password]
+original=Add a site password
+translation=បន្ថែមពាក្យសម្ងាត់គេហទំព័រ
+
+[heading.publish/Remove a site password]
+original=Remove a site password
+translation=ដកពាក្យសម្ងាត់គេហទំព័រចេញ
+
+[heading.publish/Data collection]
+original=Data collection
+translation=ការប្រមូលទិន្នន័យ
+
+[heading.publish/Visitor data]
+original=Visitor data
+translation=ទិន្នន័យអ្នកចូលមើល
+
+[heading.publish/Access]
+original=Access
+translation=ការចូលប្រើ
+
+[heading.publish/Managing access to Obsidian Publish on your network]
+original=Managing access to Obsidian Publish on your network
+translation=ការគ្រប់គ្រងការចូលប្រើ Obsidian Publish នៅលើបណ្តាញរបស់អ្នក
+
+[heading.publish/Images]
+original=Images
+translation=រូបភាព
+
+[heading.publish/Videos and audio]
+original=Videos and audio
+translation=វីដេអូ និងសំឡេង
+
+[heading.sync/Quick start]
+original=Quick start
+translation=ចាប់ផ្តើមរហ័ស
+
+[heading.sync/Commands]
+original=Commands
+translation=ពាក្យបញ្ជា
+
+[heading.sync/Native modules]
+original=Native modules
+translation=ម៉ូឌុលដើម
+
+[heading.sync/File-based sync services]
+original=File-based sync services
+translation=សេវាកម្មសមកាលកម្មផ្អែកលើឯកសារ
+
+[heading.sync/Sync behavior]
+original=Sync behavior
+translation=អាកប្បកិរិយានៃការសមកាលកម្ម
+
+[heading.sync/Offline behavior]
+original=Offline behavior
+translation=អាកប្បកិរិយានៅក្រៅបណ្តាញ
+
+[heading.sync/Next steps]
+original=Next steps
+translation=ជំហានបន្ទាប់
+
+[heading.sync/Sync settings]
+original=Sync settings
+translation=ការកំណត់ Sync
+
+[heading.sync/Conflict resolution]
+original=Conflict resolution
+translation=ការដោះស្រាយជម្លោះ
+
+[heading.sync/Selective syncing]
+original=Selective syncing
+translation=ការធ្វើសមកាលកម្មជ្រើសរើស
+
+[heading.sync/Change the file types you want to sync]
+original=Change the file types you want to sync
+translation=ផ្លាស់ប្ដូរប្រភេទឯកសារដែលអ្នកចង់ធ្វើសមកាលកម្ម
+
+[heading.sync/Exclude a folder from syncing]
+original=Exclude a folder from syncing
+translation=ដកចេញថតពីការធ្វើសមកាលកម្ម
+
+[heading.sync/Always excluded from sync]
+original=Always excluded from sync
+translation=តែងតែត្រូវបានដកចេញពីការធ្វើសមកាលកម្ម
+
+[heading.sync/File recovery snapshots]
+original=File recovery snapshots
+translation=រូបថតស្ដារឯកសារ
+
+[heading.sync/Hidden files and folders]
+original=Hidden files and folders
+translation=ឯកសារ និងថតដែលលាក់
+
+[heading.sync/Updating your synced vault settings]
+original=Updating your synced vault settings
+translation=ធ្វើបច្ចុប្បន្នភាពការកំណត់ vault ដែលបានធ្វើសមកាលកម្ម
+
+[heading.sync/Primary device]
+original=Primary device
+translation=ឧបករណ៍ចម្បង
+
+[heading.sync/Secondary device(s)]
+original=Secondary device(s)
+translation=ឧបករណ៍បន្ទាប់បន្សំ
+
+[heading.sync/Reloading of settings]
+original=Reloading of settings
+translation=ការផ្ទុកការកំណត់ឡើងវិញ
+
+[heading.sync/Settings profiles]
+original=Settings profiles
+translation=ទម្រង់ការកំណត់
+
+[heading.sync/Create a settings profile]
+original=Create a settings profile
+translation=បង្កើតទម្រង់ការកំណត់
+
+[heading.sync/How to use Obsidian Sync]
+original=How to use Obsidian Sync
+translation=របៀបប្រើប្រាស់ Obsidian Sync
+
+[heading.sync/Important]
+original=Important
+translation=ចំណុចសំខាន់
+
+[heading.sync/Plans]
+original=Plans
+translation=គម្រោង
+
+[heading.sync/Storage limits]
+original=Storage limits
+translation=ដែនកំណត់ទំហំផ្ទុក
+
+[heading.sync/Identify and delete large files]
+original=Identify and delete large files
+translation=កំណត់អត្តសញ្ញាណ និងលុបឯកសារធំ
+
+[heading.sync/Create a new remote vault]
+original=Create a new remote vault
+translation=បង្កើត vault ពីចម្ងាយថ្មី
+
+[heading.sync/Upgrade your plan]
+original=Upgrade your plan
+translation=ដំឡើងគម្រោងរបស់អ្នក
+
+[heading.sync/Downgrade your plan]
+original=Downgrade your plan
+translation=បន្ថយគម្រោងរបស់អ្នក
+
+[heading.sync/Preserve version history]
+original=Preserve version history
+translation=រក្សាប្រវត្តិកំណែ
+
+[heading.sync/General]
+original=General
+translation=ទូទៅ
+
+[heading.sync/How Obsidian Sync handles conflicts]
+original=How Obsidian Sync handles conflicts
+translation=របៀបដែល Obsidian Sync ដោះស្រាយជម្លោះ
+
+[heading.sync/Conflict resolution options]
+original=Conflict resolution options
+translation=ជម្រើសសម្រាប់ការដោះស្រាយជម្លោះ
+
+[heading.sync/Sync deleted a note I just created on two devices]
+original=Sync deleted a note I just created on two devices
+translation=Sync លុបកំណត់ត្រាដែលខ្ញុំទើបបង្កើតនៅលើឧបករណ៍ពីរ
+
+[heading.sync/Available regions]
+original=Available regions
+translation=តំបន់ដែលមាន
+
+[heading.sync/Change Sync region]
+original=Change Sync region
+translation=ផ្លាស់ប្តូរតំបន់ Sync
+
+[heading.sync/Move your vault out of your third-party syncing service or cloud storage]
+original=Move your vault out of your third-party syncing service or cloud storage
+translation=ផ្លាស់ប្តូរ vault របស់អ្នកចេញពីសេវាកម្មសមកាលកម្មភាគីទីបី ឬផ្ទុកពពក
+
+[heading.sync/Move your vault using Obsidian on desktop]
+original=Move your vault using Obsidian on desktop
+translation=ផ្លាស់ប្តូរ vault របស់អ្នកដោយប្រើ Obsidian នៅលើកុំព្យូទ័រ
+
+[heading.sync/Move your vault on mobile]
+original=Move your vault on mobile
+translation=ផ្លាស់ប្តូរ vault របស់អ្នកនៅលើទូរសព្ទ
+
+[heading.sync/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS និង iPadOS
+
+[heading.sync/Sync history]
+original=Sync history
+translation=ប្រវត្តិ Sync
+
+[heading.sync/Show Sync history]
+original=Show Sync history
+translation=បង្ហាញប្រវត្តិ Sync
+
+[heading.sync/Enable via Command palette]
+original=Enable via Command palette
+translation=បើកតាមរយៈក្ដារលាយពាក្យបញ្ជា
+
+[heading.sync/Enable via Hotkey]
+original=Enable via Hotkey
+translation=បើកតាមរយៈផ្លូវកាត់ក្តារចុច
+
+[heading.sync/Version history]
+original=Version history
+translation=ប្រវត្តិកំណែ
+
+[heading.sync/Notes and attachments]
+original=Notes and attachments
+translation=កំណត់ត្រា និងឯកសារភ្ជាប់
+
+[heading.sync/View version history of a file]
+original=View version history of a file
+translation=មើលប្រវត្តិកំណែនៃឯកសារមួយ
+
+[heading.sync/View version history of a deleted or renamed file]
+original=View version history of a deleted or renamed file
+translation=មើលប្រវត្តិកំណែនៃឯកសារដែលបានលុប ឬប្ដូរឈ្មោះ
+
+[heading.sync/Restore a previous version of a file]
+original=Restore a previous version of a file
+translation=ស្ដារកំណែមុននៃឯកសារមួយ
+
+[heading.sync/Restore a deleted file]
+original=Restore a deleted file
+translation=ស្ដារឯកសារដែលបានលុប
+
+[heading.sync/Settings history]
+original=Settings history
+translation=ប្រវត្តិការកំណត់
+
+[heading.sync/View version history of a setting]
+original=View version history of a setting
+translation=មើលប្រវត្តិកំណែនៃការកំណត់មួយ
+
+[heading.sync/Restore a previous version of a setting]
+original=Restore a previous version of a setting
+translation=ស្ដារកំណែមុននៃការកំណត់មួយ
+
+[heading.sync/Sync status icon]
+original=Sync status icon
+translation=រូបតំណាងស្ថានភាព Sync
+
+[heading.sync/Sync activity log]
+original=Sync activity log
+translation=កំណត់ហេតុសកម្មភាព Sync
+
+[heading.sync/General messages]
+original=General messages
+translation=សារទូទៅ
+
+[heading.sync/Error messages]
+original=Error messages
+translation=សារកំហុស
+
+[heading.sync/Skipped messages]
+original=Skipped messages
+translation=សារដែលបានរំលង
+
+[heading.sync/Account messages]
+original=Account messages
+translation=សារគណនី
+
+[heading.sync/Network messages]
+original=Network messages
+translation=សារបណ្តាញ
+
+[heading.sync/Manage users]
+original=Manage users
+translation=គ្រប់គ្រងអ្នកប្រើប្រាស់
+
+[heading.sync/Add users]
+original=Add users
+translation=បន្ថែមអ្នកប្រើប្រាស់
+
+[heading.sync/Remove users]
+original=Remove users
+translation=ដកអ្នកប្រើប្រាស់ចេញ
+
+[heading.sync/Collaborate with your team]
+original=Collaborate with your team
+translation=សហការជាមួយក្រុមរបស់អ្នក
+
+[heading.sync/Permissions]
+original=Permissions
+translation=សិទ្ធិ
+
+[heading.sync/Live editing]
+original=Live editing
+translation=ការកែសម្រួលផ្ទាល់
+
+[heading.sync/Limitations]
+original=Limitations
+translation=ដែនកំណត់
+
+[heading.sync/What operating systems does Obsidian Sync support?]
+original=What operating systems does Obsidian Sync support?
+translation=Obsidian Sync គាំទ្រប្រព័ន្ធប្រតិបត្តិការអ្វីខ្លះ?
+
+[heading.sync/Does Obsidian work with Apple's Lockdown Mode?]
+original=Does Obsidian work with Apple's Lockdown Mode?
+translation=តើ Obsidian ដំណើរការជាមួយ Lockdown Mode របស់ Apple បានទេ?
+
+[heading.sync/What type of data is synced?]
+original=What type of data is synced?
+translation=ប្រភេទទិន្នន័យអ្វីខ្លះត្រូវបានសមកាលកម្ម?
+
+[heading.sync/How much storage do I have?]
+original=How much storage do I have?
+translation=ខ្ញុំមានទំហំផ្ទុកប៉ុន្មាន?
+
+[heading.sync/How many remote vaults can I have?]
+original=How many remote vaults can I have?
+translation=ខ្ញុំអាចមាន vault ពីចម្ងាយប៉ុន្មាន?
+
+[heading.sync/How large can each remote vault be?]
+original=How large can each remote vault be?
+translation=vault ពីចម្ងាយនីមួយៗអាចមានទំហំប៉ុន្មាន?
+
+[heading.sync/How many people can I share a remote vault with?]
+original=How many people can I share a remote vault with?
+translation=ខ្ញុំអាចចែករំលែក vault ពីចម្ងាយជាមួយមនុស្សប៉ុន្មាននាក់?
+
+[heading.sync/How large can each file be?]
+original=How large can each file be?
+translation=ឯកសារនីមួយៗអាចមានទំហំប៉ុន្មាន?
+
+[heading.sync/Is my data being synced in the background?]
+original=Is my data being synced in the background?
+translation=តើទិន្នន័យរបស់ខ្ញុំត្រូវបានសមកាលកម្មនៅផ្ទៃខាងក្រោយទេ?
+
+[heading.sync/Does Obsidian Sync live-reload my settings?]
+original=Does Obsidian Sync live-reload my settings?
+translation=តើ Obsidian Sync ផ្ទុកការកំណត់របស់ខ្ញុំឡើងវិញភ្លាមៗទេ?
+
+[heading.sync/Can I use a third-party sync with Obsidian Sync?]
+original=Can I use a third-party sync with Obsidian Sync?
+translation=តើខ្ញុំអាចប្រើសេវាសមកាលកម្មភាគីទីបីជាមួយ Obsidian Sync បានទេ?
+
+[heading.sync/Data retention]
+original=Data retention
+translation=ការរក្សាទិន្នន័យ
+
+[heading.sync/How long do you keep the version history?]
+original=How long do you keep the version history?
+translation=អ្នករក្សាប្រវត្តិកំណែរយៈពេលប៉ុន្មាន?
+
+[heading.sync/How long do you keep my data after my subscription expires?]
+original=How long do you keep my data after my subscription expires?
+translation=អ្នករក្សាទិន្នន័យរបស់ខ្ញុំរយៈពេលប៉ុន្មានបន្ទាប់ពីការជាវរបស់ខ្ញុំផុតកំណត់?
+
+[heading.sync/Do you keep my data if I refund my subscription service?]
+original=Do you keep my data if I refund my subscription service?
+translation=តើអ្នករក្សាទិន្នន័យរបស់ខ្ញុំទេប្រសិនបើខ្ញុំសុំប្រាក់វិញពីសេវាជាវ?
+
+[heading.sync/Encryption versions]
+original=Encryption versions
+translation=កំណែការអ៊ិនគ្រីប
+
+[heading.sync/Upgrade encryption with the migration assistant]
+original=Upgrade encryption with the migration assistant
+translation=អាប់ដេតការអ៊ិនគ្រីបដោយប្រើជំនួយការផ្ទេរ
+
+[heading.sync/Encryption]
+original=Encryption
+translation=ការអ៊ិនគ្រីប
+
+[heading.sync/What does end-to-end encryption mean?]
+original=What does end-to-end encryption mean?
+translation=តើការអ៊ិនគ្រីបពីចុងដល់ចុងមានន័យដូចម្តេច?
+
+[heading.sync/What are the risks of using standard encryption?]
+original=What are the risks of using standard encryption?
+translation=តើអ្វីជាហានិភ័យនៃការប្រើការអ៊ិនគ្រីបស្តង់ដារ?
+
+[heading.sync/What encryption do you use?]
+original=What encryption do you use?
+translation=តើអ្នកប្រើការអ៊ិនគ្រីបអ្វី?
+
+[heading.sync/Can I verify that my data is end-to-end encrypted?]
+original=Can I verify that my data is end-to-end encrypted?
+translation=តើខ្ញុំអាចផ្ទៀងផ្ទាត់ថាទិន្នន័យរបស់ខ្ញុំត្រូវបានអ៊ិនគ្រីបពីចុងដល់ចុងបានទេ?
+
+[heading.sync/Has Obsidian completed a third-party security audit?]
+original=Has Obsidian completed a third-party security audit?
+translation=តើ Obsidian បានបញ្ចប់ការត្រួតពិនិត្យសុវត្ថិភាពពីភាគីទីបីទេ?
+
+[heading.sync/What happens if I forget my encryption password?]
+original=What happens if I forget my encryption password?
+translation=តើមានអ្វីកើតឡើងប្រសិនបើខ្ញុំភ្លេចពាក្យសម្ងាត់អ៊ិនគ្រីបរបស់ខ្ញុំ?
+
+[heading.sync/Hosting]
+original=Hosting
+translation=ការបង្ហោះ
+
+[heading.sync/Where do you host the servers for Obsidian Sync?]
+original=Where do you host the servers for Obsidian Sync?
+translation=តើអ្នកបង្ហោះម៉ាស៊ីនបម្រើសម្រាប់ Obsidian Sync នៅទីណា?
+
+[heading.sync/Where can I find my current Sync server and where is it hosted?]
+original=Where can I find my current Sync server and where is it hosted?
+translation=តើខ្ញុំអាចស្វែងរកម៉ាស៊ីនបម្រើ Sync បច្ចុប្បន្នរបស់ខ្ញុំ និងទីតាំងរបស់វានៅទីណា?
+
+[heading.sync/Network and access]
+original=Network and access
+translation=បណ្ដាញ និងការចូលប្រើ
+
+[heading.sync/Managing access to Obsidian Sync on your network]
+original=Managing access to Obsidian Sync on your network
+translation=ការគ្រប់គ្រងការចូលប្រើ Obsidian Sync នៅលើបណ្ដាញរបស់អ្នក
+
+[heading.sync/Deterministic file-hash encryption]
+original=Deterministic file-hash encryption
+translation=ការអ៊ិនគ្រីប file-hash ប្រភេទ deterministic
+
+[heading.sync/No cryptographic binding between path and content]
+original=No cryptographic binding between path and content
+translation=គ្មានការចងគ្រីបតូក្រាហ្វិករវាងផ្លូវ និងមាតិកា
+
+[heading.sync/Sync will not sync my plugins and settings updates]
+original=Sync will not sync my plugins and settings updates
+translation=Sync នឹងមិន sync កម្មវិធីជំនួយ និងការអាប់ដេតការកំណត់របស់ខ្ញុំ
+
+[heading.sync/My files keep disappearing from Sync as soon as I restore it]
+original=My files keep disappearing from Sync as soon as I restore it
+translation=ឯកសាររបស់ខ្ញុំបន្តបាត់ពី Sync ភ្លាមៗបន្ទាប់ពីខ្ញុំស្ដារវា
+
+[heading.sync/Set up Obsidian Sync for the first time]
+original=Set up Obsidian Sync for the first time
+translation=រៀបចំ Obsidian Sync ជាលើកដំបូង
+
+[heading.sync/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=ចូលក្នុងគណនី Obsidian របស់អ្នក
+
+[heading.sync/Enable Obsidian Sync]
+original=Enable Obsidian Sync
+translation=បើក Obsidian Sync
+
+[heading.sync/Connect to a remote vault]
+original=Connect to a remote vault
+translation=ភ្ជាប់ទៅ vault ពីចម្ងាយ
+
+[heading.sync/Adjust Obsidian Sync settings]
+original=Adjust Obsidian Sync settings
+translation=កែប្រែការកំណត់ Obsidian Sync
+
+[heading.sync/Begin syncing with Obsidian Sync]
+original=Begin syncing with Obsidian Sync
+translation=ចាប់ផ្តើមសមកាលកម្មជាមួយ Obsidian Sync
+
+[heading.sync/Sync a remote vault on another device]
+original=Sync a remote vault on another device
+translation=សមកាលកម្ម vault ពីចម្ងាយនៅឧបករណ៍ផ្សេងទៀត
+
+[heading.sync/Sync your vault from the vault switcher]
+original=Sync your vault from the vault switcher
+translation=សមកាលកម្ម vault របស់អ្នកពីឧបករណ៍ប្តូរ vault
+
+[heading.sync/Sync your vault from Obsidian Settings]
+original=Sync your vault from Obsidian Settings
+translation=សមកាលកម្ម vault របស់អ្នកពីការកំណត់ Obsidian
+
+[heading.sync/Manage your remote vaults]
+original=Manage your remote vaults
+translation=គ្រប់គ្រង vault ពីចម្ងាយរបស់អ្នក
+
+[heading.sync/Disconnect from a remote vault]
+original=Disconnect from a remote vault
+translation=ផ្តាច់ការភ្ជាប់ពី vault ពីចម្ងាយ
+
+[heading.sync/Delete a remote vault]
+original=Delete a remote vault
+translation=លុប vault ពីចម្ងាយ
+
+[heading.sync/Regional sync servers]
+original=Regional sync servers
+translation=ម៉ាស៊ីនបម្រើ sync តាមតំបន់
+
+[heading.web-clipper/Activate reading mode]
+original=Activate reading mode
+translation=បើកដំណើរការរបៀបអាន
+
+[heading.web-clipper/How it works]
+original=How it works
+translation=របៀបដំណើរការ
+
+[heading.web-clipper/Customize the reading view]
+original=Customize the reading view
+translation=ប្ដូរទិដ្ឋភាពអានតាមតម្រូវការ
+
+[heading.web-clipper/Install Web Clipper]
+original=Install Web Clipper
+translation=ដំឡើង Web Clipper
+
+[heading.web-clipper/How to use Web Clipper]
+original=How to use Web Clipper
+translation=របៀបប្រើ Web Clipper
+
+[heading.web-clipper/Privacy]
+original=Privacy
+translation=ឯកជនភាព
+
+[heading.web-clipper/Capture a page]
+original=Capture a page
+translation=ចាប់យកទំព័រ
+
+[heading.web-clipper/Download images]
+original=Download images
+translation=ទាញយករូបភាព
+
+[heading.web-clipper/Hotkeys]
+original=Hotkeys
+translation=ផ្លូវកាត់ក្តារចុច
+
+[heading.web-clipper/Interface functionality]
+original=Interface functionality
+translation=មុខងារចំណុចប្រទាក់
+
+[heading.web-clipper/General]
+original=General
+translation=ទូទៅ
+
+[heading.web-clipper/Some content is missing]
+original=Some content is missing
+translation=មាតិកាមួយចំនួនបាត់
+
+[heading.web-clipper/No content appears in Obsidian]
+original=No content appears in Obsidian
+translation=មិនមានមាតិកាបង្ហាញនៅក្នុង Obsidian
+
+[heading.web-clipper/Obsidian does not open]
+original=Obsidian does not open
+translation=Obsidian មិនបើក
+
+[heading.web-clipper/Obsidian opens but only the file name is saved]
+original=Obsidian opens but only the file name is saved
+translation=Obsidian បើកប៉ុន្តែមានតែឈ្មោះឯកសារដែលត្រូវបានរក្សាទុក
+
+[heading.web-clipper/iOS and iPadOS]
+original=iOS and iPadOS
+translation=iOS និង iPadOS
+
+[heading.web-clipper/Conditionals]
+original=Conditionals
+translation=លក្ខខណ្ឌ
+
+[heading.web-clipper/Comparison operators]
+original=Comparison operators
+translation=សញ្ញាប្រមាណវិធីប្រៀបធៀប
+
+[heading.web-clipper/Logical operators]
+original=Logical operators
+translation=សញ្ញាប្រមាណវិធីតក្កវិទ្យា
+
+[heading.web-clipper/Truthiness]
+original=Truthiness
+translation=ភាពពិត
+
+[heading.web-clipper/Assign a variable]
+original=Assign a variable
+translation=កំណត់អថេរ
+
+[heading.web-clipper/Fallbacks]
+original=Fallbacks
+translation=តម្លៃជំនួស
+
+[heading.web-clipper/Chaining fallbacks]
+original=Chaining fallbacks
+translation=ការភ្ជាប់តម្លៃជំនួស
+
+[heading.web-clipper/With filters]
+original=With filters
+translation=ជាមួយតម្រង
+
+[heading.web-clipper/Loops]
+original=Loops
+translation=វដ្ត
+
+[heading.web-clipper/Loop sources]
+original=Loop sources
+translation=ប្រភពវដ្ត
+
+[heading.web-clipper/Loop variables]
+original=Loop variables
+translation=អថេរវដ្ត
+
+[heading.web-clipper/Accessing array items by index]
+original=Accessing array items by index
+translation=ការចូលប្រើធាតុអារេតាមសន្ទស្សន៍
+
+[heading.web-clipper/Nested loops]
+original=Nested loops
+translation=វដ្តស្រទាប់
+
+[heading.web-clipper/Combine logic]
+original=Combine logic
+translation=ផ្សំតក្កវិទ្យា
+
+[heading.web-clipper/Evaluation order]
+original=Evaluation order
+translation=លំដាប់នៃការវាយតម្លៃ
+
+[heading.web-clipper/Examples of prompts]
+original=Examples of prompts
+translation=ឧទាហរណ៍នៃ prompts
+
+[heading.web-clipper/Get started]
+original=Get started
+translation=ចាប់ផ្តើម
+
+[heading.web-clipper/Context]
+original=Context
+translation=បរិបទ
+
+[heading.web-clipper/Models]
+original=Models
+translation=គំរូ
+
+[heading.web-clipper/Preset providers]
+original=Preset providers
+translation=អ្នកផ្តល់ដែលបានកំណត់រួច
+
+[heading.web-clipper/Choosing a model]
+original=Choosing a model
+translation=ការជ្រើសរើសគំរូ
+
+[heading.web-clipper/Custom providers and models]
+original=Custom providers and models
+translation=អ្នកផ្តល់ និងគំរូផ្ទាល់ខ្លួន
+
+[heading.web-clipper/Local models]
+original=Local models
+translation=គំរូមូលដ្ឋាន
+
+[heading.web-clipper/Turn on highlighter]
+original=Turn on highlighter
+translation=បើកឧបករណ៍ពណ៌ចំណាំ
+
+[heading.web-clipper/Highlighter settings]
+original=Highlighter settings
+translation=ការកំណត់ឧបករណ៍ពណ៌ចំណាំ
+
+[heading.web-clipper/Create or edit a template]
+original=Create or edit a template
+translation=បង្កើត ឬកែសម្រួលពុម្ព
+
+[heading.web-clipper/Import and export Web Clipper templates]
+original=Import and export Web Clipper templates
+translation=នាំចូល និងនាំចេញពុម្ប Web Clipper
+
+[heading.web-clipper/Template settings]
+original=Template settings
+translation=ការកំណត់ពុម្ប
+
+[heading.web-clipper/Behavior]
+original=Behavior
+translation=អាកប្បកិរិយា
+
+[heading.web-clipper/Automatically trigger a template]
+original=Automatically trigger a template
+translation=ដំណើរការពុម្បដោយស្វ័យប្រវត្តិ
+
+[heading.web-clipper/Simple URL matching]
+original=Simple URL matching
+translation=ការផ្គូផ្គង URL សាមញ្ញ
+
+[heading.web-clipper/Regular expression matching]
+original=Regular expression matching
+translation=ការផ្គូផ្គងដោយកន្សោមធម្មតា
+
+[heading.web-clipper/Schema.org matching]
+original=Schema.org matching
+translation=ការផ្គូផ្គង Schema.org
+
+[heading.web-clipper/Interpreter context]
+original=Interpreter context
+translation=បរិបទអ្នកបកស្រាយ
+
+[heading.web-clipper/Preset variables]
+original=Preset variables
+translation=អថេរកំណត់ជាមុន
+
+[heading.web-clipper/Prompt variables]
+original=Prompt variables
+translation=អថេរសំណួរ
+
+[heading.web-clipper/When to use prompt variables]
+original=When to use prompt variables
+translation=ពេលណាដែលគួរប្រើអថេរសំណួរ
+
+[heading.web-clipper/Examples]
+original=Examples
+translation=ឧទាហរណ៍
+
+[heading.web-clipper/Meta variables]
+original=Meta variables
+translation=អថេរ Meta
+
+[heading.web-clipper/Selector variables]
+original=Selector variables
+translation=អថេរ Selector
+
+[heading.web-clipper/Schema.org variables]
+original=Schema.org variables
+translation=អថេរ Schema.org
+
+[heading.web-clipper/Dates]
+original=Dates
+translation=តម្រង
+
+[heading.web-clipper/Text conversion and capitalization]
+original=Text conversion and capitalization
+translation=`duration`
+
+[heading.web-clipper/`date`]
+original=`date`
+translation=កាលបរិច្ឆេទ
+
+[heading.web-clipper/`date_modify`]
+original=`date_modify`
+translation=`date`
+
+[heading.web-clipper/`duration`]
+original=`duration`
+translation=`date_modify`
+
+[heading.web-clipper/`camel`]
+original=`camel`
+translation=ការបំប្លែងអត្ថបទ និងអក្សរធំ
+
+[heading.web-clipper/`capitalize`]
+original=`capitalize`
+translation=`camel`
+
+[heading.web-clipper/`decode_uri`]
+original=`decode_uri`
+translation=`capitalize`
+
+[heading.web-clipper/`kebab`]
+original=`kebab`
+translation=`decode_uri`
+
+[heading.web-clipper/`lower`]
+original=`lower`
+translation=`kebab`
+
+[heading.web-clipper/`pascal`]
+original=`pascal`
+translation=`lower`
+
+[heading.web-clipper/`replace`]
+original=`replace`
+translation=`pascal`
+
+[heading.web-clipper/`safe_name`]
+original=`safe_name`
+translation=`replace`
+
+[heading.web-clipper/`snake`]
+original=`snake`
+translation=`safe_name`
+
+[heading.web-clipper/`title`]
+original=`title`
+translation=`snake`
+
+[heading.web-clipper/`trim`]
+original=`trim`
+translation=`title`
+
+[heading.web-clipper/`uncamel`]
+original=`uncamel`
+translation=`trim`
+
+[heading.web-clipper/`upper`]
+original=`upper`
+translation=`uncamel`
+
+[heading.web-clipper/Text formatting]
+original=Text formatting
+translation=`upper`
+
+[heading.web-clipper/`blockquote`]
+original=`blockquote`
+translation=ការធ្វើទ្រង់ទ្រាយអត្ថបទ
+
+[heading.web-clipper/`callout`]
+original=`callout`
+translation=`blockquote`
+
+[heading.web-clipper/`footnote`]
+original=`footnote`
+translation=`callout`
+
+[heading.web-clipper/`fragment_link`]
+original=`fragment_link`
+translation=`footnote`
+
+[heading.web-clipper/`image`]
+original=`image`
+translation=`fragment_link`
+
+[heading.web-clipper/`link`]
+original=`link`
+translation=`image`
+
+[heading.web-clipper/`list`]
+original=`list`
+translation=`link`
+
+[heading.web-clipper/`table`]
+original=`table`
+translation=`list`
+
+[heading.web-clipper/`wikilink`]
+original=`wikilink`
+translation=`table`
+
+[heading.web-clipper/Numbers]
+original=Numbers
+translation=`wikilink`
+
+[heading.web-clipper/`calc`]
+original=`calc`
+translation=លេខ
+
+[heading.web-clipper/`length`]
+original=`length`
+translation=`calc`
+
+[heading.web-clipper/`round`]
+original=`round`
+translation=`length`
+
+[heading.web-clipper/HTML processing]
+original=HTML processing
+translation=`round`
+
+[heading.web-clipper/`markdown`]
+original=`markdown`
+translation=ការដំណើរការ HTML
+
+[heading.web-clipper/`remove_attr`]
+original=`remove_attr`
+translation=`markdown`
+
+[heading.web-clipper/`remove_html`]
+original=`remove_html`
+translation=`remove_attr`
+
+[heading.web-clipper/`remove_tags`]
+original=`remove_tags`
+translation=`remove_html`
+
+[heading.web-clipper/`replace_tags`]
+original=`replace_tags`
+translation=`remove_tags`
+
+[heading.web-clipper/`strip_attr`]
+original=`strip_attr`
+translation=`replace_tags`
+
+[heading.web-clipper/`strip_md`]
+original=`strip_md`
+translation=`strip_attr`
+
+[heading.web-clipper/`strip_tags`]
+original=`strip_tags`
+translation=`strip_md`
+
+[heading.web-clipper/Arrays and objects]
+original=Arrays and objects
+translation=`strip_tags`
+
+[heading.web-clipper/`first`]
+original=`first`
+translation=អារ៉េ និងវត្ថុ
+
+[heading.web-clipper/`join`]
+original=`join`
+translation=`first`
+
+[heading.web-clipper/`last`]
+original=`last`
+translation=`join`
+
+[heading.web-clipper/`map`]
+original=`map`
+translation=`last`
+
+[heading.web-clipper/`merge`]
+original=`merge`
+translation=`map`
+
+[heading.web-clipper/`nth`]
+original=`nth`
+translation=`merge`
+
+[heading.web-clipper/`object`]
+original=`object`
+translation=`nth`
+
+[heading.web-clipper/`slice`]
+original=`slice`
+translation=`object`
+
+[heading.web-clipper/`split`]
+original=`split`
+translation=`slice`
+
+[heading.web-clipper/`template`]
+original=`template`
+translation=`split`
+
+[heading.web-clipper/`unique`]
+original=`unique`
+translation=`template`
+
+[heading.plugins/Create a new canvas]
+original=Create a new canvas
+translation=បង្កើត canvas ថ្មី
+
+[heading.plugins/Add cards]
+original=Add cards
+translation=បន្ថែមកាត
+
+[heading.plugins/Add text cards]
+original=Add text cards
+translation=បន្ថែមកាតអក្សរ
+
+[heading.plugins/Add cards from notes]
+original=Add cards from notes
+translation=បន្ថែមកាតពីកំណត់ត្រា
+
+[heading.plugins/Add cards from media]
+original=Add cards from media
+translation=បន្ថែមកាតពីមេឌៀ
+
+[heading.plugins/Add cards from web pages]
+original=Add cards from web pages
+translation=បន្ថែមកាតពីទំព័រវែប
+
+[heading.plugins/Add cards from folders]
+original=Add cards from folders
+translation=បន្ថែមកាតពីថត
+
+[heading.plugins/Edit a card]
+original=Edit a card
+translation=កែសម្រួលកាត
+
+[heading.plugins/Delete a card]
+original=Delete a card
+translation=លុបកាត
+
+[heading.plugins/Swap cards]
+original=Swap cards
+translation=ផ្លាស់ប្តូរកាត
+
+[heading.plugins/Select cards]
+original=Select cards
+translation=ជ្រើសរើសកាត
+
+[heading.plugins/Arrange cards]
+original=Arrange cards
+translation=រៀបចំកាត
+
+[heading.plugins/Resize a card]
+original=Resize a card
+translation=ប្តូរទំហំកាត
+
+[heading.plugins/Connect cards]
+original=Connect cards
+translation=ភ្ជាប់កាត
+
+[heading.plugins/Connect two cards]
+original=Connect two cards
+translation=ភ្ជាប់កាតពីរ
+
+[heading.plugins/Disconnect two cards]
+original=Disconnect two cards
+translation=ផ្តាច់កាតពីរ
+
+[heading.plugins/Connect a card to a different card]
+original=Connect a card to a different card
+translation=ភ្ជាប់កាតទៅកាតផ្សេង
+
+[heading.plugins/Navigate a connection]
+original=Navigate a connection
+translation=រុករកការភ្ជាប់
+
+[heading.plugins/Add a label to a connection]
+original=Add a label to a connection
+translation=បន្ថែមស្លាកទៅការភ្ជាប់
+
+[heading.plugins/Change the color of a card or connection]
+original=Change the color of a card or connection
+translation=ប្តូរពណ៌កាត ឬការភ្ជាប់
+
+[heading.plugins/Group cards]
+original=Group cards
+translation=ដាក់កាតជាក្រុម
+
+[heading.plugins/Group selected cards]
+original=Group selected cards
+translation=ដាក់កាតដែលបានជ្រើសរើសជាក្រុម
+
+[heading.plugins/Navigate the canvas]
+original=Navigate the canvas
+translation=រុករក canvas
+
+[heading.plugins/Pan the canvas]
+original=Pan the canvas
+translation=រំកិល canvas
+
+[heading.plugins/Zoom the canvas]
+original=Zoom the canvas
+translation=ពង្រីក/បង្រួម canvas
+
+[heading.plugins/Zoom to fit]
+original=Zoom to fit
+translation=ពង្រីក/បង្រួមឱ្យសមទាំងអស់
+
+[heading.plugins/Zoom to selection]
+original=Zoom to selection
+translation=ពង្រីក/បង្រួមទៅការជ្រើសរើស
+
+[heading.plugins/Reset zoom]
+original=Reset zoom
+translation=កំណត់ការពង្រីក/បង្រួមឡើងវិញ
+
+[heading.plugins/Advanced tips]
+original=Advanced tips
+translation=គន្លឹះកម្រិតខ្ពស់
+
+[heading.plugins/Save a workspace]
+original=Save a workspace
+translation=រក្សាទុកកន្លែងធ្វើការ
+
+[heading.plugins/Load a workspace]
+original=Load a workspace
+translation=ផ្ទុកកន្លែងធ្វើការ
+
+[heading.plugins/Delete a workspace]
+original=Delete a workspace
+translation=លុបកន្លែងធ្វើការ
+
+[heading.plugins/All core plugins]
+original=All core plugins
+translation=កម្មវិធីជំនួយចម្បងទាំងអស់
+
+[heading.plugins/Other plugins]
+original=Other plugins
+translation=កម្មវិធីជំនួយផ្សេងទៀត
+
+[heading.plugins/Supported formats]
+original=Supported formats
+translation=ទម្រង់ដែលគាំទ្រ
+
+[heading.plugins/[[Properties]]]
+original=[[Properties]]
+translation=[[លក្ខណៈសម្បត្តិ]]
+
+[heading.plugins/Reader view]
+original=Reader view
+translation=កម្មវិធីមើលវេប
+
+[heading.plugins/Save to vault]
+original=Save to vault
+translation=ទិដ្ឋភាពអ្នកអាន
+
+[heading.plugins/Ad blocking]
+original=Ad blocking
+translation=រក្សាទុកទៅ vault
+
+[heading.plugins/Security]
+original=Security
+translation=ការទប់ស្កាត់ការផ្សាយពាណិជ្ជកម្ម
+
+[heading.plugins/Create a new note]
+original=Create a new note
+translation=បង្កើតកំណត់ត្រាថ្មី
+
+[heading.plugins/Create a new folder]
+original=Create a new folder
+translation=បង្កើតថតថ្មី
+
+[heading.plugins/Change sort order]
+original=Change sort order
+translation=ផ្លាស់ប្តូរលំដាប់តម្រៀប
+
+[heading.plugins/Auto-reveal active file]
+original=Auto-reveal active file
+translation=បង្ហាញឯកសារសកម្មដោយស្វ័យប្រវត្តិ
+
+[heading.plugins/Expand or collapse all folders]
+original=Expand or collapse all folders
+translation=ពង្រីក ឬបង្រួមថតទាំងអស់
+
+[heading.plugins/Delete a file or folder]
+original=Delete a file or folder
+translation=លុបឯកសារ ឬថត
+
+[heading.plugins/Rename a file or folder]
+original=Rename a file or folder
+translation=ប្តូរឈ្មោះឯកសារ ឬថត
+
+[heading.plugins/Move a file or folder]
+original=Move a file or folder
+translation=ផ្លាស់ទីឯកសារ ឬថត
+
+[heading.plugins/Recover a snapshot]
+original=Recover a snapshot
+translation=ស្តាររូបថតឡើងវិញ
+
+[heading.plugins/Clear snapshot history]
+original=Clear snapshot history
+translation=សម្អាតប្រវត្តិរូបថត
+
+[heading.plugins/Storage and performance]
+original=Storage and performance
+translation=ទំហំផ្ទុក និងប្រសិទ org្ធភាព
+
+[heading.plugins/Limitations]
+original=Limitations
+translation=ដែនកំណត់
+
+[heading.plugins/Show backlinks]
+original=Show backlinks
+translation=បង្ហាញតំណភ្ជាប់ខាងក្រោយ
+
+[heading.plugins/View backlinks for a note]
+original=View backlinks for a note
+translation=មើលតំណភ្ជាប់ខាងក្រោយសម្រាប់កំណត់ត្រាមួយ
+
+[heading.plugins/See backlinks of a specific note]
+original=See backlinks of a specific note
+translation=មើលតំណភ្ជាប់ខាងក្រោយរបស់កំណត់ត្រាជាក់លាក់មួយ
+
+[heading.plugins/Show backlinks in a note]
+original=Show backlinks in a note
+translation=បង្ហាញតំណភ្ជាប់ខាងក្រោយនៅក្នុងកំណត់ត្រា
+
+[heading.plugins/Settings]
+original=Settings
+translation=ការកំណត់
+
+[heading.plugins/Filters]
+original=Filters
+translation=តម្រង
+
+[heading.plugins/Groups]
+original=Groups
+translation=ក្រុម
+
+[heading.plugins/Display]
+original=Display
+translation=ការបង្ហាញ
+
+[heading.plugins/All properties view]
+original=All properties view
+translation=ទិដ្ឋភាពលក្ខណៈសម្បត្តិទាំងអស់
+
+[heading.plugins/Set your template folder]
+original=Set your template folder
+translation=កំណត់ថតពុម្ពរបស់អ្នក
+
+[heading.plugins/Template variables]
+original=Template variables
+translation=អថេរពុម្ព
+
+[heading.plugins/Create a template]
+original=Create a template
+translation=បង្កើតពុម្ព
+
+[heading.plugins/Insert a template into the active note]
+original=Insert a template into the active note
+translation=បញ្ចូលពុម្ពទៅក្នុងកំណត់ត្រាសកម្ម
+
+[heading.plugins/Template properties]
+original=Template properties
+translation=លក្ខណៈសម្បត្តិពុម្ព
+
+[heading.plugins/Search terms]
+original=Search terms
+translation=ពាក្យស្វែងរក
+
+[heading.plugins/Search operators]
+original=Search operators
+translation=ប្រតិបត្តិករស្វែងរក
+
+[heading.plugins/Search properties]
+original=Search properties
+translation=ស្វែងរកលក្ខណៈសម្បត្តិ
+
+[heading.plugins/Change case sensitivity]
+original=Change case sensitivity
+translation=ផ្លាស់ប្តូរការគោរពអក្សរតូចធំ
+
+[heading.plugins/Change result sort order]
+original=Change result sort order
+translation=ផ្លាស់ប្តូរលំដាប់តម្រៀបលទ្ធផល
+
+[heading.plugins/Copy search results]
+original=Copy search results
+translation=ចម្លងលទ្ធផលស្វែងរក
+
+[heading.plugins/Use regular expressions]
+original=Use regular expressions
+translation=ប្រើកន្សោមទៀងទាត់
+
+[heading.plugins/Configure search settings]
+original=Configure search settings
+translation=កំណត់រចនាសម្ព័ន្ធការកំណត់ស្វែងរក
+
+[heading.plugins/Embed search results in a note]
+original=Embed search results in a note
+translation=បង្កប់លទ្ធផលស្វែងរកក្នុងកំណត់ត្រា
+
+[heading.plugins/Merge notes]
+original=Merge notes
+translation=បញ្ចូលកំណត់ត្រាចូលគ្នា
+
+[heading.plugins/Extract note]
+original=Extract note
+translation=ដកកំណត់ត្រាចេញ
+
+[heading.plugins/Template file]
+original=Template file
+translation=ឯកសារពុម្ព
+
+[heading.plugins/Create a unique note]
+original=Create a unique note
+translation=បង្កើតកំណត់ចំណាំពិសេស
+
+[heading.plugins/Create unique notes from a template]
+original=Create unique notes from a template
+translation=បង្កើតកំណត់ចំណាំពិសេសពីពុម្ព
+
+[heading.plugins/Record audio in a note]
+original=Record audio in a note
+translation=ថតសំឡេងក្នុងកំណត់ត្រា
+
+[heading.plugins/Open Quick switcher]
+original=Open Quick switcher
+translation=បើកឧបករណ៍ផ្លាស់ប្តូររហ័ស
+
+[heading.plugins/Open a note with Quick switcher]
+original=Open a note with Quick switcher
+translation=បើកកំណត់ត្រាដោយប្រើឧបករណ៍ផ្លាស់ប្តូររហ័ស
+
+[heading.plugins/Inserting current date and time into the active note]
+original=Inserting current date and time into the active note
+translation=បញ្ចូលកាលបរិច្ឆេទ និងពេលវេលាបច្ចុប្បន្នទៅក្នុងកំណត់ត្រាសកម្ម
+
+[heading.plugins/Forces]
+original=Forces
+translation=កម្លាំង
+
+[heading.plugins/Start a time-lapse animation]
+original=Start a time-lapse animation
+translation=ចាប់ផ្ដើមចលនាបង្ហាញពេលវេលា
+
+[heading.plugins/Local Graph]
+original=Local Graph
+translation=ក្រាហ្វមូលដ្ឋាន
+
+[heading.teams/Use Obsidian with your team]
+original=Use Obsidian with your team
+translation=ប្រើ Obsidian ជាមួយក្រុមរបស់អ្នក
+
+[heading.teams/Important resources]
+original=Important resources
+translation=ធនធានសំខាន់ៗ
+
+[heading.teams/Publishing tools and services]
+original=Publishing tools and services
+translation=ឧបករណ៍ និងសេវាកម្មបោះពុម្ពផ្សាយ
+
+[heading.teams/Advanced collaboration for Obsidian Publish]
+original=Advanced collaboration for Obsidian Publish
+translation=ការសហការកម្រិតខ្ពស់សម្រាប់ Obsidian Publish
+
+[heading.teams/Media]
+original=Media
+translation=មេឌៀ
+
+[heading.teams/Frequently asked questions]
+original=Frequently asked questions
+translation=សំណួរដែលគេសួរញឹកញាប់
+
+[heading.teams/Considerations]
+original=Considerations
+translation=ការពិចារណា
+
+[heading.teams/Community plugins and themes]
+original=Community plugins and themes
+translation=កម្មវិធីជំនួយ និងរូបរាងសហគមន៍
+
+[heading.teams/Network and access]
+original=Network and access
+translation=បណ្តាញ និងការចូលប្រើ
+
+[heading.teams/Obsidian-sourced connections]
+original=Obsidian-sourced connections
+translation=ការតភ្ជាប់ពី Obsidian
+
+[heading.teams/GitHub-sourced connections]
+original=GitHub-sourced connections
+translation=ការតភ្ជាប់ពី GitHub
+
+[heading.teams/Other connections]
+original=Other connections
+translation=ការតភ្ជាប់ផ្សេងៗ
+
+[heading.teams/Account security]
+original=Account security
+translation=សុវត្ថិភាពគណនី
+
+[heading.teams/Assessments and certifications]
+original=Assessments and certifications
+translation=ការវាយតម្លៃ និងវិញ្ញាបនបត្រ
+
+[heading.teams/Install and update Obsidian]
+original=Install and update Obsidian
+translation=ដំឡើង និងអាប់ដេត Obsidian
+
+[heading.teams/Customizing Obsidian]
+original=Customizing Obsidian
+translation=ការប្ដូរតាមបំណង Obsidian
+
+[heading.teams/Configuration folders]
+original=Configuration folders
+translation=ថតកំណត់រចនាសម្ព័ន្ធ
+
+[heading.teams/Plugins]
+original=Plugins
+translation=កម្មវិធីជំនួយ
+
+[heading.teams/Themes and snippets]
+original=Themes and snippets
+translation=រូបរាង និងស្នីប៉ែត
+
+[heading.teams/Deployment]
+original=Deployment
+translation=ការដាក់ពង្រាយ
+
+[heading.teams/Syncing tools and services]
+original=Syncing tools and services
+translation=ឧបករណ៍ និងសេវាកម្មសមកាលកម្ម
+
+[heading.teams/Obsidian Sync for teams]
+original=Obsidian Sync for teams
+translation=Obsidian Sync សម្រាប់ក្រុម
+
+[heading.teams/Security]
+original=Security
+translation=សុវត្ថិភាព
+
+[heading.teams/Purchase a commercial license]
+original=Purchase a commercial license
+translation=ទិញអាជ្ញាប័ណ្ណពាណិជ្ជកម្ម
+
+[heading.teams/Apply a commercial license]
+original=Apply a commercial license
+translation=អនុវត្តអាជ្ញាប័ណ្ណពាណិជ្ជកម្ម
+
+[heading.teams/Supporting organizations]
+original=Supporting organizations
+translation=អង្គការគាំទ្រ
+
+[heading.headless/Install]
+original=Install
+translation=ដំឡើង
+
+[heading.headless/Authentication]
+original=Authentication
+translation=ការផ្ទៀងផ្ទាត់អត្តសញ្ញាណ
+
+[heading.headless/Log in]
+original=Log in
+translation=ចូលគណនី
+
+[heading.headless/Services]
+original=Services
+translation=សេវាកម្ម
+
+[heading.uri/URI format]
+original=URI format
+translation=ទម្រង់ URI
+
+[heading.uri/Open note]
+original=Open note
+translation=បើកកំណត់ត្រា
+
+[heading.uri/Examples]
+original=Examples
+translation=ឧទាហរណ៍
+
+[heading.uri/Parameters]
+original=Parameters
+translation=ប៉ារ៉ាម៉ែត្រ
+
+[heading.uri/Create note]
+original=Create note
+translation=បង្កើតកំណត់ត្រា
+
+[heading.uri/Create or open daily note]
+original=Create or open daily note
+translation=បង្កើត ឬបើកកំណត់ចំណាំប្រចាំថ្ងៃ
+
+[heading.uri/Unique Note]
+original=Unique Note
+translation=កំណត់ត្រាពិសេស
+
+[heading.uri/Open search]
+original=Open search
+translation=បើកការស្វែងរក
+
+[heading.uri/Open Vault Manager]
+original=Open Vault Manager
+translation=បើកកម្មវិធីគ្រប់គ្រង Vault
+
+[heading.uri/Integrate with Hook]
+original=Integrate with Hook
+translation=រួមបញ្ចូលជាមួយ Hook
+
+[heading.uri/Example]
+original=Example
+translation=ឧទាហរណ៍
+
+[heading.uri/Use x-callback-url parameters]
+original=Use x-callback-url parameters
+translation=ប្រើប៉ារ៉ាម៉ែត្រ x-callback-url
+
+[heading.uri/Shorthand formats]
+original=Shorthand formats
+translation=ទម្រង់កាត់
+
+[heading.uri/Troubleshooting]
+original=Troubleshooting
+translation=ការដោះស្រាយបញ្ហា
+
+[heading.uri/Register Obsidian URI]
+original=Register Obsidian URI
+translation=ចុះឈ្មោះ Obsidian URI
+
+[heading.community-plugins/Browse community plugins]
+original=Browse community plugins
+translation=រុករកកម្មវិធីជំនួយសហគមន៍
+
+[heading.community-plugins/Install a community plugin]
+original=Install a community plugin
+translation=ដំឡើងកម្មវិធីជំនួយសហគមន៍
+
+[heading.community-plugins/Enable a community plugin]
+original=Enable a community plugin
+translation=បើកដំណើរការកម្មវិធីជំនួយសហគមន៍
+
+[heading.community-plugins/Update plugins]
+original=Update plugins
+translation=អាប់ដេតកម្មវិធីជំនួយ
+
+[heading.community-plugins/Uninstall a community plugin]
+original=Uninstall a community plugin
+translation=លុបកម្មវិធីជំនួយសហគមន៍
+
+[heading.community-plugins/Manage installed plugins]
+original=Manage installed plugins
+translation=គ្រប់គ្រងកម្មវិធីជំនួយដែលបានដំឡើង
+
+[heading.community-plugins/Learn more]
+original=Learn more
+translation=ស្វែងយល់បន្ថែម
+
+[heading.themes/Browse themes]
+original=Browse themes
+translation=រុករករូបរាង
+
+[heading.themes/Install a new theme]
+original=Install a new theme
+translation=ដំឡើងរូបរាងថ្មី
+
+[heading.themes/Update themes]
+original=Update themes
+translation=ធ្វើបច្ចុប្បន្នភាពរូបរាង
+
+[heading.themes/Uninstall an existing theme]
+original=Uninstall an existing theme
+translation=លុបរូបរាងដែលមានស្រាប់
+
+[heading.themes/Learn more]
+original=Learn more
+translation=ស្វែងយល់បន្ថែម
+
+[heading.plugin-security/Restricted mode]
+original=Restricted mode
+translation=របៀបដាក់កម្រិត
+
+[heading.plugin-security/Plugin capabilities]
+original=Plugin capabilities
+translation=សមត្ថភាពកម្មវិធីជំនួយ
+
+[heading.plugin-security/Plugin review process]
+original=Plugin review process
+translation=ដំណើរការពិនិត្យកម្មវិធីជំនួយ
+
+[heading.snippets/Adding a snippet]
+original=Adding a snippet
+translation=បន្ថែមស្នីប៉ែត
+
+[heading.snippets/Writing CSS for Obsidian]
+original=Writing CSS for Obsidian
+translation=សរសេរ CSS សម្រាប់ Obsidian
+
+[heading.snippets/Learn more]
+original=Learn more
+translation=ស្វែងយល់បន្ថែម
+
+[heading.developers/Plugins and themes]
+original=Plugins and themes
+translation=កម្មវិធីជំនួយ និងរូបរាង
+
+[heading.developers/Open source projects]
+original=Open source projects
+translation=គម្រោងប្រភពបើកចំហ
+
+[heading.developers/Documentation]
+original=Documentation
+translation=ឯកសារ
+
+[heading.developers/Community]
+original=Community
+translation=សហគមន៍
+
+[heading.obsidian-flavored-markdown/Supported Markdown extensions]
+original=Supported Markdown extensions
+translation=ផ្នែកបន្ថែម Markdown ដែលគាំទ្រ
+
+[heading.syntax/Paragraphs]
+original=Paragraphs
+translation=កថាខណ្ឌ
+
+[heading.syntax/Line breaks]
+original=Line breaks
+translation=បំបែកបន្ទាត់
+
+[heading.syntax/Headings]
+original=Headings
+translation=ចំណងជើង
+
+[heading.syntax/Bold, italics, highlights]
+original=Bold, italics, highlights
+translation=ដិត អក្សរទ្រេត ពណ៌ចំណាំ
+
+[heading.syntax/Internal links]
+original=Internal links
+translation=តំណភ្ជាប់ផ្ទៃក្នុង
+
+[heading.syntax/External links]
+original=External links
+translation=តំណភ្ជាប់ខាងក្រៅ
+
+[heading.syntax/Escape blank spaces in links]
+original=Escape blank spaces in links
+translation=គេចចន្លោះទទេក្នុងតំណភ្ជាប់
+
+[heading.syntax/External images]
+original=External images
+translation=រូបភាពខាងក្រៅ
+
+[heading.syntax/Quotes]
+original=Quotes
+translation=សម្រង់
+
+[heading.syntax/Lists]
+original=Lists
+translation=បញ្ជី
+
+[heading.syntax/Task lists]
+original=Task lists
+translation=បញ្ជីភារកិច្ច
+
+[heading.syntax/Nesting lists]
+original=Nesting lists
+translation=ដាក់បញ្ជីជាន់គ្នា
+
+[heading.syntax/Horizontal rule]
+original=Horizontal rule
+translation=បន្ទាត់សមតុល្យ
+
+[heading.syntax/Inline code]
+original=Inline code
+translation=កូដ inline
+
+[heading.syntax/Code blocks]
+original=Code blocks
+translation=ប្លុកកូដ
+
+[heading.syntax/Nesting code blocks]
+original=Nesting code blocks
+translation=ដាក់ប្លុកកូដជាន់គ្នា
+
+[heading.syntax/Footnotes]
+original=Footnotes
+translation=កំណត់ចុងក្រោយ
+
+[heading.syntax/Comments]
+original=Comments
+translation=មតិយោបល់
+
+[heading.syntax/Escaping Markdown Syntax]
+original=Escaping Markdown Syntax
+translation=ការគេចវាក្យសម្ពន្ធ Markdown
+
+[heading.syntax/Learn more]
+original=Learn more
+translation=រៀនបន្ថែម
+
+[heading.style-guide/Terminology and grammar]
+original=Terminology and grammar
+translation=វាក្យបច្ចេកទេស និងវេយ្យាករណ៍
+
+[heading.style-guide/Language style]
+original=Language style
+translation=រចនាប័ទ្មភាសា
+
+[heading.style-guide/Terms]
+original=Terms
+translation=ពាក្យ
+
+[heading.style-guide/Product names]
+original=Product names
+translation=ឈ្មោះផលិតផល
+
+[heading.style-guide/UI and interactions]
+original=UI and interactions
+translation=ចំណុចប្រទាក់ និងការប្រព្រឹត្ត
+
+[heading.style-guide/Notes, files, and folders]
+original=Notes, files, and folders
+translation=កំណត់ត្រា ឯកសារ និងថត
+
+[heading.style-guide/Reference documentation for settings]
+original=Reference documentation for settings
+translation=ឯកសារយោងសម្រាប់ការកំណត់
+
+[heading.style-guide/Directional terms]
+original=Directional terms
+translation=ពាក្យដែលបង្ហាញទិសដៅ
+
+[heading.style-guide/Instructions]
+original=Instructions
+translation=ការណែនាំ
+
+[heading.style-guide/Sentence case]
+original=Sentence case
+translation=អក្សរធំ-តូច​ក្នុងប្រយោគ
+
+[heading.style-guide/Examples]
+original=Examples
+translation=ឧទាហរណ៍
+
+[heading.style-guide/Key names and keyboard shortcuts]
+original=Key names and keyboard shortcuts
+translation=ឈ្មោះគ្រាប់ចុច និងផ្លូវកាត់ក្តារចុច
+
+[heading.style-guide/Images]
+original=Images
+translation=រូបភាព
+
+[heading.style-guide/Information structure]
+original=Information structure
+translation=រចនាសម្ព័ន្ធព័ត៌មាន
+
+[heading.style-guide/Callout types]
+original=Callout types
+translation=ប្រភេទ callout
+
+[heading.html/HTML limitations]
+original=HTML limitations
+translation=ដែនកំណត់ HTML
+
+[heading.html/No Markdown inside HTML]
+original=No Markdown inside HTML
+translation=គ្មាន Markdown នៅក្នុង HTML
+
+[heading.html/HTML blocks must be self-contained]
+original=HTML blocks must be self-contained
+translation=ប្លុក HTML ត្រូវតែមានលក្ខណៈ self-contained
+
+[heading.html/When Markdown appears to work in HTML]
+original=When Markdown appears to work in HTML
+translation=នៅពេល Markdown ហាក់ដូចជាដំណើរការនៅក្នុង HTML
+
+[heading.html/Common HTML usage]
+original=Common HTML usage
+translation=ការប្រើប្រាស់ HTML ទូទៅ
+
+[heading.html/Comments]
+original=Comments
+translation=មតិយោបល់
+
+[heading.html/Underline]
+original=Underline
+translation=គូសបន្ទាត់ក្រោម
+
+[heading.html/Strikethrough]
+original=Strikethrough
+translation=គូសបន្ទាត់កាត់
+
+[heading.properties/Add properties to a note]
+original=Add properties to a note
+translation=បន្ថែមលក្ខណៈសម្បត្តិទៅកំណត់ត្រា
+
+[heading.properties/Property types]
+original=Property types
+translation=ប្រភេទលក្ខណៈសម្បត្តិ
+
+[heading.properties/Advanced uses]
+original=Advanced uses
+translation=ការប្រើប្រាស់កម្រិតខ្ពស់
+
+[heading.properties/Search properties]
+original=Search properties
+translation=ស្វែងរកលក្ខណៈសម្បត្តិ
+
+[heading.properties/Templates]
+original=Templates
+translation=ពុម្ព
+
+[heading.properties/Rename properties]
+original=Rename properties
+translation=ប្តូរឈ្មោះលក្ខណៈសម្បត្តិ
+
+[heading.properties/Display modes]
+original=Display modes
+translation=របៀបបង្ហាញ
+
+[heading.properties/CSS snippets]
+original=CSS snippets
+translation=ស្នីប៉ែត CSS
+
+[heading.properties/Not supported]
+original=Not supported
+translation=មិនត្រូវបានគាំទ្រ
+
+[heading.properties/Hotkeys]
+original=Hotkeys
+translation=ផ្លូវកាត់ក្តារចុច
+
+[heading.properties/Add a property]
+original=Add a property
+translation=បន្ថែមលក្ខណៈសម្បត្តិ
+
+[heading.properties/Navigate between properties]
+original=Navigate between properties
+translation=រុករករវាងលក្ខណៈសម្បត្តិ
+
+[heading.properties/Select properties]
+original=Select properties
+translation=ជ្រើសរើសលក្ខណៈសម្បត្តិ
+
+[heading.properties/Edit properties]
+original=Edit properties
+translation=កែសម្រួលលក្ខណៈសម្បត្តិ
+
+[heading.properties/Vim (advanced)]
+original=Vim (advanced)
+translation=Vim (កម្រិតខ្ពស់)
+
+[heading.properties/Property format]
+original=Property format
+translation=ទ្រង់ទ្រាយលក្ខណៈសម្បត្តិ
+
+[heading.properties/Text]
+original=Text
+translation=អត្ថបទ
+
+[heading.properties/List]
+original=List
+translation=បញ្ជី
+
+[heading.properties/Number]
+original=Number
+translation=លេខ
+
+[heading.properties/Checkbox]
+original=Checkbox
+translation=ប្រអប់ធីក
+
+[heading.properties/Date]
+original=Date
+translation=កាលបរិច្ឆេទ
+
+[heading.properties/Date & time]
+original=Date & time
+translation=កាលបរិច្ឆេទ & ម៉ោង
+
+[heading.properties/Tags]
+original=Tags
+translation=ស្លាក
+
+[heading.properties/JSON properties]
+original=JSON properties
+translation=លក្ខណៈសម្បត្តិ JSON
+
+[heading.properties/Default properties]
+original=Default properties
+translation=លក្ខណៈសម្បត្តិលំនាំដើម
+
+[heading.properties/Properties for Obsidian Publish]
+original=Properties for Obsidian Publish
+translation=លក្ខណៈសម្បត្តិសម្រាប់ Obsidian Publish
+
+[heading.properties/Deprecated properties]
+original=Deprecated properties
+translation=លក្ខណៈសម្បត្តិដែលលែងប្រើ
+
+[heading.resources/Questions and advice]
+original=Questions and advice
+translation=សំណួរ និងដំបូន្មាន
+
+[heading.resources/Report bugs and request features]
+original=Report bugs and request features
+translation=រាយការណ៍អំពីបញ្ហា និងស្នើសុំមុខងារ
+
+[heading.resources/Collect debug information]
+original=Collect debug information
+translation=ប្រមូលព័ត៌មានបំភ្លឺ
+
+[heading.resources/Check startup time]
+original=Check startup time
+translation=ពិនិត្យពេលវេលាចាប់ផ្ដើម
+
+[heading.resources/Capture console logs]
+original=Capture console logs
+translation=ចាប់យកកំណត់ហេតុ console
+
+[heading.resources/Contact Obsidian support]
+original=Contact Obsidian support
+translation=ទំនាក់ទំនងផ្នែកជំនួយ Obsidian
+
+[heading.resources/Report a security issue]
+original=Report a security issue
+translation=រាយការណ៍អំពីបញ្ហាសុវត្ថិភាព
+
+[heading.resources/Report a Code of Conduct violation]
+original=Report a Code of Conduct violation
+translation=រាយការណ៍អំពីការរំលោភក្រមសីលធម៌
+
+[heading.resources/Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=ការរួមចំណែកដល់ Obsidian
+
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=បង្កើត Airtable personal access token
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=នាំចូលទិន្នន័យ Airtable របស់អ្នក
+
+[heading.import/Import options]
+original=Import options
+translation=ជម្រើសនាំចូល
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=កំណត់របៀបនាំចូលវាល Airtable
+
+[heading.import/Before you start]
+original=Before you start
+translation=មុនពេលអ្នកចាប់ផ្តើម
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=នាំចូលក្រាហ្វ Logseq របស់អ្នក
+
+[heading.import/Limitations]
+original=Limitations
+translation=ដែនកំណត់
+
+[heading.import/Settings]
+original=Settings
+translation=ការកំណត់
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=បន្សំគ្រោងឱ្យរាប
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=រក្សាទិន្នន័យដែលមិនឆបគ្នា
+
+[heading.import/Templates]
+original=Templates
+translation=គំរូ
+
+[heading.import/Troubleshooting]
+original=Troubleshooting
+translation=ការដោះស្រាយបញ្ហា
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=រកទីតាំងឯកសារកំណត់ត្រារបស់អ្នក
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=នាំចូលកំណត់ត្រា Tomboy ឬ Gnote របស់អ្នក
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=កែសម្រួលគំរូនាំចូល
+
+[heading.import/Preview results]
+original=Preview results
+translation=មើលលទ្ធផលជាមុន
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=វាក្យសម្ពន្ធគំរូ
+
+[heading.import/Variables]
+original=Variables
+translation=អថេរ
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=តម្លៃប្រភពសម្រាប់លក្ខណៈសម្បត្តិ
+
+[heading.import/Example template]
+original=Example template
+translation=ឧទាហរណ៍គំរូ
+
+[heading.community-directory/Header]
+original=Header
+translation=ថតសហគមន៍
+
+[heading.community-directory/Overview]
+original=Overview
+translation=ក្បាលទំព័រ
+
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=ទិដ្ឋភាពទូទៅ
+
+[heading.community-directory/Updates]
+original=Updates
+translation=កាតពិន្ទុ
+
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=បច្ចុប្បន្នភាព
+
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=របារចំហៀង
+
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=បើកម៉ឺនុយ
+
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=កុំព្យូទ័រ
+
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=ទិដ្ឋភាព និងប្លង់
+
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=គ្រប់គ្រងកំណត់ចំណាំ
+
+[heading.more-options-menu/Find]
+original=Find
+translation=ស្វែងរក
+
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=ផ្លូវ ប្រវត្តិ និងទិដ្ឋភាពដែលបានភ្ជាប់
+
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=កុំព្យូទ័ររបស់អ្នក
+
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=ម៉ឺនុយផ្ទាំង
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=ទូរស័ព្ទចល័ត
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=បើកស្វែងរក និងជំនួស
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=ស្វែងរកការផ្គូផ្គង
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=ជំនួសការផ្គូផ្គង
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=បើកឯកសារ PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=រុករក PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=ផ្លាស់ប្តូររបៀបដែល PDF បង្ហាញ
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=ស្វែងរកនៅក្នុង PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=ចម្លងអត្ថបទពី PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=បង្កប់ PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=នាំចេញកំណត់ចំណាំទៅ PDF

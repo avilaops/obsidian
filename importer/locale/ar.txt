@@ -1,0 +1,2499 @@
+[command.import-notes]
+original=Import notes
+translation=استيراد الملاحظات
+
+[nouns.file-with-count]
+original={{count}} file
+translation={{count}} ملف
+
+[nouns.file-with-count_plural]
+original={{count}} files
+translation={{count}} ملفات
+
+[nouns.note-with-count]
+original={{count}} note
+translation=ملاحظة {{count}}
+
+[nouns.note-with-count_plural]
+original={{count}} notes
+translation={{count}} ملاحظات
+
+[nouns.item-with-count]
+original={{count}} item
+translation=عنصر {{count}}
+
+[nouns.item-with-count_plural]
+original={{count}} items
+translation={{count}} عناصر
+
+[nouns.record-with-count]
+original={{count}} record
+translation=سجل {{count}}
+
+[nouns.record-with-count_plural]
+original={{count}} records
+translation={{count}} سجلات
+
+[nouns.base-with-count]
+original={{count}} base
+translation=قاعدة {{count}}
+
+[nouns.base-with-count_plural]
+original={{count}} bases
+translation={{count}} قواعد
+
+[nouns.template-with-count]
+original={{count}} template
+translation=قالب {{count}}
+
+[nouns.template-with-count_plural]
+original={{count}} templates
+translation={{count}} قوالب
+
+[nouns.failure-with-count]
+original={{count}} failure
+translation=إخفاق {{count}}
+
+[nouns.failure-with-count_plural]
+original={{count}} failures
+translation={{count}} إخفاقات
+
+[nouns.second-with-count]
+original={{count}} second
+translation=ثانية {{count}}
+
+[nouns.second-with-count_plural]
+original={{count}} seconds
+translation={{count}} ثوانٍ
+
+[nouns.relation-placeholder-with-count]
+original={{count}} relation placeholder
+translation=عنصر نائب للعلاقة {{count}}
+
+[nouns.relation-placeholder-with-count_plural]
+original={{count}} relation placeholders
+translation={{count}} عناصر نائبة للعلاقات
+
+[nouns.linked-database-with-count]
+original={{count}} linked database
+translation=قاعدة بيانات مرتبطة {{count}}
+
+[nouns.linked-database-with-count_plural]
+original={{count}} linked databases
+translation={{count}} قواعد بيانات مرتبطة
+
+[nouns.mention-link-with-count]
+original={{count}} mention link
+translation=رابط إشارة {{count}}
+
+[nouns.mention-link-with-count_plural]
+original={{count}} mention links
+translation={{count}} روابط إشارات
+
+[nouns.synced-reference-with-count]
+original={{count}} synced child reference
+translation=مرجع فرعي مزامن {{count}}
+
+[nouns.synced-reference-with-count_plural]
+original={{count}} synced child references
+translation={{count}} مراجع فرعية مزامنة
+
+[nouns.new-item-with-count]
+original={{count}} new item
+translation=عنصر جديد {{count}}
+
+[nouns.new-item-with-count_plural]
+original={{count}} new items
+translation={{count}} عناصر جديدة
+
+[nouns.page-with-count]
+original={{count}} page
+translation=صفحة {{count}}
+
+[nouns.page-with-count_plural]
+original={{count}} pages
+translation={{count}} صفحات
+
+[group.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[group.notion.name]
+original=Notion
+translation=Notion
+
+[outliner.name-flatten-outlines]
+original=Flatten outlines
+translation=تسطيح المخططات
+
+[outliner.desc-flatten-outlines]
+original=Convert outlines into paragraphs, headings, and lists.
+translation=تحويل المخططات إلى فقرات وعناوين وقوائم.
+
+[modal.title-pick-format]
+original=Import data into Obsidian
+translation=استيراد البيانات إلى Obsidian
+
+[modal.title-choose-method]
+original=Choose how to import
+translation=اختر طريقة الاستيراد
+
+[modal.title-import-from]
+original=Import from {{format}}
+translation=الاستيراد من {{format}}
+
+[modal.search-placeholder]
+original=Filter...
+translation=تصفية...
+
+[modal.msg-no-formats]
+original=No formats found.
+translation=لم يتم العثور على تنسيقات.
+
+[modal.msg-drop-to-import]
+original=Drop files to import
+translation=أفلت الملفات للاستيراد
+
+[modal.button-show-all-formats]
+original=Show all formats
+translation=إظهار الكل
+
+[modal.button-continue]
+original=Continue
+translation=استمرار
+
+[modal.button-import]
+original=Import
+translation=استيراد
+
+[modal.button-back]
+original=Back
+translation=رجوع
+
+[modal.button-help]
+original=Help
+translation=مساعدة
+
+[modal.button-pause]
+original=Pause
+translation=إيقاف مؤقت
+
+[modal.button-resume]
+original=Resume
+translation=استئناف
+
+[modal.button-stop]
+original=Stop
+translation=إيقاف
+
+[modal.button-save-report]
+original=Save report
+translation=حفظ التقرير
+
+[modal.msg-report-failed]
+original=Could not save the import report.
+translation=تعذّر حفظ تقرير الاستيراد.
+
+[modal.button-import-more]
+original=Import more
+translation=استيراد المزيد
+
+[modal.button-done]
+original=Done
+translation=تم
+
+[modal.msg-unexpected-auth]
+original=Unexpected auth event. Please restart the auth process.
+translation=حدث مصادقة غير متوقع. يرجى إعادة التشغيل لعملية المصادقة.
+
+[progress.stat-imported]
+original=imported
+translation=تم استيرادها
+
+[progress.stat-attachments]
+original=attachments
+translation=مرفقات
+
+[progress.stat-remaining]
+original=remaining
+translation=متبقية
+
+[progress.stat-skipped]
+original=skipped
+translation=تم تخطيه
+
+[progress.stat-failed]
+original=failed
+translation=فشل
+
+[progress.label-skipped]
+original=Skipped: 
+translation=تم تخطيه: 
+
+[progress.label-failed]
+original=Failed: 
+translation=فشل: 
+
+[progress.label-entry]
+original="{{name}}"
+translation="{{name}}"
+
+[progress.label-entry-with-reason]
+original="{{name}}" because {{reason}}
+translation="{{name}}" بسبب {{reason}}
+
+[progress.label-paused]
+original=Paused
+translation=متوقف مؤقتاً
+
+[progress.label-paused-with]
+original=Paused - {{status}}
+translation=متوقف مؤقتاً - {{status}}
+
+[progress.label-importing]
+original=Importing
+translation=جارٍ الاستيراد
+
+[progress.label-remaining]
+original={{count}} remaining...
+translation={{count}} متبقٍّ...
+
+[progress.label-remaining_plural]
+original={{count}} remaining...
+translation={{count}} متبقٍّ...
+
+[progress.label-paused-remaining]
+original=Paused - {{count}} remaining
+translation=متوقف مؤقتاً - {{count}} متبقٍّ
+
+[progress.label-paused-remaining_plural]
+original=Paused - {{count}} remaining
+translation=متوقف مؤقتاً - {{count}} متبقٍّ
+
+[progress.status-stopping]
+original=Stopping...
+translation=جارٍ الإيقاف...
+
+[progress.msg-stopped]
+original=Import stopped.
+translation=تم إيقاف الاستيراد.
+
+[progress.msg-errors]
+original=Import finished with errors.
+translation=انتهى الاستيراد مع وجود أخطاء.
+
+[progress.msg-complete]
+original=Import complete.
+translation=اكتمل الاستيراد.
+
+[progress.msg-imported-count]
+original={{count}} note imported
+translation=تم استيراد ملاحظة واحدة ({{count}})
+
+[progress.msg-imported-count_plural]
+original={{count}} notes imported
+translation=تم استيراد {{count}} ملاحظة
+
+[progress.msg-click-to-show]
+original={{counts}}. Select to show.
+translation={{counts}}. اختر للعرض.
+
+[progress.status-waiting]
+original=Waiting {{duration}} ({{reason}})
+translation=في الانتظار {{duration}} ({{reason}})
+
+[progress.status-standardizing]
+original=Standardizing Markdown ({{current}}/{{total}})
+translation=توحيد Markdown ({{current}}/{{total}})
+
+[progress.label-finalization]
+original=Markdown finalization
+translation=إنهاء Markdown
+
+[report.file-name]
+original={{date}} {{importer}} import log
+translation={{date}} سجل استيراد {{importer}}
+
+[report.title]
+original={{importer}} import
+translation=استيراد {{importer}}
+
+[report.msg-finished]
+original=Finished {{when}}. {{counts}}.
+translation=انتهى {{when}}. {{counts}}.
+
+[report.msg-stopped]
+original=Stopped {{when}}. {{counts}}.
+translation=توقف {{when}}. {{counts}}.
+
+[report.heading-failed]
+original=Failed ({{count}})
+translation=فشل ({{count}})
+
+[report.heading-skipped]
+original=Skipped ({{count}})
+translation=تم تخطيه ({{count}})
+
+[report.heading-messages]
+original=Messages
+translation=الرسائل
+
+[report.count-notes]
+original={{count}} note imported
+translation=تم استيراد ملاحظة واحدة ({{count}})
+
+[report.count-notes_plural]
+original={{count}} notes imported
+translation=تم استيراد {{count}} ملاحظة
+
+[report.count-attachments]
+original={{count}} attachment downloaded
+translation=تم تنزيل مرفق واحد ({{count}})
+
+[report.count-attachments_plural]
+original={{count}} attachments downloaded
+translation=تم تنزيل {{count}} مرفق
+
+[report.count-skipped]
+original={{count}} item skipped
+translation=تم تخطي عنصر واحد ({{count}})
+
+[report.count-skipped_plural]
+original={{count}} items skipped
+translation=تم تخطي {{count}} عنصر
+
+[report.count-failed]
+original={{count}} item failed
+translation=فشل عنصر واحد ({{count}})
+
+[report.count-failed_plural]
+original={{count}} items failed
+translation=فشل {{count}} عنصر
+
+[source.desc]
+original=Drag and drop, or choose files to import.
+translation=سحب و إفلات، أو اختر ملفات للاستيراد.
+
+[source.desc-choose]
+original=Choose files to import.
+translation=اختر ملفات للاستيراد.
+
+[source.button-choose-file]
+original=Choose file
+translation=اختر ملف
+
+[source.button-choose-files]
+original=Choose files
+translation=اختر ملفات
+
+[source.button-choose-folders]
+original=Choose folders
+translation=اختر المجلدات
+
+[source.dialog-pick-files]
+original=Pick files to import
+translation=اختر الملفات للاستيراد
+
+[source.dialog-pick-folders]
+original=Folders to import
+translation=المجلدات للاستيراد
+
+[source.desc-folders]
+original=Everything in checked folders is imported. Uncheck folders to exclude them.
+translation=يتم استيراد كل شيء في المجلدات المحددة. قم بإلغاء تحديد المجلدات لاستبعادها.
+
+[source.msg-pick-source-first]
+original=Choose files or folders first.
+translation=اختر الملفات أو المجلدات أولاً.
+
+[source.msg-reading-folders]
+original=Reading folders...
+translation=جارٍ قراءة المجلدات...
+
+[source.msg-no-folders]
+original=No folders found.
+translation=لم يتم العثور على مجلدات.
+
+[source.msg-android-folder-failed]
+original=Could not choose that folder.
+translation=تعذّر اختيار هذا المجلد.
+
+[source.msg-android-folder-read-failed]
+original=Could not read that folder.
+translation=تعذّرت قراءة هذا المجلد.
+
+[source.msg-android-folder-unavailable]
+original=Folder selection is unavailable on this device.
+translation=اختيار المجلد غير متاح على هذا الجهاز.
+
+[source.msg-android-root-folder]
+original=Choose a folder other than the root of your device.
+translation=اختر مجلدًا آخر غير المجلد الجذر في جهازك.
+
+[source.msg-flat-files]
+original={{count}} file will be imported.
+translation=سيتم استيراد {{count}} ملف.
+
+[source.msg-flat-files_plural]
+original={{count}} files will be imported.
+translation=سيتم استيراد {{count}} ملفات.
+
+[source.msg-nothing-to-import]
+original=Nothing to import there. Pick {{extensions}} files, or a folder holding some.
+translation=لا يوجد شيء للاستيراد هنا. اختر ملفات {{extensions}}، أو مجلدًا يحتوي عليها.
+
+[source.msg-will-import]
+original={{files}} will be imported: 
+translation=سيتم استيراد {{files}}: 
+
+[source.msg-more-files]
+original=and {{count}} more file
+translation=و {{count}} ملف إضافي
+
+[source.msg-more-files_plural]
+original=and {{count}} more files
+translation=و {{count}} ملفات إضافية
+
+[source.button-remove-file]
+original=Remove from the import
+translation=إزالة من الاستيراد
+
+[output.label-source-id]
+original=source ID
+translation=المعرّف المصدري
+
+[output.name-save-source-id]
+original=Save {{label}}
+translation=حفظ {{label}}
+
+[output.desc-save-source-id]
+original=Add the {{label}} to note properties so future imports can recognize moved or renamed notes.
+translation=إضافة {{label}} إلى خصائص الملاحظة حتى تتمكن عمليات الاستيراد المستقبلية من التعرف على الملاحظات المنقولة أو المُعاد تسميتها.
+
+[output.name-folder]
+original=Output folder
+translation=مجلد الإخراج
+
+[output.desc-folder]
+original=Where imported notes will be saved. Leave blank to use the top level of the vault.
+translation=حيث سيتم حفظ الملاحظات المستوردة. اتركه فارغ للاستخدام المستوى الأعلى من الخزنة.
+
+[output.name-template]
+original=Template
+translation=قالب
+
+[output.desc-template]
+original=Optional Markdown template from this vault. Use variables such as {{title}}, {{content}}, and {{date}}.
+translation=قالب Markdown اختياري من هذه الخزنة. استخدم متغيرات مثل {{title}} و{{content}} و{{date}}.
+
+[output.placeholder-template]
+original=Templates/Import.md
+translation=Templates/Import.md
+
+[output.msg-template-not-found]
+original=Template must be a Markdown file in this vault: {{path}}
+translation=يجب أن يكون القالب ملف Markdown في هذه الخزنة: {{path}}
+
+[output.name-attachments]
+original=Attachment location
+translation=الموقع المرفق
+
+[output.desc-attachments]
+original=Where imported images and files will be saved.
+translation=حيث سيتم حفظ الصور والملفات المستوردة.
+
+[output.name-subfolder]
+original=Subfolder name
+translation=اسم المجلد الفرعي
+
+[output.desc-subfolder]
+original=Folder to use inside each imported note's folder.
+translation=مجلد للاستخدام داخل مجلد كل ملاحظة مستوردة.
+
+[output.name-attachment-folder]
+original=Attachment folder
+translation=مجلد المرفقات
+
+[output.desc-attachment-folder]
+original=Folder path from the top level of the vault.
+translation=مسار المجلد من المستوى الأعلى للخزنة.
+
+[output.name-duplicates]
+original=Existing notes
+translation=الملاحظات الموجودة
+
+[output.desc-duplicates]
+original=Choose what to do when an imported note matches one in your vault. "{{update}}" skips unchanged notes and preserves newer local edits when modification dates are available.
+translation=اختر ما يجب فعله عندما تتطابق ملاحظة مستوردة مع ملاحظة في خزنتك. "{{update}}" يتخطى الملاحظات غير المتغيرة ويحافظ على التعديلات المحلية الأحدث عند توفر تواريخ التعديل.
+
+[output.option-create-copy]
+original=Create a copy
+translation=إنشاء نسخة
+
+[output.option-skip]
+original=Skip
+translation=تخطي
+
+[output.option-update]
+original=Update
+translation=تحديث
+
+[output.option-attachments-vault]
+original=Vault folder
+translation=جذر الخزنة
+
+[output.option-attachments-folder]
+original=In the folder specified below
+translation=في المجلد المحدد أدناه
+
+[output.option-attachments-note]
+original=Same folder as the note
+translation=نفس مجلد الملاحظة
+
+[output.option-attachments-subfolder]
+original=In subfolder under the note
+translation=في مجلد فرعي تحت الملاحظة
+
+[common.msg-pick-file]
+original=Please pick at least one file to import.
+translation=يرجى اختيار ملف واحد على الأقل للاستيراد.
+
+[common.msg-pick-output]
+original=Please select a location to export to.
+translation=يرجى تحديد الموقع للتصدير إليه.
+
+[common.msg-pick-import-location]
+original=Please select a location to import your files to.
+translation=يرجى تحديد الموقع لاستيراد ملفاتك إليه.
+
+[common.msg-unknown-error]
+original=Unknown error
+translation=خطأ غير معروف
+
+[common.name-export]
+original=Export your data
+translation=تصدير بياناتك
+
+[common.label-learn-more]
+original=Learn more
+translation=تعلم المزيد
+
+[common.button-instructions]
+original=Instructions
+translation=التعليمات
+
+[common.button-open]
+original=Open
+translation=فتح
+
+[common.status-processing]
+original=Processing {{name}}
+translation=جارٍ معالجة {{name}}
+
+[common.status-importing-note]
+original=Importing note {{name}}
+translation=جارٍ استيراد الملاحظة {{name}}
+
+[common.status-importing-attachment]
+original=Importing attachment {{name}}
+translation=جارٍ استيراد المرفق {{name}}
+
+[common.status-cancelled]
+original=Import cancelled
+translation=أُلغي الاستيراد
+
+[reason.already-in-vault]
+original=it is already in the vault
+translation=موجود بالفعل في الخزنة
+
+[reason.unchanged-since-import]
+original=it has not changed since the last import
+translation=لم يتغير منذ آخر استيراد
+
+[reason.edited-since-import]
+original=it has been edited in Obsidian since the last import
+translation=تم تعديله في Obsidian منذ آخر استيراد
+
+[reason.file-not-in-vault]
+original=The imported file did not appear in the vault.
+translation=لم يظهر الملف المستورد في الخزنة.
+
+[reason.folder-not-created]
+original=Failed to create folder at "{{path}}"
+translation=فشل إنشاء المجلد في "{{path}}"
+
+[tree.button-select-all]
+original=Select all
+translation=تحديد الكل
+
+[tree.button-deselect-all]
+original=Deselect all
+translation=إلغاء تحديد الكل
+
+[tree.button-load]
+original=Load
+translation=تحميل
+
+[tree.button-loading]
+original=Loading...
+translation=جارٍ التحميل...
+
+[tree.button-refresh]
+original=Refresh
+translation=تحديث
+
+[tree.placeholder-filter]
+original=Filter...
+translation=تصفية...
+
+[tree.msg-no-matches]
+original=No results found.
+translation=لم يتم العثور على نتائج.
+
+[request.msg-unauthorized]
+original={{service}} did not accept the request for {{subject}}. {{credential}}
+translation={{service}} لم يقبل الطلب لـ {{subject}}. {{credential}}
+
+[request.msg-forbidden]
+original={{service}} would not give access to {{subject}}. {{credential}}
+translation={{service}} لم يمنح الوصول إلى {{subject}}. {{credential}}
+
+[request.msg-not-found]
+original={{service}} could not find {{subject}}.
+translation=لم يتمكن {{service}} من العثور على {{subject}}.
+
+[request.msg-rate-limited]
+original={{service}} is limiting how fast {{subject}} can be read. Wait a few minutes and try again.
+translation={{service}} يحدّ من سرعة قراءة {{subject}}. انتظر بضع دقائق وحاول مرة أخرى.
+
+[request.msg-timed-out]
+original={{service}} took too long to return {{subject}}. Try again shortly.
+translation=استغرق {{service}} وقتًا طويلاً لإرجاع {{subject}}. حاول مرة أخرى بعد قليل.
+
+[request.msg-unavailable]
+original={{service}} could not return {{subject}} right now. Try again shortly.
+translation=لم يتمكن {{service}} من إرجاع {{subject}} الآن. حاول مرة أخرى بعد قليل.
+
+[request.msg-failed-with-code]
+original=Could not read {{subject}}: {{message}} ({{code}})
+translation=تعذّرت قراءة {{subject}}: {{message}} ({{code}})
+
+[request.msg-failed-with-message]
+original=Could not read {{subject}}: {{message}}
+translation=تعذّرت قراءة {{subject}}: {{message}}
+
+[request.msg-failed-with-reported-code]
+original=Could not read {{subject}}. {{service}} reported {{code}}.
+translation=تعذّرت قراءة {{subject}}. أبلغ {{service}} عن {{code}}.
+
+[request.msg-failed]
+original=Could not read {{subject}}.
+translation=تعذّرت قراءة {{subject}}.
+
+[template.msg-intro]
+original=Configure how your data should be imported. Use {{syntax}} syntax to reference field values.
+translation=قم بتهيئة كيفية استيراد بياناتك. استخدم صيغة {{syntax}} للإشارة إلى قيم الحقول.
+
+[template.msg-note-template-intro]
+original=Review examples of how your notes will be imported.
+translation=راجع أمثلة على كيفية استيراد ملاحظاتك.
+
+[template.name-title]
+original=Note title
+translation=إعادة تسمية الملف
+
+[template.desc-title]
+original=Template for the note title. Use variables like {{field_name}} to insert values.
+translation=قالب لعنوان الملاحظة. استخدم متغيرات مثل {{field_name}} لإدراج القيم.
+
+[template.name-location]
+original=Note location
+translation=موقع الملاحظة
+
+[template.desc-location]
+original=Template for note location/path. Use {{field_name}} to organize notes.
+translation=قالب لموقع/مسار الملاحظة. استخدم {{field_name}} لتنظيم الملاحظات.
+
+[template.name-content]
+original=Note content
+translation=محتوى الملاحظة
+
+[template.desc-content]
+original=Template for the note content. Use variables like {{field_name}} to insert values.
+translation=قالب لمحتوى الملاحظة. استخدم متغيرات مثل {{field_name}} لإدراج القيم.
+
+[template.name-template-file]
+original=Template
+translation=قالب
+
+[template.desc-template-file]
+original=Optional. Choose a template from your vault to format the note content. See Help for {{link}}.
+translation=اختياري. اختر قالبًا من خزنتك لتنسيق محتوى الملاحظة. راجع المساعدة لمعرفة {{link}}.
+
+[template.link-template-syntax]
+original=template syntax
+translation=صيغة القالب
+
+[template.heading-preview]
+original=Preview
+translation=معاينة
+
+[template.status-loading-preview]
+original=Loading preview...
+translation=جارٍ تحميل المعاينة...
+
+[template.button-edit-template]
+original=Edit
+translation=تحرير
+
+[template.button-save-template]
+original=Save
+translation=حفظ
+
+[template.button-reset-template]
+original=Reset to default
+translation=إعادة التعيين إلى الافتراضي
+
+[template.button-start-import]
+original=Start import
+translation=بدء الاستيراد
+
+[template.link-show-more]
+original=Show more
+translation=عرض المزيد
+
+[template.name-template-editor]
+original=Template source
+translation=مصدر القالب
+
+[template.label-edit-import-template]
+original=Edit import template
+translation=تحرير قالب الاستيراد
+
+[template.button-add-property]
+original=Add property
+translation=إضافة خاصية
+
+[template.button-previous-preview]
+original=Previous preview
+translation=المعاينة السابقة
+
+[template.button-next-preview]
+original=Next preview
+translation=المعاينة التالية
+
+[template.msg-diagnostic]
+original=Line {{line}}: {{message}}
+translation=السطر {{line}}: {{message}}
+
+[template.heading-properties]
+original=Properties
+translation=الخصائص
+
+[template.column-property-name]
+original=Property name
+translation=اسم الخاصية
+
+[template.column-property-value]
+original=Property value
+translation=قيمة الخاصية
+
+[template.column-example]
+original=Example
+translation=مثال
+
+[template.action-delete-property]
+original=Delete property
+translation=حذف الخاصية
+
+[template.msg-title-required]
+original=Please provide a note title template.
+translation=يرجى تقديم قالب لعنوان الملاحظة.
+
+[importer.airtable-api.name]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.option-text]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-id]
+original=Airtable record ID
+translation=المعرّف لسجل Airtable
+
+[importer.airtable-api.name-token]
+original=Airtable personal access token
+translation=رمز الوصول الشخصي لـ Airtable
+
+[importer.airtable-api.desc-token]
+original=Create a personal access token in your Airtable account settings.
+translation=أنشئ رمز وصول شخصي في إعدادات الحساب على Airtable.
+
+[importer.airtable-api.link-get-token]
+original=Get token
+translation=الحصول على الرمز
+
+[importer.airtable-api.name-tables]
+original=Tables to import
+translation=الجداول المراد استيرادها
+
+[importer.airtable-api.desc-tables]
+original=Load your Airtable bases and tables, then choose what to import.
+translation=حمّل قواعد بيانات Airtable والجداول الخاصة بك، ثم اختر ما تريد استيراده.
+
+[importer.airtable-api.hint-tables]
+original=Load your Airtable bases and tables to get started.
+translation=حمّل قواعد بيانات Airtable والجداول الخاصة بك للبدء.
+
+[importer.airtable-api.msg-fetching-bases]
+original=Fetching bases...
+translation=جارٍ جلب قواعد البيانات...
+
+[importer.airtable-api.msg-no-bases]
+original=No bases found.
+translation=لم يتم العثور على قواعد بيانات.
+
+[importer.airtable-api.label-service]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-subject]
+original=your bases
+translation=قواعد بياناتك
+
+[importer.airtable-api.label-credential]
+original=Check that your personal access token is current and has access to them.
+translation=تأكد من أن رمز الوصول الشخصي ساري المفعول ولديه صلاحية الوصول إليها.
+
+[importer.airtable-api.name-formulas]
+original=Convert formulas
+translation=تحويل الصيغ
+
+[importer.airtable-api.desc-formulas]
+original=Try to convert formulas to Obsidian syntax, or import as static values.
+translation=حاول تحويل الصيغ إلى صيغة Obsidian، أو استيرادها كقيم ثابتة.
+
+[importer.airtable-api.option-formula-hybrid]
+original=Obsidian syntax (with fallback)
+translation=صيغة Obsidian (مع بديل احتياطي)
+
+[importer.airtable-api.option-formula-static]
+original=Static values only
+translation=قيم ثابتة فقط
+
+[importer.airtable-api.name-download-attachments]
+original=Download attachments
+translation=نزل المرفقات
+
+[importer.airtable-api.desc-download-attachments]
+original=Download attachment files to local vault. If disabled or download fails, external URLs will be used.
+translation=نزّل ملفات المرفقات إلى الخزنة المحلية. إذا تم التعطيل أو فشل التنزيل، سيتم استخدام روابط URL خارجية.
+
+[importer.airtable-api.name-view-property]
+original=View property name
+translation=اسم خاصية العرض
+
+[importer.airtable-api.desc-view-property]
+original=Property name to track which views a record belongs to. Each record will have a list of view names it appears in.
+translation=اسم الخاصية لتتبع العروض التي ينتمي إليها السجل. سيحتوي كل سجل على قائمة بأسماء العروض التي يظهر فيها.
+
+[importer.airtable-api.msg-token-first]
+original=Please enter your Airtable personal access token first.
+translation=يرجى إدخال رمز الوصول الشخصي لـ Airtable أولاً.
+
+[importer.airtable-api.msg-token-missing]
+original=Please enter your Airtable personal access token.
+translation=يرجى إدخال رمز الوصول الشخصي لـ Airtable.
+
+[importer.airtable-api.msg-load-bases-failed]
+original=Failed to load bases: {{error}}
+translation=فشل تحميل القواعد: {{error}}
+
+[importer.airtable-api.msg-load-tables-failed]
+original=Failed to load tables for "{{base}}": {{error}}
+translation=فشل تحميل الجداول لـ "{{base}}": {{error}}
+
+[importer.airtable-api.msg-pick-table]
+original=Please select at least one table to import.
+translation=يرجى تحديد جدول واحد على الأقل للاستيراد.
+
+[importer.airtable-api.msg-loading-fields]
+original=Loading fields...
+translation=جارٍ تحميل الحقول...
+
+[importer.airtable-api.msg-no-fields]
+original=No fields found in selected tables. Please check your selection.
+translation=لم يتم العثور على حقول في الجداول المحددة. يرجى التحقق من اختيارك.
+
+[importer.airtable-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=فشل الاستيراد: {{error}}
+
+[importer.airtable-api.label-base-position]
+original= (base {{index}} of {{total}})
+translation= (القاعدة {{index}} من {{total}})
+
+[importer.airtable-api.label-base]
+original=Base: {{name}}
+translation=القاعدة: {{name}}
+
+[importer.airtable-api.label-linked-table]
+original=Linked table: {{name}}
+translation=جدول مرتبط: {{name}}
+
+[importer.airtable-api.label-table-view]
+original={{table}} > {{view}}
+translation={{table}} > {{view}}
+
+[importer.airtable-api.label-import]
+original=Airtable API import
+translation=استيراد Airtable API
+
+[importer.airtable-api.status-connecting]
+original=Connecting to Airtable API
+translation=جارٍ الاتصال بـ Airtable API
+
+[importer.airtable-api.status-loading-tables]
+original=Loading tables for {{base}}
+translation=جارٍ تحميل الجداول لـ {{base}}
+
+[importer.airtable-api.status-fetching-tables]
+original=Fetching tables for base {{base}}...
+translation=جارٍ جلب الجداول للقاعدة {{base}}...
+
+[importer.airtable-api.status-found-bases]
+original=Found {{bases}} to import
+translation=تم العثور على {{bases}} للاستيراد
+
+[importer.airtable-api.status-fetching-base]
+original=Fetching data from {{base}}{{position}}
+translation=جارٍ جلب البيانات من {{base}}{{position}}
+
+[importer.airtable-api.status-preparing-records]
+original=Preparing records from {{base}}{{position}}
+translation=جارٍ تجهيز السجلات من {{base}}{{position}}
+
+[importer.airtable-api.status-reading-names]
+original=Reading names from {{table}}{{position}}
+translation=جارٍ قراءة الأسماء من {{table}}{{position}}
+
+[importer.airtable-api.status-planning]
+original=Working out where {{table}}{{position}} goes
+translation=جارٍ تحديد حيث يذهب {{table}}{{position}}
+
+[importer.airtable-api.status-fetching-records]
+original=Fetching records from {{table}}{{position}}
+translation=جارٍ جلب السجلات من {{table}}{{position}}
+
+[importer.airtable-api.status-fetched-records]
+original=Fetched {{records}} from {{table}}{{position}}
+translation=تم جلب {{records}} من {{table}}{{position}}
+
+[importer.airtable-api.status-fetching-view]
+original=Fetching view {{view}} from {{table}}{{position}}
+translation=جارٍ جلب عرض {{view}} من {{table}}{{position}}
+
+[importer.airtable-api.status-creating-notes]
+original=Creating notes in {{table}}{{position}}
+translation=جارٍ إنشاء الملاحظات في {{table}}{{position}}
+
+[importer.airtable-api.status-updating-types]
+original=Updating property types
+translation=جارٍ تحديث أنواع الخاصية
+
+[importer.airtable-api.status-complete]
+original=Import complete
+translation=اكتمل الاستيراد
+
+[importer.airtable-api.status-rate-limited]
+original=Rate limited, waiting {{seconds}}s (attempt {{attempt}}/{{total}})...
+translation=تم تقييد المعدل، في انتظار {{seconds}} ثانية (المحاولة {{attempt}}/{{total}})...
+
+[importer.airtable-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}
+translation=جارٍ تنزيل المرفق: {{name}}
+
+[importer.airtable-api.reason-no-record-names]
+original=Could not read record names
+translation=تعذرت قراءة أسماء السجلات
+
+[importer.airtable-api.reason-empty-record]
+original=Empty record
+translation=سجل فارغ
+
+[importer.airtable-api.desc-no-modified-time]
+original=Airtable does not say when a record last changed, so "{{update}}" compares the note with the record instead. A note you have edited yourself reads as changed, and will be written over.
+translation=لا يوفر Airtable معلومات عن آخر تغيير للسجل، لذا يقارن "{{update}}" الملاحظة بالسجل بدلاً من ذلك. الملاحظة التي حررتها بنفسك تُقرأ على أنها تم تغييرها، وسيتم الكتابة فوقها.
+
+[importer.apple-notes.name]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.option-text]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.label-id]
+original=Apple Notes ID
+translation=معرّف Apple Notes
+
+[importer.apple-notes.msg-platform]
+original=Due to platform limitations, Apple Notes cannot be exported from this device. Open your vault on a Mac to export from Apple Notes.
+translation=بسبب قيود المنصة، لا يمكن تصدير Apple Notes من هذا الجهاز. افتح خزنتك على Mac للتصدير من Apple Notes.
+
+[importer.apple-notes.name-prefix-format]
+original=File prefix format
+translation=تنسيق بادئة الملف
+
+[importer.apple-notes.desc-prefix-format]
+original=Format for the creation date prefix in filenames. Use YYYY, MM, DD for year, month, day. Leave blank for no prefix.
+translation=تنسيق بادئة تاريخ الإنشاء في أسماء الملفات. استخدم YYYY و MM و DD للسنة والشهر واليوم. اتركه فارغ لعدم إضافة بادئة.
+
+[importer.apple-notes.name-omit-first-line]
+original=Omit first line
+translation=حذف السطر الأول
+
+[importer.apple-notes.desc-omit-first-line]
+original=Don't include the first line in the text, since Apple Notes uses it as the title. It will still be used as the note name.
+translation=عدم تضمين السطر الأول في النص، لأن Apple Notes يستخدمه كعنوان. سيظل يُستخدم كاسم للملاحظة.
+
+[importer.apple-notes.name-handwriting]
+original=Include handwriting text
+translation=تضمين نص الكتابة اليدوية
+
+[importer.apple-notes.desc-handwriting]
+original=When Apple Notes has detected handwriting in drawings, include it as text before the drawing.
+translation=عندما يكتشف Apple Notes كتابة يدوية في الرسومات، يتم تضمينها كنص قبل الرسم.
+
+[importer.apple-notes.name-data-folder]
+original=Apple Notes data folder
+translation=مجلد بيانات Apple Notes
+
+[importer.apple-notes.desc-data-folder]
+original=macOS only lets Obsidian read your notes once you have pointed it at the folder they are kept in.
+translation=لا يسمح macOS لـ Obsidian بقراءة ملاحظاتك إلا بعد توجيهه إلى المجلد الذي تُحفظ فيه.
+
+[importer.apple-notes.button-select-folder]
+original=Select folder
+translation=اختر مجلد
+
+[importer.apple-notes.msg-wrong-folder]
+original=Ensure you have selected the correct Apple Notes data folder.
+translation=تأكد من أنك اخترت مجلد بيانات Apple Notes الصحيح.
+
+[importer.apple-notes.msg-dialog-folder]
+original=Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data.
+translation=اختر مجلد "group.com.apple.notes" للسماح لـ Obsidian بقراءة بيانات Apple Notes.
+
+[importer.apple-notes.msg-import-failed]
+original=Data import failed. Ensure you have selected the correct Apple Notes data folder.
+translation=فشل استيراد البيانات. تأكد من أنك اخترت مجلد بيانات Apple Notes الصحيح.
+
+[importer.apple-notes.msg-pick-folders]
+original=Please select at least one folder to import.
+translation=يرجى اختيار مجلد واحد على الأقل للاستيراد.
+
+[importer.apple-notes.name-folders]
+original=Folders to import
+translation=المجلدات المراد استيرادها
+
+[importer.apple-notes.desc-folders]
+original=Pick the folders whose notes to bring across.
+translation=اختر المجلدات التي تريد نقل ملاحظاتها.
+
+[importer.apple-notes.msg-no-access]
+original=Allow access to your notes to see the folders in them.
+translation=اسمح بالوصول إلى ملاحظاتك لرؤية المجلدات الموجودة فيها.
+
+[importer.apple-notes.msg-no-folders]
+original=No folders found.
+translation=لم يتم العثور على مجلدات.
+
+[importer.apple-notes.msg-database-busy]
+original=Your Apple Notes database is in use. Quit Notes and try again.
+translation=قاعدة بيانات Apple Notes قيد الاستخدام. أغلق تطبيق Notes وحاول مرة أخرى.
+
+[importer.apple-notes.msg-database-unreadable]
+original=Could not open your Apple Notes database. {{hint}}
+translation=تعذر فتح قاعدة بيانات Apple Notes. {{hint}}
+
+[importer.apple-notes.msg-read-failed-with-detail]
+original=Could not read your notes: {{detail}}
+translation=تعذرت قراءة ملاحظاتك: {{detail}}
+
+[importer.apple-notes.msg-read-failed]
+original=Could not read your notes.
+translation=تعذرت قراءة ملاحظاتك.
+
+[importer.apple-notes.reason-password-protected]
+original=note is password protected
+translation=الملاحظة محمية بكلمة المرور
+
+[importer.apple-notes.reason-duplicate]
+original=note is a duplicate
+translation=الملاحظة تكرار
+
+[importer.apple-notes.reason-unchanged]
+original=note unchanged since last import
+translation=الملاحظة لم تتغير منذ آخر استيراد
+
+[importer.apple-notes.reason-attachment-exists]
+original=attachment already exists
+translation=المرفق موجود بالفعل
+
+[importer.apple-notes.reason-attachment-unchanged]
+original=attachment unchanged since last import
+translation=المرفق لم يتغير منذ آخر استيراد
+
+[importer.apple-notes.reason-not-downloaded]
+original=it has not been downloaded from iCloud - open the note in Apple Notes to fetch it
+translation=لم يتم تنزيله من iCloud - افتح الملاحظة في Apple Notes لجلبه
+
+[importer.apple-notes.label-attachment]
+original=Attachment {{id}}
+translation=مرفق {{id}}
+
+[importer.apple-notes.reason-no-attachment-row]
+original=no {{uti}} row to read it from
+translation=لا يوجد صف {{uti}} لقراءته منه
+
+[importer.apple-notes.label-attachment-in-note]
+original={{name}} in {{note}}
+translation={{name}} في {{note}}
+
+[importer.apple-journal.name]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.option-text]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.file-type]
+original=Journal entries
+translation=إدخالات Journal
+
+[importer.apple-journal.desc-files]
+original=Export your entries from the Journal app, then pick the HTML files it wrote to iCloud Drive.
+translation=صدّر إدخالاتك من Journal app، ثم اختر ملفات HTML التي كتبها إلى iCloud Drive.
+
+[importer.apple-journal.heading-metadata]
+original=Journal metadata
+translation=بيانات Journal الوصفية
+
+[importer.apple-journal.name-front-matter]
+original=Add metadata as frontmatter
+translation=إضافة البيانات الوصفية كبيانات وصفية في بداية الملف
+
+[importer.apple-journal.desc-front-matter]
+original=Capture state-of-mind, contact, and similar tokens in YAML when available.
+translation=التقاط الحالة المزاجية وجهات الاتصال والرموز المشابهة بتنسيق YAML عند توفرها.
+
+[importer.apple-journal.reason-index-file]
+original=index file is not a journal entry
+translation=ملف الفهرس ليس إدخال يومية
+
+[importer.bear.name]
+original=Bear
+translation=Bear
+
+[importer.bear.option-text]
+original=Bear (.bear2bk, .zip)
+translation=Bear (.bear2bk, .zip)
+
+[importer.bear.file-type]
+original=Bear backups
+translation=نسخ Bear الاحتياطية
+
+[importer.bear.label-id]
+original=Bear ID
+translation=معرّف Bear
+
+[importer.bear.desc-export]
+original=Back up your notes in Bear and choose the resulting .bear2bk file. On iPhone and iPad, you can also export Application Data and choose its .zip file.
+translation=قم بعمل نسخة احتياطية من ملاحظاتك في Bear و اختر ملف .bear2bk الناتج. على iPhone و iPad، يمكنك أيضًا تصدير بيانات التطبيق و اختيار ملف .zip الخاص بها.
+
+[importer.bear.name-tags-property]
+original=Move tags to a property
+translation=نقل الوسوم إلى خاصية
+
+[importer.bear.desc-tags-property]
+original=When enabled, tags are taken out of the note and listed in its tags property. Bear keeps tags in the text of a note, and Obsidian reads them there too.
+translation=عند التمكين، تُزال الوسوم من الملاحظة وتُدرج في خاصية الوسوم الخاصة بها. يحتفظ Bear بالوسوم في نص الملاحظة، ويقرأها Obsidian من هناك أيضًا.
+
+[importer.bear.name-flatten-tags]
+original=Flatten nested tags
+translation=تسطيح الوسوم المتداخلة
+
+[importer.bear.desc-flatten-tags]
+original=When enabled, tags will be split on slashes (/) during import.
+translation=عند التمكين، سيتم تقسيم الوسوم عند الشرطات المائلة (/) أثناء الاستيراد.
+
+[importer.bear.status-importing-asset]
+original=Importing asset {{name}}
+translation=جارٍ استيراد الأصل {{name}}
+
+[importer.bear.status-updating-links]
+original=Updating internal links…
+translation=جارٍ تحديث الروابط الداخلية…
+
+[importer.bear.reason-unknown-type]
+original=unknown type of file
+translation=نوع ملف غير معروف
+
+[importer.bear.reason-encrypted]
+original=encrypted note
+translation=ملاحظة مشفرة
+
+[importer.bear.reason-missing-attachment]
+original=the attachment is missing from the export
+translation=المرفق مفقود من التصدير
+
+[importer.csv.name]
+original=CSV
+translation=CSV
+
+[importer.csv.option-text]
+original=CSV (.csv)
+translation=CSV (.csv)
+
+[importer.csv.file-type]
+original=CSV
+translation=CSV
+
+[importer.csv.desc-export]
+original=Export your table as CSV from the app it lives in, such as Excel, Google Sheets, Numbers, Notion, or Airtable.
+translation=صدّر الجدول كملف CSV من التطبيق الذي يحتويه، مثل Excel أو Google Sheets أو Numbers أو Notion أو Airtable.
+
+[importer.csv.name-header-row]
+original=CSV has header row
+translation=يحتوي CSV على صف عناوين
+
+[importer.csv.desc-header-row]
+original=If enabled, the first row of the CSV file will be treated as column headers.
+translation=إذا كان مُمكّنًا، سيتم التعامل مع الصف الأول في ملف CSV كعناوين أعمدة.
+
+[importer.csv.name-source-title]
+original=Source title
+translation=العنوان المصدري
+
+[importer.csv.desc-source-title]
+original=Creates the {{title}} value used by the final note title template. Use CSV column variables like {{column_name}}.
+translation=ينشئ قيمة {{title}} المستخدمة في قالب عنوان الملاحظة النهائي. استخدم متغيرات أعمدة CSV مثل {{column_name}}.
+
+[importer.csv.msg-pick-file]
+original=Please pick at least one CSV file to import.
+translation=يرجى اختيار ملف CSV واحد على الأقل للاستيراد.
+
+[importer.csv.msg-one-at-a-time]
+original=CSV files must be imported one at a time.
+translation=يجب استيراد ملفات CSV واحدًا تلو الآخر.
+
+[importer.csv.msg-no-data]
+original=No data found in {{name}}.
+translation=لم يتم العثور على بيانات في {{name}}.
+
+[importer.csv.msg-no-configuration]
+original=Configuration is missing.
+translation=الإعدادات مفقودة.
+
+[importer.csv.status-parsing]
+original=Parsing {{name}}
+translation=جارٍ تحليل {{name}}
+
+[importer.csv.status-creating-note]
+original=Creating note: {{title}}
+translation=جارٍ إنشاء ملاحظة: {{title}}
+
+[importer.csv.label-row]
+original=Row {{number}}
+translation=صف {{number}}
+
+[importer.csv.reason-empty-title]
+original=Empty title
+translation=عنوان فارغ
+
+[importer.files.name]
+original=Files and folders
+translation=الملفات و المجلدات
+
+[importer.files.option-text]
+original=Copy files and folders into your vault
+translation=نسخ الملفات و المجلدات إلى خزنتك
+
+[importer.files.name-source]
+original=Files to copy
+translation=الملفات المراد نسخها
+
+[importer.files.desc-source]
+original=Drop files or folders anywhere in the window to copy them into your vault.
+translation=أفلت الملفات أو المجلدات في أي مكان في النافذة لنسخها إلى خزنتك.
+
+[importer.evernote.name]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.option-text]
+original=Evernote (.enex)
+translation=Evernote (.enex)
+
+[importer.evernote.file-type]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.desc-export]
+original=Export your notebooks in ENEX format, you will receive one .enex file per notebook.
+translation=صدّر دفاتر ملاحظاتك بتنسيق ENEX، وستحصل على ملف .enex واحد لكل دفتر.
+
+[importer.evernote.msg-unresolved-links]
+original={{count}} link could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} رابط لم يتم مطابقته مع ملاحظة. لا يحدد تصدير ENEX الملاحظة التي يشير إليها الرابط، بل فقط العنوان الذي ظهر في Evernote، لذلك لن تتطابق الملاحظة التي أُعيدت تسميتها بعد إنشاء الرابط. يعرض Obsidian هذه ضمن الروابط غير المحلولة.
+
+[importer.evernote.msg-unresolved-links_plural]
+original={{count}} links could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} روابط لم يتم مطابقتها مع ملاحظة. لا يحدد تصدير ENEX الملاحظة التي يشير إليها الرابط، بل فقط العنوان الذي ظهر في Evernote، لذلك لن تتطابق الملاحظة التي أُعيدت تسميتها بعد إنشاء الرابط. يعرض Obsidian هذه ضمن الروابط غير المحلولة.
+
+[importer.keep.name]
+original=Google Keep
+translation=Google Keep
+
+[importer.keep.option-text]
+original=Google Keep (.zip, .json)
+translation=Google Keep (.zip, .json)
+
+[importer.keep.file-type]
+original=Notes & attachments
+translation=ملاحظات ومرفقات
+
+[importer.keep.desc-export]
+original=Get your Google Keep data from Google Takeout.
+translation=احصل على بيانات Google Keep من Google Takeout.
+
+[importer.keep.name-archived]
+original=Import archived notes
+translation=استيراد الملاحظات المؤرشفة
+
+[importer.keep.desc-archived]
+original=If imported, files archived in Google Keep will be tagged as archived.
+translation=في حال الاستيراد، ستتم إضافة وسم «مؤرشف» للملفات المؤرشفة في Google Keep.
+
+[importer.keep.name-deleted]
+original=Import deleted notes
+translation=استيراد الملاحظات المحذوفة
+
+[importer.keep.desc-deleted]
+original=If imported, files deleted in Google Keep will be tagged as deleted. Deleted notes will only exist in your Google export if deleted recently.
+translation=في حال الاستيراد، ستتم إضافة وسم «تم الحذف» للملفات المحذوفة في Google Keep. لن تتواجد الملاحظات المحذوفة في تصدير Google إلا إذا تم حذفها مؤخرًا.
+
+[importer.keep.reason-invalid-json]
+original=Invalid Google Keep JSON
+translation=ملف JSON غير صالح من Google Keep
+
+[importer.keep.reason-archived]
+original=Archived note
+translation=ملاحظة مؤرشفة
+
+[importer.keep.reason-deleted]
+original=Deleted note
+translation=ملاحظة محذوفة
+
+[importer.html.name]
+original=HTML files
+translation=ملفات HTML
+
+[importer.html.option-text]
+original=HTML (.html, .zip)
+translation=HTML (.html, .zip)
+
+[importer.html.label-id]
+original=HTML source path
+translation=مسار مصدر HTML
+
+[importer.html.desc-source-identity]
+original=Changing which folder or zip file you choose can change the source path, so existing notes may not be recognized.
+translation=تغيير المجلد أو ملف zip الذي تختاره قد يغيّر مسار المصدر، لذا قد لا يتم التعرف على الملاحظات الموجودة.
+
+[importer.html.file-type]
+original=HTML
+translation=HTML
+
+[importer.html.desc-export]
+original=Save the pages you want to keep as HTML. If the app they are in has an importer of its own, use that instead: it keeps more of your data.
+translation=احفظ الصفحات التي تريد الاحتفاظ بها بصيغة HTML. إذا كان التطبيق الذي توجد فيه يحتوي على أداة استيراد خاصة به، فاستخدمها بدلاً من ذلك: فهي تحتفظ بمزيد من بياناتك.
+
+[importer.html.desc-source]
+original=Choose individual HTML files, whole folders, or zip files. Pages in folders stay organized the same way.
+translation=اختر ملفات HTML فردية، أو مجلدات كاملة، أو ملفات zip. تبقى الصفحات في المجلدات منظمة بنفس الطريقة.
+
+[importer.html.name-extract-main-content]
+original=Extract main content
+translation=استخراج المحتوى الرئيسي
+
+[importer.html.desc-extract-main-content]
+original=Remove navigation, sidebars, footers, and other page clutter.
+translation=إزالة التنقل والأشرطة الجانبية والتذييلات وعناصر الصفحة غير الضرورية الأخرى.
+
+[importer.html.name-size-limit]
+original=Attachment size limit (MB)
+translation=حد حجم المرفق (MB)
+
+[importer.html.name-minimum-image-size]
+original=Minimum image size (px)
+translation=الحد الأدنى لحجم الصورة (بكسل)
+
+[importer.html.desc-set-zero-to-disable]
+original=Set 0 to disable.
+translation=اضبط القيمة على 0 للتعطيل.
+
+[importer.html.status-downloading]
+original=Downloading attachment for {{name}}
+translation=جارٍ تنزيل المرفق لـ {{name}}
+
+[importer.markdown.name]
+original=Markdown
+translation=Markdown
+
+[importer.markdown.option-text]
+original=Markdown (.md, .txt, .zip)
+translation=Markdown (.md, .txt, .zip)
+
+[importer.markdown.file-type]
+original=Markdown and text
+translation=Markdown و نص
+
+[importer.markdown.desc-source]
+original=Choose individual Markdown or text files, whole folders, or zip files. Everything in folders stays organized the same way.
+translation=اختر ملفات Markdown أو نص فردية، أو مجلدات كاملة، أو ملفات مضغوطة. كل شيء في المجلدات يبقى منظمًا بنفس الطريقة.
+
+[importer.markdown.name-standardize-formatting]
+original=Standardize formatting
+translation=توحيد التنسيق
+
+[importer.markdown.desc-standardize-formatting]
+original=Use this vault's settings for lists, indentation, and links.
+translation=استخدم الإعدادات الخاصة بهذه الخزنة للقوائم و المسافات البادئة و الروابط.
+
+[importer.markdown.name-tags-as-properties]
+original=Convert inline tags to properties
+translation=تحويل الوسوم المضمّنة إلى خصائص
+
+[importer.markdown.desc-tags-as-properties]
+original=Move tags written in the body of a note into its tags property.
+translation=نقل الوسوم المكتوبة في الجسم الخاص بالملاحظة إلى خاصية الوسوم.
+
+[importer.logseq.name]
+original=Logseq
+translation=Logseq
+
+[importer.logseq.option-text]
+original=Logseq (.md)
+translation=Logseq (.md)
+
+[importer.logseq.label-id]
+original=Logseq source
+translation=مصدري Logseq
+
+[importer.logseq.desc-instructions]
+original=Read the instructions for importing from Logseq.
+translation=اقرأ التعليمات للاستيراد من Logseq.
+
+[importer.logseq.desc-files]
+original=Choose one graph folder containing pages, journals, and assets.
+translation=اختر مجلد رسم بياني واحد يحتوي على الصفحات واليوميات والأصول.
+
+[importer.logseq.name-use-daily-notes]
+original=Use daily notes settings
+translation=استخدام إعدادات الملاحظات اليومية
+
+[importer.logseq.desc-use-daily-notes]
+original=Write journals to the configured daily notes folder and filename format.
+translation=كتابة اليوميات في مجلد الملاحظات اليومية المُعدّ وتنسيق اسم الملف.
+
+[importer.logseq.name-queries]
+original=Keep queries
+translation=الاحتفاظ بالاستعلامات
+
+[importer.logseq.desc-queries]
+original=Obsidian doesn't support Logseq's query format, so queries are imported as code blocks.
+translation=لا يدعم Obsidian تنسيق استعلام Logseq، لذا تُستورد الاستعلامات ككتل شيفرة برمجية.
+
+[importer.logseq.name-flashcards]
+original=Keep flashcards
+translation=الاحتفاظ بالبطاقات التعليمية
+
+[importer.logseq.desc-flashcards]
+original=Obsidian doesn't support Logseq's flashcards, so card markers and cloze wrappers are imported as plain text.
+translation=لا يدعم Obsidian البطاقات التعليمية في Logseq، لذا تُستورد علامات البطاقات وأغلفة الحذف كنص عادي.
+
+[importer.logseq.name-time-tracking]
+original=Keep time tracking
+translation=الاحتفاظ بتتبع الوقت
+
+[importer.logseq.desc-time-tracking]
+original=Obsidian doesn't support Logseq's time tracking, so LOGBOOK and CLOCK entries are imported as plain text.
+translation=لا يدعم Obsidian تتبع الوقت في Logseq، لذا تُستورد إدخالات LOGBOOK و CLOCK كنص عادي.
+
+[importer.logseq.msg-pick-graph]
+original=Please choose one Logseq graph folder.
+translation=يرجى اختيار مجلد رسم بياني واحد من Logseq.
+
+[importer.logseq.msg-no-notes]
+original=The selected folder has no Markdown notes under pages or journals.
+translation=المجلد محدد لا يحتوي على ملاحظات Markdown ضمن الصفحات أو اليوميات.
+
+[importer.logseq.reason-empty-page]
+original=The converted page is empty
+translation=الصفحة المحوّلة فارغة
+
+[importer.logseq.reason-missing-asset]
+original=Referenced by {{name}}, but missing from the graph
+translation=مُشار إليه بواسطة {{name}}، لكنه مفقود من الرسم البياني
+
+[importer.logseq.reason-whiteboards]
+original=Logseq whiteboards are not supported by Obsidian
+translation=لوحات Logseq البيضاء غير مدعومة من Obsidian
+
+[importer.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.option-text]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.method-name]
+original=Microsoft account
+translation=حساب Microsoft
+
+[importer.onenote.method-desc]
+original=Sign into your Microsoft account and import the notebooks that are synced to OneDrive. Requires an internet connection.
+translation=سجّل الدخول إلى حساب Microsoft الخاص بك واستورد دفاتر الملاحظات المزامنة مع OneDrive. يتطلب اتصالاً بالإنترنت.
+
+[importer.onenote.label-id]
+original=OneNote ID
+translation=معرّف OneNote
+
+[importer.onenote.name-incompatible]
+original=Import incompatible attachments
+translation=استيراد المرفقات غير المتوافقة
+
+[importer.onenote.desc-incompatible]
+original=Imports incompatible attachments which cannot be embedded in Obsidian, such as .exe files.
+translation=يستورد المرفقات غير المتوافقة التي لا يمكن تضمينها في Obsidian، مثل ملفات .exe.
+
+[importer.onenote.name-account]
+original=Microsoft account
+translation=حساب Microsoft
+
+[importer.onenote.desc-sign-in]
+original=Sign in to import your OneNote notebooks.
+translation=سجّل الدخول لاستيراد دفاتر ملاحظات OneNote الخاصة بك.
+
+[importer.onenote.desc-sign-in-organization]
+original=Sign in to import your OneNote notebooks. A work or school account may need your organization to approve access.
+translation=سجّل الدخول لاستيراد دفاتر ملاحظات OneNote الخاصة بك. قد يحتاج حساب العمل أو المدرسة إلى موافقة مؤسستك على الوصول.
+
+[importer.onenote.desc-signed-in]
+original=Signed in as {{name}} ({{email}}).
+translation=تم تسجيل الدخول بصفة {{name}} ({{email}}).
+
+[importer.onenote.button-sign-in]
+original=Sign in
+translation=تسجيل الدخول
+
+[importer.onenote.button-sign-out]
+original=Sign out
+translation=تسجيل الخروج
+
+[importer.onenote.button-work-account]
+original=Use work or school access
+translation=استخدام وصول العمل أو المدرسة
+
+[importer.onenote.msg-sign-in-failed]
+original=An error occurred while trying to sign you in.
+translation=حدث خطأ أثناء محاولة تسجيل الدخول.
+
+[importer.onenote.msg-sign-in-details]
+original=Show error details
+translation=عرض تفاصيل الخطأ
+
+[importer.onenote.msg-signed-out]
+original=Sign in to see your OneNote notebooks.
+translation=سجّل الدخول لرؤية دفاتر ملاحظات OneNote الخاصة بك.
+
+[importer.onenote.msg-please-sign-in]
+original=Please sign in to your Microsoft account.
+translation=يرجى تسجيل الدخول إلى حساب Microsoft الخاص بك.
+
+[importer.onenote.name-sections]
+original=Sections to import
+translation=الأقسام المراد استيرادها
+
+[importer.onenote.desc-sections]
+original=Select a notebook, or sections within it.
+translation=حدد دفتر ملاحظات، أو أقسامًا بداخله.
+
+[importer.onenote.msg-loading-notebooks]
+original=Loading notebooks...
+translation=جارٍ تحميل دفاتر الملاحظات...
+
+[importer.onenote.msg-no-notebooks]
+original=No notebooks found.
+translation=لم يتم العثور على دفاتر ملاحظات.
+
+[importer.onenote.msg-scope-refused]
+original=OneNote did not grant this sign-in access to your notebooks. Sign out and sign in again to ask for work or school access, which your organization may need to approve.
+translation=لم يمنح OneNote تسجيل الدخول هذا حق الوصول إلى دفاتر ملاحظاتك. سجّل الخروج ثم سجّل الدخول مرة أخرى لطلب وصول العمل أو المدرسة، والذي قد تحتاج مؤسستك إلى الموافقة عليه.
+
+[importer.onenote.label-service]
+original=OneNote
+translation=OneNote
+
+[importer.onenote.label-subject]
+original=your notebooks
+translation=دفاتر ملاحظاتك
+
+[importer.onenote.label-credential]
+original=Sign out and back in to try again.
+translation=سجّل الخروج ثم سجّل الدخول مرة أخرى للمحاولة مجددًا.
+
+[importer.onenote.status-finding]
+original=Finding notes to import
+translation=جارٍ البحث عن ملاحظات لاستيرادها
+
+[importer.onenote.status-finding-in]
+original=Finding notes in {{section}}
+translation=جارٍ البحث عن ملاحظات في {{section}}
+
+[importer.onenote.status-finding-in-section]
+original=Finding notes in {{section}} (section {{index}} of {{total}})
+translation=جارٍ البحث عن ملاحظات في {{section}} (القسم {{index}} من {{total}})
+
+[importer.onenote.status-importing-notes]
+original=Importing {{notes}}
+translation=جارٍ استيراد {{notes}}
+
+[importer.onenote.status-downloading]
+original=Downloading attachment {{name}}
+translation=جارٍ تنزيل المرفق {{name}}
+
+[importer.onenote.msg-too-many-errors]
+original=Microsoft OneNote returned too many consecutive errors.
+translation=أرجع Microsoft OneNote عددًا كبيرًا جدًا من الأخطاء المتتالية.
+
+[importer.onenote.label-unknown-page]
+original=<unknown>
+translation=<غير معروف>
+
+[importer.onenote.reason-too-many-failures]
+original=import was canceled (after too many pages failed to load)
+translation=تم إلغاء الاستيراد (بعد فشل تحميل عدد كبير جدًا من الصفحات)
+
+[importer.onenote.label-ink]
+original={{page}} - Ink.svg
+translation={{page}} - Ink.svg
+
+[importer.onenote.label-attachment]
+original=OneNote attachment
+translation=مرفق OneNote
+
+[importer.onenote.label-image]
+original=OneNote image
+translation=صورة OneNote
+
+[importer.onenote.reason-no-attachment-name]
+original=the attachment did not say what it was called
+translation=لم يحتوِ المرفق على اسم
+
+[importer.onenote.reason-no-attachment-url]
+original=the attachment did not include a download URL
+translation=لم يحتوِ المرفق على URL للتنزيل
+
+[importer.onenote.reason-no-image-url]
+original=the image did not include a download URL
+translation=لم تحتوِ الصورة على URL للتنزيل
+
+[importer.onenote-file.name]
+original=Microsoft OneNote (export file)
+translation=Microsoft OneNote (ملف تصدير)
+
+[importer.onenote-file.option-text]
+original=Microsoft OneNote (.one, .onepkg)
+translation=Microsoft OneNote (.one, .onepkg)
+
+[importer.onenote-file.method-name]
+original=File import
+translation=استيراد من ملف
+
+[importer.onenote-file.method-desc]
+original=Import using OneNote export files (.one, .onepkg) from your computer. Requires no account or internet connection, and works for notebooks that were never synced.
+translation=استيراد باستخدام ملفات تصدير OneNote ‏(.one، .onepkg) من جهازك. لا يتطلب حسابًا أو اتصالًا بالإنترنت، ويعمل مع دفاتر الملاحظات التي لم تتم مزامنتها أبدًا.
+
+[importer.onenote-file.file-type]
+original=OneNote export
+translation=تصدير OneNote
+
+[importer.onenote-file.label-id]
+original=OneNote ID
+translation=معرّف OneNote
+
+[importer.onenote-file.desc-backup-folder]
+original=OneNote for Windows keeps its own backups, and this opens there. Pick the notebooks or sections you want.
+translation=يحتفظ OneNote لـ Windows بنسخ احتياطية خاصة به، وسيتم الفتح هناك. اختر دفاتر الملاحظات أو الأقسام التي تريدها.
+
+[importer.onenote-file.desc-export]
+original=In OneNote for Windows, right-click a notebook and export it to save a .onepkg file, or export a single section as .one.
+translation=في OneNote لـ Windows، انقر بزر الماوس الأيمن على دفتر ملاحظات وقم بتصديره لحفظه كملف .onepkg، أو صدّر قسمًا واحدًا كملف .one.
+
+[importer.onenote-file.name-sections]
+original=Sections to import
+translation=الأقسام المراد استيرادها
+
+[importer.onenote-file.desc-sections]
+original=Choose which sections to import.
+translation=اختر الأقسام المراد استيرادها.
+
+[importer.onenote-file.msg-loading-sections]
+original=Reading sections…
+translation=جارٍ قراءة الأقسام…
+
+[importer.onenote-file.msg-no-sections]
+original=No sections found in this file.
+translation=لم يتم العثور على أقسام في هذا الملف.
+
+[importer.onenote-file.msg-pick-file-first]
+original=Choose a OneNote file first.
+translation=اختر ملف OneNote أولًا.
+
+[importer.onenote-file.status-reading-section]
+original=Reading {{name}}
+translation=جارٍ قراءة {{name}}
+
+[importer.onenote-file.status-importing-section]
+original=Importing {{name}} ({{index}} of {{total}})
+translation=جارٍ استيراد {{name}} ({{index}} من {{total}})
+
+[importer.onenote-file.reason-rights-protected]
+original=the file is rights-protected, and can only be opened by an account with permission to it
+translation=الملف محمي بحقوق الوصول، ولا يمكن فتحه إلا بواسطة حساب لديه إذن بذلك
+
+[importer.onenote-file.reason-unsupported]
+original=the file uses a OneNote format this importer cannot read yet
+translation=يستخدم الملف تنسيق OneNote لا يستطيع هذا المستورد قراءته بعد
+
+[importer.onenote-file.reason-malformed]
+original=the file does not describe the OneNote structures it claims to
+translation=الملف لا يصف بنى OneNote التي يدّعي احتواءها
+
+[importer.onenote-file.reason-too-large]
+original=the file is larger than this importer is willing to expand
+translation=الملف أكبر مما يمكن لهذا المستورد توسيعه
+
+[importer.onenote-file.reason-no-attachment-data]
+original=the attachment held no data
+translation=المرفق لا يحتوي على بيانات
+
+[importer.notion-api.name]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.option-text]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.method-name]
+original=Notion account (recommended)
+translation=حساب Notion (موصى به)
+
+[importer.notion-api.method-desc]
+original=Imports your entire workspace, including databases and formulas which are converted to bases. Requires a Notion integration token and an internet connection.
+translation=يستورد مساحة العمل بالكامل، بما في ذلك قواعد البيانات والصيغ التي يتم تحويلها إلى قواعد. يتطلب رمز تكامل Notion واتصالًا بالإنترنت.
+
+[importer.notion-api.label-id]
+original=Notion ID
+translation=معرّف Notion
+
+[importer.notion-api.name-token]
+original=Notion API token
+translation=رمز API الخاص بـ Notion
+
+[importer.notion-api.desc-token]
+original=To get an API token create a connection in Notion and give it access to pages in your workspace.
+translation=للحصول على رمز API، أنشئ اتصالاً في Notion وامنحه حق الوصول إلى الصفحات في مساحة العمل الخاصة بك.
+
+[importer.notion-api.link-get-token]
+original=Get API token
+translation=الحصول على رمز API
+
+[importer.notion-api.name-pages]
+original=Pages to import
+translation=الصفحات المراد استيرادها
+
+[importer.notion-api.desc-pages]
+original=Load your Notion pages and databases, then choose what to import. If a page or database is missing, check that your Notion connection has access to it.
+translation=حمّل صفحات وقواعد بيانات Notion الخاصة بك، ثم اختر ما تريد استيراده. إذا كانت صفحة أو قاعدة بيانات مفقودة، تحقق من أن اتصال Notion لديه حق الوصول إليها.
+
+[importer.notion-api.hint-pages]
+original=Load your Notion pages and databases to get started.
+translation=حمّل صفحات وقواعد بيانات Notion الخاصة بك للبدء.
+
+[importer.notion-api.msg-loading-pages]
+original=Loading pages and databases...
+translation=جارٍ تحميل الصفحات وقواعد البيانات...
+
+[importer.notion-api.msg-no-pages]
+original=No pages or databases found. Make sure your connection has access to the pages you want to import.
+translation=لم يتم العثور على صفحات أو قواعد بيانات. تأكد من أن اتصالك لديه حق الوصول إلى الصفحات التي تريد استيرادها.
+
+[importer.notion-api.label-service]
+original=Notion
+translation=Notion
+
+[importer.notion-api.label-subject]
+original=your pages
+translation=صفحاتك
+
+[importer.notion-api.label-credential]
+original=Check that your token is current and that the connection has access to them.
+translation=تحقق من أن الرمز الخاص بك صالح وأن الاتصال لديه حق الوصول إليها.
+
+[importer.notion-api.name-formulas]
+original=Convert formulas
+translation=تحويل الصيغ
+
+[importer.notion-api.desc-formulas]
+original=By default Notion formulas are converted to Obsidian syntax. If any Notion syntax is not supported the static values will be saved instead. Alternatively you can import all formulas as static values.
+translation=يتم تحويل صيغ Notion افتراضيًا إلى صياغة Obsidian. إذا لم تكن أي صياغة من Notion مدعومة، فسيتم حفظ القيم الثابتة بدلًا منها. بدلًا من ذلك، يمكنك استيراد جميع الصيغ كقيم ثابتة.
+
+[importer.notion-api.option-formula-hybrid]
+original=Obsidian syntax
+translation=صياغة Obsidian
+
+[importer.notion-api.option-formula-static]
+original=Static values
+translation=قيم ثابتة
+
+[importer.notion-api.name-download-external]
+original=Download external attachments
+translation=نزل المرفقات الخارجية
+
+[importer.notion-api.desc-download-external]
+original=Download external attachments (external URLs) to local files. Notion-hosted files are always downloaded.
+translation=تنزيل المرفقات الخارجية (عناوين URL الخارجية) إلى ملفات محلية. الملفات المستضافة على Notion يتم تنزيلها دائمًا.
+
+[importer.notion-api.name-single-line-breaks]
+original=Single line breaks
+translation=فواصل أسطر مفردة
+
+[importer.notion-api.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break instead of two. Some blocks (lists, toggles, tables) will still use double line breaks when required for proper Markdown syntax.
+translation=فصل كتل Notion بفاصل سطر واحد بدلاً من اثنين. بعض الكتل (القوائم، وعناصر التبديل، والجداول) ستستمر باستخدام فواصل أسطر مزدوجة عند الحاجة لصياغة Markdown الصحيحة.
+
+[importer.notion-api.name-cover-property]
+original=Cover property name
+translation=اسم خاصية الغلاف
+
+[importer.notion-api.desc-cover-property]
+original=Property name for page cover image in YAML frontmatter. 
+translation=اسم الخاصية لصورة غلاف الصفحة في YAML البيانات الوصفية في بداية الملف. 
+
+[importer.notion-api.desc-cover-property-conflicts]
+original=Leave as "cover" if you don't have conflicts with existing properties.
+translation=اتركها كـ "cover" إذا لم تكن لديك تعارضات مع خصائص موجودة.
+
+[importer.notion-api.name-database-property]
+original=Database property name
+translation=اسم خاصية قاعدة البيانات
+
+[importer.notion-api.desc-database-property]
+original=Property name in page frontmatter to link pages to their database .base file (default: "base")
+translation=اسم الخاصية في البيانات الوصفية في بداية الملف لربط الصفحات بملف قاعدة البيانات ‎.base الخاص بها (افتراضي: "base")
+
+[importer.notion-api.name-linked-databases]
+original=Import linked databases
+translation=استيراد قواعد البيانات المرتبطة
+
+[importer.notion-api.desc-linked-databases]
+original=Also import databases that the selected pages link to, so relations become links rather than names. This imports pages you did not select.
+translation=استيراد قواعد البيانات التي ترتبط بها الصفحات المحددة أيضًا، بحيث تصبح العلاقات روابط بدلاً من أسماء. هذا يستورد صفحات لم تقم بتحديدها.
+
+[importer.notion-api.msg-token-first]
+original=Please enter your Notion API token first.
+translation=يرجى إدخال رمز Notion API أولاً.
+
+[importer.notion-api.msg-token-missing]
+original=Please enter your Notion API token.
+translation=يرجى إدخال رمز Notion API.
+
+[importer.notion-api.msg-load-pages-failed]
+original=Failed to load pages: {{error}}
+translation=فشل تحميل الصفحات: {{error}}
+
+[importer.notion-api.msg-pick-page]
+original=Please select at least one page or database to import.
+translation=يرجى تحديد صفحة أو قاعدة بيانات واحدة على الأقل للاستيراد.
+
+[importer.notion-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=فشل الاستيراد: {{error}}
+
+[importer.notion-api.status-loading-items]
+original=Loading... ({{items}}, page {{page}})
+translation=جارٍ التحميل... ({{items}}، صفحة {{page}})
+
+[importer.notion-api.status-connecting]
+original=Connecting to Notion API...
+translation=جارٍ الاتصال بـ Notion API...
+
+[importer.notion-api.status-fetching]
+original=Fetching page content from Notion...
+translation=جارٍ جلب محتوى الصفحة من Notion...
+
+[importer.notion-api.status-preparing]
+original=Preparing to import {{items}}...
+translation=جارٍ التحضير لاستيراد {{items}}...
+
+[importer.notion-api.status-importing-items]
+original=Importing {{items}}...
+translation=جارٍ استيراد {{items}}...
+
+[importer.notion-api.status-importing-item]
+original=Importing item {{index}}/{{total}}...
+translation=جارٍ استيراد العنصر {{index}}/{{total}}...
+
+[importer.notion-api.status-importing-title]
+original=Importing: {{title}}
+translation=جارٍ الاستيراد: {{title}}
+
+[importer.notion-api.status-relation-links]
+original=Processing relation links...
+translation=جارٍ معالجة روابط العلاقات...
+
+[importer.notion-api.status-mention-links]
+original=Processing mention links...
+translation=جارٍ معالجة روابط الإشارات...
+
+[importer.notion-api.status-synced-blocks]
+original=Processing synced block child references...
+translation=جارٍ معالجة المراجع الفرعية للكتل المتزامنة...
+
+[importer.notion-api.status-cleaning-ids]
+original=Cleaning up notion-id attributes...
+translation=جارٍ تنظيف سمات notion-id...
+
+[importer.notion-api.status-done]
+original=Import completed successfully!
+translation=اكتمل الاستيراد بنجاح!
+
+[importer.notion-api.status-replacing-relations]
+original=Replacing {{placeholders}}...
+translation=جارٍ استبدال {{placeholders}}...
+
+[importer.notion-api.status-replacing-relation-links]
+original=Replacing relation placeholders with wiki links...
+translation=جارٍ استبدال العناصر النائبة للعلاقات بروابط ويكي...
+
+[importer.notion-api.status-importing-linked-databases]
+original=Importing {{databases}}...
+translation=جارٍ استيراد {{databases}}...
+
+[importer.notion-api.status-importing-unimported]
+original=Importing unimported database {{id}}...
+translation=جارٍ استيراد قاعدة البيانات غير المستوردة {{id}}...
+
+[importer.notion-api.status-replacing-mentions]
+original=Replacing mention placeholders...
+translation=جارٍ استبدال العناصر النائبة للإشارات...
+
+[importer.notion-api.status-replaced-mentions]
+original=Replaced {{links}} in {{files}}.
+translation=تم استبدال {{links}} في {{files}}.
+
+[importer.notion-api.status-replacing-synced]
+original=Replacing synced block child references...
+translation=جارٍ استبدال المراجع الفرعية للكتل المتزامنة...
+
+[importer.notion-api.status-replaced-synced]
+original=Replaced {{references}} in {{files}} (imported {{imported}}).
+translation=تم استبدال {{references}} في {{files}} (تم استيراد {{imported}}).
+
+[importer.notion-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}...
+translation=جارٍ تنزيل المرفق: {{name}}...
+
+[importer.notion-api.status-rate-limited]
+original=Rate limited. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=تم تجاوز حد الطلبات. الانتظار {{seconds}} ثانية قبل إعادة المحاولة ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying]
+original=Notion returned {{status}}. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=أرجع Notion الحالة {{status}}. الانتظار {{seconds}} ثانية قبل إعادة المحاولة ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying-attachment]
+original={{name}}: {{failure}}. Retrying in {{seconds}} seconds ({{attempt}}/{{total}})...
+translation={{name}}: {{failure}}. إعادة المحاولة خلال {{seconds}} ثوانٍ ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-processing-data-source]
+original=Processing database from data source: {{id}}...
+translation=جارٍ معالجة قاعدة البيانات من مصدر البيانات: {{id}}...
+
+[importer.notion-api.status-processing-database]
+original=Processing database: {{title}}...
+translation=جارٍ معالجة قاعدة البيانات: {{title}}...
+
+[importer.notion-api.status-found-pages]
+original=Found {{pages}} in database {{title}}
+translation=تم العثور على {{pages}} في قاعدة البيانات {{title}}
+
+[importer.notion-api.status-found-templates]
+original=Found {{templates}} in database {{title}}
+translation=تم العثور على {{templates}} في قاعدة البيانات {{title}}
+
+[importer.notion-api.status-importing-template]
+original=Importing template: {{name}}...
+translation=جارٍ استيراد القالب: {{name}}...
+
+[importer.notion-api.label-import]
+original=Notion API import
+translation=استيراد Notion API
+
+[importer.notion-api.label-item]
+original=Import item {{id}}
+translation=استيراد العنصر {{id}}
+
+[importer.notion-api.label-page]
+original=Page {{id}}
+translation=الصفحة {{id}}
+
+[importer.notion-api.label-page-with-title]
+original=Page: {{title}} ({{id}})
+translation=الصفحة: {{title}} ({{id}})
+
+[importer.notion-api.label-relation-page]
+original=Relation page {{id}}
+translation=صفحة العلاقة {{id}}
+
+[importer.notion-api.label-database-with-id]
+original=Database: {{title}} ({{id}})
+translation=قاعدة البيانات: {{title}} ({{id}})
+
+[importer.notion-api.label-mention-file]
+original=Mention file {{path}}
+translation=ملف الإشارة {{path}}
+
+[importer.notion-api.label-synced-block-file]
+original=Synced block file {{path}}
+translation=ملف كتلة مزامن {{path}}
+
+[importer.notion-api.label-attachment]
+original=Attachment: {{name}}
+translation=مرفق: {{name}}
+
+[importer.notion-api.label-child-page]
+original=Child page: {{title}}
+translation=صفحة فرعية: {{title}}
+
+[importer.notion-api.label-synced-block]
+original=Synced block: {{name}}
+translation=كتلة مزامن: {{name}}
+
+[importer.notion-api.label-attachment-image]
+original=Image attachment
+translation=مرفق صورة
+
+[importer.notion-api.label-attachment-video]
+original=Video attachment
+translation=مرفق فيديو
+
+[importer.notion-api.label-attachment-audio]
+original=Audio attachment
+translation=مرفق صوتي
+
+[importer.notion-api.label-attachment-file]
+original=File attachment
+translation=مرفق ملف
+
+[importer.notion-api.label-attachment-pdf]
+original=PDF attachment
+translation=مرفق PDF
+
+[importer.notion-api.label-preview-child-page]
+original=Child page
+translation=صفحة فرعية
+
+[importer.notion-api.label-preview-database]
+original=Database
+translation=قاعدة بيانات
+
+[importer.notion-api.msg-preview-nested-content]
+original=Nested content is not loaded in the preview.
+translation=لا يتم تحميل المحتوى المتداخل في المعاينة.
+
+[importer.notion-api.msg-preview-content-not-loaded]
+original={{type}} is not loaded in the preview.
+translation=لم يتم تحميل {{type}} في المعاينة.
+
+[importer.notion-api.msg-preview-content-not-loaded-with-caption]
+original={{type}}: {{caption}} is not loaded in the preview.
+translation=لم يتم تحميل {{type}}: {{caption}} في المعاينة.
+
+[importer.notion-api.msg-preview-block-not-expanded]
+original={{type}} is not expanded in the preview.
+translation=لم يتم توسيع {{type}} في المعاينة.
+
+[importer.notion-api.label-fetch-children]
+original=Fetch children for {{context}} {{id}}
+translation=جلب العناصر الفرعية لـ {{context}} {{id}}
+
+[importer.notion-api.block-paragraph]
+original=paragraph
+translation=فقرة
+
+[importer.notion-api.block-bulleted-list-item]
+original=bulleted list item
+translation=عنصر قائمة نقطية
+
+[importer.notion-api.block-numbered-list-item]
+original=numbered list item
+translation=عنصر قائمة مرقمة
+
+[importer.notion-api.block-todo-item]
+original=to-do item
+translation=عنصر مهام
+
+[importer.notion-api.block-quote]
+original=quote block
+translation=كتلة اقتباس
+
+[importer.notion-api.block-callout]
+original=callout block
+translation=كتلة مربع تنبيه
+
+[importer.notion-api.block-toggle]
+original=toggle block
+translation=كتلة تبديل
+
+[importer.notion-api.block-toggleable-heading]
+original=toggleable heading
+translation=عنوان قابل للتبديل
+
+[importer.notion-api.block-column]
+original=column
+translation=عمود
+
+[importer.notion-api.block-column-list]
+original=column list
+translation=قائمة أعمدة
+
+[importer.notion-api.block-table]
+original=table
+translation=جدول
+
+[importer.notion-api.block-generic]
+original=block
+translation=كتلة
+
+[importer.notion-api.label-meeting-notes]
+original=Meeting notes: {{name}}
+translation=ملاحظات الاجتماع: {{name}}
+
+[importer.notion-api.label-meeting-notes-section]
+original=Meeting notes: {{name}} ({{section}})
+translation=ملاحظات الاجتماع: {{name}} ({{section}})
+
+[importer.notion-api.label-untitled-meeting]
+original=Meeting notes {{id}}
+translation=ملاحظات الاجتماع {{id}}
+
+[importer.notion-api.section-summary]
+original=summary
+translation=الملخص
+
+[importer.notion-api.section-notes]
+original=notes
+translation=ملاحظات
+
+[importer.notion-api.section-transcript]
+original=transcript
+translation=نص مكتوب
+
+[importer.notion-api.label-fetch-children-block]
+original=Fetch children for block {{id}}
+translation=جلب العناصر الفرعية للكتلة {{id}}
+
+[importer.notion-api.reason-not-in-tree]
+original=Item not found in tree
+translation=العنصر غير موجود في الشجرة
+
+[importer.notion-api.reason-unknown-type]
+original=Unknown type: {{type}}
+translation=نوع غير معروف: {{type}}
+
+[importer.notion-api.reason-earlier-import]
+original=an earlier import had already written it
+translation=استيراد سابق كان قد كتبه بالفعل
+
+[importer.notion-api.reason-attachment-exists]
+original={{path}} is already in the vault, the same size (incremental import)
+translation={{path}} موجود بالفعل في الخزنة بنفس الحجم (استيراد تزايدي)
+
+[importer.notion-api.reason-http-status]
+original=HTTP {{status}}
+translation=HTTP {{status}}
+
+[importer.notion-api.reason-meeting-notes-pending]
+original=Notion has not finished generating them ({{status}})
+translation=لم ينتهِ Notion من إنشائها بعد ({{status}})
+
+[importer.notion-api.reason-rate-limit-gave-up]
+original=rate limited, and gave up after {{retries}} retries
+translation=تم تحديد المعدل، والتخلي بعد {{retries}} محاولات إعادة
+
+[importer.notion-api.reason-gave-up]
+original={{reason}}, and gave up after {{retries}} retries
+translation={{reason}}، والتخلي بعد {{retries}} محاولات إعادة
+
+[importer.notion-api.reason-kept-link]
+original={{reason}}; kept the link to {{url}}
+translation={{reason}}؛ تم الاحتفاظ بالرابط إلى {{url}}
+
+[importer.notion.name]
+original=Notion
+translation=Notion
+
+[importer.notion.option-text]
+original=Notion (.zip)
+translation=Notion (.zip)
+
+[importer.notion.method-name]
+original=File import
+translation=استيراد من ملف
+
+[importer.notion.method-desc]
+original=Imports using a Notion export file (.zip). Requires no API token or internet connection, but does not preserve databases.
+translation=الاستيراد باستخدام ملف تصدير Notion (.zip). لا يتطلب رمز API أو اتصالاً بالإنترنت، لكنه لا يحتفظ بقواعد البيانات.
+
+[importer.notion.file-type]
+original=Exported Notion
+translation=تصدير Notion
+
+[importer.notion.label-id]
+original=Notion ID
+translation=المعرّف في Notion
+
+[importer.notion.desc-export]
+original=Export your workspace in HTML format, you will receive a zip file.
+translation=صدّر مساحة العمل بتنسيق HTML، وستحصل على ملف zip.
+
+[importer.notion.desc-files]
+original=Pick the zip file Notion sent you.
+translation=اختر ملف zip الذي أرسله لك Notion.
+
+[importer.notion.name-subfolders]
+original=Save parent pages in subfolders
+translation=حفظ الصفحات الرئيسية في مجلدات فرعية
+
+[importer.notion.desc-subfolders]
+original=Places the parent database pages in the same folder as the nested content.
+translation=يضع صفحات قاعدة البيانات الرئيسية في نفس مجلد المحتوى المتداخل.
+
+[importer.notion.name-single-line-breaks]
+original=Single line breaks
+translation=أسطر فردية
+
+[importer.notion.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break (default is 2).
+translation=فصل كتل Notion بسطر واحد فقط (افتراضي: 2).
+
+[importer.notion.msg-unknown-property]
+original=Property "{{property}}" has an unknown type ({{type}}); kept its value as text.
+translation=الخاصية "{{property}}" لها نوع غير معروف ({{type}})؛ تم الاحتفاظ بقيمتها كـنص.
+
+[importer.notion.msg-unparsed-date]
+original=Could not determine the date in property "{{property}}": {{value}}. Kept its value as text.
+translation=تعذّر تحديد التاريخ في الخاصية "{{property}}": {{value}}. تم الاحتفاظ بقيمتها كـنص.
+
+[importer.notion.status-looking]
+original=Looking for files to import
+translation=البحث عن ملفات للاستيراد
+
+[importer.notion.status-resolving]
+original=Resolving links and de-duplicating files
+translation=حلّ الروابط وإزالة الملفات المكررة
+
+[importer.notion.status-starting]
+original=Starting import
+translation=بدء الاستيراد
+
+[importer.notion.msg-markdown-export]
+original=This is a Markdown export. Export your Notion workspace as HTML instead.
+translation=هذا تصدير Markdown. قم بتصدير مساحة عمل Notion كـ HTML بدلاً من ذلك.
+
+[importer.notion.reason-markdown-export]
+original=it is a Markdown export; export your Notion workspace as HTML instead
+translation=هذا تصدير Markdown؛ صدّر مساحة العمل في Notion بتنسيق HTML بدلاً من ذلك
+
+[importer.notion.reason-no-page-body]
+original=page body was not found
+translation=لم يتم العثور على الجسم الخاص بالصفحة
+
+[importer.roam-json.name]
+original=Roam Research
+translation=Roam Research
+
+[importer.roam-json.option-text]
+original=Roam Research (.json)
+translation=Roam Research (.json)
+
+[importer.roam-json.file-type]
+original=Roam (.json)
+translation=Roam (.json)
+
+[importer.roam-json.label-id]
+original=Roam UID
+translation=UID في Roam
+
+[importer.roam-json.desc-export]
+original=Export your data in JSON format.
+translation=صدّر بياناتك بتنسيق JSON.
+
+[importer.roam-json.desc-files]
+original=Pick the JSON file from your Roam export.
+translation=اختر ملف JSON من تصدير Roam.
+
+[importer.roam-json.name-embed-block-references]
+original=Show referenced blocks in place
+translation=عرض الكتل المُشار إليها في مكانها
+
+[importer.roam-json.desc-embed-block-references]
+original=Roam shows the contents of a referenced block where the reference stands. If enabled, references become embeds rather than links.
+translation=يعرض Roam محتويات الكتلة المُشار إليها في موضع الإشارة. إذا كان مُمكّنًا، تصبح الإشارات تضمينات بدلاً من روابط.
+
+[importer.roam-json.name-drop-unresolved-references]
+original=Remove references to missing blocks
+translation=إزالة الإشارات إلى الكتل المفقودة
+
+[importer.roam-json.desc-drop-unresolved-references]
+original=Some references name a block that is not in the export. If enabled, they are removed; if not, they are kept as Roam wrote them.
+translation=بعض الإشارات تشير إلى كتلة غير موجودة في التصدير. إذا كان مُمكّنًا، تتم إزالتها؛ وإن لم يكن، تُبقى كما كتبها Roam.
+
+[importer.roam-json.name-convert-attributes]
+original=Convert attributes to properties
+translation=تحويل السمات إلى خصائص
+
+[importer.roam-json.desc-convert-attributes]
+original=Convert eligible top-level Roam attributes into Obsidian properties. Referenced attributes remain in the note so links to them keep working.
+translation=تحويل سمات Roam المؤهلة ذات المستوى الأعلى إلى خصائص Obsidian. تبقى السمات المُشار إليها في الملاحظة لكي تستمر الروابط إليها في العمل.
+
+[importer.roam-json.name-tags-as-links]
+original=Convert tags to links
+translation=تحويل الوسوم إلى روابط
+
+[importer.roam-json.desc-tags-as-links]
+original=A tag in Roam is a reference to the page of that name. If enabled, "#tag" becomes "[[tag]]".
+translation=الوسم في Roam هو إشارة إلى الصفحة التي تحمل ذلك الاسم. إذا كان مُمكّنًا، يصبح "#tag" على شكل "[[tag]]".
+
+[importer.roam-json.name-drop-queries]
+original=Remove queries
+translation=إزالة الاستعلامات
+
+[importer.roam-json.desc-drop-queries]
+original=If enabled, queries are removed. If not, a query becomes an Obsidian search that shows its results in the note.
+translation=إذا كان مُمكّنًا، تتم إزالة الاستعلامات. وإن لم يكن، يصبح الاستعلام بحثًا في Obsidian يعرض نتائجه في الملاحظة.
+
+[importer.roam-json.reason-empty-title]
+original=Title is empty
+translation=العنوان فارغ
+
+[importer.roam-json.reason-unexpected-extension]
+original=Unexpected file extension
+translation=امتداد الملف غير متوقع
+
+[importer.textbundle.name]
+original=Textbundle files
+translation=ملفات Textbundle
+
+[importer.textbundle.option-text]
+original=Textbundle (.textbundle, .textpack)
+translation=Textbundle (.textbundle, .textpack)
+
+[importer.textbundle.file-type]
+original=Textbundle
+translation=Textbundle
+
+[importer.textbundle.desc-export]
+original=Export your notes as textbundle or textpack, which Agenda, Craft, Taio, Ulysses and Zettlr can all write.
+translation=صدّر ملاحظاتك بصيغة textbundle أو textpack، وهي صيغ يمكن لـ Agenda و Craft و Taio و Ulysses و Zettlr كتابتها.
+
+[importer.textbundle.msg-platform]
+original=Due to platform limitations, only textpack and zip files can be imported from this device. Open your vault on a Mac to import textbundle files.
+translation=بسبب قيود المنصة، يمكن فقط استيراد ملفات textpack و zip من هذا الجهاز. افتح خزنتك على Mac لاستيراد ملفات textbundle.
+
+[importer.textbundle.reason-no-markdown]
+original=The textbundle does not contain markdown
+translation=لا يحتوي textbundle على Markdown
+
+[importer.textbundle.reason-not-media]
+original=the file is not a media or markdown file.
+translation=الملف ليس ملف وسائط أو Markdown.
+
+[importer.textbundle.reason-already-exists]
+original=the file already exists.
+translation=الملف موجود بالفعل.
+
+[importer.tomboy.name]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.option-text]
+original=Tomboy/Gnote (.note)
+translation=Tomboy/Gnote ‏(.note)
+
+[importer.tomboy.file-type]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.label-id]
+original=Tomboy ID
+translation=معرّف Tomboy
+
+[importer.tomboy.desc-files-mac]
+original=Tomboy notes are typically found in: ~/Library/Application Support/Tomboy
+translation=توجد ملاحظات Tomboy عادةً في: ~/Library/Application Support/Tomboy
+
+[importer.tomboy.desc-files-windows]
+original=Tomboy notes are typically found in: %APPDATA%\\Tomboy
+translation=توجد ملاحظات Tomboy عادةً في: %APPDATA%\\Tomboy
+
+[importer.tomboy.desc-files-linux]
+original=Tomboy notes are typically found in: ~/.local/share/tomboy - or GNote: ~/.local/share/gnote
+translation=توجد ملاحظات Tomboy عادةً في: ~/.local/share/tomboy - أو GNote:‏ ~/.local/share/gnote
+
+[importer.tomboy.name-todo]
+original=Convert TODO lists to checkboxes
+translation=تحويل قوائم TODO إلى مربعات اختيار
+
+[importer.tomboy.desc-todo]
+original=When enabled, lists in notes with "TODO" in the title will be converted to task lists with checkboxes. Strikethrough items will be marked as completed.
+translation=عند التمكين، سيتم تحويل القوائم في الملاحظات التي تحتوي على "TODO" في العنوان إلى قوائم مهام بمربعات اختيار. العناصر التي يتوسطها خط ستُعلَّم كمكتملة.
+
+[importer.tomboy.name-keep-title]
+original=Keep title in Markdown
+translation=الاحتفاظ بالعنوان في Markdown
+
+[importer.tomboy.desc-keep-title]
+original=Choose whether to keep the note title in the Markdown content. The automatic option keeps titles only when special characters are lost in filename conversion.
+translation=اختر ما إذا كنت تريد الاحتفاظ بعنوان الملاحظة في محتوى Markdown. الخيار التلقائي يحتفظ بالعناوين فقط عند فقدان الأحرف الخاصة أثناء تحويل اسم الملف.
+
+[importer.tomboy.option-automatic]
+original=Automatic
+translation=تلقائي
+
+[importer.tomboy.option-keep-titles]
+original=Keep titles
+translation=الاحتفاظ بالعناوين
+
+[importer.tomboy.option-filename-only]
+original=Filename only
+translation=اسم الملف فقط

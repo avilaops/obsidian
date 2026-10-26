@@ -1,0 +1,394 @@
+{
+	"_comment": "Hand-written to the shape of GET /v1/blocks/{id}/children (https://developers.notion.com/reference/get-block-children), keyed by block id as in example-page.json. A toggle heading is a heading block with is_toggleable set, and the section folded under it comes back as its children. Covers a section ending in a list before the next block, a toggle heading inside another, one with nothing under it, and a fourth-level heading, which the API returns as heading_4.",
+	"pageId": "10000000-0000-4000-8000-000000000003",
+	"blocks": {
+		"10000000-0000-4000-8000-000000000003": {
+			"object": "list",
+			"has_more": false,
+			"next_cursor": null,
+			"results": [
+				{
+					"object": "block",
+					"id": "30000000-0000-4000-8000-000000000001",
+					"type": "heading_2",
+					"has_children": true,
+					"archived": false,
+					"heading_2": {
+						"rich_text": [
+							{
+								"type": "text",
+								"text": {
+									"content": "Tasks",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": "Tasks",
+								"href": null
+							}
+						],
+						"color": "default",
+						"is_toggleable": true
+					}
+				},
+				{
+					"object": "block",
+					"id": "30000000-0000-4000-8000-000000000005",
+					"type": "paragraph",
+					"has_children": false,
+					"archived": false,
+					"paragraph": {
+						"rich_text": [
+							{
+								"type": "text",
+								"text": {
+									"content": "A paragraph after the section.",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": "A paragraph after the section.",
+								"href": null
+							}
+						],
+						"color": "default"
+					}
+				},
+				{
+					"object": "block",
+					"id": "30000000-0000-4000-8000-000000000006",
+					"type": "heading_1",
+					"has_children": true,
+					"archived": false,
+					"heading_1": {
+						"rich_text": [
+							{
+								"type": "text",
+								"text": {
+									"content": "Outer section",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": "Outer section",
+								"href": null
+							}
+						],
+						"color": "default",
+						"is_toggleable": true
+					}
+				},
+				{
+					"object": "block",
+					"id": "30000000-0000-4000-8000-000000000010",
+					"type": "heading_3",
+					"has_children": false,
+					"archived": false,
+					"heading_3": {
+						"rich_text": [
+							{
+								"type": "text",
+								"text": {
+									"content": "Nothing folded",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": "Nothing folded",
+								"href": null
+							}
+						],
+						"color": "default",
+						"is_toggleable": true
+					}
+				},
+				{
+					"object": "block",
+					"id": "30000000-0000-4000-8000-000000000011",
+					"type": "heading_4",
+					"has_children": true,
+					"archived": false,
+					"heading_4": {
+						"rich_text": [
+							{
+								"type": "text",
+								"text": {
+									"content": "Fourth level",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": "Fourth level",
+								"href": null
+							}
+						],
+						"color": "default",
+						"is_toggleable": true
+					}
+				}
+			]
+		},
+		"30000000-0000-4000-8000-000000000001": {
+			"object": "list",
+			"has_more": false,
+			"next_cursor": null,
+			"results": [
+				{
+					"object": "block",
+					"id": "30000000-0000-4000-8000-000000000002",
+					"type": "paragraph",
+					"has_children": false,
+					"archived": false,
+					"paragraph": {
+						"rich_text": [
+							{
+								"type": "text",
+								"text": {
+									"content": "Things to do this week.",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": "Things to do this week.",
+								"href": null
+							}
+						],
+						"color": "default"
+					}
+				},
+				{
+					"object": "block",
+					"id": "30000000-0000-4000-8000-000000000003",
+					"type": "bulleted_list_item",
+					"has_children": false,
+					"archived": false,
+					"bulleted_list_item": {
+						"rich_text": [
+							{
+								"type": "text",
+								"text": {
+									"content": "Write the report",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": "Write the report",
+								"href": null
+							}
+						],
+						"color": "default"
+					}
+				},
+				{
+					"object": "block",
+					"id": "30000000-0000-4000-8000-000000000004",
+					"type": "bulleted_list_item",
+					"has_children": false,
+					"archived": false,
+					"bulleted_list_item": {
+						"rich_text": [
+							{
+								"type": "text",
+								"text": {
+									"content": "Send it",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": "Send it",
+								"href": null
+							}
+						],
+						"color": "default"
+					}
+				}
+			]
+		},
+		"30000000-0000-4000-8000-000000000006": {
+			"object": "list",
+			"has_more": false,
+			"next_cursor": null,
+			"results": [
+				{
+					"object": "block",
+					"id": "30000000-0000-4000-8000-000000000007",
+					"type": "paragraph",
+					"has_children": false,
+					"archived": false,
+					"paragraph": {
+						"rich_text": [
+							{
+								"type": "text",
+								"text": {
+									"content": "Inside the outer section.",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": "Inside the outer section.",
+								"href": null
+							}
+						],
+						"color": "default"
+					}
+				},
+				{
+					"object": "block",
+					"id": "30000000-0000-4000-8000-000000000008",
+					"type": "heading_2",
+					"has_children": true,
+					"archived": false,
+					"heading_2": {
+						"rich_text": [
+							{
+								"type": "text",
+								"text": {
+									"content": "Inner section",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": "Inner section",
+								"href": null
+							}
+						],
+						"color": "default",
+						"is_toggleable": true
+					}
+				}
+			]
+		},
+		"30000000-0000-4000-8000-000000000008": {
+			"object": "list",
+			"has_more": false,
+			"next_cursor": null,
+			"results": [
+				{
+					"object": "block",
+					"id": "30000000-0000-4000-8000-000000000009",
+					"type": "paragraph",
+					"has_children": false,
+					"archived": false,
+					"paragraph": {
+						"rich_text": [
+							{
+								"type": "text",
+								"text": {
+									"content": "Inside the inner section.",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": "Inside the inner section.",
+								"href": null
+							}
+						],
+						"color": "default"
+					}
+				}
+			]
+		},
+		"30000000-0000-4000-8000-000000000011": {
+			"object": "list",
+			"has_more": false,
+			"next_cursor": null,
+			"results": [
+				{
+					"object": "block",
+					"id": "30000000-0000-4000-8000-000000000012",
+					"type": "paragraph",
+					"has_children": false,
+					"archived": false,
+					"paragraph": {
+						"rich_text": [
+							{
+								"type": "text",
+								"text": {
+									"content": "Under the fourth level.",
+									"link": null
+								},
+								"annotations": {
+									"bold": false,
+									"italic": false,
+									"strikethrough": false,
+									"underline": false,
+									"code": false,
+									"color": "default"
+								},
+								"plain_text": "Under the fourth level.",
+								"href": null
+							}
+						],
+						"color": "default"
+					}
+				}
+			]
+		}
+	}
+}

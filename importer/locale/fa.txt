@@ -1,0 +1,2499 @@
+[command.import-notes]
+original=Import notes
+translation=درون‌ریزی یادداشت‌ها
+
+[nouns.file-with-count]
+original={{count}} file
+translation=پرونده {{count}}
+
+[nouns.file-with-count_plural]
+original={{count}} files
+translation=پرونده {{count}}
+
+[nouns.note-with-count]
+original={{count}} note
+translation={{count}} یادداشت
+
+[nouns.note-with-count_plural]
+original={{count}} notes
+translation={{count}} یادداشت
+
+[nouns.item-with-count]
+original={{count}} item
+translation={{count}} مورد
+
+[nouns.item-with-count_plural]
+original={{count}} items
+translation={{count}} مورد
+
+[nouns.record-with-count]
+original={{count}} record
+translation={{count}} رکورد
+
+[nouns.record-with-count_plural]
+original={{count}} records
+translation={{count}} رکورد
+
+[nouns.base-with-count]
+original={{count}} base
+translation={{count}} پایگاه
+
+[nouns.base-with-count_plural]
+original={{count}} bases
+translation={{count}} پایگاه
+
+[nouns.template-with-count]
+original={{count}} template
+translation={{count}} قالب
+
+[nouns.template-with-count_plural]
+original={{count}} templates
+translation={{count}} قالب
+
+[nouns.failure-with-count]
+original={{count}} failure
+translation={{count}} خطا
+
+[nouns.failure-with-count_plural]
+original={{count}} failures
+translation={{count}} خطا
+
+[nouns.second-with-count]
+original={{count}} second
+translation={{count}} ثانیه
+
+[nouns.second-with-count_plural]
+original={{count}} seconds
+translation={{count}} ثانیه
+
+[nouns.relation-placeholder-with-count]
+original={{count}} relation placeholder
+translation={{count}} جایگاه رابطه
+
+[nouns.relation-placeholder-with-count_plural]
+original={{count}} relation placeholders
+translation={{count}} جایگاه رابطه
+
+[nouns.linked-database-with-count]
+original={{count}} linked database
+translation={{count}} پایگاه داده پیوند شده
+
+[nouns.linked-database-with-count_plural]
+original={{count}} linked databases
+translation={{count}} پایگاه داده پیوند شده
+
+[nouns.mention-link-with-count]
+original={{count}} mention link
+translation={{count}} پیوند اشاره
+
+[nouns.mention-link-with-count_plural]
+original={{count}} mention links
+translation={{count}} پیوند اشاره
+
+[nouns.synced-reference-with-count]
+original={{count}} synced child reference
+translation={{count}} ارجاع فرزند همگام‌سازی شده
+
+[nouns.synced-reference-with-count_plural]
+original={{count}} synced child references
+translation={{count}} ارجاع فرزند همگام‌سازی شده
+
+[nouns.new-item-with-count]
+original={{count}} new item
+translation={{count}} مورد نو
+
+[nouns.new-item-with-count_plural]
+original={{count}} new items
+translation={{count}} مورد نو
+
+[nouns.page-with-count]
+original={{count}} page
+translation={{count}} صفحه
+
+[nouns.page-with-count_plural]
+original={{count}} pages
+translation={{count}} صفحه
+
+[group.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[group.notion.name]
+original=Notion
+translation=Notion
+
+[outliner.name-flatten-outlines]
+original=Flatten outlines
+translation=مسطح‌سازی طرح‌های کلی
+
+[outliner.desc-flatten-outlines]
+original=Convert outlines into paragraphs, headings, and lists.
+translation=تبدیل طرح‌های کلی به پاراگراف‌ها، سرتیترها و فهرست‌ها.
+
+[modal.title-pick-format]
+original=Import data into Obsidian
+translation=درون‌ریزی داده به Obsidian
+
+[modal.title-choose-method]
+original=Choose how to import
+translation=روش درون‌ریزی را انتخاب کنید
+
+[modal.title-import-from]
+original=Import from {{format}}
+translation=درون‌ریزی از {{format}}
+
+[modal.search-placeholder]
+original=Filter...
+translation=پالایش...
+
+[modal.msg-no-formats]
+original=No formats found.
+translation=هیچ قالب‌بندی‌ای یافت نشد.
+
+[modal.msg-drop-to-import]
+original=Drop files to import
+translation=پرونده‌ها را برای وارد کردن رها کنید
+
+[modal.button-show-all-formats]
+original=Show all formats
+translation=نمایش همه قالب‌ها
+
+[modal.button-continue]
+original=Continue
+translation=ادامه
+
+[modal.button-import]
+original=Import
+translation=درون‌ریزی
+
+[modal.button-back]
+original=Back
+translation=بازگشت
+
+[modal.button-help]
+original=Help
+translation=راهنما
+
+[modal.button-pause]
+original=Pause
+translation=توقف موقت
+
+[modal.button-resume]
+original=Resume
+translation=ادامه
+
+[modal.button-stop]
+original=Stop
+translation=ایست
+
+[modal.button-save-report]
+original=Save report
+translation=ذخیره گزارش
+
+[modal.msg-report-failed]
+original=Could not save the import report.
+translation=ذخیره گزارش درون‌ریزی امکان‌پذیر نبود.
+
+[modal.button-import-more]
+original=Import more
+translation=درون‌ریزی بیشتر
+
+[modal.button-done]
+original=Done
+translation=انجام
+
+[modal.msg-unexpected-auth]
+original=Unexpected auth event. Please restart the auth process.
+translation=رویداد احراز هویت غیرمنتظره. لطفاً فرایند احراز هویت را از نو آغاز کنید.
+
+[progress.stat-imported]
+original=imported
+translation=درون‌ریزی شده
+
+[progress.stat-attachments]
+original=attachments
+translation=پیوست‌ها
+
+[progress.stat-remaining]
+original=remaining
+translation=باقی‌مانده
+
+[progress.stat-skipped]
+original=skipped
+translation=رد شده
+
+[progress.stat-failed]
+original=failed
+translation=شکست‌خورده
+
+[progress.label-skipped]
+original=Skipped: 
+translation=رد شده: 
+
+[progress.label-failed]
+original=Failed: 
+translation=ناموفق: 
+
+[progress.label-entry]
+original="{{name}}"
+translation="{{name}}"
+
+[progress.label-entry-with-reason]
+original="{{name}}" because {{reason}}
+translation="{{name}}" به دلیل {{reason}}
+
+[progress.label-paused]
+original=Paused
+translation=متوقف شده
+
+[progress.label-paused-with]
+original=Paused - {{status}}
+translation=متوقف شده - {{status}}
+
+[progress.label-importing]
+original=Importing
+translation=در حال وارد کردن
+
+[progress.label-remaining]
+original={{count}} remaining...
+translation={{count}} باقی‌مانده...
+
+[progress.label-remaining_plural]
+original={{count}} remaining...
+translation={{count}} باقی‌مانده...
+
+[progress.label-paused-remaining]
+original=Paused - {{count}} remaining
+translation=متوقف شده - {{count}} باقی‌مانده
+
+[progress.label-paused-remaining_plural]
+original=Paused - {{count}} remaining
+translation=متوقف شده - {{count}} باقی‌مانده
+
+[progress.status-stopping]
+original=Stopping...
+translation=در حال توقف...
+
+[progress.msg-stopped]
+original=Import stopped.
+translation=وارد کردن متوقف شد.
+
+[progress.msg-errors]
+original=Import finished with errors.
+translation=وارد کردن با خطاها به پایان رسید.
+
+[progress.msg-complete]
+original=Import complete.
+translation=وارد کردن کامل شد.
+
+[progress.msg-imported-count]
+original={{count}} note imported
+translation={{count}} یادداشت وارد شد
+
+[progress.msg-imported-count_plural]
+original={{count}} notes imported
+translation={{count}} یادداشت وارد شد
+
+[progress.msg-click-to-show]
+original={{counts}}. Select to show.
+translation={{counts}}. برای نمایش انتخاب کنید.
+
+[progress.status-waiting]
+original=Waiting {{duration}} ({{reason}})
+translation=در انتظار {{duration}} ({{reason}})
+
+[progress.status-standardizing]
+original=Standardizing Markdown ({{current}}/{{total}})
+translation=استانداردسازی Markdown ({{current}}/{{total}})
+
+[progress.label-finalization]
+original=Markdown finalization
+translation=نهایی‌سازی Markdown
+
+[report.file-name]
+original={{date}} {{importer}} import log
+translation={{date}} گزارش وارد کردن {{importer}}
+
+[report.title]
+original={{importer}} import
+translation=وارد کردن {{importer}}
+
+[report.msg-finished]
+original=Finished {{when}}. {{counts}}.
+translation=پایان یافت {{when}}. {{counts}}.
+
+[report.msg-stopped]
+original=Stopped {{when}}. {{counts}}.
+translation=متوقف شد {{when}}. {{counts}}.
+
+[report.heading-failed]
+original=Failed ({{count}})
+translation=ناموفق ({{count}})
+
+[report.heading-skipped]
+original=Skipped ({{count}})
+translation=رد شده ({{count}})
+
+[report.heading-messages]
+original=Messages
+translation=پیام‌ها
+
+[report.count-notes]
+original={{count}} note imported
+translation={{count}} یادداشت وارد شد
+
+[report.count-notes_plural]
+original={{count}} notes imported
+translation={{count}} یادداشت وارد شد
+
+[report.count-attachments]
+original={{count}} attachment downloaded
+translation={{count}} پیوست دانلود شد
+
+[report.count-attachments_plural]
+original={{count}} attachments downloaded
+translation={{count}} پیوست دانلود شد
+
+[report.count-skipped]
+original={{count}} item skipped
+translation={{count}} مورد رد شده
+
+[report.count-skipped_plural]
+original={{count}} items skipped
+translation={{count}} مورد رد شده
+
+[report.count-failed]
+original={{count}} item failed
+translation={{count}} مورد ناموفق
+
+[report.count-failed_plural]
+original={{count}} items failed
+translation={{count}} مورد ناموفق
+
+[source.desc]
+original=Drag and drop, or choose files to import.
+translation=فایل‌ها را برای وارد کردن بکشید و رها کنید، یا انتخاب کنید.
+
+[source.desc-choose]
+original=Choose files to import.
+translation=فایل‌هایی را برای وارد کردن انتخاب کنید.
+
+[source.button-choose-file]
+original=Choose file
+translation=انتخاب فایل
+
+[source.button-choose-files]
+original=Choose files
+translation=انتخاب فایل‌ها
+
+[source.button-choose-folders]
+original=Choose folders
+translation=انتخاب پوشه‌ها
+
+[source.dialog-pick-files]
+original=Pick files to import
+translation=فایل‌ها برای وارد کردن انتخاب کنید
+
+[source.dialog-pick-folders]
+original=Folders to import
+translation=پوشه‌ها برای وارد کردن
+
+[source.desc-folders]
+original=Everything in checked folders is imported. Uncheck folders to exclude them.
+translation=همه چیز در پوشه‌های انتخاب‌شده وارد می‌شود. برای حذف پوشه‌ها، تیک آن‌ها را بردارید.
+
+[source.msg-pick-source-first]
+original=Choose files or folders first.
+translation=ابتدا فایل‌ها یا پوشه‌ها را انتخاب کنید.
+
+[source.msg-reading-folders]
+original=Reading folders...
+translation=خواندن پوشه‌ها...
+
+[source.msg-no-folders]
+original=No folders found.
+translation=هیچ پوشه‌ای یافت نشد.
+
+[source.msg-android-folder-failed]
+original=Could not choose that folder.
+translation=امکان انتخاب آن پوشه وجود نداشت.
+
+[source.msg-android-folder-read-failed]
+original=Could not read that folder.
+translation=امکان خواندن آن پوشه وجود نداشت.
+
+[source.msg-android-folder-unavailable]
+original=Folder selection is unavailable on this device.
+translation=انتخاب پوشه در این دستگاه در دسترس نیست.
+
+[source.msg-android-root-folder]
+original=Choose a folder other than the root of your device.
+translation=پوشه‌ای غیر از ریشه دستگاه خود را انتخاب کنید.
+
+[source.msg-flat-files]
+original={{count}} file will be imported.
+translation={{count}} پرونده وارد خواهد شد.
+
+[source.msg-flat-files_plural]
+original={{count}} files will be imported.
+translation={{count}} پرونده وارد خواهد شد.
+
+[source.msg-nothing-to-import]
+original=Nothing to import there. Pick {{extensions}} files, or a folder holding some.
+translation=چیزی برای وارد کردن وجود ندارد. فایل‌های {{extensions}} یا پوشه‌ای حاوی آن‌ها انتخاب کنید.
+
+[source.msg-will-import]
+original={{files}} will be imported: 
+translation={{files}} وارد خواهد شد: 
+
+[source.msg-more-files]
+original=and {{count}} more file
+translation=و {{count}} فایل دیگر
+
+[source.msg-more-files_plural]
+original=and {{count}} more files
+translation=و {{count}} فایل دیگر
+
+[source.button-remove-file]
+original=Remove from the import
+translation=حذف از واردسازی
+
+[output.label-source-id]
+original=source ID
+translation=شناسه منبع
+
+[output.name-save-source-id]
+original=Save {{label}}
+translation=ذخیره {{label}}
+
+[output.desc-save-source-id]
+original=Add the {{label}} to note properties so future imports can recognize moved or renamed notes.
+translation={{label}} را به ویژگی‌ها یادداشت اضافه کنید تا واردکردن‌های آینده بتوانند یادداشت‌های جابجا یا تغییرنام‌یافته را شناسایی کنند.
+
+[output.name-folder]
+original=Output folder
+translation=پوشه خروجی
+
+[output.desc-folder]
+original=Where imported notes will be saved. Leave blank to use the top level of the vault.
+translation=جایی که یادداشت‌های واردشده ذخیره خواهند شد. خالی بگذارید برای استفاده از سطح بالای گاوصندوق.
+
+[output.name-template]
+original=Template
+translation=قالب
+
+[output.desc-template]
+original=Optional Markdown template from this vault. Use variables such as {{title}}, {{content}}, and {{date}}.
+translation=الگوی Markdown اختیاری از این گاوصندوق. از متغیرهایی مانند {{title}}، {{content}} و {{date}} استفاده کنید.
+
+[output.placeholder-template]
+original=Templates/Import.md
+translation=Templates/Import.md
+
+[output.msg-template-not-found]
+original=Template must be a Markdown file in this vault: {{path}}
+translation=الگو باید یک فایل Markdown در این گاوصندوق باشد: {{path}}
+
+[output.name-attachments]
+original=Attachment location
+translation=جایگاه پیوست
+
+[output.desc-attachments]
+original=Where imported images and files will be saved.
+translation=جایی که تصاویر و فایل‌های واردشده ذخیره خواهند شد.
+
+[output.name-subfolder]
+original=Subfolder name
+translation=نام زیرپوشه
+
+[output.desc-subfolder]
+original=Folder to use inside each imported note's folder.
+translation=پوشه برای استفاده در داخل پوشه هر یادداشت واردشده.
+
+[output.name-attachment-folder]
+original=Attachment folder
+translation=پوشه پیوست
+
+[output.desc-attachment-folder]
+original=Folder path from the top level of the vault.
+translation=مسیر پوشه از سطح بالای گاوصندوق.
+
+[output.name-duplicates]
+original=Existing notes
+translation=یادداشت‌های موجود
+
+[output.desc-duplicates]
+original=Choose what to do when an imported note matches one in your vault. "{{update}}" skips unchanged notes and preserves newer local edits when modification dates are available.
+translation=انتخاب کنید که هنگام تطابق یادداشت واردشده با یادداشتی در گاوصندوق چه کاری انجام شود. «{{update}}» یادداشت‌های بدون تغییر را رد می‌کند و ویرایش‌های محلی جدیدتر را در صورت موجود بودن تاریخ تغییرات حفظ می‌کند.
+
+[output.option-create-copy]
+original=Create a copy
+translation=ساختن یک کپی
+
+[output.option-skip]
+original=Skip
+translation=رد کردن
+
+[output.option-update]
+original=Update
+translation=به‌روزرساندن
+
+[output.option-attachments-vault]
+original=Vault folder
+translation=پوشه‌ی اصلی خزانه
+
+[output.option-attachments-folder]
+original=In the folder specified below
+translation=در پوشه‌ای که در پایین تعیین می‌کنم
+
+[output.option-attachments-note]
+original=Same folder as the note
+translation=همان پوشه یادداشت
+
+[output.option-attachments-subfolder]
+original=In subfolder under the note
+translation=در زیرپوشه زیر یادداشت
+
+[common.msg-pick-file]
+original=Please pick at least one file to import.
+translation=لطفاً حداقل یک فایل برای وارد کردن انتخاب کنید.
+
+[common.msg-pick-output]
+original=Please select a location to export to.
+translation=لطفاً یک جایگاه برای خروجی انتخاب کنید.
+
+[common.msg-pick-import-location]
+original=Please select a location to import your files to.
+translation=لطفاً یک جایگاه برای وارد کردن فایل‌های خود انتخاب کنید.
+
+[common.msg-unknown-error]
+original=Unknown error
+translation=خطای نامعلوم
+
+[common.name-export]
+original=Export your data
+translation=خروجی‌گیری از داده‌ها
+
+[common.label-learn-more]
+original=Learn more
+translation=اطلاعات بیشتر
+
+[common.button-instructions]
+original=Instructions
+translation=راهنما
+
+[common.button-open]
+original=Open
+translation=گشودن
+
+[common.status-processing]
+original=Processing {{name}}
+translation=پردازش {{name}}
+
+[common.status-importing-note]
+original=Importing note {{name}}
+translation=وارد کردن یادداشت {{name}}
+
+[common.status-importing-attachment]
+original=Importing attachment {{name}}
+translation=وارد کردن پیوست {{name}}
+
+[common.status-cancelled]
+original=Import cancelled
+translation=واردکردن لغوشده
+
+[reason.already-in-vault]
+original=it is already in the vault
+translation=از قبل در گاوصندوق وجود دارد
+
+[reason.unchanged-since-import]
+original=it has not changed since the last import
+translation=از آخرین واردکردن تغییری نکرده است
+
+[reason.edited-since-import]
+original=it has been edited in Obsidian since the last import
+translation=از آخرین واردکردن در Obsidian ویرایش شده است
+
+[reason.file-not-in-vault]
+original=The imported file did not appear in the vault.
+translation=فایل واردشده در گاوصندوق ظاهر نشد.
+
+[reason.folder-not-created]
+original=Failed to create folder at "{{path}}"
+translation=ساختن پوشه در «{{path}}» ناموفق بود
+
+[tree.button-select-all]
+original=Select all
+translation=انتخاب همه
+
+[tree.button-deselect-all]
+original=Deselect all
+translation=لغو انتخاب همه
+
+[tree.button-load]
+original=Load
+translation=بارگیری
+
+[tree.button-loading]
+original=Loading...
+translation=در حال بارگذاری...
+
+[tree.button-refresh]
+original=Refresh
+translation=بازنوسازی
+
+[tree.placeholder-filter]
+original=Filter...
+translation=پالایش...
+
+[tree.msg-no-matches]
+original=No results found.
+translation=!نتیجه‌ای پیدا نشد
+
+[request.msg-unauthorized]
+original={{service}} did not accept the request for {{subject}}. {{credential}}
+translation={{service}} درخواست برای {{subject}} را نپذیرفت. {{credential}}
+
+[request.msg-forbidden]
+original={{service}} would not give access to {{subject}}. {{credential}}
+translation={{service}} دسترسی به {{subject}} را نمی‌دهد. {{credential}}
+
+[request.msg-not-found]
+original={{service}} could not find {{subject}}.
+translation={{service}} نتوانست {{subject}} را پیدا کند.
+
+[request.msg-rate-limited]
+original={{service}} is limiting how fast {{subject}} can be read. Wait a few minutes and try again.
+translation={{service}} سرعت خواندن {{subject}} را محدود کرده است. چند دقیقه صبر کنید و دوباره تلاش کنید.
+
+[request.msg-timed-out]
+original={{service}} took too long to return {{subject}}. Try again shortly.
+translation={{service}} برای بازگرداندن {{subject}} بیش از حد طول کشید. به‌زودی دوباره تلاش کنید.
+
+[request.msg-unavailable]
+original={{service}} could not return {{subject}} right now. Try again shortly.
+translation={{service}} در حال حاضر نمی‌تواند {{subject}} را بازگرداند. به‌زودی دوباره تلاش کنید.
+
+[request.msg-failed-with-code]
+original=Could not read {{subject}}: {{message}} ({{code}})
+translation=خواندن {{subject}} ممکن نشد: {{message}} ({{code}})
+
+[request.msg-failed-with-message]
+original=Could not read {{subject}}: {{message}}
+translation=خواندن {{subject}} ممکن نشد: {{message}}
+
+[request.msg-failed-with-reported-code]
+original=Could not read {{subject}}. {{service}} reported {{code}}.
+translation=خواندن {{subject}} ممکن نشد. {{service}} کد {{code}} را گزارش داد.
+
+[request.msg-failed]
+original=Could not read {{subject}}.
+translation=خواندن {{subject}} ممکن نشد.
+
+[template.msg-intro]
+original=Configure how your data should be imported. Use {{syntax}} syntax to reference field values.
+translation=نحوه وارد کردن داده‌ها را پیکربندی کنید. از دستور {{syntax}} برای ارجاع به مقادیر فیلدها استفاده کنید.
+
+[template.msg-note-template-intro]
+original=Review examples of how your notes will be imported.
+translation=نمونه‌هایی از نحوه وارد شدن یادداشت‌هایتان را بررسی کنید.
+
+[template.name-title]
+original=Note title
+translation=نام‌گذاری پرونده
+
+[template.desc-title]
+original=Template for the note title. Use variables like {{field_name}} to insert values.
+translation=الگو برای نام‌گذاری پرونده. از متغیرهایی مانند {{field_name}} برای درج مقادیر استفاده کنید.
+
+[template.name-location]
+original=Note location
+translation=جایگاه یادداشت
+
+[template.desc-location]
+original=Template for note location/path. Use {{field_name}} to organize notes.
+translation=قالب برای جایگاه/مسیر یادداشت. از {{field_name}} برای سازمان‌دهی یادداشت‌ها استفاده کنید.
+
+[template.name-content]
+original=Note content
+translation=محتوای یادداشت
+
+[template.desc-content]
+original=Template for the note content. Use variables like {{field_name}} to insert values.
+translation=الگو برای محتوای یادداشت. از متغیرهایی مانند {{field_name}} برای درج مقادیر استفاده کنید.
+
+[template.name-template-file]
+original=Template
+translation=قالب
+
+[template.desc-template-file]
+original=Optional. Choose a template from your vault to format the note content. See Help for {{link}}.
+translation=اختیاری. یک قالب از گاوصندوق خود انتخاب کنید تا محتوای یادداشت قالب‌بندی شود. برای {{link}} به راهنما مراجعه کنید.
+
+[template.link-template-syntax]
+original=template syntax
+translation=دستور قالب
+
+[template.heading-preview]
+original=Preview
+translation=پیش‌نمایش
+
+[template.status-loading-preview]
+original=Loading preview...
+translation=بارگذاری پیش‌نمایش...
+
+[template.button-edit-template]
+original=Edit
+translation=ویرایش
+
+[template.button-save-template]
+original=Save
+translation=ذخیره
+
+[template.button-reset-template]
+original=Reset to default
+translation=بازنشانی به پیش‌فرض
+
+[template.button-start-import]
+original=Start import
+translation=شروع درون‌ریزی
+
+[template.link-show-more]
+original=Show more
+translation=نمایش بیشتر
+
+[template.name-template-editor]
+original=Template source
+translation=منبع الگو
+
+[template.label-edit-import-template]
+original=Edit import template
+translation=ویرایش الگوی واردکردن
+
+[template.button-add-property]
+original=Add property
+translation=افزودن ویژگی
+
+[template.button-previous-preview]
+original=Previous preview
+translation=پیش‌نمایش قبلی
+
+[template.button-next-preview]
+original=Next preview
+translation=پیش‌نمایش بعدی
+
+[template.msg-diagnostic]
+original=Line {{line}}: {{message}}
+translation=خط {{line}}: {{message}}
+
+[template.heading-properties]
+original=Properties
+translation=ویژگی‌ها
+
+[template.column-property-name]
+original=Property name
+translation=نام ویژگی
+
+[template.column-property-value]
+original=Property value
+translation=مقدار ویژگی
+
+[template.column-example]
+original=Example
+translation=نمونه
+
+[template.action-delete-property]
+original=Delete property
+translation=حذف ویژگی
+
+[template.msg-title-required]
+original=Please provide a note title template.
+translation=لطفاً یک قالب نام‌گذاری پرونده ارائه دهید.
+
+[importer.airtable-api.name]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.option-text]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-id]
+original=Airtable record ID
+translation=شناسه رکورد Airtable
+
+[importer.airtable-api.name-token]
+original=Airtable personal access token
+translation=توکن دسترسی شخصی Airtable
+
+[importer.airtable-api.desc-token]
+original=Create a personal access token in your Airtable account settings.
+translation=یک توکن دسترسی شخصی در تنظیمات حساب Airtable خود بسازید.
+
+[importer.airtable-api.link-get-token]
+original=Get token
+translation=دریافت توکن
+
+[importer.airtable-api.name-tables]
+original=Tables to import
+translation=جدول‌ها برای وارد کردن
+
+[importer.airtable-api.desc-tables]
+original=Load your Airtable bases and tables, then choose what to import.
+translation=پایگاه‌ها و جدول‌های Airtable خود را بارگیری کنید، سپس آنچه می‌خواهید وارد کنید را انتخاب کنید.
+
+[importer.airtable-api.hint-tables]
+original=Load your Airtable bases and tables to get started.
+translation=برای شروع، پایگاه‌ها و جدول‌های Airtable خود را بارگیری کنید.
+
+[importer.airtable-api.msg-fetching-bases]
+original=Fetching bases...
+translation=در حال دریافت پایگاه‌ها...
+
+[importer.airtable-api.msg-no-bases]
+original=No bases found.
+translation=هیچ پایگاهی یافت نشد.
+
+[importer.airtable-api.label-service]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-subject]
+original=your bases
+translation=پایگاه‌های شما
+
+[importer.airtable-api.label-credential]
+original=Check that your personal access token is current and has access to them.
+translation=بررسی کنید که توکن دسترسی شخصی شما معتبر است و به آن‌ها دسترسی دارد.
+
+[importer.airtable-api.name-formulas]
+original=Convert formulas
+translation=تبدیل فرمول‌ها
+
+[importer.airtable-api.desc-formulas]
+original=Try to convert formulas to Obsidian syntax, or import as static values.
+translation=تلاش برای تبدیل فرمول‌ها به دستور Obsidian، یا وارد کردن به‌صورت مقادیر ثابت.
+
+[importer.airtable-api.option-formula-hybrid]
+original=Obsidian syntax (with fallback)
+translation=دستور Obsidian (با جایگزین پشتیبان)
+
+[importer.airtable-api.option-formula-static]
+original=Static values only
+translation=فقط مقادیر ثابت
+
+[importer.airtable-api.name-download-attachments]
+original=Download attachments
+translation=بارگیری پیوست‌ها
+
+[importer.airtable-api.desc-download-attachments]
+original=Download attachment files to local vault. If disabled or download fails, external URLs will be used.
+translation=بارگیری پرونده‌های پیوست به گاوصندوق محلی. در صورت غیرفعال بودن یا شکست بارگیری، از URL‌های خارجی استفاده می‌شود.
+
+[importer.airtable-api.name-view-property]
+original=View property name
+translation=نام ویژگی نما
+
+[importer.airtable-api.desc-view-property]
+original=Property name to track which views a record belongs to. Each record will have a list of view names it appears in.
+translation=نام ویژگی برای پیگیری اینکه هر رکورد به کدام نماها تعلق دارد. هر رکورد فهرستی از نام نماهایی که در آن‌ها ظاهر می‌شود خواهد داشت.
+
+[importer.airtable-api.msg-token-first]
+original=Please enter your Airtable personal access token first.
+translation=لطفاً ابتدا توکن دسترسی شخصی Airtable خود را وارد کنید.
+
+[importer.airtable-api.msg-token-missing]
+original=Please enter your Airtable personal access token.
+translation=لطفاً توکن دسترسی شخصی Airtable خود را وارد کنید.
+
+[importer.airtable-api.msg-load-bases-failed]
+original=Failed to load bases: {{error}}
+translation=بارگیری پایگاه‌ها ناموفق بود: {{error}}
+
+[importer.airtable-api.msg-load-tables-failed]
+original=Failed to load tables for "{{base}}": {{error}}
+translation=بارگیری جدول‌ها برای «{{base}}» ناموفق بود: {{error}}
+
+[importer.airtable-api.msg-pick-table]
+original=Please select at least one table to import.
+translation=لطفاً حداقل یک جدول برای درون‌ریزی انتخاب کنید.
+
+[importer.airtable-api.msg-loading-fields]
+original=Loading fields...
+translation=در حال بارگیری فیلدها...
+
+[importer.airtable-api.msg-no-fields]
+original=No fields found in selected tables. Please check your selection.
+translation=هیچ فیلدی در جدول‌های انتخاب‌شده یافت نشد. لطفاً انتخاب خود را بررسی کنید.
+
+[importer.airtable-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=درون‌ریزی ناموفق بود: {{error}}
+
+[importer.airtable-api.label-base-position]
+original= (base {{index}} of {{total}})
+translation= (پایگاه {{index}} از {{total}})
+
+[importer.airtable-api.label-base]
+original=Base: {{name}}
+translation=پایگاه: {{name}}
+
+[importer.airtable-api.label-linked-table]
+original=Linked table: {{name}}
+translation=جدول مرتبط: {{name}}
+
+[importer.airtable-api.label-table-view]
+original={{table}} > {{view}}
+translation={{table}} > {{view}}
+
+[importer.airtable-api.label-import]
+original=Airtable API import
+translation=درون‌ریزی از Airtable API
+
+[importer.airtable-api.status-connecting]
+original=Connecting to Airtable API
+translation=در حال اتصال به Airtable API
+
+[importer.airtable-api.status-loading-tables]
+original=Loading tables for {{base}}
+translation=در حال بارگیری جدول‌ها برای {{base}}
+
+[importer.airtable-api.status-fetching-tables]
+original=Fetching tables for base {{base}}...
+translation=در حال دریافت جدول‌ها برای پایگاه {{base}}...
+
+[importer.airtable-api.status-found-bases]
+original=Found {{bases}} to import
+translation={{bases}} برای درون‌ریزی یافت شد
+
+[importer.airtable-api.status-fetching-base]
+original=Fetching data from {{base}}{{position}}
+translation=در حال دریافت داده‌ها از {{base}}{{position}}
+
+[importer.airtable-api.status-preparing-records]
+original=Preparing records from {{base}}{{position}}
+translation=در حال آماده‌سازی رکوردها از {{base}}{{position}}
+
+[importer.airtable-api.status-reading-names]
+original=Reading names from {{table}}{{position}}
+translation=در حال خواندن نام‌ها از {{table}}{{position}}
+
+[importer.airtable-api.status-planning]
+original=Working out where {{table}}{{position}} goes
+translation=در حال تعیین جایی که {{table}}{{position}} قرار می‌گیرد
+
+[importer.airtable-api.status-fetching-records]
+original=Fetching records from {{table}}{{position}}
+translation=در حال دریافت رکوردها از {{table}}{{position}}
+
+[importer.airtable-api.status-fetched-records]
+original=Fetched {{records}} from {{table}}{{position}}
+translation={{records}} از {{table}}{{position}} دریافت شد
+
+[importer.airtable-api.status-fetching-view]
+original=Fetching view {{view}} from {{table}}{{position}}
+translation=در حال دریافت مشاهده {{view}} از {{table}}{{position}}
+
+[importer.airtable-api.status-creating-notes]
+original=Creating notes in {{table}}{{position}}
+translation=در حال ایجاد یادداشت‌ها در {{table}}{{position}}
+
+[importer.airtable-api.status-updating-types]
+original=Updating property types
+translation=در حال به‌روزرسانی انواع ویژگی‌ها
+
+[importer.airtable-api.status-complete]
+original=Import complete
+translation=درون‌ریزی کامل شد
+
+[importer.airtable-api.status-rate-limited]
+original=Rate limited, waiting {{seconds}}s (attempt {{attempt}}/{{total}})...
+translation=محدودیت نرخ، {{seconds}} ثانیه صبر کنید (تلاش {{attempt}}/{{total}})...
+
+[importer.airtable-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}
+translation=در حال دانلود پیوست: {{name}}
+
+[importer.airtable-api.reason-no-record-names]
+original=Could not read record names
+translation=خواندن نام رکوردها امکان‌پذیر نبود
+
+[importer.airtable-api.reason-empty-record]
+original=Empty record
+translation=رکورد خالی
+
+[importer.airtable-api.desc-no-modified-time]
+original=Airtable does not say when a record last changed, so "{{update}}" compares the note with the record instead. A note you have edited yourself reads as changed, and will be written over.
+translation=Airtable زمان آخرین تغییرات رکورد را اعلام نمی‌کند، بنابراین «{{update}}» یادداشت را با رکورد مقایسه می‌کند. یادداشتی که خودتان ویرایش کرده‌اید به‌عنوان تغییریافته شناسایی و بازنویسی خواهد شد.
+
+[importer.apple-notes.name]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.option-text]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.label-id]
+original=Apple Notes ID
+translation=شناسه Apple Notes
+
+[importer.apple-notes.msg-platform]
+original=Due to platform limitations, Apple Notes cannot be exported from this device. Open your vault on a Mac to export from Apple Notes.
+translation=به دلیل محدودیت‌های پلتفرم، امکان خروجی‌گرفتن از Apple Notes در این دستگاه وجود ندارد. گاوصندوق خود را روی Mac باز کنید تا از Apple Notes خروجی بگیرید.
+
+[importer.apple-notes.name-prefix-format]
+original=File prefix format
+translation=قالب‌بندی پیشوند فایل
+
+[importer.apple-notes.desc-prefix-format]
+original=Format for the creation date prefix in filenames. Use YYYY, MM, DD for year, month, day. Leave blank for no prefix.
+translation=قالب‌بندی پیشوند تاریخ ایجاد در نام فایل‌ها. از YYYY، MM، DD برای سال، ماه و روز استفاده کنید. برای بدون پیشوند، خالی بگذارید.
+
+[importer.apple-notes.name-omit-first-line]
+original=Omit first line
+translation=حذف خط اول
+
+[importer.apple-notes.desc-omit-first-line]
+original=Don't include the first line in the text, since Apple Notes uses it as the title. It will still be used as the note name.
+translation=خط اول را در متن قرار ندهید، زیرا Apple Notes از آن به‌عنوان عنوان استفاده می‌کند. همچنان به‌عنوان نام یادداشت استفاده خواهد شد.
+
+[importer.apple-notes.name-handwriting]
+original=Include handwriting text
+translation=شامل‌کردن متن دست‌نویس
+
+[importer.apple-notes.desc-handwriting]
+original=When Apple Notes has detected handwriting in drawings, include it as text before the drawing.
+translation=هنگامی که Apple Notes دست‌نویس را در نقاشی‌ها تشخیص داده، آن را به‌عنوان متن قبل از نقاشی قرار دهید.
+
+[importer.apple-notes.name-data-folder]
+original=Apple Notes data folder
+translation=پوشه داده‌های Apple Notes
+
+[importer.apple-notes.desc-data-folder]
+original=macOS only lets Obsidian read your notes once you have pointed it at the folder they are kept in.
+translation=macOS تنها زمانی به Obsidian اجازه خواندن یادداشت‌هایتان را می‌دهد که پوشه نگهداری آن‌ها را مشخص کرده باشید.
+
+[importer.apple-notes.button-select-folder]
+original=Select folder
+translation=انتخاب پوشه
+
+[importer.apple-notes.msg-wrong-folder]
+original=Ensure you have selected the correct Apple Notes data folder.
+translation=مطمئن شوید پوشه داده‌های صحیح Apple Notes را انتخاب کرده‌اید.
+
+[importer.apple-notes.msg-dialog-folder]
+original=Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data.
+translation=پوشه «group.com.apple.notes» را انتخاب کنید تا به Obsidian اجازه خواندن داده‌های Apple Notes داده شود.
+
+[importer.apple-notes.msg-import-failed]
+original=Data import failed. Ensure you have selected the correct Apple Notes data folder.
+translation=وارد کردن داده‌ها ناموفق بود. مطمئن شوید پوشه داده‌های صحیح Apple Notes را انتخاب کرده‌اید.
+
+[importer.apple-notes.msg-pick-folders]
+original=Please select at least one folder to import.
+translation=لطفاً حداقل یک پوشه برای وارد کردن انتخاب کنید.
+
+[importer.apple-notes.name-folders]
+original=Folders to import
+translation=پوشه‌ها برای وارد کردن
+
+[importer.apple-notes.desc-folders]
+original=Pick the folders whose notes to bring across.
+translation=پوشه‌هایی را که می‌خواهید یادداشت‌هایشان وارد شوند انتخاب کنید.
+
+[importer.apple-notes.msg-no-access]
+original=Allow access to your notes to see the folders in them.
+translation=برای مشاهده پوشه‌ها، دسترسی به یادداشت‌هایتان را اجازه دهید.
+
+[importer.apple-notes.msg-no-folders]
+original=No folders found.
+translation=هیچ پوشه‌ای یافت نشد.
+
+[importer.apple-notes.msg-database-busy]
+original=Your Apple Notes database is in use. Quit Notes and try again.
+translation=پایگاه داده Apple Notes در حال استفاده است. اپلیکیشن Notes را ببندید و دوباره تلاش کنید.
+
+[importer.apple-notes.msg-database-unreadable]
+original=Could not open your Apple Notes database. {{hint}}
+translation=پایگاه داده Apple Notes باز نشد. {{hint}}
+
+[importer.apple-notes.msg-read-failed-with-detail]
+original=Could not read your notes: {{detail}}
+translation=یادداشت‌هایتان خوانده نشد: {{detail}}
+
+[importer.apple-notes.msg-read-failed]
+original=Could not read your notes.
+translation=یادداشت‌هایتان خوانده نشد.
+
+[importer.apple-notes.reason-password-protected]
+original=note is password protected
+translation=یادداشت با گذرواژه محافظت شده است
+
+[importer.apple-notes.reason-duplicate]
+original=note is a duplicate
+translation=یادداشت تکثیر شده است
+
+[importer.apple-notes.reason-unchanged]
+original=note unchanged since last import
+translation=یادداشت از آخرین وارد کردن تغییر نکرده است
+
+[importer.apple-notes.reason-attachment-exists]
+original=attachment already exists
+translation=پیوست از قبل موجود است
+
+[importer.apple-notes.reason-attachment-unchanged]
+original=attachment unchanged since last import
+translation=پیوست از آخرین وارد کردن تغییر نکرده است
+
+[importer.apple-notes.reason-not-downloaded]
+original=it has not been downloaded from iCloud - open the note in Apple Notes to fetch it
+translation=از iCloud دانلود نشده است - یادداشت را در Apple Notes باز کنید تا دریافت شود
+
+[importer.apple-notes.label-attachment]
+original=Attachment {{id}}
+translation=پیوست {{id}}
+
+[importer.apple-notes.reason-no-attachment-row]
+original=no {{uti}} row to read it from
+translation=ردیف {{uti}} برای خواندن آن وجود ندارد
+
+[importer.apple-notes.label-attachment-in-note]
+original={{name}} in {{note}}
+translation={{name}} در {{note}}
+
+[importer.apple-journal.name]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.option-text]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.file-type]
+original=Journal entries
+translation=نوشته‌های Journal
+
+[importer.apple-journal.desc-files]
+original=Export your entries from the Journal app, then pick the HTML files it wrote to iCloud Drive.
+translation=ورودی‌های خود را از اپلیکیشن Journal app صادر کنید، سپس فایل‌های HTML نوشته‌شده در iCloud Drive را انتخاب کنید.
+
+[importer.apple-journal.heading-metadata]
+original=Journal metadata
+translation=فراداده Journal
+
+[importer.apple-journal.name-front-matter]
+original=Add metadata as frontmatter
+translation=افزودن فراداده به‌عنوان فرادادهٔ ابتدای فایل
+
+[importer.apple-journal.desc-front-matter]
+original=Capture state-of-mind, contact, and similar tokens in YAML when available.
+translation=در صورت وجود، حالت ذهنی، مخاطب و نشانه‌های مشابه را در YAML ثبت کنید.
+
+[importer.apple-journal.reason-index-file]
+original=index file is not a journal entry
+translation=فایل فهرست یک نوشته Journal نیست
+
+[importer.bear.name]
+original=Bear
+translation=Bear
+
+[importer.bear.option-text]
+original=Bear (.bear2bk, .zip)
+translation=Bear (.bear2bk, .zip)
+
+[importer.bear.file-type]
+original=Bear backups
+translation=پشتیبان‌های Bear
+
+[importer.bear.label-id]
+original=Bear ID
+translation=شناسه Bear
+
+[importer.bear.desc-export]
+original=Back up your notes in Bear and choose the resulting .bear2bk file. On iPhone and iPad, you can also export Application Data and choose its .zip file.
+translation=از یادداشت‌های خود در Bear پشتیبان بگیرید و فایل .bear2bk حاصل را انتخاب کنید. در iPhone و iPad، همچنین می‌توانید Application Data را خروجی بگیرید و فایل .zip آن را انتخاب کنید.
+
+[importer.bear.name-tags-property]
+original=Move tags to a property
+translation=انتقال برچسب‌ها به یک ویژگی
+
+[importer.bear.desc-tags-property]
+original=When enabled, tags are taken out of the note and listed in its tags property. Bear keeps tags in the text of a note, and Obsidian reads them there too.
+translation=وقتی فعال باشد، برچسب‌ها از یادداشت حذف شده و در ویژگی برچسب‌ها فهرست می‌شوند. Bear برچسب‌ها را در متن یادداشت نگه می‌دارد و Obsidian نیز آن‌ها را از همان‌جا می‌خواند.
+
+[importer.bear.name-flatten-tags]
+original=Flatten nested tags
+translation=مسطح کردن برچسب‌های تودرتو
+
+[importer.bear.desc-flatten-tags]
+original=When enabled, tags will be split on slashes (/) during import.
+translation=وقتی فعال باشد، برچسب‌ها هنگام وارد کردن از روی اسلش (/) جدا می‌شوند.
+
+[importer.bear.status-importing-asset]
+original=Importing asset {{name}}
+translation=در حال وارد کردن دارایی {{name}}
+
+[importer.bear.status-updating-links]
+original=Updating internal links…
+translation=به‌روزرسانی پیوندهای داخلی…
+
+[importer.bear.reason-unknown-type]
+original=unknown type of file
+translation=نوع نامعلوم فایل
+
+[importer.bear.reason-encrypted]
+original=encrypted note
+translation=یادداشت رمزگذاری‌شده
+
+[importer.bear.reason-missing-attachment]
+original=the attachment is missing from the export
+translation=پیوست در خروجی موجود نیست
+
+[importer.csv.name]
+original=CSV
+translation=CSV
+
+[importer.csv.option-text]
+original=CSV (.csv)
+translation=CSV (.csv)
+
+[importer.csv.file-type]
+original=CSV
+translation=CSV
+
+[importer.csv.desc-export]
+original=Export your table as CSV from the app it lives in, such as Excel, Google Sheets, Numbers, Notion, or Airtable.
+translation=جدول خود را به صورت CSV از اپلیکیشنی که در آن قرار دارد صادر کنید، مانند Excel، Google Sheets، Numbers، Notion یا Airtable.
+
+[importer.csv.name-header-row]
+original=CSV has header row
+translation=CSV دارای ردیف سرستون است
+
+[importer.csv.desc-header-row]
+original=If enabled, the first row of the CSV file will be treated as column headers.
+translation=اگر فعال باشد، ردیف اول فایل CSV به‌عنوان سرستون‌ها در نظر گرفته می‌شود.
+
+[importer.csv.name-source-title]
+original=Source title
+translation=عنوان منبع
+
+[importer.csv.desc-source-title]
+original=Creates the {{title}} value used by the final note title template. Use CSV column variables like {{column_name}}.
+translation=مقدار {{title}} مورد استفاده در الگوی نهایی نام‌گذاری پرونده را ایجاد می‌کند. از متغیرهای ستون CSV مانند {{column_name}} استفاده کنید.
+
+[importer.csv.msg-pick-file]
+original=Please pick at least one CSV file to import.
+translation=لطفاً حداقل یک فایل CSV برای واردکردن انتخاب کنید.
+
+[importer.csv.msg-one-at-a-time]
+original=CSV files must be imported one at a time.
+translation=فایل‌های CSV باید یکی‌یکی وارد شوند.
+
+[importer.csv.msg-no-data]
+original=No data found in {{name}}.
+translation=داده‌ای در {{name}} یافت نشد.
+
+[importer.csv.msg-no-configuration]
+original=Configuration is missing.
+translation=پیکربندی موجود نیست.
+
+[importer.csv.status-parsing]
+original=Parsing {{name}}
+translation=تجزیه {{name}}
+
+[importer.csv.status-creating-note]
+original=Creating note: {{title}}
+translation=ایجاد یادداشت: {{title}}
+
+[importer.csv.label-row]
+original=Row {{number}}
+translation=ردیف {{number}}
+
+[importer.csv.reason-empty-title]
+original=Empty title
+translation=عنوان خالی
+
+[importer.files.name]
+original=Files and folders
+translation=پرونده‌ها و پوشه‌ها
+
+[importer.files.option-text]
+original=Copy files and folders into your vault
+translation=پرونده‌ها و پوشه‌ها را در گاوصندوق خود کپی کنید
+
+[importer.files.name-source]
+original=Files to copy
+translation=پرونده‌ها برای کپی
+
+[importer.files.desc-source]
+original=Drop files or folders anywhere in the window to copy them into your vault.
+translation=پرونده‌ها یا پوشه‌ها را در هر جای پنجره رها کنید تا در گاوصندوق شما کپی شوند.
+
+[importer.evernote.name]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.option-text]
+original=Evernote (.enex)
+translation=Evernote (.enex)
+
+[importer.evernote.file-type]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.desc-export]
+original=Export your notebooks in ENEX format, you will receive one .enex file per notebook.
+translation=دفترچه‌های خود را در قالب ENEX خروجی بگیرید؛ برای هر دفترچه یک فایل .enex دریافت خواهید کرد.
+
+[importer.evernote.msg-unresolved-links]
+original={{count}} link could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation=پیوند {{count}} با هیچ یادداشتی مطابقت نداشت. خروجی ENEX مشخص نمی‌کند پیوند به کدام یادداشت اشاره دارد، فقط عنوانی که در Evernote نمایش داده شده را دارد؛ بنابراین اگر یادداشتی پس از ایجاد پیوند تغییر نام داده باشد، دیگر قابل تطبیق نیست. Obsidian این موارد را در بخش پیوندهای حل‌نشده فهرست می‌کند.
+
+[importer.evernote.msg-unresolved-links_plural]
+original={{count}} links could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation=پیوند {{count}} با هیچ یادداشتی مطابقت نداشت. خروجی ENEX مشخص نمی‌کند پیوند به کدام یادداشت اشاره دارد، فقط عنوانی که در Evernote نمایش داده شده را دارد؛ بنابراین اگر یادداشتی پس از ایجاد پیوند تغییر نام داده باشد، دیگر قابل تطبیق نیست. Obsidian این موارد را در بخش پیوندهای حل‌نشده فهرست می‌کند.
+
+[importer.keep.name]
+original=Google Keep
+translation=Google Keep
+
+[importer.keep.option-text]
+original=Google Keep (.zip, .json)
+translation=Google Keep (.zip, .json)
+
+[importer.keep.file-type]
+original=Notes & attachments
+translation=یادداشت‌ها و پیوست‌ها
+
+[importer.keep.desc-export]
+original=Get your Google Keep data from Google Takeout.
+translation=داده‌های Google Keep خود را از Google Takeout دریافت کنید.
+
+[importer.keep.name-archived]
+original=Import archived notes
+translation=واردکردن یادداشت‌های بایگانی‌شده
+
+[importer.keep.desc-archived]
+original=If imported, files archived in Google Keep will be tagged as archived.
+translation=در صورت واردکردن، فایل‌های بایگانی‌شده در Google Keep با برچسب بایگانی‌شده علامت‌گذاری می‌شوند.
+
+[importer.keep.name-deleted]
+original=Import deleted notes
+translation=واردکردن یادداشت‌های حذف‌شده
+
+[importer.keep.desc-deleted]
+original=If imported, files deleted in Google Keep will be tagged as deleted. Deleted notes will only exist in your Google export if deleted recently.
+translation=در صورت واردکردن، فایل‌های حذف‌شده در Google Keep با برچسب حذف‌شده علامت‌گذاری می‌شوند. یادداشت‌های حذف‌شده فقط در صورتی در خروجی Google وجود دارند که اخیراً حذف شده باشند.
+
+[importer.keep.reason-invalid-json]
+original=Invalid Google Keep JSON
+translation=JSON نامعتبر Google Keep
+
+[importer.keep.reason-archived]
+original=Archived note
+translation=یادداشت بایگانی‌شده
+
+[importer.keep.reason-deleted]
+original=Deleted note
+translation=یادداشت حذف‌شده
+
+[importer.html.name]
+original=HTML files
+translation=فایل‌های HTML
+
+[importer.html.option-text]
+original=HTML (.html, .zip)
+translation=HTML (.html, .zip)
+
+[importer.html.label-id]
+original=HTML source path
+translation=مسیر منبع HTML
+
+[importer.html.desc-source-identity]
+original=Changing which folder or zip file you choose can change the source path, so existing notes may not be recognized.
+translation=تغییر پوشه یا فایل zip انتخاب‌شده می‌تواند مسیر منبع را تغییر دهد، بنابراین یادداشت‌های موجود ممکن است شناسایی نشوند.
+
+[importer.html.file-type]
+original=HTML
+translation=HTML
+
+[importer.html.desc-export]
+original=Save the pages you want to keep as HTML. If the app they are in has an importer of its own, use that instead: it keeps more of your data.
+translation=صفحاتی را که می‌خواهید نگه دارید به صورت HTML ذخیره کنید. اگر اپلیکیشنی که در آن هستند واردکننده مخصوص خود را دارد، از آن استفاده کنید: اطلاعات بیشتری را حفظ می‌کند.
+
+[importer.html.desc-source]
+original=Choose individual HTML files, whole folders, or zip files. Pages in folders stay organized the same way.
+translation=فایل‌های HTML تکی، پوشه‌های کامل یا فایل‌های zip را انتخاب کنید. صفحات داخل پوشه‌ها با همان ساختار سازمان‌دهی باقی می‌مانند.
+
+[importer.html.name-extract-main-content]
+original=Extract main content
+translation=استخراج محتوای اصلی
+
+[importer.html.desc-extract-main-content]
+original=Remove navigation, sidebars, footers, and other page clutter.
+translation=حذف ناوبری، نوارهای کناری، پاورقی‌ها و دیگر عناصر اضافی صفحه.
+
+[importer.html.name-size-limit]
+original=Attachment size limit (MB)
+translation=حداکثر حجم پیوست (MB)
+
+[importer.html.name-minimum-image-size]
+original=Minimum image size (px)
+translation=حداقل اندازه تصویر (px)
+
+[importer.html.desc-set-zero-to-disable]
+original=Set 0 to disable.
+translation=برای غیرفعال کردن، ۰ را وارد کنید.
+
+[importer.html.status-downloading]
+original=Downloading attachment for {{name}}
+translation=دانلود پیوست برای {{name}}
+
+[importer.markdown.name]
+original=Markdown
+translation=Markdown
+
+[importer.markdown.option-text]
+original=Markdown (.md, .txt, .zip)
+translation=Markdown (.md, .txt, .zip)
+
+[importer.markdown.file-type]
+original=Markdown and text
+translation=Markdown و متن
+
+[importer.markdown.desc-source]
+original=Choose individual Markdown or text files, whole folders, or zip files. Everything in folders stays organized the same way.
+translation=پرونده‌های Markdown یا متن، پوشه‌های کامل یا فایل‌های zip را انتخاب کنید. همه چیز در پوشه‌ها به همان شکل سازماندهی شده باقی می‌ماند.
+
+[importer.markdown.name-standardize-formatting]
+original=Standardize formatting
+translation=یکسان‌سازی قالب‌بندی
+
+[importer.markdown.desc-standardize-formatting]
+original=Use this vault's settings for lists, indentation, and links.
+translation=از تنظیمات این گاوصندوق برای فهرست‌ها، تورفتگی و پیوندها استفاده شود.
+
+[importer.markdown.name-tags-as-properties]
+original=Convert inline tags to properties
+translation=تبدیل برچسب‌های درون‌متنی به ویژگی‌ها
+
+[importer.markdown.desc-tags-as-properties]
+original=Move tags written in the body of a note into its tags property.
+translation=برچسب‌های نوشته‌شده در تنه یادداشت را به ویژگی برچسب‌ها منتقل کنید.
+
+[importer.logseq.name]
+original=Logseq
+translation=Logseq
+
+[importer.logseq.option-text]
+original=Logseq (.md)
+translation=Logseq (.md)
+
+[importer.logseq.label-id]
+original=Logseq source
+translation=منبع Logseq
+
+[importer.logseq.desc-instructions]
+original=Read the instructions for importing from Logseq.
+translation=دستورالعمل‌های واردکردن از Logseq را بخوانید.
+
+[importer.logseq.desc-files]
+original=Choose one graph folder containing pages, journals, and assets.
+translation=یک پوشه گراف شامل صفحات، ژورنال‌ها و فایل‌های پیوست را انتخاب کنید.
+
+[importer.logseq.name-use-daily-notes]
+original=Use daily notes settings
+translation=استفاده از تنظیمات روزنوشت‌ها
+
+[importer.logseq.desc-use-daily-notes]
+original=Write journals to the configured daily notes folder and filename format.
+translation=ژورنال‌ها در پوشه و قالب‌بندی نام فایل پیکربندی‌شده روزنوشت‌ها نوشته می‌شوند.
+
+[importer.logseq.name-queries]
+original=Keep queries
+translation=حفظ عبارت‌های جست‌وجو
+
+[importer.logseq.desc-queries]
+original=Obsidian doesn't support Logseq's query format, so queries are imported as code blocks.
+translation=Obsidian از قالب عبارت جست‌وجوی Logseq پشتیبانی نمی‌کند، بنابراین عبارت‌های جست‌وجو به‌صورت بلوک‌های کد وارد می‌شوند.
+
+[importer.logseq.name-flashcards]
+original=Keep flashcards
+translation=حفظ فلش‌کارت‌ها
+
+[importer.logseq.desc-flashcards]
+original=Obsidian doesn't support Logseq's flashcards, so card markers and cloze wrappers are imported as plain text.
+translation=Obsidian از فلش‌کارت‌های Logseq پشتیبانی نمی‌کند، بنابراین نشانگرهای کارت و پوشش‌های cloze به‌صورت متن ساده وارد می‌شوند.
+
+[importer.logseq.name-time-tracking]
+original=Keep time tracking
+translation=حفظ ردیابی زمان
+
+[importer.logseq.desc-time-tracking]
+original=Obsidian doesn't support Logseq's time tracking, so LOGBOOK and CLOCK entries are imported as plain text.
+translation=Obsidian از ردیابی زمان Logseq پشتیبانی نمی‌کند، بنابراین ورودی‌های LOGBOOK و CLOCK به‌صورت متن ساده وارد می‌شوند.
+
+[importer.logseq.msg-pick-graph]
+original=Please choose one Logseq graph folder.
+translation=لطفاً یک پوشه گراف Logseq انتخاب کنید.
+
+[importer.logseq.msg-no-notes]
+original=The selected folder has no Markdown notes under pages or journals.
+translation=پوشه انتخاب‌شده هیچ یادداشت Markdown در pages یا journals ندارد.
+
+[importer.logseq.reason-empty-page]
+original=The converted page is empty
+translation=صفحه تبدیل‌شده خالی است
+
+[importer.logseq.reason-missing-asset]
+original=Referenced by {{name}}, but missing from the graph
+translation=توسط {{name}} ارجاع شده، اما در گراف موجود نیست
+
+[importer.logseq.reason-whiteboards]
+original=Logseq whiteboards are not supported by Obsidian
+translation=تخته‌سفیدهای Logseq توسط Obsidian پشتیبانی نمی‌شوند
+
+[importer.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.option-text]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.method-name]
+original=Microsoft account
+translation=حساب Microsoft
+
+[importer.onenote.method-desc]
+original=Sign into your Microsoft account and import the notebooks that are synced to OneDrive. Requires an internet connection.
+translation=وارد حساب Microsoft خود شوید و دفترچه‌هایی که با OneDrive همگام‌سازی شده‌اند را وارد کنید. نیاز به اتصال اینترنت دارد.
+
+[importer.onenote.label-id]
+original=OneNote ID
+translation=شناسه OneNote
+
+[importer.onenote.name-incompatible]
+original=Import incompatible attachments
+translation=وارد کردن پیوست‌های ناسازگار
+
+[importer.onenote.desc-incompatible]
+original=Imports incompatible attachments which cannot be embedded in Obsidian, such as .exe files.
+translation=پیوست‌های ناسازگاری را که نمی‌توان در Obsidian جاسازی کرد (مانند فایل‌های .exe) وارد می‌کند.
+
+[importer.onenote.name-account]
+original=Microsoft account
+translation=حساب Microsoft
+
+[importer.onenote.desc-sign-in]
+original=Sign in to import your OneNote notebooks.
+translation=برای وارد کردن دفترچه‌های OneNote خود ورود کنید.
+
+[importer.onenote.desc-sign-in-organization]
+original=Sign in to import your OneNote notebooks. A work or school account may need your organization to approve access.
+translation=برای وارد کردن دفترچه‌های OneNote خود ورود کنید. حساب کاری یا مدرسه‌ای ممکن است نیاز به تأیید دسترسی توسط سازمان شما داشته باشد.
+
+[importer.onenote.desc-signed-in]
+original=Signed in as {{name}} ({{email}}).
+translation=وارد شده به عنوان {{name}} ({{email}}).
+
+[importer.onenote.button-sign-in]
+original=Sign in
+translation=ورود
+
+[importer.onenote.button-sign-out]
+original=Sign out
+translation=خروج
+
+[importer.onenote.button-work-account]
+original=Use work or school access
+translation=استفاده از دسترسی کاری یا مدرسه‌ای
+
+[importer.onenote.msg-sign-in-failed]
+original=An error occurred while trying to sign you in.
+translation=هنگام ورود خطایی رخ داد.
+
+[importer.onenote.msg-sign-in-details]
+original=Show error details
+translation=نمایش جزئیات خطا
+
+[importer.onenote.msg-signed-out]
+original=Sign in to see your OneNote notebooks.
+translation=برای مشاهده دفترچه‌های OneNote خود ورود کنید.
+
+[importer.onenote.msg-please-sign-in]
+original=Please sign in to your Microsoft account.
+translation=لطفاً وارد حساب Microsoft خود شوید.
+
+[importer.onenote.name-sections]
+original=Sections to import
+translation=بخش‌ها برای وارد کردن
+
+[importer.onenote.desc-sections]
+original=Select a notebook, or sections within it.
+translation=یک دفترچه یا بخش‌هایی از آن را انتخاب کنید.
+
+[importer.onenote.msg-loading-notebooks]
+original=Loading notebooks...
+translation=در حال بارگیری دفترچه‌ها...
+
+[importer.onenote.msg-no-notebooks]
+original=No notebooks found.
+translation=هیچ دفترچه‌ای یافت نشد.
+
+[importer.onenote.msg-scope-refused]
+original=OneNote did not grant this sign-in access to your notebooks. Sign out and sign in again to ask for work or school access, which your organization may need to approve.
+translation=OneNote دسترسی به دفترچه‌های شما را به این ورود اعطا نکرد. خارج شوید و دوباره ورود کنید تا دسترسی کاری یا مدرسه‌ای درخواست شود، که ممکن است سازمان شما نیاز به تأیید آن داشته باشد.
+
+[importer.onenote.label-service]
+original=OneNote
+translation=OneNote
+
+[importer.onenote.label-subject]
+original=your notebooks
+translation=دفترچه‌های شما
+
+[importer.onenote.label-credential]
+original=Sign out and back in to try again.
+translation=خارج شوید و دوباره ورود کنید تا مجدداً تلاش کنید.
+
+[importer.onenote.status-finding]
+original=Finding notes to import
+translation=یافتن یادداشت‌ها برای وارد کردن
+
+[importer.onenote.status-finding-in]
+original=Finding notes in {{section}}
+translation=یافتن یادداشت‌ها در {{section}}
+
+[importer.onenote.status-finding-in-section]
+original=Finding notes in {{section}} (section {{index}} of {{total}})
+translation=یافتن یادداشت‌ها در {{section}} (بخش {{index}} از {{total}})
+
+[importer.onenote.status-importing-notes]
+original=Importing {{notes}}
+translation=وارد کردن {{notes}}
+
+[importer.onenote.status-downloading]
+original=Downloading attachment {{name}}
+translation=بارگیری پیوست {{name}}
+
+[importer.onenote.msg-too-many-errors]
+original=Microsoft OneNote returned too many consecutive errors.
+translation=Microsoft OneNote تعداد زیادی خطای متوالی بازگرداند.
+
+[importer.onenote.label-unknown-page]
+original=<unknown>
+translation=<نامعلوم>
+
+[importer.onenote.reason-too-many-failures]
+original=import was canceled (after too many pages failed to load)
+translation=وارد کردن لغو شد (پس از ناموفق بودن بارگیری صفحات بسیار زیاد)
+
+[importer.onenote.label-ink]
+original={{page}} - Ink.svg
+translation={{page}} - Ink.svg
+
+[importer.onenote.label-attachment]
+original=OneNote attachment
+translation=پیوست OneNote
+
+[importer.onenote.label-image]
+original=OneNote image
+translation=تصویر OneNote
+
+[importer.onenote.reason-no-attachment-name]
+original=the attachment did not say what it was called
+translation=پیوست نام خود را مشخص نکرده بود
+
+[importer.onenote.reason-no-attachment-url]
+original=the attachment did not include a download URL
+translation=پیوست شامل URL بارگیری نبود
+
+[importer.onenote.reason-no-image-url]
+original=the image did not include a download URL
+translation=تصویر شامل URL بارگیری نبود
+
+[importer.onenote-file.name]
+original=Microsoft OneNote (export file)
+translation=Microsoft OneNote (فایل خروجی)
+
+[importer.onenote-file.option-text]
+original=Microsoft OneNote (.one, .onepkg)
+translation=Microsoft OneNote (.one, .onepkg)
+
+[importer.onenote-file.method-name]
+original=File import
+translation=وارد کردن از فایل
+
+[importer.onenote-file.method-desc]
+original=Import using OneNote export files (.one, .onepkg) from your computer. Requires no account or internet connection, and works for notebooks that were never synced.
+translation=وارد کردن با استفاده از فایل‌های خروجی OneNote (.one، .onepkg) از رایانه شما. نیازی به حساب یا اتصال اینترنتی ندارد و برای دفترچه‌هایی که هرگز همگام‌سازی شده نبوده‌اند نیز کار می‌کند.
+
+[importer.onenote-file.file-type]
+original=OneNote export
+translation=خروجی OneNote
+
+[importer.onenote-file.label-id]
+original=OneNote ID
+translation=شناسه OneNote
+
+[importer.onenote-file.desc-backup-folder]
+original=OneNote for Windows keeps its own backups, and this opens there. Pick the notebooks or sections you want.
+translation=OneNote برای Windows پشتیبان‌های خود را نگه می‌دارد و این گزینه آنجا باز می‌شود. دفترچه‌ها یا بخش‌های مورد نظرتان را انتخاب کنید.
+
+[importer.onenote-file.desc-export]
+original=In OneNote for Windows, right-click a notebook and export it to save a .onepkg file, or export a single section as .one.
+translation=در OneNote برای Windows، روی یک دفترچه راست‌کلیک کرده و آن را خروجی بگیرید تا یک فایل .onepkg ذخیره شود، یا یک بخش تکی را به صورت .one خروجی بگیرید.
+
+[importer.onenote-file.name-sections]
+original=Sections to import
+translation=بخش‌ها برای وارد کردن
+
+[importer.onenote-file.desc-sections]
+original=Choose which sections to import.
+translation=بخش‌هایی که می‌خواهید وارد کنید را انتخاب کنید.
+
+[importer.onenote-file.msg-loading-sections]
+original=Reading sections…
+translation=خواندن بخش‌ها…
+
+[importer.onenote-file.msg-no-sections]
+original=No sections found in this file.
+translation=هیچ بخشی در این فایل یافت نشد.
+
+[importer.onenote-file.msg-pick-file-first]
+original=Choose a OneNote file first.
+translation=ابتدا یک فایل OneNote انتخاب کنید.
+
+[importer.onenote-file.status-reading-section]
+original=Reading {{name}}
+translation=خواندن {{name}}
+
+[importer.onenote-file.status-importing-section]
+original=Importing {{name}} ({{index}} of {{total}})
+translation=وارد کردن {{name}} ({{index}} از {{total}})
+
+[importer.onenote-file.reason-rights-protected]
+original=the file is rights-protected, and can only be opened by an account with permission to it
+translation=فایل دارای محافظت حقوقی است و فقط توسط حسابی با دسترسی مجاز قابل بازکردن است
+
+[importer.onenote-file.reason-unsupported]
+original=the file uses a OneNote format this importer cannot read yet
+translation=فایل از قالبی از OneNote استفاده می‌کند که این واردکننده هنوز قادر به خواندن آن نیست
+
+[importer.onenote-file.reason-malformed]
+original=the file does not describe the OneNote structures it claims to
+translation=فایل ساختارهای OneNote را که ادعا می‌کند، به درستی توصیف نمی‌کند
+
+[importer.onenote-file.reason-too-large]
+original=the file is larger than this importer is willing to expand
+translation=فایل بزرگ‌تر از حدی است که این واردکننده حاضر به گستردن آن است
+
+[importer.onenote-file.reason-no-attachment-data]
+original=the attachment held no data
+translation=پیوست هیچ داده‌ای نداشت
+
+[importer.notion-api.name]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.option-text]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.method-name]
+original=Notion account (recommended)
+translation=حساب Notion (پیشنهادی)
+
+[importer.notion-api.method-desc]
+original=Imports your entire workspace, including databases and formulas which are converted to bases. Requires a Notion integration token and an internet connection.
+translation=تمام فضای کاری شما را شامل پایگاه‌های داده و فرمول‌ها که به پایگاه‌ها تبدیل می‌شوند، وارد می‌کند. نیاز به توکن یکپارچه‌سازی Notion و اتصال اینترنتی دارد.
+
+[importer.notion-api.label-id]
+original=Notion ID
+translation=شناسه Notion
+
+[importer.notion-api.name-token]
+original=Notion API token
+translation=توکن API Notion
+
+[importer.notion-api.desc-token]
+original=To get an API token create a connection in Notion and give it access to pages in your workspace.
+translation=برای دریافت توکن API یک اتصال در Notion بسازید و به آن دسترسی به صفحات فضای کاری خود را بدهید.
+
+[importer.notion-api.link-get-token]
+original=Get API token
+translation=دریافت توکن API
+
+[importer.notion-api.name-pages]
+original=Pages to import
+translation=صفحات برای وارد کردن
+
+[importer.notion-api.desc-pages]
+original=Load your Notion pages and databases, then choose what to import. If a page or database is missing, check that your Notion connection has access to it.
+translation=صفحات و پایگاه‌های داده Notion خود را بارگیری کنید، سپس موارد مورد نظر برای واردسازی را انتخاب کنید. اگر صفحه یا پایگاه داده‌ای موجود نیست، بررسی کنید که اتصال Notion شما به آن دسترسی داشته باشد.
+
+[importer.notion-api.hint-pages]
+original=Load your Notion pages and databases to get started.
+translation=برای شروع، صفحات و پایگاه‌های داده Notion خود را بارگیری کنید.
+
+[importer.notion-api.msg-loading-pages]
+original=Loading pages and databases...
+translation=بارگیری صفحات و پایگاه‌های داده...
+
+[importer.notion-api.msg-no-pages]
+original=No pages or databases found. Make sure your connection has access to the pages you want to import.
+translation=هیچ صفحه یا پایگاه داده‌ای یافت نشد. مطمئن شوید اتصال شما به صفحاتی که می‌خواهید وارد کنید دسترسی دارد.
+
+[importer.notion-api.label-service]
+original=Notion
+translation=Notion
+
+[importer.notion-api.label-subject]
+original=your pages
+translation=صفحات شما
+
+[importer.notion-api.label-credential]
+original=Check that your token is current and that the connection has access to them.
+translation=بررسی کنید که توکن شما معتبر است و اتصال به آن‌ها دسترسی دارد.
+
+[importer.notion-api.name-formulas]
+original=Convert formulas
+translation=تبدیل فرمول‌ها
+
+[importer.notion-api.desc-formulas]
+original=By default Notion formulas are converted to Obsidian syntax. If any Notion syntax is not supported the static values will be saved instead. Alternatively you can import all formulas as static values.
+translation=به طور پیش‌فرض فرمول‌های Notion به نحو Obsidian تبدیل می‌شوند. اگر نحوی از Notion پشتیبانی نشود، مقادیر ثابت ذخیره می‌شوند. همچنین می‌توانید همه فرمول‌ها را به صورت مقادیر ثابت وارد کنید.
+
+[importer.notion-api.option-formula-hybrid]
+original=Obsidian syntax
+translation=نحو Obsidian
+
+[importer.notion-api.option-formula-static]
+original=Static values
+translation=مقادیر ثابت
+
+[importer.notion-api.name-download-external]
+original=Download external attachments
+translation=بارگیری پیوست‌های خارجی
+
+[importer.notion-api.desc-download-external]
+original=Download external attachments (external URLs) to local files. Notion-hosted files are always downloaded.
+translation=بارگیری پیوست‌های خارجی (URLهای خارجی) به فایل‌های محلی. فایل‌های میزبانی‌شده در Notion همیشه بارگیری می‌شوند.
+
+[importer.notion-api.name-single-line-breaks]
+original=Single line breaks
+translation=شکست خط تکی
+
+[importer.notion-api.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break instead of two. Some blocks (lists, toggles, tables) will still use double line breaks when required for proper Markdown syntax.
+translation=جداسازی بلوک‌های Notion با تنها یک شکست خط به جای دو. برخی بلوک‌ها (فهرست‌ها، تاگل‌ها، جدول‌ها) همچنان در صورت نیاز برای نحو صحیح Markdown از شکست خط دوتایی استفاده می‌کنند.
+
+[importer.notion-api.name-cover-property]
+original=Cover property name
+translation=نام ویژگی جلد
+
+[importer.notion-api.desc-cover-property]
+original=Property name for page cover image in YAML frontmatter. 
+translation=نام ویژگی برای تصویر جلد صفحه در فرادادهٔ ابتدای فایل YAML. 
+
+[importer.notion-api.desc-cover-property-conflicts]
+original=Leave as "cover" if you don't have conflicts with existing properties.
+translation=اگر تداخلی با ویژگی‌های موجود ندارید، آن را به صورت "cover" باقی بگذارید.
+
+[importer.notion-api.name-database-property]
+original=Database property name
+translation=نام ویژگی پایگاه داده
+
+[importer.notion-api.desc-database-property]
+original=Property name in page frontmatter to link pages to their database .base file (default: "base")
+translation=نام ویژگی در فرادادهٔ ابتدای فایل صفحه برای پیوند صفحات به فایل .base پایگاه داده‌شان (پیش‌فرض: "base")
+
+[importer.notion-api.name-linked-databases]
+original=Import linked databases
+translation=درون‌ریزی پایگاه داده‌های پیوندشده
+
+[importer.notion-api.desc-linked-databases]
+original=Also import databases that the selected pages link to, so relations become links rather than names. This imports pages you did not select.
+translation=پایگاه داده‌هایی که صفحات انتخاب‌شده به آن‌ها پیوند دارند نیز درون‌ریزی شوند، تا روابط به جای نام‌ها به صورت پیوند درآیند. این کار صفحاتی را که انتخاب نکرده‌اید نیز درون‌ریزی می‌کند.
+
+[importer.notion-api.msg-token-first]
+original=Please enter your Notion API token first.
+translation=لطفاً ابتدا توکن API Notion خود را وارد کنید.
+
+[importer.notion-api.msg-token-missing]
+original=Please enter your Notion API token.
+translation=لطفاً توکن API Notion خود را وارد کنید.
+
+[importer.notion-api.msg-load-pages-failed]
+original=Failed to load pages: {{error}}
+translation=بارگذاری صفحات ناموفق بود: {{error}}
+
+[importer.notion-api.msg-pick-page]
+original=Please select at least one page or database to import.
+translation=لطفاً حداقل یک صفحه یا پایگاه داده را برای درون‌ریزی انتخاب کنید.
+
+[importer.notion-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=درون‌ریزی ناموفق بود: {{error}}
+
+[importer.notion-api.status-loading-items]
+original=Loading... ({{items}}, page {{page}})
+translation=در حال بارگذاری... ({{items}}، صفحه {{page}})
+
+[importer.notion-api.status-connecting]
+original=Connecting to Notion API...
+translation=در حال اتصال به API Notion...
+
+[importer.notion-api.status-fetching]
+original=Fetching page content from Notion...
+translation=در حال دریافت محتوای صفحه از Notion...
+
+[importer.notion-api.status-preparing]
+original=Preparing to import {{items}}...
+translation=آماده‌سازی برای درون‌ریزی {{items}}...
+
+[importer.notion-api.status-importing-items]
+original=Importing {{items}}...
+translation=در حال درون‌ریزی {{items}}...
+
+[importer.notion-api.status-importing-item]
+original=Importing item {{index}}/{{total}}...
+translation=در حال درون‌ریزی مورد {{index}}/{{total}}...
+
+[importer.notion-api.status-importing-title]
+original=Importing: {{title}}
+translation=در حال درون‌ریزی: {{title}}
+
+[importer.notion-api.status-relation-links]
+original=Processing relation links...
+translation=پردازش پیوندهای رابطه‌ای...
+
+[importer.notion-api.status-mention-links]
+original=Processing mention links...
+translation=پردازش پیوندهای اشاره...
+
+[importer.notion-api.status-synced-blocks]
+original=Processing synced block child references...
+translation=پردازش ارجاعات فرزند بلوک‌های همگام‌سازی شده...
+
+[importer.notion-api.status-cleaning-ids]
+original=Cleaning up notion-id attributes...
+translation=پاک‌سازی ویژگی‌های notion-id...
+
+[importer.notion-api.status-done]
+original=Import completed successfully!
+translation=درون‌ریزی با موفقیت انجام شد!
+
+[importer.notion-api.status-replacing-relations]
+original=Replacing {{placeholders}}...
+translation=جایگزینی {{placeholders}}...
+
+[importer.notion-api.status-replacing-relation-links]
+original=Replacing relation placeholders with wiki links...
+translation=جایگزینی جای‌نگهدارهای رابطه با پیوندهای ویکی...
+
+[importer.notion-api.status-importing-linked-databases]
+original=Importing {{databases}}...
+translation=در حال درون‌ریزی {{databases}}...
+
+[importer.notion-api.status-importing-unimported]
+original=Importing unimported database {{id}}...
+translation=در حال درون‌ریزی پایگاه داده درون‌ریزی‌نشده {{id}}...
+
+[importer.notion-api.status-replacing-mentions]
+original=Replacing mention placeholders...
+translation=جایگزینی جای‌نگهدارهای اشاره...
+
+[importer.notion-api.status-replaced-mentions]
+original=Replaced {{links}} in {{files}}.
+translation={{links}} پیوند در {{files}} فایل جایگزین شد.
+
+[importer.notion-api.status-replacing-synced]
+original=Replacing synced block child references...
+translation=جایگزینی ارجاعات فرزند بلوک‌های همگام‌سازی شده...
+
+[importer.notion-api.status-replaced-synced]
+original=Replaced {{references}} in {{files}} (imported {{imported}}).
+translation={{references}} ارجاع در {{files}} فایل جایگزین شد ({{imported}} مورد درون‌ریزی شد).
+
+[importer.notion-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}...
+translation=در حال بارگیری پیوست: {{name}}...
+
+[importer.notion-api.status-rate-limited]
+original=Rate limited. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=محدودیت نرخ اعمال شد. {{seconds}} ثانیه تا تلاش مجدد صبر کنید ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying]
+original=Notion returned {{status}}. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=Notion وضعیت {{status}} بازگرداند. {{seconds}} ثانیه تا تلاش مجدد صبر کنید ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying-attachment]
+original={{name}}: {{failure}}. Retrying in {{seconds}} seconds ({{attempt}}/{{total}})...
+translation={{name}}: {{failure}}. تلاش مجدد در {{seconds}} ثانیه ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-processing-data-source]
+original=Processing database from data source: {{id}}...
+translation=پردازش پایگاه داده از منبع داده: {{id}}...
+
+[importer.notion-api.status-processing-database]
+original=Processing database: {{title}}...
+translation=پردازش پایگاه داده: {{title}}...
+
+[importer.notion-api.status-found-pages]
+original=Found {{pages}} in database {{title}}
+translation={{pages}} در پایگاه داده {{title}} یافت شد
+
+[importer.notion-api.status-found-templates]
+original=Found {{templates}} in database {{title}}
+translation={{templates}} در پایگاه داده {{title}} یافت شد
+
+[importer.notion-api.status-importing-template]
+original=Importing template: {{name}}...
+translation=درون‌ریزی قالب: {{name}}...
+
+[importer.notion-api.label-import]
+original=Notion API import
+translation=درون‌ریزی Notion API
+
+[importer.notion-api.label-item]
+original=Import item {{id}}
+translation=درون‌ریزی مورد {{id}}
+
+[importer.notion-api.label-page]
+original=Page {{id}}
+translation=صفحه {{id}}
+
+[importer.notion-api.label-page-with-title]
+original=Page: {{title}} ({{id}})
+translation=صفحه: {{title}} ({{id}})
+
+[importer.notion-api.label-relation-page]
+original=Relation page {{id}}
+translation=صفحه رابطه {{id}}
+
+[importer.notion-api.label-database-with-id]
+original=Database: {{title}} ({{id}})
+translation=پایگاه داده: {{title}} ({{id}})
+
+[importer.notion-api.label-mention-file]
+original=Mention file {{path}}
+translation=فایل اشاره {{path}}
+
+[importer.notion-api.label-synced-block-file]
+original=Synced block file {{path}}
+translation=فایل بلوک همگام‌سازی شده {{path}}
+
+[importer.notion-api.label-attachment]
+original=Attachment: {{name}}
+translation=پیوست: {{name}}
+
+[importer.notion-api.label-child-page]
+original=Child page: {{title}}
+translation=صفحه فرزند: {{title}}
+
+[importer.notion-api.label-synced-block]
+original=Synced block: {{name}}
+translation=بلوک همگام‌سازی شده: {{name}}
+
+[importer.notion-api.label-attachment-image]
+original=Image attachment
+translation=پیوست تصویر
+
+[importer.notion-api.label-attachment-video]
+original=Video attachment
+translation=پیوست ویدئو
+
+[importer.notion-api.label-attachment-audio]
+original=Audio attachment
+translation=پیوست صوتی
+
+[importer.notion-api.label-attachment-file]
+original=File attachment
+translation=پیوست فایل
+
+[importer.notion-api.label-attachment-pdf]
+original=PDF attachment
+translation=پیوست PDF
+
+[importer.notion-api.label-preview-child-page]
+original=Child page
+translation=صفحه فرزند
+
+[importer.notion-api.label-preview-database]
+original=Database
+translation=پایگاه داده
+
+[importer.notion-api.msg-preview-nested-content]
+original=Nested content is not loaded in the preview.
+translation=محتوای تو در تو در پیش‌نمایش بارگذاری نمی‌شود.
+
+[importer.notion-api.msg-preview-content-not-loaded]
+original={{type}} is not loaded in the preview.
+translation={{type}} در پیش‌نمایش بارگذاری نمی‌شود.
+
+[importer.notion-api.msg-preview-content-not-loaded-with-caption]
+original={{type}}: {{caption}} is not loaded in the preview.
+translation={{type}}: {{caption}} در پیش‌نمایش بارگذاری نمی‌شود.
+
+[importer.notion-api.msg-preview-block-not-expanded]
+original={{type}} is not expanded in the preview.
+translation={{type}} در پیش‌نمایش باز نمی‌شود.
+
+[importer.notion-api.label-fetch-children]
+original=Fetch children for {{context}} {{id}}
+translation=دریافت فرزندان برای {{context}} {{id}}
+
+[importer.notion-api.block-paragraph]
+original=paragraph
+translation=بندنوشت
+
+[importer.notion-api.block-bulleted-list-item]
+original=bulleted list item
+translation=آیتم فهرست نقطه‌ای
+
+[importer.notion-api.block-numbered-list-item]
+original=numbered list item
+translation=آیتم فهرست شماره‌دار
+
+[importer.notion-api.block-todo-item]
+original=to-do item
+translation=آیتم کار
+
+[importer.notion-api.block-quote]
+original=quote block
+translation=بلوک نقل‌قول
+
+[importer.notion-api.block-callout]
+original=callout block
+translation=بلوک کال‌اوت
+
+[importer.notion-api.block-toggle]
+original=toggle block
+translation=بلوک تاگل
+
+[importer.notion-api.block-toggleable-heading]
+original=toggleable heading
+translation=سرفصل تاگل‌پذیر
+
+[importer.notion-api.block-column]
+original=column
+translation=ستون
+
+[importer.notion-api.block-column-list]
+original=column list
+translation=فهرست ستون
+
+[importer.notion-api.block-table]
+original=table
+translation=جدول
+
+[importer.notion-api.block-generic]
+original=block
+translation=بلوک
+
+[importer.notion-api.label-meeting-notes]
+original=Meeting notes: {{name}}
+translation=یادداشت‌های جلسه: {{name}}
+
+[importer.notion-api.label-meeting-notes-section]
+original=Meeting notes: {{name}} ({{section}})
+translation=یادداشت‌های جلسه: {{name}} ({{section}})
+
+[importer.notion-api.label-untitled-meeting]
+original=Meeting notes {{id}}
+translation=یادداشت‌های جلسه {{id}}
+
+[importer.notion-api.section-summary]
+original=summary
+translation=خلاصه
+
+[importer.notion-api.section-notes]
+original=notes
+translation=یادداشت‌ها
+
+[importer.notion-api.section-transcript]
+original=transcript
+translation=رونوشت
+
+[importer.notion-api.label-fetch-children-block]
+original=Fetch children for block {{id}}
+translation=دریافت فرزندان بلوک {{id}}
+
+[importer.notion-api.reason-not-in-tree]
+original=Item not found in tree
+translation=مورد در درخت یافت نشد
+
+[importer.notion-api.reason-unknown-type]
+original=Unknown type: {{type}}
+translation=نوع نامعلوم: {{type}}
+
+[importer.notion-api.reason-earlier-import]
+original=an earlier import had already written it
+translation=یک درون‌ریزی قبلی آن را نوشته بود
+
+[importer.notion-api.reason-attachment-exists]
+original={{path}} is already in the vault, the same size (incremental import)
+translation={{path}} از قبل در گاوصندوق موجود است، با همان اندازه (درون‌ریزی تدریجی)
+
+[importer.notion-api.reason-http-status]
+original=HTTP {{status}}
+translation=HTTP {{status}}
+
+[importer.notion-api.reason-meeting-notes-pending]
+original=Notion has not finished generating them ({{status}})
+translation=Notion هنوز تولید آن‌ها را تمام نکرده است ({{status}})
+
+[importer.notion-api.reason-rate-limit-gave-up]
+original=rate limited, and gave up after {{retries}} retries
+translation=محدودیت نرخ درخواست، و پس از {{retries}} تلاش مجدد منصرف شد
+
+[importer.notion-api.reason-gave-up]
+original={{reason}}, and gave up after {{retries}} retries
+translation={{reason}}، و پس از {{retries}} تلاش مجدد منصرف شد
+
+[importer.notion-api.reason-kept-link]
+original={{reason}}; kept the link to {{url}}
+translation={{reason}}؛ پیوند به {{url}} حفظ شد
+
+[importer.notion.name]
+original=Notion
+translation=Notion
+
+[importer.notion.option-text]
+original=Notion (.zip)
+translation=Notion (.zip)
+
+[importer.notion.method-name]
+original=File import
+translation=وارد کردن از فایل
+
+[importer.notion.method-desc]
+original=Imports using a Notion export file (.zip). Requires no API token or internet connection, but does not preserve databases.
+translation=با استفاده از فایل خروجی Notion (.zip) وارد می‌کند. نیازی به توکن API یا اتصال اینترنت ندارد، اما پایگاه‌های داده حفظ نمی‌شوند.
+
+[importer.notion.file-type]
+original=Exported Notion
+translation=خروجی Notion
+
+[importer.notion.label-id]
+original=Notion ID
+translation=شناسه Notion
+
+[importer.notion.desc-export]
+original=Export your workspace in HTML format, you will receive a zip file.
+translation=فضای کاری خود را در قالب HTML خروجی بگیرید، یک فایل zip دریافت خواهید کرد.
+
+[importer.notion.desc-files]
+original=Pick the zip file Notion sent you.
+translation=فایل zip که Notion برایتان ارسال کرده را انتخاب کنید.
+
+[importer.notion.name-subfolders]
+original=Save parent pages in subfolders
+translation=ذخیره صفحات والد در زیرپوشه‌ها
+
+[importer.notion.desc-subfolders]
+original=Places the parent database pages in the same folder as the nested content.
+translation=صفحات پایگاه داده والد را در همان پوشه محتوای تودرتو قرار می‌دهد.
+
+[importer.notion.name-single-line-breaks]
+original=Single line breaks
+translation=شکست خط تکی
+
+[importer.notion.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break (default is 2).
+translation=بلوک‌های Notion را فقط با یک شکست خط جدا می‌کند (پیش‌فرض ۲ است).
+
+[importer.notion.msg-unknown-property]
+original=Property "{{property}}" has an unknown type ({{type}}); kept its value as text.
+translation=ویژگی "{{property}}" دارای نوع نامعلوم ({{type}}) است؛ مقدار آن به‌عنوان متن نگه داشته شد.
+
+[importer.notion.msg-unparsed-date]
+original=Could not determine the date in property "{{property}}": {{value}}. Kept its value as text.
+translation=تاریخ در ویژگی "{{property}}" قابل تشخیص نبود: {{value}}. مقدار آن به‌عنوان متن نگه داشته شد.
+
+[importer.notion.status-looking]
+original=Looking for files to import
+translation=جستجوی فایل‌ها برای وارد کردن
+
+[importer.notion.status-resolving]
+original=Resolving links and de-duplicating files
+translation=حل پیوندها و حذف فایل‌های تکراری
+
+[importer.notion.status-starting]
+original=Starting import
+translation=شروع وارد کردن
+
+[importer.notion.msg-markdown-export]
+original=This is a Markdown export. Export your Notion workspace as HTML instead.
+translation=این یک خروجی Markdown است. فضای کاری Notion خود را به جای آن به صورت HTML خروجی بگیرید.
+
+[importer.notion.reason-markdown-export]
+original=it is a Markdown export; export your Notion workspace as HTML instead
+translation=این یک خروجی Markdown است؛ به جای آن فضای کاری Notion خود را به صورت HTML خروجی بگیرید
+
+[importer.notion.reason-no-page-body]
+original=page body was not found
+translation=تنه صفحه پیدا نشد
+
+[importer.roam-json.name]
+original=Roam Research
+translation=Roam Research
+
+[importer.roam-json.option-text]
+original=Roam Research (.json)
+translation=Roam Research (.json)
+
+[importer.roam-json.file-type]
+original=Roam (.json)
+translation=Roam (.json)
+
+[importer.roam-json.label-id]
+original=Roam UID
+translation=UID Roam
+
+[importer.roam-json.desc-export]
+original=Export your data in JSON format.
+translation=داده‌های خود را در قالب JSON خروجی بگیرید.
+
+[importer.roam-json.desc-files]
+original=Pick the JSON file from your Roam export.
+translation=فایل JSON خروجی Roam خود را انتخاب کنید.
+
+[importer.roam-json.name-embed-block-references]
+original=Show referenced blocks in place
+translation=نمایش بلوک‌های ارجاع‌شده در محل
+
+[importer.roam-json.desc-embed-block-references]
+original=Roam shows the contents of a referenced block where the reference stands. If enabled, references become embeds rather than links.
+translation=Roam محتوای بلوک ارجاع‌شده را در محل ارجاع نمایش می‌دهد. اگر فعال باشد، ارجاعات به‌جای پیوندها به جاسازی تبدیل می‌شوند.
+
+[importer.roam-json.name-drop-unresolved-references]
+original=Remove references to missing blocks
+translation=حذف ارجاعات به بلوک‌های ناموجود
+
+[importer.roam-json.desc-drop-unresolved-references]
+original=Some references name a block that is not in the export. If enabled, they are removed; if not, they are kept as Roam wrote them.
+translation=برخی ارجاعات به بلوکی اشاره می‌کنند که در خروجی وجود ندارد. اگر فعال باشد، آن‌ها حذف می‌شوند؛ در غیر این صورت، همان‌طور که Roam نوشته، حفظ می‌شوند.
+
+[importer.roam-json.name-convert-attributes]
+original=Convert attributes to properties
+translation=تبدیل ویژگی‌های Roam به ویژگی‌های Obsidian
+
+[importer.roam-json.desc-convert-attributes]
+original=Convert eligible top-level Roam attributes into Obsidian properties. Referenced attributes remain in the note so links to them keep working.
+translation=ویژگی‌های سطح بالای واجد شرایط Roam را به ویژگی‌های Obsidian تبدیل می‌کند. ویژگی‌های ارجاع‌شده در یادداشت باقی می‌مانند تا پیوندها به آن‌ها همچنان کار کنند.
+
+[importer.roam-json.name-tags-as-links]
+original=Convert tags to links
+translation=تبدیل برچسب‌ها به پیوندها
+
+[importer.roam-json.desc-tags-as-links]
+original=A tag in Roam is a reference to the page of that name. If enabled, "#tag" becomes "[[tag]]".
+translation=برچسب در Roam ارجاعی به صفحه‌ای هم‌نام است. اگر فعال باشد، "#tag" به "[[tag]]" تبدیل می‌شود.
+
+[importer.roam-json.name-drop-queries]
+original=Remove queries
+translation=حذف عبارات جست‌وجو
+
+[importer.roam-json.desc-drop-queries]
+original=If enabled, queries are removed. If not, a query becomes an Obsidian search that shows its results in the note.
+translation=اگر فعال باشد، عبارات جست‌وجو حذف می‌شوند. در غیر این صورت، هر عبارت جست‌وجو به یک جستجوی Obsidian تبدیل می‌شود که نتایج را در یادداشت نمایش می‌دهد.
+
+[importer.roam-json.reason-empty-title]
+original=Title is empty
+translation=عنوان خالی است
+
+[importer.roam-json.reason-unexpected-extension]
+original=Unexpected file extension
+translation=پسوند فایل غیرمنتظره
+
+[importer.textbundle.name]
+original=Textbundle files
+translation=فایل‌های Textbundle
+
+[importer.textbundle.option-text]
+original=Textbundle (.textbundle, .textpack)
+translation=Textbundle (.textbundle, .textpack)
+
+[importer.textbundle.file-type]
+original=Textbundle
+translation=Textbundle
+
+[importer.textbundle.desc-export]
+original=Export your notes as textbundle or textpack, which Agenda, Craft, Taio, Ulysses and Zettlr can all write.
+translation=یادداشت‌های خود را به صورت textbundle یا textpack صادر کنید؛ Agenda، Craft، Taio، Ulysses و Zettlr همگی قادر به نوشتن آن هستند.
+
+[importer.textbundle.msg-platform]
+original=Due to platform limitations, only textpack and zip files can be imported from this device. Open your vault on a Mac to import textbundle files.
+translation=به دلیل محدودیت‌های پلتفرم، فقط فایل‌های textpack و zip از این دستگاه قابل وارد کردن هستند. گاوصندوق خود را در Mac گشوده و فایل‌های textbundle را وارد کنید.
+
+[importer.textbundle.reason-no-markdown]
+original=The textbundle does not contain markdown
+translation=textbundle حاوی Markdown نیست
+
+[importer.textbundle.reason-not-media]
+original=the file is not a media or markdown file.
+translation=فایل یک فایل رسانه‌ای یا Markdown نیست.
+
+[importer.textbundle.reason-already-exists]
+original=the file already exists.
+translation=فایل از قبل وجود دارد.
+
+[importer.tomboy.name]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.option-text]
+original=Tomboy/Gnote (.note)
+translation=Tomboy/Gnote (.note)
+
+[importer.tomboy.file-type]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.label-id]
+original=Tomboy ID
+translation=شناسه Tomboy
+
+[importer.tomboy.desc-files-mac]
+original=Tomboy notes are typically found in: ~/Library/Application Support/Tomboy
+translation=یادداشت‌های Tomboy معمولاً در این مسیر قرار دارند: ~/Library/Application Support/Tomboy
+
+[importer.tomboy.desc-files-windows]
+original=Tomboy notes are typically found in: %APPDATA%\\Tomboy
+translation=یادداشت‌های Tomboy معمولاً در این مسیر قرار دارند: %APPDATA%\\Tomboy
+
+[importer.tomboy.desc-files-linux]
+original=Tomboy notes are typically found in: ~/.local/share/tomboy - or GNote: ~/.local/share/gnote
+translation=یادداشت‌های Tomboy معمولاً در این مسیر قرار دارند: ~/.local/share/tomboy - یا GNote: ~/.local/share/gnote
+
+[importer.tomboy.name-todo]
+original=Convert TODO lists to checkboxes
+translation=تبدیل فهرست‌های TODO به چک‌باکس
+
+[importer.tomboy.desc-todo]
+original=When enabled, lists in notes with "TODO" in the title will be converted to task lists with checkboxes. Strikethrough items will be marked as completed.
+translation=وقتی فعال باشد، فهرست‌ها در یادداشت‌هایی که عنوان آن‌ها شامل "TODO" است به فهرست وظایف با چک‌باکس تبدیل می‌شوند. موارد خط‌خورده به عنوان انجام‌شده علامت‌گذاری خواهند شد.
+
+[importer.tomboy.name-keep-title]
+original=Keep title in Markdown
+translation=حفظ عنوان در Markdown
+
+[importer.tomboy.desc-keep-title]
+original=Choose whether to keep the note title in the Markdown content. The automatic option keeps titles only when special characters are lost in filename conversion.
+translation=انتخاب کنید که آیا عنوان یادداشت در محتوای Markdown حفظ شود. گزینه خودکار عنوان‌ها را فقط زمانی حفظ می‌کند که نویسه‌های خاص در تبدیل نام فایل از دست بروند.
+
+[importer.tomboy.option-automatic]
+original=Automatic
+translation=خودکار
+
+[importer.tomboy.option-keep-titles]
+original=Keep titles
+translation=حفظ عنوان‌ها
+
+[importer.tomboy.option-filename-only]
+original=Filename only
+translation=فقط نام فایل

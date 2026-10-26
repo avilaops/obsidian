@@ -1,0 +1,39 @@
+import { describe, expect, test } from 'vitest';
+import { standardFilters } from '../src/filters';
+import { htmlFilters } from '../src/html';
+import { filterDocs, filterDocsByName } from '../website/lib/filter-docs';
+import { filterMarkdown } from '../website/src/lib/filter-markdown';
+
+describe('filter documentation catalog', () => {
+  test('documents every registered filter and alias', () => {
+    const registered = [...Object.keys(standardFilters), ...Object.keys(htmlFilters)].sort();
+    expect(registered.filter((name) => !filterDocsByName.has(name))).toEqual([]);
+  });
+
+  test('uses unique slugs and includes an example for every filter', () => {
+    expect(new Set(filterDocs.map((filter) => filter.slug)).size).toBe(filterDocs.length);
+    expect(filterDocs.every((filter) => filter.examples.length > 0)).toBe(true);
+  });
+
+  test('uses a longer outer fence when exported examples contain code fences', () => {
+    const code = filterDocsByName.get('code');
+    expect(code).toBeDefined();
+    expect(filterMarkdown(code!)).toContain('````md title="Output"\n```typescript\nconst answer = 42\n```\n````');
+  });
+
+  test('exports HTML environment requirements in the Usage list', () => {
+    const htmlToJson = filterDocsByName.get('html_to_json');
+    expect(htmlToJson).toBeDefined();
+    const markdown = filterMarkdown(htmlToJson!);
+    expect(markdown).toContain('\n- Requires browser-compatible DOM globals. Register `htmlFilters` from `knap/html` before using it.');
+    expect(markdown).not.toContain('\nThis filter needs browser-compatible DOM globals.');
+  });
+
+  test('exports the comment explanation as a Usage bullet', () => {
+    const comment = filterDocsByName.get('comment');
+    expect(comment).toBeDefined();
+    const markdown = filterMarkdown(comment!);
+    expect(markdown).toContain('\n- This filter produces Obsidian `%%` comments');
+    expect(markdown).not.toContain('\nThis filter produces Obsidian `%%` comments');
+  });
+});

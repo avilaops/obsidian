@@ -1,0 +1,1043 @@
+[heading.plugin-security/Restricted mode]
+original=Restricted mode
+translation=Korlátozott mód
+
+[heading.plugin-security/Plugin capabilities]
+original=Plugin capabilities
+translation=Bővítmények képességei
+
+[heading.plugin-security/Plugin review process]
+original=Plugin review process
+translation=Bővítmények felülvizsgálati folyamata
+
+[heading.snippets/Adding a snippet]
+original=Adding a snippet
+translation=Kódrészlet hozzáadása
+
+[heading.snippets/Writing CSS for Obsidian]
+original=Writing CSS for Obsidian
+translation=CSS írása az Obsidianhoz
+
+[heading.snippets/Learn more]
+original=Learn more
+translation=További információk
+
+[heading.community-plugins/Browse community plugins]
+original=Browse community plugins
+translation=Közösségi bővítmények tallózása
+
+[heading.community-plugins/Install a community plugin]
+original=Install a community plugin
+translation=Közösségi bővítmény telepítése
+
+[heading.community-plugins/Enable a community plugin]
+original=Enable a community plugin
+translation=Közösségi bővítmény engedélyezése
+
+[heading.community-plugins/Update plugins]
+original=Update plugins
+translation=Bővítmények frissítése
+
+[heading.community-plugins/Uninstall a community plugin]
+original=Uninstall a community plugin
+translation=Közösségi bővítmény eltávolítása
+
+[heading.community-plugins/Manage installed plugins]
+original=Manage installed plugins
+translation=Telepített bővítmények kezelése
+
+[heading.community-plugins/Learn more]
+original=Learn more
+translation=További információk
+
+[heading.cli/Install Obsidian CLI]
+original=Install Obsidian CLI
+translation=Az Obsidian CLI telepítése
+
+[heading.cli/Get started]
+original=Get started
+translation=Első lépések
+
+[heading.cli/Run a command]
+original=Run a command
+translation=Parancs futtatása
+
+[heading.cli/Use the terminal interface]
+original=Use the terminal interface
+translation=A terminál felület használata
+
+[heading.cli/Examples]
+original=Examples
+translation=Példák
+
+[heading.cli/Everyday use]
+original=Everyday use
+translation=Mindennapi használat
+
+[heading.cli/For developers]
+original=For developers
+translation=Fejlesztőknek
+
+[heading.cli/How to]
+original=How to
+translation=Útmutató
+
+[heading.cli/Use parameters and flags]
+original=Use parameters and flags
+translation=Paraméterek és jelzők használata
+
+[heading.cli/Target a vault]
+original=Target a vault
+translation=Széf megcélzása
+
+[heading.cli/Target a file]
+original=Target a file
+translation=Fájl megcélzása
+
+[heading.cli/Copy output]
+original=Copy output
+translation=Kimenet másolása
+
+[heading.cli/General commands]
+original=General commands
+translation=Általános parancsok
+
+[heading.cli/Bases]
+original=Bases
+translation=Bázisok
+
+[heading.cli/Bookmarks]
+original=Bookmarks
+translation=Könyvjelzők
+
+[heading.cli/Command palette]
+original=Command palette
+translation=Parancspaletta
+
+[heading.cli/Daily notes]
+original=Daily notes
+translation=Napi jegyzetek
+
+[heading.cli/File history]
+original=File history
+translation=Fájlelőzmények
+
+[heading.cli/Files and folders]
+original=Files and folders
+translation=Fájlok és mappák
+
+[heading.cli/Links]
+original=Links
+translation=Hivatkozások
+
+[heading.cli/Outline]
+original=Outline
+translation=Vázlat
+
+[heading.cli/Plugins]
+original=Plugins
+translation=Bővítmények
+
+[heading.cli/Properties]
+original=Properties
+translation=Tulajdonságok
+
+[heading.cli/Random notes]
+original=Random notes
+translation=Véletlenszerű jegyzetek
+
+[heading.cli/Search]
+original=Search
+translation=Keresés
+
+[heading.cli/Tags]
+original=Tags
+translation=Címkék
+
+[heading.cli/Tasks]
+original=Tasks
+translation=Feladatok
+
+[heading.cli/Templates]
+original=Templates
+translation=Sablonok
+
+[heading.cli/Themes and snippets]
+original=Themes and snippets
+translation=Témák és kódrészletek
+
+[heading.cli/Unique notes]
+original=Unique notes
+translation=Egyedi jegyzetek
+
+[heading.cli/Vault]
+original=Vault
+translation=Széf
+
+[heading.cli/Web viewer]
+original=Web viewer
+translation=Webes megjelenítő
+
+[heading.cli/Wordcount]
+original=Wordcount
+translation=Szavak száma
+
+[heading.cli/Workspace]
+original=Workspace
+translation=Munkaterület
+
+[heading.cli/Developer commands]
+original=Developer commands
+translation=Fejlesztői parancsok
+
+[heading.cli/Keyboard shortcuts]
+original=Keyboard shortcuts
+translation=Billentyűparancsok
+
+[heading.cli/Navigation]
+original=Navigation
+translation=Navigáció
+
+[heading.cli/Editing]
+original=Editing
+translation=Szerkesztés
+
+[heading.cli/Autocomplete]
+original=Autocomplete
+translation=Automatikus kiegészítés
+
+[heading.cli/History]
+original=History
+translation=Előzmények
+
+[heading.cli/Other]
+original=Other
+translation=Egyéb
+
+[heading.cli/Troubleshooting]
+original=Troubleshooting
+translation=Hibaelhárítás
+
+[heading.cli/Alternate shells]
+original=Alternate shells
+translation=Alternatív shellek
+
+[heading.headless/Install]
+original=Install
+translation=Telepítés
+
+[heading.headless/Authentication]
+original=Authentication
+translation=Hitelesítés
+
+[heading.headless/Log in]
+original=Log in
+translation=Bejelentkezés
+
+[heading.headless/Services]
+original=Services
+translation=Szolgáltatások
+
+[heading.uri/URI format]
+original=URI format
+translation=URI formátum
+
+[heading.uri/Open note]
+original=Open note
+translation=Jegyzet megnyitása
+
+[heading.uri/Examples]
+original=Examples
+translation=Példák
+
+[heading.uri/Parameters]
+original=Parameters
+translation=Paraméterek
+
+[heading.uri/Create note]
+original=Create note
+translation=Jegyzet létrehozása
+
+[heading.uri/Create or open daily note]
+original=Create or open daily note
+translation=Napi jegyzet létrehozása vagy megnyitása
+
+[heading.uri/Unique Note]
+original=Unique Note
+translation=Egyedi jegyzet
+
+[heading.uri/Open search]
+original=Open search
+translation=Keresés megnyitása
+
+[heading.uri/Open Vault Manager]
+original=Open Vault Manager
+translation=Széfkezelő megnyitása
+
+[heading.uri/Integrate with Hook]
+original=Integrate with Hook
+translation=Integráció a Hook alkalmazással
+
+[heading.uri/Example]
+original=Example
+translation=Példa
+
+[heading.uri/Use x-callback-url parameters]
+original=Use x-callback-url parameters
+translation=x-callback-url paraméterek használata
+
+[heading.uri/Shorthand formats]
+original=Shorthand formats
+translation=Rövidített formátumok
+
+[heading.uri/Troubleshooting]
+original=Troubleshooting
+translation=Hibaelhárítás
+
+[heading.uri/Register Obsidian URI]
+original=Register Obsidian URI
+translation=Obsidian URI regisztrálása
+
+[heading.themes/Browse themes]
+original=Browse themes
+translation=Témák tallózása
+
+[heading.themes/Install a new theme]
+original=Install a new theme
+translation=Új téma telepítése
+
+[heading.themes/Update themes]
+original=Update themes
+translation=Témák frissítése
+
+[heading.themes/Uninstall an existing theme]
+original=Uninstall an existing theme
+translation=Meglévő téma eltávolítása
+
+[heading.themes/Learn more]
+original=Learn more
+translation=További információk
+
+[heading.bases/How to use bases]
+original=How to use bases
+translation=Hogyan használd a bázisokat
+
+[heading.bases/View types]
+original=View types
+translation=Nézettípusok
+
+[heading.bases/Create a new base]
+original=Create a new base
+translation=Új bázis létrehozása
+
+[heading.bases/Embed a base]
+original=Embed a base
+translation=Bázis beágyazása
+
+[heading.bases/Embed a base file]
+original=Embed a base file
+translation=Bázisfájl beágyazása
+
+[heading.bases/Embed a base as a code block]
+original=Embed a base as a code block
+translation=Bázis beágyazása kódblokkként
+
+[heading.bases/Example]
+original=Example
+translation=Példa
+
+[heading.bases/Filters]
+original=Filters
+translation=Szűrők
+
+[heading.bases/Formulas]
+original=Formulas
+translation=Képletek
+
+[heading.bases/Properties]
+original=Properties
+translation=Tulajdonságok
+
+[heading.bases/Summaries]
+original=Summaries
+translation=Összegzések
+
+[heading.bases/Default Summary Formulas]
+original=Default Summary Formulas
+translation=Alapértelmezett összegző képletek
+
+[heading.bases/Views]
+original=Views
+translation=Nézetek
+
+[heading.bases/Note properties]
+original=Note properties
+translation=Jegyzet-tulajdonságok
+
+[heading.bases/File properties]
+original=File properties
+translation=Fájl-tulajdonságok
+
+[heading.bases/Access properties with `this`]
+original=Access properties with `this`
+translation=Tulajdonságok elérése a `this` objektummal
+
+[heading.bases/Operators]
+original=Operators
+translation=Operátorok
+
+[heading.bases/Arithmetic operators]
+original=Arithmetic operators
+translation=Aritmetikai operátorok
+
+[heading.bases/Date arithmetic]
+original=Date arithmetic
+translation=Dátum-aritmetika
+
+[heading.bases/Comparison operators]
+original=Comparison operators
+translation=Összehasonlító operátorok
+
+[heading.bases/Boolean operators]
+original=Boolean operators
+translation=Logikai operátorok
+
+[heading.bases/Functions]
+original=Functions
+translation=Függvények
+
+[heading.bases/Types]
+original=Types
+translation=Típusok
+
+[heading.bases/Strings, numbers, and booleans]
+original=Strings, numbers, and booleans
+translation=Szövegek, számok és logikai értékek
+
+[heading.bases/Dates and durations]
+original=Dates and durations
+translation=Dátumok és időtartamok
+
+[heading.bases/Objects and lists]
+original=Objects and lists
+translation=Objektumok és listák
+
+[heading.bases/Files and links]
+original=Files and links
+translation=Fájlok és hivatkozások
+
+[heading.bases/Settings]
+original=Settings
+translation=Beállítások
+
+[heading.bases/Card size]
+original=Card size
+translation=Kártya mérete
+
+[heading.bases/Image property]
+original=Image property
+translation=Kép tulajdonság
+
+[heading.bases/Image fit]
+original=Image fit
+translation=Illesztés
+
+[heading.bases/Image aspect ratio]
+original=Image aspect ratio
+translation=Képarány
+
+[heading.bases/Markers]
+original=Markers
+translation=Jelölők
+
+[heading.bases/Indent properties]
+original=Indent properties
+translation=Tulajdonságok behúzása
+
+[heading.bases/Separators]
+original=Separators
+translation=Elválasztók
+
+[heading.bases/Row height]
+original=Row height
+translation=Sormagasság
+
+[heading.bases/Add a summary]
+original=Add a summary
+translation=Összegzés hozzáadása
+
+[heading.bases/Built-in summaries]
+original=Built-in summaries
+translation=Beépített összegzések
+
+[heading.bases/All property types]
+original=All property types
+translation=Minden tulajdonságtípus
+
+[heading.bases/Numbers]
+original=Numbers
+translation=Számok
+
+[heading.bases/Dates]
+original=Dates
+translation=Dátumok
+
+[heading.bases/Checkbox]
+original=Checkbox
+translation=Jelölőnégyzet
+
+[heading.bases/Custom summaries]
+original=Custom summaries
+translation=Egyéni összegzések
+
+[heading.bases/Shortcuts]
+original=Shortcuts
+translation=Gyorsbillentyűk
+
+[heading.bases/Install the Maps plugin]
+original=Install the Maps plugin
+translation=A Maps bővítmény telepítése
+
+[heading.bases/Coordinates]
+original=Coordinates
+translation=Koordináták
+
+[heading.bases/Icons]
+original=Icons
+translation=Ikonok
+
+[heading.bases/Use a formula to define icons]
+original=Use a formula to define icons
+translation=Ikonok definiálása képlettel
+
+[heading.bases/Colors]
+original=Colors
+translation=Színek
+
+[heading.bases/Background]
+original=Background
+translation=Háttér
+
+[heading.bases/Map tiles]
+original=Map tiles
+translation=Térképcsempék
+
+[heading.bases/Useful links]
+original=Useful links
+translation=Hasznos hivatkozások
+
+[heading.bases/Tips]
+original=Tips
+translation=Tippek
+
+[heading.bases/Troubleshooting]
+original=Troubleshooting
+translation=Hibaelhárítás
+
+[heading.bases/Global]
+original=Global
+translation=Globális
+
+[heading.bases/Any]
+original=Any
+translation=Bármely
+
+[heading.bases/Date]
+original=Date
+translation=Dátum
+
+[heading.bases/Fields]
+original=Fields
+translation=Mezők
+
+[heading.bases/String]
+original=String
+translation=Szöveg
+
+[heading.bases/Number]
+original=Number
+translation=Szám
+
+[heading.bases/List]
+original=List
+translation=Lista
+
+[heading.bases/Link]
+original=Link
+translation=Hivatkozás
+
+[heading.bases/File]
+original=File
+translation=Fájl
+
+[heading.bases/Object]
+original=Object
+translation=Objektum
+
+[heading.bases/Regular expression]
+original=Regular expression
+translation=Reguláris kifejezés
+
+[heading.bases/Toolbar]
+original=Toolbar
+translation=Eszköztár
+
+[heading.bases/Add and switch views]
+original=Add and switch views
+translation=Nézetek hozzáadása és váltása
+
+[heading.bases/View settings]
+original=View settings
+translation=Nézet beállításai
+
+[heading.bases/Layout]
+original=Layout
+translation=Elrendezés
+
+[heading.bases/Components of a filter]
+original=Components of a filter
+translation=Szűrő komponensei
+
+[heading.bases/Conjunctions]
+original=Conjunctions
+translation=Kötőszavak
+
+[heading.bases/Filter groups]
+original=Filter groups
+translation=Szűrőcsoportok
+
+[heading.bases/Advanced filter editor]
+original=Advanced filter editor
+translation=Haladó szűrőszerkesztő
+
+[heading.bases/Sort and group results]
+original=Sort and group results
+translation=Találatok rendezése és csoportosítása
+
+[heading.bases/Add a sort]
+original=Add a sort
+translation=Rendezés hozzáadása
+
+[heading.bases/Remove a sort]
+original=Remove a sort
+translation=Rendezés eltávolítása
+
+[heading.bases/Limit, copy, and export results]
+original=Limit, copy, and export results
+translation=Találatok korlátozása, másolása és exportálása
+
+[heading.bases/Limit results]
+original=Limit results
+translation=Találatok korlátozása
+
+[heading.bases/Copy to clipboard]
+original=Copy to clipboard
+translation=Másolás a vágólapra
+
+[heading.bases/Export CSV]
+original=Export CSV
+translation=CSV exportálás
+
+[heading.bases/Embed a view]
+original=Embed a view
+translation=Nézet beágyazása
+
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=Kártyák csoportosítása oszlopokba
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=Munka kártyákkal és oszlopokkal
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=Üres oszlopok elrejtése
+
+[heading.bases/Column width]
+original=Column width
+translation=Oszlop szélessége
+
+[heading.formulas/What formulas can do]
+original=What formulas can do
+translation=Mire képesek a képletek
+
+[heading.formulas/Create a formula property]
+original=Create a formula property
+translation=Képlet tulajdonság létrehozása
+
+[heading.formulas/Write a formula]
+original=Write a formula
+translation=Képlet írása
+
+[heading.formulas/Reference properties]
+original=Reference properties
+translation=Tulajdonságok hivatkozása
+
+[heading.formulas/Use operators]
+original=Use operators
+translation=Operátorok használata
+
+[heading.formulas/Use functions]
+original=Use functions
+translation=Függvények használata
+
+[heading.formulas/Formula examples]
+original=Formula examples
+translation=Képlet példák
+
+[heading.formulas/Calculate a deadline]
+original=Calculate a deadline
+translation=Határidő kiszámítása
+
+[heading.formulas/Display overdue status]
+original=Display overdue status
+translation=Késedelmes állapot megjelenítése
+
+[heading.formulas/Format currency]
+original=Format currency
+translation=Pénznem formázása
+
+[heading.formulas/Count list items]
+original=Count list items
+translation=Listaelemek számlálása
+
+[heading.formulas/Calculate priority score]
+original=Calculate priority score
+translation=Prioritási pontszám kiszámítása
+
+[heading.formulas/Combine text fields]
+original=Combine text fields
+translation=Szöveges mezők kombinálása
+
+[heading.formulas/Calculate total cost]
+original=Calculate total cost
+translation=Összköltség kiszámítása
+
+[heading.formulas/Data types]
+original=Data types
+translation=Adattípusok
+
+[heading.formulas/Reference other formulas]
+original=Reference other formulas
+translation=Más képletek hivatkozása
+
+[heading.plugins/All core plugins]
+original=All core plugins
+translation=Összes alap bővítmény
+
+[heading.plugins/Other plugins]
+original=Other plugins
+translation=Egyéb bővítmények
+
+[heading.plugins/Create a new canvas]
+original=Create a new canvas
+translation=Új vászon létrehozása
+
+[heading.plugins/Add cards]
+original=Add cards
+translation=Kártyák hozzáadása
+
+[heading.plugins/Add text cards]
+original=Add text cards
+translation=Szöveges kártyák hozzáadása
+
+[heading.plugins/Add cards from notes]
+original=Add cards from notes
+translation=Kártyák hozzáadása jegyzetekből
+
+[heading.plugins/Add cards from media]
+original=Add cards from media
+translation=Kártyák hozzáadása médiából
+
+[heading.plugins/Add cards from web pages]
+original=Add cards from web pages
+translation=Kártyák hozzáadása weboldalakból
+
+[heading.plugins/Add cards from folders]
+original=Add cards from folders
+translation=Kártyák hozzáadása mappákból
+
+[heading.plugins/Edit a card]
+original=Edit a card
+translation=Kártya szerkesztése
+
+[heading.plugins/Delete a card]
+original=Delete a card
+translation=Kártya törlése
+
+[heading.plugins/Swap cards]
+original=Swap cards
+translation=Kártyák cseréje
+
+[heading.plugins/Select cards]
+original=Select cards
+translation=Kártyák kijelölése
+
+[heading.plugins/Arrange cards]
+original=Arrange cards
+translation=Kártyák elrendezése
+
+[heading.plugins/Resize a card]
+original=Resize a card
+translation=Kártya átméretezése
+
+[heading.plugins/Connect cards]
+original=Connect cards
+translation=Kártyák összekapcsolása
+
+[heading.plugins/Connect two cards]
+original=Connect two cards
+translation=Két kártya összekapcsolása
+
+[heading.plugins/Disconnect two cards]
+original=Disconnect two cards
+translation=Két kártya szétkapcsolása
+
+[heading.plugins/Connect a card to a different card]
+original=Connect a card to a different card
+translation=Kártya csatlakoztatása egy másik kártyához
+
+[heading.plugins/Navigate a connection]
+original=Navigate a connection
+translation=Kapcsolat mentén navigálás
+
+[heading.plugins/Add a label to a connection]
+original=Add a label to a connection
+translation=Címke hozzáadása egy kapcsolathoz
+
+[heading.plugins/Change the color of a card or connection]
+original=Change the color of a card or connection
+translation=Kártya vagy kapcsolat színének módosítása
+
+[heading.plugins/Group cards]
+original=Group cards
+translation=Kártyák csoportosítása
+
+[heading.plugins/Group selected cards]
+original=Group selected cards
+translation=Kijelölt kártyák csoportosítása
+
+[heading.plugins/Navigate the canvas]
+original=Navigate the canvas
+translation=Navigálás a vásznon
+
+[heading.plugins/Pan the canvas]
+original=Pan the canvas
+translation=Nézet mozgatása a vásznon
+
+[heading.plugins/Zoom the canvas]
+original=Zoom the canvas
+translation=Nagyítás a vásznon
+
+[heading.plugins/Zoom to fit]
+original=Zoom to fit
+translation=Nagyítás illeszkedésre
+
+[heading.plugins/Zoom to selection]
+original=Zoom to selection
+translation=Nagyítás kijelölésre
+
+[heading.plugins/Reset zoom]
+original=Reset zoom
+translation=Alapértelmezett nagyítás
+
+[heading.plugins/Advanced tips]
+original=Advanced tips
+translation=Haladó tippek
+
+[heading.plugins/Create a unique note]
+original=Create a unique note
+translation=Egyedi jegyzet létrehozása
+
+[heading.plugins/Create unique notes from a template]
+original=Create unique notes from a template
+translation=Egyedi jegyzetek létrehozása sablonból
+
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Airtable személyes hozzáférési token létrehozása
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=Az Airtable adatok importálása
+
+[heading.import/Import options]
+original=Import options
+translation=Importálási beállítások
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Az Airtable mezők importálásának konfigurálása
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=Mi kerül importálásra
+
+[heading.import/Limitations]
+original=Limitations
+translation=Korlátozások
+
+[heading.import/Before you start]
+original=Before you start
+translation=Mielőtt elkezdenéd
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Logseq gráf importálása
+
+[heading.import/Settings]
+original=Settings
+translation=Beállítások
+
+[heading.import/Journals]
+original=Journals
+translation=Naplók
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=Vázlatok lapítása
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Nem kompatibilis adatok megőrzése
+
+[heading.import/Templates]
+original=Templates
+translation=Sablonok
+
+[heading.import/Troubleshooting]
+original=Troubleshooting
+translation=Hibaelhárítás
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=Jegyzetfájlok megkeresése
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Tomboy vagy Gnote jegyzetek importálása
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=Az importálási sablon szerkesztése
+
+[heading.import/Preview results]
+original=Preview results
+translation=Eredmények előnézete
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=Sablon szintaxis
+
+[heading.import/Variables]
+original=Variables
+translation=Változók
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=Forrásértékek tulajdonságokhoz
+
+[heading.import/Example template]
+original=Example template
+translation=Példa sablon
+
+[heading.community-directory/Header]
+original=Header
+translation=Fejléc
+
+[heading.community-directory/Overview]
+original=Overview
+translation=Áttekintés
+
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=Értékelőlap
+
+[heading.community-directory/Updates]
+original=Updates
+translation=Frissítések
+
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=Oldalsáv
+
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=Gyakran ismételt kérdések
+
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=A menü megnyitása
+
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=Asztali
+
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Nézet és elrendezés
+
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=A jegyzet kezelése
+
+[heading.more-options-menu/Find]
+original=Find
+translation=Keresés
+
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Útvonalak, előzmények és kapcsolt nézetek
+
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Számítógéped
+
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Lap menü
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Mobil
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Keresés és csere megnyitása
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Találatok keresése
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Találatok cseréje
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=PDF megnyitása
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=Navigálás a PDF-ben
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=A PDF megjelenésének módosítása
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=Keresés a PDF-ben
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Szöveg másolása PDF-ből
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=PDF beágyazása
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Jegyzet exportálása PDF-be

@@ -1,0 +1,2499 @@
+[command.import-notes]
+original=Import notes
+translation=Importă însemnări
+
+[nouns.file-with-count]
+original={{count}} file
+translation={{count}} fișier
+
+[nouns.file-with-count_plural]
+original={{count}} files
+translation={{count}} fișiere
+
+[nouns.note-with-count]
+original={{count}} note
+translation={{count}} însemnare
+
+[nouns.note-with-count_plural]
+original={{count}} notes
+translation={{count}} însemnări
+
+[nouns.item-with-count]
+original={{count}} item
+translation={{count}} element
+
+[nouns.item-with-count_plural]
+original={{count}} items
+translation={{count}} elemente
+
+[nouns.record-with-count]
+original={{count}} record
+translation={{count}} înregistrare
+
+[nouns.record-with-count_plural]
+original={{count}} records
+translation={{count}} înregistrări
+
+[nouns.base-with-count]
+original={{count}} base
+translation={{count}} bază
+
+[nouns.base-with-count_plural]
+original={{count}} bases
+translation={{count}} baze
+
+[nouns.template-with-count]
+original={{count}} template
+translation={{count}} șablon
+
+[nouns.template-with-count_plural]
+original={{count}} templates
+translation={{count}} șabloane
+
+[nouns.failure-with-count]
+original={{count}} failure
+translation={{count}} eroare
+
+[nouns.failure-with-count_plural]
+original={{count}} failures
+translation={{count}} erori
+
+[nouns.second-with-count]
+original={{count}} second
+translation={{count}} secundă
+
+[nouns.second-with-count_plural]
+original={{count}} seconds
+translation={{count}} secunde
+
+[nouns.relation-placeholder-with-count]
+original={{count}} relation placeholder
+translation={{count}} substituent de relație
+
+[nouns.relation-placeholder-with-count_plural]
+original={{count}} relation placeholders
+translation={{count}} substituenți de relație
+
+[nouns.linked-database-with-count]
+original={{count}} linked database
+translation={{count}} bază de date legată
+
+[nouns.linked-database-with-count_plural]
+original={{count}} linked databases
+translation={{count}} baze de date legate
+
+[nouns.mention-link-with-count]
+original={{count}} mention link
+translation={{count}} legătură de mențiune
+
+[nouns.mention-link-with-count_plural]
+original={{count}} mention links
+translation={{count}} legături de mențiune
+
+[nouns.synced-reference-with-count]
+original={{count}} synced child reference
+translation={{count}} referință copil sincronizată
+
+[nouns.synced-reference-with-count_plural]
+original={{count}} synced child references
+translation={{count}} referințe copil sincronizate
+
+[nouns.new-item-with-count]
+original={{count}} new item
+translation={{count}} element nou
+
+[nouns.new-item-with-count_plural]
+original={{count}} new items
+translation={{count}} elemente noi
+
+[nouns.page-with-count]
+original={{count}} page
+translation={{count}} pagină
+
+[nouns.page-with-count_plural]
+original={{count}} pages
+translation={{count}} pagini
+
+[group.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[group.notion.name]
+original=Notion
+translation=Notion
+
+[outliner.name-flatten-outlines]
+original=Flatten outlines
+translation=Aplatizare contururi
+
+[outliner.desc-flatten-outlines]
+original=Convert outlines into paragraphs, headings, and lists.
+translation=Convertește contururile în paragrafe, titluri și liste.
+
+[modal.title-pick-format]
+original=Import data into Obsidian
+translation=Importă date în Obsidian
+
+[modal.title-choose-method]
+original=Choose how to import
+translation=Alege metoda de import
+
+[modal.title-import-from]
+original=Import from {{format}}
+translation=Importă din {{format}}
+
+[modal.search-placeholder]
+original=Filter...
+translation=Filtrează...
+
+[modal.msg-no-formats]
+original=No formats found.
+translation=Nu s-au găsit formate.
+
+[modal.msg-drop-to-import]
+original=Drop files to import
+translation=Plasați fișiere pentru a importa
+
+[modal.button-show-all-formats]
+original=Show all formats
+translation=Afișează toate formatele
+
+[modal.button-continue]
+original=Continue
+translation=Continuă
+
+[modal.button-import]
+original=Import
+translation=Importă
+
+[modal.button-back]
+original=Back
+translation=Înapoi
+
+[modal.button-help]
+original=Help
+translation=Ajutor
+
+[modal.button-pause]
+original=Pause
+translation=Pauză
+
+[modal.button-resume]
+original=Resume
+translation=Reia
+
+[modal.button-stop]
+original=Stop
+translation=Oprește
+
+[modal.button-save-report]
+original=Save report
+translation=Salvează raportul
+
+[modal.msg-report-failed]
+original=Could not save the import report.
+translation=Nu s-a putut salva raportul de import.
+
+[modal.button-import-more]
+original=Import more
+translation=Importă mai multe
+
+[modal.button-done]
+original=Done
+translation=Gata
+
+[modal.msg-unexpected-auth]
+original=Unexpected auth event. Please restart the auth process.
+translation=Eveniment de autentificare neașteptat. Vă rugăm să reporniți procesul de autentificare.
+
+[progress.stat-imported]
+original=imported
+translation=importate
+
+[progress.stat-attachments]
+original=attachments
+translation=Atașamente
+
+[progress.stat-remaining]
+original=remaining
+translation=rămase
+
+[progress.stat-skipped]
+original=skipped
+translation=Omise
+
+[progress.stat-failed]
+original=failed
+translation=Eroare
+
+[progress.label-skipped]
+original=Skipped: 
+translation=Omise: 
+
+[progress.label-failed]
+original=Failed: 
+translation=Eșuat: 
+
+[progress.label-entry]
+original="{{name}}"
+translation="{{name}}"
+
+[progress.label-entry-with-reason]
+original="{{name}}" because {{reason}}
+translation="{{name}}" deoarece {{reason}}
+
+[progress.label-paused]
+original=Paused
+translation=În pauză
+
+[progress.label-paused-with]
+original=Paused - {{status}}
+translation=În pauză - {{status}}
+
+[progress.label-importing]
+original=Importing
+translation=Se importă
+
+[progress.label-remaining]
+original={{count}} remaining...
+translation={{count}} rămas...
+
+[progress.label-remaining_plural]
+original={{count}} remaining...
+translation={{count}} rămase...
+
+[progress.label-paused-remaining]
+original=Paused - {{count}} remaining
+translation=În pauză - {{count}} rămas
+
+[progress.label-paused-remaining_plural]
+original=Paused - {{count}} remaining
+translation=În pauză - {{count}} rămase
+
+[progress.status-stopping]
+original=Stopping...
+translation=Se oprește...
+
+[progress.msg-stopped]
+original=Import stopped.
+translation=Import oprit.
+
+[progress.msg-errors]
+original=Import finished with errors.
+translation=Import finalizat cu erori.
+
+[progress.msg-complete]
+original=Import complete.
+translation=Import complet.
+
+[progress.msg-imported-count]
+original={{count}} note imported
+translation={{count}} însemnare importată
+
+[progress.msg-imported-count_plural]
+original={{count}} notes imported
+translation={{count}} însemnări importate
+
+[progress.msg-click-to-show]
+original={{counts}}. Select to show.
+translation={{counts}}. Selectați pentru a afișa.
+
+[progress.status-waiting]
+original=Waiting {{duration}} ({{reason}})
+translation=Se așteaptă {{duration}} ({{reason}})
+
+[progress.status-standardizing]
+original=Standardizing Markdown ({{current}}/{{total}})
+translation=Standardizare Markdown ({{current}}/{{total}})
+
+[progress.label-finalization]
+original=Markdown finalization
+translation=Finalizare Markdown
+
+[report.file-name]
+original={{date}} {{importer}} import log
+translation={{date}} jurnal import {{importer}}
+
+[report.title]
+original={{importer}} import
+translation=Import {{importer}}
+
+[report.msg-finished]
+original=Finished {{when}}. {{counts}}.
+translation=Finalizat {{when}}. {{counts}}.
+
+[report.msg-stopped]
+original=Stopped {{when}}. {{counts}}.
+translation=Oprit {{when}}. {{counts}}.
+
+[report.heading-failed]
+original=Failed ({{count}})
+translation=Eșuat ({{count}})
+
+[report.heading-skipped]
+original=Skipped ({{count}})
+translation=Omise ({{count}})
+
+[report.heading-messages]
+original=Messages
+translation=Mesaje
+
+[report.count-notes]
+original={{count}} note imported
+translation={{count}} însemnare importată
+
+[report.count-notes_plural]
+original={{count}} notes imported
+translation={{count}} însemnări importate
+
+[report.count-attachments]
+original={{count}} attachment downloaded
+translation={{count}} atașament descărcat
+
+[report.count-attachments_plural]
+original={{count}} attachments downloaded
+translation={{count}} atașamente descărcate
+
+[report.count-skipped]
+original={{count}} item skipped
+translation={{count}} element omis
+
+[report.count-skipped_plural]
+original={{count}} items skipped
+translation={{count}} elemente omise
+
+[report.count-failed]
+original={{count}} item failed
+translation={{count}} element eșuat
+
+[report.count-failed_plural]
+original={{count}} items failed
+translation={{count}} elemente eșuate
+
+[source.desc]
+original=Drag and drop, or choose files to import.
+translation=Trageți și plasați sau alegeți fișiere de importat.
+
+[source.desc-choose]
+original=Choose files to import.
+translation=Alegeți fișiere de importat.
+
+[source.button-choose-file]
+original=Choose file
+translation=Alege fișierul
+
+[source.button-choose-files]
+original=Choose files
+translation=Alege fișierele
+
+[source.button-choose-folders]
+original=Choose folders
+translation=Alege directoare
+
+[source.dialog-pick-files]
+original=Pick files to import
+translation=Alegeți fișierele de importat
+
+[source.dialog-pick-folders]
+original=Folders to import
+translation=Directoare de importat
+
+[source.desc-folders]
+original=Everything in checked folders is imported. Uncheck folders to exclude them.
+translation=Tot ce se află în directoarele bifate este importat. Debifați directoarele pentru a le exclude.
+
+[source.msg-pick-source-first]
+original=Choose files or folders first.
+translation=Alegeți mai întâi fișierele sau directoarele.
+
+[source.msg-reading-folders]
+original=Reading folders...
+translation=Citire directoare...
+
+[source.msg-no-folders]
+original=No folders found.
+translation=Nu s-au găsit directoare.
+
+[source.msg-android-folder-failed]
+original=Could not choose that folder.
+translation=Nu s-a putut alege acel director.
+
+[source.msg-android-folder-read-failed]
+original=Could not read that folder.
+translation=Nu s-a putut citi acel director.
+
+[source.msg-android-folder-unavailable]
+original=Folder selection is unavailable on this device.
+translation=Selecția directorului nu este disponibilă pe acest dispozitiv.
+
+[source.msg-android-root-folder]
+original=Choose a folder other than the root of your device.
+translation=Alege un alt director decât rădăcina dispozitivului.
+
+[source.msg-flat-files]
+original={{count}} file will be imported.
+translation={{count}} fișier va fi importat.
+
+[source.msg-flat-files_plural]
+original={{count}} files will be imported.
+translation={{count}} fișiere vor fi importate.
+
+[source.msg-nothing-to-import]
+original=Nothing to import there. Pick {{extensions}} files, or a folder holding some.
+translation=Nimic de importat aici. Alegeți fișiere {{extensions}} sau un director care conține astfel de fișiere.
+
+[source.msg-will-import]
+original={{files}} will be imported: 
+translation={{files}} vor fi importate: 
+
+[source.msg-more-files]
+original=and {{count}} more file
+translation=și încă {{count}} fișier
+
+[source.msg-more-files_plural]
+original=and {{count}} more files
+translation=și încă {{count}} fișiere
+
+[source.button-remove-file]
+original=Remove from the import
+translation=Ștergeți din import
+
+[output.label-source-id]
+original=source ID
+translation=ID sursă
+
+[output.name-save-source-id]
+original=Save {{label}}
+translation=Salvează {{label}}
+
+[output.desc-save-source-id]
+original=Add the {{label}} to note properties so future imports can recognize moved or renamed notes.
+translation=Adăugați {{label}} la proprietățile însemnării, astfel încât importurile viitoare să poată recunoaște însemnările mutate sau redenumite.
+
+[output.name-folder]
+original=Output folder
+translation=Director de ieșire
+
+[output.desc-folder]
+original=Where imported notes will be saved. Leave blank to use the top level of the vault.
+translation=Unde vor fi salvate însemnările importate. Lăsați gol pentru a folosi nivelul superior al seifului.
+
+[output.name-template]
+original=Template
+translation=șablon
+
+[output.desc-template]
+original=Optional Markdown template from this vault. Use variables such as {{title}}, {{content}}, and {{date}}.
+translation=Șablon Markdown opțional din acest seif. Utilizați variabile precum {{title}}, {{content}} și {{date}}.
+
+[output.placeholder-template]
+original=Templates/Import.md
+translation=Șabloane/Import.md
+
+[output.msg-template-not-found]
+original=Template must be a Markdown file in this vault: {{path}}
+translation=Șablonul trebuie să fie un fișier Markdown din acest seif: {{path}}
+
+[output.name-attachments]
+original=Attachment location
+translation=Destinația atașamentelor
+
+[output.desc-attachments]
+original=Where imported images and files will be saved.
+translation=Unde vor fi salvate imaginile și fișierele importate.
+
+[output.name-subfolder]
+original=Subfolder name
+translation=Alegeți numele subdirectorului de atașamente
+
+[output.desc-subfolder]
+original=Folder to use inside each imported note's folder.
+translation=Director de utilizat în interiorul directorului fiecărei însemnări importate.
+
+[output.name-attachment-folder]
+original=Attachment folder
+translation=Director atașamente
+
+[output.desc-attachment-folder]
+original=Folder path from the top level of the vault.
+translation=Cale director de la nivelul superior al seifului.
+
+[output.name-duplicates]
+original=Existing notes
+translation=Însemnări existente
+
+[output.desc-duplicates]
+original=Choose what to do when an imported note matches one in your vault. "{{update}}" skips unchanged notes and preserves newer local edits when modification dates are available.
+translation=Alegeți ce să faceți când o însemnare importată se potrivește cu una din seiful dvs. "{{update}}" omite însemnările neschimbate și păstrează editările locale mai recente când sunt disponibile datele de modificare.
+
+[output.option-create-copy]
+original=Create a copy
+translation=Creați o copie
+
+[output.option-skip]
+original=Skip
+translation=Sari
+
+[output.option-update]
+original=Update
+translation=Actualizează
+
+[output.option-attachments-vault]
+original=Vault folder
+translation=În directorul rădăcină al seifului
+
+[output.option-attachments-folder]
+original=In the folder specified below
+translation=În directorul menționat mai jos
+
+[output.option-attachments-note]
+original=Same folder as the note
+translation=Același director cu însemnarea
+
+[output.option-attachments-subfolder]
+original=In subfolder under the note
+translation=În subdirector sub însemnare
+
+[common.msg-pick-file]
+original=Please pick at least one file to import.
+translation=Vă rugăm să alegeți cel puțin un fișier de importat.
+
+[common.msg-pick-output]
+original=Please select a location to export to.
+translation=Vă rugăm să selectați o destinație pentru export.
+
+[common.msg-pick-import-location]
+original=Please select a location to import your files to.
+translation=Vă rugăm să selectați o destinație pentru importul fișierelor.
+
+[common.msg-unknown-error]
+original=Unknown error
+translation=Eroare necunoscută
+
+[common.name-export]
+original=Export your data
+translation=Exportați datele
+
+[common.label-learn-more]
+original=Learn more
+translation=Aflați mai multe
+
+[common.button-instructions]
+original=Instructions
+translation=Instrucțiuni
+
+[common.button-open]
+original=Open
+translation=Deschideți
+
+[common.status-processing]
+original=Processing {{name}}
+translation=Se procesează {{name}}
+
+[common.status-importing-note]
+original=Importing note {{name}}
+translation=Se importă însemnarea {{name}}
+
+[common.status-importing-attachment]
+original=Importing attachment {{name}}
+translation=Se importă atașamentul {{name}}
+
+[common.status-cancelled]
+original=Import cancelled
+translation=Import anulat
+
+[reason.already-in-vault]
+original=it is already in the vault
+translation=se află deja în seif
+
+[reason.unchanged-since-import]
+original=it has not changed since the last import
+translation=nu s-a schimbat de la ultimul import
+
+[reason.edited-since-import]
+original=it has been edited in Obsidian since the last import
+translation=a fost editată în Obsidian de la ultimul import
+
+[reason.file-not-in-vault]
+original=The imported file did not appear in the vault.
+translation=Fișierul importat nu a apărut în seif.
+
+[reason.folder-not-created]
+original=Failed to create folder at "{{path}}"
+translation=Eșuat la crearea directorului la "{{path}}"
+
+[tree.button-select-all]
+original=Select all
+translation=Selectează tot
+
+[tree.button-deselect-all]
+original=Deselect all
+translation=Deselectează tot
+
+[tree.button-load]
+original=Load
+translation=Încarcă
+
+[tree.button-loading]
+original=Loading...
+translation=Se încarcă...
+
+[tree.button-refresh]
+original=Refresh
+translation=Reîmprospătare
+
+[tree.placeholder-filter]
+original=Filter...
+translation=Filtrează...
+
+[tree.msg-no-matches]
+original=No results found.
+translation=Nu am găsit niciun rezultat.
+
+[request.msg-unauthorized]
+original={{service}} did not accept the request for {{subject}}. {{credential}}
+translation={{service}} nu a acceptat cererea pentru {{subject}}. {{credential}}
+
+[request.msg-forbidden]
+original={{service}} would not give access to {{subject}}. {{credential}}
+translation={{service}} nu a acordat acces la {{subject}}. {{credential}}
+
+[request.msg-not-found]
+original={{service}} could not find {{subject}}.
+translation={{service}} nu a putut găsi {{subject}}.
+
+[request.msg-rate-limited]
+original={{service}} is limiting how fast {{subject}} can be read. Wait a few minutes and try again.
+translation={{service}} limitează viteza cu care {{subject}} poate fi citit. Așteptați câteva minute și încercați din nou.
+
+[request.msg-timed-out]
+original={{service}} took too long to return {{subject}}. Try again shortly.
+translation={{service}} a durat prea mult pentru a returna {{subject}}. Încercați din nou în curând.
+
+[request.msg-unavailable]
+original={{service}} could not return {{subject}} right now. Try again shortly.
+translation={{service}} nu a putut returna {{subject}} momentan. Încercați din nou în curând.
+
+[request.msg-failed-with-code]
+original=Could not read {{subject}}: {{message}} ({{code}})
+translation=Nu s-a putut citi {{subject}}: {{message}} ({{code}})
+
+[request.msg-failed-with-message]
+original=Could not read {{subject}}: {{message}}
+translation=Nu s-a putut citi {{subject}}: {{message}}
+
+[request.msg-failed-with-reported-code]
+original=Could not read {{subject}}. {{service}} reported {{code}}.
+translation=Nu s-a putut citi {{subject}}. {{service}} a raportat {{code}}.
+
+[request.msg-failed]
+original=Could not read {{subject}}.
+translation=Nu s-a putut citi {{subject}}.
+
+[template.msg-intro]
+original=Configure how your data should be imported. Use {{syntax}} syntax to reference field values.
+translation=Configurează modul în care datele tale ar trebui importate. Folosește sintaxa {{syntax}} pentru a referi valorile câmpurilor.
+
+[template.msg-note-template-intro]
+original=Review examples of how your notes will be imported.
+translation=Examinați exemple de cum vor fi importate însemnările dvs.
+
+[template.name-title]
+original=Note title
+translation=Rename file
+
+[template.desc-title]
+original=Template for the note title. Use variables like {{field_name}} to insert values.
+translation=Șablon pentru titlul însemnării. Utilizați variabile precum {{field_name}} pentru a introduce valori.
+
+[template.name-location]
+original=Note location
+translation=Destinația însemnării
+
+[template.desc-location]
+original=Template for note location/path. Use {{field_name}} to organize notes.
+translation=Șablon pentru destinația/calea însemnării. Folosește {{field_name}} pentru a organiza însemnările.
+
+[template.name-content]
+original=Note content
+translation=Conținutul însemnării
+
+[template.desc-content]
+original=Template for the note content. Use variables like {{field_name}} to insert values.
+translation=Șablon pentru conținutul însemnării. Utilizați variabile precum {{field_name}} pentru a introduce valori.
+
+[template.name-template-file]
+original=Template
+translation=șablon
+
+[template.desc-template-file]
+original=Optional. Choose a template from your vault to format the note content. See Help for {{link}}.
+translation=Opțional. Alege un șablon din seiful tău pentru a formata conținutul însemnării. Consultă Ajutor pentru {{link}}.
+
+[template.link-template-syntax]
+original=template syntax
+translation=sintaxa șablonului
+
+[template.heading-preview]
+original=Preview
+translation=Previzualizați
+
+[template.status-loading-preview]
+original=Loading preview...
+translation=Se încarcă previzualizarea...
+
+[template.button-edit-template]
+original=Edit
+translation=Editați
+
+[template.button-save-template]
+original=Save
+translation=Salvează
+
+[template.button-reset-template]
+original=Reset to default
+translation=Resetare la implicit
+
+[template.button-start-import]
+original=Start import
+translation=Începe importul
+
+[template.link-show-more]
+original=Show more
+translation=Afișează mai multe
+
+[template.name-template-editor]
+original=Template source
+translation=Sursă șablon
+
+[template.label-edit-import-template]
+original=Edit import template
+translation=Editați șablonul de import
+
+[template.button-add-property]
+original=Add property
+translation=Adaugă proprietate
+
+[template.button-previous-preview]
+original=Previous preview
+translation=Previzualizare anterioară
+
+[template.button-next-preview]
+original=Next preview
+translation=Previzualizare următoare
+
+[template.msg-diagnostic]
+original=Line {{line}}: {{message}}
+translation=Linia {{line}}: {{message}}
+
+[template.heading-properties]
+original=Properties
+translation=Proprietăți
+
+[template.column-property-name]
+original=Property name
+translation=Numele proprietății
+
+[template.column-property-value]
+original=Property value
+translation=Valoarea proprietății
+
+[template.column-example]
+original=Example
+translation=Exemplu
+
+[template.action-delete-property]
+original=Delete property
+translation=Șterge proprietatea
+
+[template.msg-title-required]
+original=Please provide a note title template.
+translation=Vă rugăm să furnizați un șablon pentru titlul însemnării.
+
+[importer.airtable-api.name]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.option-text]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-id]
+original=Airtable record ID
+translation=ID înregistrare Airtable
+
+[importer.airtable-api.name-token]
+original=Airtable personal access token
+translation=Token de acces personal Airtable
+
+[importer.airtable-api.desc-token]
+original=Create a personal access token in your Airtable account settings.
+translation=Creați un token de acces personal în setările contului dvs. Airtable.
+
+[importer.airtable-api.link-get-token]
+original=Get token
+translation=Obține token
+
+[importer.airtable-api.name-tables]
+original=Tables to import
+translation=Tabele de importat
+
+[importer.airtable-api.desc-tables]
+original=Load your Airtable bases and tables, then choose what to import.
+translation=Încarcă bazele și tabelele Airtable, apoi alege ce să imporți.
+
+[importer.airtable-api.hint-tables]
+original=Load your Airtable bases and tables to get started.
+translation=Încarcă bazele și tabelele Airtable pentru a începe.
+
+[importer.airtable-api.msg-fetching-bases]
+original=Fetching bases...
+translation=Se preiau bazele...
+
+[importer.airtable-api.msg-no-bases]
+original=No bases found.
+translation=Nu s-au găsit baze.
+
+[importer.airtable-api.label-service]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-subject]
+original=your bases
+translation=bazele tale
+
+[importer.airtable-api.label-credential]
+original=Check that your personal access token is current and has access to them.
+translation=Verifică dacă tokenul tău de acces personal este valid și are acces la ele.
+
+[importer.airtable-api.name-formulas]
+original=Convert formulas
+translation=Convertește formulele
+
+[importer.airtable-api.desc-formulas]
+original=Try to convert formulas to Obsidian syntax, or import as static values.
+translation=Încearcă să convertească formulele în sintaxă Obsidian sau importă ca valori statice.
+
+[importer.airtable-api.option-formula-hybrid]
+original=Obsidian syntax (with fallback)
+translation=Sintaxă Obsidian (cu fallback)
+
+[importer.airtable-api.option-formula-static]
+original=Static values only
+translation=Doar valori statice
+
+[importer.airtable-api.name-download-attachments]
+original=Download attachments
+translation=Descarcă atașamentele
+
+[importer.airtable-api.desc-download-attachments]
+original=Download attachment files to local vault. If disabled or download fails, external URLs will be used.
+translation=Descarcă fișierele atașament în seiful local. Dacă este dezactivat sau descărcarea eșuează, vor fi utilizate URL-urile externe.
+
+[importer.airtable-api.name-view-property]
+original=View property name
+translation=Numele proprietății de vizualizare
+
+[importer.airtable-api.desc-view-property]
+original=Property name to track which views a record belongs to. Each record will have a list of view names it appears in.
+translation=Numele proprietății pentru a urmări căror vizualizări aparține o înregistrare. Fiecare înregistrare va avea o listă cu numele vizualizărilor în care apare.
+
+[importer.airtable-api.msg-token-first]
+original=Please enter your Airtable personal access token first.
+translation=Vă rugăm să introduceți mai întâi tokenul de acces personal Airtable.
+
+[importer.airtable-api.msg-token-missing]
+original=Please enter your Airtable personal access token.
+translation=Vă rugăm să introduceți tokenul de acces personal Airtable.
+
+[importer.airtable-api.msg-load-bases-failed]
+original=Failed to load bases: {{error}}
+translation=Eșuat la încărcarea bazelor: {{error}}
+
+[importer.airtable-api.msg-load-tables-failed]
+original=Failed to load tables for "{{base}}": {{error}}
+translation=Eșuat la încărcarea tabelelor pentru "{{base}}": {{error}}
+
+[importer.airtable-api.msg-pick-table]
+original=Please select at least one table to import.
+translation=Vă rugăm să selectați cel puțin un tabel pentru import.
+
+[importer.airtable-api.msg-loading-fields]
+original=Loading fields...
+translation=Se încarcă câmpurile...
+
+[importer.airtable-api.msg-no-fields]
+original=No fields found in selected tables. Please check your selection.
+translation=Nu s-au găsit câmpuri în tabelele selectate. Verificați selecția.
+
+[importer.airtable-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=Importul a eșuat: {{error}}
+
+[importer.airtable-api.label-base-position]
+original= (base {{index}} of {{total}})
+translation= (baza {{index}} din {{total}})
+
+[importer.airtable-api.label-base]
+original=Base: {{name}}
+translation=Bază: {{name}}
+
+[importer.airtable-api.label-linked-table]
+original=Linked table: {{name}}
+translation=Tabel asociat: {{name}}
+
+[importer.airtable-api.label-table-view]
+original={{table}} > {{view}}
+translation={{table}} > {{view}}
+
+[importer.airtable-api.label-import]
+original=Airtable API import
+translation=Import Airtable API
+
+[importer.airtable-api.status-connecting]
+original=Connecting to Airtable API
+translation=Se conectează la Airtable API
+
+[importer.airtable-api.status-loading-tables]
+original=Loading tables for {{base}}
+translation=Se încarcă tabelele pentru {{base}}
+
+[importer.airtable-api.status-fetching-tables]
+original=Fetching tables for base {{base}}...
+translation=Se preiau tabelele pentru baza {{base}}...
+
+[importer.airtable-api.status-found-bases]
+original=Found {{bases}} to import
+translation=S-au găsit {{bases}} de importat
+
+[importer.airtable-api.status-fetching-base]
+original=Fetching data from {{base}}{{position}}
+translation=Se preiau datele din {{base}}{{position}}
+
+[importer.airtable-api.status-preparing-records]
+original=Preparing records from {{base}}{{position}}
+translation=Se pregătesc înregistrările din {{base}}{{position}}
+
+[importer.airtable-api.status-reading-names]
+original=Reading names from {{table}}{{position}}
+translation=Citire nume din {{table}}{{position}}
+
+[importer.airtable-api.status-planning]
+original=Working out where {{table}}{{position}} goes
+translation=Se determină unde merge {{table}}{{position}}
+
+[importer.airtable-api.status-fetching-records]
+original=Fetching records from {{table}}{{position}}
+translation=Se preiau înregistrările din {{table}}{{position}}
+
+[importer.airtable-api.status-fetched-records]
+original=Fetched {{records}} from {{table}}{{position}}
+translation=S-au preluat {{records}} din {{table}}{{position}}
+
+[importer.airtable-api.status-fetching-view]
+original=Fetching view {{view}} from {{table}}{{position}}
+translation=Se preia vizualizarea {{view}} din {{table}}{{position}}
+
+[importer.airtable-api.status-creating-notes]
+original=Creating notes in {{table}}{{position}}
+translation=Se creează însemnări în {{table}}{{position}}
+
+[importer.airtable-api.status-updating-types]
+original=Updating property types
+translation=Se actualizează tipurile de proprietate
+
+[importer.airtable-api.status-complete]
+original=Import complete
+translation=Import finalizat
+
+[importer.airtable-api.status-rate-limited]
+original=Rate limited, waiting {{seconds}}s (attempt {{attempt}}/{{total}})...
+translation=Limită de rată atinsă, se așteaptă {{seconds}}s (încercarea {{attempt}}/{{total}})...
+
+[importer.airtable-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}
+translation=Se descarcă atașamentul: {{name}}
+
+[importer.airtable-api.reason-no-record-names]
+original=Could not read record names
+translation=Nu s-au putut citi numele înregistrărilor
+
+[importer.airtable-api.reason-empty-record]
+original=Empty record
+translation=Înregistrare goală
+
+[importer.airtable-api.desc-no-modified-time]
+original=Airtable does not say when a record last changed, so "{{update}}" compares the note with the record instead. A note you have edited yourself reads as changed, and will be written over.
+translation=Airtable nu indică momentul ultimei modificări a unei înregistrări, așa că "{{update}}" compară însemnarea cu înregistrarea. O însemnare pe care ați editat-o apare ca schimbată și va fi suprascrisă.
+
+[importer.apple-notes.name]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.option-text]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.label-id]
+original=Apple Notes ID
+translation=Apple Notes ID
+
+[importer.apple-notes.msg-platform]
+original=Due to platform limitations, Apple Notes cannot be exported from this device. Open your vault on a Mac to export from Apple Notes.
+translation=Din cauza limitărilor platformei, Apple Notes nu poate fi exportat de pe acest dispozitiv. Deschideți seiful pe un Mac pentru a exporta din Apple Notes.
+
+[importer.apple-notes.name-prefix-format]
+original=File prefix format
+translation=Format prefix fișier
+
+[importer.apple-notes.desc-prefix-format]
+original=Format for the creation date prefix in filenames. Use YYYY, MM, DD for year, month, day. Leave blank for no prefix.
+translation=Formatare pentru prefixul datei de creare în numele fișierelor. Folosiți YYYY, MM, DD pentru an, lună, zi. Lăsați gol pentru fără prefix.
+
+[importer.apple-notes.name-omit-first-line]
+original=Omit first line
+translation=Omite prima linie
+
+[importer.apple-notes.desc-omit-first-line]
+original=Don't include the first line in the text, since Apple Notes uses it as the title. It will still be used as the note name.
+translation=Nu include prima linie în text, deoarece Apple Notes o folosește ca titlu. Va fi totuși folosită ca nume al însemnării.
+
+[importer.apple-notes.name-handwriting]
+original=Include handwriting text
+translation=Include textul scris de mână
+
+[importer.apple-notes.desc-handwriting]
+original=When Apple Notes has detected handwriting in drawings, include it as text before the drawing.
+translation=Când Apple Notes a detectat scriere de mână în desene, include-o ca text înaintea desenului.
+
+[importer.apple-notes.name-data-folder]
+original=Apple Notes data folder
+translation=Directorul de date Apple Notes
+
+[importer.apple-notes.desc-data-folder]
+original=macOS only lets Obsidian read your notes once you have pointed it at the folder they are kept in.
+translation=macOS permite lui Obsidian să vă citească însemnările doar după ce i-ați indicat directorul în care sunt păstrate.
+
+[importer.apple-notes.button-select-folder]
+original=Select folder
+translation=Selectați directorul
+
+[importer.apple-notes.msg-wrong-folder]
+original=Ensure you have selected the correct Apple Notes data folder.
+translation=Asigurați-vă că ați selectat directorul corect de date Apple Notes.
+
+[importer.apple-notes.msg-dialog-folder]
+original=Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data.
+translation=Selectați directorul "group.com.apple.notes" pentru a permite lui Obsidian să citească datele Apple Notes.
+
+[importer.apple-notes.msg-import-failed]
+original=Data import failed. Ensure you have selected the correct Apple Notes data folder.
+translation=Importul datelor a eșuat. Asigurați-vă că ați selectat directorul corect de date Apple Notes.
+
+[importer.apple-notes.msg-pick-folders]
+original=Please select at least one folder to import.
+translation=Vă rugăm să selectați cel puțin un director pentru import.
+
+[importer.apple-notes.name-folders]
+original=Folders to import
+translation=Directoare de importat
+
+[importer.apple-notes.desc-folders]
+original=Pick the folders whose notes to bring across.
+translation=Alegeți directoarele ale căror însemnări doriți să le transferați.
+
+[importer.apple-notes.msg-no-access]
+original=Allow access to your notes to see the folders in them.
+translation=Permiteți accesul la însemnările dvs. pentru a vedea directoarele din ele.
+
+[importer.apple-notes.msg-no-folders]
+original=No folders found.
+translation=Nu s-au găsit directoare.
+
+[importer.apple-notes.msg-database-busy]
+original=Your Apple Notes database is in use. Quit Notes and try again.
+translation=Baza de date Apple Notes este în uz. Închideți Notes și încercați din nou.
+
+[importer.apple-notes.msg-database-unreadable]
+original=Could not open your Apple Notes database. {{hint}}
+translation=Nu s-a putut deschide baza de date Apple Notes. {{hint}}
+
+[importer.apple-notes.msg-read-failed-with-detail]
+original=Could not read your notes: {{detail}}
+translation=Nu s-au putut citi însemnările dvs.: {{detail}}
+
+[importer.apple-notes.msg-read-failed]
+original=Could not read your notes.
+translation=Nu s-au putut citi însemnările dvs.
+
+[importer.apple-notes.reason-password-protected]
+original=note is password protected
+translation=însemnarea este protejată cu parolă
+
+[importer.apple-notes.reason-duplicate]
+original=note is a duplicate
+translation=însemnarea este un duplicat
+
+[importer.apple-notes.reason-unchanged]
+original=note unchanged since last import
+translation=însemnarea nu s-a modificat de la ultimul import
+
+[importer.apple-notes.reason-attachment-exists]
+original=attachment already exists
+translation=atașamentul există deja
+
+[importer.apple-notes.reason-attachment-unchanged]
+original=attachment unchanged since last import
+translation=atașamentul nu s-a modificat de la ultimul import
+
+[importer.apple-notes.reason-not-downloaded]
+original=it has not been downloaded from iCloud - open the note in Apple Notes to fetch it
+translation=nu a fost descărcat din iCloud - deschideți însemnarea în Apple Notes pentru a o prelua
+
+[importer.apple-notes.label-attachment]
+original=Attachment {{id}}
+translation=Atașament {{id}}
+
+[importer.apple-notes.reason-no-attachment-row]
+original=no {{uti}} row to read it from
+translation=nu există niciun rând {{uti}} din care să fie citit
+
+[importer.apple-notes.label-attachment-in-note]
+original={{name}} in {{note}}
+translation={{name}} în {{note}}
+
+[importer.apple-journal.name]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.option-text]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.file-type]
+original=Journal entries
+translation=Intrări din jurnal
+
+[importer.apple-journal.desc-files]
+original=Export your entries from the Journal app, then pick the HTML files it wrote to iCloud Drive.
+translation=Exportă intrările din Journal app, apoi alege fișierele HTML scrise în iCloud Drive.
+
+[importer.apple-journal.heading-metadata]
+original=Journal metadata
+translation=Metadate Journal
+
+[importer.apple-journal.name-front-matter]
+original=Add metadata as frontmatter
+translation=Adăugați metadatele ca metadate inițiale
+
+[importer.apple-journal.desc-front-matter]
+original=Capture state-of-mind, contact, and similar tokens in YAML when available.
+translation=Capturează starea de spirit, contactul și alte informații similare în YAML când sunt disponibile.
+
+[importer.apple-journal.reason-index-file]
+original=index file is not a journal entry
+translation=fișierul index nu este o intrare de jurnal
+
+[importer.bear.name]
+original=Bear
+translation=Bear
+
+[importer.bear.option-text]
+original=Bear (.bear2bk, .zip)
+translation=Bear (.bear2bk, .zip)
+
+[importer.bear.file-type]
+original=Bear backups
+translation=Copii de rezervă Bear
+
+[importer.bear.label-id]
+original=Bear ID
+translation=ID Bear
+
+[importer.bear.desc-export]
+original=Back up your notes in Bear and choose the resulting .bear2bk file. On iPhone and iPad, you can also export Application Data and choose its .zip file.
+translation=Fă o copie de rezervă a însemnărilor tale în Bear și alege fișierul .bear2bk rezultat. Pe iPhone și iPad, poți de asemenea exporta Application Data și alege fișierul .zip corespunzător.
+
+[importer.bear.name-tags-property]
+original=Move tags to a property
+translation=Mută etichetele într-o proprietate
+
+[importer.bear.desc-tags-property]
+original=When enabled, tags are taken out of the note and listed in its tags property. Bear keeps tags in the text of a note, and Obsidian reads them there too.
+translation=Când este activat, etichetele sunt extrase din însemnare și listate în proprietatea Etichete. Bear păstrează etichetele în textul unei însemnări, iar Obsidian le citește și de acolo.
+
+[importer.bear.name-flatten-tags]
+original=Flatten nested tags
+translation=Aplatizează etichetele imbricate
+
+[importer.bear.desc-flatten-tags]
+original=When enabled, tags will be split on slashes (/) during import.
+translation=Când este activat, etichetele vor fi separate la barele oblice (/) în timpul importului.
+
+[importer.bear.status-importing-asset]
+original=Importing asset {{name}}
+translation=Se importă resursa {{name}}
+
+[importer.bear.status-updating-links]
+original=Updating internal links…
+translation=Se actualizează legăturile interne…
+
+[importer.bear.reason-unknown-type]
+original=unknown type of file
+translation=tip de fișier necunoscut
+
+[importer.bear.reason-encrypted]
+original=encrypted note
+translation=însemnare criptată
+
+[importer.bear.reason-missing-attachment]
+original=the attachment is missing from the export
+translation=atașamentul lipsește din export
+
+[importer.csv.name]
+original=CSV
+translation=CSV
+
+[importer.csv.option-text]
+original=CSV (.csv)
+translation=CSV (.csv)
+
+[importer.csv.file-type]
+original=CSV
+translation=CSV
+
+[importer.csv.desc-export]
+original=Export your table as CSV from the app it lives in, such as Excel, Google Sheets, Numbers, Notion, or Airtable.
+translation=Exportați tabelul ca CSV din aplicația în care se află, cum ar fi Excel, Google Sheets, Numbers, Notion sau Airtable.
+
+[importer.csv.name-header-row]
+original=CSV has header row
+translation=CSV are rând de antet
+
+[importer.csv.desc-header-row]
+original=If enabled, the first row of the CSV file will be treated as column headers.
+translation=Dacă este activat, primul rând al fișierului CSV va fi tratat ca anteturi de coloană.
+
+[importer.csv.name-source-title]
+original=Source title
+translation=Titlu sursă
+
+[importer.csv.desc-source-title]
+original=Creates the {{title}} value used by the final note title template. Use CSV column variables like {{column_name}}.
+translation=Creează valoarea {{title}} utilizată de șablonul final al titlului însemnării. Utilizați variabile de coloană CSV precum {{column_name}}.
+
+[importer.csv.msg-pick-file]
+original=Please pick at least one CSV file to import.
+translation=Selectați cel puțin un fișier CSV pentru import.
+
+[importer.csv.msg-one-at-a-time]
+original=CSV files must be imported one at a time.
+translation=Fișierele CSV trebuie importate câte unul pe rând.
+
+[importer.csv.msg-no-data]
+original=No data found in {{name}}.
+translation=Nu s-au găsit date în {{name}}.
+
+[importer.csv.msg-no-configuration]
+original=Configuration is missing.
+translation=Configurația lipsește.
+
+[importer.csv.status-parsing]
+original=Parsing {{name}}
+translation=Se analizează {{name}}
+
+[importer.csv.status-creating-note]
+original=Creating note: {{title}}
+translation=Se creează însemnarea: {{title}}
+
+[importer.csv.label-row]
+original=Row {{number}}
+translation=Rând {{number}}
+
+[importer.csv.reason-empty-title]
+original=Empty title
+translation=Titlu gol
+
+[importer.files.name]
+original=Files and folders
+translation=Fișiere și foldere
+
+[importer.files.option-text]
+original=Copy files and folders into your vault
+translation=Copiază fișiere și foldere în seiful tău
+
+[importer.files.name-source]
+original=Files to copy
+translation=Fișiere de copiat
+
+[importer.files.desc-source]
+original=Drop files or folders anywhere in the window to copy them into your vault.
+translation=Plasați fișiere sau foldere oriunde în fereastră pentru a le copia în seiful dumneavoastră.
+
+[importer.evernote.name]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.option-text]
+original=Evernote (.enex)
+translation=Evernote (.enex)
+
+[importer.evernote.file-type]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.desc-export]
+original=Export your notebooks in ENEX format, you will receive one .enex file per notebook.
+translation=Exportați-vă caietele în format ENEX, veți primi câte un fișier .enex pentru fiecare caiet.
+
+[importer.evernote.msg-unresolved-links]
+original={{count}} link could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} legătură nu a putut fi asociată cu o însemnare. Un export ENEX nu indică spre ce însemnare duce o legătură, ci doar titlul afișat în Evernote, astfel că o însemnare redenumită de la crearea legăturii nu mai corespunde. Obsidian le listează la legături nerezolvate.
+
+[importer.evernote.msg-unresolved-links_plural]
+original={{count}} links could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} legături nu au putut fi asociate cu o însemnare. Un export ENEX nu indică spre ce însemnare duce o legătură, ci doar titlul afișat în Evernote, astfel că o însemnare redenumită de la crearea legăturii nu mai corespunde. Obsidian le listează la legături nerezolvate.
+
+[importer.keep.name]
+original=Google Keep
+translation=Google Keep
+
+[importer.keep.option-text]
+original=Google Keep (.zip, .json)
+translation=Google Keep (.zip, .json)
+
+[importer.keep.file-type]
+original=Notes & attachments
+translation=Însemnări și atașamente
+
+[importer.keep.desc-export]
+original=Get your Google Keep data from Google Takeout.
+translation=Obțineți datele din Google Keep folosind Google Takeout.
+
+[importer.keep.name-archived]
+original=Import archived notes
+translation=Importă însemnările arhivate
+
+[importer.keep.desc-archived]
+original=If imported, files archived in Google Keep will be tagged as archived.
+translation=Dacă sunt importate, fișierele arhivate în Google Keep vor fi etichetate ca arhivate.
+
+[importer.keep.name-deleted]
+original=Import deleted notes
+translation=Importă însemnările șterse
+
+[importer.keep.desc-deleted]
+original=If imported, files deleted in Google Keep will be tagged as deleted. Deleted notes will only exist in your Google export if deleted recently.
+translation=Dacă sunt importate, fișierele șterse din Google Keep vor fi etichetate ca șterse. Însemnările șterse vor exista în exportul Google doar dacă au fost șterse recent.
+
+[importer.keep.reason-invalid-json]
+original=Invalid Google Keep JSON
+translation=JSON Google Keep invalid
+
+[importer.keep.reason-archived]
+original=Archived note
+translation=Însemnare arhivată
+
+[importer.keep.reason-deleted]
+original=Deleted note
+translation=Însemnare ștearsă
+
+[importer.html.name]
+original=HTML files
+translation=Fișiere HTML
+
+[importer.html.option-text]
+original=HTML (.html, .zip)
+translation=HTML (.html, .zip)
+
+[importer.html.label-id]
+original=HTML source path
+translation=Calea sursei HTML
+
+[importer.html.desc-source-identity]
+original=Changing which folder or zip file you choose can change the source path, so existing notes may not be recognized.
+translation=Schimbarea directorului sau a fișierului zip ales poate modifica calea sursei, astfel încât notele existente ar putea să nu fie recunoscute.
+
+[importer.html.file-type]
+original=HTML
+translation=HTML
+
+[importer.html.desc-export]
+original=Save the pages you want to keep as HTML. If the app they are in has an importer of its own, use that instead: it keeps more of your data.
+translation=Salvați paginile pe care doriți să le păstrați ca HTML. Dacă aplicația în care se află are un importator propriu, folosiți-l pe acela: păstrează mai multe din datele dvs.
+
+[importer.html.desc-source]
+original=Choose individual HTML files, whole folders, or zip files. Pages in folders stay organized the same way.
+translation=Alegeți fișiere HTML individuale, directoare întregi sau fișiere zip. Paginile din directoare își păstrează aceeași organizare.
+
+[importer.html.name-extract-main-content]
+original=Extract main content
+translation=Extrage conținutul principal
+
+[importer.html.desc-extract-main-content]
+original=Remove navigation, sidebars, footers, and other page clutter.
+translation=Elimină navigarea, barele laterale, subsolurile și alte elemente de dezordine din pagină.
+
+[importer.html.name-size-limit]
+original=Attachment size limit (MB)
+translation=Limita de dimensiune a atașamentelor (MB)
+
+[importer.html.name-minimum-image-size]
+original=Minimum image size (px)
+translation=Dimensiunea minimă a imaginii (px)
+
+[importer.html.desc-set-zero-to-disable]
+original=Set 0 to disable.
+translation=Setați 0 pentru a dezactiva.
+
+[importer.html.status-downloading]
+original=Downloading attachment for {{name}}
+translation=Se descarcă atașamentul pentru {{name}}
+
+[importer.markdown.name]
+original=Markdown
+translation=Markdown
+
+[importer.markdown.option-text]
+original=Markdown (.md, .txt, .zip)
+translation=Markdown (.md, .txt, .zip)
+
+[importer.markdown.file-type]
+original=Markdown and text
+translation=Markdown și Text
+
+[importer.markdown.desc-source]
+original=Choose individual Markdown or text files, whole folders, or zip files. Everything in folders stays organized the same way.
+translation=Alege fișiere Markdown sau Text individuale, foldere întregi sau fișiere zip. Tot ce se află în foldere rămâne organizat în același mod.
+
+[importer.markdown.name-standardize-formatting]
+original=Standardize formatting
+translation=Standardizează formatarea
+
+[importer.markdown.desc-standardize-formatting]
+original=Use this vault's settings for lists, indentation, and links.
+translation=Folosește setările acestui seif pentru liste, indentare și legături.
+
+[importer.markdown.name-tags-as-properties]
+original=Convert inline tags to properties
+translation=Convertește etichetele inline în proprietăți
+
+[importer.markdown.desc-tags-as-properties]
+original=Move tags written in the body of a note into its tags property.
+translation=Mută etichetele scrise în corpul unei însemnări în proprietatea de etichete a acesteia.
+
+[importer.logseq.name]
+original=Logseq
+translation=Logseq
+
+[importer.logseq.option-text]
+original=Logseq (.md)
+translation=Logseq (.md)
+
+[importer.logseq.label-id]
+original=Logseq source
+translation=Sursă Logseq
+
+[importer.logseq.desc-instructions]
+original=Read the instructions for importing from Logseq.
+translation=Citește instrucțiunile pentru importul din Logseq.
+
+[importer.logseq.desc-files]
+original=Choose one graph folder containing pages, journals, and assets.
+translation=Alege un director de graf care conține pagini, jurnale și resurse.
+
+[importer.logseq.name-use-daily-notes]
+original=Use daily notes settings
+translation=Utilizează setările pentru Note zilnice
+
+[importer.logseq.desc-use-daily-notes]
+original=Write journals to the configured daily notes folder and filename format.
+translation=Scrie jurnalele în directorul configurat pentru Note zilnice și în formatul de denumire a fișierelor.
+
+[importer.logseq.name-queries]
+original=Keep queries
+translation=Păstrează interogările
+
+[importer.logseq.desc-queries]
+original=Obsidian doesn't support Logseq's query format, so queries are imported as code blocks.
+translation=Obsidian nu acceptă formatul de interogare al Logseq, așa că interogările sunt importate ca blocuri de Cod.
+
+[importer.logseq.name-flashcards]
+original=Keep flashcards
+translation=Păstrează cardurile de învățare
+
+[importer.logseq.desc-flashcards]
+original=Obsidian doesn't support Logseq's flashcards, so card markers and cloze wrappers are imported as plain text.
+translation=Obsidian nu acceptă cardurile de învățare Logseq, așa că Marcatori de carduri și marcajele cloze sunt importate ca text simplu.
+
+[importer.logseq.name-time-tracking]
+original=Keep time tracking
+translation=Păstrează urmărirea timpului
+
+[importer.logseq.desc-time-tracking]
+original=Obsidian doesn't support Logseq's time tracking, so LOGBOOK and CLOCK entries are imported as plain text.
+translation=Obsidian nu acceptă urmărirea timpului din Logseq, așa că intrările LOGBOOK și CLOCK sunt importate ca text simplu.
+
+[importer.logseq.msg-pick-graph]
+original=Please choose one Logseq graph folder.
+translation=Te rugăm să alegi un director de graf Logseq.
+
+[importer.logseq.msg-no-notes]
+original=The selected folder has no Markdown notes under pages or journals.
+translation=Directorul selectat nu conține note Markdown în directoarele pages sau journals.
+
+[importer.logseq.reason-empty-page]
+original=The converted page is empty
+translation=Pagina convertită este goală
+
+[importer.logseq.reason-missing-asset]
+original=Referenced by {{name}}, but missing from the graph
+translation=Referit de {{name}}, dar lipsește din graf
+
+[importer.logseq.reason-whiteboards]
+original=Logseq whiteboards are not supported by Obsidian
+translation=Tablele albe Logseq nu sunt acceptate de Obsidian
+
+[importer.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.option-text]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.method-name]
+original=Microsoft account
+translation=Cont Microsoft
+
+[importer.onenote.method-desc]
+original=Sign into your Microsoft account and import the notebooks that are synced to OneDrive. Requires an internet connection.
+translation=Autentificați-vă în contul Microsoft și importați caietele sincronizate cu OneDrive. Necesită conexiune la internet.
+
+[importer.onenote.label-id]
+original=OneNote ID
+translation=ID OneNote
+
+[importer.onenote.name-incompatible]
+original=Import incompatible attachments
+translation=Importă atașamente incompatibile
+
+[importer.onenote.desc-incompatible]
+original=Imports incompatible attachments which cannot be embedded in Obsidian, such as .exe files.
+translation=Importă atașamente incompatibile care nu pot fi încorporate în Obsidian, cum ar fi fișierele .exe.
+
+[importer.onenote.name-account]
+original=Microsoft account
+translation=Cont Microsoft
+
+[importer.onenote.desc-sign-in]
+original=Sign in to import your OneNote notebooks.
+translation=Autentificați-vă pentru a importa caietele OneNote.
+
+[importer.onenote.desc-sign-in-organization]
+original=Sign in to import your OneNote notebooks. A work or school account may need your organization to approve access.
+translation=Autentificați-vă pentru a importa caietele OneNote. Un cont de serviciu sau școlar poate necesita aprobarea organizației dumneavoastră.
+
+[importer.onenote.desc-signed-in]
+original=Signed in as {{name}} ({{email}}).
+translation=Autentificat ca {{name}} ({{email}}).
+
+[importer.onenote.button-sign-in]
+original=Sign in
+translation=Autentificați-vă
+
+[importer.onenote.button-sign-out]
+original=Sign out
+translation=Deconectare
+
+[importer.onenote.button-work-account]
+original=Use work or school access
+translation=Folosiți acces de serviciu sau școlar
+
+[importer.onenote.msg-sign-in-failed]
+original=An error occurred while trying to sign you in.
+translation=A apărut o eroare la autentificare.
+
+[importer.onenote.msg-sign-in-details]
+original=Show error details
+translation=Afișează detaliile erorii
+
+[importer.onenote.msg-signed-out]
+original=Sign in to see your OneNote notebooks.
+translation=Autentificați-vă pentru a vedea caietele OneNote.
+
+[importer.onenote.msg-please-sign-in]
+original=Please sign in to your Microsoft account.
+translation=Vă rugăm să vă autentificați în contul Microsoft.
+
+[importer.onenote.name-sections]
+original=Sections to import
+translation=Secțiuni de importat
+
+[importer.onenote.desc-sections]
+original=Select a notebook, or sections within it.
+translation=Selectați un caiet sau secțiuni din acesta.
+
+[importer.onenote.msg-loading-notebooks]
+original=Loading notebooks...
+translation=Se încarcă caietele...
+
+[importer.onenote.msg-no-notebooks]
+original=No notebooks found.
+translation=Nu s-au găsit caiete.
+
+[importer.onenote.msg-scope-refused]
+original=OneNote did not grant this sign-in access to your notebooks. Sign out and sign in again to ask for work or school access, which your organization may need to approve.
+translation=OneNote nu a acordat acestei autentificări acces la caietele dumneavoastră. Deconectați-vă și autentificați-vă din nou pentru a solicita acces de serviciu sau școlar, care poate necesita aprobarea organizației dumneavoastră.
+
+[importer.onenote.label-service]
+original=OneNote
+translation=OneNote
+
+[importer.onenote.label-subject]
+original=your notebooks
+translation=caietele dumneavoastră
+
+[importer.onenote.label-credential]
+original=Sign out and back in to try again.
+translation=Deconectați-vă și autentificați-vă din nou pentru a reîncerca.
+
+[importer.onenote.status-finding]
+original=Finding notes to import
+translation=Se caută notițele de importat
+
+[importer.onenote.status-finding-in]
+original=Finding notes in {{section}}
+translation=Se caută notițe în {{section}}
+
+[importer.onenote.status-finding-in-section]
+original=Finding notes in {{section}} (section {{index}} of {{total}})
+translation=Se caută notițe în {{section}} (secțiunea {{index}} din {{total}})
+
+[importer.onenote.status-importing-notes]
+original=Importing {{notes}}
+translation=Se importă {{notes}}
+
+[importer.onenote.status-downloading]
+original=Downloading attachment {{name}}
+translation=Se descarcă atașamentul {{name}}
+
+[importer.onenote.msg-too-many-errors]
+original=Microsoft OneNote returned too many consecutive errors.
+translation=Microsoft OneNote a returnat prea multe erori consecutive.
+
+[importer.onenote.label-unknown-page]
+original=<unknown>
+translation=<necunoscut>
+
+[importer.onenote.reason-too-many-failures]
+original=import was canceled (after too many pages failed to load)
+translation=importul a fost anulat (după ce prea multe pagini nu au putut fi încărcate)
+
+[importer.onenote.label-ink]
+original={{page}} - Ink.svg
+translation={{page}} - Ink.svg
+
+[importer.onenote.label-attachment]
+original=OneNote attachment
+translation=Atașament OneNote
+
+[importer.onenote.label-image]
+original=OneNote image
+translation=Imagine OneNote
+
+[importer.onenote.reason-no-attachment-name]
+original=the attachment did not say what it was called
+translation=atașamentul nu a specificat cum se numește
+
+[importer.onenote.reason-no-attachment-url]
+original=the attachment did not include a download URL
+translation=atașamentul nu a inclus un URL de descărcare
+
+[importer.onenote.reason-no-image-url]
+original=the image did not include a download URL
+translation=imaginea nu a inclus un URL de descărcare
+
+[importer.onenote-file.name]
+original=Microsoft OneNote (export file)
+translation=Microsoft OneNote (fișier exportat)
+
+[importer.onenote-file.option-text]
+original=Microsoft OneNote (.one, .onepkg)
+translation=Microsoft OneNote (.one, .onepkg)
+
+[importer.onenote-file.method-name]
+original=File import
+translation=Import din fișier
+
+[importer.onenote-file.method-desc]
+original=Import using OneNote export files (.one, .onepkg) from your computer. Requires no account or internet connection, and works for notebooks that were never synced.
+translation=Importă folosind fișiere de export OneNote (.one, .onepkg) de pe computer. Nu necesită cont sau conexiune la internet și funcționează pentru caietele care nu au fost niciodată sincronizate.
+
+[importer.onenote-file.file-type]
+original=OneNote export
+translation=Export OneNote
+
+[importer.onenote-file.label-id]
+original=OneNote ID
+translation=ID OneNote
+
+[importer.onenote-file.desc-backup-folder]
+original=OneNote for Windows keeps its own backups, and this opens there. Pick the notebooks or sections you want.
+translation=OneNote pentru Windows păstrează propriile copii de rezervă și se deschide acolo. Alegeți caietele sau secțiunile dorite.
+
+[importer.onenote-file.desc-export]
+original=In OneNote for Windows, right-click a notebook and export it to save a .onepkg file, or export a single section as .one.
+translation=În OneNote pentru Windows, faceți clic dreapta pe un caiet și exportați-l pentru a salva un fișier .onepkg, sau exportați o singură secțiune ca .one.
+
+[importer.onenote-file.name-sections]
+original=Sections to import
+translation=Secțiuni de importat
+
+[importer.onenote-file.desc-sections]
+original=Choose which sections to import.
+translation=Alegeți ce secțiuni să importați.
+
+[importer.onenote-file.msg-loading-sections]
+original=Reading sections…
+translation=Se citesc secțiunile…
+
+[importer.onenote-file.msg-no-sections]
+original=No sections found in this file.
+translation=Nu s-au găsit secțiuni în acest fișier.
+
+[importer.onenote-file.msg-pick-file-first]
+original=Choose a OneNote file first.
+translation=Alegeți mai întâi un fișier OneNote.
+
+[importer.onenote-file.status-reading-section]
+original=Reading {{name}}
+translation=Se citește {{name}}
+
+[importer.onenote-file.status-importing-section]
+original=Importing {{name}} ({{index}} of {{total}})
+translation=Se importă {{name}} ({{index}} din {{total}})
+
+[importer.onenote-file.reason-rights-protected]
+original=the file is rights-protected, and can only be opened by an account with permission to it
+translation=fișierul este protejat prin drepturi și poate fi deschis doar de un cont cu permisiune de acces
+
+[importer.onenote-file.reason-unsupported]
+original=the file uses a OneNote format this importer cannot read yet
+translation=fișierul folosește un format OneNote pe care acest importator nu îl poate citi încă
+
+[importer.onenote-file.reason-malformed]
+original=the file does not describe the OneNote structures it claims to
+translation=fișierul nu descrie structurile OneNote pe care pretinde că le conține
+
+[importer.onenote-file.reason-too-large]
+original=the file is larger than this importer is willing to expand
+translation=fișierul este mai mare decât este dispus acest importator să extindă
+
+[importer.onenote-file.reason-no-attachment-data]
+original=the attachment held no data
+translation=atașamentul nu conținea date
+
+[importer.notion-api.name]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.option-text]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.method-name]
+original=Notion account (recommended)
+translation=Cont Notion (Recomandat)
+
+[importer.notion-api.method-desc]
+original=Imports your entire workspace, including databases and formulas which are converted to bases. Requires a Notion integration token and an internet connection.
+translation=Importă întregul spațiu de lucru, inclusiv bazele de date și formulele, care sunt convertite în baze. Necesită un token de integrare Notion și o conexiune la internet.
+
+[importer.notion-api.label-id]
+original=Notion ID
+translation=ID Notion
+
+[importer.notion-api.name-token]
+original=Notion API token
+translation=Token API Notion
+
+[importer.notion-api.desc-token]
+original=To get an API token create a connection in Notion and give it access to pages in your workspace.
+translation=Pentru a obține un token API, creați o conexiune în Notion și acordați-i acces la paginile din spațiul de lucru.
+
+[importer.notion-api.link-get-token]
+original=Get API token
+translation=Obțineți tokenul API
+
+[importer.notion-api.name-pages]
+original=Pages to import
+translation=Pagini de importat
+
+[importer.notion-api.desc-pages]
+original=Load your Notion pages and databases, then choose what to import. If a page or database is missing, check that your Notion connection has access to it.
+translation=Încărcați paginile și bazele de date din Notion, apoi alegeți ce să importați. Dacă o pagină sau o bază de date lipsește, verificați dacă conexiunea Notion are acces la ea.
+
+[importer.notion-api.hint-pages]
+original=Load your Notion pages and databases to get started.
+translation=Încărcați paginile și bazele de date din Notion pentru a începe.
+
+[importer.notion-api.msg-loading-pages]
+original=Loading pages and databases...
+translation=Se încarcă paginile și bazele de date...
+
+[importer.notion-api.msg-no-pages]
+original=No pages or databases found. Make sure your connection has access to the pages you want to import.
+translation=Nu s-au găsit pagini sau baze de date. Asigurați-vă că conexiunea are acces la paginile pe care doriți să le importați.
+
+[importer.notion-api.label-service]
+original=Notion
+translation=Notion
+
+[importer.notion-api.label-subject]
+original=your pages
+translation=paginile dvs.
+
+[importer.notion-api.label-credential]
+original=Check that your token is current and that the connection has access to them.
+translation=Verificați că tokenul este actual și că conexiunea are acces la ele.
+
+[importer.notion-api.name-formulas]
+original=Convert formulas
+translation=Conversie formule
+
+[importer.notion-api.desc-formulas]
+original=By default Notion formulas are converted to Obsidian syntax. If any Notion syntax is not supported the static values will be saved instead. Alternatively you can import all formulas as static values.
+translation=Implicit, formulele Notion sunt convertite în sintaxă Obsidian. Dacă o sintaxă Notion nu este acceptată, valorile statice vor fi salvate în schimb. Alternativ, puteți importa toate formulele ca valori statice.
+
+[importer.notion-api.option-formula-hybrid]
+original=Obsidian syntax
+translation=Sintaxă Obsidian
+
+[importer.notion-api.option-formula-static]
+original=Static values
+translation=Valori statice
+
+[importer.notion-api.name-download-external]
+original=Download external attachments
+translation=Descarcă atașamentele externe
+
+[importer.notion-api.desc-download-external]
+original=Download external attachments (external URLs) to local files. Notion-hosted files are always downloaded.
+translation=Descarcă atașamentele externe (URL-uri externe) ca fișiere locale. Fișierele găzduite de Notion sunt Întotdeauna descărcate.
+
+[importer.notion-api.name-single-line-breaks]
+original=Single line breaks
+translation=Întreruperi de linie simple
+
+[importer.notion-api.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break instead of two. Some blocks (lists, toggles, tables) will still use double line breaks when required for proper Markdown syntax.
+translation=Separă blocurile Notion cu o singură întrerupere de linie în loc de două. Unele blocuri (liste, comutatoare, tabele) vor folosi în continuare întreruperi duble de linie când este necesar pentru sintaxa Markdown corectă.
+
+[importer.notion-api.name-cover-property]
+original=Cover property name
+translation=Numele proprietății de acoperire
+
+[importer.notion-api.desc-cover-property]
+original=Property name for page cover image in YAML frontmatter. 
+translation=Numele proprietății pentru imaginea de acoperire a paginii în metadatele inițiale YAML. 
+
+[importer.notion-api.desc-cover-property-conflicts]
+original=Leave as "cover" if you don't have conflicts with existing properties.
+translation=Lăsați ca "cover" dacă nu aveți conflicte cu proprietățile existente.
+
+[importer.notion-api.name-database-property]
+original=Database property name
+translation=Numele proprietății bazei de date
+
+[importer.notion-api.desc-database-property]
+original=Property name in page frontmatter to link pages to their database .base file (default: "base")
+translation=Numele proprietății din metadatele inițiale ale paginii pentru a lega paginile de fișierul .base al bazei de date (implicit: "base")
+
+[importer.notion-api.name-linked-databases]
+original=Import linked databases
+translation=Importă bazele de date legate
+
+[importer.notion-api.desc-linked-databases]
+original=Also import databases that the selected pages link to, so relations become links rather than names. This imports pages you did not select.
+translation=Importă și bazele de date la care paginile selectate fac referire, astfel încât relațiile devin legături în loc de nume. Aceasta importă pagini pe care nu le-ați selectat.
+
+[importer.notion-api.msg-token-first]
+original=Please enter your Notion API token first.
+translation=Vă rugăm să introduceți mai întâi tokenul API Notion.
+
+[importer.notion-api.msg-token-missing]
+original=Please enter your Notion API token.
+translation=Vă rugăm să introduceți tokenul API Notion.
+
+[importer.notion-api.msg-load-pages-failed]
+original=Failed to load pages: {{error}}
+translation=Încărcarea paginilor a eșuat: {{error}}
+
+[importer.notion-api.msg-pick-page]
+original=Please select at least one page or database to import.
+translation=Vă rugăm să selectați cel puțin o pagină sau bază de date pentru import.
+
+[importer.notion-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=Importul a eșuat: {{error}}
+
+[importer.notion-api.status-loading-items]
+original=Loading... ({{items}}, page {{page}})
+translation=Se încarcă... ({{items}}, pagina {{page}})
+
+[importer.notion-api.status-connecting]
+original=Connecting to Notion API...
+translation=Se conectează la API-ul Notion...
+
+[importer.notion-api.status-fetching]
+original=Fetching page content from Notion...
+translation=Se preia conținutul paginii din Notion...
+
+[importer.notion-api.status-preparing]
+original=Preparing to import {{items}}...
+translation=Se pregătește importul pentru {{items}}...
+
+[importer.notion-api.status-importing-items]
+original=Importing {{items}}...
+translation=Se importă {{items}}...
+
+[importer.notion-api.status-importing-item]
+original=Importing item {{index}}/{{total}}...
+translation=Se importă elementul {{index}}/{{total}}...
+
+[importer.notion-api.status-importing-title]
+original=Importing: {{title}}
+translation=Se importă: {{title}}
+
+[importer.notion-api.status-relation-links]
+original=Processing relation links...
+translation=Se procesează legăturile de relație...
+
+[importer.notion-api.status-mention-links]
+original=Processing mention links...
+translation=Se procesează legăturile de menționare...
+
+[importer.notion-api.status-synced-blocks]
+original=Processing synced block child references...
+translation=Se procesează referințele copil ale blocurilor sincronizate...
+
+[importer.notion-api.status-cleaning-ids]
+original=Cleaning up notion-id attributes...
+translation=Se curăță atributele notion-id...
+
+[importer.notion-api.status-done]
+original=Import completed successfully!
+translation=Importul s-a finalizat cu succes!
+
+[importer.notion-api.status-replacing-relations]
+original=Replacing {{placeholders}}...
+translation=Se înlocuiesc {{placeholders}}...
+
+[importer.notion-api.status-replacing-relation-links]
+original=Replacing relation placeholders with wiki links...
+translation=Se înlocuiesc substituenții de relație cu legături wiki...
+
+[importer.notion-api.status-importing-linked-databases]
+original=Importing {{databases}}...
+translation=Se importă {{databases}}...
+
+[importer.notion-api.status-importing-unimported]
+original=Importing unimported database {{id}}...
+translation=Se importă baza de date neimportată {{id}}...
+
+[importer.notion-api.status-replacing-mentions]
+original=Replacing mention placeholders...
+translation=Se înlocuiesc substituenții de menționare...
+
+[importer.notion-api.status-replaced-mentions]
+original=Replaced {{links}} in {{files}}.
+translation=S-au înlocuit {{links}} în {{files}}.
+
+[importer.notion-api.status-replacing-synced]
+original=Replacing synced block child references...
+translation=Se înlocuiesc referințele copil ale blocurilor sincronizate...
+
+[importer.notion-api.status-replaced-synced]
+original=Replaced {{references}} in {{files}} (imported {{imported}}).
+translation=S-au înlocuit {{references}} în {{files}} (s-au importat {{imported}}).
+
+[importer.notion-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}...
+translation=Se descarcă atașamentul: {{name}}...
+
+[importer.notion-api.status-rate-limited]
+original=Rate limited. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=Limită de rată atinsă. Se așteaptă {{seconds}} secunde înainte de reîncercare ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying]
+original=Notion returned {{status}}. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=Notion a returnat {{status}}. Se așteaptă {{seconds}} secunde înainte de reîncercare ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying-attachment]
+original={{name}}: {{failure}}. Retrying in {{seconds}} seconds ({{attempt}}/{{total}})...
+translation={{name}}: {{failure}}. Se reîncearcă în {{seconds}} secunde ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-processing-data-source]
+original=Processing database from data source: {{id}}...
+translation=Se procesează baza de date din sursa de date: {{id}}...
+
+[importer.notion-api.status-processing-database]
+original=Processing database: {{title}}...
+translation=Se procesează baza de date: {{title}}...
+
+[importer.notion-api.status-found-pages]
+original=Found {{pages}} in database {{title}}
+translation=S-au găsit {{pages}} în baza de date {{title}}
+
+[importer.notion-api.status-found-templates]
+original=Found {{templates}} in database {{title}}
+translation=S-au găsit {{templates}} în baza de date {{title}}
+
+[importer.notion-api.status-importing-template]
+original=Importing template: {{name}}...
+translation=Se importă șablonul: {{name}}...
+
+[importer.notion-api.label-import]
+original=Notion API import
+translation=Import Notion API
+
+[importer.notion-api.label-item]
+original=Import item {{id}}
+translation=Element de import {{id}}
+
+[importer.notion-api.label-page]
+original=Page {{id}}
+translation=Pagina {{id}}
+
+[importer.notion-api.label-page-with-title]
+original=Page: {{title}} ({{id}})
+translation=Pagina: {{title}} ({{id}})
+
+[importer.notion-api.label-relation-page]
+original=Relation page {{id}}
+translation=Pagina de relație {{id}}
+
+[importer.notion-api.label-database-with-id]
+original=Database: {{title}} ({{id}})
+translation=Baza de date: {{title}} ({{id}})
+
+[importer.notion-api.label-mention-file]
+original=Mention file {{path}}
+translation=Fișier de mențiune {{path}}
+
+[importer.notion-api.label-synced-block-file]
+original=Synced block file {{path}}
+translation=Fișier bloc sincronizat {{path}}
+
+[importer.notion-api.label-attachment]
+original=Attachment: {{name}}
+translation=Atașament: {{name}}
+
+[importer.notion-api.label-child-page]
+original=Child page: {{title}}
+translation=Pagină copil: {{title}}
+
+[importer.notion-api.label-synced-block]
+original=Synced block: {{name}}
+translation=Bloc sincronizat: {{name}}
+
+[importer.notion-api.label-attachment-image]
+original=Image attachment
+translation=Atașament imagine
+
+[importer.notion-api.label-attachment-video]
+original=Video attachment
+translation=Atașament video
+
+[importer.notion-api.label-attachment-audio]
+original=Audio attachment
+translation=Atașament audio
+
+[importer.notion-api.label-attachment-file]
+original=File attachment
+translation=Atașament fișier
+
+[importer.notion-api.label-attachment-pdf]
+original=PDF attachment
+translation=Atașament PDF
+
+[importer.notion-api.label-preview-child-page]
+original=Child page
+translation=Pagină copil
+
+[importer.notion-api.label-preview-database]
+original=Database
+translation=Bază de date
+
+[importer.notion-api.msg-preview-nested-content]
+original=Nested content is not loaded in the preview.
+translation=Conținutul imbricat nu este încărcat în previzualizare.
+
+[importer.notion-api.msg-preview-content-not-loaded]
+original={{type}} is not loaded in the preview.
+translation={{type}} nu este încărcat în previzualizare.
+
+[importer.notion-api.msg-preview-content-not-loaded-with-caption]
+original={{type}}: {{caption}} is not loaded in the preview.
+translation={{type}}: {{caption}} nu este încărcat în previzualizare.
+
+[importer.notion-api.msg-preview-block-not-expanded]
+original={{type}} is not expanded in the preview.
+translation={{type}} nu este extins în previzualizare.
+
+[importer.notion-api.label-fetch-children]
+original=Fetch children for {{context}} {{id}}
+translation=Se preiau elementele copil pentru {{context}} {{id}}
+
+[importer.notion-api.block-paragraph]
+original=paragraph
+translation=Paragraf
+
+[importer.notion-api.block-bulleted-list-item]
+original=bulleted list item
+translation=element de listă cu marcator
+
+[importer.notion-api.block-numbered-list-item]
+original=numbered list item
+translation=element de listă cu marcator numeric
+
+[importer.notion-api.block-todo-item]
+original=to-do item
+translation=element de făcut
+
+[importer.notion-api.block-quote]
+original=quote block
+translation=bloc citat
+
+[importer.notion-api.block-callout]
+original=callout block
+translation=bloc explicație
+
+[importer.notion-api.block-toggle]
+original=toggle block
+translation=bloc comutabil
+
+[importer.notion-api.block-toggleable-heading]
+original=toggleable heading
+translation=titlu comutabil
+
+[importer.notion-api.block-column]
+original=column
+translation=Coloană
+
+[importer.notion-api.block-column-list]
+original=column list
+translation=listă de coloane
+
+[importer.notion-api.block-table]
+original=table
+translation=Tabel
+
+[importer.notion-api.block-generic]
+original=block
+translation=bloc
+
+[importer.notion-api.label-meeting-notes]
+original=Meeting notes: {{name}}
+translation=Note de ședință: {{name}}
+
+[importer.notion-api.label-meeting-notes-section]
+original=Meeting notes: {{name}} ({{section}})
+translation=Note de ședință: {{name}} ({{section}})
+
+[importer.notion-api.label-untitled-meeting]
+original=Meeting notes {{id}}
+translation=Note de ședință {{id}}
+
+[importer.notion-api.section-summary]
+original=summary
+translation=Rezumat
+
+[importer.notion-api.section-notes]
+original=notes
+translation=note
+
+[importer.notion-api.section-transcript]
+original=transcript
+translation=transcriere
+
+[importer.notion-api.label-fetch-children-block]
+original=Fetch children for block {{id}}
+translation=Se preiau elementele copil pentru blocul {{id}}
+
+[importer.notion-api.reason-not-in-tree]
+original=Item not found in tree
+translation=Elementul nu a fost găsit în arbore
+
+[importer.notion-api.reason-unknown-type]
+original=Unknown type: {{type}}
+translation=Tip necunoscut: {{type}}
+
+[importer.notion-api.reason-earlier-import]
+original=an earlier import had already written it
+translation=un import anterior l-a scris deja
+
+[importer.notion-api.reason-attachment-exists]
+original={{path}} is already in the vault, the same size (incremental import)
+translation={{path}} există deja în seif, cu aceeași dimensiune (import incremental)
+
+[importer.notion-api.reason-http-status]
+original=HTTP {{status}}
+translation=HTTP {{status}}
+
+[importer.notion-api.reason-meeting-notes-pending]
+original=Notion has not finished generating them ({{status}})
+translation=Notion nu a terminat de generat notele ({{status}})
+
+[importer.notion-api.reason-rate-limit-gave-up]
+original=rate limited, and gave up after {{retries}} retries
+translation=limită de rată depășită, s-a renunțat după {{retries}} reîncercări
+
+[importer.notion-api.reason-gave-up]
+original={{reason}}, and gave up after {{retries}} retries
+translation={{reason}}, s-a renunțat după {{retries}} reîncercări
+
+[importer.notion-api.reason-kept-link]
+original={{reason}}; kept the link to {{url}}
+translation={{reason}}; s-a păstrat legătura către {{url}}
+
+[importer.notion.name]
+original=Notion
+translation=Notion
+
+[importer.notion.option-text]
+original=Notion (.zip)
+translation=Notion (.zip)
+
+[importer.notion.method-name]
+original=File import
+translation=Import din fișier
+
+[importer.notion.method-desc]
+original=Imports using a Notion export file (.zip). Requires no API token or internet connection, but does not preserve databases.
+translation=Importă folosind un fișier de export Notion (.zip). Nu necesită token API sau conexiune la internet, dar nu păstrează bazele de date.
+
+[importer.notion.file-type]
+original=Exported Notion
+translation=Notion exportat
+
+[importer.notion.label-id]
+original=Notion ID
+translation=Notion ID
+
+[importer.notion.desc-export]
+original=Export your workspace in HTML format, you will receive a zip file.
+translation=Exportați spațiul de lucru în format HTML, veți primi un fișier zip.
+
+[importer.notion.desc-files]
+original=Pick the zip file Notion sent you.
+translation=Alegeți fișierul zip primit de la Notion.
+
+[importer.notion.name-subfolders]
+original=Save parent pages in subfolders
+translation=Salvează paginile părinte în subdirectoare
+
+[importer.notion.desc-subfolders]
+original=Places the parent database pages in the same folder as the nested content.
+translation=Plasează paginile bazei de date părinte în același director cu conținutul imbricat.
+
+[importer.notion.name-single-line-breaks]
+original=Single line breaks
+translation=Întreruperi de linie simple
+
+[importer.notion.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break (default is 2).
+translation=Separă blocurile Notion cu o singură întrerupere de linie (implicit este 2).
+
+[importer.notion.msg-unknown-property]
+original=Property "{{property}}" has an unknown type ({{type}}); kept its value as text.
+translation=Proprietatea "{{property}}" are un tip necunoscut ({{type}}); valoarea a fost păstrată ca text.
+
+[importer.notion.msg-unparsed-date]
+original=Could not determine the date in property "{{property}}": {{value}}. Kept its value as text.
+translation=Nu s-a putut determina data în proprietatea "{{property}}": {{value}}. Valoarea a fost păstrată ca text.
+
+[importer.notion.status-looking]
+original=Looking for files to import
+translation=Se caută fișiere de importat
+
+[importer.notion.status-resolving]
+original=Resolving links and de-duplicating files
+translation=Se rezolvă legăturile și se elimină duplicatele
+
+[importer.notion.status-starting]
+original=Starting import
+translation=Se începe importul
+
+[importer.notion.msg-markdown-export]
+original=This is a Markdown export. Export your Notion workspace as HTML instead.
+translation=Acesta este un export Markdown. Exportați spațiul de lucru Notion ca HTML în schimb.
+
+[importer.notion.reason-markdown-export]
+original=it is a Markdown export; export your Notion workspace as HTML instead
+translation=este un export Markdown; exportați spațiul de lucru Notion ca HTML în schimb
+
+[importer.notion.reason-no-page-body]
+original=page body was not found
+translation=corpul paginii nu a fost găsit
+
+[importer.roam-json.name]
+original=Roam Research
+translation=Roam Research
+
+[importer.roam-json.option-text]
+original=Roam Research (.json)
+translation=Roam Research (.json)
+
+[importer.roam-json.file-type]
+original=Roam (.json)
+translation=Roam (.json)
+
+[importer.roam-json.label-id]
+original=Roam UID
+translation=Roam UID
+
+[importer.roam-json.desc-export]
+original=Export your data in JSON format.
+translation=Exportați datele în format JSON.
+
+[importer.roam-json.desc-files]
+original=Pick the JSON file from your Roam export.
+translation=Alegeți fișierul JSON din exportul Roam.
+
+[importer.roam-json.name-embed-block-references]
+original=Show referenced blocks in place
+translation=Afișează blocurile referențiate în loc
+
+[importer.roam-json.desc-embed-block-references]
+original=Roam shows the contents of a referenced block where the reference stands. If enabled, references become embeds rather than links.
+translation=Roam afișează conținutul unui bloc referențiat acolo unde se află referința. Dacă este activat, referințele devin încorporări în loc de legături.
+
+[importer.roam-json.name-drop-unresolved-references]
+original=Remove references to missing blocks
+translation=Ștergeți referințele către blocuri lipsă
+
+[importer.roam-json.desc-drop-unresolved-references]
+original=Some references name a block that is not in the export. If enabled, they are removed; if not, they are kept as Roam wrote them.
+translation=Unele referințe indică un bloc care nu se află în export. Dacă este activat, acestea sunt șterse; dacă nu, sunt păstrate așa cum le-a scris Roam.
+
+[importer.roam-json.name-convert-attributes]
+original=Convert attributes to properties
+translation=Convertiți atributele în proprietăți
+
+[importer.roam-json.desc-convert-attributes]
+original=Convert eligible top-level Roam attributes into Obsidian properties. Referenced attributes remain in the note so links to them keep working.
+translation=Convertește atributele Roam de nivel superior eligibile în proprietăți Obsidian. Atributele referențiate rămân în însemnare pentru ca legăturile către ele să funcționeze în continuare.
+
+[importer.roam-json.name-tags-as-links]
+original=Convert tags to links
+translation=Convertește etichetele în legături
+
+[importer.roam-json.desc-tags-as-links]
+original=A tag in Roam is a reference to the page of that name. If enabled, "#tag" becomes "[[tag]]".
+translation=O etichetă în Roam este o referință către pagina cu acel nume. Dacă este activat, "#tag" devine "[[tag]]".
+
+[importer.roam-json.name-drop-queries]
+original=Remove queries
+translation=Ștergeți interogările
+
+[importer.roam-json.desc-drop-queries]
+original=If enabled, queries are removed. If not, a query becomes an Obsidian search that shows its results in the note.
+translation=Dacă este activat, interogările sunt șterse. Dacă nu, o interogare devine o căutare Obsidian care afișează rezultatele în însemnare.
+
+[importer.roam-json.reason-empty-title]
+original=Title is empty
+translation=Titlul este gol
+
+[importer.roam-json.reason-unexpected-extension]
+original=Unexpected file extension
+translation=Extension neașteptată
+
+[importer.textbundle.name]
+original=Textbundle files
+translation=Fișiere Textbundle
+
+[importer.textbundle.option-text]
+original=Textbundle (.textbundle, .textpack)
+translation=Textbundle (.textbundle, .textpack)
+
+[importer.textbundle.file-type]
+original=Textbundle
+translation=Textbundle
+
+[importer.textbundle.desc-export]
+original=Export your notes as textbundle or textpack, which Agenda, Craft, Taio, Ulysses and Zettlr can all write.
+translation=Exportați notițele ca textbundle sau textpack, formate pe care Agenda, Craft, Taio, Ulysses și Zettlr le pot genera.
+
+[importer.textbundle.msg-platform]
+original=Due to platform limitations, only textpack and zip files can be imported from this device. Open your vault on a Mac to import textbundle files.
+translation=Din cauza limitărilor platformei, doar fișierele textpack și zip pot fi importate de pe acest dispozitiv. Deschideți seiful pe un Mac pentru a importa fișiere textbundle.
+
+[importer.textbundle.reason-no-markdown]
+original=The textbundle does not contain markdown
+translation=Textbundle nu conține Markdown
+
+[importer.textbundle.reason-not-media]
+original=the file is not a media or markdown file.
+translation=fișierul nu este un fișier media sau Markdown.
+
+[importer.textbundle.reason-already-exists]
+original=the file already exists.
+translation=fișierul există deja.
+
+[importer.tomboy.name]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.option-text]
+original=Tomboy/Gnote (.note)
+translation=Tomboy/Gnote (.note)
+
+[importer.tomboy.file-type]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.label-id]
+original=Tomboy ID
+translation=Tomboy ID
+
+[importer.tomboy.desc-files-mac]
+original=Tomboy notes are typically found in: ~/Library/Application Support/Tomboy
+translation=Însemnările Tomboy se găsesc de obicei în: ~/Library/Application Support/Tomboy
+
+[importer.tomboy.desc-files-windows]
+original=Tomboy notes are typically found in: %APPDATA%\\Tomboy
+translation=Însemnările Tomboy se găsesc de obicei în: %APPDATA%\\Tomboy
+
+[importer.tomboy.desc-files-linux]
+original=Tomboy notes are typically found in: ~/.local/share/tomboy - or GNote: ~/.local/share/gnote
+translation=Însemnările Tomboy se găsesc de obicei în: ~/.local/share/tomboy - sau GNote: ~/.local/share/gnote
+
+[importer.tomboy.name-todo]
+original=Convert TODO lists to checkboxes
+translation=Convertește listele TODO în casete de bifat
+
+[importer.tomboy.desc-todo]
+original=When enabled, lists in notes with "TODO" in the title will be converted to task lists with checkboxes. Strikethrough items will be marked as completed.
+translation=Când este activat, listele din însemnările cu "TODO" în titlu vor fi convertite în liste de sarcini cu casete de bifat. Elementele tăiate vor fi marcate ca finalizate.
+
+[importer.tomboy.name-keep-title]
+original=Keep title in Markdown
+translation=Păstrează titlul în Markdown
+
+[importer.tomboy.desc-keep-title]
+original=Choose whether to keep the note title in the Markdown content. The automatic option keeps titles only when special characters are lost in filename conversion.
+translation=Alege dacă titlul însemnării să fie păstrat în conținutul Markdown. Opțiunea Automat păstrează titlurile doar când caracterele speciale se pierd la conversia în nume de fișier.
+
+[importer.tomboy.option-automatic]
+original=Automatic
+translation=Automat
+
+[importer.tomboy.option-keep-titles]
+original=Keep titles
+translation=Păstrează titlurile
+
+[importer.tomboy.option-filename-only]
+original=Filename only
+translation=Doar numele fișierului

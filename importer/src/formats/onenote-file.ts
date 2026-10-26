@@ -1,0 +1,398 @@
+import { Notice, Platform, TFile, TFolder, normalizePath } from 'obsidian';
+import { PickedFile, fs, fsPromises, os, parseFilePath, path as nodePath } from '../filesystem';
+import { FormatImporter, leavesTheNoteAlone, NoteTemplateSample, TEMPLATE_PREVIEW_LIMIT } from '../format-importer';
+import { ImportContext } from '../import-context';
+import { i18n } from '../i18n';
+import { selectedNodes } from '../tree';
+import { TreePicker, ViewableNode } from '../tree-view';
+import { describeReason, extensionFromBytes, extensionFromName, sanitizeFileName, uint8arrayToArrayBuffer } from '../util';
+import { findBackupFolder } from './onenote-file/backup-folder';
+import { convertPage } from './onenote-file/convert';
+import { OneNoteErrorKind, OneNoteFormatError } from './onenote-file/errors';
+import { isPackage, listSections, readSections } from './onenote-file/package';
+import { Page, Section } from './onenote-file/semantic/content';
+
+
+interface SectionNode extends ViewableNode<SectionNode> {
+	file: PickedFile;
+	entryName?: string;
+}
+
+const REASONS: Record<OneNoteErrorKind, () => string> = {
+	unsupported: () => i18n.importer.onenoteFile.reasonUnsupported(),
+	protected: () => i18n.importer.onenoteFile.reasonRightsProtected(),
+	malformed: () => i18n.importer.onenoteFile.reasonMalformed(),
+	limit: () => i18n.importer.onenoteFile.reasonTooLarge(),
+};
+
+export class OneNoteFileImporter extends FormatImporter {
+	static extensions = ['one', 'onepkg', 'onex'];
+
+	interruption = 'pause' as const;
+
+	// Field initializers would overwrite values set by base-constructor init().
+	private picker: TreePicker<SectionNode>;
+	private loadedFrom = '';
+
+	init(): void {
+		this.addInstructions(this.addExportSetting(i18n.importer.onenoteFile.descExport()));
+
+		// Use the OneNote root immediately; finding its localized backup folder
+		// continues in the background and must not hold up this screen.
+		let backup = windowsBackupRoot();
+		if (backup) {
+			void windowsBackupFolder(backup).then(discovered => {
+				if (discovered) backup = discovered;
+			}).catch(error => console.warn('Could not find the OneNote backup folder', error));
+		}
+		this.addFileChooserSetting(
+			i18n.importer.onenoteFile.fileType(),
+			OneNoteFileImporter.extensions,
+			true,
+			backup ? i18n.importer.onenoteFile.descBackupFolder() : undefined,
+			() => backup);
+		this.defaultOutputFolder = 'OneNote';
+		this.idProperty = 'onenote-id';
+		this.idLabel = i18n.importer.onenoteFile.labelId();
+
+		this.drawSectionPicker();
+	}
+
+	protected sourceChanged(): void {
+		super.sourceChanged();
+
+		this.showSections();
+
+		const key = this.files.map(file => file.fullpath).join('\n');
+		if (key === this.loadedFrom) return;
+
+		this.loadedFrom = key;
+		if (this.picker) void this.loadSections();
+	}
+
+	private showSections(): void {
+		this.picker?.toggle(this.files.length > 0);
+	}
+
+	private drawSectionPicker(): void {
+		this.draw(contentEl => {
+			this.picker = new TreePicker<SectionNode>(contentEl, {
+				setting: this.addSetting('source'),
+				name: i18n.importer.onenoteFile.nameSections(),
+				desc: i18n.importer.onenoteFile.descSections(),
+				hint: i18n.importer.onenoteFile.msgPickFileFirst(),
+				loading: i18n.importer.onenoteFile.msgLoadingSections(),
+				empty: i18n.importer.onenoteFile.msgNoSections(),
+				failed: describeFailure,
+				view: {
+					icon: node => node.children?.length ? 'book' : 'file-text',
+				},
+				loadsItself: true,
+			});
+
+			this.showSections();
+		}, 'source');
+	}
+
+	private async loadSections(): Promise<void> {
+		if (this.files.length === 0) {
+			this.picker.reset();
+			return;
+		}
+
+		await this.picker.load(async isCurrent => {
+			const nodes: SectionNode[] = [];
+
+			for (const file of this.files) {
+				const data = new Uint8Array(await file.read());
+
+				if (!isCurrent()) return [];
+
+				const sections = listSections(data, file.name);
+
+				if (!isPackage(data)) {
+					nodes.push({ title: file.basename, file, selected: true, disabled: false });
+					continue;
+				}
+
+				nodes.push({
+					title: file.basename,
+					file,
+					selected: true,
+					disabled: false,
+					children: sections.map(entry => ({
+						title: entry.title,
+						file,
+						entryName: entry.name,
+						selected: true,
+						disabled: false,
+					})),
+				});
+			}
+
+			return nodes;
+		});
+	}
+
+	protected override async templatePreviewSamples(ctx: ImportContext): Promise<NoteTemplateSample[]> {
+		const samples: NoteTemplateSample[] = [];
+		const nodes = this.picker?.nodes ?? [];
+		const loaded = nodes.length > 0;
+		const chosen = selectedNodes(nodes, node => !node.children?.length);
+
+		for (const file of this.files) {
+			if (samples.length >= TEMPLATE_PREVIEW_LIMIT || await ctx.shouldStop()) break;
+			const forThisFile = chosen.filter(node => node.file === file);
+			if (loaded && forThisFile.length === 0) continue;
+			const wanted = loaded
+				? new Set(forThisFile.map(node => node.entryName).filter((name): name is string => name !== undefined))
+				: undefined;
+
+			try {
+				const data = new Uint8Array(await file.read());
+				const sections = readSections(data, file.name, wanted?.size ? wanted : undefined);
+				for (const entry of sections) {
+					if (samples.length >= TEMPLATE_PREVIEW_LIMIT || await ctx.shouldStop()) break;
+					let section: Section;
+					try {
+						section = entry.read();
+					}
+					catch (error) {
+						console.warn(`Could not read OneNote section preview ${entry.title}`, error);
+						continue;
+					}
+
+					for (const page of section.pages) {
+						if (samples.length >= TEMPLATE_PREVIEW_LIMIT || await ctx.shouldStop()) break;
+						if (page.isDeleted) continue;
+						try {
+							const title = sanitizeFileName(page.title);
+							const converted = await convertPage(page, {
+								noteName: title,
+								isCancelled: () => ctx.isCancelled(),
+								resolveInternalLink: linkedTitle => sanitizeFileName(linkedTitle),
+								onSkipped: () => {},
+								// The converter already decoded it; preview only needs its name.
+								saveAttachment: async (_bytes, suggested) => ({ path: suggested, name: suggested }),
+							});
+							const within = [...entry.groups, section.name || entry.title]
+								.filter(Boolean)
+								.map(part => sanitizeFileName(part))
+								.join('/');
+							const parent = normalizePath(`${this.outputLocation}/${within}`);
+							samples.push({
+								title,
+								path: normalizePath(`${parent}/${title}.md`),
+								content: converted.markdown,
+								sourceId: page.id,
+								times: {
+									ctime: page.createdUtc?.getTime(),
+									mtime: page.lastModifiedUtc?.getTime(),
+								},
+							});
+						}
+						catch (error) {
+							console.warn(`Could not preview OneNote page ${page.title}`, error);
+						}
+					}
+				}
+			}
+			catch (error) {
+				console.warn(`Could not preview OneNote file ${file.fullpath}`, error);
+			}
+		}
+
+		return samples;
+	}
+
+	async import(ctx: ImportContext): Promise<void> {
+		if (this.files.length === 0) {
+			new Notice(i18n.common.msgPickFile());
+			return;
+		}
+
+		const folder = await this.getOutputFolder();
+		if (!folder) {
+			new Notice(i18n.common.msgPickOutput());
+			return;
+		}
+
+		const nodes = this.picker?.nodes ?? [];
+
+		// A missing picker means all sections; an empty selection means none.
+		const loaded = nodes.length > 0;
+		const chosen = selectedNodes(nodes, node => !node.children?.length);
+
+		for (const file of this.files) {
+			if (await ctx.shouldStop()) return;
+
+			const forThisFile = chosen.filter(node => node.file === file);
+			if (loaded && forThisFile.length === 0) continue;
+
+			const wanted = loaded
+				? new Set(forThisFile.map(node => node.entryName).filter((name): name is string => name !== undefined))
+				: undefined;
+
+			try {
+				await this.importFile(ctx, file, folder, wanted);
+			}
+			catch (error) {
+				report(ctx, file.name, error);
+			}
+		}
+	}
+
+	private async importFile(ctx: ImportContext, file: PickedFile, folder: TFolder, wanted?: Set<string>): Promise<void> {
+		ctx.status(i18n.importer.onenoteFile.statusReadingSection({ name: file.name }));
+
+		const data = new Uint8Array(await file.read());
+		const sections = readSections(data, file.name, wanted?.size ? wanted : undefined);
+		let done = 0;
+
+		for (const entry of sections) {
+			if (await ctx.shouldStop()) return;
+
+			ctx.status(i18n.importer.onenoteFile.statusImportingSection({
+				name: entry.title,
+				index: ++done,
+				total: sections.length,
+			}));
+
+			let section: Section;
+			try {
+				section = entry.read();
+			}
+			catch (error) {
+				report(ctx, entry.title, error);
+				continue;
+			}
+
+			await this.importSection(ctx, section, entry.title, folder, entry.groups);
+		}
+	}
+
+	private async importSection(ctx: ImportContext, section: Section, fallbackName: string, folder: TFolder, groups: string[] = []): Promise<void> {
+		// A section inside section groups keeps them, as OneNote shows them.
+		const within = groups.map(group => sanitizeFileName(group)).join('/');
+		const parent = within ? `${folder.path}/${within}` : folder.path;
+		const sectionFolder = await this.createFolders(normalizePath(`${parent}/${sanitizeFileName(section.name || fallbackName)}`));
+
+		// Create a page folder only when its first subpage arrives.
+		const levels: { folder?: TFolder, path?: string }[] = [{ folder: sectionFolder }];
+		let done = 0;
+
+		const folderFor = async (depth: number): Promise<TFolder> => {
+			const level = levels[depth];
+			level.folder ??= await this.createFolders(normalizePath(level.path!));
+			return level.folder;
+		};
+
+		for (const page of section.pages) {
+			if (await ctx.shouldStop()) return;
+			if (page.isDeleted) continue;
+
+			ctx.reportProgress(++done, section.pages.length);
+
+			const depth = Math.min(page.level, levels.length - 1);
+			levels.length = depth + 1;
+
+			const target = await folderFor(depth);
+			const written = await this.importPage(ctx, page, target);
+
+			levels.push(written ? { path: `${target.path}/${written}` } : { folder: target });
+		}
+	}
+
+	private async importPage(ctx: ImportContext, page: Page, sectionFolder: TFolder): Promise<string | undefined> {
+		const title = sanitizeFileName(page.title);
+
+		try {
+			// Preflight before conversion so skipped notes write no attachments.
+			const planned = await this.planTemplatedNote(sectionFolder, title, '', {
+				sourceId: page.id,
+				mtime: page.lastModifiedUtc?.getTime(),
+			});
+			const disposition = this.preflightNote(ctx, planned, page.lastModifiedUtc?.getTime());
+			const plannedTitle = parseFilePath(planned.targetPath).basename;
+			if (leavesTheNoteAlone(disposition)) return plannedTitle;
+
+			const notePath = planned.targetPath;
+			const converted = await convertPage(page, {
+				noteName: title,
+				isCancelled: () => ctx.isCancelled(),
+				resolveInternalLink: pageTitle => sanitizeFileName(pageTitle),
+				onSkipped: name => ctx.reportSkipped(name, i18n.importer.onenoteFile.reasonNoAttachmentData()),
+				saveAttachment: (bytes, suggested) => this.saveAttachment(ctx, bytes, suggested, notePath),
+			});
+
+			const { written } = await this.writePlannedNote(ctx, planned, converted.markdown, {
+				sourceId: page.id,
+				ctime: page.createdUtc?.getTime(),
+				mtime: page.lastModifiedUtc?.getTime(),
+				disposition,
+			});
+
+			if (written) ctx.reportNoteSuccess(title);
+			return plannedTitle;
+		}
+		catch (error) {
+			ctx.reportFailed(title, error);
+			return undefined;
+		}
+	}
+
+	private async saveAttachment(ctx: ImportContext, bytes: Uint8Array, suggested: string, notePath: string) {
+		const data = uint8arrayToArrayBuffer(bytes as Uint8Array<ArrayBuffer>);
+
+		if (!extensionFromName(suggested)) {
+			const sniffed = extensionFromBytes(bytes);
+			if (sniffed) suggested = `${suggested}.${sniffed}`;
+		}
+
+		const { path, reuse } = await this.placeAttachment(suggested, notePath, async (existing: TFile) => {
+			if (existing.stat.size !== data.byteLength) return 'another';
+			const onDisk = new Uint8Array(await this.vault.readBinary(existing));
+			return onDisk.every((byte, index) => byte === bytes[index]) ? 'same' : 'another';
+		});
+
+		if (!reuse) {
+			await this.writeAttachment(path, data);
+			ctx.reportAttachmentSuccess(path);
+		}
+
+		return { path: reuse?.path ?? path, name: suggested };
+	}
+}
+
+function windowsBackupRoot(): string | undefined {
+	if (!Platform.isWin || !Platform.isDesktopApp || !fs || !fsPromises || !nodePath || !os) return undefined;
+	const root = nodePath.join(os.homedir(), 'AppData', 'Local', 'Microsoft', 'OneNote');
+	return fs.existsSync(root) ? root : undefined;
+}
+
+async function windowsBackupFolder(root: string): Promise<string | undefined> {
+	return findBackupFolder({
+		root,
+		join: (...parts: string[]) => nodePath.join(...parts),
+		list: async directory => {
+			try {
+				const entries = await fsPromises.readdir(directory, { withFileTypes: true });
+				return entries.map(entry => ({ name: entry.name, isDirectory: entry.isDirectory() }));
+			}
+			catch {
+				return undefined;
+			}
+		},
+	});
+}
+
+function describeFailure(error: unknown): string {
+	return error instanceof OneNoteFormatError ? REASONS[error.kind]() : describeReason(error);
+}
+
+function report(ctx: ImportContext, name: string, error: unknown): void {
+	const expected = error instanceof OneNoteFormatError && (error.kind === 'protected' || error.kind === 'unsupported');
+
+	if (expected) ctx.reportSkipped(name, describeFailure(error));
+	else ctx.reportFailed(name, describeFailure(error));
+}

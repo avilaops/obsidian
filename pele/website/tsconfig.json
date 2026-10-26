@@ -1,0 +1,14 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "pele": ["../src/index.ts"],
+      "pele/lazy": ["../src/lazy.ts"]
+    },
+    "resolveJsonModule": true,
+    "types": ["node"]
+  },
+  "include": [".astro/types.d.ts", "src/**/*", "lib/**/*", "astro.config.mjs"],
+  "exclude": ["dist"]
+}

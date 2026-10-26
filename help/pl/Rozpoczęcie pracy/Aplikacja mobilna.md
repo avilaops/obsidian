@@ -1,0 +1,90 @@
+---
+permalink: mobile
+cssclasses:
+  - list-cards
+publish: true
+mobile: true
+description: 'Poznaj funkcje Obsidian przeznaczone dla urządzeń mobilnych, w tym pasek narzędzi mobilnych, szybkie akcje i pasek nawigacji.'
+---
+Aplikacje mobilne Obsidian są dostępne na [[Obsidian na iOS i iPadOS|iOS i iPadOS]] oraz [[Obsidian na Androida|Androida]]. Możesz je pobrać z [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442) oraz [Google Play](https://play.google.com/store/apps/details?id=md.obsidian).
+
+Obsidian działa na urządzeniach mobilnych podobnie jak na komputerze, ale posiada kilka unikalnych funkcji, takich jak widżety, pasek narzędzi i szybka czynność.
+
+## Widżety, skróty i Siri
+
+Informacje o funkcjach specyficznych dla systemu operacyjnego znajdziesz na następujących stronach:
+
+- [[Obsidian na iOS i iPadOS|iOS i iPadOS]]
+- [[Obsidian na Androida|Android]]
+
+
+## Mobilny pasek narzędzi
+
+Mobilny pasek narzędzi to konfigurowalny pasek narzędzi do edycji notatek.
+
+Podczas edycji notatki na dole aplikacji pojawi się rząd ikon. Domyślny układ czynności zapewnia szybki dostęp do najczęściej używanych funkcji. Możesz je również dostosować.
+
+> [!tip] Przewijanie paska narzędzi
+> Jeśli masz wiele czynności na pasku narzędzi, możesz przesuwać pasek narzędzi w lewo i w prawo, aby wyświetlić więcej czynności.
+
+### Dostosowywanie mobilnego paska narzędzi
+
+Na mobilnym pasku narzędzi wybierz **Ustaw pasek narzędzi dostępny na urządzeniach przenośnych** ![[lucide-wrench.svg#icon]], aby otworzyć jego ustawienia.
+
+Możesz również otworzyć **[[Ustawienia]] → Interfejs → Ustaw pasek narzędzi dostępny na urządzeniach przenośnych**.
+
+W sekcji **Ustaw opcje paska narzędzi** użyj uchwytów, aby zmienić kolejność czynności, oraz przycisków usuwania, aby je usunąć. Wybierz czynność w sekcji **Więcej opcji paska narzędzi**, aby ją dodać.
+
+### Dodawanie polecenia do mobilnego paska narzędzi
+
+Oprócz czynności edycji możesz dodać globalne polecenia, takie jak **Zmień motyw**.
+
+1. Otwórz **[[Ustawienia]] → Interfejs → Ustaw pasek narzędzi dostępny na urządzeniach przenośnych**.
+2. W sekcji **Ustaw opcje paska narzędzi** wybierz **Dodaj polecenie...**.
+3. Wyszukaj polecenie, które chcesz dodać.
+4. Wybierz polecenie, aby dodać je na końcu paska narzędzi.
+
+## Szybka czynność
+
+W aplikacji mobilnej możesz zdefiniować jedną czynność, która jest wywoływana przez pociągnięcie w dół od góry aplikacji, podobnie jak odświeżanie w aplikacjach mediów społecznościowych.
+
+Domyślnie szybka czynność otwiera [[Lista poleceń|paletę poleceń]].
+
+### Dostosowywanie szybkiej czynności
+
+1. Otwórz Ustawienia.
+2. Wybierz **Interfejs**.
+3. W sekcji **Ustaw szybką czynność dostępną na urządzeniach przenośnych** dotknij **Ustaw**.
+4. Wpisz nazwę polecenia.
+5. Wybierz polecenie, które chcesz ustawić.
+6. Zamknij stronę ustawień.
+
+Teraz, gdy pociągniesz w dół od góry, zostanie wywołana nowa szybka czynność.
+
+## Pasek nawigacji
+
+Pasek nawigacji na urządzeniach mobilnych pomaga poruszać się po aplikacji. Pasek nawigacji pojawia się, gdy nie edytujesz w aplikacji.
+
+Za pomocą opcji paska narzędzi **Klawiatura** możesz zamknąć mobilny pasek narzędzi i przełączyć się na pasek nawigacji.
+
+### Wróć lub naprzód
+
+Na pasku nawigacji dwie pierwsze opcje pozwalają wrócić ![[lucide-chevron-left.svg#icon]] lub przejść naprzód ![[lucide-chevron-right.svg#icon]]. Jeśli jedna z opcji nie jest dostępna, ikona jest wyszarzona.
+
+### Tworzenie lub znajdowanie notatki
+
+Środkowa ikona plusa w kółku pozwala utworzyć nową notatkę lub przełączyć się na istniejącą notatkę. Jest to równoważne z otwarciem [[Okno szybkiego wyboru|szybkiego przełącznika]].
+
+### Zarządzanie kartami
+
+Druga ikona od prawej pokazuje, ile kart jest obecnie otwartych. Ikona wygląda jak liczba w ramce i wskazuje liczbę otwartych kart.
+
+Po jej dotknięciu możesz przełączyć się na dowolną otwartą kartę. Możesz również otworzyć nową kartę.
+
+### Czynności wstążki
+
+Aplikacja mobilna nie ma [[Wstążka|wstążki]]. Zamiast tego czynności wstążki będą dostępne po dotknięciu **Otwórz menu** ![[lucide-menu.svg#icon]], ostatniej opcji na pasku nawigacji.
+
+### Panele boczne
+
+Szczegółowe informacje o działaniu paneli bocznych na urządzeniach mobilnych znajdziesz w sekcji [[Panel boczny#Otwieranie ukrytych paneli bocznych#Urządzenia mobilne i mniejsze tablety|Otwieranie paneli bocznych na urządzeniach mobilnych]].

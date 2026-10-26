@@ -1,0 +1,71 @@
+import { describe, expect, test } from 'vitest';
+import {
+	applyFiltersWithRegistry,
+	standardFilterMetadata,
+	standardFilters,
+	type FilterRegistry,
+} from '../src';
+
+describe('applyFiltersWithRegistry', () => {
+	test('returns an empty string when an unfiltered value cannot be serialized', () => {
+		expect(applyFiltersWithRegistry(undefined, '', standardFilters, { variables: {} })).toBe('');
+	});
+
+	test('uses a custom registry and passes the host context', () => {
+		const filters: FilterRegistry<{ origin: string }> = {
+			upper: standardFilters.upper,
+			origin: (value, _param, context) => `${value}@${context?.context?.origin}`,
+		};
+
+		const output = applyFiltersWithRegistry(
+			'knap',
+			'upper|origin',
+			filters,
+			{ variables: {}, context: { origin: 'https://obsidian.md' } },
+		);
+
+		expect(output).toBe('KNAP@https://obsidian.md');
+	});
+
+	test('passes the current typed value through rawValue while preserving string arguments', () => {
+		const filters: FilterRegistry = {
+			inspect: (value, _param, context) => JSON.stringify({ value, rawValue: context?.rawValue }),
+		};
+		const output = applyFiltersWithRegistry(['one', 'two'], 'inspect', filters, { variables: {} });
+
+		expect(output).toBe('{"value":"[\\"one\\",\\"two\\"]","rawValue":["one","two"]}');
+	});
+
+	test('rejects asynchronous filters in the synchronous helper', () => {
+		const filters: FilterRegistry = {
+			async_filter: async value => value,
+		};
+
+		expect(() => applyFiltersWithRegistry(
+			'knap',
+			'async_filter',
+			filters,
+			{ variables: {} },
+		)).toThrow('use engine.render() for async filters');
+	});
+
+	test('rejects thenables that are not native promises in the synchronous helper', () => {
+		const thenableFilter = ((value: string) => ({
+			then(resolve: (result: string) => void) {
+				resolve(value);
+			},
+		})) as unknown as FilterRegistry[string];
+
+		expect(() => applyFiltersWithRegistry(
+			'knap',
+			'thenable',
+			{ thenable: thenableFilter },
+			{ variables: {} },
+		)).toThrow('use engine.render() for async filters');
+	});
+
+	test('freezes standard filter metadata and each metadata entry', () => {
+		expect(Object.isFrozen(standardFilterMetadata)).toBe(true);
+		expect(Object.isFrozen(standardFilterMetadata.calc)).toBe(true);
+	});
+});

@@ -1,0 +1,2320 @@
+import { FrontMatterCache, Notice, normalizePath, requestUrl, TFile, TFolder, DataWriteOptions } from 'obsidian';
+import { DuplicateHandling, FormatImporter, leavesTheNoteAlone, NoteTemplateSample, TEMPLATE_PREVIEW_LIMIT } from '../format-importer';
+import { ImportContext } from '../import-context';
+import { i18n } from '../i18n';
+import { BlockObjectResponse, Client, PageObjectResponse } from '@notionhq/client';
+import { extractErrorMessage, sanitizeFileName, serializeFrontMatter, getUniqueFilePath, plural } from '../util';
+import { areAnySelected, selectedNodes } from '../tree';
+import { describeRequestFailure } from '../request-failure';
+import { TreePicker } from '../tree-view';
+import type { FormulaImportStrategy } from '../base';
+import { parseFilePath } from '../filesystem';
+
+// Import helper modules
+import { NOTION_ID_PROPERTY } from '../constants';
+import { createPlaceholder, extractPlaceholderIds, PlaceholderType } from './notion-api/utils';
+import {
+	makeNotionRequest,
+	fetchAllBlocks,
+	extractPageTitle,
+	extractFrontMatter,
+	hasChildPagesOrDatabases,
+	mapNotionPropertyToFrontmatter,
+	createDatabaseLookups,
+} from './notion-api/api-helpers';
+import { convertBlocksToMarkdown, convertRichText } from './notion-api/block-converter';
+import { processDatabasePlaceholders, importDatabaseCore, replaceRelationValue, LinkedDatabaseError, LINKED_DATABASE_COMMENT } from './notion-api/database-helpers';
+import { DatabaseInfo, DatabaseLookups, RelationPlaceholder, DatabaseProcessingContext, FetchAndImportPageParams, NOTION_VERSION, SyncedBlockRequest } from './notion-api/types';
+import { downloadAttachment } from './notion-api/attachment-helpers';
+import { buildTree, collectItems, type NotionTreeNode } from './notion-api/discovery';
+
+const NOTION_REQUEST_RATE = 3;
+const NOTION_INITIAL_BURST = 100;
+const NOTION_SLOW_REQUEST_MS = 2_000;
+
+/** Allows a short burst, then limits sustained traffic to Notion's documented rate. */
+export class NotionRequestScheduler {
+	private tail: Promise<void> = Promise.resolve();
+	private tokens: number;
+	private lastRefill: number;
+	private blockedUntil = 0;
+	private readonly rate: number;
+	private readonly capacity: number;
+	private readonly now: () => number;
+	private readonly sleep: (milliseconds: number) => Promise<void>;
+
+	constructor(options: {
+		rate?: number;
+		burst?: number;
+		now?: () => number;
+		sleep?: (milliseconds: number) => Promise<void>;
+	} = {}) {
+		this.rate = options.rate ?? NOTION_REQUEST_RATE;
+		this.capacity = options.burst ?? NOTION_INITIAL_BURST;
+		this.now = options.now ?? (() => Date.now());
+		this.sleep = options.sleep ?? (milliseconds => new Promise(resolve => window.setTimeout(resolve, milliseconds)));
+		this.tokens = this.capacity;
+		this.lastRefill = this.now();
+	}
+
+	async waitForTurn(): Promise<void> {
+		let release!: () => void;
+		const previous = this.tail;
+		this.tail = new Promise<void>(resolve => release = resolve);
+
+		await previous;
+		try {
+			while (true) {
+				const now = this.now();
+				const blockedFor = this.blockedUntil - now;
+				if (blockedFor > 0) {
+					await this.sleep(blockedFor);
+					continue;
+				}
+
+				const elapsed = Math.max(0, now - this.lastRefill);
+				this.tokens = Math.min(
+					this.capacity,
+					this.tokens + elapsed * this.rate / 1000,
+				);
+				this.lastRefill = now;
+
+				if (this.tokens >= 1) {
+					this.tokens--;
+					return;
+				}
+
+				const wait = (1 - this.tokens) * 1000 / this.rate;
+				await this.sleep(wait);
+			}
+		}
+		finally {
+			release();
+		}
+	}
+
+	rateLimited(retryAfter: string | undefined): void {
+		const seconds = retryAfter ? Number.parseInt(retryAfter, 10) : NaN;
+		this.overloaded(Number.isFinite(seconds) && seconds > 0 ? seconds * 1000 : 0);
+	}
+
+	/** Notion may stall instead of returning 429 when overloaded. */
+	overloaded(cooldownMs: number = 0): void {
+		this.tokens = 0;
+		const now = this.now();
+		this.blockedUntil = Math.max(this.blockedUntil, now + cooldownMs);
+		this.lastRefill = Math.max(now, this.blockedUntil);
+	}
+
+	requestSlow(): void {
+		this.overloaded();
+	}
+}
+
+/** Shares Notion's integration-level request budget across importer instances. */
+export class NotionRequestCoordinator {
+	private token: string | null = null;
+	private scheduler: NotionRequestScheduler | null = null;
+
+	forCredential(token: string): NotionRequestScheduler {
+		if (!this.scheduler || this.token !== token) {
+			this.token = token;
+			this.scheduler = new NotionRequestScheduler();
+		}
+
+		return this.scheduler;
+	}
+}
+
+const requestCoordinator = new NotionRequestCoordinator();
+
+/** Detects overload without abandoning a request that requestUrl cannot cancel. */
+export async function watchForNotionOverload<T>(
+	request: Promise<T>,
+	scheduler: NotionRequestScheduler,
+	timers: {
+		set: (callback: () => void, milliseconds: number) => number;
+		clear: (timer: number) => void;
+	} = {
+		set: (callback, milliseconds) => window.setTimeout(callback, milliseconds),
+		clear: timer => window.clearTimeout(timer),
+	},
+): Promise<T> {
+	const timer = timers.set(() => scheduler.requestSlow(), NOTION_SLOW_REQUEST_MS);
+	try {
+		return await request;
+	}
+	finally {
+		timers.clear(timer);
+	}
+}
+
+function childPageIds(blocksCache: Map<string, { id: string, type: string }[]>): string[] {
+	const ids: string[] = [];
+
+	for (const blocks of blocksCache.values()) {
+		for (const block of blocks) {
+			if (block.type === 'child_page') ids.push(block.id);
+		}
+	}
+
+	return ids;
+}
+
+/**
+ * The folder holding what belongs to a page: the one named after its note.
+ *
+ * A page importing for the first time is written inside that folder already.
+ * A note the user has moved, or one written when the page had no children, is
+ * not, so its children go into a folder of the note's name beside it rather
+ * than into whatever folder the note happens to be sharing.
+ */
+export function childFolderOf(notePath: string): string {
+	const { parent, basename } = parseFilePath(notePath);
+	const holding = parent.slice(parent.lastIndexOf('/') + 1);
+
+	if (holding.toLowerCase() === basename.toLowerCase()) return parent;
+
+	return normalizePath(parent ? `${parent}/${basename}` : basename);
+}
+
+function notionPreviewProperties(
+	page: PageObjectResponse,
+	coverPropertyName: string,
+	databasePropertyName: string,
+	databaseTag?: string,
+): FrontMatterCache {
+	// Add source identity during rendering so its toggle can reuse cached samples.
+	const properties: FrontMatterCache = {};
+	if (databaseTag) properties[databasePropertyName] = `[[${databaseTag}]]`;
+	for (const [name, property] of Object.entries(page.properties)) {
+		if (property.type === 'title') continue;
+		const value: unknown = mapNotionPropertyToFrontmatter(property);
+		if (value !== null && value !== undefined) properties[name] = value;
+	}
+
+	const cover = page.cover;
+	if (cover?.type === 'external') properties[coverPropertyName] = cover.external.url;
+	else if (cover?.type === 'file') properties[coverPropertyName] = cover.file.url;
+	return properties;
+}
+
+type NotionPreviewMediaType = 'image' | 'video' | 'audio' | 'file' | 'pdf';
+
+const NOTION_PREVIEW_MEDIA_LABELS: Record<NotionPreviewMediaType, () => string> = {
+	image: () => i18n.importer.notionApi.labelAttachmentImage(),
+	video: () => i18n.importer.notionApi.labelAttachmentVideo(),
+	audio: () => i18n.importer.notionApi.labelAttachmentAudio(),
+	file: () => i18n.importer.notionApi.labelAttachmentFile(),
+	pdf: () => i18n.importer.notionApi.labelAttachmentPdf(),
+};
+
+function notionMediaPreview(type: NotionPreviewMediaType, caption: string): string {
+	const label = NOTION_PREVIEW_MEDIA_LABELS[type]();
+	return caption
+		? i18n.importer.notionApi.msgPreviewContentNotLoadedWithCaption({ type: label, caption })
+		: i18n.importer.notionApi.msgPreviewContentNotLoaded({ type: label });
+}
+
+function notionBlockPreview(block: BlockObjectResponse): string {
+	switch (block.type) {
+		case 'paragraph': return convertRichText(block.paragraph.rich_text);
+		case 'heading_1': return `# ${convertRichText(block.heading_1.rich_text)}`;
+		case 'heading_2': return `## ${convertRichText(block.heading_2.rich_text)}`;
+		case 'heading_3': return `### ${convertRichText(block.heading_3.rich_text)}`;
+		case 'heading_4': return `#### ${convertRichText(block.heading_4.rich_text)}`;
+		case 'bulleted_list_item': return `- ${convertRichText(block.bulleted_list_item.rich_text)}`;
+		case 'numbered_list_item': return `1. ${convertRichText(block.numbered_list_item.rich_text)}`;
+		case 'to_do': return `- [${block.to_do.checked ? 'x' : ' '}] ${convertRichText(block.to_do.rich_text)}`;
+		case 'quote': return `> ${convertRichText(block.quote.rich_text)}`;
+		case 'callout': return `> [!note]\n> ${convertRichText(block.callout.rich_text)}`;
+		case 'toggle': return `${convertRichText(block.toggle.rich_text)}\n\n> ${i18n.importer.notionApi.msgPreviewNestedContent()}`;
+		case 'divider': return '---';
+		case 'equation': return block.equation.expression ? `$$\n${block.equation.expression}\n$$` : '';
+		case 'code': {
+			const code = block.code.rich_text.map(item => item.plain_text).join('');
+			return `\`\`\`${block.code.language}\n${code}\n\`\`\``;
+		}
+		case 'bookmark': return block.bookmark.url ? `[${block.bookmark.url}](${block.bookmark.url})` : '';
+		case 'embed': return block.embed.url ? `[${block.embed.url}](${block.embed.url})` : '';
+		case 'link_preview': return block.link_preview.url ? `[${block.link_preview.url}](${block.link_preview.url})` : '';
+		case 'child_page': return `[[${block.child_page.title || i18n.importer.notionApi.labelPreviewChildPage()}]]`;
+		case 'child_database': return `![[${block.child_database.title || i18n.importer.notionApi.labelPreviewDatabase()}.base]]`;
+		case 'image': return notionMediaPreview(block.type, convertRichText(block.image.caption));
+		case 'video': return notionMediaPreview(block.type, convertRichText(block.video.caption));
+		case 'audio': return notionMediaPreview(block.type, convertRichText(block.audio.caption));
+		case 'file': return notionMediaPreview(block.type, convertRichText(block.file.caption));
+		case 'pdf': return notionMediaPreview(block.type, convertRichText(block.pdf.caption));
+		case 'template': return convertRichText(block.template.rich_text);
+		default: return i18n.importer.notionApi.msgPreviewBlockNotExpanded({
+			type: i18n.importer.notionApi.blockGeneric(),
+		});
+	}
+}
+
+function notionPreviewNeedsSpacing(currentType: string, nextType: string, singleLineBreaks: boolean): boolean {
+	const listTypes = ['bulleted_list_item', 'numbered_list_item', 'to_do'];
+	const currentIsList = listTypes.includes(currentType);
+	const nextIsList = listTypes.includes(nextType);
+	if (!singleLineBreaks) return !(currentIsList && nextIsList);
+	if (['callout', 'toggle', 'quote'].includes(currentType)) return true;
+	if (currentIsList && !nextIsList) return true;
+	if (currentType === 'table' || nextType === 'table') return true;
+	return nextType === 'divider';
+}
+
+export function notionBlocksPreview(
+	blocks: BlockObjectResponse[],
+	singleLineBreaks = false,
+): string {
+	const rendered = blocks
+		.map(block => ({ block, markdown: notionBlockPreview(block) }))
+		.filter(item => item.markdown !== '');
+	const lines: string[] = [];
+	for (let index = 0; index < rendered.length; index++) {
+		const current = rendered[index];
+		lines.push(current.markdown);
+		const next = rendered[index + 1];
+		if (next && notionPreviewNeedsSpacing(current.block.type, next.block.type, singleLineBreaks)) {
+			lines.push('');
+		}
+	}
+	return lines.join('\n');
+}
+
+interface NotionTemplatePreviewRead {
+	key: string;
+	request: Promise<NoteTemplateSample[]>;
+	context: NotionTemplatePreviewContext;
+}
+
+interface NotionTemplatePreviewPage {
+	page: PageObjectResponse;
+	blocks: BlockObjectResponse[];
+	databaseTag?: string;
+}
+
+class NotionTemplatePreviewContext extends ImportContext {
+	private readonly sources = new Set<ImportContext>();
+	private stopped = false;
+
+	add(source: ImportContext): void {
+		this.sources.add(source);
+	}
+
+	remove(source: ImportContext): void {
+		this.sources.delete(source);
+	}
+
+	get wasStopped(): boolean {
+		return this.stopped;
+	}
+
+	override async shouldStop(): Promise<boolean> {
+		const shouldStop = this.sources.size === 0
+			|| Array.from(this.sources).every(source => source.isCancelled());
+		if (shouldStop) this.stopped = true;
+		return shouldStop;
+	}
+
+	override isCancelled(): boolean {
+		const cancelled = this.sources.size === 0
+			|| Array.from(this.sources).every(source => source.isCancelled());
+		if (cancelled) this.stopped = true;
+		return cancelled;
+	}
+}
+
+export class NotionAPIImporter extends FormatImporter {
+	interruption = 'pause' as const;
+
+	get notionToken(): string {
+		return this.getSecret() ?? '';
+	}
+
+	get sourceReady(): boolean {
+		return areAnySelected(this.pickedTree);
+	}
+
+	formulaStrategy: FormulaImportStrategy = 'hybrid'; // Default strategy
+	importLinkedDatabases: boolean = false;
+	downloadExternalAttachments: boolean = false; // Download external attachments
+	singleLineBreaks: boolean = false; // Single line breaks between blocks (default: disabled)
+	private templatePreviewPages?: Map<string, NotionTemplatePreviewPage>;
+	coverPropertyName: string = 'cover'; // Custom property name for page cover
+	databasePropertyName: string = 'base'; // Property name for linking pages to their database
+	/**
+	 * Every mode but "Create a copy": the point of making a copy is to leave
+	 * what is there alone and write your own, attachments as much as notes.
+	 */
+	get reuseExistingAttachments(): boolean {
+		return this.duplicateHandling !== DuplicateHandling.CreateCopy;
+	}
+	protected notionClient: Client | null = null;
+	private processedPages: Set<string> = new Set();
+	private requestCount: number = 0;
+	// The total grows as databases and page blocks reveal more pages.
+	private knownPages: Set<string> = new Set();
+	private finishedPages: number = 0;
+	// Last .base file written, opened once the import finishes
+	private lastBaseFilePath: string | null = null;
+	private picker: TreePicker<NotionTreeNode>;
+	private templatePreviewRead: NotionTemplatePreviewRead | null = null;
+
+	private get pickedTree(): NotionTreeNode[] {
+		return this.picker?.nodes ?? [];
+	}
+	// save output root path for database handling
+	//  we will flatten all database in this folder later
+	private outputRootPath: string = '';
+	// Track all processed databases for relation resolution
+	private processedDatabases: Map<string, DatabaseInfo> = new Map();
+	private databaseLookups: DatabaseLookups = createDatabaseLookups();
+	// Track all relation placeholders that need to be replaced
+	private relationPlaceholders: RelationPlaceholder[] = [];
+	private relatedPageTitles: Map<string, string | null> = new Map();
+	// Track Notion ID (page/database) to file path mapping for mention replacement
+	// Stores path relative to vault root without extension: "folder/subfolder/Page Title"
+	// This allows wiki links to work correctly even with duplicate filenames: [[folder/Page Title]]
+	private notionIdToPath: Map<string, string> = new Map();
+	private writtenPaths: Set<string> = new Set();
+	private recoveredPaths: Set<string> = new Set();
+	// Track mention placeholders for efficient replacement (similar to relationPlaceholders)
+	// Maps source file path to the set of mentioned page/database IDs
+	// Using file path as key allows O(1) file lookup instead of O(n) search
+	protected mentionPlaceholders: Map<string, Set<string>> = new Map();
+	// Track synced blocks mapping (original block ID -> file path)
+	// Used to reference synced block content across the vault
+	private syncedBlocksMap: Map<string, string> = new Map();
+	// Track synced child placeholders (file path -> Set of child IDs)
+	// Used to efficiently replace synced child placeholders without scanning all files
+	// Separated by type to avoid unnecessary placeholder checks
+	private syncedChildPagePlaceholders: Map<string, Set<string>> = new Map();
+	private syncedChildDatabasePlaceholders: Map<string, Set<string>> = new Map();
+	/**
+	 * Pages and databases under a synced block whose note is not being written.
+	 *
+	 * A note left alone still has its children fetched - they may have changed,
+	 * or be gone from the vault - but is not rewritten to point at them.
+	 */
+	private syncedChildPagesToReach: Set<string> = new Set();
+	private syncedChildDatabasesToReach: Set<string> = new Set();
+
+	init() {
+		// No file chooser needed since we're importing via API
+		this.defaultOutputFolder = 'Notion';
+		this.idProperty = NOTION_ID_PROPERTY;
+		this.idLabel = i18n.importer.notionApi.labelId();
+
+		this.addSecretSetting(i18n.importer.notionApi.nameToken(), i18n.importer.notionApi.descToken(), {
+			text: i18n.importer.notionApi.linkGetToken(),
+			url: 'https://app.notion.com/developers/connections',
+		});
+
+		const contentEl = this.host.sourceEl;
+		if (!contentEl) return;
+
+		this.picker = new TreePicker<NotionTreeNode>(contentEl, {
+			setting: this.addSetting('source'),
+			name: i18n.importer.notionApi.namePages(),
+			desc: i18n.importer.notionApi.descPages(),
+			hint: i18n.importer.notionApi.hintPages(),
+			loading: i18n.importer.notionApi.msgLoadingPages(),
+			empty: i18n.importer.notionApi.msgNoPages(),
+			failed: error => describeRequestFailure(error, {
+				name: i18n.importer.notionApi.labelService(),
+				subject: i18n.importer.notionApi.labelSubject(),
+				credential: i18n.importer.notionApi.labelCredential(),
+			}),
+			view: {
+				icon: node => node.type === 'database' ? 'database'
+					: node.children.length === 0 ? 'file'
+						: node.collapsed ? 'folder' : 'folder-open',
+			},
+			onChange: () => this.sourceChanged(),
+		});
+
+		this.picker.onLoad(() => void this.loadPageTree());
+
+		// Formula import strategy
+		this.addSetting()
+			?.setName(i18n.importer.notionApi.nameFormulas())
+			.setDesc(this.createFormulaStrategyDescription())
+			.addDropdown(dropdown => {
+				dropdown
+					.addOption('hybrid', i18n.importer.notionApi.optionFormulaHybrid())
+					.addOption('static', i18n.importer.notionApi.optionFormulaStatic())
+					.setValue('hybrid') // Set default to 'hybrid'
+					.onChange(value => {
+						this.formulaStrategy = value as FormulaImportStrategy;
+					});
+			});
+
+		// Download external attachments option
+		this.addSetting()
+			?.setName(i18n.importer.notionApi.nameDownloadExternal())
+			.setDesc(i18n.importer.notionApi.descDownloadExternal())
+			.addToggle(toggle => {
+				toggle
+					.setValue(false)
+					.onChange(value => {
+						this.downloadExternalAttachments = value;
+					});
+			});
+
+		this.startGroup('template');
+
+		// Cover property name
+		this.addSetting('template')
+			?.setName(i18n.importer.notionApi.nameCoverProperty())
+			.setDesc(this.createCoverPropertyDescription())
+			.addText(text => text
+				.setPlaceholder('cover')
+				.setValue('cover')
+				.onChange(value => {
+					this.coverPropertyName = value.trim() || 'cover';
+					this.notionPropertySettingsChanged();
+				}));
+
+		// Database property name
+		this.addSetting('template')
+			?.setName(i18n.importer.notionApi.nameDatabaseProperty())
+			.setDesc(i18n.importer.notionApi.descDatabaseProperty())
+			.addText(text => text
+				.setPlaceholder('base')
+				.setValue('base')
+				.onChange(value => {
+					this.databasePropertyName = value.trim() || 'base';
+					this.notionPropertySettingsChanged();
+				}));
+
+		this.addSetting('template')
+			?.setName(i18n.importer.notionApi.nameSingleLineBreaks())
+			.setDesc(i18n.importer.notionApi.descSingleLineBreaks())
+			.addToggle(toggle => {
+				toggle
+					.setValue(false)
+					.onChange(value => {
+						this.singleLineBreaks = value;
+						this.templateSettingsChanged();
+					});
+			});
+
+		this.addSetting()
+			?.setName(i18n.importer.notionApi.nameLinkedDatabases())
+			.setDesc(i18n.importer.notionApi.descLinkedDatabases())
+			.addToggle(toggle => toggle
+				.setValue(this.importLinkedDatabases)
+				.onChange(value => {
+					this.importLinkedDatabases = value;
+				}));
+	}
+
+	private notionPropertySettingsChanged(): void {
+		this.templateSettingsChanged();
+	}
+
+
+	private createFormulaStrategyDescription(): DocumentFragment {
+		const frag = createFragment();
+		frag.appendText(i18n.importer.notionApi.descFormulas());
+		return frag;
+	}
+
+	private createCoverPropertyDescription(): DocumentFragment {
+		const frag = createFragment();
+		frag.appendText(i18n.importer.notionApi.descCoverProperty());
+		frag.createEl('br');
+		frag.appendText(i18n.importer.notionApi.descCoverPropertyConflicts());
+		return frag;
+	}
+
+	/**
+	 * Initialize Notion client if not already initialized
+	 */
+	private initializeNotionClient(): void {
+		const scheduler = requestCoordinator.forCredential(this.notionToken);
+		this.notionClient = new Client({
+			auth: this.notionToken,
+			notionVersion: NOTION_VERSION,
+			// Keep retries behind the shared scheduler.
+			retry: false,
+			fetch: async (url: RequestInfo | URL, init?: RequestInit) => {
+				const urlString = url instanceof URL ? url.href : typeof url === 'string' ? url : url.url;
+
+				try {
+					await scheduler.waitForTurn();
+					const response = await watchForNotionOverload(
+						requestUrl({
+							url: urlString,
+							method: init?.method || 'GET',
+							headers: init?.headers as Record<string, string>,
+							body: init?.body as string | ArrayBuffer,
+							throw: false,
+						}),
+						scheduler,
+					);
+					if (response.status === 429 || response.status === 529) {
+						scheduler.rateLimited(response.headers['retry-after'] ?? response.headers['Retry-After']);
+					}
+
+					// Convert Obsidian response to fetch Response format
+					return new Response(response.arrayBuffer, {
+						status: response.status,
+						statusText: response.status.toString(),
+						headers: new Headers(response.headers),
+					});
+				}
+				catch (error) {
+					console.error('Request failed:', error);
+					throw error;
+				}
+			},
+		});
+	}
+
+	protected secretChanged(): void {
+		this.templatePreviewRead = null;
+		this.templatePreviewPages = undefined;
+		if (this.notionToken) void this.loadPageTree();
+		else this.picker.reset();
+	}
+
+	private async loadPageTree(): Promise<void> {
+		if (!this.notionToken) {
+			new Notice(i18n.importer.notionApi.msgTokenFirst());
+			return;
+		}
+
+		try {
+			await this.picker.load((isCurrent, publish) => this.readPages(isCurrent, publish));
+		}
+		catch (error) {
+			console.error('[Notion Importer] Failed to load pages:', error);
+			new Notice(i18n.importer.notionApi.msgLoadPagesFailed({
+				error: extractErrorMessage(error) ?? i18n.common.msgUnknownError(),
+			}));
+		}
+	}
+
+	private async readPages(
+		isCurrent: () => boolean,
+		publish: (nodes: NotionTreeNode[]) => void,
+	): Promise<NotionTreeNode[]> {
+		this.initializeNotionClient();
+
+		const tempCtx = {
+			status: (msg: string) => this.picker.setStatus(msg),
+			isCancelled: () => false,
+			reportFailed: (name: string, error: any) => {
+				console.error(`Failed: ${name}`, error);
+			},
+			statusMessage: '',
+		} as unknown as ImportContext;
+
+		const allRawItems: any[] = [];
+		let cursor: string | undefined = undefined;
+		let pageCount = 0;
+		let tree: NotionTreeNode[] = [];
+
+		do {
+			pageCount++;
+			tempCtx.status(i18n.importer.notionApi.statusLoadingItems({
+				items: i18n.nouns.itemWithCount({ count: allRawItems.length }),
+				page: pageCount,
+			}));
+
+			const response = await makeNotionRequest(
+				() => this.notionClient!.search({
+					start_cursor: cursor,
+					page_size: 100,
+				}),
+				tempCtx
+			);
+			if (!isCurrent()) return [];
+
+			allRawItems.push(...response.results);
+			tree = buildTree(collectItems(allRawItems), this.picker.nodes);
+			cursor = response.has_more ? response.next_cursor ?? undefined : undefined;
+			// The picker publishes the final tree; publish only intermediate pages here.
+			if (cursor) publish(tree);
+		} while (cursor);
+
+		return tree;
+	}
+
+	/**
+	 * Find a node by ID in the tree (recursive search)
+	 */
+	private findNodeById(nodes: NotionTreeNode[], id: string): NotionTreeNode | null {
+		for (const node of nodes) {
+			if (node.id === id) {
+				return node;
+			}
+			if (node.children.length > 0) {
+				const found = this.findNodeById(node.children, id);
+				if (found) return found;
+			}
+		}
+		return null;
+	}
+
+	/** Returns top-level selected items and seeds the initial page total. */
+	private getSelectedNodeIds(): string[] {
+		const picked = selectedNodes(this.pickedTree, node => !node.disabled);
+
+		this.knownPages.clear();
+		for (const node of picked) if (node.type === 'page') this.knownPages.add(node.id);
+
+		return picked.map(node => node.id);
+	}
+
+	private pageFinished(ctx: ImportContext): void {
+		this.finishedPages++;
+		ctx.reportProgress(this.finishedPages, this.knownPages.size);
+	}
+
+	private pagesDiscovered(ctx: ImportContext, pageIds: string[]): void {
+		if (pageIds.length === 0) return;
+
+		for (const pageId of pageIds) this.knownPages.add(pageId);
+		ctx.reportProgress(this.finishedPages, this.knownPages.size);
+	}
+
+	private async templateSampleForPage(
+		page: PageObjectResponse,
+		ctx: ImportContext,
+		cache: Map<string, NotionTemplatePreviewPage>,
+		databaseTag?: string,
+	): Promise<NoteTemplateSample> {
+		const blocks = await fetchAllBlocks(this.notionClient!, page.id, ctx);
+		const cached = { page, blocks, databaseTag };
+		cache.set(page.id, cached);
+		return this.templateSampleFromPage(cached);
+	}
+
+	private templateSampleFromPage(cached: NotionTemplatePreviewPage): NoteTemplateSample {
+		const { page, blocks, databaseTag } = cached;
+		const title = sanitizeFileName(extractPageTitle(page));
+		return {
+			title,
+			path: normalizePath(`${this.outputLocation}/${title}.md`),
+			content: serializeFrontMatter(notionPreviewProperties(
+				page,
+				this.coverPropertyName,
+				this.databasePropertyName,
+				databaseTag,
+			)) + notionBlocksPreview(blocks, this.singleLineBreaks),
+			sourceId: page.id,
+			times: {
+				ctime: page.created_time ? new Date(page.created_time).getTime() : undefined,
+				mtime: page.last_edited_time ? new Date(page.last_edited_time).getTime() : undefined,
+			},
+		};
+	}
+
+	private templatePreviewSelection(): { key: string, picked: NotionTreeNode[] } {
+		const picked = selectedNodes(this.pickedTree, node => !node.disabled);
+		return {
+			key: picked.map(node => `${node.type}:${node.id}`).join('\n'),
+			picked,
+		};
+	}
+
+	private async loadTemplatePreviewSamples(
+		ctx: ImportContext,
+		picked: NotionTreeNode[],
+		cache: Map<string, NotionTemplatePreviewPage>,
+	): Promise<NoteTemplateSample[]> {
+		const samples: NoteTemplateSample[] = [];
+
+		for (const node of picked) {
+			if (samples.length >= TEMPLATE_PREVIEW_LIMIT || await ctx.shouldStop()) break;
+			try {
+				let pages: PageObjectResponse[];
+				if (node.type === 'page') {
+					pages = [await makeNotionRequest(
+						() => this.notionClient!.pages.retrieve({ page_id: node.id }) as Promise<PageObjectResponse>,
+						ctx,
+					)];
+				}
+				else {
+					const response = await makeNotionRequest(
+						() => this.notionClient!.dataSources.query({
+							data_source_id: node.id,
+							page_size: TEMPLATE_PREVIEW_LIMIT - samples.length,
+						}),
+						ctx,
+					);
+					pages = response.results.filter(
+						(page): page is PageObjectResponse => page.object === 'page' && 'properties' in page,
+					);
+				}
+
+				for (const page of pages) {
+					if (samples.length >= TEMPLATE_PREVIEW_LIMIT || await ctx.shouldStop()) break;
+					try {
+						samples.push(await this.templateSampleForPage(
+							page,
+							ctx,
+							cache,
+							node.type === 'database' ? `${sanitizeFileName(node.title)}.base` : undefined,
+						));
+					}
+					catch (error) {
+						console.warn(`Could not preview Notion page ${page.id}`, error);
+					}
+				}
+			}
+			catch (error) {
+				console.warn(`Could not load Notion preview selection ${node.title}`, error);
+			}
+		}
+
+		return samples;
+	}
+
+	private startTemplatePreviewRead(
+		ctx: ImportContext,
+		key: string,
+		picked: NotionTreeNode[],
+	): NotionTemplatePreviewRead {
+		this.initializeNotionClient();
+		const previewContext = new NotionTemplatePreviewContext();
+		previewContext.add(ctx);
+		const cache = new Map<string, NotionTemplatePreviewPage>();
+		this.templatePreviewPages = cache;
+		const request = this.loadTemplatePreviewSamples(previewContext, picked, cache);
+		const read = { key, request, context: previewContext };
+		this.templatePreviewRead = read;
+		void request.then(
+			() => {
+				if (previewContext.wasStopped && this.templatePreviewRead === read) {
+					this.templatePreviewRead = null;
+				}
+			},
+			() => {
+				if (this.templatePreviewRead === read) this.templatePreviewRead = null;
+			},
+		);
+		return read;
+	}
+
+	private async templatePreviewSamplesForSelection(ctx: ImportContext): Promise<NoteTemplateSample[]> {
+		const { key, picked } = this.templatePreviewSelection();
+		if (!this.notionToken || picked.length === 0) return [];
+
+		const existing = this.templatePreviewRead;
+		const read = existing?.key === key && !existing.context.wasStopped
+			? existing
+			: this.startTemplatePreviewRead(ctx, key, picked);
+		if (read === existing) read.context.add(ctx);
+		try {
+			return await read.request;
+		}
+		finally {
+			read.context.remove(ctx);
+		}
+	}
+
+	override prefetchTemplatePreview(): void {
+		const ctx = new ImportContext();
+		const signal = this.host?.abortController.signal;
+		if (signal?.aborted) ctx.cancel();
+		else signal?.addEventListener('abort', () => ctx.cancel(), { once: true });
+		void this.templatePreviewSamplesForSelection(ctx)
+			.catch(error => console.warn('Could not read Notion previews ahead of time', error));
+	}
+
+	protected override async templatePreviewSamples(ctx: ImportContext): Promise<NoteTemplateSample[]> {
+		const samples = await this.templatePreviewSamplesForSelection(ctx);
+		return samples.map(sample => {
+			const cached = sample.sourceId ? this.templatePreviewPages?.get(sample.sourceId) : undefined;
+			return cached
+				? this.templateSampleFromPage(cached)
+				: { ...sample, path: normalizePath(`${this.outputLocation}/${sample.title}.md`) };
+		});
+	}
+
+	async import(ctx: ImportContext): Promise<void> {
+		this.lastBaseFilePath = null;
+		this.writtenPaths.clear();
+		this.recoveredPaths.clear();
+		this.syncedChildPagesToReach.clear();
+		this.syncedChildDatabasesToReach.clear();
+
+		// Validate inputs
+		if (!this.notionToken) {
+			new Notice(i18n.importer.notionApi.msgTokenMissing());
+			return;
+		}
+
+		// Get selected pages/databases
+		const selectedIds = this.getSelectedNodeIds();
+		if (selectedIds.length === 0) {
+			new Notice(i18n.importer.notionApi.msgPickPage());
+			return;
+		}
+
+		const folder = await this.getOutputFolder();
+		if (!folder) {
+			new Notice(i18n.common.msgPickOutput());
+			return;
+		}
+
+		ctx.status(i18n.importer.notionApi.statusConnecting());
+
+		try {
+			// Re-initialize client to ensure current token is used
+			this.initializeNotionClient();
+
+			ctx.status(i18n.importer.notionApi.statusFetching());
+
+			// Reset processed pages tracker
+			this.processedPages.clear();
+			this.processedDatabases.clear();
+			this.databaseLookups = createDatabaseLookups();
+			this.relationPlaceholders = [];
+			this.relatedPageTitles.clear();
+			this.finishedPages = 0;
+
+			ctx.status(i18n.importer.notionApi.statusPreparing({
+				items: i18n.nouns.itemWithCount({ count: this.knownPages.size }),
+			}));
+
+			ctx.reportProgress(0, this.knownPages.size);
+
+			// Save output root path for database handling
+			this.outputRootPath = folder.path;
+
+			// Import all selected pages/databases
+			ctx.status(i18n.importer.notionApi.statusImportingItems({
+				items: i18n.nouns.itemWithCount({ count: selectedIds.length }),
+			}));
+
+			for (let i = 0; i < selectedIds.length; i++) {
+				if (await ctx.shouldStop()) break;
+
+				const itemId = selectedIds[i];
+				ctx.status(i18n.importer.notionApi.statusImportingItem({ index: i + 1, total: selectedIds.length }));
+
+				try {
+					// Find the node in the tree to determine its type
+					const node = this.findNodeById(this.pickedTree, itemId);
+
+					if (!node) {
+						console.warn(`Could not find node with ID: ${itemId}`);
+						ctx.reportFailed(i18n.importer.notionApi.labelItem({ id: itemId }), i18n.importer.notionApi.reasonNotInTree());
+						continue;
+					}
+
+					if (node.type === 'database') {
+						// It's a database (data_source)!
+						// Use the data_source ID directly - no need to call databases.retrieve()
+						// The importDatabaseCore will use this as data_source_id
+						await this.importTopLevelDatabase(ctx, itemId, folder.path, {
+							isDataSourceId: true
+						});
+					}
+					else if (node.type === 'page') {
+						// It's a page, import as page
+						await this.fetchAndImportPage({ ctx, pageId: itemId, parentPath: folder.path });
+					}
+					else {
+						console.warn(`Unknown node type: ${String(node.type)} (ID: ${itemId})`);
+						ctx.reportFailed(
+							i18n.importer.notionApi.labelItem({ id: itemId }),
+							i18n.importer.notionApi.reasonUnknownType({ type: String(node.type) })
+						);
+					}
+				}
+				catch (error) {
+					console.error(`Failed to import item ${itemId}:`, error);
+					ctx.reportFailed(i18n.importer.notionApi.labelItem({ id: itemId }), error);
+					// Continue with next item
+				}
+			}
+
+			// Before the passes that turn placeholders into links, so what they
+			// link to is in the vault by the time they look.
+			await this.reachSyncedChildren(ctx);
+
+			// After all pages are imported, replace relation placeholders
+			ctx.status(i18n.importer.notionApi.statusRelationLinks());
+			await this.replaceRelationPlaceholders(ctx);
+
+			ctx.status(i18n.importer.notionApi.statusMentionLinks());
+			await this.replaceMentionPlaceholdersInAllFiles(ctx);
+
+			ctx.status(i18n.importer.notionApi.statusSyncedBlocks());
+			await this.replaceSyncedChildPlaceholders(ctx);
+
+			if (!this.saveSourceId) {
+				ctx.status(i18n.importer.notionApi.statusCleaningIds());
+				await this.cleanupNotionIds(ctx);
+			}
+
+			if (!ctx.isCancelled()) {
+				ctx.status(i18n.importer.notionApi.statusDone());
+				await this.openLastBaseFile();
+			}
+
+		}
+		catch (error) {
+			console.error('Notion API import error:', error);
+			ctx.reportFailed(i18n.importer.notionApi.labelImport(), error);
+			new Notice(i18n.importer.notionApi.msgImportFailed({ error: extractErrorMessage(error) ?? '' }));
+		}
+	}
+
+	/**
+	 * Open the last .base file the import wrote.
+	 *
+	 * Best effort: a failure here has no bearing on whether the import
+	 * succeeded, so it is reported to the console and otherwise ignored.
+	 */
+	private async openLastBaseFile(): Promise<void> {
+		if (!this.lastBaseFilePath) return;
+
+		try {
+			const file = this.vault.getAbstractFileByPath(this.lastBaseFilePath);
+			if (file instanceof TFile) {
+				// New tab rather than the active one, so whatever the user had
+				// open is left where it was
+				await this.app.workspace.getLeaf(true).openFile(file);
+
+				// Opening a file does not move the navigation tree, so without this
+				// the import gives no indication of where in the vault it landed
+				this.revealInFileExplorer(file);
+			}
+		}
+		catch (error) {
+			console.error(`Failed to open base file: ${this.lastBaseFilePath}`, error);
+		}
+	}
+
+	private revealInFileExplorer(file: TFile): void {
+		const explorerView = this.app.workspace.getLeavesOfType('file-explorer').first()?.view as
+			{ revealInFolder?(file: TFile): void } | undefined;
+
+		explorerView?.revealInFolder?.(file);
+	}
+
+	/**
+	 * Import a top-level database (when user provides a database ID directly)
+	 * 
+	 * Note: We create a fake block object because convertChildDatabase() expects a BlockObjectResponse.
+	 * This is a design limitation - convertChildDatabase() was originally designed to handle databases
+	 * that are children of pages (from the blocks array), but we're reusing it for top-level databases.
+	 * The fake block only needs the 'id' and 'type' fields, as the rest of the information is fetched
+	 * from the Notion API inside convertChildDatabase().
+	 */
+	protected async importTopLevelDatabase(
+		ctx: ImportContext,
+		databaseId: string,
+		parentPath: string,
+		options: {
+			isDataSourceId?: boolean;
+		} = {}
+	): Promise<void> {
+		if (await ctx.shouldStop()) return;
+
+		const { isDataSourceId = false } = options;
+
+		try {
+			// Import the database directly using importDatabaseCore
+			await importDatabaseCore(
+				databaseId,
+				{
+					ctx,
+					currentPageFolderPath: parentPath,
+					currentFilePath: undefined, // Top-level database, no parent file
+					client: this.notionClient!,
+					vault: this.vault,
+					app: this.app,
+					outputRootPath: this.outputRootPath,
+					formulaStrategy: this.formulaStrategy,
+					processedDatabases: this.processedDatabases,
+					databaseLookups: this.databaseLookups,
+					relationPlaceholders: this.relationPlaceholders,
+					onBaseFileWritten: path => this.lastBaseFilePath = path,
+					databasePropertyName: this.databasePropertyName,
+					shouldPrefetchDatabaseBlocks: (page, parentPath, databaseTag) => this.shouldPrefetchDatabaseBlocks(page, parentPath, databaseTag),
+					importPageCallback: async (pageId, parentPath, databaseTag, customFileName, page, blocks) => {
+						await this.fetchAndImportPage({ ctx, pageId, parentPath, databaseTag, customFileName, page, blocks });
+					},
+					onPagesDiscovered: pageIds => this.pagesDiscovered(ctx, pageIds)
+				},
+				isDataSourceId // Pass the flag to indicate if this is a data_source_id
+			);
+		}
+		catch (error) {
+			console.error(`Failed to import database ${databaseId}:`, error);
+			throw error;
+		}
+	}
+
+
+	private pageTitles(page: PageObjectResponse, customFileName?: string): { pageTitle: string, sanitizedTitle: string } {
+		const pageTitle = extractPageTitle(page);
+		return {
+			pageTitle,
+			sanitizedTitle: customFileName ? sanitizeFileName(customFileName) : sanitizeFileName(pageTitle),
+		};
+	}
+
+	private async configuredPageTitle(
+		page: PageObjectResponse,
+		sanitizedTitle: string,
+		homeFolder: string,
+		databaseTag?: string,
+	): Promise<{ configuredTitle: string, sourceMtime: number | undefined }> {
+		const sourceMtime = page.last_edited_time ? new Date(page.last_edited_time).getTime() : undefined;
+		const configuredTitle = await this.configuredNoteTitle(
+			sanitizedTitle,
+			homeFolder,
+			'',
+			notionPreviewProperties(page, this.coverPropertyName, this.databasePropertyName, databaseTag),
+			page.id,
+			{ mtime: sourceMtime },
+		);
+		return { configuredTitle, sourceMtime };
+	}
+
+	/** A database query already supplies enough metadata to settle an unchanged leaf. */
+	private async unchangedDatabaseLeaf(
+		page: PageObjectResponse,
+		parentPath: string,
+		databaseTag: string,
+		customFileName?: string,
+	): Promise<{ file: TFile, configuredTitle: string, sanitizedTitle: string, sourceMtime: number } | null> {
+		if (this.duplicateHandling === DuplicateHandling.CreateCopy) return null;
+
+		const { sanitizedTitle } = this.pageTitles(page, customFileName);
+		const { configuredTitle, sourceMtime } = await this.configuredPageTitle(page, sanitizedTitle, parentPath, databaseTag);
+		if (sourceMtime === undefined || !Number.isFinite(sourceMtime)) return null;
+
+		const parent = parentPath === '/' ? '' : parentPath;
+		const name = `${sanitizeFileName(configuredTitle, parent).replace(/\.md$/i, '')}.md`;
+		const desiredPath = normalizePath(parent ? `${parent}/${name}` : name);
+		const file = this.previouslyImported(desiredPath, page.id);
+
+		// A page with children was imported into its own folder. Keep walking
+		// those pages, including a child the user has since deleted locally.
+		// A changed Notion timestamp can also mean a leaf has gained children.
+		if (!file || file.path !== desiredPath || file.stat.mtime !== sourceMtime
+			|| this.vault.getAbstractFileByPath(childFolderOf(file.path))) return null;
+
+		return { file, configuredTitle, sanitizedTitle, sourceMtime };
+	}
+
+	private async shouldPrefetchDatabaseBlocks(page: PageObjectResponse, parentPath: string, databaseTag: string): Promise<boolean> {
+		return !await this.unchangedDatabaseLeaf(page, parentPath, databaseTag);
+	}
+
+	private async settleUnchangedDatabaseLeaf(
+		ctx: ImportContext,
+		page: PageObjectResponse,
+		parentPath: string,
+		databaseTag: string,
+		customFileName?: string,
+	): Promise<boolean> {
+		const match = await this.unchangedDatabaseLeaf(page, parentPath, databaseTag, customFileName);
+		if (!match) return false;
+
+		ctx.status(i18n.importer.notionApi.statusImportingTitle({ title: match.sanitizedTitle }));
+		const planned = this.planNote(parentPath, match.configuredTitle, page.id);
+		this.preflightNote(ctx, planned, match.sourceMtime);
+
+		await this.adoptSkippedNote(match.file, page.id);
+		return true;
+	}
+
+	/**
+	 * Fetch and import a Notion page recursively
+	 */
+	protected async fetchAndImportPage(params: FetchAndImportPageParams): Promise<void> {
+		const { ctx, pageId, parentPath, databaseTag, customFileName, page: prefetchedPage, blocks: prefetchedBlocks } = params;
+
+		if (await ctx.shouldStop()) return;
+
+		// Check if already processed
+		if (this.processedPages.has(pageId)) {
+			return;
+		}
+
+		this.processedPages.add(pageId);
+		// Include pages discovered outside the initial tree selection.
+		this.knownPages.add(pageId);
+
+		// Keep the full ID if fetching the title fails.
+		let reportedName = i18n.importer.notionApi.labelPage({ id: pageId });
+
+		try {
+			if (prefetchedPage) {
+				reportedName = i18n.importer.notionApi.labelPageWithTitle({ title: extractPageTitle(prefetchedPage), id: pageId });
+			}
+			if (prefetchedPage && databaseTag && !prefetchedBlocks && await this.settleUnchangedDatabaseLeaf(
+				ctx, prefetchedPage, parentPath, databaseTag, customFileName,
+			)) {
+				this.pageFinished(ctx);
+				return;
+			}
+
+			const blocksRequest = prefetchedBlocks
+				?? fetchAllBlocks(this.notionClient!, pageId, ctx);
+			// Avoid an unhandled rejection if metadata fails first.
+			void blocksRequest.catch(() => undefined);
+
+			// Fetch page metadata with rate limit handling
+			const page = prefetchedPage ?? await makeNotionRequest(
+				() => this.notionClient!.pages.retrieve({ page_id: pageId }) as Promise<PageObjectResponse>,
+				ctx
+			);
+
+			// Extract page title
+			const { pageTitle, sanitizedTitle } = this.pageTitles(page, customFileName);
+			reportedName = i18n.importer.notionApi.labelPageWithTitle({ title: pageTitle, id: pageId });
+
+			// Update status with page title instead of ID
+			ctx.status(i18n.importer.notionApi.statusImportingTitle({ title: sanitizedTitle }));
+
+			// Create a cache to store fetched blocks and avoid duplicate API calls
+			// This cache will be used both for checking if page has children and for converting blocks
+			const blocksCache = new Map<string, any[]>();
+
+			// Fetch page blocks (content) with rate limit handling
+			const blocks = await blocksRequest;
+			// Cache the root page blocks immediately
+			blocksCache.set(pageId, blocks);
+
+			// Note: We no longer check pageExistsInVault here because:
+			// 1. For incremental import, we need to check the specific file path (not global vault search)
+			// 2. This allows re-importing deleted files while skipping existing ones at the correct location
+			// The incremental import check happens later when determining the file path
+
+			// Check if page has child pages or child databases (recursively check nested blocks)
+			// This will check not only top-level blocks, but also blocks nested in lists, toggles, etc.
+			// The blocksCache will be populated during this check
+			const hasChildren = await hasChildPagesOrDatabases(this.notionClient!, blocks, ctx, this.databaseLookups, blocksCache);
+
+			// Discover all children first so remaining decreases monotonically.
+			this.pagesDiscovered(ctx, childPageIds(blocksCache));
+
+			// The folder is chosen before the note so a page importing for the
+			// first time lands inside it, as it always has.
+			const homeFolder = hasChildren ? this.pageFolder(parentPath, sanitizedTitle) : parentPath;
+
+			// "Create a copy" is not looking for a note to write over, but one
+			// this run wrote before it was interrupted is still its own.
+			const { configuredTitle, sourceMtime } = await this.configuredPageTitle(page, sanitizedTitle, homeFolder, databaseTag);
+			const desiredPath = normalizePath(
+				homeFolder ? `${homeFolder}/${sanitizeFileName(configuredTitle)}.md` : `${sanitizeFileName(configuredTitle)}.md`,
+			);
+			const recovered = this.duplicateHandling === DuplicateHandling.CreateCopy
+				&& await this.alreadyWrittenByAnUnfinishedImport(desiredPath, pageId, ctx);
+
+			// Notion says when it last changed the page, and an import writes
+			// that onto the note, so a page nobody has touched at either end is
+			// known to be unchanged without reading a word of it.
+			const planned = recovered ? null : this.planNote(homeFolder, configuredTitle, pageId);
+			const disposition = planned ? this.preflightNote(ctx, planned, sourceMtime) : 'skip';
+			const mdFilePath = planned ? planned.targetPath : desiredPath;
+
+			const leavingItAlone = leavesTheNoteAlone(disposition);
+
+			if (planned?.file && leavingItAlone) {
+				await this.adoptSkippedNote(planned.file, pageId, disposition !== 'preserve');
+			}
+
+			// A page left alone still has its children to reach, and they are
+			// reached by converting it. One with none has nothing left to do.
+			const shouldSkipParentFile = leavingItAlone;
+			if (shouldSkipParentFile && !hasChildren) {
+				this.pageFinished(ctx);
+				return;
+			}
+
+			// A page without children keeps its synced blocks wherever the note is.
+			const pageFolderPath = hasChildren
+				? childFolderOf(mdFilePath)
+				: parseFilePath(mdFilePath).parent;
+			if (hasChildren) await this.createFolders(pageFolderPath);
+
+			const currentFileFolderPath = pageFolderPath;
+
+			// Convert blocks to markdown with nested children support
+			// Pass the blocksCache to reuse already fetched blocks
+			// Create a set to collect mentioned page/database IDs
+			const mentionedIds = new Set<string>();
+
+			let markdownContent = await convertBlocksToMarkdown(blocks, {
+				ctx,
+				currentFolderPath: currentFileFolderPath,
+				currentFilePath: mdFilePath, // for link generation
+				client: this.notionClient!,
+				vault: this.vault,
+				app: this.app,
+				downloadExternalAttachments: this.downloadExternalAttachments,
+				singleLineBreaks: this.singleLineBreaks, // Single line breaks mode
+				reuseExistingAttachments: this.reuseExistingAttachments,
+				forChildrenOnly: shouldSkipParentFile,
+				indentLevel: 0,
+				blocksCache, // reuse cached blocks
+				mentionedIds, // collect mentioned IDs
+				syncedBlocksMap: this.syncedBlocksMap, // for synced blocks
+				outputRootPath: this.outputRootPath, // for synced blocks folder
+				syncedChildPagePlaceholders: this.syncedChildPagePlaceholders, // for efficient synced child page replacement
+				syncedChildDatabasePlaceholders: this.syncedChildDatabasePlaceholders, // for efficient synced child database replacement
+				currentPageTitle: sanitizedTitle, // for attachment naming fallback
+				// Callback to import child pages
+				importPageCallback: async (childPageId: string, parentPath: string) => {
+					await this.fetchAndImportPage({ ctx, pageId: childPageId, parentPath });
+				},
+				// Callback when an attachment is downloaded
+				onAttachmentDownloaded: (filename: string) => ctx.reportAttachmentSuccess(filename),
+				// Function to get available attachment path using FormatImporter's method
+				// Pass mdFilePath so attachments are placed relative to the actual page file
+				getAvailableAttachmentPath: async (filename: string) => {
+					return await this.getAvailablePathForAttachment(filename, [], mdFilePath);
+				},
+				syncedBlockFile: request => this.importSyncedBlockFile(ctx, request),
+			});
+
+			// Process database placeholders
+			// Note: If hasChildren is false, there won't be any database placeholders to process
+			// But we still call this function to maintain consistency
+			markdownContent = await processDatabasePlaceholders(
+				markdownContent,
+				blocks,
+				{
+					ctx,
+					currentPageFolderPath: pageFolderPath,
+					currentFilePath: mdFilePath, // For link generation
+					client: this.notionClient!,
+					vault: this.vault,
+					app: this.app,
+					outputRootPath: this.outputRootPath,
+					formulaStrategy: this.formulaStrategy,
+					processedDatabases: this.processedDatabases,
+					databaseLookups: this.databaseLookups,
+					relationPlaceholders: this.relationPlaceholders,
+					onBaseFileWritten: path => this.lastBaseFilePath = path,
+					databasePropertyName: this.databasePropertyName, // Add database property name for child databases
+					shouldPrefetchDatabaseBlocks: (page, parentPath, databaseTag) => this.shouldPrefetchDatabaseBlocks(page, parentPath, databaseTag),
+					blocksCache, // Pass blocks cache for recursive block search
+					// Callback to import database pages
+					importPageCallback: async (pageId, parentPath, databaseTag, customFileName, page, blocks) => {
+						await this.fetchAndImportPage({ ctx, pageId, parentPath, databaseTag, customFileName, page, blocks });
+					},
+					onPagesDiscovered: pageIds => this.pagesDiscovered(ctx, pageIds)
+				}
+			);
+
+			// Clear the cache after processing this page to free memory
+			blocksCache.clear();
+
+			// Prepare YAML frontmatter
+			// Start with notion-id and database link at the top
+			const frontMatter: FrontMatterCache = {
+				[NOTION_ID_PROPERTY]: page.id,
+			};
+
+			// Add database .base file link if this page belongs to a database (right after notion-id)
+			if (databaseTag) {
+				frontMatter[this.databasePropertyName] = `[[${databaseTag}]]`;
+			}
+
+			// Only a note being written has any use for them, and reading them
+			// downloads whatever its file properties point at.
+			const extractedProps = shouldSkipParentFile ? {} : await extractFrontMatter({
+				page,
+				formulaStrategy: this.formulaStrategy,
+				client: this.notionClient!,
+				ctx,
+				// Parameters for downloading file property attachments
+				vault: this.vault,
+				app: this.app,
+				currentFilePath: mdFilePath,
+				currentFolderPath: pageFolderPath,
+				downloadExternalAttachments: this.downloadExternalAttachments,
+				reuseExistingAttachments: this.reuseExistingAttachments,
+				onAttachmentDownloaded: (filename: string) => ctx.reportAttachmentSuccess(filename),
+				// Pass mdFilePath so attachments are placed relative to the actual page file
+				getAvailableAttachmentPath: async (filename: string) => {
+					return await this.getAvailablePathForAttachment(filename, [], mdFilePath);
+				}
+			});
+			// Merge extracted properties (skip notion-id as we already added it)
+			for (const key in extractedProps) {
+				if (key !== 'notion-id') {
+					frontMatter[key] = extractedProps[key];
+				}
+			}
+
+			// Process cover image if present
+			if (frontMatter.cover && typeof frontMatter.cover === 'string') {
+				try {
+					// Determine cover type based on URL
+					const coverUrl = frontMatter.cover;
+					const isExternal = !coverUrl.includes('secure.notion-static.com');
+
+					// Cover images are always downloaded, regardless of downloadExternalAttachments setting
+					// This is because Notion covers often use external URLs even for Notion-hosted images
+					// Use the page title as the cover filename for better organization
+					const result = await downloadAttachment(
+						{
+							type: isExternal ? 'external' : 'file',
+							url: coverUrl,
+							name: sanitizedTitle // Use page title as cover filename
+						},
+						{
+							ctx,
+							currentFolderPath: currentFileFolderPath,
+							currentFilePath: mdFilePath,
+							client: this.notionClient!,
+							vault: this.vault,
+							app: this.app,
+							downloadExternalAttachments: true, // Always download cover images
+							reuseExistingAttachments: this.reuseExistingAttachments,
+							currentPageTitle: sanitizedTitle,
+							// Pass mdFilePath so attachments are placed relative to the actual page file
+							getAvailableAttachmentPath: async (filename: string) => {
+								return await this.getAvailablePathForAttachment(filename, [], mdFilePath);
+							},
+						}
+					);
+
+					// For frontmatter, use wiki link syntax with double quotes for proper rendering
+					// Cover images should always be downloaded locally
+					if (result.isLocal && result.filename) {
+						// Report progress for cover image download
+						ctx.reportAttachmentSuccess(result.filename);
+
+						// Extract extension from filename
+						const ext = result.filename.substring(result.filename.lastIndexOf('.'));
+						const fullPath = result.path + ext;
+						// Use wiki link syntax with double quotes: "[[path]]"
+						// The double quotes are necessary for YAML to render it as a link
+						const coverValue = `[[${fullPath}]]`;
+
+						// Update cover in frontmatter
+						if (this.coverPropertyName !== 'cover') {
+							delete frontMatter.cover;
+							frontMatter[this.coverPropertyName] = coverValue;
+						}
+						else {
+							frontMatter.cover = coverValue;
+						}
+					}
+					else {
+						// Download failed - log warning and keep original URL as fallback
+						console.warn(`Failed to download cover image, keeping original URL: ${result.path}`);
+						// Keep the original URL in frontmatter as a fallback.
+						// Note: This should rarely happen as we force download for covers
+						if (this.coverPropertyName !== 'cover') {
+							// If using custom property name, move the URL to the custom property
+							const originalUrl = frontMatter.cover;
+							delete frontMatter.cover;
+							frontMatter[this.coverPropertyName] = originalUrl;
+						}
+						// If using default 'cover' property, the original URL is already there, no change needed
+					}
+				}
+				catch (error) {
+					console.error(`Failed to download cover image:`, error);
+					// Keep original URL on error
+				}
+			}
+
+			// Create the markdown file (only if not skipped)
+			if (!shouldSkipParentFile && planned) {
+				const fullContent = serializeFrontMatter(frontMatter) + markdownContent;
+
+				const options: DataWriteOptions = {};
+				if (page.created_time) options.ctime = new Date(page.created_time).getTime();
+				if (page.last_edited_time) options.mtime = new Date(page.last_edited_time).getTime();
+
+				let written: TFile;
+				try {
+					const note = await this.writePlannedNote(ctx, planned, fullContent, { ...options, disposition });
+					written = note.file;
+					if (note.written) ctx.reportNoteSuccess(sanitizedTitle);
+				}
+				catch (error) {
+					console.error(`[CREATE FILE] Failed to create file: ${mdFilePath}`);
+					console.error(`[CREATE FILE] Page ID: ${pageId}, Page Title: ${sanitizedTitle}`);
+					console.error(`[CREATE FILE] Error:`, error);
+					throw error;
+				}
+
+				// Record page ID to path mapping for mention replacement
+				// Store path without extension for wiki link generation
+				const pathWithoutExt = written.path.replace(/\.md$/, '');
+				this.notionIdToPath.set(pageId, pathWithoutExt);
+				this.writtenPaths.add(pathWithoutExt);
+
+				// Record mention placeholders if any mentions were found
+				// Use file path as key for O(1) lookup during replacement
+				if (mentionedIds.size > 0) {
+					this.mentionPlaceholders.set(written.path, mentionedIds);
+				}
+			}
+
+			// Update progress: count all processed pages (imported + skipped)
+			// Only count nodes that were selected in the tree (not recursively discovered pages)
+			this.pageFinished(ctx);
+			// Note: Even if parent file is skipped, child pages have already been processed
+			// by the importPageCallback in convertBlocksToMarkdown
+
+		}
+		catch (error) {
+			console.error(`Failed to import page ${pageId}:`, error);
+			const errorMsg = error instanceof Error ? error.message : String(error);
+			// Log more details for debugging
+			console.error(`Error details - Page ID: ${pageId}, Error: ${errorMsg}`);
+			if (error instanceof Error && error.stack) {
+				console.error('Stack trace:', error.stack);
+			}
+			ctx.reportFailed(reportedName, errorMsg);
+			this.pageFinished(ctx);
+		}
+	}
+
+	/**
+	 * Replace all relation placeholders with actual links after all pages are imported
+	 * Supports multi-round processing: if importing unimported databases discovers new relations,
+	 * those databases will be imported in subsequent rounds until no new relations are found.
+	 */
+	private async replaceRelationPlaceholders(ctx: ImportContext): Promise<void> {
+		if (this.relationPlaceholders.length === 0) {
+			return;
+		}
+
+		ctx.status(i18n.importer.notionApi.statusReplacingRelations({
+			placeholders: i18n.nouns.relationPlaceholderWithCount({ count: this.relationPlaceholders.length }),
+		}));
+
+		if (this.importLinkedDatabases) {
+			await this.importDatabasesRelationsPointAt(ctx);
+		}
+
+		// Final pass: replace all placeholders with links
+		// This happens after all rounds of database imports are complete
+		ctx.status(i18n.importer.notionApi.statusReplacingRelationLinks());
+		for (const placeholder of this.relationPlaceholders) {
+			if (await ctx.shouldStop()) break;
+
+			try {
+				// Get the page file path from mapping (O(1) lookup)
+				const pageFilePath = this.notionIdToPath.get(placeholder.pageId);
+				if (!pageFilePath) {
+					console.warn(`Could not find file path for page: ${placeholder.pageId}`);
+					continue;
+				}
+
+				// Get the file directly by path (O(1) lookup)
+				const pageFile = this.vault.getAbstractFileByPath(pageFilePath + '.md');
+				if (!pageFile || !(pageFile instanceof TFile)) {
+					console.warn(`Could not find page file: ${pageFilePath}`);
+					continue;
+				}
+
+				// Read the file content
+				let content = await this.vault.read(pageFile);
+
+				// Parse frontmatter
+				const frontmatterRegex = /^---\n([\s\S]*?)\n---/;
+				const match = content.match(frontmatterRegex);
+
+				if (!match) {
+					console.warn(`No frontmatter found in file: ${pageFile.path}`);
+					continue;
+				}
+
+				const replacements = new Map<string, string>();
+
+				for (const relatedPageId of placeholder.relatedPageIds) {
+					// Get the related page file path from mapping (O(1) lookup)
+					const relatedPagePath = this.notionIdToPath.get(relatedPageId);
+					if (relatedPagePath) {
+						const relatedPageFile = this.vault.getAbstractFileByPath(relatedPagePath + '.md');
+						if (relatedPageFile instanceof TFile) {
+							// YAML frontmatter doesn't support Markdown syntax, so always use Wiki links
+							// regardless of user's global link format setting
+							// Use Obsidian wiki link with display text: [[path/to/file|display name]]
+							// This ensures precise linking (no ambiguity with duplicate names)
+							// while displaying only the clean file name
+							const displayName = relatedPageFile.basename; // Just the file name for display
+							replacements.set(relatedPageId, `[[${relatedPagePath}|${displayName}]]`);
+							continue;
+						}
+
+						console.warn(`Could not find related page file: ${relatedPagePath}`);
+					}
+
+					const title = await this.relatedPageTitle(relatedPageId, ctx);
+					if (title) {
+						replacements.set(relatedPageId, title);
+					}
+				}
+
+				const newContent = replaceRelationValue(content, placeholder.propertyKey, replacements);
+
+				// Write back to file if content changed
+				if (newContent !== content) {
+					await this.modifyPreservingTimestamps(pageFile, newContent);
+				}
+			}
+			catch (error) {
+				const errorMessage = error instanceof Error ? error.message : String(error);
+				console.error(`Failed to replace relation placeholder for page ${placeholder.pageId}:`, error);
+				ctx.reportFailed(i18n.importer.notionApi.labelRelationPage({ id: placeholder.pageId }), errorMessage);
+			}
+		}
+	}
+
+	private async importDatabasesRelationsPointAt(ctx: ImportContext): Promise<void> {
+		const missingDatabaseIds = new Set<string>();
+
+		for (const placeholder of this.relationPlaceholders) {
+			if (!placeholder.targetDatabaseId) continue;
+			if (this.processedDatabases.has(placeholder.targetDatabaseId)) continue;
+
+			const anyMissing = placeholder.relatedPageIds.some(id => !this.notionIdToPath.get(id));
+			if (anyMissing) missingDatabaseIds.add(placeholder.targetDatabaseId);
+		}
+
+		if (missingDatabaseIds.size === 0) return;
+
+		ctx.status(i18n.importer.notionApi.statusImportingLinkedDatabases({
+			databases: i18n.nouns.linkedDatabaseWithCount({ count: missingDatabaseIds.size }),
+		}));
+
+		for (const databaseId of missingDatabaseIds) {
+			if (await ctx.shouldStop()) return;
+			if (this.processedDatabases.has(databaseId)) continue;
+
+			await this.importUnimportedDatabase(ctx, databaseId, this.outputRootPath);
+		}
+	}
+
+	private async relatedPageTitle(pageId: string, ctx: ImportContext): Promise<string | null> {
+		const cached = this.relatedPageTitles.get(pageId);
+		if (cached !== undefined) return cached;
+
+		let title: string | null = null;
+
+		try {
+			const page = await makeNotionRequest(
+				() => this.notionClient!.pages.retrieve({ page_id: pageId }),
+				ctx,
+			);
+			title = extractPageTitle(page as PageObjectResponse);
+		}
+		catch (error) {
+			console.warn(`Could not read the title of related page ${pageId}:`, error);
+		}
+
+		this.relatedPageTitles.set(pageId, title);
+		return title;
+	}
+
+	/**
+	 * Import a database that was not in the original import scope
+	 * but is needed for relation links
+	 */
+	private async importUnimportedDatabase(ctx: ImportContext, databaseId: string, parentPath: string): Promise<void> {
+		let databaseTitle = 'Untitled Database'; // Default title for error reporting
+
+		try {
+			ctx.status(i18n.importer.notionApi.statusImportingUnimported({ id: databaseId }));
+
+			// Build context for the core import logic
+			const context: DatabaseProcessingContext = {
+				ctx,
+				currentPageFolderPath: parentPath,
+				currentFilePath: undefined, // Unimported database, no parent file
+				client: this.notionClient!,
+				vault: this.vault,
+				app: this.app,
+				outputRootPath: this.outputRootPath,
+				formulaStrategy: this.formulaStrategy,
+				processedDatabases: this.processedDatabases,
+				databaseLookups: this.databaseLookups,
+				relationPlaceholders: this.relationPlaceholders,
+				onBaseFileWritten: path => this.lastBaseFilePath = path,
+				shouldPrefetchDatabaseBlocks: (page, parentPath, databaseTag) => this.shouldPrefetchDatabaseBlocks(page, parentPath, databaseTag),
+				importPageCallback: async (pageId, parentPath, databaseTag, customFileName, page, blocks) => {
+					await this.fetchAndImportPage({ ctx, pageId, parentPath, databaseTag, customFileName, page, blocks });
+				},
+				// onPagesDiscovered callback not provided - not needed for unimported databases
+				databasePropertyName: this.databasePropertyName
+			};
+
+			// Use the core import logic
+			const result = await importDatabaseCore(databaseId, context);
+			databaseTitle = result.sanitizedTitle;
+		}
+		catch (error) {
+			const errorMsg = error instanceof Error ? error.message : String(error);
+			console.error(`Failed to import unimported database "${databaseTitle}":`, error);
+			ctx.reportFailed(i18n.importer.notionApi.labelDatabaseWithId({ title: databaseTitle, id: databaseId }), errorMsg);
+		}
+	}
+
+	/**
+	 * Replace mention placeholders ([[NOTION_PAGE:id]] and [[NOTION_DB:id]]) 
+	 * Only processes files that have mentions (efficient like relationPlaceholders)
+	 * Uses Obsidian's link generation to respect user's link format settings
+	 */
+	private async replaceMentionPlaceholdersInAllFiles(ctx: ImportContext): Promise<void> {
+		if (this.mentionPlaceholders.size === 0) {
+			return;
+		}
+
+		ctx.status(i18n.importer.notionApi.statusReplacingMentions());
+
+		let replacedCount = 0;
+		let filesModified = 0;
+
+		// Iterate through files that have mentions (using file path as key for O(1) lookup)
+		for (const [sourceFilePath, mentionedIds] of this.mentionPlaceholders) {
+			if (await ctx.shouldStop()) break;
+
+			try {
+				// Get the source file directly by path (O(1) lookup)
+				const sourceFile = this.vault.getAbstractFileByPath(normalizePath(sourceFilePath));
+				if (!sourceFile || !(sourceFile instanceof TFile)) {
+					console.warn(`Could not find source file: ${sourceFilePath}`);
+					continue;
+				}
+
+				// Read the file content
+				let content = await this.vault.read(sourceFile);
+				const originalContent = content;
+
+				// Replace all mentioned page/database IDs in this file
+				for (const mentionedId of mentionedIds) {
+					let targetPath: string | undefined;
+
+					// Try to find in pages first
+					targetPath = this.notionIdToPath.get(mentionedId);
+
+					// If not found, try databases
+					if (!targetPath) {
+						const dbInfo = this.processedDatabases.get(mentionedId);
+						if (dbInfo) {
+							targetPath = dbInfo.baseFilePath.replace(/\.base$/, '');
+						}
+					}
+
+					if (!targetPath) {
+						console.warn(`No mapping found for mention: ${mentionedId}`);
+						continue;
+					}
+
+					// Try to find the target file (could be .md or .base)
+					let targetFile = this.vault.getAbstractFileByPath(targetPath + '.md');
+					if (!targetFile) {
+						targetFile = this.vault.getAbstractFileByPath(targetPath + '.base');
+					}
+
+					if (targetFile instanceof TFile) {
+						// Use Obsidian's API to generate link according to user's settings
+						const link = this.app.fileManager.generateMarkdownLink(
+							targetFile,
+							sourceFile.path
+						);
+
+						// Replace all occurrences of this mention (global replace)
+						// A page might mention the same page/database multiple times
+						const regex = new RegExp(`\\[\\[NOTION_(PAGE|DB):${mentionedId}\\]\\]`, 'g');
+						const matches = content.match(regex);
+						if (matches) {
+							content = content.replace(regex, link);
+							replacedCount += matches.length;
+						}
+					}
+					else {
+						console.warn(`Target file not found: ${targetPath}`);
+					}
+				}
+
+				// Save the file if it was modified
+				if (content !== originalContent) {
+					await this.modifyPreservingTimestamps(sourceFile, content);
+					filesModified++;
+				}
+			}
+			catch (error) {
+				const errorMessage = error instanceof Error ? error.message : String(error);
+				console.error(`Failed to process mentions in file ${sourceFilePath}:`, error);
+				ctx.reportFailed(i18n.importer.notionApi.labelMentionFile({ path: sourceFilePath }), errorMessage);
+			}
+		}
+
+		ctx.status(i18n.importer.notionApi.statusReplacedMentions({
+			links: i18n.nouns.mentionLinkWithCount({ count: replacedCount }),
+			files: i18n.nouns.fileWithCount({ count: filesModified }),
+		}));
+	}
+
+	/**
+ * Replace synced child placeholders (pages/databases referenced in synced blocks)
+ * Strategy:
+ * 1. Check if already imported → use existing path
+ * 2. If not imported → try to import to output root folder
+ * 3. If import fails → show friendly message
+ * 
+ * Performance: Only processes files that contain synced child placeholders (O(n) where n = files with placeholders)
+ */
+	protected async replaceSyncedChildPlaceholders(ctx: ImportContext): Promise<void> {
+		if (this.syncedChildPagePlaceholders.size === 0 && this.syncedChildDatabasePlaceholders.size === 0) {
+			return;
+		}
+
+		ctx.status(i18n.importer.notionApi.statusReplacingSynced());
+
+		let replacedCount = 0;
+		let filesModified = 0;
+		let importedCount = 0;
+
+		// Process page placeholders
+		for (const [filePath, pageIds] of this.syncedChildPagePlaceholders) {
+			if (await ctx.shouldStop()) break;
+
+			try {
+				// Get the file directly by path (O(1) lookup)
+				const file = this.vault.getAbstractFileByPath(normalizePath(filePath));
+				if (!file || !(file instanceof TFile)) {
+					console.warn(`Could not find synced block file: ${filePath}`);
+					continue;
+				}
+
+				let content = await this.vault.read(file);
+				const originalContent = content;
+
+				// Process each page ID that was recorded for this file
+				for (const pageId of pageIds) {
+					const pagePlaceholder = createPlaceholder(PlaceholderType.SYNCED_CHILD_PAGE, pageId);
+
+					// Check if this page placeholder exists
+					if (content.includes(pagePlaceholder)) {
+						// Check if page is already imported
+						let pagePath = this.notionIdToPath.get(pageId);
+
+						if (!pagePath) {
+							// Try to import the page to the output root folder
+							try {
+								await this.fetchAndImportPage({ ctx, pageId, parentPath: this.outputRootPath });
+								importedCount++;
+							}
+							catch (error) {
+								// Failed to import (no access or error)
+								console.warn(`Failed to import synced child page ${pageId}:`, error);
+								content = content.replace(pagePlaceholder, `**Page** _(no access)_`);
+								continue; // Skip to next page ID
+							}
+						}
+
+						// Now get the path (either already existed or just imported)
+						pagePath = this.notionIdToPath.get(pageId);
+						if (pagePath) {
+							const targetFile = this.vault.getAbstractFileByPath(pagePath + '.md');
+							if (targetFile && targetFile instanceof TFile) {
+								const link = this.app.fileManager.generateMarkdownLink(targetFile, file.path);
+								content = content.replace(pagePlaceholder, link);
+								replacedCount++;
+							}
+						}
+					}
+				}
+
+				// Save the file if it was modified
+				if (content !== originalContent) {
+					await this.modifyPreservingTimestamps(file, content);
+					filesModified++;
+				}
+			}
+			catch (error) {
+				const errorMessage = error instanceof Error ? error.message : String(error);
+				console.error(`Failed to process synced child page placeholders in file ${filePath}:`, error);
+				ctx.reportFailed(i18n.importer.notionApi.labelSyncedBlockFile({ path: filePath }), errorMessage);
+			}
+		}
+
+		// Process database placeholders
+		for (const [filePath, databaseIds] of this.syncedChildDatabasePlaceholders) {
+			if (await ctx.shouldStop()) break;
+
+			try {
+				// Get the file directly by path (O(1) lookup)
+				const file = this.vault.getAbstractFileByPath(normalizePath(filePath));
+				if (!file || !(file instanceof TFile)) {
+					console.warn(`Could not find synced block file: ${filePath}`);
+					continue;
+				}
+
+				let content = await this.vault.read(file);
+				const originalContent = content;
+
+				// Process each database ID that was recorded for this file
+				for (const databaseId of databaseIds) {
+					const dbPlaceholder = createPlaceholder(PlaceholderType.SYNCED_CHILD_DATABASE, databaseId);
+
+					if (content.includes(dbPlaceholder)) {
+						// Check if database is already imported
+						let dbInfo = this.processedDatabases.get(databaseId);
+
+						if (!dbInfo) {
+							// Try to import the database to the output root folder
+							try {
+								await this.importTopLevelDatabase(ctx, databaseId, this.outputRootPath);
+								importedCount++;
+							}
+							catch (error) {
+								// Failed to import (no access or error)
+								console.warn(`Failed to import synced child database ${databaseId}:`, error);
+								content = content.replace(dbPlaceholder, error instanceof LinkedDatabaseError
+									? LINKED_DATABASE_COMMENT : `**Database** _(no access)_`);
+								continue; // Skip to next database ID
+							}
+						}
+
+						// Now get the database info (either already existed or just imported)
+						dbInfo = this.processedDatabases.get(databaseId);
+						if (dbInfo) {
+							const baseFilePath = dbInfo.baseFilePath.replace(/\.base$/, '');
+							const targetFile = this.vault.getAbstractFileByPath(baseFilePath + '.base');
+							if (targetFile && targetFile instanceof TFile) {
+								const link = this.app.fileManager.generateMarkdownLink(targetFile, file.path);
+								content = content.replace(dbPlaceholder, link);
+								replacedCount++;
+							}
+						}
+					}
+				}
+
+				// Save the file if it was modified
+				if (content !== originalContent) {
+					await this.modifyPreservingTimestamps(file, content);
+					filesModified++;
+				}
+			}
+			catch (error) {
+				const errorMessage = error instanceof Error ? error.message : String(error);
+				console.error(`Failed to process synced child database placeholders in file ${filePath}:`, error);
+				ctx.reportFailed(i18n.importer.notionApi.labelSyncedBlockFile({ path: filePath }), errorMessage);
+			}
+		}
+
+		ctx.status(i18n.importer.notionApi.statusReplacedSynced({
+			references: i18n.nouns.syncedReferenceWithCount({ count: replacedCount }),
+			files: i18n.nouns.fileWithCount({ count: filesModified }),
+			imported: i18n.nouns.newItemWithCount({ count: importedCount }),
+		}));
+	}
+
+	/** Find a page left by an unfinished import. */
+	protected async alreadyWrittenByAnUnfinishedImport(
+		filePath: string,
+		notionId: string,
+		ctx: ImportContext
+	): Promise<boolean> {
+		if (this.saveSourceId) return false;
+
+		const file = this.vault.getAbstractFileByPath(normalizePath(filePath));
+		if (!(file instanceof TFile)) return false;
+
+		try {
+			const content = await this.vault.read(file);
+			if (this.sourceIdIn(content, NOTION_ID_PROPERTY) !== notionId) return false;
+
+			const { basename } = parseFilePath(file.path);
+			ctx.reportSkipped(basename, i18n.importer.notionApi.reasonEarlierImport());
+
+			const pathWithoutExt = file.path.replace(/\.md$/, '');
+			this.notionIdToPath.set(notionId, pathWithoutExt);
+			this.recoveredPaths.add(pathWithoutExt);
+			await this.collectUnresolvedPlaceholders(content, notionId, file.path);
+
+			return true;
+		}
+		catch (error) {
+			console.error(`Failed to read file ${filePath} for duplicate check:`, error);
+			return false;
+		}
+	}
+
+	/**
+	 * Take on a note this import is leaving as it stands.
+	 *
+	 * An earlier run may have been interrupted before it could turn its
+	 * placeholders into links, so what is still waiting in the file is read back
+	 * out of it here and resolved with everything else once the import is done.
+	 * Not when the user has edited the note since: then it is theirs, and the
+	 * most this import may do is remember where it is.
+	 */
+	protected async adoptSkippedNote(file: TFile, notionId: string, mayRewrite = true): Promise<void> {
+		// Other pages link to it whatever this import does with it.
+		this.notionIdToPath.set(notionId, file.path.replace(/\.md$/, ''));
+		if (!mayRewrite) return;
+
+		try {
+			await this.collectUnresolvedPlaceholders(await this.vault.read(file), notionId, file.path);
+		}
+		catch (error) {
+			console.error(`Could not read the note already at: ${file.path}`, error);
+		}
+	}
+
+	/**
+	 * Write a synced block's own note, once per synced block rather than once
+	 * per import.
+	 *
+	 * It used to ask for a name nothing was using, so every import wrote
+	 * another one: "Page synced block 1.md", then "Page synced block 2.md". The
+	 * note carries the block's id now, which is what lets a later import find
+	 * the one it wrote before. Converted whatever is decided, because a synced
+	 * block can hold child pages and they are reached by converting it.
+	 */
+	protected async importSyncedBlockFile(ctx: ImportContext, request: SyncedBlockRequest): Promise<string> {
+		const { blockId, folderPath, fileName, createdTime, lastEditedTime, convert } = request;
+
+		// "Create a copy" is not looking for a note to reuse, but one this run
+		// wrote before it was interrupted is still its own.
+		const recovered = this.duplicateHandling === DuplicateHandling.CreateCopy
+			? await this.recoverSyncedBlockNote(ctx, folderPath, fileName, blockId)
+			: null;
+
+		// Still walked, because Notion may have gained a page under it between
+		// the run that stopped and this one.
+		if (recovered) {
+			this.noteChildrenOf(await convert(recovered, { forChildrenOnly: true, keepPlaceholders: false }));
+			return recovered;
+		}
+
+		const planned = await this.planTemplatedNote(
+			folderPath,
+			this.syncedBlockTitle(folderPath, fileName),
+			'',
+			{
+				sourceId: blockId,
+				ctime: createdTime ? new Date(createdTime).getTime() : undefined,
+				mtime: lastEditedTime ? new Date(lastEditedTime).getTime() : undefined,
+			},
+		);
+		const sourceMtime = lastEditedTime ? new Date(lastEditedTime).getTime() : undefined;
+		const disposition = this.preflightNote(ctx, planned, sourceMtime);
+
+		const leavingItAlone = leavesTheNoteAlone(disposition);
+
+		// The placeholders worth repairing in a note being left alone are the
+		// ones already in the file, not the ones just converted, so
+		// adoptSkippedNote reads them back out instead.
+		const markdown = await convert(planned.targetPath, {
+			forChildrenOnly: leavingItAlone,
+			keepPlaceholders: !leavingItAlone,
+		});
+
+		if (leavingItAlone) {
+			if (planned.file) await this.adoptSkippedNote(planned.file, blockId, disposition !== 'preserve');
+
+			this.noteChildrenOf(markdown);
+
+			return planned.file?.path ?? planned.targetPath;
+		}
+
+		// The id goes in whether or not the user asked to keep it, as a page's
+		// does, so an interrupted import leaves notes it can recognise as its
+		// own; cleanupNotionIds takes the ids back out at the end.
+		const content = serializeFrontMatter({ [NOTION_ID_PROPERTY]: blockId }) + markdown;
+		const options: DataWriteOptions = {};
+		if (createdTime) options.ctime = new Date(createdTime).getTime();
+		if (sourceMtime !== undefined) options.mtime = sourceMtime;
+
+		const { file, written } = await this.writePlannedNote(ctx, planned, content, { ...options, disposition, sourceId: blockId });
+		if (written) ctx.reportNoteSuccess(planned.title);
+		this.writtenPaths.add(file.path.replace(/\.md$/, ''));
+
+		return file.path;
+	}
+
+	/** Remember the pages and databases a synced block's markdown points into. */
+	private noteChildrenOf(markdown: string): void {
+		for (const id of extractPlaceholderIds(markdown, PlaceholderType.SYNCED_CHILD_PAGE)) {
+			this.syncedChildPagesToReach.add(id);
+		}
+		for (const id of extractPlaceholderIds(markdown, PlaceholderType.SYNCED_CHILD_DATABASE)) {
+			this.syncedChildDatabasesToReach.add(id);
+		}
+	}
+
+	/**
+	 * Import what sits under a synced block whose note is not being rewritten.
+	 *
+	 * The pass that resolves placeholders imports what it finds missing, but it
+	 * only looks inside files it is going to rewrite. A note left alone is not
+	 * one of those, and a note the user has edited must never be - so what is
+	 * under it is fetched here instead, where no file is touched.
+	 *
+	 * A page and a database are asked for as what they are: fetchAndImportPage
+	 * reports its own failures rather than raising them, so guessing at one and
+	 * falling back to the other would never reach the fallback.
+	 */
+	protected async reachSyncedChildren(ctx: ImportContext): Promise<void> {
+		for (const pageId of this.syncedChildPagesToReach) {
+			if (await ctx.shouldStop()) return;
+			if (this.notionIdToPath.has(pageId)) continue;
+
+			await this.fetchAndImportPage({ ctx, pageId, parentPath: this.outputRootPath });
+		}
+
+		for (const databaseId of this.syncedChildDatabasesToReach) {
+			if (await ctx.shouldStop()) return;
+			if (this.processedDatabases.has(databaseId)) continue;
+
+			try {
+				await this.importTopLevelDatabase(ctx, databaseId, this.outputRootPath);
+			}
+			catch (error) {
+				console.warn(`Could not import a database a synced block holds: ${databaseId}`, error);
+			}
+		}
+	}
+
+	/**
+	 * What to call a synced block's note, when the id may not be there to ask.
+	 *
+	 * Two synced blocks on one page are named alike, so the second is "… 1.md".
+	 * With "Save source ID" off there are no ids by the time the next import
+	 * runs and the name is all that is left, so the second block takes the
+	 * second name rather than the first name nothing is using - which would
+	 * have been "… 2.md", and "… 3.md" on the import after that.
+	 */
+	private syncedBlockTitle(folderPath: string, fileName: string): string {
+		const { basename } = parseFilePath(fileName);
+
+		for (let nth = 0; ; nth++) {
+			const title = nth === 0 ? basename : `${basename} ${nth}`;
+			const path = normalizePath(folderPath ? `${folderPath}/${title}.md` : `${title}.md`);
+
+			if (!this.hasClaimed(path)) return title;
+		}
+	}
+
+	/**
+	 * A synced block's note left behind by a run that did not finish. Two
+	 * synced blocks on one page are named alike, so the names have to be tried
+	 * in turn until one of them holds this block's id; stopping at the first
+	 * name nothing holds is what bounds the search.
+	 */
+	private async recoverSyncedBlockNote(
+		ctx: ImportContext,
+		folderPath: string,
+		fileName: string,
+		blockId: string,
+	): Promise<string | null> {
+		// The ids are only left behind for a run that meant to clear them.
+		if (this.saveSourceId) return null;
+
+		const { basename, extension } = parseFilePath(fileName);
+
+		for (let nth = 0; ; nth++) {
+			const candidate = nth === 0 ? fileName : `${basename} ${nth}.${extension}`;
+			const path = normalizePath(folderPath ? `${folderPath}/${candidate}` : candidate);
+
+			if (!(this.vault.getAbstractFileByPath(path) instanceof TFile)) return null;
+			if (await this.alreadyWrittenByAnUnfinishedImport(path, blockId, ctx)) return path;
+		}
+	}
+
+	/**
+	 * The folder a page with children keeps them in, reused when it is already
+	 * there so a second import does not make another one beside it.
+	 */
+	private pageFolder(parentPath: string, title: string): string {
+		const base = normalizePath(parentPath ? `${parentPath}/${title}` : title);
+		if (this.vault.getAbstractFileByPath(base) instanceof TFolder) return base;
+
+		return getUniqueFilePath(this.vault, parentPath, title);
+	}
+
+	/** Remove temporary IDs from pages owned by this run. */
+	protected async cleanupNotionIds(ctx: ImportContext): Promise<void> {
+		const written = new Set([...this.writtenPaths, ...this.recoveredPaths]);
+		if (written.size === 0) {
+			return;
+		}
+
+		let failedCount = 0;
+
+		for (const filePath of written) {
+			if (await ctx.shouldStop()) break;
+
+			try {
+				const file = this.vault.getAbstractFileByPath(filePath + '.md');
+				if (!file || !(file instanceof TFile)) {
+					continue;
+				}
+
+				const content = await this.vault.read(file);
+
+				const frontmatterRegex = /^---\n([\s\S]*?)\n---/;
+				const match = content.match(frontmatterRegex);
+
+				if (!match) {
+					continue; // No frontmatter, skip
+				}
+
+				const frontmatter = match[1];
+				const notionIdRegex = /^notion-id:\s*.+$/m;
+
+				if (!notionIdRegex.test(frontmatter)) {
+					continue; // No notion-id in frontmatter, skip
+				}
+
+				const newFrontmatter = frontmatter
+					.split('\n')
+					.filter(line => !line.match(/^notion-id:\s*.+$/))
+					.join('\n');
+
+				const newContent = content.replace(
+					frontmatterRegex,
+					`---\n${newFrontmatter}\n---`
+				);
+
+				await this.modifyMarkdown(file, newContent, {
+					mtime: file.stat.mtime,
+					ctime: file.stat.ctime,
+				});
+			}
+			catch (error) {
+				console.error(`Failed to clean notion-id from file: ${filePath}`, error);
+				failedCount++;
+			}
+		}
+
+		if (failedCount > 0) {
+			console.warn(`⚠️ Failed to clean notion-id from ${plural(failedCount, 'file')}`);
+		}
+	}
+
+	/**
+	 * Scan file content for unresolved placeholders and add them to respective tracking structures
+	 * This handles the case where a previous import left unresolved placeholders
+	 * @param content - File content to scan
+	 * @param pageId - Notion page ID of the file
+	 * @param filePath - File path for tracking mention/synced placeholders
+	 */
+	private async collectUnresolvedPlaceholders(content: string, pageId: string, filePath: string): Promise<void> {
+		// 1. Collect unresolved relation placeholders (in frontmatter, as UUIDs)
+		const frontmatterRegex = /^---\n([\s\S]*?)\n---/;
+		const frontmatterMatch = content.match(frontmatterRegex);
+
+		if (frontmatterMatch) {
+			const frontmatter = frontmatterMatch[1];
+
+			// Look for relation properties that still contain page IDs (UUIDs)
+			// UUID format: 8-4-4-4-12 hexadecimal characters with hyphens
+			const uuidRegex = /[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/gi;
+			const uuidMatches = frontmatter.match(uuidRegex);
+
+			if (uuidMatches && uuidMatches.length > 0) {
+				// Parse frontmatter to find which properties contain these UUIDs
+				const lines = frontmatter.split('\n');
+				let currentPropertyKey: string | null = null;
+				const unresolvedRelations: Map<string, string[]> = new Map();
+
+				for (const line of lines) {
+					// Check if this line defines a property (e.g., "Related Pages:")
+					const propertyMatch = line.match(/^([a-zA-Z0-9_-]+):\s*$/);
+					if (propertyMatch) {
+						currentPropertyKey = propertyMatch[1];
+						continue;
+					}
+
+					// Check if this line contains a UUID (list item or inline value)
+					if (currentPropertyKey) {
+						const lineUuids = line.match(uuidRegex);
+						if (lineUuids) {
+							for (const uuid of lineUuids) {
+								// Check if this UUID is NOT already a wiki link (i.e., it's an unresolved placeholder)
+								if (!line.includes(`[[${uuid}`)) {
+									if (!unresolvedRelations.has(currentPropertyKey)) {
+										unresolvedRelations.set(currentPropertyKey, []);
+									}
+									unresolvedRelations.get(currentPropertyKey)!.push(uuid);
+								}
+							}
+						}
+					}
+				}
+
+				// Add unresolved relations to relationPlaceholders
+				for (const [propertyKey, relatedPageIds] of unresolvedRelations.entries()) {
+					if (relatedPageIds.length > 0) {
+						this.relationPlaceholders.push({
+							pageId: pageId,
+							propertyKey: propertyKey,
+							relatedPageIds: relatedPageIds,
+							targetDatabaseId: '', // Unknown, but not needed for replacement
+						});
+					}
+				}
+
+			}
+		}
+
+		// 2. Collect unresolved mention placeholders (in content, as [[NOTION_PAGE:id]] or [[NOTION_DB:id]])
+		const mentionPageRegex = /\[\[NOTION_PAGE:([a-f0-9-]+)\]\]/g;
+		const mentionDbRegex = /\[\[NOTION_DB:([a-f0-9-]+)\]\]/g;
+
+		const mentionedIds = new Set<string>();
+		let match;
+
+		while ((match = mentionPageRegex.exec(content)) !== null) {
+			mentionedIds.add(match[1]);
+		}
+
+		while ((match = mentionDbRegex.exec(content)) !== null) {
+			mentionedIds.add(match[1]);
+		}
+
+		if (mentionedIds.size > 0) {
+			this.mentionPlaceholders.set(filePath, mentionedIds);
+		}
+
+		// 3. Collect unresolved synced child placeholders (in content, as [[SYNCED_CHILD_PAGE:id]] or [[SYNCED_CHILD_DATABASE:id]])
+		const syncedPageRegex = /\[\[SYNCED_CHILD_PAGE:([a-f0-9-]+)\]\]/g;
+		const syncedDbRegex = /\[\[SYNCED_CHILD_DATABASE:([a-f0-9-]+)\]\]/g;
+
+		const syncedPageIds = new Set<string>();
+		const syncedDbIds = new Set<string>();
+
+		while ((match = syncedPageRegex.exec(content)) !== null) {
+			syncedPageIds.add(match[1]);
+		}
+
+		while ((match = syncedDbRegex.exec(content)) !== null) {
+			syncedDbIds.add(match[1]);
+		}
+
+		if (syncedPageIds.size > 0) {
+			this.syncedChildPagePlaceholders.set(filePath, syncedPageIds);
+		}
+
+		if (syncedDbIds.size > 0) {
+			this.syncedChildDatabasePlaceholders.set(filePath, syncedDbIds);
+		}
+	}
+
+	private async modifyPreservingTimestamps(file: TFile, content: string): Promise<void> {
+		await this.modifyMarkdown(file, content, {
+			mtime: file.stat.mtime,
+			ctime: file.stat.ctime,
+		});
+	}
+
+}

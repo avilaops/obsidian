@@ -1,0 +1,44 @@
+import type { ParamValidationResult } from '../filters';
+import type { FilterContext } from '../types';
+import { cleanScalarParam } from '../parser-utils';
+import { reportFilterWarning } from './warnings';
+
+const validObjectParams = ['array', 'keys', 'values'];
+
+export const validateObjectParams = (param: string | undefined): ParamValidationResult => {
+	if (!param) {
+		return { valid: false, error: 'requires a parameter: "array", "keys", or "values"' };
+	}
+
+	const option = cleanScalarParam(param);
+	if (!option || !validObjectParams.includes(option)) {
+		return {
+			valid: false,
+			error: `invalid parameter "${option ?? ''}". Use "array", "keys", or "values"`
+		};
+	}
+
+	return { valid: true };
+};
+
+export const object = (str: string, param?: string, context?: FilterContext): string => {
+	const option = cleanScalarParam(param);
+	try {
+		const obj = JSON.parse(str);
+		if (typeof obj === 'object' && obj !== null) {
+			switch (option) {
+				case 'array':
+					return JSON.stringify(Object.entries(obj));
+				case 'keys':
+					return JSON.stringify(Object.keys(obj));
+				case 'values':
+					return JSON.stringify(Object.values(obj));
+				default:
+					return str; // Return original string if no valid param
+			}
+		}
+	} catch {
+		reportFilterWarning(context, 'Could not parse value as JSON', 'INVALID_FILTER_INPUT');
+	}
+	return str;
+};

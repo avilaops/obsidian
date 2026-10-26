@@ -1,0 +1,72 @@
+---
+import CodeBlock from '../../components/CodeBlock.astro';
+import FilterExample from '../../components/FilterExample.astro';
+import PlaygroundLink from '../../components/PlaygroundLink.astro';
+import DocsLayout from '../../layouts/DocsLayout.astro';
+import { filterDocs, filterDocsByName } from '../../../lib/filter-docs';
+import { renderInlineCode } from '../../lib/highlight';
+
+export function getStaticPaths() {
+  return filterDocs.map((filter) => ({ params: { slug: filter.slug }, props: { filter } }));
+}
+
+const { filter } = Astro.props;
+const singleBasicExample = filter.examples.length === 1 && filter.examples[0].title === 'Basic usage';
+const runnable = filter.environment !== 'html';
+const slugifyHeading = (value: string) => value.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const exampleHeadings = filter.examples.flatMap((item) =>
+  filter.examples.length === 1 && item.title === 'Basic usage'
+    ? []
+    : [{ depth: 3, slug: slugifyHeading(item.title), text: item.title }]
+);
+const headings = [
+  { depth: 2, slug: 'syntax', text: 'Syntax' },
+  ...(filter.parameters?.length || filter.notes?.length ? [{ depth: 2, slug: 'usage', text: 'Usage' }] : []),
+  { depth: 2, slug: 'examples', text: filter.examples.length === 1 ? 'Example' : 'Examples' },
+  ...exampleHeadings,
+  ...(filter.referenceTables ?? []).map((table) => ({ depth: 2, slug: slugifyHeading(table.title), text: table.title })),
+  ...(filter.related?.length ? [{ depth: 2, slug: 'related', text: 'Related filters' }] : []),
+];
+---
+
+<DocsLayout current="filters" title={filter.name} description={filter.summary} headings={headings} markdownPath={`/filters/${filter.slug}.md`} titleSyntax="filter" fitTitle>
+  <section id="syntax" class="doc-section">
+    <h2>Syntax</h2>
+    <CodeBlock code={filter.syntax.map((syntax) => `{{ value | ${syntax} }}`).join('\n')} />
+  </section>
+
+  {(filter.parameters?.length || filter.notes?.length) && <section id="usage" class="doc-section"><h2>Usage</h2><ul class="behavior-list">{[...(filter.parameters ?? []), ...(filter.notes ?? [])].map((note) => <li set:html={renderInlineCode(note)} />)}{filter.name === 'comment' && <li>This filter produces Obsidian <code>%%</code> comments that remain in the generated Markdown. To leave a comment that is removed during rendering, use <a href="/logic#comments">template comments</a>.</li>}</ul></section>}
+
+  <section id="examples" class:list={['doc-section', 'filter-examples-section', singleBasicExample && runnable && 'has-playground-link']}>
+    <h2>{filter.examples.length === 1 ? 'Example' : 'Examples'}</h2>
+    {singleBasicExample && runnable && <PlaygroundLink input={JSON.stringify(filter.examples[0].variables, null, 2)} template={filter.examples[0].template} />}
+    <div class="filter-examples">
+      {filter.examples.map((item) => (
+        <article class:list={['filter-example-card', singleBasicExample && 'filter-example-card-untitled', !singleBasicExample && runnable && 'has-playground-link']}>
+          {!singleBasicExample && <header><h3 id={slugifyHeading(item.title)}>{item.title}</h3></header>}
+          {!singleBasicExample && runnable && <PlaygroundLink input={JSON.stringify(item.variables, null, 2)} template={item.template} />}
+          <FilterExample
+            input={JSON.stringify(item.variables, null, 2)}
+            template={item.template}
+            output={item.expected}
+          />
+        </article>
+      ))}
+    </div>
+  </section>
+
+  {filter.referenceTables?.map((table) => (
+    <section id={slugifyHeading(table.title)} class="doc-section">
+      <h2>{table.title}</h2>
+      <p><span set:html={renderInlineCode(table.description)} />{table.reference && <> See <a href={table.reference.href} target="_blank" rel="noopener noreferrer">{table.reference.label}</a>.</>}</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr>{table.columns.map((column) => <th scope="col">{column}</th>)}</tr></thead>
+          <tbody>{table.rows.map((row) => <tr>{row.map((cell) => <td set:html={renderInlineCode(cell)} />)}</tr>)}</tbody>
+        </table>
+      </div>
+    </section>
+  ))}
+
+  {filter.related?.length && <section id="related" class="doc-section"><h2>Related filters</h2><ul class="related-filters">{filter.related.map((name) => { const related = filterDocsByName.get(name); return related && <li><a class="filter-row" href={`/filters/${related.slug}`}><div><code>{name}</code></div><p>{related.summary}</p><span aria-hidden="true">→</span></a></li>; })}</ul></section>}
+</DocsLayout>

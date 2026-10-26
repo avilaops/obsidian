@@ -1,0 +1,5 @@
+- [ ] Simple task 🔽
+- [ ] Task with a reminder ⏳ 2022-05-22 🔽
+- [x] Done 🔽
+- [ ] Task with due date 📅 2022-05-28 🔽
+- [ ] Task with a flag 🔼

@@ -1,0 +1,2499 @@
+[command.import-notes]
+original=Import notes
+translation=Impor catatan
+
+[nouns.file-with-count]
+original={{count}} file
+translation={{count}} berkas
+
+[nouns.file-with-count_plural]
+original={{count}} files
+translation={{count}} berkas
+
+[nouns.note-with-count]
+original={{count}} note
+translation={{count}} catatan
+
+[nouns.note-with-count_plural]
+original={{count}} notes
+translation={{count}} catatan
+
+[nouns.item-with-count]
+original={{count}} item
+translation={{count}} item
+
+[nouns.item-with-count_plural]
+original={{count}} items
+translation={{count}} item
+
+[nouns.record-with-count]
+original={{count}} record
+translation={{count}} rekaman
+
+[nouns.record-with-count_plural]
+original={{count}} records
+translation={{count}} rekaman
+
+[nouns.base-with-count]
+original={{count}} base
+translation={{count}} base
+
+[nouns.base-with-count_plural]
+original={{count}} bases
+translation={{count}} base
+
+[nouns.template-with-count]
+original={{count}} template
+translation={{count}} templat
+
+[nouns.template-with-count_plural]
+original={{count}} templates
+translation={{count}} templat
+
+[nouns.failure-with-count]
+original={{count}} failure
+translation={{count}} kegagalan
+
+[nouns.failure-with-count_plural]
+original={{count}} failures
+translation={{count}} kegagalan
+
+[nouns.second-with-count]
+original={{count}} second
+translation={{count}} detik
+
+[nouns.second-with-count_plural]
+original={{count}} seconds
+translation={{count}} detik
+
+[nouns.relation-placeholder-with-count]
+original={{count}} relation placeholder
+translation={{count}} placeholder relasi
+
+[nouns.relation-placeholder-with-count_plural]
+original={{count}} relation placeholders
+translation={{count}} placeholder relasi
+
+[nouns.linked-database-with-count]
+original={{count}} linked database
+translation={{count}} database tertaut
+
+[nouns.linked-database-with-count_plural]
+original={{count}} linked databases
+translation={{count}} database tertaut
+
+[nouns.mention-link-with-count]
+original={{count}} mention link
+translation={{count}} tautan sebutan
+
+[nouns.mention-link-with-count_plural]
+original={{count}} mention links
+translation={{count}} tautan sebutan
+
+[nouns.synced-reference-with-count]
+original={{count}} synced child reference
+translation={{count}} referensi anak yang disinkronkan
+
+[nouns.synced-reference-with-count_plural]
+original={{count}} synced child references
+translation={{count}} referensi anak yang disinkronkan
+
+[nouns.new-item-with-count]
+original={{count}} new item
+translation={{count}} item baru
+
+[nouns.new-item-with-count_plural]
+original={{count}} new items
+translation={{count}} item baru
+
+[nouns.page-with-count]
+original={{count}} page
+translation={{count}} halaman
+
+[nouns.page-with-count_plural]
+original={{count}} pages
+translation={{count}} halaman
+
+[group.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[group.notion.name]
+original=Notion
+translation=Notion
+
+[outliner.name-flatten-outlines]
+original=Flatten outlines
+translation=Ratakan outline
+
+[outliner.desc-flatten-outlines]
+original=Convert outlines into paragraphs, headings, and lists.
+translation=Ubah outline menjadi paragraf, heading, dan daftar.
+
+[modal.title-pick-format]
+original=Import data into Obsidian
+translation=Impor data ke Obsidian
+
+[modal.title-choose-method]
+original=Choose how to import
+translation=Pilih cara mengimpor
+
+[modal.title-import-from]
+original=Import from {{format}}
+translation=Impor dari {{format}}
+
+[modal.search-placeholder]
+original=Filter...
+translation=Saring...
+
+[modal.msg-no-formats]
+original=No formats found.
+translation=Tidak ada format yang ditemukan.
+
+[modal.msg-drop-to-import]
+original=Drop files to import
+translation=Lepas berkas untuk diimpor
+
+[modal.button-show-all-formats]
+original=Show all formats
+translation=Tampilkan semua format
+
+[modal.button-continue]
+original=Continue
+translation=Lanjutkan
+
+[modal.button-import]
+original=Import
+translation=Impor
+
+[modal.button-back]
+original=Back
+translation=Kembali
+
+[modal.button-help]
+original=Help
+translation=Bantuan
+
+[modal.button-pause]
+original=Pause
+translation=Jeda
+
+[modal.button-resume]
+original=Resume
+translation=Lanjutkan
+
+[modal.button-stop]
+original=Stop
+translation=Berhenti
+
+[modal.button-save-report]
+original=Save report
+translation=Simpan laporan
+
+[modal.msg-report-failed]
+original=Could not save the import report.
+translation=Tidak dapat menyimpan laporan impor.
+
+[modal.button-import-more]
+original=Import more
+translation=Impor lainnya
+
+[modal.button-done]
+original=Done
+translation=Selesai
+
+[modal.msg-unexpected-auth]
+original=Unexpected auth event. Please restart the auth process.
+translation=Peristiwa autentikasi tidak terduga. Silakan mulai ulang proses autentikasi.
+
+[progress.stat-imported]
+original=imported
+translation=diimpor
+
+[progress.stat-attachments]
+original=attachments
+translation=Lampiran
+
+[progress.stat-remaining]
+original=remaining
+translation=tersisa
+
+[progress.stat-skipped]
+original=skipped
+translation=Dilewati
+
+[progress.stat-failed]
+original=failed
+translation=Gagal
+
+[progress.label-skipped]
+original=Skipped: 
+translation=Dilewati: 
+
+[progress.label-failed]
+original=Failed: 
+translation=Gagal: 
+
+[progress.label-entry]
+original="{{name}}"
+translation="{{name}}"
+
+[progress.label-entry-with-reason]
+original="{{name}}" because {{reason}}
+translation="{{name}}" karena {{reason}}
+
+[progress.label-paused]
+original=Paused
+translation=Dijeda
+
+[progress.label-paused-with]
+original=Paused - {{status}}
+translation=Dijeda - {{status}}
+
+[progress.label-importing]
+original=Importing
+translation=Mengimpor
+
+[progress.label-remaining]
+original={{count}} remaining...
+translation={{count}} tersisa...
+
+[progress.label-remaining_plural]
+original={{count}} remaining...
+translation={{count}} tersisa...
+
+[progress.label-paused-remaining]
+original=Paused - {{count}} remaining
+translation=Dijeda - {{count}} tersisa
+
+[progress.label-paused-remaining_plural]
+original=Paused - {{count}} remaining
+translation=Dijeda - {{count}} tersisa
+
+[progress.status-stopping]
+original=Stopping...
+translation=Menghentikan...
+
+[progress.msg-stopped]
+original=Import stopped.
+translation=Impor dihentikan.
+
+[progress.msg-errors]
+original=Import finished with errors.
+translation=Impor selesai dengan kesalahan.
+
+[progress.msg-complete]
+original=Import complete.
+translation=Impor selesai.
+
+[progress.msg-imported-count]
+original={{count}} note imported
+translation={{count}} catatan diimpor
+
+[progress.msg-imported-count_plural]
+original={{count}} notes imported
+translation={{count}} catatan diimpor
+
+[progress.msg-click-to-show]
+original={{counts}}. Select to show.
+translation={{counts}}. Pilih untuk menampilkan.
+
+[progress.status-waiting]
+original=Waiting {{duration}} ({{reason}})
+translation=Menunggu {{duration}} ({{reason}})
+
+[progress.status-standardizing]
+original=Standardizing Markdown ({{current}}/{{total}})
+translation=Menstandarkan Markdown ({{current}}/{{total}})
+
+[progress.label-finalization]
+original=Markdown finalization
+translation=Finalisasi Markdown
+
+[report.file-name]
+original={{date}} {{importer}} import log
+translation={{date}} log impor {{importer}}
+
+[report.title]
+original={{importer}} import
+translation=Impor {{importer}}
+
+[report.msg-finished]
+original=Finished {{when}}. {{counts}}.
+translation=Selesai {{when}}. {{counts}}.
+
+[report.msg-stopped]
+original=Stopped {{when}}. {{counts}}.
+translation=Dihentikan {{when}}. {{counts}}.
+
+[report.heading-failed]
+original=Failed ({{count}})
+translation=Gagal ({{count}})
+
+[report.heading-skipped]
+original=Skipped ({{count}})
+translation=Dilewati ({{count}})
+
+[report.heading-messages]
+original=Messages
+translation=Pesan
+
+[report.count-notes]
+original={{count}} note imported
+translation={{count}} catatan diimpor
+
+[report.count-notes_plural]
+original={{count}} notes imported
+translation={{count}} catatan diimpor
+
+[report.count-attachments]
+original={{count}} attachment downloaded
+translation={{count}} lampiran diunduh
+
+[report.count-attachments_plural]
+original={{count}} attachments downloaded
+translation={{count}} lampiran diunduh
+
+[report.count-skipped]
+original={{count}} item skipped
+translation={{count}} item dilewati
+
+[report.count-skipped_plural]
+original={{count}} items skipped
+translation={{count}} item dilewati
+
+[report.count-failed]
+original={{count}} item failed
+translation={{count}} item gagal
+
+[report.count-failed_plural]
+original={{count}} items failed
+translation={{count}} item gagal
+
+[source.desc]
+original=Drag and drop, or choose files to import.
+translation=Seret dan lepas, atau pilih file untuk diimpor.
+
+[source.desc-choose]
+original=Choose files to import.
+translation=Pilih file untuk diimpor.
+
+[source.button-choose-file]
+original=Choose file
+translation=Pilih file
+
+[source.button-choose-files]
+original=Choose files
+translation=Pilih file
+
+[source.button-choose-folders]
+original=Choose folders
+translation=Pilih folder
+
+[source.dialog-pick-files]
+original=Pick files to import
+translation=Pilih file untuk diimpor
+
+[source.dialog-pick-folders]
+original=Folders to import
+translation=Folder untuk diimpor
+
+[source.desc-folders]
+original=Everything in checked folders is imported. Uncheck folders to exclude them.
+translation=Semua isi folder yang dicentang akan diimpor. Hapus centang folder untuk mengecualikannya.
+
+[source.msg-pick-source-first]
+original=Choose files or folders first.
+translation=Pilih file atau folder terlebih dahulu.
+
+[source.msg-reading-folders]
+original=Reading folders...
+translation=Baca folder...
+
+[source.msg-no-folders]
+original=No folders found.
+translation=Tidak ada folder ditemukan.
+
+[source.msg-android-folder-failed]
+original=Could not choose that folder.
+translation=Tidak dapat memilih folder tersebut.
+
+[source.msg-android-folder-read-failed]
+original=Could not read that folder.
+translation=Tidak dapat membaca folder tersebut.
+
+[source.msg-android-folder-unavailable]
+original=Folder selection is unavailable on this device.
+translation=Pemilihan folder tidak tersedia di perangkat ini.
+
+[source.msg-android-root-folder]
+original=Choose a folder other than the root of your device.
+translation=Pilih folder selain root perangkat Anda.
+
+[source.msg-flat-files]
+original={{count}} file will be imported.
+translation={{count}} berkas akan diimpor.
+
+[source.msg-flat-files_plural]
+original={{count}} files will be imported.
+translation={{count}} berkas akan diimpor.
+
+[source.msg-nothing-to-import]
+original=Nothing to import there. Pick {{extensions}} files, or a folder holding some.
+translation=Tidak ada yang bisa diimpor di sana. Pilih file {{extensions}}, atau folder yang berisi file tersebut.
+
+[source.msg-will-import]
+original={{files}} will be imported: 
+translation={{files}} akan diimpor: 
+
+[source.msg-more-files]
+original=and {{count}} more file
+translation=dan {{count}} file lainnya
+
+[source.msg-more-files_plural]
+original=and {{count}} more files
+translation=dan {{count}} file lainnya
+
+[source.button-remove-file]
+original=Remove from the import
+translation=Hapus dari impor
+
+[output.label-source-id]
+original=source ID
+translation=ID sumber
+
+[output.name-save-source-id]
+original=Save {{label}}
+translation=Simpan {{label}}
+
+[output.desc-save-source-id]
+original=Add the {{label}} to note properties so future imports can recognize moved or renamed notes.
+translation=Tambah {{label}} ke properti catatan agar impor berikutnya dapat mengenali catatan yang dipindahkan atau diganti namanya.
+
+[output.name-folder]
+original=Output folder
+translation=Folder keluaran
+
+[output.desc-folder]
+original=Where imported notes will be saved. Leave blank to use the top level of the vault.
+translation=Di mana catatan yang diimpor akan disimpan. Kosong untuk gunakan tingkat atas brankas.
+
+[output.name-template]
+original=Template
+translation=templat
+
+[output.desc-template]
+original=Optional Markdown template from this vault. Use variables such as {{title}}, {{content}}, and {{date}}.
+translation=Templat Markdown opsional dari brankas ini. Gunakan variabel seperti {{title}}, {{content}}, dan {{date}}.
+
+[output.placeholder-template]
+original=Templates/Import.md
+translation=Templates/Import.md
+
+[output.msg-template-not-found]
+original=Template must be a Markdown file in this vault: {{path}}
+translation=Templat harus berupa file Markdown di brankas ini: {{path}}
+
+[output.name-attachments]
+original=Attachment location
+translation=Lokasi lampiran
+
+[output.desc-attachments]
+original=Where imported images and files will be saved.
+translation=Di mana gambar dan file yang diimpor akan disimpan.
+
+[output.name-subfolder]
+original=Subfolder name
+translation=Nama subfolder
+
+[output.desc-subfolder]
+original=Folder to use inside each imported note's folder.
+translation=Folder untuk gunakan di dalam folder setiap catatan yang diimpor.
+
+[output.name-attachment-folder]
+original=Attachment folder
+translation=Folder lampiran
+
+[output.desc-attachment-folder]
+original=Folder path from the top level of the vault.
+translation=Alur folder dari tingkat atas brankas.
+
+[output.name-duplicates]
+original=Existing notes
+translation=Catatan yang sudah ada
+
+[output.desc-duplicates]
+original=Choose what to do when an imported note matches one in your vault. "{{update}}" skips unchanged notes and preserves newer local edits when modification dates are available.
+translation=Pilih apa yang harus dilakukan ketika catatan yang diimpor cocok dengan yang ada di brankas Anda. "{{update}}" melewati catatan yang tidak berubah dan mempertahankan suntingan lokal yang lebih baru ketika tanggal modifikasi tersedia.
+
+[output.option-create-copy]
+original=Create a copy
+translation=Buat salinan
+
+[output.option-skip]
+original=Skip
+translation=Lewati
+
+[output.option-update]
+original=Update
+translation=Perbarui
+
+[output.option-attachments-vault]
+original=Vault folder
+translation=Folder vault
+
+[output.option-attachments-folder]
+original=In the folder specified below
+translation=Dalam folder yang dikhususkan ini
+
+[output.option-attachments-note]
+original=Same folder as the note
+translation=Folder yang sama dengan catatan
+
+[output.option-attachments-subfolder]
+original=In subfolder under the note
+translation=Di subfolder di bawah catatan
+
+[common.msg-pick-file]
+original=Please pick at least one file to import.
+translation=Silakan pilih setidaknya satu file untuk diimpor.
+
+[common.msg-pick-output]
+original=Please select a location to export to.
+translation=Silakan pilih lokasi untuk mengekspor.
+
+[common.msg-pick-import-location]
+original=Please select a location to import your files to.
+translation=Silakan pilih lokasi untuk mengimpor file Anda.
+
+[common.msg-unknown-error]
+original=Unknown error
+translation=Kesalahan tidak diketahui
+
+[common.name-export]
+original=Export your data
+translation=Ekspor data Anda
+
+[common.label-learn-more]
+original=Learn more
+translation=Pelajari lebih lanjut
+
+[common.button-instructions]
+original=Instructions
+translation=Instruksi
+
+[common.button-open]
+original=Open
+translation=Buka
+
+[common.status-processing]
+original=Processing {{name}}
+translation=Memproses {{name}}
+
+[common.status-importing-note]
+original=Importing note {{name}}
+translation=Mengimpor catatan {{name}}
+
+[common.status-importing-attachment]
+original=Importing attachment {{name}}
+translation=Mengimpor lampiran {{name}}
+
+[common.status-cancelled]
+original=Import cancelled
+translation=Impor terbatalkan
+
+[reason.already-in-vault]
+original=it is already in the vault
+translation=sudah ada di brankas
+
+[reason.unchanged-since-import]
+original=it has not changed since the last import
+translation=belum berubah sejak impor terakhir
+
+[reason.edited-since-import]
+original=it has been edited in Obsidian since the last import
+translation=telah disunting di Obsidian sejak impor terakhir
+
+[reason.file-not-in-vault]
+original=The imported file did not appear in the vault.
+translation=File yang diimpor tidak muncul di brankas.
+
+[reason.folder-not-created]
+original=Failed to create folder at "{{path}}"
+translation=Gagal membuat folder di "{{path}}"
+
+[tree.button-select-all]
+original=Select all
+translation=Pilih semua
+
+[tree.button-deselect-all]
+original=Deselect all
+translation=Batal pilih semua
+
+[tree.button-load]
+original=Load
+translation=Muat
+
+[tree.button-loading]
+original=Loading...
+translation=Memuat...
+
+[tree.button-refresh]
+original=Refresh
+translation=Segarkan
+
+[tree.placeholder-filter]
+original=Filter...
+translation=Saring...
+
+[tree.msg-no-matches]
+original=No results found.
+translation=Tidak ada hasil.
+
+[request.msg-unauthorized]
+original={{service}} did not accept the request for {{subject}}. {{credential}}
+translation={{service}} tidak menerima permintaan untuk {{subject}}. {{credential}}
+
+[request.msg-forbidden]
+original={{service}} would not give access to {{subject}}. {{credential}}
+translation={{service}} tidak memberikan akses ke {{subject}}. {{credential}}
+
+[request.msg-not-found]
+original={{service}} could not find {{subject}}.
+translation={{service}} tidak dapat menemukan {{subject}}.
+
+[request.msg-rate-limited]
+original={{service}} is limiting how fast {{subject}} can be read. Wait a few minutes and try again.
+translation={{service}} membatasi seberapa cepat {{subject}} dapat dibaca. Tunggu beberapa menit dan coba lagi.
+
+[request.msg-timed-out]
+original={{service}} took too long to return {{subject}}. Try again shortly.
+translation={{service}} terlalu lama mengembalikan {{subject}}. Coba lagi sebentar.
+
+[request.msg-unavailable]
+original={{service}} could not return {{subject}} right now. Try again shortly.
+translation={{service}} tidak dapat mengembalikan {{subject}} saat ini. Coba lagi sebentar.
+
+[request.msg-failed-with-code]
+original=Could not read {{subject}}: {{message}} ({{code}})
+translation=Tidak dapat membaca {{subject}}: {{message}} ({{code}})
+
+[request.msg-failed-with-message]
+original=Could not read {{subject}}: {{message}}
+translation=Tidak dapat membaca {{subject}}: {{message}}
+
+[request.msg-failed-with-reported-code]
+original=Could not read {{subject}}. {{service}} reported {{code}}.
+translation=Tidak dapat membaca {{subject}}. {{service}} melaporkan {{code}}.
+
+[request.msg-failed]
+original=Could not read {{subject}}.
+translation=Tidak dapat membaca {{subject}}.
+
+[template.msg-intro]
+original=Configure how your data should be imported. Use {{syntax}} syntax to reference field values.
+translation=Atur bagaimana data Anda harus diimpor. Gunakan sintaks {{syntax}} untuk merujuk nilai bidang.
+
+[template.msg-note-template-intro]
+original=Review examples of how your notes will be imported.
+translation=Tinjau contoh bagaimana catatan Anda akan diimpor.
+
+[template.name-title]
+original=Note title
+translation=Ubah nama berkas
+
+[template.desc-title]
+original=Template for the note title. Use variables like {{field_name}} to insert values.
+translation=Templat untuk judul catatan. Gunakan variabel seperti {{field_name}} untuk menyisipkan nilai.
+
+[template.name-location]
+original=Note location
+translation=Lokasi catatan
+
+[template.desc-location]
+original=Template for note location/path. Use {{field_name}} to organize notes.
+translation=Templat untuk lokasi/alur catatan. Gunakan {{field_name}} untuk mengorganisir catatan.
+
+[template.name-content]
+original=Note content
+translation=Konten catatan
+
+[template.desc-content]
+original=Template for the note content. Use variables like {{field_name}} to insert values.
+translation=Templat untuk konten catatan. Gunakan variabel seperti {{field_name}} untuk menyisipkan nilai.
+
+[template.name-template-file]
+original=Template
+translation=templat
+
+[template.desc-template-file]
+original=Optional. Choose a template from your vault to format the note content. See Help for {{link}}.
+translation=Opsional. Pilih templat dari brankas Anda untuk memformat konten catatan. Lihat Bantuan untuk {{link}}.
+
+[template.link-template-syntax]
+original=template syntax
+translation=sintaks templat
+
+[template.heading-preview]
+original=Preview
+translation=Pratinjau
+
+[template.status-loading-preview]
+original=Loading preview...
+translation=Memuat pratinjau...
+
+[template.button-edit-template]
+original=Edit
+translation=Ubah
+
+[template.button-save-template]
+original=Save
+translation=Simpan
+
+[template.button-reset-template]
+original=Reset to default
+translation=Atur ulang ke bawaan
+
+[template.button-start-import]
+original=Start import
+translation=Mulai impor
+
+[template.link-show-more]
+original=Show more
+translation=Tampilkan lebih banyak
+
+[template.name-template-editor]
+original=Template source
+translation=Sumber templat
+
+[template.label-edit-import-template]
+original=Edit import template
+translation=Ubah templat impor
+
+[template.button-add-property]
+original=Add property
+translation=Tambah properti
+
+[template.button-previous-preview]
+original=Previous preview
+translation=Pratinjau sebelumnya
+
+[template.button-next-preview]
+original=Next preview
+translation=Pratinjau berikutnya
+
+[template.msg-diagnostic]
+original=Line {{line}}: {{message}}
+translation=Baris {{line}}: {{message}}
+
+[template.heading-properties]
+original=Properties
+translation=Properti
+
+[template.column-property-name]
+original=Property name
+translation=Nama properti
+
+[template.column-property-value]
+original=Property value
+translation=Nilai properti
+
+[template.column-example]
+original=Example
+translation=Contoh
+
+[template.action-delete-property]
+original=Delete property
+translation=Hapus properti
+
+[template.msg-title-required]
+original=Please provide a note title template.
+translation=Harap berikan templat judul catatan.
+
+[importer.airtable-api.name]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.option-text]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-id]
+original=Airtable record ID
+translation=ID rekaman Airtable
+
+[importer.airtable-api.name-token]
+original=Airtable personal access token
+translation=Token akses personal Airtable
+
+[importer.airtable-api.desc-token]
+original=Create a personal access token in your Airtable account settings.
+translation=Buat token akses pribadi di pengaturan akun Airtable Anda.
+
+[importer.airtable-api.link-get-token]
+original=Get token
+translation=Dapatkan token
+
+[importer.airtable-api.name-tables]
+original=Tables to import
+translation=Tabel untuk diimpor
+
+[importer.airtable-api.desc-tables]
+original=Load your Airtable bases and tables, then choose what to import.
+translation=Muat basis dan tabel Airtable Anda, lalu pilih apa yang ingin diimpor.
+
+[importer.airtable-api.hint-tables]
+original=Load your Airtable bases and tables to get started.
+translation=Muat basis dan tabel Airtable Anda untuk memulai.
+
+[importer.airtable-api.msg-fetching-bases]
+original=Fetching bases...
+translation=Mengambil basis...
+
+[importer.airtable-api.msg-no-bases]
+original=No bases found.
+translation=Tidak ada basis ditemukan.
+
+[importer.airtable-api.label-service]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-subject]
+original=your bases
+translation=basis Anda
+
+[importer.airtable-api.label-credential]
+original=Check that your personal access token is current and has access to them.
+translation=Periksa bahwa token akses personal Anda masih berlaku dan memiliki akses ke sana.
+
+[importer.airtable-api.name-formulas]
+original=Convert formulas
+translation=Konversi rumus
+
+[importer.airtable-api.desc-formulas]
+original=Try to convert formulas to Obsidian syntax, or import as static values.
+translation=Coba konversi rumus ke sintaks Obsidian, atau impor sebagai nilai statis.
+
+[importer.airtable-api.option-formula-hybrid]
+original=Obsidian syntax (with fallback)
+translation=Sintaks Obsidian (dengan fallback)
+
+[importer.airtable-api.option-formula-static]
+original=Static values only
+translation=Hanya nilai statis
+
+[importer.airtable-api.name-download-attachments]
+original=Download attachments
+translation=Unduh lampiran
+
+[importer.airtable-api.desc-download-attachments]
+original=Download attachment files to local vault. If disabled or download fails, external URLs will be used.
+translation=Unduh berkas lampiran ke brankas lokal. Jika dinonaktifkan atau unduhan gagal, URL eksternal akan digunakan.
+
+[importer.airtable-api.name-view-property]
+original=View property name
+translation=Nama properti tampilan
+
+[importer.airtable-api.desc-view-property]
+original=Property name to track which views a record belongs to. Each record will have a list of view names it appears in.
+translation=Nama properti untuk melacak tampilan mana yang dimiliki rekaman. Setiap rekaman akan memiliki daftar nama tampilan tempat ia muncul.
+
+[importer.airtable-api.msg-token-first]
+original=Please enter your Airtable personal access token first.
+translation=Harap masukkan token akses personal Airtable Anda terlebih dahulu.
+
+[importer.airtable-api.msg-token-missing]
+original=Please enter your Airtable personal access token.
+translation=Harap masukkan token akses personal Airtable Anda.
+
+[importer.airtable-api.msg-load-bases-failed]
+original=Failed to load bases: {{error}}
+translation=Gagal memuat basis: {{error}}
+
+[importer.airtable-api.msg-load-tables-failed]
+original=Failed to load tables for "{{base}}": {{error}}
+translation=Gagal memuat tabel untuk "{{base}}": {{error}}
+
+[importer.airtable-api.msg-pick-table]
+original=Please select at least one table to import.
+translation=Silakan pilih setidaknya satu tabel untuk diimpor.
+
+[importer.airtable-api.msg-loading-fields]
+original=Loading fields...
+translation=Memuat bidang...
+
+[importer.airtable-api.msg-no-fields]
+original=No fields found in selected tables. Please check your selection.
+translation=Tidak ada bidang yang ditemukan di tabel yang dipilih. Silakan periksa pilihan Anda.
+
+[importer.airtable-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=Impor gagal: {{error}}
+
+[importer.airtable-api.label-base-position]
+original= (base {{index}} of {{total}})
+translation= (basis {{index}} dari {{total}})
+
+[importer.airtable-api.label-base]
+original=Base: {{name}}
+translation=Basis: {{name}}
+
+[importer.airtable-api.label-linked-table]
+original=Linked table: {{name}}
+translation=Tabel tertaut: {{name}}
+
+[importer.airtable-api.label-table-view]
+original={{table}} > {{view}}
+translation={{table}} > {{view}}
+
+[importer.airtable-api.label-import]
+original=Airtable API import
+translation=Impor Airtable API
+
+[importer.airtable-api.status-connecting]
+original=Connecting to Airtable API
+translation=Menghubungkan ke Airtable API
+
+[importer.airtable-api.status-loading-tables]
+original=Loading tables for {{base}}
+translation=Memuat tabel untuk {{base}}
+
+[importer.airtable-api.status-fetching-tables]
+original=Fetching tables for base {{base}}...
+translation=Mengambil tabel untuk basis {{base}}...
+
+[importer.airtable-api.status-found-bases]
+original=Found {{bases}} to import
+translation=Ditemukan {{bases}} untuk diimpor
+
+[importer.airtable-api.status-fetching-base]
+original=Fetching data from {{base}}{{position}}
+translation=Mengambil data dari {{base}}{{position}}
+
+[importer.airtable-api.status-preparing-records]
+original=Preparing records from {{base}}{{position}}
+translation=Menyiapkan rekaman dari {{base}}{{position}}
+
+[importer.airtable-api.status-reading-names]
+original=Reading names from {{table}}{{position}}
+translation=Baca nama dari {{table}}{{position}}
+
+[importer.airtable-api.status-planning]
+original=Working out where {{table}}{{position}} goes
+translation=Menentukan di mana {{table}}{{position}} ditempatkan
+
+[importer.airtable-api.status-fetching-records]
+original=Fetching records from {{table}}{{position}}
+translation=Mengambil rekaman dari {{table}}{{position}}
+
+[importer.airtable-api.status-fetched-records]
+original=Fetched {{records}} from {{table}}{{position}}
+translation=Berhasil mengambil {{records}} dari {{table}}{{position}}
+
+[importer.airtable-api.status-fetching-view]
+original=Fetching view {{view}} from {{table}}{{position}}
+translation=Mengambil tampilan {{view}} dari {{table}}{{position}}
+
+[importer.airtable-api.status-creating-notes]
+original=Creating notes in {{table}}{{position}}
+translation=Membuat catatan di {{table}}{{position}}
+
+[importer.airtable-api.status-updating-types]
+original=Updating property types
+translation=Memperbarui tipe properti
+
+[importer.airtable-api.status-complete]
+original=Import complete
+translation=Impor selesai
+
+[importer.airtable-api.status-rate-limited]
+original=Rate limited, waiting {{seconds}}s (attempt {{attempt}}/{{total}})...
+translation=Dibatasi laju, menunggu {{seconds}}d (percobaan {{attempt}}/{{total}})...
+
+[importer.airtable-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}
+translation=Mengunduh lampiran: {{name}}
+
+[importer.airtable-api.reason-no-record-names]
+original=Could not read record names
+translation=Tidak dapat membaca nama rekaman
+
+[importer.airtable-api.reason-empty-record]
+original=Empty record
+translation=Rekaman kosong
+
+[importer.airtable-api.desc-no-modified-time]
+original=Airtable does not say when a record last changed, so "{{update}}" compares the note with the record instead. A note you have edited yourself reads as changed, and will be written over.
+translation=Airtable tidak menyimpan kapan rekaman terakhir diubah, jadi "{{update}}" membandingkan catatan dengan rekaman. Catatan yang telah Anda edit sendiri terbaca sebagai berubah, dan akan ditimpa.
+
+[importer.apple-notes.name]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.option-text]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.label-id]
+original=Apple Notes ID
+translation=Apple Notes ID
+
+[importer.apple-notes.msg-platform]
+original=Due to platform limitations, Apple Notes cannot be exported from this device. Open your vault on a Mac to export from Apple Notes.
+translation=Karena keterbatasan platform, Apple Notes tidak dapat diekspor dari perangkat ini. Buka brankas Anda di Mac untuk mengekspor dari Apple Notes.
+
+[importer.apple-notes.name-prefix-format]
+original=File prefix format
+translation=Format awalan file
+
+[importer.apple-notes.desc-prefix-format]
+original=Format for the creation date prefix in filenames. Use YYYY, MM, DD for year, month, day. Leave blank for no prefix.
+translation=Format untuk awalan tanggal pembuatan pada nama file. Gunakan YYYY, MM, DD untuk tahun, bulan, hari. Kosongkan untuk tanpa awalan.
+
+[importer.apple-notes.name-omit-first-line]
+original=Omit first line
+translation=Hilangkan baris pertama
+
+[importer.apple-notes.desc-omit-first-line]
+original=Don't include the first line in the text, since Apple Notes uses it as the title. It will still be used as the note name.
+translation=Jangan sertakan baris pertama dalam teks, karena Apple Notes menggunakannya sebagai judul. Baris tersebut tetap akan digunakan sebagai nama catatan.
+
+[importer.apple-notes.name-handwriting]
+original=Include handwriting text
+translation=Sertakan teks tulisan tangan
+
+[importer.apple-notes.desc-handwriting]
+original=When Apple Notes has detected handwriting in drawings, include it as text before the drawing.
+translation=Ketika Apple Notes mendeteksi tulisan tangan dalam gambar, sertakan sebagai teks sebelum gambar.
+
+[importer.apple-notes.name-data-folder]
+original=Apple Notes data folder
+translation=Folder data Apple Notes
+
+[importer.apple-notes.desc-data-folder]
+original=macOS only lets Obsidian read your notes once you have pointed it at the folder they are kept in.
+translation=macOS hanya mengizinkan Obsidian membaca catatan Anda setelah Anda mengarahkannya ke folder tempat catatan tersebut disimpan.
+
+[importer.apple-notes.button-select-folder]
+original=Select folder
+translation=Pilih folder
+
+[importer.apple-notes.msg-wrong-folder]
+original=Ensure you have selected the correct Apple Notes data folder.
+translation=Pastikan Anda telah memilih folder data Apple Notes yang benar.
+
+[importer.apple-notes.msg-dialog-folder]
+original=Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data.
+translation=Pilih folder "group.com.apple.notes" untuk mengizinkan Obsidian membaca data Apple Notes.
+
+[importer.apple-notes.msg-import-failed]
+original=Data import failed. Ensure you have selected the correct Apple Notes data folder.
+translation=Impor data gagal. Pastikan Anda telah memilih folder data Apple Notes yang benar.
+
+[importer.apple-notes.msg-pick-folders]
+original=Please select at least one folder to import.
+translation=Silakan pilih setidaknya satu folder untuk diimpor.
+
+[importer.apple-notes.name-folders]
+original=Folders to import
+translation=Folder yang akan diimpor
+
+[importer.apple-notes.desc-folders]
+original=Pick the folders whose notes to bring across.
+translation=Pilih folder yang catatannya ingin dipindahkan.
+
+[importer.apple-notes.msg-no-access]
+original=Allow access to your notes to see the folders in them.
+translation=Izinkan akses ke catatan Anda untuk melihat folder di dalamnya.
+
+[importer.apple-notes.msg-no-folders]
+original=No folders found.
+translation=Tidak ada folder ditemukan.
+
+[importer.apple-notes.msg-database-busy]
+original=Your Apple Notes database is in use. Quit Notes and try again.
+translation=Database Apple Notes Anda sedang digunakan. Tutup Notes dan coba lagi.
+
+[importer.apple-notes.msg-database-unreadable]
+original=Could not open your Apple Notes database. {{hint}}
+translation=Tidak dapat membuka database Apple Notes Anda. {{hint}}
+
+[importer.apple-notes.msg-read-failed-with-detail]
+original=Could not read your notes: {{detail}}
+translation=Tidak dapat membaca catatan Anda: {{detail}}
+
+[importer.apple-notes.msg-read-failed]
+original=Could not read your notes.
+translation=Tidak dapat membaca catatan Anda.
+
+[importer.apple-notes.reason-password-protected]
+original=note is password protected
+translation=catatan dilindungi kata sandi
+
+[importer.apple-notes.reason-duplicate]
+original=note is a duplicate
+translation=catatan merupakan duplikasi
+
+[importer.apple-notes.reason-unchanged]
+original=note unchanged since last import
+translation=catatan tidak berubah sejak impor terakhir
+
+[importer.apple-notes.reason-attachment-exists]
+original=attachment already exists
+translation=lampiran sudah ada
+
+[importer.apple-notes.reason-attachment-unchanged]
+original=attachment unchanged since last import
+translation=lampiran tidak berubah sejak impor terakhir
+
+[importer.apple-notes.reason-not-downloaded]
+original=it has not been downloaded from iCloud - open the note in Apple Notes to fetch it
+translation=belum diunduh dari iCloud - buka catatan di Apple Notes untuk mengambilnya
+
+[importer.apple-notes.label-attachment]
+original=Attachment {{id}}
+translation=Lampiran {{id}}
+
+[importer.apple-notes.reason-no-attachment-row]
+original=no {{uti}} row to read it from
+translation=tidak ada baris {{uti}} untuk membacanya
+
+[importer.apple-notes.label-attachment-in-note]
+original={{name}} in {{note}}
+translation={{name}} di {{note}}
+
+[importer.apple-journal.name]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.option-text]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.file-type]
+original=Journal entries
+translation=Entri jurnal
+
+[importer.apple-journal.desc-files]
+original=Export your entries from the Journal app, then pick the HTML files it wrote to iCloud Drive.
+translation=Ekspor entri Anda dari Journal app, lalu pilih berkas HTML yang ditulis ke iCloud Drive.
+
+[importer.apple-journal.heading-metadata]
+original=Journal metadata
+translation=Metadata Journal
+
+[importer.apple-journal.name-front-matter]
+original=Add metadata as frontmatter
+translation=Tambahkan metadata sebagai metadata awal
+
+[importer.apple-journal.desc-front-matter]
+original=Capture state-of-mind, contact, and similar tokens in YAML when available.
+translation=Simpan state-of-mind, kontak, dan token serupa dalam YAML jika tersedia.
+
+[importer.apple-journal.reason-index-file]
+original=index file is not a journal entry
+translation=file indeks bukan entri jurnal
+
+[importer.bear.name]
+original=Bear
+translation=Bear
+
+[importer.bear.option-text]
+original=Bear (.bear2bk, .zip)
+translation=Bear (.bear2bk, .zip)
+
+[importer.bear.file-type]
+original=Bear backups
+translation=Cadangan Bear
+
+[importer.bear.label-id]
+original=Bear ID
+translation=Bear ID
+
+[importer.bear.desc-export]
+original=Back up your notes in Bear and choose the resulting .bear2bk file. On iPhone and iPad, you can also export Application Data and choose its .zip file.
+translation=Cadangkan catatan Anda di Bear dan Pilih file .bear2bk yang dihasilkan. Di iPhone dan iPad, Anda juga dapat mengekspor Data Aplikasi dan Pilih file .zip-nya.
+
+[importer.bear.name-tags-property]
+original=Move tags to a property
+translation=Pindahkan Tag ke properti
+
+[importer.bear.desc-tags-property]
+original=When enabled, tags are taken out of the note and listed in its tags property. Bear keeps tags in the text of a note, and Obsidian reads them there too.
+translation=Saat diaktifkan, Tag akan diambil dari catatan dan dicantumkan di properti Tag-nya. Bear menyimpan Tag di dalam Teks catatan, dan Obsidian juga membacanya di sana.
+
+[importer.bear.name-flatten-tags]
+original=Flatten nested tags
+translation=Ratakan tag bertingkat
+
+[importer.bear.desc-flatten-tags]
+original=When enabled, tags will be split on slashes (/) during import.
+translation=Jika diaktifkan, tag akan dipisahkan berdasarkan garis miring (/) saat impor.
+
+[importer.bear.status-importing-asset]
+original=Importing asset {{name}}
+translation=Mengimpor aset {{name}}
+
+[importer.bear.status-updating-links]
+original=Updating internal links…
+translation=Memperbarui tautan internal…
+
+[importer.bear.reason-unknown-type]
+original=unknown type of file
+translation=tipe file Tidak diketahui
+
+[importer.bear.reason-encrypted]
+original=encrypted note
+translation=catatan terenkripsi
+
+[importer.bear.reason-missing-attachment]
+original=the attachment is missing from the export
+translation=lampiran tidak ada dalam ekspor
+
+[importer.csv.name]
+original=CSV
+translation=CSV
+
+[importer.csv.option-text]
+original=CSV (.csv)
+translation=CSV (.csv)
+
+[importer.csv.file-type]
+original=CSV
+translation=CSV
+
+[importer.csv.desc-export]
+original=Export your table as CSV from the app it lives in, such as Excel, Google Sheets, Numbers, Notion, or Airtable.
+translation=Ekspor tabel Anda sebagai CSV dari aplikasi tempatnya berada, seperti Excel, Google Sheets, Numbers, Notion, atau Airtable.
+
+[importer.csv.name-header-row]
+original=CSV has header row
+translation=CSV memiliki baris header
+
+[importer.csv.desc-header-row]
+original=If enabled, the first row of the CSV file will be treated as column headers.
+translation=Jika diaktifkan, baris pertama file CSV akan diperlakukan sebagai header kolom.
+
+[importer.csv.name-source-title]
+original=Source title
+translation=Judul sumber
+
+[importer.csv.desc-source-title]
+original=Creates the {{title}} value used by the final note title template. Use CSV column variables like {{column_name}}.
+translation=Membuat nilai {{title}} yang digunakan oleh templat judul catatan akhir. Gunakan variabel kolom CSV seperti {{column_name}}.
+
+[importer.csv.msg-pick-file]
+original=Please pick at least one CSV file to import.
+translation=Silakan pilih setidaknya satu file CSV untuk diimpor.
+
+[importer.csv.msg-one-at-a-time]
+original=CSV files must be imported one at a time.
+translation=File CSV harus diimpor satu per satu.
+
+[importer.csv.msg-no-data]
+original=No data found in {{name}}.
+translation=Tidak ada data ditemukan di {{name}}.
+
+[importer.csv.msg-no-configuration]
+original=Configuration is missing.
+translation=Konfigurasi tidak ditemukan.
+
+[importer.csv.status-parsing]
+original=Parsing {{name}}
+translation=Mengurai {{name}}
+
+[importer.csv.status-creating-note]
+original=Creating note: {{title}}
+translation=Membuat catatan: {{title}}
+
+[importer.csv.label-row]
+original=Row {{number}}
+translation=Baris {{number}}
+
+[importer.csv.reason-empty-title]
+original=Empty title
+translation=Judul Kosong
+
+[importer.files.name]
+original=Files and folders
+translation=Berkas dan folder
+
+[importer.files.option-text]
+original=Copy files and folders into your vault
+translation=Salin berkas dan folder ke dalam brankas Anda
+
+[importer.files.name-source]
+original=Files to copy
+translation=Berkas untuk disalin
+
+[importer.files.desc-source]
+original=Drop files or folders anywhere in the window to copy them into your vault.
+translation=Lepas berkas atau folder di mana saja pada jendela untuk menyalinnya ke dalam brankas Anda.
+
+[importer.evernote.name]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.option-text]
+original=Evernote (.enex)
+translation=Evernote (.enex)
+
+[importer.evernote.file-type]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.desc-export]
+original=Export your notebooks in ENEX format, you will receive one .enex file per notebook.
+translation=Ekspor buku catatan Anda dalam format ENEX, Anda akan menerima satu file .enex per buku catatan.
+
+[importer.evernote.msg-unresolved-links]
+original={{count}} link could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} tautan tidak dapat dicocokkan dengan catatan. Ekspor ENEX tidak mencantumkan catatan mana yang dituju tautan, hanya judul yang ditampilkan di Evernote, sehingga catatan yang diganti namanya setelah tautan dibuat tidak lagi cocok. Obsidian mencantumkannya di bawah tautan yang belum terselesaikan.
+
+[importer.evernote.msg-unresolved-links_plural]
+original={{count}} links could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} tautan tidak dapat dicocokkan dengan catatan. Ekspor ENEX tidak mencantumkan catatan mana yang dituju tautan, hanya judul yang ditampilkan di Evernote, sehingga catatan yang diganti namanya setelah tautan dibuat tidak lagi cocok. Obsidian mencantumkannya di bawah tautan yang belum terselesaikan.
+
+[importer.keep.name]
+original=Google Keep
+translation=Google Keep
+
+[importer.keep.option-text]
+original=Google Keep (.zip, .json)
+translation=Google Keep (.zip, .json)
+
+[importer.keep.file-type]
+original=Notes & attachments
+translation=Catatan & lampiran
+
+[importer.keep.desc-export]
+original=Get your Google Keep data from Google Takeout.
+translation=Dapatkan data Google Keep Anda dari Google Takeout.
+
+[importer.keep.name-archived]
+original=Import archived notes
+translation=Impor catatan yang diarsipkan
+
+[importer.keep.desc-archived]
+original=If imported, files archived in Google Keep will be tagged as archived.
+translation=Jika diimpor, file yang diarsipkan di Google Keep akan diberi tag sebagai diarsipkan.
+
+[importer.keep.name-deleted]
+original=Import deleted notes
+translation=Impor catatan yang dihapus
+
+[importer.keep.desc-deleted]
+original=If imported, files deleted in Google Keep will be tagged as deleted. Deleted notes will only exist in your Google export if deleted recently.
+translation=Jika diimpor, file yang dihapus di Google Keep akan diberi tag sebagai dihapus. Catatan yang dihapus hanya akan ada di ekspor Google Anda jika baru saja dihapus.
+
+[importer.keep.reason-invalid-json]
+original=Invalid Google Keep JSON
+translation=JSON Google Keep tidak valid
+
+[importer.keep.reason-archived]
+original=Archived note
+translation=Catatan diarsipkan
+
+[importer.keep.reason-deleted]
+original=Deleted note
+translation=Catatan dihapus
+
+[importer.html.name]
+original=HTML files
+translation=File HTML
+
+[importer.html.option-text]
+original=HTML (.html, .zip)
+translation=HTML (.html, .zip)
+
+[importer.html.label-id]
+original=HTML source path
+translation=Alur sumber HTML
+
+[importer.html.desc-source-identity]
+original=Changing which folder or zip file you choose can change the source path, so existing notes may not be recognized.
+translation=Mengubah folder atau file zip yang Anda pilih dapat mengubah alur sumber, sehingga catatan yang sudah ada mungkin tidak dikenali.
+
+[importer.html.file-type]
+original=HTML
+translation=HTML
+
+[importer.html.desc-export]
+original=Save the pages you want to keep as HTML. If the app they are in has an importer of its own, use that instead: it keeps more of your data.
+translation=Simpan halaman yang ingin Anda simpan sebagai HTML. Jika aplikasi tempatnya berada memiliki importernya sendiri, gunakan itu: data Anda akan lebih lengkap.
+
+[importer.html.desc-source]
+original=Choose individual HTML files, whole folders, or zip files. Pages in folders stay organized the same way.
+translation=Pilih file HTML individual, seluruh folder, atau file zip. Halaman dalam folder tetap terorganisir dengan cara yang sama.
+
+[importer.html.name-extract-main-content]
+original=Extract main content
+translation=Ekstrak konten utama
+
+[importer.html.desc-extract-main-content]
+original=Remove navigation, sidebars, footers, and other page clutter.
+translation=Hapus navigasi, sidebar, footer, dan elemen halaman lain yang tidak diperlukan.
+
+[importer.html.name-size-limit]
+original=Attachment size limit (MB)
+translation=Batas ukuran lampiran (MB)
+
+[importer.html.name-minimum-image-size]
+original=Minimum image size (px)
+translation=Ukuran gambar minimum (px)
+
+[importer.html.desc-set-zero-to-disable]
+original=Set 0 to disable.
+translation=Atur 0 untuk menonaktifkan.
+
+[importer.html.status-downloading]
+original=Downloading attachment for {{name}}
+translation=Mengunduh lampiran untuk {{name}}
+
+[importer.markdown.name]
+original=Markdown
+translation=Markdown
+
+[importer.markdown.option-text]
+original=Markdown (.md, .txt, .zip)
+translation=Markdown (.md, .txt, .zip)
+
+[importer.markdown.file-type]
+original=Markdown and text
+translation=Markdown dan Teks
+
+[importer.markdown.desc-source]
+original=Choose individual Markdown or text files, whole folders, or zip files. Everything in folders stays organized the same way.
+translation=Pilih berkas Markdown atau teks individual, seluruh folder, atau berkas zip. Semua isi folder tetap terorganisir dengan cara yang sama.
+
+[importer.markdown.name-standardize-formatting]
+original=Standardize formatting
+translation=Standarkan pemformatan
+
+[importer.markdown.desc-standardize-formatting]
+original=Use this vault's settings for lists, indentation, and links.
+translation=Gunakan pengaturan brankas ini untuk daftar, indentasi, dan tautan.
+
+[importer.markdown.name-tags-as-properties]
+original=Convert inline tags to properties
+translation=Ubah tag inline menjadi properti
+
+[importer.markdown.desc-tags-as-properties]
+original=Move tags written in the body of a note into its tags property.
+translation=Pindahkan tag yang ditulis di isi catatan ke dalam properti tag-nya.
+
+[importer.logseq.name]
+original=Logseq
+translation=Logseq
+
+[importer.logseq.option-text]
+original=Logseq (.md)
+translation=Logseq (.md)
+
+[importer.logseq.label-id]
+original=Logseq source
+translation=Sumber Logseq
+
+[importer.logseq.desc-instructions]
+original=Read the instructions for importing from Logseq.
+translation=Baca instruksi untuk mengimpor dari Logseq.
+
+[importer.logseq.desc-files]
+original=Choose one graph folder containing pages, journals, and assets.
+translation=Pilih satu folder graf yang berisi halaman, jurnal, dan aset.
+
+[importer.logseq.name-use-daily-notes]
+original=Use daily notes settings
+translation=Gunakan pengaturan Catatan harian
+
+[importer.logseq.desc-use-daily-notes]
+original=Write journals to the configured daily notes folder and filename format.
+translation=Tulis jurnal ke folder Catatan harian dan format nama file yang telah dikonfigurasi.
+
+[importer.logseq.name-queries]
+original=Keep queries
+translation=Pertahankan kueri
+
+[importer.logseq.desc-queries]
+original=Obsidian doesn't support Logseq's query format, so queries are imported as code blocks.
+translation=Obsidian tidak mendukung format kueri Logseq, sehingga kueri diimpor sebagai blok kode.
+
+[importer.logseq.name-flashcards]
+original=Keep flashcards
+translation=Pertahankan flashcard
+
+[importer.logseq.desc-flashcards]
+original=Obsidian doesn't support Logseq's flashcards, so card markers and cloze wrappers are imported as plain text.
+translation=Obsidian tidak mendukung flashcard Logseq, sehingga penanda kartu dan pembungkus cloze diimpor sebagai teks biasa.
+
+[importer.logseq.name-time-tracking]
+original=Keep time tracking
+translation=Pertahankan pelacakan waktu
+
+[importer.logseq.desc-time-tracking]
+original=Obsidian doesn't support Logseq's time tracking, so LOGBOOK and CLOCK entries are imported as plain text.
+translation=Obsidian tidak mendukung pelacakan waktu Logseq, sehingga entri LOGBOOK dan CLOCK diimpor sebagai teks biasa.
+
+[importer.logseq.msg-pick-graph]
+original=Please choose one Logseq graph folder.
+translation=Silakan pilih satu folder graf Logseq.
+
+[importer.logseq.msg-no-notes]
+original=The selected folder has no Markdown notes under pages or journals.
+translation=Folder yang dipilih tidak memiliki catatan Markdown di bawah halaman atau jurnal.
+
+[importer.logseq.reason-empty-page]
+original=The converted page is empty
+translation=Halaman hasil konversi kosong
+
+[importer.logseq.reason-missing-asset]
+original=Referenced by {{name}}, but missing from the graph
+translation=Direferensikan oleh {{name}}, tetapi tidak ditemukan dalam graf
+
+[importer.logseq.reason-whiteboards]
+original=Logseq whiteboards are not supported by Obsidian
+translation=Papan tulis Logseq tidak didukung oleh Obsidian
+
+[importer.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.option-text]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.method-name]
+original=Microsoft account
+translation=Akun Microsoft
+
+[importer.onenote.method-desc]
+original=Sign into your Microsoft account and import the notebooks that are synced to OneDrive. Requires an internet connection.
+translation=Masuk ke akun Microsoft Anda dan impor buku catatan yang disinkronkan ke OneDrive. Memerlukan koneksi internet.
+
+[importer.onenote.label-id]
+original=OneNote ID
+translation=ID OneNote
+
+[importer.onenote.name-incompatible]
+original=Import incompatible attachments
+translation=Impor lampiran yang tidak kompatibel
+
+[importer.onenote.desc-incompatible]
+original=Imports incompatible attachments which cannot be embedded in Obsidian, such as .exe files.
+translation=Mengimpor lampiran yang tidak kompatibel yang tidak dapat disematkan di Obsidian, seperti file .exe.
+
+[importer.onenote.name-account]
+original=Microsoft account
+translation=Akun Microsoft
+
+[importer.onenote.desc-sign-in]
+original=Sign in to import your OneNote notebooks.
+translation=Masuk untuk mengimpor buku catatan OneNote Anda.
+
+[importer.onenote.desc-sign-in-organization]
+original=Sign in to import your OneNote notebooks. A work or school account may need your organization to approve access.
+translation=Masuk untuk mengimpor buku catatan OneNote Anda. Akun kerja atau sekolah mungkin memerlukan persetujuan organisasi Anda.
+
+[importer.onenote.desc-signed-in]
+original=Signed in as {{name}} ({{email}}).
+translation=Masuk sebagai {{name}} ({{email}}).
+
+[importer.onenote.button-sign-in]
+original=Sign in
+translation=Masuk
+
+[importer.onenote.button-sign-out]
+original=Sign out
+translation=Keluar
+
+[importer.onenote.button-work-account]
+original=Use work or school access
+translation=Gunakan akses kerja atau sekolah
+
+[importer.onenote.msg-sign-in-failed]
+original=An error occurred while trying to sign you in.
+translation=Terjadi kesalahan saat mencoba memasukkan Anda.
+
+[importer.onenote.msg-sign-in-details]
+original=Show error details
+translation=Tampilkan detail kesalahan
+
+[importer.onenote.msg-signed-out]
+original=Sign in to see your OneNote notebooks.
+translation=Masuk untuk melihat buku catatan OneNote Anda.
+
+[importer.onenote.msg-please-sign-in]
+original=Please sign in to your Microsoft account.
+translation=Silakan masuk ke akun Microsoft Anda.
+
+[importer.onenote.name-sections]
+original=Sections to import
+translation=Bagian untuk diimpor
+
+[importer.onenote.desc-sections]
+original=Select a notebook, or sections within it.
+translation=Pilih buku catatan, atau bagian di dalamnya.
+
+[importer.onenote.msg-loading-notebooks]
+original=Loading notebooks...
+translation=Memuat buku catatan...
+
+[importer.onenote.msg-no-notebooks]
+original=No notebooks found.
+translation=Tidak ada buku catatan ditemukan.
+
+[importer.onenote.msg-scope-refused]
+original=OneNote did not grant this sign-in access to your notebooks. Sign out and sign in again to ask for work or school access, which your organization may need to approve.
+translation=OneNote tidak memberikan akses masuk ini ke buku catatan Anda. Keluar dan masuk kembali untuk meminta akses kerja atau sekolah, yang mungkin perlu disetujui oleh organisasi Anda.
+
+[importer.onenote.label-service]
+original=OneNote
+translation=OneNote
+
+[importer.onenote.label-subject]
+original=your notebooks
+translation=buku catatan Anda
+
+[importer.onenote.label-credential]
+original=Sign out and back in to try again.
+translation=Keluar dan masuk kembali untuk mencoba lagi.
+
+[importer.onenote.status-finding]
+original=Finding notes to import
+translation=Mencari catatan untuk diimpor
+
+[importer.onenote.status-finding-in]
+original=Finding notes in {{section}}
+translation=Mencari catatan di {{section}}
+
+[importer.onenote.status-finding-in-section]
+original=Finding notes in {{section}} (section {{index}} of {{total}})
+translation=Mencari catatan di {{section}} (bagian {{index}} dari {{total}})
+
+[importer.onenote.status-importing-notes]
+original=Importing {{notes}}
+translation=Mengimpor {{notes}}
+
+[importer.onenote.status-downloading]
+original=Downloading attachment {{name}}
+translation=Mengunduh lampiran {{name}}
+
+[importer.onenote.msg-too-many-errors]
+original=Microsoft OneNote returned too many consecutive errors.
+translation=Microsoft OneNote mengembalikan terlalu banyak kesalahan berturut-turut.
+
+[importer.onenote.label-unknown-page]
+original=<unknown>
+translation=<Tidak diketahui>
+
+[importer.onenote.reason-too-many-failures]
+original=import was canceled (after too many pages failed to load)
+translation=impor dibatalkan (setelah terlalu banyak halaman gagal dimuat)
+
+[importer.onenote.label-ink]
+original={{page}} - Ink.svg
+translation={{page}} - Ink.svg
+
+[importer.onenote.label-attachment]
+original=OneNote attachment
+translation=Lampiran OneNote
+
+[importer.onenote.label-image]
+original=OneNote image
+translation=Gambar OneNote
+
+[importer.onenote.reason-no-attachment-name]
+original=the attachment did not say what it was called
+translation=lampiran tidak menyebutkan namanya
+
+[importer.onenote.reason-no-attachment-url]
+original=the attachment did not include a download URL
+translation=lampiran tidak menyertakan URL unduhan
+
+[importer.onenote.reason-no-image-url]
+original=the image did not include a download URL
+translation=gambar tidak menyertakan URL unduhan
+
+[importer.onenote-file.name]
+original=Microsoft OneNote (export file)
+translation=Microsoft OneNote (file ekspor)
+
+[importer.onenote-file.option-text]
+original=Microsoft OneNote (.one, .onepkg)
+translation=Microsoft OneNote (.one, .onepkg)
+
+[importer.onenote-file.method-name]
+original=File import
+translation=Impor file
+
+[importer.onenote-file.method-desc]
+original=Import using OneNote export files (.one, .onepkg) from your computer. Requires no account or internet connection, and works for notebooks that were never synced.
+translation=Impor menggunakan file ekspor OneNote (.one, .onepkg) dari komputer Anda. Tidak memerlukan akun atau koneksi internet, dan berfungsi untuk buku catatan yang tidak pernah disinkronkan.
+
+[importer.onenote-file.file-type]
+original=OneNote export
+translation=Ekspor OneNote
+
+[importer.onenote-file.label-id]
+original=OneNote ID
+translation=OneNote ID
+
+[importer.onenote-file.desc-backup-folder]
+original=OneNote for Windows keeps its own backups, and this opens there. Pick the notebooks or sections you want.
+translation=OneNote untuk Windows menyimpan cadangannya sendiri, dan ini membukanya di sana. Pilih buku catatan atau bagian yang Anda inginkan.
+
+[importer.onenote-file.desc-export]
+original=In OneNote for Windows, right-click a notebook and export it to save a .onepkg file, or export a single section as .one.
+translation=Di OneNote untuk Windows, klik kanan buku catatan dan ekspor untuk menyimpan file .onepkg, atau ekspor satu bagian sebagai .one.
+
+[importer.onenote-file.name-sections]
+original=Sections to import
+translation=Bagian yang akan diimpor
+
+[importer.onenote-file.desc-sections]
+original=Choose which sections to import.
+translation=Pilih bagian mana yang akan diimpor.
+
+[importer.onenote-file.msg-loading-sections]
+original=Reading sections…
+translation=Membaca bagian…
+
+[importer.onenote-file.msg-no-sections]
+original=No sections found in this file.
+translation=Tidak ada bagian yang ditemukan dalam file ini.
+
+[importer.onenote-file.msg-pick-file-first]
+original=Choose a OneNote file first.
+translation=Pilih file OneNote terlebih dahulu.
+
+[importer.onenote-file.status-reading-section]
+original=Reading {{name}}
+translation=Membaca {{name}}
+
+[importer.onenote-file.status-importing-section]
+original=Importing {{name}} ({{index}} of {{total}})
+translation=Mengimpor {{name}} ({{index}} dari {{total}})
+
+[importer.onenote-file.reason-rights-protected]
+original=the file is rights-protected, and can only be opened by an account with permission to it
+translation=file dilindungi hak akses, dan hanya dapat dibuka oleh akun yang memiliki izin
+
+[importer.onenote-file.reason-unsupported]
+original=the file uses a OneNote format this importer cannot read yet
+translation=file menggunakan format OneNote yang belum dapat dibaca oleh importir ini
+
+[importer.onenote-file.reason-malformed]
+original=the file does not describe the OneNote structures it claims to
+translation=file tidak mendeskripsikan struktur OneNote yang diklaimnya
+
+[importer.onenote-file.reason-too-large]
+original=the file is larger than this importer is willing to expand
+translation=file lebih besar dari yang bersedia dibuka oleh importir ini
+
+[importer.onenote-file.reason-no-attachment-data]
+original=the attachment held no data
+translation=lampiran tidak berisi data
+
+[importer.notion-api.name]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.option-text]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.method-name]
+original=Notion account (recommended)
+translation=Akun Notion (Direkomendasikan)
+
+[importer.notion-api.method-desc]
+original=Imports your entire workspace, including databases and formulas which are converted to bases. Requires a Notion integration token and an internet connection.
+translation=Mengimpor seluruh ruang kerja Anda, termasuk basis data dan rumus yang dikonversi ke basis. Memerlukan token integrasi Notion dan koneksi internet.
+
+[importer.notion-api.label-id]
+original=Notion ID
+translation=Notion ID
+
+[importer.notion-api.name-token]
+original=Notion API token
+translation=Token API Notion
+
+[importer.notion-api.desc-token]
+original=To get an API token create a connection in Notion and give it access to pages in your workspace.
+translation=Untuk mendapatkan token API, buat koneksi di Notion dan berikan akses ke halaman di ruang kerja Anda.
+
+[importer.notion-api.link-get-token]
+original=Get API token
+translation=Dapatkan token API
+
+[importer.notion-api.name-pages]
+original=Pages to import
+translation=Halaman yang akan diimpor
+
+[importer.notion-api.desc-pages]
+original=Load your Notion pages and databases, then choose what to import. If a page or database is missing, check that your Notion connection has access to it.
+translation=Muat halaman dan basis data Notion Anda, lalu pilih apa yang ingin diimpor. Jika halaman atau basis data tidak muncul, periksa apakah koneksi Notion Anda memiliki akses ke sana.
+
+[importer.notion-api.hint-pages]
+original=Load your Notion pages and databases to get started.
+translation=Muat halaman dan basis data Notion Anda untuk memulai.
+
+[importer.notion-api.msg-loading-pages]
+original=Loading pages and databases...
+translation=Memuat halaman dan basis data...
+
+[importer.notion-api.msg-no-pages]
+original=No pages or databases found. Make sure your connection has access to the pages you want to import.
+translation=Tidak ada halaman atau basis data yang ditemukan. Pastikan koneksi Anda memiliki akses ke halaman yang ingin Anda impor.
+
+[importer.notion-api.label-service]
+original=Notion
+translation=Notion
+
+[importer.notion-api.label-subject]
+original=your pages
+translation=halaman Anda
+
+[importer.notion-api.label-credential]
+original=Check that your token is current and that the connection has access to them.
+translation=Periksa apakah token Anda masih berlaku dan koneksi memiliki akses ke halaman tersebut.
+
+[importer.notion-api.name-formulas]
+original=Convert formulas
+translation=Konversi rumus
+
+[importer.notion-api.desc-formulas]
+original=By default Notion formulas are converted to Obsidian syntax. If any Notion syntax is not supported the static values will be saved instead. Alternatively you can import all formulas as static values.
+translation=Secara bawaan, rumus Notion dikonversi ke sintaks Obsidian. Jika ada sintaks Notion yang tidak didukung, nilai statis akan disimpan sebagai gantinya. Alternatifnya, Anda dapat mengimpor semua rumus sebagai nilai statis.
+
+[importer.notion-api.option-formula-hybrid]
+original=Obsidian syntax
+translation=Sintaks Obsidian
+
+[importer.notion-api.option-formula-static]
+original=Static values
+translation=Nilai statis
+
+[importer.notion-api.name-download-external]
+original=Download external attachments
+translation=Unduh lampiran eksternal
+
+[importer.notion-api.desc-download-external]
+original=Download external attachments (external URLs) to local files. Notion-hosted files are always downloaded.
+translation=Unduh lampiran eksternal (URL eksternal) ke file lokal. File yang dihosting di Notion selalu diunduh.
+
+[importer.notion-api.name-single-line-breaks]
+original=Single line breaks
+translation=Jeda baris tunggal
+
+[importer.notion-api.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break instead of two. Some blocks (lists, toggles, tables) will still use double line breaks when required for proper Markdown syntax.
+translation=Pisahkan blok Notion dengan hanya satu jeda baris alih-alih dua. Beberapa blok (daftar, toggle, tabel) tetap akan menggunakan jeda baris ganda jika diperlukan untuk sintaks Markdown yang benar.
+
+[importer.notion-api.name-cover-property]
+original=Cover property name
+translation=Nama properti sampul
+
+[importer.notion-api.desc-cover-property]
+original=Property name for page cover image in YAML frontmatter. 
+translation=Nama properti untuk gambar sampul halaman di metadata awal YAML. 
+
+[importer.notion-api.desc-cover-property-conflicts]
+original=Leave as "cover" if you don't have conflicts with existing properties.
+translation=Biarkan sebagai "cover" jika Anda tidak memiliki konflik dengan properti yang sudah ada.
+
+[importer.notion-api.name-database-property]
+original=Database property name
+translation=Nama properti database
+
+[importer.notion-api.desc-database-property]
+original=Property name in page frontmatter to link pages to their database .base file (default: "base")
+translation=Nama properti di metadata awal halaman untuk menautkan halaman ke file .base database-nya (bawaan: "base")
+
+[importer.notion-api.name-linked-databases]
+original=Import linked databases
+translation=Impor database tertaut
+
+[importer.notion-api.desc-linked-databases]
+original=Also import databases that the selected pages link to, so relations become links rather than names. This imports pages you did not select.
+translation=Juga impor database yang ditautkan oleh halaman yang dipilih, sehingga relasi menjadi tautan alih-alih nama. Ini mengimpor halaman yang tidak Anda pilih.
+
+[importer.notion-api.msg-token-first]
+original=Please enter your Notion API token first.
+translation=Silakan masukkan token API Notion Anda terlebih dahulu.
+
+[importer.notion-api.msg-token-missing]
+original=Please enter your Notion API token.
+translation=Silakan masukkan token API Notion Anda.
+
+[importer.notion-api.msg-load-pages-failed]
+original=Failed to load pages: {{error}}
+translation=Gagal memuat halaman: {{error}}
+
+[importer.notion-api.msg-pick-page]
+original=Please select at least one page or database to import.
+translation=Silakan pilih setidaknya satu halaman atau database untuk diimpor.
+
+[importer.notion-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=Impor gagal: {{error}}
+
+[importer.notion-api.status-loading-items]
+original=Loading... ({{items}}, page {{page}})
+translation=Memuat... ({{items}}, halaman {{page}})
+
+[importer.notion-api.status-connecting]
+original=Connecting to Notion API...
+translation=Menghubungkan ke API Notion...
+
+[importer.notion-api.status-fetching]
+original=Fetching page content from Notion...
+translation=Mengambil konten halaman dari Notion...
+
+[importer.notion-api.status-preparing]
+original=Preparing to import {{items}}...
+translation=Mempersiapkan impor {{items}}...
+
+[importer.notion-api.status-importing-items]
+original=Importing {{items}}...
+translation=Mengimpor {{items}}...
+
+[importer.notion-api.status-importing-item]
+original=Importing item {{index}}/{{total}}...
+translation=Mengimpor item {{index}}/{{total}}...
+
+[importer.notion-api.status-importing-title]
+original=Importing: {{title}}
+translation=Mengimpor: {{title}}
+
+[importer.notion-api.status-relation-links]
+original=Processing relation links...
+translation=Memproses tautan relasi...
+
+[importer.notion-api.status-mention-links]
+original=Processing mention links...
+translation=Memproses tautan sebutan...
+
+[importer.notion-api.status-synced-blocks]
+original=Processing synced block child references...
+translation=Memproses referensi anak blok yang disinkronkan...
+
+[importer.notion-api.status-cleaning-ids]
+original=Cleaning up notion-id attributes...
+translation=Membersihkan atribut notion-id...
+
+[importer.notion-api.status-done]
+original=Import completed successfully!
+translation=Impor berhasil diselesaikan!
+
+[importer.notion-api.status-replacing-relations]
+original=Replacing {{placeholders}}...
+translation=Mengganti {{placeholders}}...
+
+[importer.notion-api.status-replacing-relation-links]
+original=Replacing relation placeholders with wiki links...
+translation=Mengganti placeholder relasi dengan tautan wiki...
+
+[importer.notion-api.status-importing-linked-databases]
+original=Importing {{databases}}...
+translation=Mengimpor {{databases}}...
+
+[importer.notion-api.status-importing-unimported]
+original=Importing unimported database {{id}}...
+translation=Mengimpor database yang belum diimpor {{id}}...
+
+[importer.notion-api.status-replacing-mentions]
+original=Replacing mention placeholders...
+translation=Mengganti placeholder sebutan...
+
+[importer.notion-api.status-replaced-mentions]
+original=Replaced {{links}} in {{files}}.
+translation=Mengganti {{links}} di {{files}}.
+
+[importer.notion-api.status-replacing-synced]
+original=Replacing synced block child references...
+translation=Mengganti referensi anak blok yang disinkronkan...
+
+[importer.notion-api.status-replaced-synced]
+original=Replaced {{references}} in {{files}} (imported {{imported}}).
+translation=Mengganti {{references}} di {{files}} (mengimpor {{imported}}).
+
+[importer.notion-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}...
+translation=Mengunduh lampiran: {{name}}...
+
+[importer.notion-api.status-rate-limited]
+original=Rate limited. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=Dibatasi laju. Menunggu {{seconds}} detik sebelum mencoba lagi ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying]
+original=Notion returned {{status}}. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=Notion mengembalikan {{status}}. Menunggu {{seconds}} detik sebelum mencoba lagi ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying-attachment]
+original={{name}}: {{failure}}. Retrying in {{seconds}} seconds ({{attempt}}/{{total}})...
+translation={{name}}: {{failure}}. Mencoba ulang dalam {{seconds}} detik ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-processing-data-source]
+original=Processing database from data source: {{id}}...
+translation=Memproses basis data dari sumber data: {{id}}...
+
+[importer.notion-api.status-processing-database]
+original=Processing database: {{title}}...
+translation=Memproses basis data: {{title}}...
+
+[importer.notion-api.status-found-pages]
+original=Found {{pages}} in database {{title}}
+translation=Ditemukan {{pages}} di basis data {{title}}
+
+[importer.notion-api.status-found-templates]
+original=Found {{templates}} in database {{title}}
+translation=Ditemukan {{templates}} di basis data {{title}}
+
+[importer.notion-api.status-importing-template]
+original=Importing template: {{name}}...
+translation=Mengimpor templat: {{name}}...
+
+[importer.notion-api.label-import]
+original=Notion API import
+translation=Impor Notion API
+
+[importer.notion-api.label-item]
+original=Import item {{id}}
+translation=Impor item {{id}}
+
+[importer.notion-api.label-page]
+original=Page {{id}}
+translation=Halaman {{id}}
+
+[importer.notion-api.label-page-with-title]
+original=Page: {{title}} ({{id}})
+translation=Halaman: {{title}} ({{id}})
+
+[importer.notion-api.label-relation-page]
+original=Relation page {{id}}
+translation=Halaman relasi {{id}}
+
+[importer.notion-api.label-database-with-id]
+original=Database: {{title}} ({{id}})
+translation=Basis data: {{title}} ({{id}})
+
+[importer.notion-api.label-mention-file]
+original=Mention file {{path}}
+translation=File sebutan {{path}}
+
+[importer.notion-api.label-synced-block-file]
+original=Synced block file {{path}}
+translation=File blok disinkronkan {{path}}
+
+[importer.notion-api.label-attachment]
+original=Attachment: {{name}}
+translation=Lampiran: {{name}}
+
+[importer.notion-api.label-child-page]
+original=Child page: {{title}}
+translation=Halaman anak: {{title}}
+
+[importer.notion-api.label-synced-block]
+original=Synced block: {{name}}
+translation=Blok disinkronkan: {{name}}
+
+[importer.notion-api.label-attachment-image]
+original=Image attachment
+translation=Lampiran gambar
+
+[importer.notion-api.label-attachment-video]
+original=Video attachment
+translation=Lampiran video
+
+[importer.notion-api.label-attachment-audio]
+original=Audio attachment
+translation=Lampiran audio
+
+[importer.notion-api.label-attachment-file]
+original=File attachment
+translation=Lampiran file
+
+[importer.notion-api.label-attachment-pdf]
+original=PDF attachment
+translation=Lampiran PDF
+
+[importer.notion-api.label-preview-child-page]
+original=Child page
+translation=Halaman anak
+
+[importer.notion-api.label-preview-database]
+original=Database
+translation=Basis data
+
+[importer.notion-api.msg-preview-nested-content]
+original=Nested content is not loaded in the preview.
+translation=Konten bertingkat tidak dimuat dalam pratinjau.
+
+[importer.notion-api.msg-preview-content-not-loaded]
+original={{type}} is not loaded in the preview.
+translation={{type}} tidak dimuat dalam pratinjau.
+
+[importer.notion-api.msg-preview-content-not-loaded-with-caption]
+original={{type}}: {{caption}} is not loaded in the preview.
+translation={{type}}: {{caption}} tidak dimuat dalam pratinjau.
+
+[importer.notion-api.msg-preview-block-not-expanded]
+original={{type}} is not expanded in the preview.
+translation={{type}} tidak diperluas dalam pratinjau.
+
+[importer.notion-api.label-fetch-children]
+original=Fetch children for {{context}} {{id}}
+translation=Ambil anak untuk {{context}} {{id}}
+
+[importer.notion-api.block-paragraph]
+original=paragraph
+translation=Paragraf
+
+[importer.notion-api.block-bulleted-list-item]
+original=bulleted list item
+translation=item daftar berpoin
+
+[importer.notion-api.block-numbered-list-item]
+original=numbered list item
+translation=item daftar bernomor
+
+[importer.notion-api.block-todo-item]
+original=to-do item
+translation=item tugas
+
+[importer.notion-api.block-quote]
+original=quote block
+translation=blok kutipan
+
+[importer.notion-api.block-callout]
+original=callout block
+translation=blok callout
+
+[importer.notion-api.block-toggle]
+original=toggle block
+translation=blok toggle
+
+[importer.notion-api.block-toggleable-heading]
+original=toggleable heading
+translation=judul yang dapat di-toggle
+
+[importer.notion-api.block-column]
+original=column
+translation=Kolom
+
+[importer.notion-api.block-column-list]
+original=column list
+translation=daftar kolom
+
+[importer.notion-api.block-table]
+original=table
+translation=Tabel
+
+[importer.notion-api.block-generic]
+original=block
+translation=blok
+
+[importer.notion-api.label-meeting-notes]
+original=Meeting notes: {{name}}
+translation=Catatan rapat: {{name}}
+
+[importer.notion-api.label-meeting-notes-section]
+original=Meeting notes: {{name}} ({{section}})
+translation=Catatan rapat: {{name}} ({{section}})
+
+[importer.notion-api.label-untitled-meeting]
+original=Meeting notes {{id}}
+translation=Catatan rapat {{id}}
+
+[importer.notion-api.section-summary]
+original=summary
+translation=Ringkasan
+
+[importer.notion-api.section-notes]
+original=notes
+translation=catatan
+
+[importer.notion-api.section-transcript]
+original=transcript
+translation=transkrip
+
+[importer.notion-api.label-fetch-children-block]
+original=Fetch children for block {{id}}
+translation=Ambil anak untuk blok {{id}}
+
+[importer.notion-api.reason-not-in-tree]
+original=Item not found in tree
+translation=Item tidak ditemukan di pohon
+
+[importer.notion-api.reason-unknown-type]
+original=Unknown type: {{type}}
+translation=Tipe tidak diketahui: {{type}}
+
+[importer.notion-api.reason-earlier-import]
+original=an earlier import had already written it
+translation=impor sebelumnya sudah menulisnya
+
+[importer.notion-api.reason-attachment-exists]
+original={{path}} is already in the vault, the same size (incremental import)
+translation={{path}} sudah ada di brankas dengan ukuran yang sama (impor inkremental)
+
+[importer.notion-api.reason-http-status]
+original=HTTP {{status}}
+translation=HTTP {{status}}
+
+[importer.notion-api.reason-meeting-notes-pending]
+original=Notion has not finished generating them ({{status}})
+translation=Notion belum selesai membuatnya ({{status}})
+
+[importer.notion-api.reason-rate-limit-gave-up]
+original=rate limited, and gave up after {{retries}} retries
+translation=dibatasi laju permintaan, dan menyerah setelah {{retries}} percobaan ulang
+
+[importer.notion-api.reason-gave-up]
+original={{reason}}, and gave up after {{retries}} retries
+translation={{reason}}, dan menyerah setelah {{retries}} percobaan ulang
+
+[importer.notion-api.reason-kept-link]
+original={{reason}}; kept the link to {{url}}
+translation={{reason}}; mempertahankan tautan ke {{url}}
+
+[importer.notion.name]
+original=Notion
+translation=Notion
+
+[importer.notion.option-text]
+original=Notion (.zip)
+translation=Notion (.zip)
+
+[importer.notion.method-name]
+original=File import
+translation=Impor file
+
+[importer.notion.method-desc]
+original=Imports using a Notion export file (.zip). Requires no API token or internet connection, but does not preserve databases.
+translation=Mengimpor menggunakan file ekspor Notion (.zip). Tidak memerlukan token API atau koneksi internet, tetapi tidak mempertahankan basis data.
+
+[importer.notion.file-type]
+original=Exported Notion
+translation=Ekspor Notion
+
+[importer.notion.label-id]
+original=Notion ID
+translation=Notion ID
+
+[importer.notion.desc-export]
+original=Export your workspace in HTML format, you will receive a zip file.
+translation=Ekspor ruang kerja Anda dalam format HTML, Anda akan menerima file zip.
+
+[importer.notion.desc-files]
+original=Pick the zip file Notion sent you.
+translation=Pilih file zip yang dikirim Notion kepada Anda.
+
+[importer.notion.name-subfolders]
+original=Save parent pages in subfolders
+translation=Simpan halaman induk dalam subfolder
+
+[importer.notion.desc-subfolders]
+original=Places the parent database pages in the same folder as the nested content.
+translation=Menempatkan halaman basis data induk di folder yang sama dengan konten bertingkat.
+
+[importer.notion.name-single-line-breaks]
+original=Single line breaks
+translation=Jeda baris tunggal
+
+[importer.notion.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break (default is 2).
+translation=Pisahkan blok Notion hanya dengan satu jeda baris (bawaan adalah 2).
+
+[importer.notion.msg-unknown-property]
+original=Property "{{property}}" has an unknown type ({{type}}); kept its value as text.
+translation=Properti "{{property}}" memiliki tipe yang tidak diketahui ({{type}}); nilainya dipertahankan sebagai teks.
+
+[importer.notion.msg-unparsed-date]
+original=Could not determine the date in property "{{property}}": {{value}}. Kept its value as text.
+translation=Tidak dapat menentukan tanggal dalam properti "{{property}}": {{value}}. Nilainya dipertahankan sebagai teks.
+
+[importer.notion.status-looking]
+original=Looking for files to import
+translation=Mencari file untuk diimpor
+
+[importer.notion.status-resolving]
+original=Resolving links and de-duplicating files
+translation=Menyelesaikan tautan dan menghapus duplikat file
+
+[importer.notion.status-starting]
+original=Starting import
+translation=Memulai impor
+
+[importer.notion.msg-markdown-export]
+original=This is a Markdown export. Export your Notion workspace as HTML instead.
+translation=Ini adalah ekspor Markdown. Ekspor ruang kerja Notion Anda sebagai HTML.
+
+[importer.notion.reason-markdown-export]
+original=it is a Markdown export; export your Notion workspace as HTML instead
+translation=ini adalah ekspor Markdown; ekspor ruang kerja Notion Anda sebagai HTML sebagai gantinya
+
+[importer.notion.reason-no-page-body]
+original=page body was not found
+translation=isi halaman tidak ditemukan
+
+[importer.roam-json.name]
+original=Roam Research
+translation=Roam Research
+
+[importer.roam-json.option-text]
+original=Roam Research (.json)
+translation=Roam Research (.json)
+
+[importer.roam-json.file-type]
+original=Roam (.json)
+translation=Roam (.json)
+
+[importer.roam-json.label-id]
+original=Roam UID
+translation=Roam UID
+
+[importer.roam-json.desc-export]
+original=Export your data in JSON format.
+translation=Ekspor data Anda dalam format JSON.
+
+[importer.roam-json.desc-files]
+original=Pick the JSON file from your Roam export.
+translation=Pilih file JSON dari ekspor Roam Anda.
+
+[importer.roam-json.name-embed-block-references]
+original=Show referenced blocks in place
+translation=Tampilkan blok yang direferensikan di tempatnya
+
+[importer.roam-json.desc-embed-block-references]
+original=Roam shows the contents of a referenced block where the reference stands. If enabled, references become embeds rather than links.
+translation=Roam menampilkan konten blok yang direferensikan di tempat referensi berada. Jika diaktifkan, referensi menjadi sematan alih-alih tautan.
+
+[importer.roam-json.name-drop-unresolved-references]
+original=Remove references to missing blocks
+translation=Hapus referensi ke blok yang hilang
+
+[importer.roam-json.desc-drop-unresolved-references]
+original=Some references name a block that is not in the export. If enabled, they are removed; if not, they are kept as Roam wrote them.
+translation=Beberapa referensi merujuk ke blok yang tidak ada dalam ekspor. Jika diaktifkan, referensi tersebut dihapus; jika tidak, referensi dipertahankan seperti yang ditulis Roam.
+
+[importer.roam-json.name-convert-attributes]
+original=Convert attributes to properties
+translation=Konversi atribut ke properti
+
+[importer.roam-json.desc-convert-attributes]
+original=Convert eligible top-level Roam attributes into Obsidian properties. Referenced attributes remain in the note so links to them keep working.
+translation=Konversi atribut Roam tingkat atas yang memenuhi syarat menjadi properti Obsidian. Atribut yang direferensikan tetap berada di catatan agar tautan ke atribut tersebut tetap berfungsi.
+
+[importer.roam-json.name-tags-as-links]
+original=Convert tags to links
+translation=Ubah tag menjadi tautan
+
+[importer.roam-json.desc-tags-as-links]
+original=A tag in Roam is a reference to the page of that name. If enabled, "#tag" becomes "[[tag]]".
+translation=Tag di Roam adalah referensi ke halaman dengan nama tersebut. Jika diaktifkan, "#tag" menjadi "[[tag]]".
+
+[importer.roam-json.name-drop-queries]
+original=Remove queries
+translation=Hapus kueri
+
+[importer.roam-json.desc-drop-queries]
+original=If enabled, queries are removed. If not, a query becomes an Obsidian search that shows its results in the note.
+translation=Jika diaktifkan, kueri dihapus. Jika tidak, kueri menjadi pencarian Obsidian yang menampilkan hasilnya di catatan.
+
+[importer.roam-json.reason-empty-title]
+original=Title is empty
+translation=Judul kosong
+
+[importer.roam-json.reason-unexpected-extension]
+original=Unexpected file extension
+translation=Extension file tidak terduga
+
+[importer.textbundle.name]
+original=Textbundle files
+translation=File Textbundle
+
+[importer.textbundle.option-text]
+original=Textbundle (.textbundle, .textpack)
+translation=Textbundle (.textbundle, .textpack)
+
+[importer.textbundle.file-type]
+original=Textbundle
+translation=Textbundle
+
+[importer.textbundle.desc-export]
+original=Export your notes as textbundle or textpack, which Agenda, Craft, Taio, Ulysses and Zettlr can all write.
+translation=Ekspor catatan Anda sebagai textbundle atau textpack, yang dapat ditulis oleh Agenda, Craft, Taio, Ulysses, dan Zettlr.
+
+[importer.textbundle.msg-platform]
+original=Due to platform limitations, only textpack and zip files can be imported from this device. Open your vault on a Mac to import textbundle files.
+translation=Karena keterbatasan platform, hanya file textpack dan zip yang dapat diimpor dari perangkat ini. Buka brankas Anda di Mac untuk mengimpor file textbundle.
+
+[importer.textbundle.reason-no-markdown]
+original=The textbundle does not contain markdown
+translation=Textbundle tidak berisi Markdown
+
+[importer.textbundle.reason-not-media]
+original=the file is not a media or markdown file.
+translation=file tersebut bukan file media atau Markdown.
+
+[importer.textbundle.reason-already-exists]
+original=the file already exists.
+translation=file sudah ada.
+
+[importer.tomboy.name]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.option-text]
+original=Tomboy/Gnote (.note)
+translation=Tomboy/Gnote (.note)
+
+[importer.tomboy.file-type]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.label-id]
+original=Tomboy ID
+translation=Tomboy ID
+
+[importer.tomboy.desc-files-mac]
+original=Tomboy notes are typically found in: ~/Library/Application Support/Tomboy
+translation=Catatan Tomboy biasanya ditemukan di: ~/Library/Application Support/Tomboy
+
+[importer.tomboy.desc-files-windows]
+original=Tomboy notes are typically found in: %APPDATA%\\Tomboy
+translation=Catatan Tomboy biasanya ditemukan di: %APPDATA%\\Tomboy
+
+[importer.tomboy.desc-files-linux]
+original=Tomboy notes are typically found in: ~/.local/share/tomboy - or GNote: ~/.local/share/gnote
+translation=Catatan Tomboy biasanya ditemukan di: ~/.local/share/tomboy - atau GNote: ~/.local/share/gnote
+
+[importer.tomboy.name-todo]
+original=Convert TODO lists to checkboxes
+translation=Ubah daftar TODO menjadi kotak centang
+
+[importer.tomboy.desc-todo]
+original=When enabled, lists in notes with "TODO" in the title will be converted to task lists with checkboxes. Strikethrough items will be marked as completed.
+translation=Saat diaktifkan, daftar dalam catatan dengan "TODO" di judulnya akan diubah menjadi daftar tugas dengan kotak centang. Item yang dicoret akan ditandai sebagai selesai.
+
+[importer.tomboy.name-keep-title]
+original=Keep title in Markdown
+translation=Pertahankan judul dalam Markdown
+
+[importer.tomboy.desc-keep-title]
+original=Choose whether to keep the note title in the Markdown content. The automatic option keeps titles only when special characters are lost in filename conversion.
+translation=Pilih apakah akan mempertahankan judul catatan dalam konten Markdown. Opsi otomatis hanya mempertahankan judul ketika karakter khusus hilang saat konversi nama file.
+
+[importer.tomboy.option-automatic]
+original=Automatic
+translation=Otomatis
+
+[importer.tomboy.option-keep-titles]
+original=Keep titles
+translation=Pertahankan judul
+
+[importer.tomboy.option-filename-only]
+original=Filename only
+translation=Nama file saja

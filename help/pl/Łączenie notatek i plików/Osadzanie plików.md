@@ -1,0 +1,129 @@
+---
+permalink: embeds
+cssclasses:
+  - soft-embed
+description: 'Dowiedz się, jak osadzać pliki z sejfu w notatkach, aby ponownie wykorzystywać treść w wielu miejscach.'
+---
+Osadzone pliki wyświetlają swoją treść bezpośrednio w notatce i pozostają aktualne, gdy zmienia się plik źródłowy.
+
+Aby osadzić plik ze sejfu, dodaj wykrzyknik (`!`) przed [[Łącza wewnętrzne|łączem wewnętrznym]]. Możesz osadzać pliki w dowolnym z [[Obsługiwane formaty plików|obsługiwanych formatów plików]].
+
+> [!tip] Osadzanie przez przeciągnij i upuść
+> Na komputerze możesz również przeciągnąć i upuścić obsługiwane pliki bezpośrednio do notatki, aby osadzić je automatycznie.
+
+## Osadzanie notatki w innej notatce
+
+Aby osadzić notatkę:
+
+```md
+![[Łącza wewnętrzne]]
+```
+
+Możesz również osadzać łącza do [[Łącza wewnętrzne#Link do nagłówka w notatce|nagłówków]] i [[Łącza wewnętrzne#Link do bloku w notatce|bloków]].
+
+```md
+![[Łącza wewnętrzne#^b15695]]
+```
+
+Poniższy tekst jest przykładem osadzonego bloku:
+
+![[Łącza wewnętrzne#^b15695]]
+
+## Osadzanie obrazu w notatce
+
+Aby osadzić obraz:
+
+```md
+![[Engelbart.jpg]]
+```
+
+![[Engelbart.jpg#outline]]
+
+Możesz zmienić wymiary obrazu, dodając `|640x480` do celu łącza, gdzie 640 to szerokość, a 480 to wysokość.
+
+```md
+![[Engelbart.jpg|100x145]]
+```
+
+Jeśli określisz tylko szerokość, obraz zostanie przeskalowany zgodnie z oryginalnymi proporcjami. Na przykład `![[Engelbart.jpg|100]]`.
+
+![[Engelbart.jpg#outline|100]]
+
+Możesz również osadzić obraz hostowany zewnętrznie, używając łącza w formacie Markdown. Szerokość i wysokość kontrolujesz w ten sam sposób, co w przypadku odnośnika wiki.
+
+```md
+![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Załączniki/Engelbart.jpg)
+```
+
+![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Załączniki/Engelbart.jpg)
+
+## Osadzanie pliku audio w notatce
+
+Aby osadzić plik audio:
+
+```md
+![[Excerpt from Mother of All Demos (1968).ogg]]
+```
+
+![[Excerpt from Mother of All Demos (1968).ogg]]
+
+## Osadzanie pliku PDF w notatce
+
+Aby osadzić plik PDF:
+
+```md
+![[Document.pdf]]
+```
+
+Możesz również otworzyć konkretną stronę w pliku PDF, dodając `#page=N` do celu łącza, gdzie `N` to numer strony:
+
+```md
+![[Document.pdf#page=3]]
+```
+
+Możesz również określić wysokość w pikselach dla osadzonej przeglądarki PDF, dodając `#height=[number]` do łącza. Na przykład:
+
+```md
+![[Document.pdf#height=400]]
+```
+
+Aby połączyć opcje strony i wysokości, rozdziel je znakiem `&`:
+
+```md
+![[Document.pdf#page=3&height=400]]
+```
+
+Więcej informacji o przeglądaniu i wyszukiwaniu plików PDF znajdziesz w [[Pliki PDF]].
+
+## Osadzanie Canvas w notatce
+
+Aby osadzić [[Tablica|Canvas]]:
+
+```md
+![[Moja tablica.canvas]]
+```
+
+> [!info]+ Osadzone Canvas pokazują tylko kształty
+> Osadzone Canvas wyświetlają kształty, ale nie tekst wewnątrz kart. Aby zobaczyć pełne Canvas, otwórz je bezpośrednio.
+
+## Osadzanie listy w notatce
+
+Aby osadzić listę z innej notatki, najpierw dodaj [[Łącza wewnętrzne#Link do bloku w notatce|identyfikator bloku]] do swojej listy:
+
+```md
+
+- element listy 1
+- element listy 2
+
+^my-list-id
+```
+
+Następnie utwórz łącze do listy, używając identyfikatora bloku:
+
+```md
+![[Moja notatka#^my-list-id]]
+```
+
+## Osadzanie wyników wyszukiwania
+
+![[Wyszukiwarka#Osadzanie wyników wyszukiwania w notatce]]

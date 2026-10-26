@@ -1,0 +1,2499 @@
+[command.import-notes]
+original=Import notes
+translation=ノートをインポート
+
+[nouns.file-with-count]
+original={{count}} file
+translation={{count}} ファイル
+
+[nouns.file-with-count_plural]
+original={{count}} files
+translation={{count}} ファイル
+
+[nouns.note-with-count]
+original={{count}} note
+translation={{count}}件のノート
+
+[nouns.note-with-count_plural]
+original={{count}} notes
+translation={{count}}件のノート
+
+[nouns.item-with-count]
+original={{count}} item
+translation={{count}}件のアイテム
+
+[nouns.item-with-count_plural]
+original={{count}} items
+translation={{count}}件のアイテム
+
+[nouns.record-with-count]
+original={{count}} record
+translation={{count}}件のレコード
+
+[nouns.record-with-count_plural]
+original={{count}} records
+translation={{count}}件のレコード
+
+[nouns.base-with-count]
+original={{count}} base
+translation={{count}}件のベース
+
+[nouns.base-with-count_plural]
+original={{count}} bases
+translation={{count}}件のベース
+
+[nouns.template-with-count]
+original={{count}} template
+translation={{count}}件のテンプレート
+
+[nouns.template-with-count_plural]
+original={{count}} templates
+translation={{count}}件のテンプレート
+
+[nouns.failure-with-count]
+original={{count}} failure
+translation={{count}}件の失敗
+
+[nouns.failure-with-count_plural]
+original={{count}} failures
+translation={{count}}件の失敗
+
+[nouns.second-with-count]
+original={{count}} second
+translation={{count}}秒
+
+[nouns.second-with-count_plural]
+original={{count}} seconds
+translation={{count}}秒
+
+[nouns.relation-placeholder-with-count]
+original={{count}} relation placeholder
+translation={{count}}件のリレーションプレースホルダー
+
+[nouns.relation-placeholder-with-count_plural]
+original={{count}} relation placeholders
+translation={{count}}件のリレーションプレースホルダー
+
+[nouns.linked-database-with-count]
+original={{count}} linked database
+translation={{count}}件のリンクドデータベース
+
+[nouns.linked-database-with-count_plural]
+original={{count}} linked databases
+translation={{count}}件のリンクドデータベース
+
+[nouns.mention-link-with-count]
+original={{count}} mention link
+translation={{count}}件のメンションリンク
+
+[nouns.mention-link-with-count_plural]
+original={{count}} mention links
+translation={{count}}件のメンションリンク
+
+[nouns.synced-reference-with-count]
+original={{count}} synced child reference
+translation={{count}}件の同期済み子参照
+
+[nouns.synced-reference-with-count_plural]
+original={{count}} synced child references
+translation={{count}}件の同期済み子参照
+
+[nouns.new-item-with-count]
+original={{count}} new item
+translation={{count}}件の新規アイテム
+
+[nouns.new-item-with-count_plural]
+original={{count}} new items
+translation={{count}}件の新規アイテム
+
+[nouns.page-with-count]
+original={{count}} page
+translation={{count}}ページ
+
+[nouns.page-with-count_plural]
+original={{count}} pages
+translation={{count}}ページ
+
+[group.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[group.notion.name]
+original=Notion
+translation=Notion
+
+[outliner.name-flatten-outlines]
+original=Flatten outlines
+translation=アウトラインのフラット化
+
+[outliner.desc-flatten-outlines]
+original=Convert outlines into paragraphs, headings, and lists.
+translation=アウトラインを段落、見出し、リストに変換します。
+
+[modal.title-pick-format]
+original=Import data into Obsidian
+translation=Obsidianにデータをインポート
+
+[modal.title-choose-method]
+original=Choose how to import
+translation=インポート方法を選択
+
+[modal.title-import-from]
+original=Import from {{format}}
+translation={{format}}からインポート
+
+[modal.search-placeholder]
+original=Filter...
+translation=フィルタ…
+
+[modal.msg-no-formats]
+original=No formats found.
+translation=フォーマットが見つかりません。
+
+[modal.msg-drop-to-import]
+original=Drop files to import
+translation=インポートするファイルをドロップ
+
+[modal.button-show-all-formats]
+original=Show all formats
+translation=すべてのフォーマットを表示
+
+[modal.button-continue]
+original=Continue
+translation=継続
+
+[modal.button-import]
+original=Import
+translation=インポート
+
+[modal.button-back]
+original=Back
+translation=戻る
+
+[modal.button-help]
+original=Help
+translation=ヘルプ
+
+[modal.button-pause]
+original=Pause
+translation=停止
+
+[modal.button-resume]
+original=Resume
+translation=再開
+
+[modal.button-stop]
+original=Stop
+translation=停止
+
+[modal.button-save-report]
+original=Save report
+translation=レポートを保存
+
+[modal.msg-report-failed]
+original=Could not save the import report.
+translation=インポートレポートを保存できませんでした。
+
+[modal.button-import-more]
+original=Import more
+translation=さらにインポート
+
+[modal.button-done]
+original=Done
+translation=完了
+
+[modal.msg-unexpected-auth]
+original=Unexpected auth event. Please restart the auth process.
+translation=予期しない認証イベントです。認証プロセスを再起動してください。
+
+[progress.stat-imported]
+original=imported
+translation=インポート済み
+
+[progress.stat-attachments]
+original=attachments
+translation=添付書類
+
+[progress.stat-remaining]
+original=remaining
+translation=残り
+
+[progress.stat-skipped]
+original=skipped
+translation=スキップ
+
+[progress.stat-failed]
+original=failed
+translation=失敗しました
+
+[progress.label-skipped]
+original=Skipped: 
+translation=スキップ: 
+
+[progress.label-failed]
+original=Failed: 
+translation=失敗: 
+
+[progress.label-entry]
+original="{{name}}"
+translation="{{name}}"
+
+[progress.label-entry-with-reason]
+original="{{name}}" because {{reason}}
+translation="{{name}}" 理由: {{reason}}
+
+[progress.label-paused]
+original=Paused
+translation=一時停止中
+
+[progress.label-paused-with]
+original=Paused - {{status}}
+translation=一時停止中 - {{status}}
+
+[progress.label-importing]
+original=Importing
+translation=インポート中
+
+[progress.label-remaining]
+original={{count}} remaining...
+translation=残り {{count}} 件...
+
+[progress.label-remaining_plural]
+original={{count}} remaining...
+translation=残り {{count}} 件...
+
+[progress.label-paused-remaining]
+original=Paused - {{count}} remaining
+translation=一時停止中 - 残り {{count}} 件
+
+[progress.label-paused-remaining_plural]
+original=Paused - {{count}} remaining
+translation=一時停止中 - 残り {{count}} 件
+
+[progress.status-stopping]
+original=Stopping...
+translation=停止中...
+
+[progress.msg-stopped]
+original=Import stopped.
+translation=インポートが停止されました。
+
+[progress.msg-errors]
+original=Import finished with errors.
+translation=インポートがエラーありで完了しました。
+
+[progress.msg-complete]
+original=Import complete.
+translation=インポート完了。
+
+[progress.msg-imported-count]
+original={{count}} note imported
+translation={{count}} 件のノートをインポートしました
+
+[progress.msg-imported-count_plural]
+original={{count}} notes imported
+translation={{count}} 件のノートをインポートしました
+
+[progress.msg-click-to-show]
+original={{counts}}. Select to show.
+translation={{counts}}。選択して表示。
+
+[progress.status-waiting]
+original=Waiting {{duration}} ({{reason}})
+translation=待機中 {{duration}} ({{reason}})
+
+[progress.status-standardizing]
+original=Standardizing Markdown ({{current}}/{{total}})
+translation=Markdown を標準化中 ({{current}}/{{total}})
+
+[progress.label-finalization]
+original=Markdown finalization
+translation=Markdown の最終処理
+
+[report.file-name]
+original={{date}} {{importer}} import log
+translation={{date}} {{importer}} インポートログ
+
+[report.title]
+original={{importer}} import
+translation={{importer}} インポート
+
+[report.msg-finished]
+original=Finished {{when}}. {{counts}}.
+translation={{when}}に完了。{{counts}}。
+
+[report.msg-stopped]
+original=Stopped {{when}}. {{counts}}.
+translation={{when}}に停止。{{counts}}。
+
+[report.heading-failed]
+original=Failed ({{count}})
+translation=失敗 ({{count}})
+
+[report.heading-skipped]
+original=Skipped ({{count}})
+translation=スキップ ({{count}})
+
+[report.heading-messages]
+original=Messages
+translation=メッセージ
+
+[report.count-notes]
+original={{count}} note imported
+translation={{count}} 件のノートをインポートしました
+
+[report.count-notes_plural]
+original={{count}} notes imported
+translation={{count}} 件のノートをインポートしました
+
+[report.count-attachments]
+original={{count}} attachment downloaded
+translation={{count}} 件の添付ファイルをダウンロードしました
+
+[report.count-attachments_plural]
+original={{count}} attachments downloaded
+translation={{count}} 件の添付ファイルをダウンロードしました
+
+[report.count-skipped]
+original={{count}} item skipped
+translation={{count}} 件のアイテムをスキップしました
+
+[report.count-skipped_plural]
+original={{count}} items skipped
+translation={{count}} 件のアイテムをスキップしました
+
+[report.count-failed]
+original={{count}} item failed
+translation={{count}} 件のアイテムが失敗しました
+
+[report.count-failed_plural]
+original={{count}} items failed
+translation={{count}} 件のアイテムが失敗しました
+
+[source.desc]
+original=Drag and drop, or choose files to import.
+translation=ドラッグ＆ドロップ、またはインポートするファイルを選択してください。
+
+[source.desc-choose]
+original=Choose files to import.
+translation=インポートするファイルを選択してください。
+
+[source.button-choose-file]
+original=Choose file
+translation=ファイルを選択
+
+[source.button-choose-files]
+original=Choose files
+translation=ファイルを選択
+
+[source.button-choose-folders]
+original=Choose folders
+translation=フォルダを選択
+
+[source.dialog-pick-files]
+original=Pick files to import
+translation=インポートするファイルを選択
+
+[source.dialog-pick-folders]
+original=Folders to import
+translation=インポートするフォルダ
+
+[source.desc-folders]
+original=Everything in checked folders is imported. Uncheck folders to exclude them.
+translation=チェックされたフォルダ内のすべてがインポートされます。除外するにはフォルダのチェックを外してください。
+
+[source.msg-pick-source-first]
+original=Choose files or folders first.
+translation=最初にファイルまたはフォルダを選択してください。
+
+[source.msg-reading-folders]
+original=Reading folders...
+translation=フォルダを読み込み中...
+
+[source.msg-no-folders]
+original=No folders found.
+translation=フォルダが見つかりません。
+
+[source.msg-android-folder-failed]
+original=Could not choose that folder.
+translation=そのフォルダを選択できませんでした。
+
+[source.msg-android-folder-read-failed]
+original=Could not read that folder.
+translation=そのフォルダを読み取れませんでした。
+
+[source.msg-android-folder-unavailable]
+original=Folder selection is unavailable on this device.
+translation=このデバイス上ではフォルダの選択は利用できません。
+
+[source.msg-android-root-folder]
+original=Choose a folder other than the root of your device.
+translation=デバイスのルート以外のフォルダを選択してください。
+
+[source.msg-flat-files]
+original={{count}} file will be imported.
+translation={{count}} ファイルがインポートされます。
+
+[source.msg-flat-files_plural]
+original={{count}} files will be imported.
+translation={{count}} ファイルがインポートされます。
+
+[source.msg-nothing-to-import]
+original=Nothing to import there. Pick {{extensions}} files, or a folder holding some.
+translation=インポートできるものがありません。{{extensions}} ファイル、またはそれらを含むフォルダを選択してください。
+
+[source.msg-will-import]
+original={{files}} will be imported: 
+translation={{files}} がインポートされます: 
+
+[source.msg-more-files]
+original=and {{count}} more file
+translation=かつ さらに {{count}} 件のファイル
+
+[source.msg-more-files_plural]
+original=and {{count}} more files
+translation=かつ さらに {{count}} 件のファイル
+
+[source.button-remove-file]
+original=Remove from the import
+translation=インポートから削除
+
+[output.label-source-id]
+original=source ID
+translation=ソース ID
+
+[output.name-save-source-id]
+original=Save {{label}}
+translation={{label}}を保存
+
+[output.desc-save-source-id]
+original=Add the {{label}} to note properties so future imports can recognize moved or renamed notes.
+translation={{label}}をノートのプロパティに追加し、今後のインポートで移動・名前変更されたノートを認識できるようにします。
+
+[output.name-folder]
+original=Output folder
+translation=出力フォルダ
+
+[output.desc-folder]
+original=Where imported notes will be saved. Leave blank to use the top level of the vault.
+translation=インポートしたノートの保存先。ブランクにすると保管庫のトップレベルに保存されます。
+
+[output.name-template]
+original=Template
+translation=テンプレート
+
+[output.desc-template]
+original=Optional Markdown template from this vault. Use variables such as {{title}}, {{content}}, and {{date}}.
+translation=この保管庫からの任意の Markdown テンプレート。{{title}}、{{content}}、{{date}} などの変数を使用できます。
+
+[output.placeholder-template]
+original=Templates/Import.md
+translation=Templates/Import.md
+
+[output.msg-template-not-found]
+original=Template must be a Markdown file in this vault: {{path}}
+translation=テンプレートはこの保管庫内の Markdown ファイルである必要があります: {{path}}
+
+[output.name-attachments]
+original=Attachment location
+translation=添付ファイルのロケーション
+
+[output.desc-attachments]
+original=Where imported images and files will be saved.
+translation=インポートした画像やファイルの保存先。
+
+[output.name-subfolder]
+original=Subfolder name
+translation=サブフォルダの名称
+
+[output.desc-subfolder]
+original=Folder to use inside each imported note's folder.
+translation=各インポートされたノートのフォルダ内で使用するフォルダ。
+
+[output.name-attachment-folder]
+original=Attachment folder
+translation=添付ファイルフォルダ
+
+[output.desc-attachment-folder]
+original=Folder path from the top level of the vault.
+translation=保管庫のトップレベルからのフォルダパス。
+
+[output.name-duplicates]
+original=Existing notes
+translation=既存のノート
+
+[output.desc-duplicates]
+original=Choose what to do when an imported note matches one in your vault. "{{update}}" skips unchanged notes and preserves newer local edits when modification dates are available.
+translation=インポートしたノートが保管庫内のノートと一致した場合の動作を選択します。「{{update}}」は変更のないノートをスキップし、変更日が利用可能な場合はより新しいローカル編集を保持します。
+
+[output.option-create-copy]
+original=Create a copy
+translation=コピーを作成
+
+[output.option-skip]
+original=Skip
+translation=スキップ
+
+[output.option-update]
+original=Update
+translation=アップデート
+
+[output.option-attachments-vault]
+original=Vault folder
+translation=保管庫直下
+
+[output.option-attachments-folder]
+original=In the folder specified below
+translation=以下で指定されたフォルダ
+
+[output.option-attachments-note]
+original=Same folder as the note
+translation=ノートと同じフォルダ
+
+[output.option-attachments-subfolder]
+original=In subfolder under the note
+translation=ノート配下のサブフォルダ内
+
+[common.msg-pick-file]
+original=Please pick at least one file to import.
+translation=インポートするファイルを少なくとも1つ選択してください。
+
+[common.msg-pick-output]
+original=Please select a location to export to.
+translation=エクスポート先のロケーションを選択してください。
+
+[common.msg-pick-import-location]
+original=Please select a location to import your files to.
+translation=ファイルのインポート先のロケーションを選択してください。
+
+[common.msg-unknown-error]
+original=Unknown error
+translation=不明なエラー
+
+[common.name-export]
+original=Export your data
+translation=データをエクスポート
+
+[common.label-learn-more]
+original=Learn more
+translation=詳細を確認
+
+[common.button-instructions]
+original=Instructions
+translation=手順
+
+[common.button-open]
+original=Open
+translation=開く
+
+[common.status-processing]
+original=Processing {{name}}
+translation={{name}} を処理中
+
+[common.status-importing-note]
+original=Importing note {{name}}
+translation=ノート {{name}} をインポート中
+
+[common.status-importing-attachment]
+original=Importing attachment {{name}}
+translation=添付ファイル {{name}} をインポート中
+
+[common.status-cancelled]
+original=Import cancelled
+translation=インポートがキャンセルしました
+
+[reason.already-in-vault]
+original=it is already in the vault
+translation=すでに保管庫に存在します
+
+[reason.unchanged-since-import]
+original=it has not changed since the last import
+translation=前回のインポート以降、変更ありません
+
+[reason.edited-since-import]
+original=it has been edited in Obsidian since the last import
+translation=前回のインポート以降、Obsidian で編集されています
+
+[reason.file-not-in-vault]
+original=The imported file did not appear in the vault.
+translation=インポートしたファイルが保管庫に見つかりませんでした。
+
+[reason.folder-not-created]
+original=Failed to create folder at "{{path}}"
+translation=「{{path}}」にフォルダの作成が失敗しました
+
+[tree.button-select-all]
+original=Select all
+translation=すべてを選択
+
+[tree.button-deselect-all]
+original=Deselect all
+translation=すべてを選択解除
+
+[tree.button-load]
+original=Load
+translation=ロード
+
+[tree.button-loading]
+original=Loading...
+translation=読み込み中…
+
+[tree.button-refresh]
+original=Refresh
+translation=更新
+
+[tree.placeholder-filter]
+original=Filter...
+translation=フィルタ…
+
+[tree.msg-no-matches]
+original=No results found.
+translation=結果が見つかりません。
+
+[request.msg-unauthorized]
+original={{service}} did not accept the request for {{subject}}. {{credential}}
+translation={{service}} が {{subject}} のリクエストを受け付けませんでした。{{credential}}
+
+[request.msg-forbidden]
+original={{service}} would not give access to {{subject}}. {{credential}}
+translation={{service}} は {{subject}} へのアクセスを許可しませんでした。{{credential}}
+
+[request.msg-not-found]
+original={{service}} could not find {{subject}}.
+translation={{service}} が {{subject}} を見つけられませんでした。
+
+[request.msg-rate-limited]
+original={{service}} is limiting how fast {{subject}} can be read. Wait a few minutes and try again.
+translation={{service}} の読み取り速度が制限されています（{{subject}}）。数分待ってから再試行してください。
+
+[request.msg-timed-out]
+original={{service}} took too long to return {{subject}}. Try again shortly.
+translation={{service}} が {{subject}} の応答に時間がかかりすぎました。しばらくしてから再試行してください。
+
+[request.msg-unavailable]
+original={{service}} could not return {{subject}} right now. Try again shortly.
+translation={{service}} は現在 {{subject}} を返せません。しばらくしてから再試行してください。
+
+[request.msg-failed-with-code]
+original=Could not read {{subject}}: {{message}} ({{code}})
+translation={{subject}} を読み取れませんでした: {{message}} ({{code}})
+
+[request.msg-failed-with-message]
+original=Could not read {{subject}}: {{message}}
+translation={{subject}} を読み取れませんでした: {{message}}
+
+[request.msg-failed-with-reported-code]
+original=Could not read {{subject}}. {{service}} reported {{code}}.
+translation={{subject}} を読み取れませんでした。{{service}} がエラーコード {{code}} を返しました。
+
+[request.msg-failed]
+original=Could not read {{subject}}.
+translation={{subject}} を読み取れませんでした。
+
+[template.msg-intro]
+original=Configure how your data should be imported. Use {{syntax}} syntax to reference field values.
+translation=データのインポート方法を設定します。フィールド値を参照するには {{syntax}} 構文を使用してください。
+
+[template.msg-note-template-intro]
+original=Review examples of how your notes will be imported.
+translation=ノートがどのようにインポートされるか例を確認してください。
+
+[template.name-title]
+original=Note title
+translation=ファイル名を変更
+
+[template.desc-title]
+original=Template for the note title. Use variables like {{field_name}} to insert values.
+translation=ノートタイトルのテンプレート。{{field_name}} のような変数を使って値を挿入できます。
+
+[template.name-location]
+original=Note location
+translation=ノートのロケーション
+
+[template.desc-location]
+original=Template for note location/path. Use {{field_name}} to organize notes.
+translation=ノートのロケーション/パスのテンプレートです。{{field_name}} でノートを整理できます。
+
+[template.name-content]
+original=Note content
+translation=ノートの内容
+
+[template.desc-content]
+original=Template for the note content. Use variables like {{field_name}} to insert values.
+translation=ノート内容のテンプレート。{{field_name}} のような変数を使って値を挿入できます。
+
+[template.name-template-file]
+original=Template
+translation=テンプレート
+
+[template.desc-template-file]
+original=Optional. Choose a template from your vault to format the note content. See Help for {{link}}.
+translation=任意。保管庫からテンプレートを選択して、ノートの内容をフォーマットします。{{link}}についてはヘルプを参照してください。
+
+[template.link-template-syntax]
+original=template syntax
+translation=テンプレート構文
+
+[template.heading-preview]
+original=Preview
+translation=プレビュー
+
+[template.status-loading-preview]
+original=Loading preview...
+translation=プレビューを読み込み中...
+
+[template.button-edit-template]
+original=Edit
+translation=編集
+
+[template.button-save-template]
+original=Save
+translation=保存
+
+[template.button-reset-template]
+original=Reset to default
+translation=デフォルトにリセット
+
+[template.button-start-import]
+original=Start import
+translation=インポート開始
+
+[template.link-show-more]
+original=Show more
+translation=さらに表示
+
+[template.name-template-editor]
+original=Template source
+translation=テンプレートソース
+
+[template.label-edit-import-template]
+original=Edit import template
+translation=インポートテンプレートを編集
+
+[template.button-add-property]
+original=Add property
+translation=プロパティを追加
+
+[template.button-previous-preview]
+original=Previous preview
+translation=前のプレビュー
+
+[template.button-next-preview]
+original=Next preview
+translation=次のプレビュー
+
+[template.msg-diagnostic]
+original=Line {{line}}: {{message}}
+translation=行 {{line}}: {{message}}
+
+[template.heading-properties]
+original=Properties
+translation=プロパティ
+
+[template.column-property-name]
+original=Property name
+translation=プロパティ名
+
+[template.column-property-value]
+original=Property value
+translation=プロパティ値
+
+[template.column-example]
+original=Example
+translation=例
+
+[template.action-delete-property]
+original=Delete property
+translation=プロパティを削除
+
+[template.msg-title-required]
+original=Please provide a note title template.
+translation=ノートのタイトルテンプレートを指定してください。
+
+[importer.airtable-api.name]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.option-text]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-id]
+original=Airtable record ID
+translation=Airtable レコード ID
+
+[importer.airtable-api.name-token]
+original=Airtable personal access token
+translation=Airtable パーソナルアクセストークン
+
+[importer.airtable-api.desc-token]
+original=Create a personal access token in your Airtable account settings.
+translation=Airtable のアカウント設定で個人アクセストークンを作成してください。
+
+[importer.airtable-api.link-get-token]
+original=Get token
+translation=トークンを取得
+
+[importer.airtable-api.name-tables]
+original=Tables to import
+translation=インポートするテーブル
+
+[importer.airtable-api.desc-tables]
+original=Load your Airtable bases and tables, then choose what to import.
+translation=Airtable のベースとテーブルをロードし、インポートする対象を選択してください。
+
+[importer.airtable-api.hint-tables]
+original=Load your Airtable bases and tables to get started.
+translation=まず Airtable のベースとテーブルをロードしてください。
+
+[importer.airtable-api.msg-fetching-bases]
+original=Fetching bases...
+translation=ベースを取得中...
+
+[importer.airtable-api.msg-no-bases]
+original=No bases found.
+translation=ベースが見つかりませんでした。
+
+[importer.airtable-api.label-service]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-subject]
+original=your bases
+translation=ベース
+
+[importer.airtable-api.label-credential]
+original=Check that your personal access token is current and has access to them.
+translation=パーソナルアクセストークンが有効で、アクセス権限があることを確認してください。
+
+[importer.airtable-api.name-formulas]
+original=Convert formulas
+translation=数式の変換
+
+[importer.airtable-api.desc-formulas]
+original=Try to convert formulas to Obsidian syntax, or import as static values.
+translation=数式を Obsidian 構文に変換するか、静的な値としてインポートします。
+
+[importer.airtable-api.option-formula-hybrid]
+original=Obsidian syntax (with fallback)
+translation=Obsidian 構文（フォールバック付き）
+
+[importer.airtable-api.option-formula-static]
+original=Static values only
+translation=静的な値のみ
+
+[importer.airtable-api.name-download-attachments]
+original=Download attachments
+translation=添付ファイルをダウンロード
+
+[importer.airtable-api.desc-download-attachments]
+original=Download attachment files to local vault. If disabled or download fails, external URLs will be used.
+translation=添付ファイルをローカルの保管庫にダウンロードします。無効にした場合やダウンロードに失敗した場合は、外部 URL が使用されます。
+
+[importer.airtable-api.name-view-property]
+original=View property name
+translation=ビューのプロパティ名
+
+[importer.airtable-api.desc-view-property]
+original=Property name to track which views a record belongs to. Each record will have a list of view names it appears in.
+translation=レコードが属するビューを記録するプロパティ名。各レコードには、そのレコードが表示されるビュー名のリストが設定されます。
+
+[importer.airtable-api.msg-token-first]
+original=Please enter your Airtable personal access token first.
+translation=まず Airtable のパーソナルアクセストークンを入力してください。
+
+[importer.airtable-api.msg-token-missing]
+original=Please enter your Airtable personal access token.
+translation=Airtable のパーソナルアクセストークンを入力してください。
+
+[importer.airtable-api.msg-load-bases-failed]
+original=Failed to load bases: {{error}}
+translation=ベースのロードに失敗: {{error}}
+
+[importer.airtable-api.msg-load-tables-failed]
+original=Failed to load tables for "{{base}}": {{error}}
+translation="{{base}}" の表のロードに失敗: {{error}}
+
+[importer.airtable-api.msg-pick-table]
+original=Please select at least one table to import.
+translation=インポートする表を少なくとも1つ選択してください。
+
+[importer.airtable-api.msg-loading-fields]
+original=Loading fields...
+translation=フィールドをロード中...
+
+[importer.airtable-api.msg-no-fields]
+original=No fields found in selected tables. Please check your selection.
+translation=選択した表にフィールドが見つかりません。選択を確認してください。
+
+[importer.airtable-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=インポート失敗: {{error}}
+
+[importer.airtable-api.label-base-position]
+original= (base {{index}} of {{total}})
+translation= (ベース {{index}}/{{total}})
+
+[importer.airtable-api.label-base]
+original=Base: {{name}}
+translation=ベース: {{name}}
+
+[importer.airtable-api.label-linked-table]
+original=Linked table: {{name}}
+translation=リンクされた表: {{name}}
+
+[importer.airtable-api.label-table-view]
+original={{table}} > {{view}}
+translation={{table}} > {{view}}
+
+[importer.airtable-api.label-import]
+original=Airtable API import
+translation=Airtable API インポート
+
+[importer.airtable-api.status-connecting]
+original=Connecting to Airtable API
+translation=Airtable API に接続中
+
+[importer.airtable-api.status-loading-tables]
+original=Loading tables for {{base}}
+translation={{base}} の表をロード中
+
+[importer.airtable-api.status-fetching-tables]
+original=Fetching tables for base {{base}}...
+translation=ベース {{base}} の表を取得中...
+
+[importer.airtable-api.status-found-bases]
+original=Found {{bases}} to import
+translation=インポート対象のベースが {{bases}} 件見つかりました
+
+[importer.airtable-api.status-fetching-base]
+original=Fetching data from {{base}}{{position}}
+translation={{base}}{{position}} からデータを取得中
+
+[importer.airtable-api.status-preparing-records]
+original=Preparing records from {{base}}{{position}}
+translation={{base}}{{position}} のレコードを準備中
+
+[importer.airtable-api.status-reading-names]
+original=Reading names from {{table}}{{position}}
+translation={{table}}{{position}} から名前をリーディング中
+
+[importer.airtable-api.status-planning]
+original=Working out where {{table}}{{position}} goes
+translation={{table}}{{position}} の配置先を決定中
+
+[importer.airtable-api.status-fetching-records]
+original=Fetching records from {{table}}{{position}}
+translation={{table}}{{position}} からレコードを取得中
+
+[importer.airtable-api.status-fetched-records]
+original=Fetched {{records}} from {{table}}{{position}}
+translation={{table}}{{position}} から {{records}} 件取得しました
+
+[importer.airtable-api.status-fetching-view]
+original=Fetching view {{view}} from {{table}}{{position}}
+translation={{table}}{{position}} から表示 {{view}} を取得中
+
+[importer.airtable-api.status-creating-notes]
+original=Creating notes in {{table}}{{position}}
+translation={{table}}{{position}} にノートを作成中
+
+[importer.airtable-api.status-updating-types]
+original=Updating property types
+translation=プロパティの型をアップデート中
+
+[importer.airtable-api.status-complete]
+original=Import complete
+translation=インポート完了
+
+[importer.airtable-api.status-rate-limited]
+original=Rate limited, waiting {{seconds}}s (attempt {{attempt}}/{{total}})...
+translation=レート制限中、{{seconds}}秒待機しています (試行 {{attempt}}/{{total}})...
+
+[importer.airtable-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}
+translation=添付ファイルをダウンロード中: {{name}}
+
+[importer.airtable-api.reason-no-record-names]
+original=Could not read record names
+translation=レコード名を読み取れませんでした
+
+[importer.airtable-api.reason-empty-record]
+original=Empty record
+translation=空のレコード
+
+[importer.airtable-api.desc-no-modified-time]
+original=Airtable does not say when a record last changed, so "{{update}}" compares the note with the record instead. A note you have edited yourself reads as changed, and will be written over.
+translation=Airtable はレコードの最終変更あり日時を提供しないため、"{{update}}" はノートとレコードを比較します。自分で編集したノートは変更ありと判定され、上書きされます。
+
+[importer.apple-notes.name]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.option-text]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.label-id]
+original=Apple Notes ID
+translation=Apple Notes ID
+
+[importer.apple-notes.msg-platform]
+original=Due to platform limitations, Apple Notes cannot be exported from this device. Open your vault on a Mac to export from Apple Notes.
+translation=プラットフォームの制限により、このデバイスから Apple Notes をエクスポートすることはできません。Apple Notes からエクスポートするには、Mac で保管庫を開いてください。
+
+[importer.apple-notes.name-prefix-format]
+original=File prefix format
+translation=ファイル名のプレフィックスフォーマット
+
+[importer.apple-notes.desc-prefix-format]
+original=Format for the creation date prefix in filenames. Use YYYY, MM, DD for year, month, day. Leave blank for no prefix.
+translation=ファイル名に付ける作成日付プレフィックスのフォーマット。年、月、日には YYYY、MM、DD を使用します。プレフィックスを付けない場合はブランクのままにしてください。
+
+[importer.apple-notes.name-omit-first-line]
+original=Omit first line
+translation=最初の行を省略
+
+[importer.apple-notes.desc-omit-first-line]
+original=Don't include the first line in the text, since Apple Notes uses it as the title. It will still be used as the note name.
+translation=Apple Notes では最初の行がタイトルとして使われるため、テキストに含めません。ノート名としては引き続き使用されます。
+
+[importer.apple-notes.name-handwriting]
+original=Include handwriting text
+translation=手書きテキストを含める
+
+[importer.apple-notes.desc-handwriting]
+original=When Apple Notes has detected handwriting in drawings, include it as text before the drawing.
+translation=Apple Notes が描画内の手書き文字を認識している場合、描画の前にテキストとして含めます。
+
+[importer.apple-notes.name-data-folder]
+original=Apple Notes data folder
+translation=Apple Notes データフォルダ
+
+[importer.apple-notes.desc-data-folder]
+original=macOS only lets Obsidian read your notes once you have pointed it at the folder they are kept in.
+translation=macOS では、ノートが保存されているフォルダを指定することで、Obsidian がノートを読み取れるようになります。
+
+[importer.apple-notes.button-select-folder]
+original=Select folder
+translation=フォルダを選択
+
+[importer.apple-notes.msg-wrong-folder]
+original=Ensure you have selected the correct Apple Notes data folder.
+translation=正しい Apple Notes データフォルダが選択されていることを確認してください。
+
+[importer.apple-notes.msg-dialog-folder]
+original=Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data.
+translation="group.com.apple.notes" フォルダを選択して、Obsidian が Apple Notes データを読み取ることを許可してください。
+
+[importer.apple-notes.msg-import-failed]
+original=Data import failed. Ensure you have selected the correct Apple Notes data folder.
+translation=データのインポートに失敗しました。正しい Apple Notes データフォルダが選択されていることを確認してください。
+
+[importer.apple-notes.msg-pick-folders]
+original=Please select at least one folder to import.
+translation=インポートするフォルダを少なくとも1つ選択してください。
+
+[importer.apple-notes.name-folders]
+original=Folders to import
+translation=インポートするフォルダ
+
+[importer.apple-notes.desc-folders]
+original=Pick the folders whose notes to bring across.
+translation=ノートをインポートするフォルダを選択してください。
+
+[importer.apple-notes.msg-no-access]
+original=Allow access to your notes to see the folders in them.
+translation=フォルダを表示するには、ノートへのアクセスを許可してください。
+
+[importer.apple-notes.msg-no-folders]
+original=No folders found.
+translation=フォルダが見つかりません。
+
+[importer.apple-notes.msg-database-busy]
+original=Your Apple Notes database is in use. Quit Notes and try again.
+translation=Apple Notes データベースが使用中です。Notes を終了してからやり直してください。
+
+[importer.apple-notes.msg-database-unreadable]
+original=Could not open your Apple Notes database. {{hint}}
+translation=Apple Notes データベースを開けませんでした。{{hint}}
+
+[importer.apple-notes.msg-read-failed-with-detail]
+original=Could not read your notes: {{detail}}
+translation=ノートを読み取れませんでした: {{detail}}
+
+[importer.apple-notes.msg-read-failed]
+original=Could not read your notes.
+translation=ノートを読み取れませんでした。
+
+[importer.apple-notes.reason-password-protected]
+original=note is password protected
+translation=ノートはパスワードで保護されています
+
+[importer.apple-notes.reason-duplicate]
+original=note is a duplicate
+translation=ノートが重複しています
+
+[importer.apple-notes.reason-unchanged]
+original=note unchanged since last import
+translation=前回のインポート以降ノートに変更がありません
+
+[importer.apple-notes.reason-attachment-exists]
+original=attachment already exists
+translation=添付ファイルはすでに存在します
+
+[importer.apple-notes.reason-attachment-unchanged]
+original=attachment unchanged since last import
+translation=前回のインポート以降添付ファイルに変更がありません
+
+[importer.apple-notes.reason-not-downloaded]
+original=it has not been downloaded from iCloud - open the note in Apple Notes to fetch it
+translation=iCloud からダウンロードされていません - Apple Notes でノートを開いて取得してください
+
+[importer.apple-notes.label-attachment]
+original=Attachment {{id}}
+translation=添付ファイル {{id}}
+
+[importer.apple-notes.reason-no-attachment-row]
+original=no {{uti}} row to read it from
+translation=読み取り元の {{uti}} 行がありません
+
+[importer.apple-notes.label-attachment-in-note]
+original={{name}} in {{note}}
+translation={{note}} 内の {{name}}
+
+[importer.apple-journal.name]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.option-text]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.file-type]
+original=Journal entries
+translation=Journal エントリ
+
+[importer.apple-journal.desc-files]
+original=Export your entries from the Journal app, then pick the HTML files it wrote to iCloud Drive.
+translation=Journal appからエントリをエクスポートし、iCloud Driveに書き出された HTML ファイルを選択してください。
+
+[importer.apple-journal.heading-metadata]
+original=Journal metadata
+translation=Journal メタデータ
+
+[importer.apple-journal.name-front-matter]
+original=Add metadata as frontmatter
+translation=メタデータをフロントマターとして追加
+
+[importer.apple-journal.desc-front-matter]
+original=Capture state-of-mind, contact, and similar tokens in YAML when available.
+translation=利用可能な場合、気分、連絡先などのトークンを YAML に記録します。
+
+[importer.apple-journal.reason-index-file]
+original=index file is not a journal entry
+translation=インデックスファイルは Journal エントリではありません
+
+[importer.bear.name]
+original=Bear
+translation=Bear
+
+[importer.bear.option-text]
+original=Bear (.bear2bk, .zip)
+translation=Bear (.bear2bk, .zip)
+
+[importer.bear.file-type]
+original=Bear backups
+translation=Bear バックアップ
+
+[importer.bear.label-id]
+original=Bear ID
+translation=Bear ID
+
+[importer.bear.desc-export]
+original=Back up your notes in Bear and choose the resulting .bear2bk file. On iPhone and iPad, you can also export Application Data and choose its .zip file.
+translation=Bear でノートをバックアップし、生成された .bear2bk ファイルを選択してください。iPhone や iPad では、アプリケーションデータをエクスポートしてその .zip ファイルを選択することもできます。
+
+[importer.bear.name-tags-property]
+original=Move tags to a property
+translation=タグをプロパティに移動
+
+[importer.bear.desc-tags-property]
+original=When enabled, tags are taken out of the note and listed in its tags property. Bear keeps tags in the text of a note, and Obsidian reads them there too.
+translation=有効にすると、タグがノートのテキストから取り出され、タグプロパティに一覧表示されます。Bear はノートのテキスト内にタグを保持しており、Obsidian もそこからタグを読み取ります。
+
+[importer.bear.name-flatten-tags]
+original=Flatten nested tags
+translation=ネストされたタグをフラット化
+
+[importer.bear.desc-flatten-tags]
+original=When enabled, tags will be split on slashes (/) during import.
+translation=有効にすると、インポート時にタグがスラッシュ (/) で分割されます。
+
+[importer.bear.status-importing-asset]
+original=Importing asset {{name}}
+translation=アセット {{name}} をインポート中
+
+[importer.bear.status-updating-links]
+original=Updating internal links…
+translation=内部リンクを更新中…
+
+[importer.bear.reason-unknown-type]
+original=unknown type of file
+translation=バージョン不明の種類のファイル
+
+[importer.bear.reason-encrypted]
+original=encrypted note
+translation=暗号化されたノート
+
+[importer.bear.reason-missing-attachment]
+original=the attachment is missing from the export
+translation=添付ファイルがエクスポートに含まれていません
+
+[importer.csv.name]
+original=CSV
+translation=CSV
+
+[importer.csv.option-text]
+original=CSV (.csv)
+translation=CSV (.csv)
+
+[importer.csv.file-type]
+original=CSV
+translation=CSV
+
+[importer.csv.desc-export]
+original=Export your table as CSV from the app it lives in, such as Excel, Google Sheets, Numbers, Notion, or Airtable.
+translation=Excel、Google Sheets、Numbers、Notion、Airtable などのアプリから表を CSV としてエクスポートしてください。
+
+[importer.csv.name-header-row]
+original=CSV has header row
+translation=CSV にヘッダー行がある
+
+[importer.csv.desc-header-row]
+original=If enabled, the first row of the CSV file will be treated as column headers.
+translation=有効にすると、CSV ファイルの最初の行が列ヘッダーとして扱われます。
+
+[importer.csv.name-source-title]
+original=Source title
+translation=ソースタイトル
+
+[importer.csv.desc-source-title]
+original=Creates the {{title}} value used by the final note title template. Use CSV column variables like {{column_name}}.
+translation=最終的なノートタイトルテンプレートで使用される {{title}} の値を作成します。{{column_name}} のような CSV 列変数を使用できます。
+
+[importer.csv.msg-pick-file]
+original=Please pick at least one CSV file to import.
+translation=インポートする CSV ファイルを少なくとも1つ選択してください。
+
+[importer.csv.msg-one-at-a-time]
+original=CSV files must be imported one at a time.
+translation=CSV ファイルは一度に1つずつインポートする必要があります。
+
+[importer.csv.msg-no-data]
+original=No data found in {{name}}.
+translation={{name}} にデータが見つかりませんでした。
+
+[importer.csv.msg-no-configuration]
+original=Configuration is missing.
+translation=設定がありません。
+
+[importer.csv.status-parsing]
+original=Parsing {{name}}
+translation={{name}} を解析中
+
+[importer.csv.status-creating-note]
+original=Creating note: {{title}}
+translation=ノートを作成中: {{title}}
+
+[importer.csv.label-row]
+original=Row {{number}}
+translation=行 {{number}}
+
+[importer.csv.reason-empty-title]
+original=Empty title
+translation=空のタイトル
+
+[importer.files.name]
+original=Files and folders
+translation=ファイルとフォルダ
+
+[importer.files.option-text]
+original=Copy files and folders into your vault
+translation=ファイルとフォルダを保管庫にコピー
+
+[importer.files.name-source]
+original=Files to copy
+translation=コピーするファイル
+
+[importer.files.desc-source]
+original=Drop files or folders anywhere in the window to copy them into your vault.
+translation=ファイルやフォルダをウィンドウ内の任意の場所にドロップして、保管庫にコピーします。
+
+[importer.evernote.name]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.option-text]
+original=Evernote (.enex)
+translation=Evernote (.enex)
+
+[importer.evernote.file-type]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.desc-export]
+original=Export your notebooks in ENEX format, you will receive one .enex file per notebook.
+translation=ノートブックを ENEX フォーマットでエクスポートしてください。ノートブックごとに1つの .enex ファイルが生成されます。
+
+[importer.evernote.msg-unresolved-links]
+original={{count}} link could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} リンクがノートと一致しませんでした。ENEX エクスポートにはリンク先のノートの情報がなく、Evernote で表示されていたタイトルのみが含まれるため、リンク作成後に名前が変更されたノートは一致しません。Obsidian ではこれらは未解決のリンクとして表示されます。
+
+[importer.evernote.msg-unresolved-links_plural]
+original={{count}} links could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} リンクがノートと一致しませんでした。ENEX エクスポートにはリンク先のノートの情報がなく、Evernote で表示されていたタイトルのみが含まれるため、リンク作成後に名前が変更されたノートは一致しません。Obsidian ではこれらは未解決のリンクとして表示されます。
+
+[importer.keep.name]
+original=Google Keep
+translation=Google Keep
+
+[importer.keep.option-text]
+original=Google Keep (.zip, .json)
+translation=Google Keep (.zip, .json)
+
+[importer.keep.file-type]
+original=Notes & attachments
+translation=ノートと添付ファイル
+
+[importer.keep.desc-export]
+original=Get your Google Keep data from Google Takeout.
+translation=Google Takeout から Google Keep のデータを取得してください。
+
+[importer.keep.name-archived]
+original=Import archived notes
+translation=アーカイブされたノートをインポート
+
+[importer.keep.desc-archived]
+original=If imported, files archived in Google Keep will be tagged as archived.
+translation=インポートすると、Google Keep でアーカイブされたファイルにはアーカイブのタグが付けられます。
+
+[importer.keep.name-deleted]
+original=Import deleted notes
+translation=削除されたノートをインポート
+
+[importer.keep.desc-deleted]
+original=If imported, files deleted in Google Keep will be tagged as deleted. Deleted notes will only exist in your Google export if deleted recently.
+translation=インポートすると、Google Keep で削除されたファイルには削除済みのタグが付けられます。削除されたノートは、最近削除された場合のみ Google のエクスポートに含まれます。
+
+[importer.keep.reason-invalid-json]
+original=Invalid Google Keep JSON
+translation=無効な Google Keep JSON
+
+[importer.keep.reason-archived]
+original=Archived note
+translation=アーカイブされたノート
+
+[importer.keep.reason-deleted]
+original=Deleted note
+translation=削除されたノート
+
+[importer.html.name]
+original=HTML files
+translation=HTML ファイル
+
+[importer.html.option-text]
+original=HTML (.html, .zip)
+translation=HTML (.html, .zip)
+
+[importer.html.label-id]
+original=HTML source path
+translation=HTML ソースパス
+
+[importer.html.desc-source-identity]
+original=Changing which folder or zip file you choose can change the source path, so existing notes may not be recognized.
+translation=選択するフォルダまたはzipファイルを変更するとソースパスが変わる場合があり、既存のノートが認識されなくなることがあります。
+
+[importer.html.file-type]
+original=HTML
+translation=HTML
+
+[importer.html.desc-export]
+original=Save the pages you want to keep as HTML. If the app they are in has an importer of its own, use that instead: it keeps more of your data.
+translation=保存したいページを HTML として保存してください。そのアプリ専用のインポーターがある場合は、そちらを使うとより多くのデータを保持できます。
+
+[importer.html.desc-source]
+original=Choose individual HTML files, whole folders, or zip files. Pages in folders stay organized the same way.
+translation=個別のHTMLファイル、フォルダ全体、またはzipファイルを選択してください。フォルダ内のページは同じ構造で整理されます。
+
+[importer.html.name-extract-main-content]
+original=Extract main content
+translation=メインコンテンツを抽出
+
+[importer.html.desc-extract-main-content]
+original=Remove navigation, sidebars, footers, and other page clutter.
+translation=ナビゲーション、サイドバー、フッター、その他のページの不要な要素を削除します。
+
+[importer.html.name-size-limit]
+original=Attachment size limit (MB)
+translation=添付ファイルのサイズ上限 (MB)
+
+[importer.html.name-minimum-image-size]
+original=Minimum image size (px)
+translation=最小画像サイズ (px)
+
+[importer.html.desc-set-zero-to-disable]
+original=Set 0 to disable.
+translation=0 に設定すると無効化されます。
+
+[importer.html.status-downloading]
+original=Downloading attachment for {{name}}
+translation={{name}} の添付ファイルをダウンロード中
+
+[importer.markdown.name]
+original=Markdown
+translation=Markdown
+
+[importer.markdown.option-text]
+original=Markdown (.md, .txt, .zip)
+translation=Markdown (.md, .txt, .zip)
+
+[importer.markdown.file-type]
+original=Markdown and text
+translation=Markdownかつテキスト
+
+[importer.markdown.desc-source]
+original=Choose individual Markdown or text files, whole folders, or zip files. Everything in folders stays organized the same way.
+translation=個々のMarkdownまたはテキストファイル、フォルダ全体、またはzipファイルを選択してください。フォルダ内のすべてのファイルは同じ構造で整理されます。
+
+[importer.markdown.name-standardize-formatting]
+original=Standardize formatting
+translation=フォーマットを標準化
+
+[importer.markdown.desc-standardize-formatting]
+original=Use this vault's settings for lists, indentation, and links.
+translation=リスト、インデント、リンクにこの保管庫の設定を使用します。
+
+[importer.markdown.name-tags-as-properties]
+original=Convert inline tags to properties
+translation=インラインタグをプロパティに変換
+
+[importer.markdown.desc-tags-as-properties]
+original=Move tags written in the body of a note into its tags property.
+translation=ノートの見出し解除に記述されたタグをタグプロパティに移動します。
+
+[importer.logseq.name]
+original=Logseq
+translation=Logseq
+
+[importer.logseq.option-text]
+original=Logseq (.md)
+translation=Logseq (.md)
+
+[importer.logseq.label-id]
+original=Logseq source
+translation=Logseq ソース
+
+[importer.logseq.desc-instructions]
+original=Read the instructions for importing from Logseq.
+translation=Logseq からのインポート手順をお読みください。
+
+[importer.logseq.desc-files]
+original=Choose one graph folder containing pages, journals, and assets.
+translation=ページ、ジャーナル、アセットを含むグラフフォルダを1つ選択してください。
+
+[importer.logseq.name-use-daily-notes]
+original=Use daily notes settings
+translation=デイリーノート設定を使用
+
+[importer.logseq.desc-use-daily-notes]
+original=Write journals to the configured daily notes folder and filename format.
+translation=ジャーナルを設定済みのデイリーノートフォルダとファイル名フォーマットに書き出します。
+
+[importer.logseq.name-queries]
+original=Keep queries
+translation=クエリを保持
+
+[importer.logseq.desc-queries]
+original=Obsidian doesn't support Logseq's query format, so queries are imported as code blocks.
+translation=Obsidian は Logseq のクエリフォーマットをサポートしていないため、クエリはコードブロックとしてインポートされます。
+
+[importer.logseq.name-flashcards]
+original=Keep flashcards
+translation=フラッシュカードを保持
+
+[importer.logseq.desc-flashcards]
+original=Obsidian doesn't support Logseq's flashcards, so card markers and cloze wrappers are imported as plain text.
+translation=Obsidian は Logseq のフラッシュカードをサポートしていないため、カードマーカーとクローズラッパーはプレーンテキストとしてインポートされます。
+
+[importer.logseq.name-time-tracking]
+original=Keep time tracking
+translation=タイムトラッキングを保持
+
+[importer.logseq.desc-time-tracking]
+original=Obsidian doesn't support Logseq's time tracking, so LOGBOOK and CLOCK entries are imported as plain text.
+translation=Obsidian は Logseq のタイムトラッキングをサポートしていないため、LOGBOOK と CLOCK のエントリはプレーンテキストとしてインポートされます。
+
+[importer.logseq.msg-pick-graph]
+original=Please choose one Logseq graph folder.
+translation=Logseq のグラフフォルダを1つ選択してください。
+
+[importer.logseq.msg-no-notes]
+original=The selected folder has no Markdown notes under pages or journals.
+translation=選択済みのフォルダには pages または journals 配下に Markdown ノートがありません。
+
+[importer.logseq.reason-empty-page]
+original=The converted page is empty
+translation=変換後のページは空です
+
+[importer.logseq.reason-missing-asset]
+original=Referenced by {{name}}, but missing from the graph
+translation={{name}} から参照されていますが、グラフ内に見つかりません
+
+[importer.logseq.reason-whiteboards]
+original=Logseq whiteboards are not supported by Obsidian
+translation=Logseq のホワイトボードは Obsidian でサポートされていません
+
+[importer.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.option-text]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.method-name]
+original=Microsoft account
+translation=Microsoft アカウント
+
+[importer.onenote.method-desc]
+original=Sign into your Microsoft account and import the notebooks that are synced to OneDrive. Requires an internet connection.
+translation=Microsoft アカウントにサインインし、OneDrive に同期済みのノートブックをインポートします。インターネット接続が必要です。
+
+[importer.onenote.label-id]
+original=OneNote ID
+translation=OneNote ID
+
+[importer.onenote.name-incompatible]
+original=Import incompatible attachments
+translation=非対応の添付ファイルをインポート
+
+[importer.onenote.desc-incompatible]
+original=Imports incompatible attachments which cannot be embedded in Obsidian, such as .exe files.
+translation=.exe ファイルなど、Obsidian に埋め込むことができない非対応の添付ファイルをインポートします。
+
+[importer.onenote.name-account]
+original=Microsoft account
+translation=Microsoft アカウント
+
+[importer.onenote.desc-sign-in]
+original=Sign in to import your OneNote notebooks.
+translation=サインインして OneNote ノートブックをインポートします。
+
+[importer.onenote.desc-sign-in-organization]
+original=Sign in to import your OneNote notebooks. A work or school account may need your organization to approve access.
+translation=サインインして OneNote ノートブックをインポートします。職場または学校のアカウントの場合、組織による承認が必要になることがあります。
+
+[importer.onenote.desc-signed-in]
+original=Signed in as {{name}} ({{email}}).
+translation={{name}} ({{email}}) としてサインイン中。
+
+[importer.onenote.button-sign-in]
+original=Sign in
+translation=ログイン
+
+[importer.onenote.button-sign-out]
+original=Sign out
+translation=サインアウト
+
+[importer.onenote.button-work-account]
+original=Use work or school access
+translation=職場または学校のアクセスを使用
+
+[importer.onenote.msg-sign-in-failed]
+original=An error occurred while trying to sign you in.
+translation=サインイン中にエラーが発生しました。
+
+[importer.onenote.msg-sign-in-details]
+original=Show error details
+translation=エラーの詳細を表示
+
+[importer.onenote.msg-signed-out]
+original=Sign in to see your OneNote notebooks.
+translation=サインインして OneNote ノートブックを表示します。
+
+[importer.onenote.msg-please-sign-in]
+original=Please sign in to your Microsoft account.
+translation=Microsoft アカウントにサインインしてください。
+
+[importer.onenote.name-sections]
+original=Sections to import
+translation=インポートするセクション
+
+[importer.onenote.desc-sections]
+original=Select a notebook, or sections within it.
+translation=ノートブック、またはその中のセクションを選択します。
+
+[importer.onenote.msg-loading-notebooks]
+original=Loading notebooks...
+translation=ノートブックをロード中...
+
+[importer.onenote.msg-no-notebooks]
+original=No notebooks found.
+translation=ノートブックが見つかりません。
+
+[importer.onenote.msg-scope-refused]
+original=OneNote did not grant this sign-in access to your notebooks. Sign out and sign in again to ask for work or school access, which your organization may need to approve.
+translation=OneNote はこのサインインにノートブックへのアクセスを許可しませんでした。サインアウトして再度サインインし、職場または学校のアクセスをリクエストしてください。組織による承認が必要になる場合があります。
+
+[importer.onenote.label-service]
+original=OneNote
+translation=OneNote
+
+[importer.onenote.label-subject]
+original=your notebooks
+translation=ノートブック
+
+[importer.onenote.label-credential]
+original=Sign out and back in to try again.
+translation=サインアウトして再度サインインしてください。
+
+[importer.onenote.status-finding]
+original=Finding notes to import
+translation=インポートするノートを検索中
+
+[importer.onenote.status-finding-in]
+original=Finding notes in {{section}}
+translation={{section}} 内のノートを検索中
+
+[importer.onenote.status-finding-in-section]
+original=Finding notes in {{section}} (section {{index}} of {{total}})
+translation={{section}} 内のノートを検索中（セクション {{index}}/{{total}}）
+
+[importer.onenote.status-importing-notes]
+original=Importing {{notes}}
+translation={{notes}} をインポート中
+
+[importer.onenote.status-downloading]
+original=Downloading attachment {{name}}
+translation=添付ファイル {{name}} をダウンロード中
+
+[importer.onenote.msg-too-many-errors]
+original=Microsoft OneNote returned too many consecutive errors.
+translation=Microsoft OneNote が連続して多数のエラーを返しました。
+
+[importer.onenote.label-unknown-page]
+original=<unknown>
+translation=<バージョン不明>
+
+[importer.onenote.reason-too-many-failures]
+original=import was canceled (after too many pages failed to load)
+translation=インポートがキャンセルされました（ロードに失敗したページが多すぎたため）
+
+[importer.onenote.label-ink]
+original={{page}} - Ink.svg
+translation={{page}} - Ink.svg
+
+[importer.onenote.label-attachment]
+original=OneNote attachment
+translation=OneNote 添付ファイル
+
+[importer.onenote.label-image]
+original=OneNote image
+translation=OneNote 画像
+
+[importer.onenote.reason-no-attachment-name]
+original=the attachment did not say what it was called
+translation=添付ファイルの名前が指定されていませんでした
+
+[importer.onenote.reason-no-attachment-url]
+original=the attachment did not include a download URL
+translation=添付ファイルにダウンロード URL が含まれていませんでした
+
+[importer.onenote.reason-no-image-url]
+original=the image did not include a download URL
+translation=画像にダウンロード URL が含まれていませんでした
+
+[importer.onenote-file.name]
+original=Microsoft OneNote (export file)
+translation=Microsoft OneNote（エクスポートファイル）
+
+[importer.onenote-file.option-text]
+original=Microsoft OneNote (.one, .onepkg)
+translation=Microsoft OneNote (.one, .onepkg)
+
+[importer.onenote-file.method-name]
+original=File import
+translation=ファイルインポート
+
+[importer.onenote-file.method-desc]
+original=Import using OneNote export files (.one, .onepkg) from your computer. Requires no account or internet connection, and works for notebooks that were never synced.
+translation=コンピューターにある OneNote エクスポートファイル（.one、.onepkg）を使用してインポートします。アカウントやインターネット接続は不要で、一度も同期済みになっていないノートブックにも対応しています。
+
+[importer.onenote-file.file-type]
+original=OneNote export
+translation=OneNote エクスポート
+
+[importer.onenote-file.label-id]
+original=OneNote ID
+translation=OneNote ID
+
+[importer.onenote-file.desc-backup-folder]
+original=OneNote for Windows keeps its own backups, and this opens there. Pick the notebooks or sections you want.
+translation=OneNote for Windows は独自のバックアップを保持しており、ここではそのフォルダーを開きます。インポートしたいノートブックまたはセクションを選んでください。
+
+[importer.onenote-file.desc-export]
+original=In OneNote for Windows, right-click a notebook and export it to save a .onepkg file, or export a single section as .one.
+translation=OneNote for Windows でノートブックを右クリックしてエクスポートすると .onepkg ファイルとして保存できます。また、単一セクションを .one としてエクスポートすることもできます。
+
+[importer.onenote-file.name-sections]
+original=Sections to import
+translation=インポートするセクション
+
+[importer.onenote-file.desc-sections]
+original=Choose which sections to import.
+translation=インポートするセクションを選択してください。
+
+[importer.onenote-file.msg-loading-sections]
+original=Reading sections…
+translation=セクションをリーディング中…
+
+[importer.onenote-file.msg-no-sections]
+original=No sections found in this file.
+translation=このファイルにはセクションが見つかりませんでした。
+
+[importer.onenote-file.msg-pick-file-first]
+original=Choose a OneNote file first.
+translation=まず OneNote ファイルを選択してください。
+
+[importer.onenote-file.status-reading-section]
+original=Reading {{name}}
+translation={{name}} をリーディング中
+
+[importer.onenote-file.status-importing-section]
+original=Importing {{name}} ({{index}} of {{total}})
+translation={{name}} をインポート中（{{total}} 件中 {{index}}）
+
+[importer.onenote-file.reason-rights-protected]
+original=the file is rights-protected, and can only be opened by an account with permission to it
+translation=ファイルは権限で保護されており、アクセス許可のあるアカウントでのみ開くことができます
+
+[importer.onenote-file.reason-unsupported]
+original=the file uses a OneNote format this importer cannot read yet
+translation=このファイルはインポーターがまだ対応していない OneNote フォーマットを使用しています
+
+[importer.onenote-file.reason-malformed]
+original=the file does not describe the OneNote structures it claims to
+translation=ファイルが宣言している OneNote 構造と実際の内容が一致しません
+
+[importer.onenote-file.reason-too-large]
+original=the file is larger than this importer is willing to expand
+translation=ファイルがインポーターの展開可能なサイズを超えています
+
+[importer.onenote-file.reason-no-attachment-data]
+original=the attachment held no data
+translation=添付ファイルにデータが含まれていませんでした
+
+[importer.notion-api.name]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.option-text]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.method-name]
+original=Notion account (recommended)
+translation=Notion アカウント（おすすめ）
+
+[importer.notion-api.method-desc]
+original=Imports your entire workspace, including databases and formulas which are converted to bases. Requires a Notion integration token and an internet connection.
+translation=データベースや数式を含むワークスペース全体をインポートします。数式はベースに変換されます。Notion インテグレーショントークンとインターネット接続が必要です。
+
+[importer.notion-api.label-id]
+original=Notion ID
+translation=Notion ID
+
+[importer.notion-api.name-token]
+original=Notion API token
+translation=Notion API トークン
+
+[importer.notion-api.desc-token]
+original=To get an API token create a connection in Notion and give it access to pages in your workspace.
+translation=API トークンを取得するには、Notion でコネクションを作成し、ワークスペース内のページへのアクセスを許可してください。
+
+[importer.notion-api.link-get-token]
+original=Get API token
+translation=API トークンを取得
+
+[importer.notion-api.name-pages]
+original=Pages to import
+translation=インポートするページ
+
+[importer.notion-api.desc-pages]
+original=Load your Notion pages and databases, then choose what to import. If a page or database is missing, check that your Notion connection has access to it.
+translation=Notion のページとデータベースをロードし、インポートする対象を選択してください。ページやデータベースが見つからない場合は、Notion のコネクションにアクセス権があるか確認してください。
+
+[importer.notion-api.hint-pages]
+original=Load your Notion pages and databases to get started.
+translation=まず Notion のページとデータベースをロードしてください。
+
+[importer.notion-api.msg-loading-pages]
+original=Loading pages and databases...
+translation=ページとデータベースをロード中...
+
+[importer.notion-api.msg-no-pages]
+original=No pages or databases found. Make sure your connection has access to the pages you want to import.
+translation=ページまたはデータベースが見つかりませんでした。コネクションにインポートしたいページへのアクセス権があるか確認してください。
+
+[importer.notion-api.label-service]
+original=Notion
+translation=Notion
+
+[importer.notion-api.label-subject]
+original=your pages
+translation=ページ
+
+[importer.notion-api.label-credential]
+original=Check that your token is current and that the connection has access to them.
+translation=トークンが有効であること、かつコネクションにアクセス権があることを確認してください。
+
+[importer.notion-api.name-formulas]
+original=Convert formulas
+translation=数式を変換
+
+[importer.notion-api.desc-formulas]
+original=By default Notion formulas are converted to Obsidian syntax. If any Notion syntax is not supported the static values will be saved instead. Alternatively you can import all formulas as static values.
+translation=デフォルトでは Notion の数式は Obsidian 構文に変換されます。サポートされていない Notion 構文がある場合、代わりに静的な値が保存されます。すべての数式を静的な値としてインポートすることもできます。
+
+[importer.notion-api.option-formula-hybrid]
+original=Obsidian syntax
+translation=Obsidian 構文
+
+[importer.notion-api.option-formula-static]
+original=Static values
+translation=静的な値
+
+[importer.notion-api.name-download-external]
+original=Download external attachments
+translation=外部添付ファイルをダウンロード
+
+[importer.notion-api.desc-download-external]
+original=Download external attachments (external URLs) to local files. Notion-hosted files are always downloaded.
+translation=外部の添付ファイル（外部 URL）をローカルファイルにダウンロードします。Notion がホストするファイルは常にダウンロードされます。
+
+[importer.notion-api.name-single-line-breaks]
+original=Single line breaks
+translation=単一の改行
+
+[importer.notion-api.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break instead of two. Some blocks (lists, toggles, tables) will still use double line breaks when required for proper Markdown syntax.
+translation=Notion のブロックを2行ではなく1行の改行で区切ります。一部のブロック（リスト、トグル、テーブル）は、正しい Markdown 構文のために必要な場合、引き続き2行の改行を使用します。
+
+[importer.notion-api.name-cover-property]
+original=Cover property name
+translation=カバープロパティ名
+
+[importer.notion-api.desc-cover-property]
+original=Property name for page cover image in YAML frontmatter. 
+translation=YAML フロントマターにおけるページカバー画像のプロパティ名。 
+
+[importer.notion-api.desc-cover-property-conflicts]
+original=Leave as "cover" if you don't have conflicts with existing properties.
+translation=既存のプロパティと競合がなければ "cover" のままにしてください。
+
+[importer.notion-api.name-database-property]
+original=Database property name
+translation=データベースプロパティ名
+
+[importer.notion-api.desc-database-property]
+original=Property name in page frontmatter to link pages to their database .base file (default: "base")
+translation=ページをデータベースの .base ファイルにリンクするためのフロントマターのプロパティ名（デフォルト: "base"）
+
+[importer.notion-api.name-linked-databases]
+original=Import linked databases
+translation=リンクされたデータベースをインポート
+
+[importer.notion-api.desc-linked-databases]
+original=Also import databases that the selected pages link to, so relations become links rather than names. This imports pages you did not select.
+translation=選択したページがリンクしているデータベースもインポートし、リレーションが名前ではなくリンクになるようにします。選択していないページもインポートされます。
+
+[importer.notion-api.msg-token-first]
+original=Please enter your Notion API token first.
+translation=まず Notion API トークンを入力してください。
+
+[importer.notion-api.msg-token-missing]
+original=Please enter your Notion API token.
+translation=Notion API トークンを入力してください。
+
+[importer.notion-api.msg-load-pages-failed]
+original=Failed to load pages: {{error}}
+translation=ページのロードに失敗: {{error}}
+
+[importer.notion-api.msg-pick-page]
+original=Please select at least one page or database to import.
+translation=インポートするページまたはデータベースを少なくとも1つ選択してください。
+
+[importer.notion-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=インポートに失敗: {{error}}
+
+[importer.notion-api.status-loading-items]
+original=Loading... ({{items}}, page {{page}})
+translation=読み込み中… ({{items}}、ページ {{page}})
+
+[importer.notion-api.status-connecting]
+original=Connecting to Notion API...
+translation=Notion API に接続中...
+
+[importer.notion-api.status-fetching]
+original=Fetching page content from Notion...
+translation=Notion からページコンテンツを取得中...
+
+[importer.notion-api.status-preparing]
+original=Preparing to import {{items}}...
+translation={{items}} のインポートを準備中...
+
+[importer.notion-api.status-importing-items]
+original=Importing {{items}}...
+translation={{items}} をインポート中...
+
+[importer.notion-api.status-importing-item]
+original=Importing item {{index}}/{{total}}...
+translation=アイテム {{index}}/{{total}} をインポート中...
+
+[importer.notion-api.status-importing-title]
+original=Importing: {{title}}
+translation=インポート中: {{title}}
+
+[importer.notion-api.status-relation-links]
+original=Processing relation links...
+translation=リレーションリンクを処理中...
+
+[importer.notion-api.status-mention-links]
+original=Processing mention links...
+translation=メンションリンクを処理中...
+
+[importer.notion-api.status-synced-blocks]
+original=Processing synced block child references...
+translation=同期済みブロックの子参照を処理中...
+
+[importer.notion-api.status-cleaning-ids]
+original=Cleaning up notion-id attributes...
+translation=notion-id 属性をクリーンアップ中...
+
+[importer.notion-api.status-done]
+original=Import completed successfully!
+translation=インポートが正常に完了しました！
+
+[importer.notion-api.status-replacing-relations]
+original=Replacing {{placeholders}}...
+translation={{placeholders}} を置換中...
+
+[importer.notion-api.status-replacing-relation-links]
+original=Replacing relation placeholders with wiki links...
+translation=リレーションプレースホルダーを Wiki リンクに置換中...
+
+[importer.notion-api.status-importing-linked-databases]
+original=Importing {{databases}}...
+translation={{databases}} をインポート中...
+
+[importer.notion-api.status-importing-unimported]
+original=Importing unimported database {{id}}...
+translation=未インポートのデータベース {{id}} をインポート中...
+
+[importer.notion-api.status-replacing-mentions]
+original=Replacing mention placeholders...
+translation=メンションプレースホルダーを置換中...
+
+[importer.notion-api.status-replaced-mentions]
+original=Replaced {{links}} in {{files}}.
+translation={{files}} 内の {{links}} を置換しました。
+
+[importer.notion-api.status-replacing-synced]
+original=Replacing synced block child references...
+translation=同期済みブロックの子参照を置換中...
+
+[importer.notion-api.status-replaced-synced]
+original=Replaced {{references}} in {{files}} (imported {{imported}}).
+translation={{files}} 内の {{references}} を置換しました（{{imported}} をインポート済み）。
+
+[importer.notion-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}...
+translation=添付ファイルをダウンロード中: {{name}}...
+
+[importer.notion-api.status-rate-limited]
+original=Rate limited. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=レート制限中。再試行まで {{seconds}} 秒待機中 ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying]
+original=Notion returned {{status}}. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=Notion が {{status}} を返しました。再試行まで {{seconds}} 秒待機中 ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying-attachment]
+original={{name}}: {{failure}}. Retrying in {{seconds}} seconds ({{attempt}}/{{total}})...
+translation={{name}}: {{failure}}。{{seconds}}秒後にリトライします（{{attempt}}/{{total}}）...
+
+[importer.notion-api.status-processing-data-source]
+original=Processing database from data source: {{id}}...
+translation=データソースからデータベースを処理中: {{id}}...
+
+[importer.notion-api.status-processing-database]
+original=Processing database: {{title}}...
+translation=データベースを処理中: {{title}}...
+
+[importer.notion-api.status-found-pages]
+original=Found {{pages}} in database {{title}}
+translation=データベース {{title}} で {{pages}} 件見つかりました
+
+[importer.notion-api.status-found-templates]
+original=Found {{templates}} in database {{title}}
+translation=データベース {{title}} で {{templates}} 件のテンプレートが見つかりました
+
+[importer.notion-api.status-importing-template]
+original=Importing template: {{name}}...
+translation=テンプレートをインポート中: {{name}}...
+
+[importer.notion-api.label-import]
+original=Notion API import
+translation=Notion API インポート
+
+[importer.notion-api.label-item]
+original=Import item {{id}}
+translation=アイテム {{id}} をインポート
+
+[importer.notion-api.label-page]
+original=Page {{id}}
+translation=ページ {{id}}
+
+[importer.notion-api.label-page-with-title]
+original=Page: {{title}} ({{id}})
+translation=ページ: {{title}} ({{id}})
+
+[importer.notion-api.label-relation-page]
+original=Relation page {{id}}
+translation=リレーションページ {{id}}
+
+[importer.notion-api.label-database-with-id]
+original=Database: {{title}} ({{id}})
+translation=データベース: {{title}} ({{id}})
+
+[importer.notion-api.label-mention-file]
+original=Mention file {{path}}
+translation=メンションファイル {{path}}
+
+[importer.notion-api.label-synced-block-file]
+original=Synced block file {{path}}
+translation=同期済みブロックファイル {{path}}
+
+[importer.notion-api.label-attachment]
+original=Attachment: {{name}}
+translation=添付ファイル: {{name}}
+
+[importer.notion-api.label-child-page]
+original=Child page: {{title}}
+translation=子ページ: {{title}}
+
+[importer.notion-api.label-synced-block]
+original=Synced block: {{name}}
+translation=同期済みブロック: {{name}}
+
+[importer.notion-api.label-attachment-image]
+original=Image attachment
+translation=画像の添付ファイル
+
+[importer.notion-api.label-attachment-video]
+original=Video attachment
+translation=動画の添付ファイル
+
+[importer.notion-api.label-attachment-audio]
+original=Audio attachment
+translation=音声添付ファイル
+
+[importer.notion-api.label-attachment-file]
+original=File attachment
+translation=ファイルの添付ファイル
+
+[importer.notion-api.label-attachment-pdf]
+original=PDF attachment
+translation=PDF の添付ファイル
+
+[importer.notion-api.label-preview-child-page]
+original=Child page
+translation=子ページ
+
+[importer.notion-api.label-preview-database]
+original=Database
+translation=データベース
+
+[importer.notion-api.msg-preview-nested-content]
+original=Nested content is not loaded in the preview.
+translation=ネストされたコンテンツはプレビューに読み込まれません。
+
+[importer.notion-api.msg-preview-content-not-loaded]
+original={{type}} is not loaded in the preview.
+translation={{type}} はプレビューに読み込まれません。
+
+[importer.notion-api.msg-preview-content-not-loaded-with-caption]
+original={{type}}: {{caption}} is not loaded in the preview.
+translation={{type}}: {{caption}} はプレビューに読み込まれません。
+
+[importer.notion-api.msg-preview-block-not-expanded]
+original={{type}} is not expanded in the preview.
+translation={{type}} はプレビューで展開されません。
+
+[importer.notion-api.label-fetch-children]
+original=Fetch children for {{context}} {{id}}
+translation={{context}} {{id}} の子要素を取得
+
+[importer.notion-api.block-paragraph]
+original=paragraph
+translation=パラグラフ
+
+[importer.notion-api.block-bulleted-list-item]
+original=bulleted list item
+translation=箇条書きリスト項目
+
+[importer.notion-api.block-numbered-list-item]
+original=numbered list item
+translation=番号付きリスト項目
+
+[importer.notion-api.block-todo-item]
+original=to-do item
+translation=To-Do 項目
+
+[importer.notion-api.block-quote]
+original=quote block
+translation=引用ブロック
+
+[importer.notion-api.block-callout]
+original=callout block
+translation=コールアウトブロック
+
+[importer.notion-api.block-toggle]
+original=toggle block
+translation=トグルブロック
+
+[importer.notion-api.block-toggleable-heading]
+original=toggleable heading
+translation=トグル可能な見出し
+
+[importer.notion-api.block-column]
+original=column
+translation=列
+
+[importer.notion-api.block-column-list]
+original=column list
+translation=列リスト
+
+[importer.notion-api.block-table]
+original=table
+translation=表
+
+[importer.notion-api.block-generic]
+original=block
+translation=ブロック
+
+[importer.notion-api.label-meeting-notes]
+original=Meeting notes: {{name}}
+translation=会議メモ: {{name}}
+
+[importer.notion-api.label-meeting-notes-section]
+original=Meeting notes: {{name}} ({{section}})
+translation=会議メモ: {{name}} ({{section}})
+
+[importer.notion-api.label-untitled-meeting]
+original=Meeting notes {{id}}
+translation=会議メモ {{id}}
+
+[importer.notion-api.section-summary]
+original=summary
+translation=要約
+
+[importer.notion-api.section-notes]
+original=notes
+translation=メモ
+
+[importer.notion-api.section-transcript]
+original=transcript
+translation=文字起こし
+
+[importer.notion-api.label-fetch-children-block]
+original=Fetch children for block {{id}}
+translation=ブロック {{id}} の子要素を取得
+
+[importer.notion-api.reason-not-in-tree]
+original=Item not found in tree
+translation=ツリー内にアイテムが見つかりません
+
+[importer.notion-api.reason-unknown-type]
+original=Unknown type: {{type}}
+translation=不明なタイプ: {{type}}
+
+[importer.notion-api.reason-earlier-import]
+original=an earlier import had already written it
+translation=以前のインポートで既に書き込まれています
+
+[importer.notion-api.reason-attachment-exists]
+original={{path}} is already in the vault, the same size (incremental import)
+translation={{path}} は既に保管庫内に同じサイズで存在します（増分インポート）
+
+[importer.notion-api.reason-http-status]
+original=HTTP {{status}}
+translation=HTTP {{status}}
+
+[importer.notion-api.reason-meeting-notes-pending]
+original=Notion has not finished generating them ({{status}})
+translation=Notion がまだ生成を完了していません（{{status}}）
+
+[importer.notion-api.reason-rate-limit-gave-up]
+original=rate limited, and gave up after {{retries}} retries
+translation=レート制限を受け、{{retries}} 回のリトライ後に中断しました
+
+[importer.notion-api.reason-gave-up]
+original={{reason}}, and gave up after {{retries}} retries
+translation={{reason}}、{{retries}} 回のリトライ後に中断しました
+
+[importer.notion-api.reason-kept-link]
+original={{reason}}; kept the link to {{url}}
+translation={{reason}}、{{url}} へのリンクを保持しました
+
+[importer.notion.name]
+original=Notion
+translation=Notion
+
+[importer.notion.option-text]
+original=Notion (.zip)
+translation=Notion (.zip)
+
+[importer.notion.method-name]
+original=File import
+translation=ファイルインポート
+
+[importer.notion.method-desc]
+original=Imports using a Notion export file (.zip). Requires no API token or internet connection, but does not preserve databases.
+translation=Notion のエクスポートファイル（.zip）を使用してインポートします。API トークンやインターネット接続は不要ですが、データベースは保持されません。
+
+[importer.notion.file-type]
+original=Exported Notion
+translation=Notion エクスポート
+
+[importer.notion.label-id]
+original=Notion ID
+translation=Notion ID
+
+[importer.notion.desc-export]
+original=Export your workspace in HTML format, you will receive a zip file.
+translation=ワークスペースを HTML フォーマットでエクスポートすると、zip ファイルを受け取れます。
+
+[importer.notion.desc-files]
+original=Pick the zip file Notion sent you.
+translation=Notion から受け取った zip ファイルを選択してください。
+
+[importer.notion.name-subfolders]
+original=Save parent pages in subfolders
+translation=親ページをサブフォルダに保存
+
+[importer.notion.desc-subfolders]
+original=Places the parent database pages in the same folder as the nested content.
+translation=親データベースのページをネストされたコンテンツと同じフォルダに配置します。
+
+[importer.notion.name-single-line-breaks]
+original=Single line breaks
+translation=単一改行
+
+[importer.notion.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break (default is 2).
+translation=Notion のブロックを1つの改行のみで区切ります（デフォルトは2）。
+
+[importer.notion.msg-unknown-property]
+original=Property "{{property}}" has an unknown type ({{type}}); kept its value as text.
+translation=プロパティ "{{property}}" の型がバージョン不明です（{{type}}）。値をテキストとして保持しました。
+
+[importer.notion.msg-unparsed-date]
+original=Could not determine the date in property "{{property}}": {{value}}. Kept its value as text.
+translation=プロパティ "{{property}}" の日付を判定できませんでした: {{value}}。値をテキストとして保持しました。
+
+[importer.notion.status-looking]
+original=Looking for files to import
+translation=インポートするファイルを検索中
+
+[importer.notion.status-resolving]
+original=Resolving links and de-duplicating files
+translation=リンクの解決とファイルの重複排除中
+
+[importer.notion.status-starting]
+original=Starting import
+translation=インポートを開始中
+
+[importer.notion.msg-markdown-export]
+original=This is a Markdown export. Export your Notion workspace as HTML instead.
+translation=これは Markdown エクスポートです。Notion ワークスペースは代わりに HTML としてエクスポートしてください。
+
+[importer.notion.reason-markdown-export]
+original=it is a Markdown export; export your Notion workspace as HTML instead
+translation=Markdown エクスポートです。Notion ワークスペースを HTML でエクスポートしてください
+
+[importer.notion.reason-no-page-body]
+original=page body was not found
+translation=ページ本文が見つかりませんでした
+
+[importer.roam-json.name]
+original=Roam Research
+translation=Roam Research
+
+[importer.roam-json.option-text]
+original=Roam Research (.json)
+translation=Roam Research (.json)
+
+[importer.roam-json.file-type]
+original=Roam (.json)
+translation=Roam (.json)
+
+[importer.roam-json.label-id]
+original=Roam UID
+translation=Roam UID
+
+[importer.roam-json.desc-export]
+original=Export your data in JSON format.
+translation=データを JSON フォーマットでエクスポートしてください。
+
+[importer.roam-json.desc-files]
+original=Pick the JSON file from your Roam export.
+translation=Roam のエクスポートから JSON ファイルを選択してください。
+
+[importer.roam-json.name-embed-block-references]
+original=Show referenced blocks in place
+translation=参照先のブロックをその場に表示する
+
+[importer.roam-json.desc-embed-block-references]
+original=Roam shows the contents of a referenced block where the reference stands. If enabled, references become embeds rather than links.
+translation=Roam は参照先のブロックの内容を参照の位置に表示します。有効にすると、参照がリンクではなく埋め込みに変換されます。
+
+[importer.roam-json.name-drop-unresolved-references]
+original=Remove references to missing blocks
+translation=存在しないブロックへの参照を削除する
+
+[importer.roam-json.desc-drop-unresolved-references]
+original=Some references name a block that is not in the export. If enabled, they are removed; if not, they are kept as Roam wrote them.
+translation=エクスポートに含まれないブロックを参照しているものがあります。有効にすると削除されます。無効の場合は Roam が記録したまま残されます。
+
+[importer.roam-json.name-convert-attributes]
+original=Convert attributes to properties
+translation=属性をプロパティに変換
+
+[importer.roam-json.desc-convert-attributes]
+original=Convert eligible top-level Roam attributes into Obsidian properties. Referenced attributes remain in the note so links to them keep working.
+translation=対象となるトップレベルの Roam 属性を Obsidian プロパティに変換します。参照されている属性はリンクが機能し続けるようノート内に残ります。
+
+[importer.roam-json.name-tags-as-links]
+original=Convert tags to links
+translation=タグをリンクに変換する
+
+[importer.roam-json.desc-tags-as-links]
+original=A tag in Roam is a reference to the page of that name. If enabled, "#tag" becomes "[[tag]]".
+translation=Roam のタグは同名のページへの参照です。有効にすると、"#tag" が "[[tag]]" に変換されます。
+
+[importer.roam-json.name-drop-queries]
+original=Remove queries
+translation=クエリを削除する
+
+[importer.roam-json.desc-drop-queries]
+original=If enabled, queries are removed. If not, a query becomes an Obsidian search that shows its results in the note.
+translation=有効にすると、クエリが削除されます。無効の場合は、クエリが Obsidian の検索に変換され、結果がノート内に表示されます。
+
+[importer.roam-json.reason-empty-title]
+original=Title is empty
+translation=タイトルが空です
+
+[importer.roam-json.reason-unexpected-extension]
+original=Unexpected file extension
+translation=予期しない extension です
+
+[importer.textbundle.name]
+original=Textbundle files
+translation=Textbundle ファイル
+
+[importer.textbundle.option-text]
+original=Textbundle (.textbundle, .textpack)
+translation=Textbundle (.textbundle, .textpack)
+
+[importer.textbundle.file-type]
+original=Textbundle
+translation=Textbundle
+
+[importer.textbundle.desc-export]
+original=Export your notes as textbundle or textpack, which Agenda, Craft, Taio, Ulysses and Zettlr can all write.
+translation=ノートを textbundle または textpack としてエクスポートしてください。Agenda、Craft、Taio、Ulysses、Zettlr がこれらの形式に対応しています。
+
+[importer.textbundle.msg-platform]
+original=Due to platform limitations, only textpack and zip files can be imported from this device. Open your vault on a Mac to import textbundle files.
+translation=プラットフォームの制限により、このデバイスからは textpack ファイルと zip ファイルのみインポートできます。textbundle ファイルをインポートするには、Mac で保管庫を開いてください。
+
+[importer.textbundle.reason-no-markdown]
+original=The textbundle does not contain markdown
+translation=textbundle に Markdown が含まれていません
+
+[importer.textbundle.reason-not-media]
+original=the file is not a media or markdown file.
+translation=メディアファイルまたは Markdown ファイルではありません。
+
+[importer.textbundle.reason-already-exists]
+original=the file already exists.
+translation=ファイルが既に存在します。
+
+[importer.tomboy.name]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.option-text]
+original=Tomboy/Gnote (.note)
+translation=Tomboy/Gnote (.note)
+
+[importer.tomboy.file-type]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.label-id]
+original=Tomboy ID
+translation=Tomboy ID
+
+[importer.tomboy.desc-files-mac]
+original=Tomboy notes are typically found in: ~/Library/Application Support/Tomboy
+translation=Tomboy のノートは通常次の場所にあります: ~/Library/Application Support/Tomboy
+
+[importer.tomboy.desc-files-windows]
+original=Tomboy notes are typically found in: %APPDATA%\\Tomboy
+translation=Tomboy のノートは通常次の場所にあります: %APPDATA%\\Tomboy
+
+[importer.tomboy.desc-files-linux]
+original=Tomboy notes are typically found in: ~/.local/share/tomboy - or GNote: ~/.local/share/gnote
+translation=Tomboy のノートは通常次の場所にあります: ~/.local/share/tomboy - GNote の場合: ~/.local/share/gnote
+
+[importer.tomboy.name-todo]
+original=Convert TODO lists to checkboxes
+translation=TODO リストをチェックボックスに変換
+
+[importer.tomboy.desc-todo]
+original=When enabled, lists in notes with "TODO" in the title will be converted to task lists with checkboxes. Strikethrough items will be marked as completed.
+translation=有効にすると、タイトルに「TODO」を含むノートのリストがチェックボックス付きのタスクリストに変換されます。取り消し線の項目は完了としてマークされます。
+
+[importer.tomboy.name-keep-title]
+original=Keep title in Markdown
+translation=Markdown にタイトルを残す
+
+[importer.tomboy.desc-keep-title]
+original=Choose whether to keep the note title in the Markdown content. The automatic option keeps titles only when special characters are lost in filename conversion.
+translation=ノートのタイトルを Markdown コンテンツ内に残すかどうかを選択します。自動オプションでは、ファイル名変換時に特殊文字が失われる場合にのみタイトルを残します。
+
+[importer.tomboy.option-automatic]
+original=Automatic
+translation=自動
+
+[importer.tomboy.option-keep-titles]
+original=Keep titles
+translation=タイトルを残す
+
+[importer.tomboy.option-filename-only]
+original=Filename only
+translation=ファイル名のみ

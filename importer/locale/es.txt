@@ -1,0 +1,2499 @@
+[command.import-notes]
+original=Import notes
+translation=Importar notas
+
+[nouns.file-with-count]
+original={{count}} file
+translation={{count}} archivo
+
+[nouns.file-with-count_plural]
+original={{count}} files
+translation={{count}} archivos
+
+[nouns.note-with-count]
+original={{count}} note
+translation={{count}} nota
+
+[nouns.note-with-count_plural]
+original={{count}} notes
+translation={{count}} notas
+
+[nouns.item-with-count]
+original={{count}} item
+translation={{count}} elemento
+
+[nouns.item-with-count_plural]
+original={{count}} items
+translation={{count}} elementos
+
+[nouns.record-with-count]
+original={{count}} record
+translation={{count}} registro
+
+[nouns.record-with-count_plural]
+original={{count}} records
+translation={{count}} registros
+
+[nouns.base-with-count]
+original={{count}} base
+translation={{count}} base
+
+[nouns.base-with-count_plural]
+original={{count}} bases
+translation={{count}} bases
+
+[nouns.template-with-count]
+original={{count}} template
+translation={{count}} plantilla
+
+[nouns.template-with-count_plural]
+original={{count}} templates
+translation={{count}} plantillas
+
+[nouns.failure-with-count]
+original={{count}} failure
+translation={{count}} error
+
+[nouns.failure-with-count_plural]
+original={{count}} failures
+translation={{count}} errores
+
+[nouns.second-with-count]
+original={{count}} second
+translation={{count}} segundo
+
+[nouns.second-with-count_plural]
+original={{count}} seconds
+translation={{count}} segundos
+
+[nouns.relation-placeholder-with-count]
+original={{count}} relation placeholder
+translation={{count}} marcador de relación
+
+[nouns.relation-placeholder-with-count_plural]
+original={{count}} relation placeholders
+translation={{count}} marcadores de relación
+
+[nouns.linked-database-with-count]
+original={{count}} linked database
+translation={{count}} base de datos vinculada
+
+[nouns.linked-database-with-count_plural]
+original={{count}} linked databases
+translation={{count}} bases de datos vinculadas
+
+[nouns.mention-link-with-count]
+original={{count}} mention link
+translation={{count}} enlace de mención
+
+[nouns.mention-link-with-count_plural]
+original={{count}} mention links
+translation={{count}} enlaces de mención
+
+[nouns.synced-reference-with-count]
+original={{count}} synced child reference
+translation={{count}} referencia hija sincronizada
+
+[nouns.synced-reference-with-count_plural]
+original={{count}} synced child references
+translation={{count}} referencias hijas sincronizadas
+
+[nouns.new-item-with-count]
+original={{count}} new item
+translation={{count}} elemento nuevo
+
+[nouns.new-item-with-count_plural]
+original={{count}} new items
+translation={{count}} elementos nuevos
+
+[nouns.page-with-count]
+original={{count}} page
+translation={{count}} página
+
+[nouns.page-with-count_plural]
+original={{count}} pages
+translation={{count}} páginas
+
+[group.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[group.notion.name]
+original=Notion
+translation=Notion
+
+[outliner.name-flatten-outlines]
+original=Flatten outlines
+translation=Aplanar esquemas
+
+[outliner.desc-flatten-outlines]
+original=Convert outlines into paragraphs, headings, and lists.
+translation=Convertir esquemas en párrafos, encabezados y listas.
+
+[modal.title-pick-format]
+original=Import data into Obsidian
+translation=Importar datos a Obsidian
+
+[modal.title-choose-method]
+original=Choose how to import
+translation=Elegir cómo importar
+
+[modal.title-import-from]
+original=Import from {{format}}
+translation=Importar desde {{format}}
+
+[modal.search-placeholder]
+original=Filter...
+translation=Filtrar...
+
+[modal.msg-no-formats]
+original=No formats found.
+translation=No se encontraron formatos.
+
+[modal.msg-drop-to-import]
+original=Drop files to import
+translation=Soltar archivos para importar
+
+[modal.button-show-all-formats]
+original=Show all formats
+translation=Mostrar todo
+
+[modal.button-continue]
+original=Continue
+translation=Continuar
+
+[modal.button-import]
+original=Import
+translation=Importar
+
+[modal.button-back]
+original=Back
+translation=Atrás
+
+[modal.button-help]
+original=Help
+translation=Ayuda
+
+[modal.button-pause]
+original=Pause
+translation=Pausar
+
+[modal.button-resume]
+original=Resume
+translation=Continuar
+
+[modal.button-stop]
+original=Stop
+translation=Detener
+
+[modal.button-save-report]
+original=Save report
+translation=Guardar informe
+
+[modal.msg-report-failed]
+original=Could not save the import report.
+translation=No se pudo guardar el informe de importación.
+
+[modal.button-import-more]
+original=Import more
+translation=Importar más
+
+[modal.button-done]
+original=Done
+translation=Hecho
+
+[modal.msg-unexpected-auth]
+original=Unexpected auth event. Please restart the auth process.
+translation=Evento de autenticación inesperado. Por favor, reinicia el proceso de autenticación.
+
+[progress.stat-imported]
+original=imported
+translation=importados
+
+[progress.stat-attachments]
+original=attachments
+translation=Adjuntos
+
+[progress.stat-remaining]
+original=remaining
+translation=restantes
+
+[progress.stat-skipped]
+original=skipped
+translation=Omitido
+
+[progress.stat-failed]
+original=failed
+translation=Error
+
+[progress.label-skipped]
+original=Skipped: 
+translation=Omitido: 
+
+[progress.label-failed]
+original=Failed: 
+translation=Error: 
+
+[progress.label-entry]
+original="{{name}}"
+translation="{{name}}"
+
+[progress.label-entry-with-reason]
+original="{{name}}" because {{reason}}
+translation="{{name}}" porque {{reason}}
+
+[progress.label-paused]
+original=Paused
+translation=En pausa
+
+[progress.label-paused-with]
+original=Paused - {{status}}
+translation=En pausa - {{status}}
+
+[progress.label-importing]
+original=Importing
+translation=Importando
+
+[progress.label-remaining]
+original={{count}} remaining...
+translation={{count}} restante...
+
+[progress.label-remaining_plural]
+original={{count}} remaining...
+translation={{count}} restantes...
+
+[progress.label-paused-remaining]
+original=Paused - {{count}} remaining
+translation=En pausa - {{count}} restante
+
+[progress.label-paused-remaining_plural]
+original=Paused - {{count}} remaining
+translation=En pausa - {{count}} restantes
+
+[progress.status-stopping]
+original=Stopping...
+translation=Deteniendo...
+
+[progress.msg-stopped]
+original=Import stopped.
+translation=Importación detenida.
+
+[progress.msg-errors]
+original=Import finished with errors.
+translation=Importación finalizada con errores.
+
+[progress.msg-complete]
+original=Import complete.
+translation=Importación completada.
+
+[progress.msg-imported-count]
+original={{count}} note imported
+translation={{count}} nota importada
+
+[progress.msg-imported-count_plural]
+original={{count}} notes imported
+translation={{count}} notas importadas
+
+[progress.msg-click-to-show]
+original={{counts}}. Select to show.
+translation={{counts}}. Seleccionar para mostrar.
+
+[progress.status-waiting]
+original=Waiting {{duration}} ({{reason}})
+translation=Esperando {{duration}} ({{reason}})
+
+[progress.status-standardizing]
+original=Standardizing Markdown ({{current}}/{{total}})
+translation=Estandarizando Markdown ({{current}}/{{total}})
+
+[progress.label-finalization]
+original=Markdown finalization
+translation=Finalización de Markdown
+
+[report.file-name]
+original={{date}} {{importer}} import log
+translation={{date}} registro de importación de {{importer}}
+
+[report.title]
+original={{importer}} import
+translation=Importación de {{importer}}
+
+[report.msg-finished]
+original=Finished {{when}}. {{counts}}.
+translation=Finalizado {{when}}. {{counts}}.
+
+[report.msg-stopped]
+original=Stopped {{when}}. {{counts}}.
+translation=Detenido {{when}}. {{counts}}.
+
+[report.heading-failed]
+original=Failed ({{count}})
+translation=Errores ({{count}})
+
+[report.heading-skipped]
+original=Skipped ({{count}})
+translation=Omitido ({{count}})
+
+[report.heading-messages]
+original=Messages
+translation=Mensajes
+
+[report.count-notes]
+original={{count}} note imported
+translation={{count}} nota importada
+
+[report.count-notes_plural]
+original={{count}} notes imported
+translation={{count}} notas importadas
+
+[report.count-attachments]
+original={{count}} attachment downloaded
+translation={{count}} adjunto descargado
+
+[report.count-attachments_plural]
+original={{count}} attachments downloaded
+translation={{count}} adjuntos descargados
+
+[report.count-skipped]
+original={{count}} item skipped
+translation={{count}} elemento omitido
+
+[report.count-skipped_plural]
+original={{count}} items skipped
+translation={{count}} elementos omitidos
+
+[report.count-failed]
+original={{count}} item failed
+translation={{count}} elemento con error
+
+[report.count-failed_plural]
+original={{count}} items failed
+translation={{count}} elementos con error
+
+[source.desc]
+original=Drag and drop, or choose files to import.
+translation=Arrastrar y soltar, o elegir archivos para importar.
+
+[source.desc-choose]
+original=Choose files to import.
+translation=Elegir archivos para importar.
+
+[source.button-choose-file]
+original=Choose file
+translation=Elegir archivo
+
+[source.button-choose-files]
+original=Choose files
+translation=Elegir archivos
+
+[source.button-choose-folders]
+original=Choose folders
+translation=Elegir carpetas
+
+[source.dialog-pick-files]
+original=Pick files to import
+translation=Seleccionar archivos para importar
+
+[source.dialog-pick-folders]
+original=Folders to import
+translation=Carpetas para importar
+
+[source.desc-folders]
+original=Everything in checked folders is imported. Uncheck folders to exclude them.
+translation=Se importa todo lo que esté en las carpetas marcadas. Desmarca carpetas para excluirlas.
+
+[source.msg-pick-source-first]
+original=Choose files or folders first.
+translation=Elige archivos o carpetas primero.
+
+[source.msg-reading-folders]
+original=Reading folders...
+translation=Leyendo carpetas...
+
+[source.msg-no-folders]
+original=No folders found.
+translation=No se encontraron carpetas.
+
+[source.msg-android-folder-failed]
+original=Could not choose that folder.
+translation=No se pudo elegir esa carpeta.
+
+[source.msg-android-folder-read-failed]
+original=Could not read that folder.
+translation=No se pudo leer esa carpeta.
+
+[source.msg-android-folder-unavailable]
+original=Folder selection is unavailable on this device.
+translation=La selección de carpeta no está disponible en este dispositivo.
+
+[source.msg-android-root-folder]
+original=Choose a folder other than the root of your device.
+translation=Elige una carpeta que no sea la raíz de tu dispositivo.
+
+[source.msg-flat-files]
+original={{count}} file will be imported.
+translation=Se importará {{count}} archivo.
+
+[source.msg-flat-files_plural]
+original={{count}} files will be imported.
+translation=Se importarán {{count}} archivos.
+
+[source.msg-nothing-to-import]
+original=Nothing to import there. Pick {{extensions}} files, or a folder holding some.
+translation=No hay nada que importar. Selecciona archivos {{extensions}}, o una carpeta que los contenga.
+
+[source.msg-will-import]
+original={{files}} will be imported: 
+translation=Se importarán {{files}}: 
+
+[source.msg-more-files]
+original=and {{count}} more file
+translation=y {{count}} más archivo
+
+[source.msg-more-files_plural]
+original=and {{count}} more files
+translation=y {{count}} más archivos
+
+[source.button-remove-file]
+original=Remove from the import
+translation=Eliminar de la importación
+
+[output.label-source-id]
+original=source ID
+translation=ID de origen
+
+[output.name-save-source-id]
+original=Save {{label}}
+translation=Guardar {{label}}
+
+[output.desc-save-source-id]
+original=Add the {{label}} to note properties so future imports can recognize moved or renamed notes.
+translation=Añadir el {{label}} a las propiedades de la nota para que futuras importaciones puedan reconocer notas movidas o renombradas.
+
+[output.name-folder]
+original=Output folder
+translation=Carpeta de destino
+
+[output.desc-folder]
+original=Where imported notes will be saved. Leave blank to use the top level of the vault.
+translation=Donde se guardarán las notas importadas. Dejar en blanco para usar el nivel superior de la bóveda.
+
+[output.name-template]
+original=Template
+translation=plantilla
+
+[output.desc-template]
+original=Optional Markdown template from this vault. Use variables such as {{title}}, {{content}}, and {{date}}.
+translation=Plantilla Markdown opcional de esta bóveda. Usa variables como {{title}}, {{content}} y {{date}}.
+
+[output.placeholder-template]
+original=Templates/Import.md
+translation=Plantillas/Import.md
+
+[output.msg-template-not-found]
+original=Template must be a Markdown file in this vault: {{path}}
+translation=La plantilla debe ser un archivo Markdown en esta bóveda: {{path}}
+
+[output.name-attachments]
+original=Attachment location
+translation=Ubicación de adjuntos
+
+[output.desc-attachments]
+original=Where imported images and files will be saved.
+translation=Donde se guardarán las imágenes y archivos importados.
+
+[output.name-subfolder]
+original=Subfolder name
+translation=Nombre de la subcarpeta
+
+[output.desc-subfolder]
+original=Folder to use inside each imported note's folder.
+translation=Carpeta para usar dentro de la carpeta de cada nota importada.
+
+[output.name-attachment-folder]
+original=Attachment folder
+translation=Carpeta de adjuntos
+
+[output.desc-attachment-folder]
+original=Folder path from the top level of the vault.
+translation=Ruta de la carpeta desde el nivel superior de la bóveda.
+
+[output.name-duplicates]
+original=Existing notes
+translation=Notas existentes
+
+[output.desc-duplicates]
+original=Choose what to do when an imported note matches one in your vault. "{{update}}" skips unchanged notes and preserves newer local edits when modification dates are available.
+translation=Elegir qué hacer cuando una nota importada coincide con una en tu bóveda. "{{update}}" omite notas sin cambios y conserva las ediciones locales más recientes cuando las fechas de modificación están disponibles.
+
+[output.option-create-copy]
+original=Create a copy
+translation=Crear una copia
+
+[output.option-skip]
+original=Skip
+translation=Omitir
+
+[output.option-update]
+original=Update
+translation=Actualizar
+
+[output.option-attachments-vault]
+original=Vault folder
+translation=Carpeta de la bóveda
+
+[output.option-attachments-folder]
+original=In the folder specified below
+translation=En la carpeta especificada abajo
+
+[output.option-attachments-note]
+original=Same folder as the note
+translation=Misma carpeta que la nota
+
+[output.option-attachments-subfolder]
+original=In subfolder under the note
+translation=En subcarpeta bajo la nota
+
+[common.msg-pick-file]
+original=Please pick at least one file to import.
+translation=Selecciona al menos un archivo para importar.
+
+[common.msg-pick-output]
+original=Please select a location to export to.
+translation=Selecciona una ubicación para exportar.
+
+[common.msg-pick-import-location]
+original=Please select a location to import your files to.
+translation=Selecciona una ubicación donde importar tus archivos.
+
+[common.msg-unknown-error]
+original=Unknown error
+translation=Error desconocido
+
+[common.name-export]
+original=Export your data
+translation=Exportar tus datos
+
+[common.label-learn-more]
+original=Learn more
+translation=Aprender más
+
+[common.button-instructions]
+original=Instructions
+translation=Instrucciones
+
+[common.button-open]
+original=Open
+translation=Abrir
+
+[common.status-processing]
+original=Processing {{name}}
+translation=Procesando {{name}}
+
+[common.status-importing-note]
+original=Importing note {{name}}
+translation=Importando nota {{name}}
+
+[common.status-importing-attachment]
+original=Importing attachment {{name}}
+translation=Importando adjunto {{name}}
+
+[common.status-cancelled]
+original=Import cancelled
+translation=Importación cancelada
+
+[reason.already-in-vault]
+original=it is already in the vault
+translation=ya está en la bóveda
+
+[reason.unchanged-since-import]
+original=it has not changed since the last import
+translation=no ha cambiado desde la última importación
+
+[reason.edited-since-import]
+original=it has been edited in Obsidian since the last import
+translation=ha sido editada en Obsidian desde la última importación
+
+[reason.file-not-in-vault]
+original=The imported file did not appear in the vault.
+translation=El archivo importado no apareció en la bóveda.
+
+[reason.folder-not-created]
+original=Failed to create folder at "{{path}}"
+translation=Error al crear la carpeta en "{{path}}"
+
+[tree.button-select-all]
+original=Select all
+translation=Seleccionar todo
+
+[tree.button-deselect-all]
+original=Deselect all
+translation=Deseleccionar todo
+
+[tree.button-load]
+original=Load
+translation=Cargar
+
+[tree.button-loading]
+original=Loading...
+translation=Cargando...
+
+[tree.button-refresh]
+original=Refresh
+translation=Actualizar
+
+[tree.placeholder-filter]
+original=Filter...
+translation=Filtrar...
+
+[tree.msg-no-matches]
+original=No results found.
+translation=Sin resultados.
+
+[request.msg-unauthorized]
+original={{service}} did not accept the request for {{subject}}. {{credential}}
+translation={{service}} no aceptó la solicitud de {{subject}}. {{credential}}
+
+[request.msg-forbidden]
+original={{service}} would not give access to {{subject}}. {{credential}}
+translation={{service}} no concedió acceso a {{subject}}. {{credential}}
+
+[request.msg-not-found]
+original={{service}} could not find {{subject}}.
+translation={{service}} no pudo encontrar {{subject}}.
+
+[request.msg-rate-limited]
+original={{service}} is limiting how fast {{subject}} can be read. Wait a few minutes and try again.
+translation={{service}} está limitando la velocidad a la que se puede leer {{subject}}. Espera unos minutos e inténtalo de nuevo.
+
+[request.msg-timed-out]
+original={{service}} took too long to return {{subject}}. Try again shortly.
+translation={{service}} tardó demasiado en devolver {{subject}}. Inténtalo de nuevo en breve.
+
+[request.msg-unavailable]
+original={{service}} could not return {{subject}} right now. Try again shortly.
+translation={{service}} no pudo devolver {{subject}} en este momento. Inténtalo de nuevo en breve.
+
+[request.msg-failed-with-code]
+original=Could not read {{subject}}: {{message}} ({{code}})
+translation=No se pudo leer {{subject}}: {{message}} ({{code}})
+
+[request.msg-failed-with-message]
+original=Could not read {{subject}}: {{message}}
+translation=No se pudo leer {{subject}}: {{message}}
+
+[request.msg-failed-with-reported-code]
+original=Could not read {{subject}}. {{service}} reported {{code}}.
+translation=No se pudo leer {{subject}}. {{service}} informó de {{code}}.
+
+[request.msg-failed]
+original=Could not read {{subject}}.
+translation=No se pudo leer {{subject}}.
+
+[template.msg-intro]
+original=Configure how your data should be imported. Use {{syntax}} syntax to reference field values.
+translation=Configurar cómo se deben importar tus datos. Usa la sintaxis {{syntax}} para referenciar valores de campo.
+
+[template.msg-note-template-intro]
+original=Review examples of how your notes will be imported.
+translation=Revisa ejemplos de cómo se importarán tus notas.
+
+[template.name-title]
+original=Note title
+translation=Renombrar archivo
+
+[template.desc-title]
+original=Template for the note title. Use variables like {{field_name}} to insert values.
+translation=Plantilla para el título de la nota. Usa variables como {{field_name}} para insertar valores.
+
+[template.name-location]
+original=Note location
+translation=Ubicación de la nota
+
+[template.desc-location]
+original=Template for note location/path. Use {{field_name}} to organize notes.
+translation=Plantilla para la ubicación/ruta de la nota. Usa {{field_name}} para organizar notas.
+
+[template.name-content]
+original=Note content
+translation=Contenido de la nota
+
+[template.desc-content]
+original=Template for the note content. Use variables like {{field_name}} to insert values.
+translation=Plantilla para el contenido de la nota. Usa variables como {{field_name}} para insertar valores.
+
+[template.name-template-file]
+original=Template
+translation=plantilla
+
+[template.desc-template-file]
+original=Optional. Choose a template from your vault to format the note content. See Help for {{link}}.
+translation=Opcional. Elige una plantilla de tu bóveda para dar formato al contenido de la nota. Consulta la ayuda sobre {{link}}.
+
+[template.link-template-syntax]
+original=template syntax
+translation=la sintaxis de las plantillas
+
+[template.heading-preview]
+original=Preview
+translation=Vista previa
+
+[template.status-loading-preview]
+original=Loading preview...
+translation=Cargando vista previa...
+
+[template.button-edit-template]
+original=Edit
+translation=Editar
+
+[template.button-save-template]
+original=Save
+translation=Guardar
+
+[template.button-reset-template]
+original=Reset to default
+translation=Restablecer a predeterminado
+
+[template.button-start-import]
+original=Start import
+translation=Iniciar importación
+
+[template.link-show-more]
+original=Show more
+translation=Mostrar más
+
+[template.name-template-editor]
+original=Template source
+translation=Fuente de la plantilla
+
+[template.label-edit-import-template]
+original=Edit import template
+translation=Editar plantilla de importación
+
+[template.button-add-property]
+original=Add property
+translation=Añadir propiedad
+
+[template.button-previous-preview]
+original=Previous preview
+translation=Vista previa anterior
+
+[template.button-next-preview]
+original=Next preview
+translation=Vista previa siguiente
+
+[template.msg-diagnostic]
+original=Line {{line}}: {{message}}
+translation=Línea {{line}}: {{message}}
+
+[template.heading-properties]
+original=Properties
+translation=Propiedades
+
+[template.column-property-name]
+original=Property name
+translation=Nombre de la propiedad
+
+[template.column-property-value]
+original=Property value
+translation=Valor de la propiedad
+
+[template.column-example]
+original=Example
+translation=Ejemplo
+
+[template.action-delete-property]
+original=Delete property
+translation=Eliminar propiedad
+
+[template.msg-title-required]
+original=Please provide a note title template.
+translation=Proporciona una plantilla para el título de la nota.
+
+[importer.airtable-api.name]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.option-text]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-id]
+original=Airtable record ID
+translation=ID de registro de Airtable
+
+[importer.airtable-api.name-token]
+original=Airtable personal access token
+translation=Token de acceso personal de Airtable
+
+[importer.airtable-api.desc-token]
+original=Create a personal access token in your Airtable account settings.
+translation=Crea un token de acceso personal en los ajustes de tu cuenta de Airtable.
+
+[importer.airtable-api.link-get-token]
+original=Get token
+translation=Obtener token
+
+[importer.airtable-api.name-tables]
+original=Tables to import
+translation=Tablas a importar
+
+[importer.airtable-api.desc-tables]
+original=Load your Airtable bases and tables, then choose what to import.
+translation=Carga tus bases y tablas de Airtable, luego elige qué importar.
+
+[importer.airtable-api.hint-tables]
+original=Load your Airtable bases and tables to get started.
+translation=Carga tus bases y tablas de Airtable para comenzar.
+
+[importer.airtable-api.msg-fetching-bases]
+original=Fetching bases...
+translation=Obteniendo bases...
+
+[importer.airtable-api.msg-no-bases]
+original=No bases found.
+translation=No se encontraron bases.
+
+[importer.airtable-api.label-service]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-subject]
+original=your bases
+translation=tus bases
+
+[importer.airtable-api.label-credential]
+original=Check that your personal access token is current and has access to them.
+translation=Comprueba que tu token de acceso personal esté vigente y tenga acceso a ellas.
+
+[importer.airtable-api.name-formulas]
+original=Convert formulas
+translation=Convertir fórmulas
+
+[importer.airtable-api.desc-formulas]
+original=Try to convert formulas to Obsidian syntax, or import as static values.
+translation=Intentar convertir fórmulas a sintaxis de Obsidian, o importar como valores estáticos.
+
+[importer.airtable-api.option-formula-hybrid]
+original=Obsidian syntax (with fallback)
+translation=Sintaxis de Obsidian (con respaldo)
+
+[importer.airtable-api.option-formula-static]
+original=Static values only
+translation=Solo valores estáticos
+
+[importer.airtable-api.name-download-attachments]
+original=Download attachments
+translation=Descargar adjuntos
+
+[importer.airtable-api.desc-download-attachments]
+original=Download attachment files to local vault. If disabled or download fails, external URLs will be used.
+translation=Descargar archivos adjuntos a la bóveda local. Si se desactiva o la descarga falla, se usarán URL externas.
+
+[importer.airtable-api.name-view-property]
+original=View property name
+translation=Nombre de la propiedad de vista
+
+[importer.airtable-api.desc-view-property]
+original=Property name to track which views a record belongs to. Each record will have a list of view names it appears in.
+translation=Nombre de la propiedad para rastrear a qué vistas pertenece un registro. Cada registro tendrá una lista de nombres de vistas en las que aparece.
+
+[importer.airtable-api.msg-token-first]
+original=Please enter your Airtable personal access token first.
+translation=Introduce primero tu token de acceso personal de Airtable.
+
+[importer.airtable-api.msg-token-missing]
+original=Please enter your Airtable personal access token.
+translation=Introduce tu token de acceso personal de Airtable.
+
+[importer.airtable-api.msg-load-bases-failed]
+original=Failed to load bases: {{error}}
+translation=Error al cargar las bases: {{error}}
+
+[importer.airtable-api.msg-load-tables-failed]
+original=Failed to load tables for "{{base}}": {{error}}
+translation=Error al cargar las tablas de "{{base}}": {{error}}
+
+[importer.airtable-api.msg-pick-table]
+original=Please select at least one table to import.
+translation=Selecciona al menos una tabla para importar.
+
+[importer.airtable-api.msg-loading-fields]
+original=Loading fields...
+translation=Cargando campos...
+
+[importer.airtable-api.msg-no-fields]
+original=No fields found in selected tables. Please check your selection.
+translation=No se encontraron campos en las tablas seleccionadas. Revisa tu selección.
+
+[importer.airtable-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=Error en la importación: {{error}}
+
+[importer.airtable-api.label-base-position]
+original= (base {{index}} of {{total}})
+translation= (base {{index}} de {{total}})
+
+[importer.airtable-api.label-base]
+original=Base: {{name}}
+translation=Base: {{name}}
+
+[importer.airtable-api.label-linked-table]
+original=Linked table: {{name}}
+translation=Tabla vinculada: {{name}}
+
+[importer.airtable-api.label-table-view]
+original={{table}} > {{view}}
+translation={{table}} > {{view}}
+
+[importer.airtable-api.label-import]
+original=Airtable API import
+translation=Importación mediante API de Airtable
+
+[importer.airtable-api.status-connecting]
+original=Connecting to Airtable API
+translation=Conectando con la API de Airtable
+
+[importer.airtable-api.status-loading-tables]
+original=Loading tables for {{base}}
+translation=Cargando tablas de {{base}}
+
+[importer.airtable-api.status-fetching-tables]
+original=Fetching tables for base {{base}}...
+translation=Obteniendo tablas de la base {{base}}...
+
+[importer.airtable-api.status-found-bases]
+original=Found {{bases}} to import
+translation=Se encontraron {{bases}} para importar
+
+[importer.airtable-api.status-fetching-base]
+original=Fetching data from {{base}}{{position}}
+translation=Obteniendo datos de {{base}}{{position}}
+
+[importer.airtable-api.status-preparing-records]
+original=Preparing records from {{base}}{{position}}
+translation=Preparando registros de {{base}}{{position}}
+
+[importer.airtable-api.status-reading-names]
+original=Reading names from {{table}}{{position}}
+translation=Leyendo nombres de {{table}}{{position}}
+
+[importer.airtable-api.status-planning]
+original=Working out where {{table}}{{position}} goes
+translation=Determinando donde va {{table}}{{position}}
+
+[importer.airtable-api.status-fetching-records]
+original=Fetching records from {{table}}{{position}}
+translation=Obteniendo registros de {{table}}{{position}}
+
+[importer.airtable-api.status-fetched-records]
+original=Fetched {{records}} from {{table}}{{position}}
+translation=Se obtuvieron {{records}} de {{table}}{{position}}
+
+[importer.airtable-api.status-fetching-view]
+original=Fetching view {{view}} from {{table}}{{position}}
+translation=Obteniendo vista {{view}} de {{table}}{{position}}
+
+[importer.airtable-api.status-creating-notes]
+original=Creating notes in {{table}}{{position}}
+translation=Creando notas en {{table}}{{position}}
+
+[importer.airtable-api.status-updating-types]
+original=Updating property types
+translation=Actualizando tipos de propiedad
+
+[importer.airtable-api.status-complete]
+original=Import complete
+translation=Importación completada
+
+[importer.airtable-api.status-rate-limited]
+original=Rate limited, waiting {{seconds}}s (attempt {{attempt}}/{{total}})...
+translation=Límite de peticiones alcanzado, esperando {{seconds}}s (intento {{attempt}}/{{total}})...
+
+[importer.airtable-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}
+translation=Descargando adjunto: {{name}}
+
+[importer.airtable-api.reason-no-record-names]
+original=Could not read record names
+translation=No se pudieron leer los nombres de los registros
+
+[importer.airtable-api.reason-empty-record]
+original=Empty record
+translation=Registro vacío
+
+[importer.airtable-api.desc-no-modified-time]
+original=Airtable does not say when a record last changed, so "{{update}}" compares the note with the record instead. A note you have edited yourself reads as changed, and will be written over.
+translation=Airtable no indica cuándo se modificó un registro por última vez, por lo que "{{update}}" compara la nota con el registro. Una nota que hayas editado manualmente se detectará como cambiada y se sobrescribirá.
+
+[importer.apple-notes.name]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.option-text]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.label-id]
+original=Apple Notes ID
+translation=ID de Apple Notes
+
+[importer.apple-notes.msg-platform]
+original=Due to platform limitations, Apple Notes cannot be exported from this device. Open your vault on a Mac to export from Apple Notes.
+translation=Debido a limitaciones de la plataforma, no se puede exportar Apple Notes desde este dispositivo. Abre tu bóveda en un Mac para exportar desde Apple Notes.
+
+[importer.apple-notes.name-prefix-format]
+original=File prefix format
+translation=Formato de prefijo de archivo
+
+[importer.apple-notes.desc-prefix-format]
+original=Format for the creation date prefix in filenames. Use YYYY, MM, DD for year, month, day. Leave blank for no prefix.
+translation=Formato del prefijo de fecha de creación en los nombres de archivo. Usa YYYY, MM, DD para año, mes, día. Déjalo vacío para no añadir prefijo.
+
+[importer.apple-notes.name-omit-first-line]
+original=Omit first line
+translation=Omitir primera línea
+
+[importer.apple-notes.desc-omit-first-line]
+original=Don't include the first line in the text, since Apple Notes uses it as the title. It will still be used as the note name.
+translation=No incluir la primera línea en el texto, ya que Apple Notes la usa como título. Se seguirá utilizando como nombre de la nota.
+
+[importer.apple-notes.name-handwriting]
+original=Include handwriting text
+translation=Incluir texto manuscrito
+
+[importer.apple-notes.desc-handwriting]
+original=When Apple Notes has detected handwriting in drawings, include it as text before the drawing.
+translation=Cuando Apple Notes haya detectado escritura manuscrita en dibujos, incluirla como texto antes del dibujo.
+
+[importer.apple-notes.name-data-folder]
+original=Apple Notes data folder
+translation=Carpeta de datos de Apple Notes
+
+[importer.apple-notes.desc-data-folder]
+original=macOS only lets Obsidian read your notes once you have pointed it at the folder they are kept in.
+translation=macOS solo permite que Obsidian lea tus notas una vez que le hayas indicado la carpeta en la que se encuentran.
+
+[importer.apple-notes.button-select-folder]
+original=Select folder
+translation=Seleccionar carpeta
+
+[importer.apple-notes.msg-wrong-folder]
+original=Ensure you have selected the correct Apple Notes data folder.
+translation=Asegúrate de haber seleccionado la carpeta de datos de Apple Notes correcta.
+
+[importer.apple-notes.msg-dialog-folder]
+original=Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data.
+translation=Selecciona la carpeta "group.com.apple.notes" para permitir que Obsidian lea los datos de Apple Notes.
+
+[importer.apple-notes.msg-import-failed]
+original=Data import failed. Ensure you have selected the correct Apple Notes data folder.
+translation=Error en la importación de datos. Asegúrate de haber seleccionado la carpeta de datos de Apple Notes correcta.
+
+[importer.apple-notes.msg-pick-folders]
+original=Please select at least one folder to import.
+translation=Selecciona al menos una carpeta para importar.
+
+[importer.apple-notes.name-folders]
+original=Folders to import
+translation=Carpetas a importar
+
+[importer.apple-notes.desc-folders]
+original=Pick the folders whose notes to bring across.
+translation=Elige las carpetas cuyas notas deseas importar.
+
+[importer.apple-notes.msg-no-access]
+original=Allow access to your notes to see the folders in them.
+translation=Permite el acceso a tus notas para ver las carpetas que contienen.
+
+[importer.apple-notes.msg-no-folders]
+original=No folders found.
+translation=No se encontraron carpetas.
+
+[importer.apple-notes.msg-database-busy]
+original=Your Apple Notes database is in use. Quit Notes and try again.
+translation=La base de datos de Apple Notes está en uso. Cierra Notes e inténtalo de nuevo.
+
+[importer.apple-notes.msg-database-unreadable]
+original=Could not open your Apple Notes database. {{hint}}
+translation=No se pudo abrir la base de datos de Apple Notes. {{hint}}
+
+[importer.apple-notes.msg-read-failed-with-detail]
+original=Could not read your notes: {{detail}}
+translation=No se pudieron leer tus notas: {{detail}}
+
+[importer.apple-notes.msg-read-failed]
+original=Could not read your notes.
+translation=No se pudieron leer tus notas.
+
+[importer.apple-notes.reason-password-protected]
+original=note is password protected
+translation=la nota está protegida con contraseña
+
+[importer.apple-notes.reason-duplicate]
+original=note is a duplicate
+translation=la nota es un duplicado
+
+[importer.apple-notes.reason-unchanged]
+original=note unchanged since last import
+translation=la nota no ha cambiado desde la última importación
+
+[importer.apple-notes.reason-attachment-exists]
+original=attachment already exists
+translation=el adjunto ya existe
+
+[importer.apple-notes.reason-attachment-unchanged]
+original=attachment unchanged since last import
+translation=el adjunto no ha cambiado desde la última importación
+
+[importer.apple-notes.reason-not-downloaded]
+original=it has not been downloaded from iCloud - open the note in Apple Notes to fetch it
+translation=no se ha descargado de iCloud; abre la nota en Apple Notes para obtenerla
+
+[importer.apple-notes.label-attachment]
+original=Attachment {{id}}
+translation=Adjunto {{id}}
+
+[importer.apple-notes.reason-no-attachment-row]
+original=no {{uti}} row to read it from
+translation=no hay Fila {{uti}} de la que leerlo
+
+[importer.apple-notes.label-attachment-in-note]
+original={{name}} in {{note}}
+translation={{name}} en {{note}}
+
+[importer.apple-journal.name]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.option-text]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.file-type]
+original=Journal entries
+translation=Entradas de Journal
+
+[importer.apple-journal.desc-files]
+original=Export your entries from the Journal app, then pick the HTML files it wrote to iCloud Drive.
+translation=Exporta tus entradas desde la aplicación Journal app y luego selecciona los archivos HTML que se guardaron en iCloud Drive.
+
+[importer.apple-journal.heading-metadata]
+original=Journal metadata
+translation=Metadatos de Journal
+
+[importer.apple-journal.name-front-matter]
+original=Add metadata as frontmatter
+translation=Añadir metadatos como metadatos iniciales
+
+[importer.apple-journal.desc-front-matter]
+original=Capture state-of-mind, contact, and similar tokens in YAML when available.
+translation=Captura estado de ánimo, contacto y tokens similares en YAML cuando estén disponibles.
+
+[importer.apple-journal.reason-index-file]
+original=index file is not a journal entry
+translation=el archivo de índice no es una entrada de Journal
+
+[importer.bear.name]
+original=Bear
+translation=Bear
+
+[importer.bear.option-text]
+original=Bear (.bear2bk, .zip)
+translation=Bear (.bear2bk, .zip)
+
+[importer.bear.file-type]
+original=Bear backups
+translation=Copias de seguridad de Bear
+
+[importer.bear.label-id]
+original=Bear ID
+translation=ID de Bear
+
+[importer.bear.desc-export]
+original=Back up your notes in Bear and choose the resulting .bear2bk file. On iPhone and iPad, you can also export Application Data and choose its .zip file.
+translation=Haz una copia de seguridad de tus notas en Bear y elige el archivo .bear2bk resultante. En iPhone y iPad, también puedes exportar los datos de la aplicación y elegir su archivo .zip.
+
+[importer.bear.name-tags-property]
+original=Move tags to a property
+translation=Mover etiquetas a una propiedad
+
+[importer.bear.desc-tags-property]
+original=When enabled, tags are taken out of the note and listed in its tags property. Bear keeps tags in the text of a note, and Obsidian reads them there too.
+translation=Cuando está habilitado, las etiquetas se extraen de la nota y se listan en su propiedad de etiquetas. Bear mantiene las etiquetas en el texto de una nota, y Obsidian también las lee allí.
+
+[importer.bear.name-flatten-tags]
+original=Flatten nested tags
+translation=Aplanar etiquetas anidadas
+
+[importer.bear.desc-flatten-tags]
+original=When enabled, tags will be split on slashes (/) during import.
+translation=Cuando está habilitado, las etiquetas se dividirán por barras (/) durante la importación.
+
+[importer.bear.status-importing-asset]
+original=Importing asset {{name}}
+translation=Importando recurso {{name}}
+
+[importer.bear.status-updating-links]
+original=Updating internal links…
+translation=Actualizando enlaces internos…
+
+[importer.bear.reason-unknown-type]
+original=unknown type of file
+translation=tipo de archivo desconocido
+
+[importer.bear.reason-encrypted]
+original=encrypted note
+translation=nota cifrada
+
+[importer.bear.reason-missing-attachment]
+original=the attachment is missing from the export
+translation=el adjunto no se encuentra en la exportación
+
+[importer.csv.name]
+original=CSV
+translation=CSV
+
+[importer.csv.option-text]
+original=CSV (.csv)
+translation=CSV (.csv)
+
+[importer.csv.file-type]
+original=CSV
+translation=CSV
+
+[importer.csv.desc-export]
+original=Export your table as CSV from the app it lives in, such as Excel, Google Sheets, Numbers, Notion, or Airtable.
+translation=Exporta tu tabla como CSV desde la aplicación en la que se encuentra, como Excel, Google Sheets, Numbers, Notion o Airtable.
+
+[importer.csv.name-header-row]
+original=CSV has header row
+translation=El CSV tiene fila de encabezado
+
+[importer.csv.desc-header-row]
+original=If enabled, the first row of the CSV file will be treated as column headers.
+translation=Si está habilitado, la primera fila del archivo CSV se tratará como encabezados de columna.
+
+[importer.csv.name-source-title]
+original=Source title
+translation=Título de la fuente
+
+[importer.csv.desc-source-title]
+original=Creates the {{title}} value used by the final note title template. Use CSV column variables like {{column_name}}.
+translation=Crea el valor {{title}} usado por la plantilla final del título de la nota. Usa variables de columna CSV como {{column_name}}.
+
+[importer.csv.msg-pick-file]
+original=Please pick at least one CSV file to import.
+translation=Selecciona al menos un archivo CSV para importar.
+
+[importer.csv.msg-one-at-a-time]
+original=CSV files must be imported one at a time.
+translation=Los archivos CSV deben importarse de uno en uno.
+
+[importer.csv.msg-no-data]
+original=No data found in {{name}}.
+translation=No se encontraron datos en {{name}}.
+
+[importer.csv.msg-no-configuration]
+original=Configuration is missing.
+translation=Falta la configuración.
+
+[importer.csv.status-parsing]
+original=Parsing {{name}}
+translation=Analizando {{name}}
+
+[importer.csv.status-creating-note]
+original=Creating note: {{title}}
+translation=Creando nota: {{title}}
+
+[importer.csv.label-row]
+original=Row {{number}}
+translation=Fila {{number}}
+
+[importer.csv.reason-empty-title]
+original=Empty title
+translation=Título vacío
+
+[importer.files.name]
+original=Files and folders
+translation=Archivos y carpetas
+
+[importer.files.option-text]
+original=Copy files and folders into your vault
+translation=Copiar archivos y carpetas en tu bóveda
+
+[importer.files.name-source]
+original=Files to copy
+translation=Archivos a copiar
+
+[importer.files.desc-source]
+original=Drop files or folders anywhere in the window to copy them into your vault.
+translation=Soltar archivos o carpetas en cualquier lugar de la ventana para copiarlos en tu bóveda.
+
+[importer.evernote.name]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.option-text]
+original=Evernote (.enex)
+translation=Evernote (.enex)
+
+[importer.evernote.file-type]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.desc-export]
+original=Export your notebooks in ENEX format, you will receive one .enex file per notebook.
+translation=Exporta tus cuadernos en formato ENEX; recibirás un archivo .enex por cada cuaderno.
+
+[importer.evernote.msg-unresolved-links]
+original={{count}} link could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} enlace no pudo vincularse a una nota. Una exportación ENEX no indica a qué nota apunta un enlace, solo el título que mostraba en Evernote, por lo que una nota renombrada desde que se creó el enlace ya no coincide. Obsidian muestra estos como enlaces sin resolver.
+
+[importer.evernote.msg-unresolved-links_plural]
+original={{count}} links could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} enlaces no pudieron vincularse a una nota. Una exportación ENEX no indica a qué nota apunta un enlace, solo el título que mostraba en Evernote, por lo que una nota renombrada desde que se creó el enlace ya no coincide. Obsidian muestra estos como enlaces sin resolver.
+
+[importer.keep.name]
+original=Google Keep
+translation=Google Keep
+
+[importer.keep.option-text]
+original=Google Keep (.zip, .json)
+translation=Google Keep (.zip, .json)
+
+[importer.keep.file-type]
+original=Notes & attachments
+translation=Notas y adjuntos
+
+[importer.keep.desc-export]
+original=Get your Google Keep data from Google Takeout.
+translation=Obtén tus datos de Google Keep desde Google Takeout.
+
+[importer.keep.name-archived]
+original=Import archived notes
+translation=Importar notas archivadas
+
+[importer.keep.desc-archived]
+original=If imported, files archived in Google Keep will be tagged as archived.
+translation=Si se importan, los archivos archivados en Google Keep se etiquetarán como archivados.
+
+[importer.keep.name-deleted]
+original=Import deleted notes
+translation=Importar notas eliminadas
+
+[importer.keep.desc-deleted]
+original=If imported, files deleted in Google Keep will be tagged as deleted. Deleted notes will only exist in your Google export if deleted recently.
+translation=Si se importan, los archivos eliminados en Google Keep se etiquetarán como eliminados. Las notas eliminadas solo estarán en tu exportación de Google si se eliminaron recientemente.
+
+[importer.keep.reason-invalid-json]
+original=Invalid Google Keep JSON
+translation=JSON de Google Keep no válido
+
+[importer.keep.reason-archived]
+original=Archived note
+translation=Nota archivada
+
+[importer.keep.reason-deleted]
+original=Deleted note
+translation=Nota eliminada
+
+[importer.html.name]
+original=HTML files
+translation=Archivos HTML
+
+[importer.html.option-text]
+original=HTML (.html, .zip)
+translation=HTML (.html, .zip)
+
+[importer.html.label-id]
+original=HTML source path
+translation=Ruta de origen HTML
+
+[importer.html.desc-source-identity]
+original=Changing which folder or zip file you choose can change the source path, so existing notes may not be recognized.
+translation=Cambiar la carpeta o el archivo zip que elijas puede modificar la ruta de origen, por lo que es posible que no se reconozcan las notas existentes.
+
+[importer.html.file-type]
+original=HTML
+translation=HTML
+
+[importer.html.desc-export]
+original=Save the pages you want to keep as HTML. If the app they are in has an importer of its own, use that instead: it keeps more of your data.
+translation=Guarda las páginas que quieras conservar como HTML. Si la aplicación en la que se encuentran tiene su propio importador, úsalo en su lugar: conserva más datos.
+
+[importer.html.desc-source]
+original=Choose individual HTML files, whole folders, or zip files. Pages in folders stay organized the same way.
+translation=Elige archivos HTML individuales, carpetas completas o archivos zip. Las páginas en carpetas mantienen la misma organización.
+
+[importer.html.name-extract-main-content]
+original=Extract main content
+translation=Extraer contenido principal
+
+[importer.html.desc-extract-main-content]
+original=Remove navigation, sidebars, footers, and other page clutter.
+translation=Eliminar navegación, barras laterales, pies de página y otros elementos innecesarios.
+
+[importer.html.name-size-limit]
+original=Attachment size limit (MB)
+translation=Límite de tamaño de adjunto (MB)
+
+[importer.html.name-minimum-image-size]
+original=Minimum image size (px)
+translation=Tamaño mínimo de imagen (px)
+
+[importer.html.desc-set-zero-to-disable]
+original=Set 0 to disable.
+translation=Establece 0 para desactivar.
+
+[importer.html.status-downloading]
+original=Downloading attachment for {{name}}
+translation=Descargando adjunto de {{name}}
+
+[importer.markdown.name]
+original=Markdown
+translation=Markdown
+
+[importer.markdown.option-text]
+original=Markdown (.md, .txt, .zip)
+translation=Markdown (.md, .txt, .zip)
+
+[importer.markdown.file-type]
+original=Markdown and text
+translation=Markdown y Texto
+
+[importer.markdown.desc-source]
+original=Choose individual Markdown or text files, whole folders, or zip files. Everything in folders stays organized the same way.
+translation=Elige archivos individuales de Markdown o texto, carpetas enteras o archivos zip. Todo en las carpetas se mantiene organizado de la misma manera.
+
+[importer.markdown.name-standardize-formatting]
+original=Standardize formatting
+translation=Estandarizar formato
+
+[importer.markdown.desc-standardize-formatting]
+original=Use this vault's settings for lists, indentation, and links.
+translation=Usar los ajustes de esta bóveda para listas, sangría y enlaces.
+
+[importer.markdown.name-tags-as-properties]
+original=Convert inline tags to properties
+translation=Convertir etiquetas en línea a propiedades
+
+[importer.markdown.desc-tags-as-properties]
+original=Move tags written in the body of a note into its tags property.
+translation=Mover las etiquetas escritas en el Cuerpo de una nota a su propiedad de etiquetas.
+
+[importer.logseq.name]
+original=Logseq
+translation=Logseq
+
+[importer.logseq.option-text]
+original=Logseq (.md)
+translation=Logseq (.md)
+
+[importer.logseq.label-id]
+original=Logseq source
+translation=Fuente de Logseq
+
+[importer.logseq.desc-instructions]
+original=Read the instructions for importing from Logseq.
+translation=Lee las instrucciones para importar desde Logseq.
+
+[importer.logseq.desc-files]
+original=Choose one graph folder containing pages, journals, and assets.
+translation=Elige una carpeta de grafo que contenga páginas, diarios y recursos.
+
+[importer.logseq.name-use-daily-notes]
+original=Use daily notes settings
+translation=Usar ajustes de Notas diarias
+
+[importer.logseq.desc-use-daily-notes]
+original=Write journals to the configured daily notes folder and filename format.
+translation=Escribir los diarios en la carpeta de Notas diarias configurada y con el formato de nombre de archivo establecido.
+
+[importer.logseq.name-queries]
+original=Keep queries
+translation=Conservar consultas
+
+[importer.logseq.desc-queries]
+original=Obsidian doesn't support Logseq's query format, so queries are imported as code blocks.
+translation=Obsidian no admite el formato de consultas de Logseq, por lo que las consultas se importan como bloques de código.
+
+[importer.logseq.name-flashcards]
+original=Keep flashcards
+translation=Conservar tarjetas de estudio
+
+[importer.logseq.desc-flashcards]
+original=Obsidian doesn't support Logseq's flashcards, so card markers and cloze wrappers are imported as plain text.
+translation=Obsidian no admite las tarjetas de estudio de Logseq, por lo que los marcadores de tarjetas y los envoltorios cloze se importan como texto sin formato.
+
+[importer.logseq.name-time-tracking]
+original=Keep time tracking
+translation=Conservar seguimiento del tiempo
+
+[importer.logseq.desc-time-tracking]
+original=Obsidian doesn't support Logseq's time tracking, so LOGBOOK and CLOCK entries are imported as plain text.
+translation=Obsidian no admite el seguimiento del tiempo de Logseq, por lo que las entradas LOGBOOK y CLOCK se importan como texto sin formato.
+
+[importer.logseq.msg-pick-graph]
+original=Please choose one Logseq graph folder.
+translation=Por favor, elige una carpeta de grafo de Logseq.
+
+[importer.logseq.msg-no-notes]
+original=The selected folder has no Markdown notes under pages or journals.
+translation=La carpeta seleccionada no tiene notas Markdown en pages ni journals.
+
+[importer.logseq.reason-empty-page]
+original=The converted page is empty
+translation=La página convertida está vacía
+
+[importer.logseq.reason-missing-asset]
+original=Referenced by {{name}}, but missing from the graph
+translation=Referenciado por {{name}}, pero no se encuentra en el grafo
+
+[importer.logseq.reason-whiteboards]
+original=Logseq whiteboards are not supported by Obsidian
+translation=Las pizarras de Logseq no son compatibles con Obsidian
+
+[importer.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.option-text]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.method-name]
+original=Microsoft account
+translation=Cuenta de Microsoft
+
+[importer.onenote.method-desc]
+original=Sign into your Microsoft account and import the notebooks that are synced to OneDrive. Requires an internet connection.
+translation=Inicia sesión en tu cuenta de Microsoft e importa los cuadernos sincronizados con OneDrive. Requiere conexión a internet.
+
+[importer.onenote.label-id]
+original=OneNote ID
+translation=ID de OneNote
+
+[importer.onenote.name-incompatible]
+original=Import incompatible attachments
+translation=Importar adjuntos incompatibles
+
+[importer.onenote.desc-incompatible]
+original=Imports incompatible attachments which cannot be embedded in Obsidian, such as .exe files.
+translation=Importa adjuntos incompatibles que no se pueden incrustar en Obsidian, como archivos .exe.
+
+[importer.onenote.name-account]
+original=Microsoft account
+translation=Cuenta de Microsoft
+
+[importer.onenote.desc-sign-in]
+original=Sign in to import your OneNote notebooks.
+translation=Inicia sesión para importar tus cuadernos de OneNote.
+
+[importer.onenote.desc-sign-in-organization]
+original=Sign in to import your OneNote notebooks. A work or school account may need your organization to approve access.
+translation=Inicia sesión para importar tus cuadernos de OneNote. Una cuenta de trabajo o educativa puede requerir que tu organización apruebe el acceso.
+
+[importer.onenote.desc-signed-in]
+original=Signed in as {{name}} ({{email}}).
+translation=Sesión iniciada como {{name}} ({{email}}).
+
+[importer.onenote.button-sign-in]
+original=Sign in
+translation=Iniciar sesión
+
+[importer.onenote.button-sign-out]
+original=Sign out
+translation=Cerrar sesión
+
+[importer.onenote.button-work-account]
+original=Use work or school access
+translation=Usar acceso de trabajo o educativo
+
+[importer.onenote.msg-sign-in-failed]
+original=An error occurred while trying to sign you in.
+translation=Se produjo un error al intentar iniciar sesión.
+
+[importer.onenote.msg-sign-in-details]
+original=Show error details
+translation=Mostrar detalles del error
+
+[importer.onenote.msg-signed-out]
+original=Sign in to see your OneNote notebooks.
+translation=Inicia sesión para ver tus cuadernos de OneNote.
+
+[importer.onenote.msg-please-sign-in]
+original=Please sign in to your Microsoft account.
+translation=Por favor, inicia sesión en tu cuenta de Microsoft.
+
+[importer.onenote.name-sections]
+original=Sections to import
+translation=Secciones a importar
+
+[importer.onenote.desc-sections]
+original=Select a notebook, or sections within it.
+translation=Selecciona un cuaderno o secciones dentro de él.
+
+[importer.onenote.msg-loading-notebooks]
+original=Loading notebooks...
+translation=Cargando cuadernos...
+
+[importer.onenote.msg-no-notebooks]
+original=No notebooks found.
+translation=No se encontraron cuadernos.
+
+[importer.onenote.msg-scope-refused]
+original=OneNote did not grant this sign-in access to your notebooks. Sign out and sign in again to ask for work or school access, which your organization may need to approve.
+translation=OneNote no concedió a este inicio de sesión acceso a tus cuadernos. Cierra sesión e inicia sesión de nuevo para solicitar acceso de trabajo o educativo, que tu organización puede necesitar aprobar.
+
+[importer.onenote.label-service]
+original=OneNote
+translation=OneNote
+
+[importer.onenote.label-subject]
+original=your notebooks
+translation=tus cuadernos
+
+[importer.onenote.label-credential]
+original=Sign out and back in to try again.
+translation=Cierra sesión y vuelve a iniciar sesión para intentarlo de nuevo.
+
+[importer.onenote.status-finding]
+original=Finding notes to import
+translation=Buscando notas para importar
+
+[importer.onenote.status-finding-in]
+original=Finding notes in {{section}}
+translation=Buscando notas en {{section}}
+
+[importer.onenote.status-finding-in-section]
+original=Finding notes in {{section}} (section {{index}} of {{total}})
+translation=Buscando notas en {{section}} (sección {{index}} de {{total}})
+
+[importer.onenote.status-importing-notes]
+original=Importing {{notes}}
+translation=Importando {{notes}}
+
+[importer.onenote.status-downloading]
+original=Downloading attachment {{name}}
+translation=Descargando adjunto {{name}}
+
+[importer.onenote.msg-too-many-errors]
+original=Microsoft OneNote returned too many consecutive errors.
+translation=Microsoft OneNote devolvió demasiados errores consecutivos.
+
+[importer.onenote.label-unknown-page]
+original=<unknown>
+translation=<Desconocido>
+
+[importer.onenote.reason-too-many-failures]
+original=import was canceled (after too many pages failed to load)
+translation=la importación se canceló (tras demasiadas páginas que no se pudieron cargar)
+
+[importer.onenote.label-ink]
+original={{page}} - Ink.svg
+translation={{page}} - Ink.svg
+
+[importer.onenote.label-attachment]
+original=OneNote attachment
+translation=Adjunto de OneNote
+
+[importer.onenote.label-image]
+original=OneNote image
+translation=Imagen de OneNote
+
+[importer.onenote.reason-no-attachment-name]
+original=the attachment did not say what it was called
+translation=el adjunto no indicaba su nombre
+
+[importer.onenote.reason-no-attachment-url]
+original=the attachment did not include a download URL
+translation=el adjunto no incluía una URL de descarga
+
+[importer.onenote.reason-no-image-url]
+original=the image did not include a download URL
+translation=la imagen no incluía una URL de descarga
+
+[importer.onenote-file.name]
+original=Microsoft OneNote (export file)
+translation=Microsoft OneNote (archivo de exportación)
+
+[importer.onenote-file.option-text]
+original=Microsoft OneNote (.one, .onepkg)
+translation=Microsoft OneNote (.one, .onepkg)
+
+[importer.onenote-file.method-name]
+original=File import
+translation=Importar desde archivo
+
+[importer.onenote-file.method-desc]
+original=Import using OneNote export files (.one, .onepkg) from your computer. Requires no account or internet connection, and works for notebooks that were never synced.
+translation=Importa usando archivos de exportación de OneNote (.one, .onepkg) desde tu ordenador. No requiere cuenta ni conexión a internet, y funciona para cuadernos que nunca fueron sincronizados.
+
+[importer.onenote-file.file-type]
+original=OneNote export
+translation=Exportación de OneNote
+
+[importer.onenote-file.label-id]
+original=OneNote ID
+translation=ID de OneNote
+
+[importer.onenote-file.desc-backup-folder]
+original=OneNote for Windows keeps its own backups, and this opens there. Pick the notebooks or sections you want.
+translation=OneNote para Windows guarda sus propias copias de seguridad y esto se abre allí. Elige los cuadernos o secciones que desees.
+
+[importer.onenote-file.desc-export]
+original=In OneNote for Windows, right-click a notebook and export it to save a .onepkg file, or export a single section as .one.
+translation=En OneNote para Windows, haz clic derecho en un cuaderno y expórtalo para guardar un archivo .onepkg, o exporta una sola sección como .one.
+
+[importer.onenote-file.name-sections]
+original=Sections to import
+translation=Secciones a importar
+
+[importer.onenote-file.desc-sections]
+original=Choose which sections to import.
+translation=Elige qué secciones importar.
+
+[importer.onenote-file.msg-loading-sections]
+original=Reading sections…
+translation=Leyendo secciones…
+
+[importer.onenote-file.msg-no-sections]
+original=No sections found in this file.
+translation=No se encontraron secciones en este archivo.
+
+[importer.onenote-file.msg-pick-file-first]
+original=Choose a OneNote file first.
+translation=Elige primero un archivo de OneNote.
+
+[importer.onenote-file.status-reading-section]
+original=Reading {{name}}
+translation=Leyendo {{name}}
+
+[importer.onenote-file.status-importing-section]
+original=Importing {{name}} ({{index}} of {{total}})
+translation=Importando {{name}} ({{index}} de {{total}})
+
+[importer.onenote-file.reason-rights-protected]
+original=the file is rights-protected, and can only be opened by an account with permission to it
+translation=el archivo está protegido por derechos y solo puede ser abierto por una cuenta con permiso
+
+[importer.onenote-file.reason-unsupported]
+original=the file uses a OneNote format this importer cannot read yet
+translation=el archivo usa un formato de OneNote que este importador aún no puede leer
+
+[importer.onenote-file.reason-malformed]
+original=the file does not describe the OneNote structures it claims to
+translation=el archivo no describe las estructuras de OneNote que declara
+
+[importer.onenote-file.reason-too-large]
+original=the file is larger than this importer is willing to expand
+translation=el archivo es más grande de lo que este importador puede expandir
+
+[importer.onenote-file.reason-no-attachment-data]
+original=the attachment held no data
+translation=el adjunto no contenía datos
+
+[importer.notion-api.name]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.option-text]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.method-name]
+original=Notion account (recommended)
+translation=Cuenta de Notion (Recomendado)
+
+[importer.notion-api.method-desc]
+original=Imports your entire workspace, including databases and formulas which are converted to bases. Requires a Notion integration token and an internet connection.
+translation=Importa todo tu espacio de trabajo, incluidas bases de datos y fórmulas que se convierten a bases. Requiere un token de integración de Notion y conexión a internet.
+
+[importer.notion-api.label-id]
+original=Notion ID
+translation=ID de Notion
+
+[importer.notion-api.name-token]
+original=Notion API token
+translation=Token de API de Notion
+
+[importer.notion-api.desc-token]
+original=To get an API token create a connection in Notion and give it access to pages in your workspace.
+translation=Para obtener un token de API, crea una conexión en Notion y dale acceso a las páginas de tu espacio de trabajo.
+
+[importer.notion-api.link-get-token]
+original=Get API token
+translation=Obtener token de API
+
+[importer.notion-api.name-pages]
+original=Pages to import
+translation=Páginas a importar
+
+[importer.notion-api.desc-pages]
+original=Load your Notion pages and databases, then choose what to import. If a page or database is missing, check that your Notion connection has access to it.
+translation=Carga tus páginas y bases de datos de Notion y luego elige qué importar. Si falta una página o base de datos, comprueba que tu conexión de Notion tenga acceso a ella.
+
+[importer.notion-api.hint-pages]
+original=Load your Notion pages and databases to get started.
+translation=Carga tus páginas y bases de datos de Notion para comenzar.
+
+[importer.notion-api.msg-loading-pages]
+original=Loading pages and databases...
+translation=Cargando páginas y bases de datos...
+
+[importer.notion-api.msg-no-pages]
+original=No pages or databases found. Make sure your connection has access to the pages you want to import.
+translation=No se encontraron páginas ni bases de datos. Asegúrate de que tu conexión tenga acceso a las páginas que deseas importar.
+
+[importer.notion-api.label-service]
+original=Notion
+translation=Notion
+
+[importer.notion-api.label-subject]
+original=your pages
+translation=tus páginas
+
+[importer.notion-api.label-credential]
+original=Check that your token is current and that the connection has access to them.
+translation=Comprueba que tu token esté vigente y que la conexión tenga acceso a ellas.
+
+[importer.notion-api.name-formulas]
+original=Convert formulas
+translation=Convertir fórmulas
+
+[importer.notion-api.desc-formulas]
+original=By default Notion formulas are converted to Obsidian syntax. If any Notion syntax is not supported the static values will be saved instead. Alternatively you can import all formulas as static values.
+translation=Por defecto, las fórmulas de Notion se convierten a la sintaxis de Obsidian. Si alguna sintaxis de Notion no es compatible, se guardarán los valores estáticos en su lugar. Alternativamente, puedes importar todas las fórmulas como valores estáticos.
+
+[importer.notion-api.option-formula-hybrid]
+original=Obsidian syntax
+translation=Sintaxis de Obsidian
+
+[importer.notion-api.option-formula-static]
+original=Static values
+translation=Valores estáticos
+
+[importer.notion-api.name-download-external]
+original=Download external attachments
+translation=Descargar adjuntos externos
+
+[importer.notion-api.desc-download-external]
+original=Download external attachments (external URLs) to local files. Notion-hosted files are always downloaded.
+translation=Descargar adjuntos externos (URL externas) como archivos locales. Los archivos alojados en Notion siempre se descargan.
+
+[importer.notion-api.name-single-line-breaks]
+original=Single line breaks
+translation=Saltos de línea simples
+
+[importer.notion-api.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break instead of two. Some blocks (lists, toggles, tables) will still use double line breaks when required for proper Markdown syntax.
+translation=Separar los bloques de Notion con un solo salto de línea en lugar de dos. Algunos bloques (listas, desplegables, tablas) seguirán usando saltos de línea dobles cuando la sintaxis de Markdown lo requiera.
+
+[importer.notion-api.name-cover-property]
+original=Cover property name
+translation=Nombre de la propiedad de portada
+
+[importer.notion-api.desc-cover-property]
+original=Property name for page cover image in YAML frontmatter. 
+translation=Nombre de la propiedad para la imagen de portada de la página en los metadatos iniciales YAML. 
+
+[importer.notion-api.desc-cover-property-conflicts]
+original=Leave as "cover" if you don't have conflicts with existing properties.
+translation=Déjalo como "cover" si no tienes conflictos con propiedades existentes.
+
+[importer.notion-api.name-database-property]
+original=Database property name
+translation=Nombre de la propiedad de base de datos
+
+[importer.notion-api.desc-database-property]
+original=Property name in page frontmatter to link pages to their database .base file (default: "base")
+translation=Nombre de la propiedad en los metadatos iniciales de la página para enlazar páginas con su archivo .base de base de datos (predeterminado: "base")
+
+[importer.notion-api.name-linked-databases]
+original=Import linked databases
+translation=Importar bases de datos enlazadas
+
+[importer.notion-api.desc-linked-databases]
+original=Also import databases that the selected pages link to, so relations become links rather than names. This imports pages you did not select.
+translation=Importar también las bases de datos a las que enlazan las páginas seleccionadas, para que las relaciones se conviertan en enlaces en lugar de nombres. Esto importa páginas que no seleccionaste.
+
+[importer.notion-api.msg-token-first]
+original=Please enter your Notion API token first.
+translation=Primero introduce tu token de API de Notion.
+
+[importer.notion-api.msg-token-missing]
+original=Please enter your Notion API token.
+translation=Introduce tu token de API de Notion.
+
+[importer.notion-api.msg-load-pages-failed]
+original=Failed to load pages: {{error}}
+translation=Error al cargar las páginas: {{error}}
+
+[importer.notion-api.msg-pick-page]
+original=Please select at least one page or database to import.
+translation=Selecciona al menos una página o base de datos para importar.
+
+[importer.notion-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=Error en la importación: {{error}}
+
+[importer.notion-api.status-loading-items]
+original=Loading... ({{items}}, page {{page}})
+translation=Cargando... ({{items}}, página {{page}})
+
+[importer.notion-api.status-connecting]
+original=Connecting to Notion API...
+translation=Conectando con la API de Notion...
+
+[importer.notion-api.status-fetching]
+original=Fetching page content from Notion...
+translation=Obteniendo contenido de páginas de Notion...
+
+[importer.notion-api.status-preparing]
+original=Preparing to import {{items}}...
+translation=Preparando la importación de {{items}}...
+
+[importer.notion-api.status-importing-items]
+original=Importing {{items}}...
+translation=Importando {{items}}...
+
+[importer.notion-api.status-importing-item]
+original=Importing item {{index}}/{{total}}...
+translation=Importando elemento {{index}}/{{total}}...
+
+[importer.notion-api.status-importing-title]
+original=Importing: {{title}}
+translation=Importando: {{title}}
+
+[importer.notion-api.status-relation-links]
+original=Processing relation links...
+translation=Procesando enlaces de relaciones...
+
+[importer.notion-api.status-mention-links]
+original=Processing mention links...
+translation=Procesando enlaces de menciones...
+
+[importer.notion-api.status-synced-blocks]
+original=Processing synced block child references...
+translation=Procesando referencias secundarias de bloques sincronizados...
+
+[importer.notion-api.status-cleaning-ids]
+original=Cleaning up notion-id attributes...
+translation=Limpiando atributos notion-id...
+
+[importer.notion-api.status-done]
+original=Import completed successfully!
+translation=¡Importación completada correctamente!
+
+[importer.notion-api.status-replacing-relations]
+original=Replacing {{placeholders}}...
+translation=Reemplazando {{placeholders}}...
+
+[importer.notion-api.status-replacing-relation-links]
+original=Replacing relation placeholders with wiki links...
+translation=Reemplazando marcadores de relaciones con enlaces wiki...
+
+[importer.notion-api.status-importing-linked-databases]
+original=Importing {{databases}}...
+translation=Importando {{databases}}...
+
+[importer.notion-api.status-importing-unimported]
+original=Importing unimported database {{id}}...
+translation=Importando base de datos no importada {{id}}...
+
+[importer.notion-api.status-replacing-mentions]
+original=Replacing mention placeholders...
+translation=Reemplazando marcadores de menciones...
+
+[importer.notion-api.status-replaced-mentions]
+original=Replaced {{links}} in {{files}}.
+translation=Se reemplazaron {{links}} en {{files}}.
+
+[importer.notion-api.status-replacing-synced]
+original=Replacing synced block child references...
+translation=Reemplazando referencias secundarias de bloques sincronizados...
+
+[importer.notion-api.status-replaced-synced]
+original=Replaced {{references}} in {{files}} (imported {{imported}}).
+translation=Se reemplazaron {{references}} en {{files}} (se importaron {{imported}}).
+
+[importer.notion-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}...
+translation=Descargando adjunto: {{name}}...
+
+[importer.notion-api.status-rate-limited]
+original=Rate limited. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=Límite de velocidad alcanzado. Esperando {{seconds}} segundos antes de reintentar ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying]
+original=Notion returned {{status}}. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=Notion devolvió {{status}}. Esperando {{seconds}} segundos antes de reintentar ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying-attachment]
+original={{name}}: {{failure}}. Retrying in {{seconds}} seconds ({{attempt}}/{{total}})...
+translation={{name}}: {{failure}}. Reintentando en {{seconds}} segundos ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-processing-data-source]
+original=Processing database from data source: {{id}}...
+translation=Procesando base de datos desde la fuente de datos: {{id}}...
+
+[importer.notion-api.status-processing-database]
+original=Processing database: {{title}}...
+translation=Procesando base de datos: {{title}}...
+
+[importer.notion-api.status-found-pages]
+original=Found {{pages}} in database {{title}}
+translation=Se encontraron {{pages}} en la base de datos {{title}}
+
+[importer.notion-api.status-found-templates]
+original=Found {{templates}} in database {{title}}
+translation=Se encontraron {{templates}} en la base de datos {{title}}
+
+[importer.notion-api.status-importing-template]
+original=Importing template: {{name}}...
+translation=Importando plantilla: {{name}}...
+
+[importer.notion-api.label-import]
+original=Notion API import
+translation=Importación de Notion API
+
+[importer.notion-api.label-item]
+original=Import item {{id}}
+translation=Importar elemento {{id}}
+
+[importer.notion-api.label-page]
+original=Page {{id}}
+translation=Página {{id}}
+
+[importer.notion-api.label-page-with-title]
+original=Page: {{title}} ({{id}})
+translation=Página: {{title}} ({{id}})
+
+[importer.notion-api.label-relation-page]
+original=Relation page {{id}}
+translation=Página de relación {{id}}
+
+[importer.notion-api.label-database-with-id]
+original=Database: {{title}} ({{id}})
+translation=Base de datos: {{title}} ({{id}})
+
+[importer.notion-api.label-mention-file]
+original=Mention file {{path}}
+translation=Archivo de mención {{path}}
+
+[importer.notion-api.label-synced-block-file]
+original=Synced block file {{path}}
+translation=Archivo de bloque sincronizado {{path}}
+
+[importer.notion-api.label-attachment]
+original=Attachment: {{name}}
+translation=Adjunto: {{name}}
+
+[importer.notion-api.label-child-page]
+original=Child page: {{title}}
+translation=Página secundaria: {{title}}
+
+[importer.notion-api.label-synced-block]
+original=Synced block: {{name}}
+translation=Bloque sincronizado: {{name}}
+
+[importer.notion-api.label-attachment-image]
+original=Image attachment
+translation=Imagen adjunta
+
+[importer.notion-api.label-attachment-video]
+original=Video attachment
+translation=Vídeo adjunto
+
+[importer.notion-api.label-attachment-audio]
+original=Audio attachment
+translation=Adjunto de audio
+
+[importer.notion-api.label-attachment-file]
+original=File attachment
+translation=Archivo adjunto
+
+[importer.notion-api.label-attachment-pdf]
+original=PDF attachment
+translation=PDF adjunto
+
+[importer.notion-api.label-preview-child-page]
+original=Child page
+translation=Página secundaria
+
+[importer.notion-api.label-preview-database]
+original=Database
+translation=Base de datos
+
+[importer.notion-api.msg-preview-nested-content]
+original=Nested content is not loaded in the preview.
+translation=El contenido anidado no se carga en la vista previa.
+
+[importer.notion-api.msg-preview-content-not-loaded]
+original={{type}} is not loaded in the preview.
+translation={{type}} no se carga en la vista previa.
+
+[importer.notion-api.msg-preview-content-not-loaded-with-caption]
+original={{type}}: {{caption}} is not loaded in the preview.
+translation={{type}}: {{caption}} no se carga en la vista previa.
+
+[importer.notion-api.msg-preview-block-not-expanded]
+original={{type}} is not expanded in the preview.
+translation={{type}} no se expande en la vista previa.
+
+[importer.notion-api.label-fetch-children]
+original=Fetch children for {{context}} {{id}}
+translation=Obtener hijos de {{context}} {{id}}
+
+[importer.notion-api.block-paragraph]
+original=paragraph
+translation=Párrafo
+
+[importer.notion-api.block-bulleted-list-item]
+original=bulleted list item
+translation=elemento de lista con viñetas
+
+[importer.notion-api.block-numbered-list-item]
+original=numbered list item
+translation=elemento de lista numerada
+
+[importer.notion-api.block-todo-item]
+original=to-do item
+translation=elemento de tarea pendiente
+
+[importer.notion-api.block-quote]
+original=quote block
+translation=bloque de cita
+
+[importer.notion-api.block-callout]
+original=callout block
+translation=bloque de recuadro
+
+[importer.notion-api.block-toggle]
+original=toggle block
+translation=bloque desplegable
+
+[importer.notion-api.block-toggleable-heading]
+original=toggleable heading
+translation=encabezado desplegable
+
+[importer.notion-api.block-column]
+original=column
+translation=Columna
+
+[importer.notion-api.block-column-list]
+original=column list
+translation=lista de columnas
+
+[importer.notion-api.block-table]
+original=table
+translation=Tabla
+
+[importer.notion-api.block-generic]
+original=block
+translation=bloque
+
+[importer.notion-api.label-meeting-notes]
+original=Meeting notes: {{name}}
+translation=Notas de reunión: {{name}}
+
+[importer.notion-api.label-meeting-notes-section]
+original=Meeting notes: {{name}} ({{section}})
+translation=Notas de reunión: {{name}} ({{section}})
+
+[importer.notion-api.label-untitled-meeting]
+original=Meeting notes {{id}}
+translation=Notas de reunión {{id}}
+
+[importer.notion-api.section-summary]
+original=summary
+translation=Resumen
+
+[importer.notion-api.section-notes]
+original=notes
+translation=notas
+
+[importer.notion-api.section-transcript]
+original=transcript
+translation=transcripción
+
+[importer.notion-api.label-fetch-children-block]
+original=Fetch children for block {{id}}
+translation=Obtener hijos del bloque {{id}}
+
+[importer.notion-api.reason-not-in-tree]
+original=Item not found in tree
+translation=Elemento no encontrado en el árbol
+
+[importer.notion-api.reason-unknown-type]
+original=Unknown type: {{type}}
+translation=Tipo desconocido: {{type}}
+
+[importer.notion-api.reason-earlier-import]
+original=an earlier import had already written it
+translation=una importación anterior ya lo había escrito
+
+[importer.notion-api.reason-attachment-exists]
+original={{path}} is already in the vault, the same size (incremental import)
+translation={{path}} ya está en la bóveda, con el mismo tamaño (importación incremental)
+
+[importer.notion-api.reason-http-status]
+original=HTTP {{status}}
+translation=HTTP {{status}}
+
+[importer.notion-api.reason-meeting-notes-pending]
+original=Notion has not finished generating them ({{status}})
+translation=Notion aún no ha terminado de generarlas ({{status}})
+
+[importer.notion-api.reason-rate-limit-gave-up]
+original=rate limited, and gave up after {{retries}} retries
+translation=límite de velocidad alcanzado, se abandonó tras {{retries}} reintentos
+
+[importer.notion-api.reason-gave-up]
+original={{reason}}, and gave up after {{retries}} retries
+translation={{reason}}, y se abandonó tras {{retries}} reintentos
+
+[importer.notion-api.reason-kept-link]
+original={{reason}}; kept the link to {{url}}
+translation={{reason}}; se conservó el enlace a {{url}}
+
+[importer.notion.name]
+original=Notion
+translation=Notion
+
+[importer.notion.option-text]
+original=Notion (.zip)
+translation=Notion (.zip)
+
+[importer.notion.method-name]
+original=File import
+translation=Importar archivo
+
+[importer.notion.method-desc]
+original=Imports using a Notion export file (.zip). Requires no API token or internet connection, but does not preserve databases.
+translation=Importa usando un archivo de exportación de Notion (.zip). No requiere token de API ni conexión a internet, pero no conserva las bases de datos.
+
+[importer.notion.file-type]
+original=Exported Notion
+translation=Notion exportado
+
+[importer.notion.label-id]
+original=Notion ID
+translation=ID de Notion
+
+[importer.notion.desc-export]
+original=Export your workspace in HTML format, you will receive a zip file.
+translation=Exporta tu espacio de trabajo en formato HTML, recibirás un archivo zip.
+
+[importer.notion.desc-files]
+original=Pick the zip file Notion sent you.
+translation=Selecciona el archivo zip que te envió Notion.
+
+[importer.notion.name-subfolders]
+original=Save parent pages in subfolders
+translation=Guardar páginas padre en subcarpetas
+
+[importer.notion.desc-subfolders]
+original=Places the parent database pages in the same folder as the nested content.
+translation=Coloca las páginas de la base de datos padre en la misma carpeta que el contenido anidado.
+
+[importer.notion.name-single-line-breaks]
+original=Single line breaks
+translation=Saltos de línea simples
+
+[importer.notion.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break (default is 2).
+translation=Separa los bloques de Notion con un solo salto de línea (el predeterminado es 2).
+
+[importer.notion.msg-unknown-property]
+original=Property "{{property}}" has an unknown type ({{type}}); kept its value as text.
+translation=La propiedad "{{property}}" tiene un tipo Desconocido ({{type}}); se conservó su valor como Texto.
+
+[importer.notion.msg-unparsed-date]
+original=Could not determine the date in property "{{property}}": {{value}}. Kept its value as text.
+translation=No se pudo determinar la Fecha en la propiedad "{{property}}": {{value}}. Se conservó su valor como Texto.
+
+[importer.notion.status-looking]
+original=Looking for files to import
+translation=Buscando archivos para importar
+
+[importer.notion.status-resolving]
+original=Resolving links and de-duplicating files
+translation=Resolviendo enlaces y eliminando archivos duplicados
+
+[importer.notion.status-starting]
+original=Starting import
+translation=Iniciando importación
+
+[importer.notion.msg-markdown-export]
+original=This is a Markdown export. Export your Notion workspace as HTML instead.
+translation=Esta es una exportación Markdown. Exporta tu espacio de trabajo de Notion como HTML en su lugar.
+
+[importer.notion.reason-markdown-export]
+original=it is a Markdown export; export your Notion workspace as HTML instead
+translation=es una exportación en Markdown; exporta tu espacio de trabajo de Notion como HTML en su lugar
+
+[importer.notion.reason-no-page-body]
+original=page body was not found
+translation=no se encontró el cuerpo de la página
+
+[importer.roam-json.name]
+original=Roam Research
+translation=Roam Research
+
+[importer.roam-json.option-text]
+original=Roam Research (.json)
+translation=Roam Research (.json)
+
+[importer.roam-json.file-type]
+original=Roam (.json)
+translation=Roam (.json)
+
+[importer.roam-json.label-id]
+original=Roam UID
+translation=UID de Roam
+
+[importer.roam-json.desc-export]
+original=Export your data in JSON format.
+translation=Exporta tus datos en formato JSON.
+
+[importer.roam-json.desc-files]
+original=Pick the JSON file from your Roam export.
+translation=Selecciona el archivo JSON de tu exportación de Roam.
+
+[importer.roam-json.name-embed-block-references]
+original=Show referenced blocks in place
+translation=Mostrar bloques referenciados en su lugar
+
+[importer.roam-json.desc-embed-block-references]
+original=Roam shows the contents of a referenced block where the reference stands. If enabled, references become embeds rather than links.
+translation=Roam muestra el contenido de un bloque referenciado donde está la referencia. Si está habilitado, las referencias se convierten en incrustaciones en lugar de enlaces.
+
+[importer.roam-json.name-drop-unresolved-references]
+original=Remove references to missing blocks
+translation=Eliminar referencias a bloques inexistentes
+
+[importer.roam-json.desc-drop-unresolved-references]
+original=Some references name a block that is not in the export. If enabled, they are removed; if not, they are kept as Roam wrote them.
+translation=Algunas referencias apuntan a un bloque que no está en la exportación. Si está habilitado, se eliminan; si no, se conservan tal como las escribió Roam.
+
+[importer.roam-json.name-convert-attributes]
+original=Convert attributes to properties
+translation=Convertir atributos en propiedades
+
+[importer.roam-json.desc-convert-attributes]
+original=Convert eligible top-level Roam attributes into Obsidian properties. Referenced attributes remain in the note so links to them keep working.
+translation=Convierte los atributos de nivel superior elegibles de Roam en propiedades de Obsidian. Los atributos referenciados permanecen en la nota para que los enlaces hacia ellos sigan funcionando.
+
+[importer.roam-json.name-tags-as-links]
+original=Convert tags to links
+translation=Convertir etiquetas en enlaces
+
+[importer.roam-json.desc-tags-as-links]
+original=A tag in Roam is a reference to the page of that name. If enabled, "#tag" becomes "[[tag]]".
+translation=Una etiqueta en Roam es una referencia a la página con ese nombre. Si está habilitado, "#tag" se convierte en "[[tag]]".
+
+[importer.roam-json.name-drop-queries]
+original=Remove queries
+translation=Eliminar consultas
+
+[importer.roam-json.desc-drop-queries]
+original=If enabled, queries are removed. If not, a query becomes an Obsidian search that shows its results in the note.
+translation=Si está habilitado, las consultas se eliminan. Si no, una consulta se convierte en una búsqueda de Obsidian que muestra sus resultados en la nota.
+
+[importer.roam-json.reason-empty-title]
+original=Title is empty
+translation=El título está vacío
+
+[importer.roam-json.reason-unexpected-extension]
+original=Unexpected file extension
+translation=Extensión de archivo inesperada
+
+[importer.textbundle.name]
+original=Textbundle files
+translation=Archivos Textbundle
+
+[importer.textbundle.option-text]
+original=Textbundle (.textbundle, .textpack)
+translation=Textbundle (.textbundle, .textpack)
+
+[importer.textbundle.file-type]
+original=Textbundle
+translation=Textbundle
+
+[importer.textbundle.desc-export]
+original=Export your notes as textbundle or textpack, which Agenda, Craft, Taio, Ulysses and Zettlr can all write.
+translation=Exporta tus notas como textbundle o textpack, formatos que Agenda, Craft, Taio, Ulysses y Zettlr pueden generar.
+
+[importer.textbundle.msg-platform]
+original=Due to platform limitations, only textpack and zip files can be imported from this device. Open your vault on a Mac to import textbundle files.
+translation=Debido a limitaciones de la plataforma, solo se pueden importar archivos textpack y zip desde este dispositivo. Abre tu bóveda en un Mac para importar archivos textbundle.
+
+[importer.textbundle.reason-no-markdown]
+original=The textbundle does not contain markdown
+translation=El textbundle no contiene Markdown
+
+[importer.textbundle.reason-not-media]
+original=the file is not a media or markdown file.
+translation=el archivo no es un archivo multimedia o Markdown.
+
+[importer.textbundle.reason-already-exists]
+original=the file already exists.
+translation=el archivo ya existe.
+
+[importer.tomboy.name]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.option-text]
+original=Tomboy/Gnote (.note)
+translation=Tomboy/Gnote (.note)
+
+[importer.tomboy.file-type]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.label-id]
+original=Tomboy ID
+translation=ID de Tomboy
+
+[importer.tomboy.desc-files-mac]
+original=Tomboy notes are typically found in: ~/Library/Application Support/Tomboy
+translation=Las notas de Tomboy se encuentran normalmente en: ~/Library/Application Support/Tomboy
+
+[importer.tomboy.desc-files-windows]
+original=Tomboy notes are typically found in: %APPDATA%\\Tomboy
+translation=Las notas de Tomboy se encuentran normalmente en: %APPDATA%\\Tomboy
+
+[importer.tomboy.desc-files-linux]
+original=Tomboy notes are typically found in: ~/.local/share/tomboy - or GNote: ~/.local/share/gnote
+translation=Las notas de Tomboy se encuentran normalmente en: ~/.local/share/tomboy - o GNote: ~/.local/share/gnote
+
+[importer.tomboy.name-todo]
+original=Convert TODO lists to checkboxes
+translation=Convertir listas TODO en casillas de verificación
+
+[importer.tomboy.desc-todo]
+original=When enabled, lists in notes with "TODO" in the title will be converted to task lists with checkboxes. Strikethrough items will be marked as completed.
+translation=Cuando está habilitado, las listas en notas con "TODO" en el título se convertirán en listas de tareas con casillas de verificación. Los elementos con tachado se marcarán como completados.
+
+[importer.tomboy.name-keep-title]
+original=Keep title in Markdown
+translation=Mantener título en Markdown
+
+[importer.tomboy.desc-keep-title]
+original=Choose whether to keep the note title in the Markdown content. The automatic option keeps titles only when special characters are lost in filename conversion.
+translation=Elegir si mantener el título de la nota en el contenido Markdown. La opción automática mantiene los títulos solo cuando se pierden caracteres especiales en la conversión del nombre de archivo.
+
+[importer.tomboy.option-automatic]
+original=Automatic
+translation=Automático
+
+[importer.tomboy.option-keep-titles]
+original=Keep titles
+translation=Mantener títulos
+
+[importer.tomboy.option-filename-only]
+original=Filename only
+translation=Solo nombre de archivo

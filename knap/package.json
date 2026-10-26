@@ -1,0 +1,123 @@
+{
+	"name": "knap",
+	"version": "0.6.0",
+	"description": "A simple template language that turns data into Markdown.",
+	"keywords": [
+		"markdown",
+		"language",
+		"template",
+		"templating",
+		"obsidian",
+		"cli",
+		"template-engine",
+		"template-language",
+		"knap"
+	],
+	"homepage": "https://knap.md",
+	"bugs": "https://github.com/obsidianmd/knap/issues",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/obsidianmd/knap.git"
+	},
+	"author": "kepano",
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"type": "module",
+	"sideEffects": false,
+	"files": [
+		"dist",
+		"README.md",
+		"CHANGELOG.md",
+		"LICENSE"
+	],
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"bin": {
+		"knap": "./dist/cli.js"
+	},
+	"typesVersions": {
+		"*": {
+			"html": [
+				"dist/html.d.ts"
+			],
+			"prism": [
+				"dist/prism.d.ts"
+			],
+			"codemirror": [
+				"dist/codemirror.d.ts"
+			],
+			"highlightjs": [
+				"dist/highlightjs.d.ts"
+			]
+		}
+	},
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js",
+			"require": "./dist/index.cjs"
+		},
+		"./html": {
+			"types": "./dist/html.d.ts",
+			"import": "./dist/html.js",
+			"require": "./dist/html.cjs"
+		},
+		"./prism": {
+			"types": "./dist/prism.d.ts",
+			"import": "./dist/prism.js",
+			"require": "./dist/prism.cjs"
+		},
+		"./codemirror": {
+			"types": "./dist/codemirror.d.ts",
+			"import": "./dist/codemirror.js",
+			"require": "./dist/codemirror.cjs"
+		},
+		"./highlightjs": {
+			"types": "./dist/highlightjs.d.ts",
+			"import": "./dist/highlightjs.js",
+			"require": "./dist/highlightjs.cjs"
+		}
+	},
+	"scripts": {
+		"editors:build": "node editors/build.mjs",
+		"editors:check": "node editors/build.mjs --check",
+		"build": "tsup",
+		"test": "vitest run",
+		"test:compat": "vitest run tests/portable-compatibility.test.ts",
+		"bench": "vitest bench --run",
+		"typecheck": "tsc --noEmit",
+		"check": "pnpm editors:check && pnpm typecheck && pnpm test && pnpm build",
+		"prepack": "pnpm check"
+	},
+	"engines": {
+		"node": ">=20"
+	},
+	"packageManager": "pnpm@10.20.0",
+	"pnpm": {
+		"overrides": {
+			"tsup>esbuild": "^0.28.1"
+		}
+	},
+	"dependencies": {
+		"dayjs": "^1.11.23"
+	},
+	"devDependencies": {
+		"@codemirror/language": "^6.12.4",
+		"@lezer/highlight": "^1.2.3",
+		"@shikijs/langs": "^4.4.3",
+		"@types/node": "^20.19.43",
+		"@types/prismjs": "^1.26.6",
+		"codemirror": "^5.65.21",
+		"highlight.js": "^11.12.0",
+		"prismjs": "^1.30.0",
+		"tsup": "^8.5.1",
+		"typescript": "^5.9.3",
+		"vitest": "^4.1.11",
+		"vscode-oniguruma": "^2.0.1",
+		"vscode-textmate": "^9.3.2",
+		"yaml": "^2.9.1"
+	}
+}

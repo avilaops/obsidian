@@ -1,0 +1,82 @@
+---
+import { filterDocs } from '../../lib/filter-docs';
+import { logicDocs } from '../../lib/logic-docs';
+
+const syntax = [
+  { title: 'Comments', kind: 'section', category: 'Logic', summary: 'Leave notes in a template that are removed from the output.', href: '/logic#comments', syntax: ['{# comment #}'], searchTerms: ['multiline', 'template comments'] },
+  { title: 'elseif', kind: 'syntax', category: 'Logic', summary: 'Add another conditional branch.', href: '/logic/if#branches' },
+  { title: 'else', kind: 'syntax', category: 'Logic', summary: 'Add a fallback branch.', href: '/logic/if#branches' },
+  { title: 'endif', kind: 'syntax', category: 'Logic', summary: 'Close a conditional block.', href: '/logic/if#branches' },
+  { title: 'contains', kind: 'syntax', category: 'Logic', summary: 'Check a string or array for a value.', href: '/logic#comparison-and-logical-operators' },
+  { title: 'and', kind: 'syntax', category: 'Logic', summary: 'Require both expressions to be true.', href: '/logic#comparison-and-logical-operators' },
+  { title: 'or', kind: 'syntax', category: 'Logic', summary: 'Require either expression to be true.', href: '/logic#comparison-and-logical-operators' },
+  { title: 'not', kind: 'syntax', category: 'Logic', summary: 'Negate an expression.', href: '/logic#comparison-and-logical-operators' },
+  { title: 'True and false', kind: 'section', category: 'Logic', summary: 'See which values count as true or false.', href: '/logic#true-and-false', syntax: ['true', 'false', 'null', 'undefined'] },
+  { title: 'endfor', kind: 'syntax', category: 'Logic', summary: 'Close a loop block.', href: '/logic/for#usage' },
+  { title: 'loop.index', kind: 'syntax', tone: 'variable', category: 'Logic', summary: 'Current loop iteration, starting at 1.', href: '/logic/for#loop-values' },
+  { title: 'loop.index0', kind: 'syntax', tone: 'variable', category: 'Logic', summary: 'Current loop iteration, starting at 0.', href: '/logic/for#loop-values' },
+  { title: 'loop.first', kind: 'syntax', tone: 'variable', category: 'Logic', summary: 'Check whether this is the first loop iteration.', href: '/logic/for#loop-values' },
+  { title: 'loop.last', kind: 'syntax', tone: 'variable', category: 'Logic', summary: 'Check whether this is the last loop iteration.', href: '/logic/for#loop-values' },
+  { title: 'loop.length', kind: 'syntax', tone: 'variable', category: 'Logic', summary: 'Get the total number of loop items.', href: '/logic/for#loop-values' },
+  { title: 'item_index', kind: 'syntax', tone: 'variable', category: 'Logic', summary: 'Get the current item number, starting at 0.', href: '/logic#loop-values' },
+];
+
+const pages = [
+  { title: 'Playground', kind: 'page', category: 'Tool', summary: 'Try Knap templates in your browser with live input and output.', href: '/playground' },
+  { title: 'Variables', kind: 'page', category: 'Guide', summary: 'Variables are defined by apps and provide the data available to a template.', href: '/variables' },
+  { title: 'Logic', kind: 'page', category: 'Guide', summary: 'Include content conditionally, choose fallback values, and repeat Markdown over arrays.', href: '/logic' },
+  { title: 'Filters', kind: 'page', category: 'Guide', summary: 'Transform values before Knap writes them.', href: '/filters' },
+  { title: 'API', kind: 'page', category: 'Reference', summary: 'Install, configure, validate, and render Knap templates.', href: '/api' },
+  { title: 'CLI', kind: 'page', category: 'Reference', summary: 'Render templates in the terminal using JSON, CSV, stdin, and batch file output.', href: '/cli', searchTerms: ['terminal', 'command line', 'npx', 'stdin', 'Defuddle', 'batch', 'CSV', 'folder'] },
+  ...logicDocs.map((doc) => ({
+    title: doc.title,
+    kind: 'syntax',
+    category: 'Logic',
+    summary: doc.summary,
+    href: `/logic/${doc.slug}`,
+    syntax: [doc.syntax],
+    searchTerms: doc.sections.flatMap((section) => [section.title, ...section.notes]),
+  })),
+  ...syntax,
+  ...filterDocs.map((filter) => ({
+    title: filter.name,
+    kind: 'filter',
+    category: filter.category,
+    summary: filter.summary,
+    href: `/filters/${filter.slug}`,
+    aliases: filter.aliases ?? [],
+    searchTerms: filter.searchTerms ?? [],
+    syntax: filter.syntax,
+  })),
+];
+---
+
+<button class="header-action filter-search-trigger" type="button" aria-label="Search documentation" aria-haspopup="dialog" data-search-trigger>
+  <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="11" cy="11" r="8"></circle>
+    <path d="m21 21-4.3-4.3"></path>
+  </svg>
+  <span>Search</span>
+  <kbd>⌘K</kbd>
+</button>
+<div class="command-backdrop" data-search-backdrop hidden>
+  <section class="command-palette" role="dialog" aria-modal="true" aria-label="Search Knap">
+    <header>
+      <span aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.3-4.3"></path>
+        </svg>
+      </span>
+      <input type="search" placeholder="Search documentation…" aria-label="Search documentation" aria-controls="search-results" data-search-input />
+      <button class="command-search-clear" type="button" aria-label="Clear search" data-search-clear hidden>
+        <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 6 6 18"></path>
+          <path d="m6 6 12 12"></path>
+        </svg>
+      </button>
+    </header>
+    <div class="command-results" id="search-results" role="listbox" data-search-results></div>
+  </section>
+</div>
+<script id="search-index" type="application/json" set:html={JSON.stringify(pages)} is:inline />

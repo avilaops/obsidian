@@ -1,0 +1,56 @@
+import { TSESTree } from "@typescript-eslint/utils";
+import { docsUrl, ruleCreator } from "../ruleCreator.js";
+
+const sampleNames = [
+    "MyPlugin",
+    "MyPluginSettings",
+    "SampleSettingTab",
+    "SampleModal",
+    "mySetting",
+];
+
+export default ruleCreator({
+    meta: {
+        docs: {
+            description: "Rename sample plugin class names",
+            url: docsUrl("sample-names"),
+        },
+        type: "problem" as const,
+        messages: {
+            rename: "Rename the sample classes.",
+        },
+        schema: [],
+    },
+    defaultOptions: [],
+    create(context) {
+        return {
+            TSInterfaceDeclaration(node: TSESTree.TSInterfaceDeclaration) {
+                if (sampleNames.includes(node.id.name)) {
+                    context.report({
+                        node: node.id,
+                        messageId: "rename",
+                    });
+                }
+            },
+            ClassDeclaration(node: TSESTree.ClassDeclaration) {
+                if (node.id && sampleNames.includes(node.id.name)) {
+                    context.report({
+                        node: node.id,
+                        messageId: "rename",
+                    });
+                }
+            },
+            PropertySignature(node: TSESTree.TSPropertySignature) {
+                if (
+                    node.key.type === TSESTree.AST_NODE_TYPES.Identifier &&
+                    sampleNames.includes(node.key.name)
+                ) {
+                    context.report({
+                        node: node.key,
+                        messageId: "rename",
+                    });
+                }
+            },
+        };
+    },
+});

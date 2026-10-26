@@ -1,0 +1,145 @@
+---
+import { render } from 'pele';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import DocsNavigation from '../components/DocsNavigation.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import Install from '../components/Install.astro';
+import CodeBlock from '../components/CodeBlock.astro';
+import CopyButton from '../components/CopyButton.astro';
+import PlaygroundLink from '../components/PlaygroundLink.astro';
+import { highlightCode } from '../lib/highlight';
+import { homeExample, themeCss, themeExample } from '../lib/examples';
+import { repositoryUrl } from '../lib/site';
+
+const headings = [
+  { depth: 2, slug: 'how-it-works', text: 'How it works' },
+  { depth: 2, slug: 'why-pele', text: 'Why Pele?' },
+  { depth: 2, slug: 'install-title', text: 'Pele in your app' },
+  { depth: 2, slug: 'explore-title', text: 'Explore' },
+  { depth: 2, slug: 'pele-in-use', text: 'Pele in use' },
+];
+
+// Rendered at build time. Drawing them again in the browser, with its own font measurements,
+// moves everything by a pixel or two as the page loads. An edit redraws with these measurements.
+const draw = (source: string, idPrefix: string): string => {
+  try {
+    return render(source, { idPrefix }).svg;
+  } catch {
+    return '';
+  }
+};
+
+const usage = `import { render } from 'pele';
+
+const { svg } = render(\`flowchart LR
+  A[Mermaid text] --> B[SVG]\`);
+
+document.querySelector('#diagram').innerHTML = svg;`;
+---
+
+<BaseLayout markdownPath="/index.md" description="Pele is a lightweight open source library that renders Mermaid diagrams to SVG, themed with CSS variables.">
+  <main id="top" class="docs-page home-page">
+    <SiteHeader current="introduction" headings={headings} />
+    <div class="docs-layout home-layout">
+      <DocsNavigation class="docs-toc" current="introduction" headings={headings} />
+      <div class="home-content">
+        <section class="hero-shell">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <img class="hero-logo" src="/pele-home.svg" alt="" width="449" height="336" />
+              <h1 class="lede">Pele is a lightweight <a href={repositoryUrl} target="_blank" rel="noopener noreferrer">open source</a> library that renders <a href="https://mermaid.js.org" target="_blank" rel="noopener noreferrer">Mermaid</a> diagrams to SVG, <a href="/theming">themed with CSS variables</a>.</h1>
+            </div>
+          </div>
+        </section>
+
+        <section class="home-example" aria-labelledby="how-it-works">
+          <header class="home-example-heading">
+            <h2 id="how-it-works">How it works</h2>
+          </header>
+          <p class="home-example-description">Write Mermaid syntax, Pele renders it to SVG. Try editing the example below.</p>
+          <div class="home-example-panel">
+            <div class="home-example-block home-example-source" data-code-block data-home-editor="mermaid">
+              <div class="home-example-label"><span>Mermaid</span><span class="doc-code-actions"><CopyButton /></span></div>
+              <pre><code data-language="mermaid" set:html={highlightCode(homeExample, 'mermaid')} /></pre>
+              <div class="home-example-status" id="home-source-status" role="status" aria-atomic="true"></div>
+            </div>
+            <div class="home-example-block">
+              <div class="home-example-label"><span>Pele</span><span class="doc-code-actions"><PlaygroundLink source={homeExample} /></span></div>
+              <figure class="home-example-figure" data-pele-theme="dark" aria-label="Flowchart rendered by Pele" set:html={draw(homeExample, 'home-')} />
+              <div class="home-example-status home-example-time"></div>
+            </div>
+          </div>
+          <p class="home-example-description">Use CSS variables to set colors and fonts. Color changes apply without re-rendering.</p>
+          <div class="home-example-panel">
+            <div class="home-example-block home-example-source" data-code-block data-home-editor="css">
+              <div class="home-example-label"><span>CSS</span><span class="doc-code-actions"><CopyButton /></span></div>
+              <pre><code data-language="css" set:html={highlightCode(themeCss, 'css')} /></pre>
+            </div>
+            <div class="home-example-block home-example-light" data-pele-theme="light">
+              <div class="home-example-label"><span>Pele</span></div>
+              <figure class="home-example-figure" aria-label="Flowchart rendered by Pele in a light theme" set:html={draw(themeExample, 'theme-')} />
+            </div>
+          </div>
+        </section>
+
+        <section class="guide-section" aria-labelledby="why-pele">
+          <header class="guide-heading">
+            <h2 id="why-pele">Why Pele?</h2>
+            <p>Zero dependencies, 6× smaller, and up to 500× faster than Mermaid.js. Pele supports every diagram type built into Mermaid 12.1.0.</p>
+          </header>
+          <div class="table-wrap" role="region" aria-labelledby="why-pele" tabindex="0">
+            <table>
+              <thead><tr><td></td><th scope="col">Pele</th><th scope="col">Mermaid.js</th></tr></thead>
+              <tbody>
+                <tr><td>Bundle size <small class="comparison-detail">gzip</small></td><td>230 kB</td><td>1.6 MB</td></tr>
+                <tr><td>Render time</td><td>0.05–0.3 ms</td><td>6–82 ms</td></tr>
+                <tr><td>Direct dependencies</td><td>0</td><td>23</td></tr>
+                <tr><td>Small screens</td><td>Adapts the layout</td><td>Scales the diagram</td></tr>
+                <tr><td>Theming</td><td>CSS variables</td><td>Theme configuration</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <Install title="Pele in your app">
+          <p slot="description" class="get-started-link">Add Pele to your app using the <a href="/api">API</a>.</p>
+          <p class="install-note">Pass Mermaid syntax to <code>render()</code> and insert the returned SVG into your page.</p>
+          <CodeBlock language="ts" code={usage} />
+        </Install>
+
+        <section class="guide-section" aria-labelledby="explore-title">
+          <header class="guide-heading"><h2 id="explore-title">Explore</h2></header>
+          <nav class="guide-links" aria-label="Documentation">
+            <a class="guide-link-card" href="/examples">
+              <h3>Examples</h3>
+              <p>Browse supported diagram types.</p>
+            </a>
+            <a class="guide-link-card" href="/api">
+              <h3>API</h3>
+              <p>Render diagrams in your app.</p>
+            </a>
+            <a class="guide-link-card" href="/theming">
+              <h3>Theming</h3>
+              <p>Set colors and fonts with CSS variables.</p>
+            </a>
+            <a class="guide-link-card" href="/compatibility">
+              <h3>Compatibility</h3>
+              <p>Compare syntax, layout, and features with Mermaid.</p>
+            </a>
+          </nav>
+        </section>
+
+        <section class="used-by" aria-labelledby="pele-in-use">
+          <header class="used-by-heading"><div><h2 id="pele-in-use">Pele in use</h2></div><p>Pele is <a href={repositoryUrl} target="_blank" rel="noopener noreferrer">open source</a>, developed for <a href="https://obsidian.md" target="_blank" rel="noopener noreferrer">Obsidian</a> to render diagrams quickly and match your theme. It is named after <a href="https://en.wikipedia.org/wiki/Pele_(deity)" target="_blank" rel="noopener noreferrer">Pele</a>, the goddess of volcanoes and fire.</p></header>
+        </section>
+
+        <SiteFooter />
+      </div>
+    </div>
+  </main>
+</BaseLayout>
+
+<script>
+  import '../scripts/home';
+</script>

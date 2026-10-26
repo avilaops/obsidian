@@ -1,0 +1,2499 @@
+[command.import-notes]
+original=Import notes
+translation=Importa notes
+
+[nouns.file-with-count]
+original={{count}} file
+translation={{count}} fitxer
+
+[nouns.file-with-count_plural]
+original={{count}} files
+translation={{count}} fitxers
+
+[nouns.note-with-count]
+original={{count}} note
+translation={{count}} nota
+
+[nouns.note-with-count_plural]
+original={{count}} notes
+translation={{count}} notes
+
+[nouns.item-with-count]
+original={{count}} item
+translation={{count}} element
+
+[nouns.item-with-count_plural]
+original={{count}} items
+translation={{count}} elements
+
+[nouns.record-with-count]
+original={{count}} record
+translation={{count}} registre
+
+[nouns.record-with-count_plural]
+original={{count}} records
+translation={{count}} registres
+
+[nouns.base-with-count]
+original={{count}} base
+translation={{count}} base
+
+[nouns.base-with-count_plural]
+original={{count}} bases
+translation={{count}} bases
+
+[nouns.template-with-count]
+original={{count}} template
+translation={{count}} plantilla
+
+[nouns.template-with-count_plural]
+original={{count}} templates
+translation={{count}} plantilles
+
+[nouns.failure-with-count]
+original={{count}} failure
+translation={{count}} error
+
+[nouns.failure-with-count_plural]
+original={{count}} failures
+translation={{count}} errors
+
+[nouns.second-with-count]
+original={{count}} second
+translation={{count}} segon
+
+[nouns.second-with-count_plural]
+original={{count}} seconds
+translation={{count}} segons
+
+[nouns.relation-placeholder-with-count]
+original={{count}} relation placeholder
+translation={{count}} marcador de relació
+
+[nouns.relation-placeholder-with-count_plural]
+original={{count}} relation placeholders
+translation={{count}} marcadors de relació
+
+[nouns.linked-database-with-count]
+original={{count}} linked database
+translation={{count}} base de dades enllaçada
+
+[nouns.linked-database-with-count_plural]
+original={{count}} linked databases
+translation={{count}} bases de dades enllaçades
+
+[nouns.mention-link-with-count]
+original={{count}} mention link
+translation={{count}} enllaç de menció
+
+[nouns.mention-link-with-count_plural]
+original={{count}} mention links
+translation={{count}} enllaços de menció
+
+[nouns.synced-reference-with-count]
+original={{count}} synced child reference
+translation={{count}} referència filla sincronitzada
+
+[nouns.synced-reference-with-count_plural]
+original={{count}} synced child references
+translation={{count}} referències filles sincronitzades
+
+[nouns.new-item-with-count]
+original={{count}} new item
+translation={{count}} element nou
+
+[nouns.new-item-with-count_plural]
+original={{count}} new items
+translation={{count}} elements nous
+
+[nouns.page-with-count]
+original={{count}} page
+translation={{count}} pàgina
+
+[nouns.page-with-count_plural]
+original={{count}} pages
+translation={{count}} pàgines
+
+[group.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[group.notion.name]
+original=Notion
+translation=Notion
+
+[outliner.name-flatten-outlines]
+original=Flatten outlines
+translation=Aplana els esquemes
+
+[outliner.desc-flatten-outlines]
+original=Convert outlines into paragraphs, headings, and lists.
+translation=Converteix els esquemes en paràgrafs, encapçalaments i llistes.
+
+[modal.title-pick-format]
+original=Import data into Obsidian
+translation=Importa dades a Obsidian
+
+[modal.title-choose-method]
+original=Choose how to import
+translation=Tria com importar
+
+[modal.title-import-from]
+original=Import from {{format}}
+translation=Importa des de {{format}}
+
+[modal.search-placeholder]
+original=Filter...
+translation=Filtre...
+
+[modal.msg-no-formats]
+original=No formats found.
+translation=No s'han trobat formats.
+
+[modal.msg-drop-to-import]
+original=Drop files to import
+translation=Deixa anar fitxers per importar
+
+[modal.button-show-all-formats]
+original=Show all formats
+translation=Mostra-ho tot
+
+[modal.button-continue]
+original=Continue
+translation=Continua
+
+[modal.button-import]
+original=Import
+translation=Importa
+
+[modal.button-back]
+original=Back
+translation=Enrere
+
+[modal.button-help]
+original=Help
+translation=Ajuda
+
+[modal.button-pause]
+original=Pause
+translation=Pausa
+
+[modal.button-resume]
+original=Resume
+translation=Reprendre
+
+[modal.button-stop]
+original=Stop
+translation=Atura
+
+[modal.button-save-report]
+original=Save report
+translation=Desa l'informe
+
+[modal.msg-report-failed]
+original=Could not save the import report.
+translation=No s'ha pogut desar l'informe d'importació.
+
+[modal.button-import-more]
+original=Import more
+translation=Importa més
+
+[modal.button-done]
+original=Done
+translation=Fet
+
+[modal.msg-unexpected-auth]
+original=Unexpected auth event. Please restart the auth process.
+translation=Esdeveniment d'autenticació inesperat. Reinicia el procés d'autenticació.
+
+[progress.stat-imported]
+original=imported
+translation=importats
+
+[progress.stat-attachments]
+original=attachments
+translation=Fitxers adjunts
+
+[progress.stat-remaining]
+original=remaining
+translation=restants
+
+[progress.stat-skipped]
+original=skipped
+translation=Omesos
+
+[progress.stat-failed]
+original=failed
+translation=Fallit
+
+[progress.label-skipped]
+original=Skipped: 
+translation=Omesos: 
+
+[progress.label-failed]
+original=Failed: 
+translation=Ha fallat: 
+
+[progress.label-entry]
+original="{{name}}"
+translation="{{name}}"
+
+[progress.label-entry-with-reason]
+original="{{name}}" because {{reason}}
+translation="{{name}}" perquè {{reason}}
+
+[progress.label-paused]
+original=Paused
+translation=En pausa
+
+[progress.label-paused-with]
+original=Paused - {{status}}
+translation=En pausa - {{status}}
+
+[progress.label-importing]
+original=Importing
+translation=Importació
+
+[progress.label-remaining]
+original={{count}} remaining...
+translation={{count}} restant...
+
+[progress.label-remaining_plural]
+original={{count}} remaining...
+translation={{count}} restants...
+
+[progress.label-paused-remaining]
+original=Paused - {{count}} remaining
+translation=En pausa - {{count}} restant
+
+[progress.label-paused-remaining_plural]
+original=Paused - {{count}} remaining
+translation=En pausa - {{count}} restants
+
+[progress.status-stopping]
+original=Stopping...
+translation=Aturant...
+
+[progress.msg-stopped]
+original=Import stopped.
+translation=Importació aturada.
+
+[progress.msg-errors]
+original=Import finished with errors.
+translation=Importació finalitzada amb errors.
+
+[progress.msg-complete]
+original=Import complete.
+translation=Importació completada.
+
+[progress.msg-imported-count]
+original={{count}} note imported
+translation={{count}} nota importada
+
+[progress.msg-imported-count_plural]
+original={{count}} notes imported
+translation={{count}} notes importades
+
+[progress.msg-click-to-show]
+original={{counts}}. Select to show.
+translation={{counts}}. Selecciona per mostrar.
+
+[progress.status-waiting]
+original=Waiting {{duration}} ({{reason}})
+translation=Esperant {{duration}} ({{reason}})
+
+[progress.status-standardizing]
+original=Standardizing Markdown ({{current}}/{{total}})
+translation=Estandarditzant Markdown ({{current}}/{{total}})
+
+[progress.label-finalization]
+original=Markdown finalization
+translation=Finalització de Markdown
+
+[report.file-name]
+original={{date}} {{importer}} import log
+translation={{date}} registre d'importació de {{importer}}
+
+[report.title]
+original={{importer}} import
+translation=Importació de {{importer}}
+
+[report.msg-finished]
+original=Finished {{when}}. {{counts}}.
+translation=Finalitzat {{when}}. {{counts}}.
+
+[report.msg-stopped]
+original=Stopped {{when}}. {{counts}}.
+translation=Aturat {{when}}. {{counts}}.
+
+[report.heading-failed]
+original=Failed ({{count}})
+translation=Ha fallat ({{count}})
+
+[report.heading-skipped]
+original=Skipped ({{count}})
+translation=Omesos ({{count}})
+
+[report.heading-messages]
+original=Messages
+translation=Missatges
+
+[report.count-notes]
+original={{count}} note imported
+translation={{count}} nota importada
+
+[report.count-notes_plural]
+original={{count}} notes imported
+translation={{count}} notes importades
+
+[report.count-attachments]
+original={{count}} attachment downloaded
+translation={{count}} adjunt descarregat
+
+[report.count-attachments_plural]
+original={{count}} attachments downloaded
+translation={{count}} adjunts descarregats
+
+[report.count-skipped]
+original={{count}} item skipped
+translation={{count}} element omès
+
+[report.count-skipped_plural]
+original={{count}} items skipped
+translation={{count}} elements omesos
+
+[report.count-failed]
+original={{count}} item failed
+translation={{count}} element ha fallat
+
+[report.count-failed_plural]
+original={{count}} items failed
+translation={{count}} elements han fallat
+
+[source.desc]
+original=Drag and drop, or choose files to import.
+translation=Arrossega i deixa anar, o tria fitxers per importar.
+
+[source.desc-choose]
+original=Choose files to import.
+translation=Tria fitxers per importar.
+
+[source.button-choose-file]
+original=Choose file
+translation=Tria fitxer
+
+[source.button-choose-files]
+original=Choose files
+translation=Tria fitxers
+
+[source.button-choose-folders]
+original=Choose folders
+translation=Tria carpetes
+
+[source.dialog-pick-files]
+original=Pick files to import
+translation=Tria fitxers per importar
+
+[source.dialog-pick-folders]
+original=Folders to import
+translation=Carpetes per importar
+
+[source.desc-folders]
+original=Everything in checked folders is imported. Uncheck folders to exclude them.
+translation=Tot el que hi ha a les carpetes marcades s'importarà. Desmarqueu les carpetes per excloure-les.
+
+[source.msg-pick-source-first]
+original=Choose files or folders first.
+translation=Trieu primer fitxers o carpetes.
+
+[source.msg-reading-folders]
+original=Reading folders...
+translation=Lectura de carpetes...
+
+[source.msg-no-folders]
+original=No folders found.
+translation=No s'han trobat carpetes.
+
+[source.msg-android-folder-failed]
+original=Could not choose that folder.
+translation=No s'ha pogut triar aquesta carpeta.
+
+[source.msg-android-folder-read-failed]
+original=Could not read that folder.
+translation=No s'ha pogut llegir aquesta carpeta.
+
+[source.msg-android-folder-unavailable]
+original=Folder selection is unavailable on this device.
+translation=La selecció de carpeta no està disponible en aquest dispositiu.
+
+[source.msg-android-root-folder]
+original=Choose a folder other than the root of your device.
+translation=Tria una carpeta diferent de l'arrel del teu dispositiu.
+
+[source.msg-flat-files]
+original={{count}} file will be imported.
+translation=S'importarà {{count}} fitxer.
+
+[source.msg-flat-files_plural]
+original={{count}} files will be imported.
+translation=S'importaran {{count}} fitxers.
+
+[source.msg-nothing-to-import]
+original=Nothing to import there. Pick {{extensions}} files, or a folder holding some.
+translation=No hi ha res per importar. Tria fitxers {{extensions}}, o una carpeta que en contingui.
+
+[source.msg-will-import]
+original={{files}} will be imported: 
+translation=S'importaran {{files}}: 
+
+[source.msg-more-files]
+original=and {{count}} more file
+translation=i {{count}} més fitxer
+
+[source.msg-more-files_plural]
+original=and {{count}} more files
+translation=i {{count}} més fitxers
+
+[source.button-remove-file]
+original=Remove from the import
+translation=Eliminar de la importació
+
+[output.label-source-id]
+original=source ID
+translation=ID de Font
+
+[output.name-save-source-id]
+original=Save {{label}}
+translation=Desa {{label}}
+
+[output.desc-save-source-id]
+original=Add the {{label}} to note properties so future imports can recognize moved or renamed notes.
+translation=Afegir el {{label}} a les propietats de la nota perquè les importacions futures puguin reconèixer notes mogudes o reanomenades.
+
+[output.name-folder]
+original=Output folder
+translation=Carpeta de sortida
+
+[output.desc-folder]
+original=Where imported notes will be saved. Leave blank to use the top level of the vault.
+translation=On es desaran les notes importades. Deixa-ho en blanc per utilitzar el nivell superior de la cambra forta.
+
+[output.name-template]
+original=Template
+translation=plantilla
+
+[output.desc-template]
+original=Optional Markdown template from this vault. Use variables such as {{title}}, {{content}}, and {{date}}.
+translation=Plantilla Markdown opcional d'aquesta cambra forta. Utilitzeu variables com {{title}}, {{content}} i {{date}}.
+
+[output.placeholder-template]
+original=Templates/Import.md
+translation=Plantilles/Import.md
+
+[output.msg-template-not-found]
+original=Template must be a Markdown file in this vault: {{path}}
+translation=La plantilla ha de ser un fitxer Markdown d'aquesta cambra forta: {{path}}
+
+[output.name-attachments]
+original=Attachment location
+translation=Ubicació dels adjunts
+
+[output.desc-attachments]
+original=Where imported images and files will be saved.
+translation=On es desaran les imatges i fitxers importats.
+
+[output.name-subfolder]
+original=Subfolder name
+translation=Nom de la subcarpeta
+
+[output.desc-subfolder]
+original=Folder to use inside each imported note's folder.
+translation=Carpeta per utilitzar dins de la carpeta de cada nota importada.
+
+[output.name-attachment-folder]
+original=Attachment folder
+translation=Carpeta d'adjunts
+
+[output.desc-attachment-folder]
+original=Folder path from the top level of the vault.
+translation=Ruta de la carpeta des del nivell superior de la cambra forta.
+
+[output.name-duplicates]
+original=Existing notes
+translation=Notes existents
+
+[output.desc-duplicates]
+original=Choose what to do when an imported note matches one in your vault. "{{update}}" skips unchanged notes and preserves newer local edits when modification dates are available.
+translation=Tria què fer quan una nota importada coincideix amb una de la teva cambra forta. "{{update}}" omet les notes sense canvis i conserva les edicions locals més recents quan les dates de modificació estan disponibles.
+
+[output.option-create-copy]
+original=Create a copy
+translation=Crear una còpia
+
+[output.option-skip]
+original=Skip
+translation=Omet
+
+[output.option-update]
+original=Update
+translation=Actualitza
+
+[output.option-attachments-vault]
+original=Vault folder
+translation=Arrel de l'arca
+
+[output.option-attachments-folder]
+original=In the folder specified below
+translation=Dins la carpeta especificada a continuació
+
+[output.option-attachments-note]
+original=Same folder as the note
+translation=Mateixa carpeta que la nota
+
+[output.option-attachments-subfolder]
+original=In subfolder under the note
+translation=En una subcarpeta dins de la nota
+
+[common.msg-pick-file]
+original=Please pick at least one file to import.
+translation=Si us plau, tria almenys un fitxer per importar.
+
+[common.msg-pick-output]
+original=Please select a location to export to.
+translation=Si us plau, selecciona una ubicació on exportar.
+
+[common.msg-pick-import-location]
+original=Please select a location to import your files to.
+translation=Si us plau, selecciona una ubicació on importar els teus fitxers.
+
+[common.msg-unknown-error]
+original=Unknown error
+translation=Error desconegut
+
+[common.name-export]
+original=Export your data
+translation=Exporta les teves dades
+
+[common.label-learn-more]
+original=Learn more
+translation=Aprèn'n més
+
+[common.button-instructions]
+original=Instructions
+translation=Instruccions
+
+[common.button-open]
+original=Open
+translation=Obrir
+
+[common.status-processing]
+original=Processing {{name}}
+translation=Processant {{name}}
+
+[common.status-importing-note]
+original=Importing note {{name}}
+translation=Important la nota {{name}}
+
+[common.status-importing-attachment]
+original=Importing attachment {{name}}
+translation=Important l'adjunt {{name}}
+
+[common.status-cancelled]
+original=Import cancelled
+translation=Importació cancel·lada
+
+[reason.already-in-vault]
+original=it is already in the vault
+translation=ja és a la cambra forta
+
+[reason.unchanged-since-import]
+original=it has not changed since the last import
+translation=no ha canviat des de la darrera importació
+
+[reason.edited-since-import]
+original=it has been edited in Obsidian since the last import
+translation=s'ha editat a Obsidian des de la darrera importació
+
+[reason.file-not-in-vault]
+original=The imported file did not appear in the vault.
+translation=El fitxer importat no ha aparegut a la cambra forta.
+
+[reason.folder-not-created]
+original=Failed to create folder at "{{path}}"
+translation=Ha fallat en crear la carpeta a "{{path}}"
+
+[tree.button-select-all]
+original=Select all
+translation=Selecciona-ho tot
+
+[tree.button-deselect-all]
+original=Deselect all
+translation=Desselecciona-ho tot
+
+[tree.button-load]
+original=Load
+translation=Carrega
+
+[tree.button-loading]
+original=Loading...
+translation=S'està carregant...
+
+[tree.button-refresh]
+original=Refresh
+translation=Actualitza
+
+[tree.placeholder-filter]
+original=Filter...
+translation=Filtre...
+
+[tree.msg-no-matches]
+original=No results found.
+translation=No s'han trobat resultats.
+
+[request.msg-unauthorized]
+original={{service}} did not accept the request for {{subject}}. {{credential}}
+translation={{service}} no ha acceptat la sol·licitud per a {{subject}}. {{credential}}
+
+[request.msg-forbidden]
+original={{service}} would not give access to {{subject}}. {{credential}}
+translation={{service}} no ha concedit accés a {{subject}}. {{credential}}
+
+[request.msg-not-found]
+original={{service}} could not find {{subject}}.
+translation={{service}} no ha pogut trobar {{subject}}.
+
+[request.msg-rate-limited]
+original={{service}} is limiting how fast {{subject}} can be read. Wait a few minutes and try again.
+translation={{service}} està limitant la velocitat de lectura de {{subject}}. Espereu uns minuts i torneu-ho a provar.
+
+[request.msg-timed-out]
+original={{service}} took too long to return {{subject}}. Try again shortly.
+translation={{service}} ha trigat massa a retornar {{subject}}. Torneu-ho a provar d'aquí a poc.
+
+[request.msg-unavailable]
+original={{service}} could not return {{subject}} right now. Try again shortly.
+translation={{service}} no ha pogut retornar {{subject}} ara mateix. Torneu-ho a provar d'aquí a poc.
+
+[request.msg-failed-with-code]
+original=Could not read {{subject}}: {{message}} ({{code}})
+translation=No s'ha pogut llegir {{subject}}: {{message}} ({{code}})
+
+[request.msg-failed-with-message]
+original=Could not read {{subject}}: {{message}}
+translation=No s'ha pogut llegir {{subject}}: {{message}}
+
+[request.msg-failed-with-reported-code]
+original=Could not read {{subject}}. {{service}} reported {{code}}.
+translation=No s'ha pogut llegir {{subject}}. {{service}} ha informat del codi {{code}}.
+
+[request.msg-failed]
+original=Could not read {{subject}}.
+translation=No s'ha pogut llegir {{subject}}.
+
+[template.msg-intro]
+original=Configure how your data should be imported. Use {{syntax}} syntax to reference field values.
+translation=Configurar com s'han d'importar les dades. Utilitzeu la sintaxi {{syntax}} per fer referència als valors dels camps.
+
+[template.msg-note-template-intro]
+original=Review examples of how your notes will be imported.
+translation=Reviseu exemples de com s'importaran les vostres notes.
+
+[template.name-title]
+original=Note title
+translation=Canvia el nom de l'arxiu
+
+[template.desc-title]
+original=Template for the note title. Use variables like {{field_name}} to insert values.
+translation=Plantilla per al títol de la nota. Utilitzeu variables com {{field_name}} per inserir valors.
+
+[template.name-location]
+original=Note location
+translation=Ubicació de la nota
+
+[template.desc-location]
+original=Template for note location/path. Use {{field_name}} to organize notes.
+translation=Plantilla per a la ubicació/ruta de la nota. Utilitzeu {{field_name}} per organitzar les notes.
+
+[template.name-content]
+original=Note content
+translation=Contingut de la nota
+
+[template.desc-content]
+original=Template for the note content. Use variables like {{field_name}} to insert values.
+translation=Plantilla per al contingut de la nota. Utilitzeu variables com {{field_name}} per inserir valors.
+
+[template.name-template-file]
+original=Template
+translation=plantilla
+
+[template.desc-template-file]
+original=Optional. Choose a template from your vault to format the note content. See Help for {{link}}.
+translation=Opcional. Tria una plantilla de la teva cambra forta per donar format al contingut de la nota. Consulta l'ajuda per a {{link}}.
+
+[template.link-template-syntax]
+original=template syntax
+translation=la sintaxi de les plantilles
+
+[template.heading-preview]
+original=Preview
+translation=Previsualitza
+
+[template.status-loading-preview]
+original=Loading preview...
+translation=Carregant previsualització...
+
+[template.button-edit-template]
+original=Edit
+translation=Edita
+
+[template.button-save-template]
+original=Save
+translation=Desa
+
+[template.button-reset-template]
+original=Reset to default
+translation=Restableix per defecte
+
+[template.button-start-import]
+original=Start import
+translation=Inicia la importació
+
+[template.link-show-more]
+original=Show more
+translation=Mostra'n més
+
+[template.name-template-editor]
+original=Template source
+translation=Font de la plantilla
+
+[template.label-edit-import-template]
+original=Edit import template
+translation=Edita la plantilla d'importació
+
+[template.button-add-property]
+original=Add property
+translation=Afegir propietat
+
+[template.button-previous-preview]
+original=Previous preview
+translation=Previsualització anterior
+
+[template.button-next-preview]
+original=Next preview
+translation=Previsualització següent
+
+[template.msg-diagnostic]
+original=Line {{line}}: {{message}}
+translation=Línia {{line}}: {{message}}
+
+[template.heading-properties]
+original=Properties
+translation=Propietats
+
+[template.column-property-name]
+original=Property name
+translation=Nom de la propietat
+
+[template.column-property-value]
+original=Property value
+translation=Valor de la propietat
+
+[template.column-example]
+original=Example
+translation=Exemple
+
+[template.action-delete-property]
+original=Delete property
+translation=Suprimeix la propietat
+
+[template.msg-title-required]
+original=Please provide a note title template.
+translation=Proporcioneu una plantilla per al títol de la nota.
+
+[importer.airtable-api.name]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.option-text]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-id]
+original=Airtable record ID
+translation=ID del registre d'Airtable
+
+[importer.airtable-api.name-token]
+original=Airtable personal access token
+translation=Token d'accés personal d'Airtable
+
+[importer.airtable-api.desc-token]
+original=Create a personal access token in your Airtable account settings.
+translation=Crea un testimoni d'accés personal a la configuració del teu compte d'Airtable.
+
+[importer.airtable-api.link-get-token]
+original=Get token
+translation=Obtenir token
+
+[importer.airtable-api.name-tables]
+original=Tables to import
+translation=Taules a importar
+
+[importer.airtable-api.desc-tables]
+original=Load your Airtable bases and tables, then choose what to import.
+translation=Carregueu les vostres bases i taules d'Airtable i trieu què importar.
+
+[importer.airtable-api.hint-tables]
+original=Load your Airtable bases and tables to get started.
+translation=Carregueu les vostres bases i taules d'Airtable per començar.
+
+[importer.airtable-api.msg-fetching-bases]
+original=Fetching bases...
+translation=S'estan recuperant les bases...
+
+[importer.airtable-api.msg-no-bases]
+original=No bases found.
+translation=No s'ha trobat cap base.
+
+[importer.airtable-api.label-service]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-subject]
+original=your bases
+translation=les vostres bases
+
+[importer.airtable-api.label-credential]
+original=Check that your personal access token is current and has access to them.
+translation=Comproveu que el vostre token d'accés personal sigui vigent i tingui accés.
+
+[importer.airtable-api.name-formulas]
+original=Convert formulas
+translation=Convertir fórmules
+
+[importer.airtable-api.desc-formulas]
+original=Try to convert formulas to Obsidian syntax, or import as static values.
+translation=Intentar convertir les fórmules a la sintaxi d'Obsidian o importar-les com a valors estàtics.
+
+[importer.airtable-api.option-formula-hybrid]
+original=Obsidian syntax (with fallback)
+translation=Sintaxi d'Obsidian (amb alternativa)
+
+[importer.airtable-api.option-formula-static]
+original=Static values only
+translation=Només valors estàtics
+
+[importer.airtable-api.name-download-attachments]
+original=Download attachments
+translation=Descarrega adjunts
+
+[importer.airtable-api.desc-download-attachments]
+original=Download attachment files to local vault. If disabled or download fails, external URLs will be used.
+translation=Baixa els fitxers adjunts a la cambra forta local. Si es desactiva o la baixada falla, s'utilitzaran URL externs.
+
+[importer.airtable-api.name-view-property]
+original=View property name
+translation=Nom de la propietat de vista
+
+[importer.airtable-api.desc-view-property]
+original=Property name to track which views a record belongs to. Each record will have a list of view names it appears in.
+translation=Nom de la propietat per fer seguiment de les vistes a les quals pertany un registre. Cada registre tindrà una llista dels noms de les vistes on apareix.
+
+[importer.airtable-api.msg-token-first]
+original=Please enter your Airtable personal access token first.
+translation=Introduïu primer el vostre token d'accés personal d'Airtable.
+
+[importer.airtable-api.msg-token-missing]
+original=Please enter your Airtable personal access token.
+translation=Introduïu el vostre token d'accés personal d'Airtable.
+
+[importer.airtable-api.msg-load-bases-failed]
+original=Failed to load bases: {{error}}
+translation=Ha fallat la càrrega de bases: {{error}}
+
+[importer.airtable-api.msg-load-tables-failed]
+original=Failed to load tables for "{{base}}": {{error}}
+translation=Ha fallat la càrrega de taules per a «{{base}}»: {{error}}
+
+[importer.airtable-api.msg-pick-table]
+original=Please select at least one table to import.
+translation=Seleccioneu almenys una taula per importar.
+
+[importer.airtable-api.msg-loading-fields]
+original=Loading fields...
+translation=Carregant camps...
+
+[importer.airtable-api.msg-no-fields]
+original=No fields found in selected tables. Please check your selection.
+translation=No s'han trobat camps a les taules seleccionades. Reviseu la vostra selecció.
+
+[importer.airtable-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=Ha fallat la importació: {{error}}
+
+[importer.airtable-api.label-base-position]
+original= (base {{index}} of {{total}})
+translation= (base {{index}} de {{total}})
+
+[importer.airtable-api.label-base]
+original=Base: {{name}}
+translation=Base: {{name}}
+
+[importer.airtable-api.label-linked-table]
+original=Linked table: {{name}}
+translation=Taula enllaçada: {{name}}
+
+[importer.airtable-api.label-table-view]
+original={{table}} > {{view}}
+translation={{table}} > {{view}}
+
+[importer.airtable-api.label-import]
+original=Airtable API import
+translation=Importació de l'API d'Airtable
+
+[importer.airtable-api.status-connecting]
+original=Connecting to Airtable API
+translation=Connectant a l'API d'Airtable
+
+[importer.airtable-api.status-loading-tables]
+original=Loading tables for {{base}}
+translation=Carregant taules per a {{base}}
+
+[importer.airtable-api.status-fetching-tables]
+original=Fetching tables for base {{base}}...
+translation=Obtenint taules per a la base {{base}}...
+
+[importer.airtable-api.status-found-bases]
+original=Found {{bases}} to import
+translation=S'han trobat {{bases}} per importar
+
+[importer.airtable-api.status-fetching-base]
+original=Fetching data from {{base}}{{position}}
+translation=Obtenint dades de {{base}}{{position}}
+
+[importer.airtable-api.status-preparing-records]
+original=Preparing records from {{base}}{{position}}
+translation=Preparant registres de {{base}}{{position}}
+
+[importer.airtable-api.status-reading-names]
+original=Reading names from {{table}}{{position}}
+translation=Lectura de noms de {{table}}{{position}}
+
+[importer.airtable-api.status-planning]
+original=Working out where {{table}}{{position}} goes
+translation=Determinant on va {{table}}{{position}}
+
+[importer.airtable-api.status-fetching-records]
+original=Fetching records from {{table}}{{position}}
+translation=Obtenint registres de {{table}}{{position}}
+
+[importer.airtable-api.status-fetched-records]
+original=Fetched {{records}} from {{table}}{{position}}
+translation=S'han obtingut {{records}} de {{table}}{{position}}
+
+[importer.airtable-api.status-fetching-view]
+original=Fetching view {{view}} from {{table}}{{position}}
+translation=Obtenint la vista {{view}} de {{table}}{{position}}
+
+[importer.airtable-api.status-creating-notes]
+original=Creating notes in {{table}}{{position}}
+translation=Creant notes a {{table}}{{position}}
+
+[importer.airtable-api.status-updating-types]
+original=Updating property types
+translation=Actualitzant els tipus de propietat
+
+[importer.airtable-api.status-complete]
+original=Import complete
+translation=Importació completada
+
+[importer.airtable-api.status-rate-limited]
+original=Rate limited, waiting {{seconds}}s (attempt {{attempt}}/{{total}})...
+translation=Límit de peticions, esperant {{seconds}}s (intent {{attempt}}/{{total}})...
+
+[importer.airtable-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}
+translation=Descarregant adjunt: {{name}}
+
+[importer.airtable-api.reason-no-record-names]
+original=Could not read record names
+translation=No s'han pogut llegir els noms dels registres
+
+[importer.airtable-api.reason-empty-record]
+original=Empty record
+translation=Registre buit
+
+[importer.airtable-api.desc-no-modified-time]
+original=Airtable does not say when a record last changed, so "{{update}}" compares the note with the record instead. A note you have edited yourself reads as changed, and will be written over.
+translation=Airtable no indica quan un registre ha canviat per última vegada, de manera que "{{update}}" compara la nota amb el registre. Una nota que hàgiu editat vosaltres es llegirà com a canviada i se sobreescriurà.
+
+[importer.apple-notes.name]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.option-text]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.label-id]
+original=Apple Notes ID
+translation=ID d'Apple Notes
+
+[importer.apple-notes.msg-platform]
+original=Due to platform limitations, Apple Notes cannot be exported from this device. Open your vault on a Mac to export from Apple Notes.
+translation=A causa de limitacions de la plataforma, Apple Notes no es pot exportar des d'aquest dispositiu. Obriu la vostra cambra forta en un Mac per exportar des d'Apple Notes.
+
+[importer.apple-notes.name-prefix-format]
+original=File prefix format
+translation=Format del prefix del fitxer
+
+[importer.apple-notes.desc-prefix-format]
+original=Format for the creation date prefix in filenames. Use YYYY, MM, DD for year, month, day. Leave blank for no prefix.
+translation=Format del prefix de data de creació als noms de fitxer. Utilitzeu YYYY, MM, DD per a any, mes, dia. Deixeu-ho en blanc per no afegir prefix.
+
+[importer.apple-notes.name-omit-first-line]
+original=Omit first line
+translation=Omet la primera línia
+
+[importer.apple-notes.desc-omit-first-line]
+original=Don't include the first line in the text, since Apple Notes uses it as the title. It will still be used as the note name.
+translation=No incloguis la primera línia al text, ja que Apple Notes la utilitza com a títol. Encara s'utilitzarà com a nom de la nota.
+
+[importer.apple-notes.name-handwriting]
+original=Include handwriting text
+translation=Inclou el text manuscrit
+
+[importer.apple-notes.desc-handwriting]
+original=When Apple Notes has detected handwriting in drawings, include it as text before the drawing.
+translation=Quan Apple Notes hagi detectat escriptura a mà als dibuixos, inclou-la com a text abans del dibuix.
+
+[importer.apple-notes.name-data-folder]
+original=Apple Notes data folder
+translation=Carpeta de dades d'Apple Notes
+
+[importer.apple-notes.desc-data-folder]
+original=macOS only lets Obsidian read your notes once you have pointed it at the folder they are kept in.
+translation=macOS només permet que Obsidian llegeixi les teves notes un cop li has indicat la carpeta on es troben.
+
+[importer.apple-notes.button-select-folder]
+original=Select folder
+translation=Selecciona la carpeta
+
+[importer.apple-notes.msg-wrong-folder]
+original=Ensure you have selected the correct Apple Notes data folder.
+translation=Assegura't d'haver seleccionat la carpeta de dades d'Apple Notes correcta.
+
+[importer.apple-notes.msg-dialog-folder]
+original=Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data.
+translation=Selecciona la carpeta "group.com.apple.notes" per permetre que Obsidian llegeixi les dades d'Apple Notes.
+
+[importer.apple-notes.msg-import-failed]
+original=Data import failed. Ensure you have selected the correct Apple Notes data folder.
+translation=La importació de dades ha fallat. Assegura't d'haver seleccionat la carpeta de dades d'Apple Notes correcta.
+
+[importer.apple-notes.msg-pick-folders]
+original=Please select at least one folder to import.
+translation=Si us plau, selecciona com a mínim una carpeta per importar.
+
+[importer.apple-notes.name-folders]
+original=Folders to import
+translation=Carpetes per importar
+
+[importer.apple-notes.desc-folders]
+original=Pick the folders whose notes to bring across.
+translation=Tria les carpetes les notes de les quals vols importar.
+
+[importer.apple-notes.msg-no-access]
+original=Allow access to your notes to see the folders in them.
+translation=Permet l'accés a les teves notes per veure'n les carpetes.
+
+[importer.apple-notes.msg-no-folders]
+original=No folders found.
+translation=No s'han trobat carpetes.
+
+[importer.apple-notes.msg-database-busy]
+original=Your Apple Notes database is in use. Quit Notes and try again.
+translation=La base de dades d'Apple Notes està en ús. Tanca Notes i torna-ho a provar.
+
+[importer.apple-notes.msg-database-unreadable]
+original=Could not open your Apple Notes database. {{hint}}
+translation=No s'ha pogut obrir la base de dades d'Apple Notes. {{hint}}
+
+[importer.apple-notes.msg-read-failed-with-detail]
+original=Could not read your notes: {{detail}}
+translation=No s'han pogut llegir les teves notes: {{detail}}
+
+[importer.apple-notes.msg-read-failed]
+original=Could not read your notes.
+translation=No s'han pogut llegir les teves notes.
+
+[importer.apple-notes.reason-password-protected]
+original=note is password protected
+translation=la nota està protegida amb contrasenya
+
+[importer.apple-notes.reason-duplicate]
+original=note is a duplicate
+translation=la nota és un duplicat
+
+[importer.apple-notes.reason-unchanged]
+original=note unchanged since last import
+translation=la nota no ha canviat des de la darrera importació
+
+[importer.apple-notes.reason-attachment-exists]
+original=attachment already exists
+translation=l'adjunt ja existeix
+
+[importer.apple-notes.reason-attachment-unchanged]
+original=attachment unchanged since last import
+translation=l'adjunt no ha canviat des de la darrera importació
+
+[importer.apple-notes.reason-not-downloaded]
+original=it has not been downloaded from iCloud - open the note in Apple Notes to fetch it
+translation=no s'ha descarregat d'iCloud; obre la nota a Apple Notes per obtenir-la
+
+[importer.apple-notes.label-attachment]
+original=Attachment {{id}}
+translation=Adjunt {{id}}
+
+[importer.apple-notes.reason-no-attachment-row]
+original=no {{uti}} row to read it from
+translation=no hi ha cap fila {{uti}} d'on llegir-lo
+
+[importer.apple-notes.label-attachment-in-note]
+original={{name}} in {{note}}
+translation={{name}} a {{note}}
+
+[importer.apple-journal.name]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.option-text]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.file-type]
+original=Journal entries
+translation=Entrades de Journal
+
+[importer.apple-journal.desc-files]
+original=Export your entries from the Journal app, then pick the HTML files it wrote to iCloud Drive.
+translation=Exporta les teves entrades de l'aplicació Journal app i, a continuació, tria els fitxers HTML que ha escrit a iCloud Drive.
+
+[importer.apple-journal.heading-metadata]
+original=Journal metadata
+translation=Metadades de Journal
+
+[importer.apple-journal.name-front-matter]
+original=Add metadata as frontmatter
+translation=Afegir metadades com a metadades inicials
+
+[importer.apple-journal.desc-front-matter]
+original=Capture state-of-mind, contact, and similar tokens in YAML when available.
+translation=Captura l'estat d'ànim, contacte i tokens similars en YAML quan estiguin disponibles.
+
+[importer.apple-journal.reason-index-file]
+original=index file is not a journal entry
+translation=el fitxer d'índex no és una entrada de Journal
+
+[importer.bear.name]
+original=Bear
+translation=Bear
+
+[importer.bear.option-text]
+original=Bear (.bear2bk, .zip)
+translation=Bear (.bear2bk, .zip)
+
+[importer.bear.file-type]
+original=Bear backups
+translation=Còpies de seguretat de Bear
+
+[importer.bear.label-id]
+original=Bear ID
+translation=ID de Bear
+
+[importer.bear.desc-export]
+original=Back up your notes in Bear and choose the resulting .bear2bk file. On iPhone and iPad, you can also export Application Data and choose its .zip file.
+translation=Feu una còpia de seguretat de les vostres notes a Bear i trieu el fitxer .bear2bk resultant. A l'iPhone i l'iPad, també podeu exportar les dades de l'aplicació i triar el fitxer .zip corresponent.
+
+[importer.bear.name-tags-property]
+original=Move tags to a property
+translation=Mou les etiquetes a una propietat
+
+[importer.bear.desc-tags-property]
+original=When enabled, tags are taken out of the note and listed in its tags property. Bear keeps tags in the text of a note, and Obsidian reads them there too.
+translation=Quan està activat, les etiquetes s'extreuen de la nota i es llisten a la seva propietat d'Etiquetes. Bear manté les etiquetes al text de la nota, i Obsidian també les llegeix allà.
+
+[importer.bear.name-flatten-tags]
+original=Flatten nested tags
+translation=Aplanar etiquetes imbricades
+
+[importer.bear.desc-flatten-tags]
+original=When enabled, tags will be split on slashes (/) during import.
+translation=Quan està activat, les etiquetes es dividiran per les barres (/) durant la importació.
+
+[importer.bear.status-importing-asset]
+original=Importing asset {{name}}
+translation=S'està important el recurs {{name}}
+
+[importer.bear.status-updating-links]
+original=Updating internal links…
+translation=Actualitzant els enllaços interns…
+
+[importer.bear.reason-unknown-type]
+original=unknown type of file
+translation=tipus de fitxer desconegut
+
+[importer.bear.reason-encrypted]
+original=encrypted note
+translation=nota xifrada
+
+[importer.bear.reason-missing-attachment]
+original=the attachment is missing from the export
+translation=l'adjunt no es troba a l'exportació
+
+[importer.csv.name]
+original=CSV
+translation=CSV
+
+[importer.csv.option-text]
+original=CSV (.csv)
+translation=CSV (.csv)
+
+[importer.csv.file-type]
+original=CSV
+translation=CSV
+
+[importer.csv.desc-export]
+original=Export your table as CSV from the app it lives in, such as Excel, Google Sheets, Numbers, Notion, or Airtable.
+translation=Exporta la teva taula com a CSV des de l'aplicació on es troba, com ara Excel, Google Sheets, Numbers, Notion o Airtable.
+
+[importer.csv.name-header-row]
+original=CSV has header row
+translation=El CSV té una fila de capçalera
+
+[importer.csv.desc-header-row]
+original=If enabled, the first row of the CSV file will be treated as column headers.
+translation=Si està activat, la primera fila del fitxer CSV es tractarà com a capçaleres de columna.
+
+[importer.csv.name-source-title]
+original=Source title
+translation=Títol de la font
+
+[importer.csv.desc-source-title]
+original=Creates the {{title}} value used by the final note title template. Use CSV column variables like {{column_name}}.
+translation=Crea el valor {{title}} utilitzat per la plantilla final del títol de la nota. Utilitzeu variables de columna CSV com {{column_name}}.
+
+[importer.csv.msg-pick-file]
+original=Please pick at least one CSV file to import.
+translation=Seleccioneu almenys un fitxer CSV per importar.
+
+[importer.csv.msg-one-at-a-time]
+original=CSV files must be imported one at a time.
+translation=Els fitxers CSV s'han d'importar d'un en un.
+
+[importer.csv.msg-no-data]
+original=No data found in {{name}}.
+translation=No s'han trobat dades a {{name}}.
+
+[importer.csv.msg-no-configuration]
+original=Configuration is missing.
+translation=Falta la configuració.
+
+[importer.csv.status-parsing]
+original=Parsing {{name}}
+translation=Analitzant {{name}}
+
+[importer.csv.status-creating-note]
+original=Creating note: {{title}}
+translation=Creant nota: {{title}}
+
+[importer.csv.label-row]
+original=Row {{number}}
+translation=Fila {{number}}
+
+[importer.csv.reason-empty-title]
+original=Empty title
+translation=Títol buit
+
+[importer.files.name]
+original=Files and folders
+translation=Fitxers i carpetes
+
+[importer.files.option-text]
+original=Copy files and folders into your vault
+translation=Copia fitxers i carpetes a la teva cambra forta
+
+[importer.files.name-source]
+original=Files to copy
+translation=Fitxers per copiar
+
+[importer.files.desc-source]
+original=Drop files or folders anywhere in the window to copy them into your vault.
+translation=Deixa anar fitxers o carpetes en qualsevol lloc de la finestra per copiar-los a la teva cambra forta.
+
+[importer.evernote.name]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.option-text]
+original=Evernote (.enex)
+translation=Evernote (.enex)
+
+[importer.evernote.file-type]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.desc-export]
+original=Export your notebooks in ENEX format, you will receive one .enex file per notebook.
+translation=Exporteu els vostres quaderns en format ENEX; rebreu un fitxer .enex per quadern.
+
+[importer.evernote.msg-unresolved-links]
+original={{count}} link could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} enllaç no s'ha pogut associar a cap nota. Una exportació ENEX no indica a quina nota apunta un enllaç, només el títol que es mostrava a Evernote, de manera que una nota reanomenada des que es va crear l'enllaç ja no hi coincideix. Obsidian les mostra com a enllaços no resolts.
+
+[importer.evernote.msg-unresolved-links_plural]
+original={{count}} links could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} enllaços no s'han pogut associar a cap nota. Una exportació ENEX no indica a quina nota apunta un enllaç, només el títol que es mostrava a Evernote, de manera que una nota reanomenada des que es va crear l'enllaç ja no hi coincideix. Obsidian els mostra com a enllaços no resolts.
+
+[importer.keep.name]
+original=Google Keep
+translation=Google Keep
+
+[importer.keep.option-text]
+original=Google Keep (.zip, .json)
+translation=Google Keep (.zip, .json)
+
+[importer.keep.file-type]
+original=Notes & attachments
+translation=Notes i adjunts
+
+[importer.keep.desc-export]
+original=Get your Google Keep data from Google Takeout.
+translation=Obtén les teves dades de Google Keep des de Google Takeout.
+
+[importer.keep.name-archived]
+original=Import archived notes
+translation=Importar notes arxivades
+
+[importer.keep.desc-archived]
+original=If imported, files archived in Google Keep will be tagged as archived.
+translation=Si s'importen, els fitxers arxivats a Google Keep s'etiquetaran com a arxivats.
+
+[importer.keep.name-deleted]
+original=Import deleted notes
+translation=Importar notes eliminades
+
+[importer.keep.desc-deleted]
+original=If imported, files deleted in Google Keep will be tagged as deleted. Deleted notes will only exist in your Google export if deleted recently.
+translation=Si s'importen, els fitxers eliminats a Google Keep s'etiquetaran com a eliminats. Les notes eliminades només existiran a la vostra exportació de Google si s'han eliminat recentment.
+
+[importer.keep.reason-invalid-json]
+original=Invalid Google Keep JSON
+translation=JSON de Google Keep no vàlid
+
+[importer.keep.reason-archived]
+original=Archived note
+translation=Nota arxivada
+
+[importer.keep.reason-deleted]
+original=Deleted note
+translation=Nota eliminada
+
+[importer.html.name]
+original=HTML files
+translation=Fitxers HTML
+
+[importer.html.option-text]
+original=HTML (.html, .zip)
+translation=HTML (.html, .zip)
+
+[importer.html.label-id]
+original=HTML source path
+translation=Ruta de la font HTML
+
+[importer.html.desc-source-identity]
+original=Changing which folder or zip file you choose can change the source path, so existing notes may not be recognized.
+translation=Canviar la carpeta o el fitxer zip que trieu pot canviar la ruta de la font, de manera que les notes existents podrien no ser reconegudes.
+
+[importer.html.file-type]
+original=HTML
+translation=HTML
+
+[importer.html.desc-export]
+original=Save the pages you want to keep as HTML. If the app they are in has an importer of its own, use that instead: it keeps more of your data.
+translation=Desa les pàgines que vulguis conservar com a HTML. Si l'aplicació on es troben té un importador propi, utilitza'l: conserva més dades.
+
+[importer.html.desc-source]
+original=Choose individual HTML files, whole folders, or zip files. Pages in folders stay organized the same way.
+translation=Trieu fitxers HTML individuals, carpetes senceres o fitxers zip. Les pàgines dins de carpetes mantenen la mateixa organització.
+
+[importer.html.name-extract-main-content]
+original=Extract main content
+translation=Extreure el contingut principal
+
+[importer.html.desc-extract-main-content]
+original=Remove navigation, sidebars, footers, and other page clutter.
+translation=Eliminar la navegació, barres laterals, peus de pàgina i altres elements sobrants.
+
+[importer.html.name-size-limit]
+original=Attachment size limit (MB)
+translation=Límit de mida dels adjunts (MB)
+
+[importer.html.name-minimum-image-size]
+original=Minimum image size (px)
+translation=Mida mínima d'imatge (px)
+
+[importer.html.desc-set-zero-to-disable]
+original=Set 0 to disable.
+translation=Establiu 0 per desactivar.
+
+[importer.html.status-downloading]
+original=Downloading attachment for {{name}}
+translation=Descarregant adjunt per a {{name}}
+
+[importer.markdown.name]
+original=Markdown
+translation=Markdown
+
+[importer.markdown.option-text]
+original=Markdown (.md, .txt, .zip)
+translation=Markdown (.md, .txt, .zip)
+
+[importer.markdown.file-type]
+original=Markdown and text
+translation=Markdown i Text
+
+[importer.markdown.desc-source]
+original=Choose individual Markdown or text files, whole folders, or zip files. Everything in folders stays organized the same way.
+translation=Tria fitxers individuals de Markdown o Text, carpetes senceres o fitxers zip. Tot el contingut de les carpetes es manté organitzat de la mateixa manera.
+
+[importer.markdown.name-standardize-formatting]
+original=Standardize formatting
+translation=Estandarditza el format
+
+[importer.markdown.desc-standardize-formatting]
+original=Use this vault's settings for lists, indentation, and links.
+translation=Utilitza la configuració d'aquesta cambra forta per a llistes, sagnat i enllaços.
+
+[importer.markdown.name-tags-as-properties]
+original=Convert inline tags to properties
+translation=Converteix les etiquetes en línia en propietats
+
+[importer.markdown.desc-tags-as-properties]
+original=Move tags written in the body of a note into its tags property.
+translation=Mou les etiquetes escrites al cos d'una nota a la seva propietat d'etiquetes.
+
+[importer.logseq.name]
+original=Logseq
+translation=Logseq
+
+[importer.logseq.option-text]
+original=Logseq (.md)
+translation=Logseq (.md)
+
+[importer.logseq.label-id]
+original=Logseq source
+translation=Font de Logseq
+
+[importer.logseq.desc-instructions]
+original=Read the instructions for importing from Logseq.
+translation=Llegeix les instruccions per importar des de Logseq.
+
+[importer.logseq.desc-files]
+original=Choose one graph folder containing pages, journals, and assets.
+translation=Tria una carpeta de graf que contingui pàgines, diaris i recursos.
+
+[importer.logseq.name-use-daily-notes]
+original=Use daily notes settings
+translation=Utilitza la configuració de Notes diàries
+
+[importer.logseq.desc-use-daily-notes]
+original=Write journals to the configured daily notes folder and filename format.
+translation=Escriu els diaris a la carpeta de Notes diàries configurada i amb el format de nom de fitxer establert.
+
+[importer.logseq.name-queries]
+original=Keep queries
+translation=Conserva les cerques
+
+[importer.logseq.desc-queries]
+original=Obsidian doesn't support Logseq's query format, so queries are imported as code blocks.
+translation=Obsidian no admet el format de cerca de Logseq, de manera que les cerques s'importen com a blocs de Codi.
+
+[importer.logseq.name-flashcards]
+original=Keep flashcards
+translation=Conserva les targetes d'estudi
+
+[importer.logseq.desc-flashcards]
+original=Obsidian doesn't support Logseq's flashcards, so card markers and cloze wrappers are imported as plain text.
+translation=Obsidian no admet les targetes d'estudi de Logseq, de manera que els Marcadors de targeta i els embolcalls cloze s'importen com a text sense format.
+
+[importer.logseq.name-time-tracking]
+original=Keep time tracking
+translation=Conserva el seguiment del temps
+
+[importer.logseq.desc-time-tracking]
+original=Obsidian doesn't support Logseq's time tracking, so LOGBOOK and CLOCK entries are imported as plain text.
+translation=Obsidian no admet el seguiment del temps de Logseq, de manera que les entrades LOGBOOK i CLOCK s'importen com a text sense format.
+
+[importer.logseq.msg-pick-graph]
+original=Please choose one Logseq graph folder.
+translation=Si us plau, tria una carpeta de graf de Logseq.
+
+[importer.logseq.msg-no-notes]
+original=The selected folder has no Markdown notes under pages or journals.
+translation=La carpeta seleccionada no conté notes Markdown a pages ni a journals.
+
+[importer.logseq.reason-empty-page]
+original=The converted page is empty
+translation=La pàgina convertida està buida
+
+[importer.logseq.reason-missing-asset]
+original=Referenced by {{name}}, but missing from the graph
+translation=Referenciat per {{name}}, però no es troba al graf
+
+[importer.logseq.reason-whiteboards]
+original=Logseq whiteboards are not supported by Obsidian
+translation=Les pissarres de Logseq no són compatibles amb Obsidian
+
+[importer.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.option-text]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.method-name]
+original=Microsoft account
+translation=Compte de Microsoft
+
+[importer.onenote.method-desc]
+original=Sign into your Microsoft account and import the notebooks that are synced to OneDrive. Requires an internet connection.
+translation=Inicieu sessió al vostre compte de Microsoft i importeu les llibretes sincronitzades a OneDrive. Requereix connexió a internet.
+
+[importer.onenote.label-id]
+original=OneNote ID
+translation=ID de OneNote
+
+[importer.onenote.name-incompatible]
+original=Import incompatible attachments
+translation=Importa adjunts incompatibles
+
+[importer.onenote.desc-incompatible]
+original=Imports incompatible attachments which cannot be embedded in Obsidian, such as .exe files.
+translation=Importa adjunts incompatibles que no es poden incrustar a Obsidian, com ara fitxers .exe.
+
+[importer.onenote.name-account]
+original=Microsoft account
+translation=Compte de Microsoft
+
+[importer.onenote.desc-sign-in]
+original=Sign in to import your OneNote notebooks.
+translation=Iniciar sessió per importar les vostres llibretes de OneNote.
+
+[importer.onenote.desc-sign-in-organization]
+original=Sign in to import your OneNote notebooks. A work or school account may need your organization to approve access.
+translation=Iniciar sessió per importar les vostres llibretes de OneNote. Un compte de treball o escola pot necessitar l'aprovació de la vostra organització.
+
+[importer.onenote.desc-signed-in]
+original=Signed in as {{name}} ({{email}}).
+translation=Sessió iniciada com a {{name}} ({{email}}).
+
+[importer.onenote.button-sign-in]
+original=Sign in
+translation=Inicia la sessió
+
+[importer.onenote.button-sign-out]
+original=Sign out
+translation=Tancar sessió
+
+[importer.onenote.button-work-account]
+original=Use work or school access
+translation=Utilitzar accés de treball o escola
+
+[importer.onenote.msg-sign-in-failed]
+original=An error occurred while trying to sign you in.
+translation=S'ha produït un error en intentar iniciar sessió.
+
+[importer.onenote.msg-sign-in-details]
+original=Show error details
+translation=Mostra els detalls de l'error
+
+[importer.onenote.msg-signed-out]
+original=Sign in to see your OneNote notebooks.
+translation=Iniciar sessió per veure les vostres llibretes de OneNote.
+
+[importer.onenote.msg-please-sign-in]
+original=Please sign in to your Microsoft account.
+translation=Si us plau, inicieu sessió al vostre compte de Microsoft.
+
+[importer.onenote.name-sections]
+original=Sections to import
+translation=Seccions a importar
+
+[importer.onenote.desc-sections]
+original=Select a notebook, or sections within it.
+translation=Seleccioneu una llibreta o seccions dins d'ella.
+
+[importer.onenote.msg-loading-notebooks]
+original=Loading notebooks...
+translation=Carregant llibretes...
+
+[importer.onenote.msg-no-notebooks]
+original=No notebooks found.
+translation=No s'han trobat llibretes.
+
+[importer.onenote.msg-scope-refused]
+original=OneNote did not grant this sign-in access to your notebooks. Sign out and sign in again to ask for work or school access, which your organization may need to approve.
+translation=OneNote no ha concedit accés a les vostres llibretes amb aquesta sessió. Tanqueu sessió i torneu a iniciar sessió per sol·licitar accés de treball o escola, que la vostra organització pot necessitar aprovar.
+
+[importer.onenote.label-service]
+original=OneNote
+translation=OneNote
+
+[importer.onenote.label-subject]
+original=your notebooks
+translation=les vostres llibretes
+
+[importer.onenote.label-credential]
+original=Sign out and back in to try again.
+translation=Tanqueu sessió i torneu a iniciar sessió per tornar-ho a provar.
+
+[importer.onenote.status-finding]
+original=Finding notes to import
+translation=Cercant notes per importar
+
+[importer.onenote.status-finding-in]
+original=Finding notes in {{section}}
+translation=Cercant notes a {{section}}
+
+[importer.onenote.status-finding-in-section]
+original=Finding notes in {{section}} (section {{index}} of {{total}})
+translation=Cercant notes a {{section}} (secció {{index}} de {{total}})
+
+[importer.onenote.status-importing-notes]
+original=Importing {{notes}}
+translation=Important {{notes}}
+
+[importer.onenote.status-downloading]
+original=Downloading attachment {{name}}
+translation=Baixant l'adjunt {{name}}
+
+[importer.onenote.msg-too-many-errors]
+original=Microsoft OneNote returned too many consecutive errors.
+translation=Microsoft OneNote ha retornat massa errors consecutius.
+
+[importer.onenote.label-unknown-page]
+original=<unknown>
+translation=<desconeguda>
+
+[importer.onenote.reason-too-many-failures]
+original=import was canceled (after too many pages failed to load)
+translation=la importació s'ha cancel·lat (després de massa pàgines que no s'han pogut carregar)
+
+[importer.onenote.label-ink]
+original={{page}} - Ink.svg
+translation={{page}} - Ink.svg
+
+[importer.onenote.label-attachment]
+original=OneNote attachment
+translation=Adjunt de OneNote
+
+[importer.onenote.label-image]
+original=OneNote image
+translation=Imatge de OneNote
+
+[importer.onenote.reason-no-attachment-name]
+original=the attachment did not say what it was called
+translation=l'adjunt no indicava el seu nom
+
+[importer.onenote.reason-no-attachment-url]
+original=the attachment did not include a download URL
+translation=l'adjunt no incloïa un URL de baixada
+
+[importer.onenote.reason-no-image-url]
+original=the image did not include a download URL
+translation=la imatge no incloïa un URL de baixada
+
+[importer.onenote-file.name]
+original=Microsoft OneNote (export file)
+translation=Microsoft OneNote (fitxer d'exportació)
+
+[importer.onenote-file.option-text]
+original=Microsoft OneNote (.one, .onepkg)
+translation=Microsoft OneNote (.one, .onepkg)
+
+[importer.onenote-file.method-name]
+original=File import
+translation=Importació de fitxer
+
+[importer.onenote-file.method-desc]
+original=Import using OneNote export files (.one, .onepkg) from your computer. Requires no account or internet connection, and works for notebooks that were never synced.
+translation=Importa utilitzant fitxers d'exportació de OneNote (.one, .onepkg) del teu ordinador. No requereix cap compte ni connexió a Internet, i funciona per a llibretes que mai s'han sincronitzat.
+
+[importer.onenote-file.file-type]
+original=OneNote export
+translation=Exportació de OneNote
+
+[importer.onenote-file.label-id]
+original=OneNote ID
+translation=ID de OneNote
+
+[importer.onenote-file.desc-backup-folder]
+original=OneNote for Windows keeps its own backups, and this opens there. Pick the notebooks or sections you want.
+translation=OneNote per a Windows manté les seves pròpies còpies de seguretat, i això s'obre allà. Tria les llibretes o seccions que vulguis.
+
+[importer.onenote-file.desc-export]
+original=In OneNote for Windows, right-click a notebook and export it to save a .onepkg file, or export a single section as .one.
+translation=A OneNote per a Windows, fes clic dret sobre una llibreta i exporta-la per desar un fitxer .onepkg, o exporta una única secció com a .one.
+
+[importer.onenote-file.name-sections]
+original=Sections to import
+translation=Seccions per importar
+
+[importer.onenote-file.desc-sections]
+original=Choose which sections to import.
+translation=Tria quines seccions importar.
+
+[importer.onenote-file.msg-loading-sections]
+original=Reading sections…
+translation=Llegint seccions…
+
+[importer.onenote-file.msg-no-sections]
+original=No sections found in this file.
+translation=No s'han trobat seccions en aquest fitxer.
+
+[importer.onenote-file.msg-pick-file-first]
+original=Choose a OneNote file first.
+translation=Tria primer un fitxer de OneNote.
+
+[importer.onenote-file.status-reading-section]
+original=Reading {{name}}
+translation=Llegint {{name}}
+
+[importer.onenote-file.status-importing-section]
+original=Importing {{name}} ({{index}} of {{total}})
+translation=Important {{name}} ({{index}} de {{total}})
+
+[importer.onenote-file.reason-rights-protected]
+original=the file is rights-protected, and can only be opened by an account with permission to it
+translation=el fitxer està protegit per drets i només pot ser obert per un compte amb permís
+
+[importer.onenote-file.reason-unsupported]
+original=the file uses a OneNote format this importer cannot read yet
+translation=el fitxer utilitza un format de OneNote que aquest importador encara no pot llegir
+
+[importer.onenote-file.reason-malformed]
+original=the file does not describe the OneNote structures it claims to
+translation=el fitxer no descriu les estructures de OneNote que afirma contenir
+
+[importer.onenote-file.reason-too-large]
+original=the file is larger than this importer is willing to expand
+translation=el fitxer és més gran del que aquest importador pot ampliar
+
+[importer.onenote-file.reason-no-attachment-data]
+original=the attachment held no data
+translation=l'adjunt no contenia cap dada
+
+[importer.notion-api.name]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.option-text]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.method-name]
+original=Notion account (recommended)
+translation=Compte de Notion (Recomanat)
+
+[importer.notion-api.method-desc]
+original=Imports your entire workspace, including databases and formulas which are converted to bases. Requires a Notion integration token and an internet connection.
+translation=Importa tot el teu espai de treball, incloent bases de dades i fórmules que es converteixen a bases. Requereix un token d'integració de Notion i una connexió a Internet.
+
+[importer.notion-api.label-id]
+original=Notion ID
+translation=ID de Notion
+
+[importer.notion-api.name-token]
+original=Notion API token
+translation=Token API de Notion
+
+[importer.notion-api.desc-token]
+original=To get an API token create a connection in Notion and give it access to pages in your workspace.
+translation=Per obtenir un testimoni API, crea una connexió a Notion i dona-li accés a les pàgines del teu espai de treball.
+
+[importer.notion-api.link-get-token]
+original=Get API token
+translation=Obtén el testimoni API
+
+[importer.notion-api.name-pages]
+original=Pages to import
+translation=Pàgines per importar
+
+[importer.notion-api.desc-pages]
+original=Load your Notion pages and databases, then choose what to import. If a page or database is missing, check that your Notion connection has access to it.
+translation=Carrega les teves pàgines i bases de dades de Notion, després tria què importar. Si falta una pàgina o base de dades, comprova que la teva connexió de Notion hi té accés.
+
+[importer.notion-api.hint-pages]
+original=Load your Notion pages and databases to get started.
+translation=Carrega les teves pàgines i bases de dades de Notion per començar.
+
+[importer.notion-api.msg-loading-pages]
+original=Loading pages and databases...
+translation=Carregant pàgines i bases de dades...
+
+[importer.notion-api.msg-no-pages]
+original=No pages or databases found. Make sure your connection has access to the pages you want to import.
+translation=No s'han trobat pàgines ni bases de dades. Assegura't que la teva connexió té accés a les pàgines que vols importar.
+
+[importer.notion-api.label-service]
+original=Notion
+translation=Notion
+
+[importer.notion-api.label-subject]
+original=your pages
+translation=les teves pàgines
+
+[importer.notion-api.label-credential]
+original=Check that your token is current and that the connection has access to them.
+translation=Comprova que el teu token és vigent i que la connexió hi té accés.
+
+[importer.notion-api.name-formulas]
+original=Convert formulas
+translation=Convertir fórmules
+
+[importer.notion-api.desc-formulas]
+original=By default Notion formulas are converted to Obsidian syntax. If any Notion syntax is not supported the static values will be saved instead. Alternatively you can import all formulas as static values.
+translation=Per defecte, les fórmules de Notion es converteixen a la sintaxi d'Obsidian. Si alguna sintaxi de Notion no és compatible, es desaran els valors estàtics en el seu lloc. Alternativament, pots importar totes les fórmules com a valors estàtics.
+
+[importer.notion-api.option-formula-hybrid]
+original=Obsidian syntax
+translation=Sintaxi d'Obsidian
+
+[importer.notion-api.option-formula-static]
+original=Static values
+translation=Valors estàtics
+
+[importer.notion-api.name-download-external]
+original=Download external attachments
+translation=Baixa els adjunts externs
+
+[importer.notion-api.desc-download-external]
+original=Download external attachments (external URLs) to local files. Notion-hosted files are always downloaded.
+translation=Baixa els adjunts externs (URL externs) a fitxers locals. Els fitxers allotjats a Notion es baixen sempre.
+
+[importer.notion-api.name-single-line-breaks]
+original=Single line breaks
+translation=Salts de línia simples
+
+[importer.notion-api.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break instead of two. Some blocks (lists, toggles, tables) will still use double line breaks when required for proper Markdown syntax.
+translation=Separa els blocs de Notion amb un sol salt de línia en lloc de dos. Alguns blocs (llistes, commutadors, taules) encara faran servir salts de línia dobles quan sigui necessari per a la sintaxi Markdown correcta.
+
+[importer.notion-api.name-cover-property]
+original=Cover property name
+translation=Nom de la propietat de cobertura
+
+[importer.notion-api.desc-cover-property]
+original=Property name for page cover image in YAML frontmatter. 
+translation=Nom de la propietat per a la imatge de cobertura de la pàgina a les metadades inicials YAML. 
+
+[importer.notion-api.desc-cover-property-conflicts]
+original=Leave as "cover" if you don't have conflicts with existing properties.
+translation=Deixeu-ho com a "cover" si no teniu conflictes amb propietats existents.
+
+[importer.notion-api.name-database-property]
+original=Database property name
+translation=Nom de la propietat de base de dades
+
+[importer.notion-api.desc-database-property]
+original=Property name in page frontmatter to link pages to their database .base file (default: "base")
+translation=Nom de la propietat a les metadades inicials de la pàgina per enllaçar pàgines al seu fitxer .base de base de dades (per defecte: "base")
+
+[importer.notion-api.name-linked-databases]
+original=Import linked databases
+translation=Importa bases de dades enllaçades
+
+[importer.notion-api.desc-linked-databases]
+original=Also import databases that the selected pages link to, so relations become links rather than names. This imports pages you did not select.
+translation=També importa les bases de dades a les quals les pàgines seleccionades enllacen, perquè les relacions es converteixin en enllaços en lloc de noms. Això importa pàgines que no heu seleccionat.
+
+[importer.notion-api.msg-token-first]
+original=Please enter your Notion API token first.
+translation=Si us plau, introduïu primer el vostre testimoni API de Notion.
+
+[importer.notion-api.msg-token-missing]
+original=Please enter your Notion API token.
+translation=Si us plau, introduïu el vostre testimoni API de Notion.
+
+[importer.notion-api.msg-load-pages-failed]
+original=Failed to load pages: {{error}}
+translation=No s'han pogut carregar les pàgines: {{error}}
+
+[importer.notion-api.msg-pick-page]
+original=Please select at least one page or database to import.
+translation=Si us plau, seleccioneu almenys una pàgina o base de dades per importar.
+
+[importer.notion-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=La importació ha fallat: {{error}}
+
+[importer.notion-api.status-loading-items]
+original=Loading... ({{items}}, page {{page}})
+translation=S'està carregant... ({{items}}, pàgina {{page}})
+
+[importer.notion-api.status-connecting]
+original=Connecting to Notion API...
+translation=S'està connectant a l'API de Notion...
+
+[importer.notion-api.status-fetching]
+original=Fetching page content from Notion...
+translation=S'està obtenint el contingut de les pàgines de Notion...
+
+[importer.notion-api.status-preparing]
+original=Preparing to import {{items}}...
+translation=S'està preparant la importació de {{items}}...
+
+[importer.notion-api.status-importing-items]
+original=Importing {{items}}...
+translation=S'estan important {{items}}...
+
+[importer.notion-api.status-importing-item]
+original=Importing item {{index}}/{{total}}...
+translation=S'està important l'element {{index}}/{{total}}...
+
+[importer.notion-api.status-importing-title]
+original=Importing: {{title}}
+translation=S'està important: {{title}}
+
+[importer.notion-api.status-relation-links]
+original=Processing relation links...
+translation=S'estan processant els enllaços de relació...
+
+[importer.notion-api.status-mention-links]
+original=Processing mention links...
+translation=S'estan processant els enllaços de menció...
+
+[importer.notion-api.status-synced-blocks]
+original=Processing synced block child references...
+translation=S'estan processant les referències filles dels blocs sincronitzats...
+
+[importer.notion-api.status-cleaning-ids]
+original=Cleaning up notion-id attributes...
+translation=S'estan netejant els atributs notion-id...
+
+[importer.notion-api.status-done]
+original=Import completed successfully!
+translation=La importació s'ha completat correctament!
+
+[importer.notion-api.status-replacing-relations]
+original=Replacing {{placeholders}}...
+translation=S'estan substituint {{placeholders}}...
+
+[importer.notion-api.status-replacing-relation-links]
+original=Replacing relation placeholders with wiki links...
+translation=S'estan substituint els marcadors de relació per enllaços wiki...
+
+[importer.notion-api.status-importing-linked-databases]
+original=Importing {{databases}}...
+translation=S'estan important {{databases}}...
+
+[importer.notion-api.status-importing-unimported]
+original=Importing unimported database {{id}}...
+translation=S'està important la base de dades no importada {{id}}...
+
+[importer.notion-api.status-replacing-mentions]
+original=Replacing mention placeholders...
+translation=S'estan substituint els marcadors de menció...
+
+[importer.notion-api.status-replaced-mentions]
+original=Replaced {{links}} in {{files}}.
+translation=S'han substituït {{links}} a {{files}}.
+
+[importer.notion-api.status-replacing-synced]
+original=Replacing synced block child references...
+translation=S'estan substituint les referències filles dels blocs sincronitzats...
+
+[importer.notion-api.status-replaced-synced]
+original=Replaced {{references}} in {{files}} (imported {{imported}}).
+translation=S'han substituït {{references}} a {{files}} (importats {{imported}}).
+
+[importer.notion-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}...
+translation=S'està baixant l'adjunt: {{name}}...
+
+[importer.notion-api.status-rate-limited]
+original=Rate limited. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=Límit de freqüència assolit. S'esperen {{seconds}} segons abans de tornar-ho a provar ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying]
+original=Notion returned {{status}}. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=Notion ha retornat {{status}}. S'esperen {{seconds}} segons abans de tornar-ho a provar ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying-attachment]
+original={{name}}: {{failure}}. Retrying in {{seconds}} seconds ({{attempt}}/{{total}})...
+translation={{name}}: {{failure}}. Reintentant en {{seconds}} segons ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-processing-data-source]
+original=Processing database from data source: {{id}}...
+translation=Processant base de dades de la font de dades: {{id}}...
+
+[importer.notion-api.status-processing-database]
+original=Processing database: {{title}}...
+translation=Processant base de dades: {{title}}...
+
+[importer.notion-api.status-found-pages]
+original=Found {{pages}} in database {{title}}
+translation=S'han trobat {{pages}} a la base de dades {{title}}
+
+[importer.notion-api.status-found-templates]
+original=Found {{templates}} in database {{title}}
+translation=S'han trobat {{templates}} a la base de dades {{title}}
+
+[importer.notion-api.status-importing-template]
+original=Importing template: {{name}}...
+translation=Importantplantilla: {{name}}...
+
+[importer.notion-api.label-import]
+original=Notion API import
+translation=Importació de l'API de Notion
+
+[importer.notion-api.label-item]
+original=Import item {{id}}
+translation=Importa element {{id}}
+
+[importer.notion-api.label-page]
+original=Page {{id}}
+translation=Pàgina {{id}}
+
+[importer.notion-api.label-page-with-title]
+original=Page: {{title}} ({{id}})
+translation=Pàgina: {{title}} ({{id}})
+
+[importer.notion-api.label-relation-page]
+original=Relation page {{id}}
+translation=Pàgina de relació {{id}}
+
+[importer.notion-api.label-database-with-id]
+original=Database: {{title}} ({{id}})
+translation=Base de dades: {{title}} ({{id}})
+
+[importer.notion-api.label-mention-file]
+original=Mention file {{path}}
+translation=Fitxer de menció {{path}}
+
+[importer.notion-api.label-synced-block-file]
+original=Synced block file {{path}}
+translation=Fitxer de bloc sincronitzat {{path}}
+
+[importer.notion-api.label-attachment]
+original=Attachment: {{name}}
+translation=Adjunt: {{name}}
+
+[importer.notion-api.label-child-page]
+original=Child page: {{title}}
+translation=Pàgina filla: {{title}}
+
+[importer.notion-api.label-synced-block]
+original=Synced block: {{name}}
+translation=Bloc sincronitzat: {{name}}
+
+[importer.notion-api.label-attachment-image]
+original=Image attachment
+translation=Adjunt d'imatge
+
+[importer.notion-api.label-attachment-video]
+original=Video attachment
+translation=Adjunt de vídeo
+
+[importer.notion-api.label-attachment-audio]
+original=Audio attachment
+translation=Adjunt d'àudio
+
+[importer.notion-api.label-attachment-file]
+original=File attachment
+translation=Adjunt de fitxer
+
+[importer.notion-api.label-attachment-pdf]
+original=PDF attachment
+translation=Adjunt PDF
+
+[importer.notion-api.label-preview-child-page]
+original=Child page
+translation=Pàgina filla
+
+[importer.notion-api.label-preview-database]
+original=Database
+translation=Base de dades
+
+[importer.notion-api.msg-preview-nested-content]
+original=Nested content is not loaded in the preview.
+translation=El contingut imbricat no es carrega a la previsualització.
+
+[importer.notion-api.msg-preview-content-not-loaded]
+original={{type}} is not loaded in the preview.
+translation={{type}} no es carrega a la previsualització.
+
+[importer.notion-api.msg-preview-content-not-loaded-with-caption]
+original={{type}}: {{caption}} is not loaded in the preview.
+translation={{type}}: {{caption}} no es carrega a la previsualització.
+
+[importer.notion-api.msg-preview-block-not-expanded]
+original={{type}} is not expanded in the preview.
+translation={{type}} no s'expandeix a la previsualització.
+
+[importer.notion-api.label-fetch-children]
+original=Fetch children for {{context}} {{id}}
+translation=Obté fills de {{context}} {{id}}
+
+[importer.notion-api.block-paragraph]
+original=paragraph
+translation=Paràgraf
+
+[importer.notion-api.block-bulleted-list-item]
+original=bulleted list item
+translation=element de llista amb vinyetes
+
+[importer.notion-api.block-numbered-list-item]
+original=numbered list item
+translation=element de llista numerada
+
+[importer.notion-api.block-todo-item]
+original=to-do item
+translation=element de tasques pendents
+
+[importer.notion-api.block-quote]
+original=quote block
+translation=bloc de cita
+
+[importer.notion-api.block-callout]
+original=callout block
+translation=bloc destacat
+
+[importer.notion-api.block-toggle]
+original=toggle block
+translation=bloc desplegable
+
+[importer.notion-api.block-toggleable-heading]
+original=toggleable heading
+translation=encapçalament desplegable
+
+[importer.notion-api.block-column]
+original=column
+translation=Columna
+
+[importer.notion-api.block-column-list]
+original=column list
+translation=llista de columnes
+
+[importer.notion-api.block-table]
+original=table
+translation=Taula
+
+[importer.notion-api.block-generic]
+original=block
+translation=bloc
+
+[importer.notion-api.label-meeting-notes]
+original=Meeting notes: {{name}}
+translation=Notes de reunió: {{name}}
+
+[importer.notion-api.label-meeting-notes-section]
+original=Meeting notes: {{name}} ({{section}})
+translation=Notes de reunió: {{name}} ({{section}})
+
+[importer.notion-api.label-untitled-meeting]
+original=Meeting notes {{id}}
+translation=Notes de reunió {{id}}
+
+[importer.notion-api.section-summary]
+original=summary
+translation=Resum
+
+[importer.notion-api.section-notes]
+original=notes
+translation=notes
+
+[importer.notion-api.section-transcript]
+original=transcript
+translation=transcripció
+
+[importer.notion-api.label-fetch-children-block]
+original=Fetch children for block {{id}}
+translation=Obté fills del bloc {{id}}
+
+[importer.notion-api.reason-not-in-tree]
+original=Item not found in tree
+translation=Element no trobat a l'arbre
+
+[importer.notion-api.reason-unknown-type]
+original=Unknown type: {{type}}
+translation=Tipus desconegut: {{type}}
+
+[importer.notion-api.reason-earlier-import]
+original=an earlier import had already written it
+translation=una importació anterior ja l'havia escrit
+
+[importer.notion-api.reason-attachment-exists]
+original={{path}} is already in the vault, the same size (incremental import)
+translation={{path}} ja és a la cambra forta, amb la mateixa mida (importació incremental)
+
+[importer.notion-api.reason-http-status]
+original=HTTP {{status}}
+translation=HTTP {{status}}
+
+[importer.notion-api.reason-meeting-notes-pending]
+original=Notion has not finished generating them ({{status}})
+translation=Notion no ha acabat de generar-les ({{status}})
+
+[importer.notion-api.reason-rate-limit-gave-up]
+original=rate limited, and gave up after {{retries}} retries
+translation=límit de peticions assolit, s'ha desistit després de {{retries}} reintents
+
+[importer.notion-api.reason-gave-up]
+original={{reason}}, and gave up after {{retries}} retries
+translation={{reason}}, s'ha desistit després de {{retries}} reintents
+
+[importer.notion-api.reason-kept-link]
+original={{reason}}; kept the link to {{url}}
+translation={{reason}}; s'ha conservat l'enllaç a {{url}}
+
+[importer.notion.name]
+original=Notion
+translation=Notion
+
+[importer.notion.option-text]
+original=Notion (.zip)
+translation=Notion (.zip)
+
+[importer.notion.method-name]
+original=File import
+translation=Importació de fitxer
+
+[importer.notion.method-desc]
+original=Imports using a Notion export file (.zip). Requires no API token or internet connection, but does not preserve databases.
+translation=Importa utilitzant un fitxer d'exportació de Notion (.zip). No requereix cap token API ni connexió a internet, però no conserva les bases de dades.
+
+[importer.notion.file-type]
+original=Exported Notion
+translation=Notion exportat
+
+[importer.notion.label-id]
+original=Notion ID
+translation=ID de Notion
+
+[importer.notion.desc-export]
+original=Export your workspace in HTML format, you will receive a zip file.
+translation=Exporta el teu espai de treball en format HTML, rebràs un fitxer zip.
+
+[importer.notion.desc-files]
+original=Pick the zip file Notion sent you.
+translation=Selecciona el fitxer zip que t'ha enviat Notion.
+
+[importer.notion.name-subfolders]
+original=Save parent pages in subfolders
+translation=Desa les pàgines pare en subcarpetes
+
+[importer.notion.desc-subfolders]
+original=Places the parent database pages in the same folder as the nested content.
+translation=Col·loca les pàgines de la base de dades pare a la mateixa carpeta que el contingut imbricat.
+
+[importer.notion.name-single-line-breaks]
+original=Single line breaks
+translation=Salts de línia simples
+
+[importer.notion.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break (default is 2).
+translation=Separa els blocs de Notion amb un sol salt de línia (per defecte és 2).
+
+[importer.notion.msg-unknown-property]
+original=Property "{{property}}" has an unknown type ({{type}}); kept its value as text.
+translation=La propietat "{{property}}" té un tipus desconegut ({{type}}); s'ha mantingut el seu valor com a text.
+
+[importer.notion.msg-unparsed-date]
+original=Could not determine the date in property "{{property}}": {{value}}. Kept its value as text.
+translation=No s'ha pogut determinar la data a la propietat "{{property}}": {{value}}. S'ha mantingut el seu valor com a text.
+
+[importer.notion.status-looking]
+original=Looking for files to import
+translation=Cercant fitxers per importar
+
+[importer.notion.status-resolving]
+original=Resolving links and de-duplicating files
+translation=Resolent enllaços i eliminant fitxers duplicats
+
+[importer.notion.status-starting]
+original=Starting import
+translation=Iniciant la importació
+
+[importer.notion.msg-markdown-export]
+original=This is a Markdown export. Export your Notion workspace as HTML instead.
+translation=Això és una exportació Markdown. Exporteu el vostre espai de treball de Notion com a HTML.
+
+[importer.notion.reason-markdown-export]
+original=it is a Markdown export; export your Notion workspace as HTML instead
+translation=és una exportació en Markdown; exporta el teu espai de treball de Notion com a HTML
+
+[importer.notion.reason-no-page-body]
+original=page body was not found
+translation=no s'ha trobat el cos de la pàgina
+
+[importer.roam-json.name]
+original=Roam Research
+translation=Roam Research
+
+[importer.roam-json.option-text]
+original=Roam Research (.json)
+translation=Roam Research (.json)
+
+[importer.roam-json.file-type]
+original=Roam (.json)
+translation=Roam (.json)
+
+[importer.roam-json.label-id]
+original=Roam UID
+translation=UID de Roam
+
+[importer.roam-json.desc-export]
+original=Export your data in JSON format.
+translation=Exporta les teves dades en format JSON.
+
+[importer.roam-json.desc-files]
+original=Pick the JSON file from your Roam export.
+translation=Selecciona el fitxer JSON de la teva exportació de Roam.
+
+[importer.roam-json.name-embed-block-references]
+original=Show referenced blocks in place
+translation=Mostrar els blocs referenciats al seu lloc
+
+[importer.roam-json.desc-embed-block-references]
+original=Roam shows the contents of a referenced block where the reference stands. If enabled, references become embeds rather than links.
+translation=Roam mostra el contingut d'un bloc referenciat on es troba la referència. Si està activat, les referències es converteixen en incrustacions en comptes d'enllaços.
+
+[importer.roam-json.name-drop-unresolved-references]
+original=Remove references to missing blocks
+translation=Eliminar les referències a blocs inexistents
+
+[importer.roam-json.desc-drop-unresolved-references]
+original=Some references name a block that is not in the export. If enabled, they are removed; if not, they are kept as Roam wrote them.
+translation=Algunes referències apunten a un bloc que no és a l'exportació. Si està activat, s'eliminen; si no, es mantenen tal com les va escriure Roam.
+
+[importer.roam-json.name-convert-attributes]
+original=Convert attributes to properties
+translation=Converteix atributs a propietats
+
+[importer.roam-json.desc-convert-attributes]
+original=Convert eligible top-level Roam attributes into Obsidian properties. Referenced attributes remain in the note so links to them keep working.
+translation=Converteix els atributs de nivell superior de Roam elegibles en propietats d'Obsidian. Els atributs referenciats es mantenen a la nota perquè els enllaços continuïn funcionant.
+
+[importer.roam-json.name-tags-as-links]
+original=Convert tags to links
+translation=Convertir etiquetes en enllaços
+
+[importer.roam-json.desc-tags-as-links]
+original=A tag in Roam is a reference to the page of that name. If enabled, "#tag" becomes "[[tag]]".
+translation=Una etiqueta a Roam és una referència a la pàgina amb aquest nom. Si està activat, "#etiqueta" es converteix en "[[etiqueta]]".
+
+[importer.roam-json.name-drop-queries]
+original=Remove queries
+translation=Eliminar les cerques
+
+[importer.roam-json.desc-drop-queries]
+original=If enabled, queries are removed. If not, a query becomes an Obsidian search that shows its results in the note.
+translation=Si està activat, les cerques s'eliminen. Si no, una cerca es converteix en una Cerca d'Obsidian que mostra els resultats a la nota.
+
+[importer.roam-json.reason-empty-title]
+original=Title is empty
+translation=El títol està buit
+
+[importer.roam-json.reason-unexpected-extension]
+original=Unexpected file extension
+translation=Extensió de fitxer inesperada
+
+[importer.textbundle.name]
+original=Textbundle files
+translation=Fitxers Textbundle
+
+[importer.textbundle.option-text]
+original=Textbundle (.textbundle, .textpack)
+translation=Textbundle (.textbundle, .textpack)
+
+[importer.textbundle.file-type]
+original=Textbundle
+translation=Textbundle
+
+[importer.textbundle.desc-export]
+original=Export your notes as textbundle or textpack, which Agenda, Craft, Taio, Ulysses and Zettlr can all write.
+translation=Exporta les teves notes com a textbundle o textpack, formats que Agenda, Craft, Taio, Ulysses i Zettlr poden generar.
+
+[importer.textbundle.msg-platform]
+original=Due to platform limitations, only textpack and zip files can be imported from this device. Open your vault on a Mac to import textbundle files.
+translation=A causa de limitacions de la plataforma, només es poden importar fitxers textpack i zip des d'aquest dispositiu. Obre la teva cambra forta en un Mac per importar fitxers textbundle.
+
+[importer.textbundle.reason-no-markdown]
+original=The textbundle does not contain markdown
+translation=El textbundle no conté Markdown
+
+[importer.textbundle.reason-not-media]
+original=the file is not a media or markdown file.
+translation=el fitxer no és un fitxer multimèdia ni Markdown.
+
+[importer.textbundle.reason-already-exists]
+original=the file already exists.
+translation=el fitxer ja existeix.
+
+[importer.tomboy.name]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.option-text]
+original=Tomboy/Gnote (.note)
+translation=Tomboy/Gnote (.note)
+
+[importer.tomboy.file-type]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.label-id]
+original=Tomboy ID
+translation=Tomboy ID
+
+[importer.tomboy.desc-files-mac]
+original=Tomboy notes are typically found in: ~/Library/Application Support/Tomboy
+translation=Les notes de Tomboy normalment es troben a: ~/Library/Application Support/Tomboy
+
+[importer.tomboy.desc-files-windows]
+original=Tomboy notes are typically found in: %APPDATA%\\Tomboy
+translation=Les notes de Tomboy normalment es troben a: %APPDATA%\\Tomboy
+
+[importer.tomboy.desc-files-linux]
+original=Tomboy notes are typically found in: ~/.local/share/tomboy - or GNote: ~/.local/share/gnote
+translation=Les notes de Tomboy normalment es troben a: ~/.local/share/tomboy - o GNote: ~/.local/share/gnote
+
+[importer.tomboy.name-todo]
+original=Convert TODO lists to checkboxes
+translation=Converteix les llistes TODO en caselles de verificació
+
+[importer.tomboy.desc-todo]
+original=When enabled, lists in notes with "TODO" in the title will be converted to task lists with checkboxes. Strikethrough items will be marked as completed.
+translation=Quan està activat, les llistes de les notes amb "TODO" al títol es convertiran en llistes de tasques amb caselles de verificació. Els elements amb ratllat es marcaran com a completats.
+
+[importer.tomboy.name-keep-title]
+original=Keep title in Markdown
+translation=Conserva el títol al Markdown
+
+[importer.tomboy.desc-keep-title]
+original=Choose whether to keep the note title in the Markdown content. The automatic option keeps titles only when special characters are lost in filename conversion.
+translation=Tria si conservar el títol de la nota al contingut Markdown. L'opció automàtica conserva els títols només quan es perden caràcters especials en la conversió del nom de fitxer.
+
+[importer.tomboy.option-automatic]
+original=Automatic
+translation=Automàtic
+
+[importer.tomboy.option-keep-titles]
+original=Keep titles
+translation=Conserva els títols
+
+[importer.tomboy.option-filename-only]
+original=Filename only
+translation=Només el nom de fitxer

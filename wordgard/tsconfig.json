@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "lib": ["es2022", "dom"],
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["mocha"],
+    "stripInternal": true,
+    "noUnusedLocals": true,
+    "strict": true,
+    "target": "es2022",
+    "module": "esnext",
+    "newLine": "lf",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "paths": {
+      "wordgard/*": ["./src/*"],
+    }
+  },
+  "include": ["src/*/*.ts", "test/*.ts", "demo/*.ts"]
+}

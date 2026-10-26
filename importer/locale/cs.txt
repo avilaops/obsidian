@@ -1,0 +1,2499 @@
+[command.import-notes]
+original=Import notes
+translation=Importovat poznámky
+
+[nouns.file-with-count]
+original={{count}} file
+translation={{count}} soubor
+
+[nouns.file-with-count_plural]
+original={{count}} files
+translation={{count}} souborů
+
+[nouns.note-with-count]
+original={{count}} note
+translation={{count}} poznámka
+
+[nouns.note-with-count_plural]
+original={{count}} notes
+translation={{count}} poznámek
+
+[nouns.item-with-count]
+original={{count}} item
+translation={{count}} položka
+
+[nouns.item-with-count_plural]
+original={{count}} items
+translation={{count}} položek
+
+[nouns.record-with-count]
+original={{count}} record
+translation={{count}} záznam
+
+[nouns.record-with-count_plural]
+original={{count}} records
+translation={{count}} záznamů
+
+[nouns.base-with-count]
+original={{count}} base
+translation={{count}} báze
+
+[nouns.base-with-count_plural]
+original={{count}} bases
+translation={{count}} bází
+
+[nouns.template-with-count]
+original={{count}} template
+translation={{count}} šablona
+
+[nouns.template-with-count_plural]
+original={{count}} templates
+translation={{count}} šablon
+
+[nouns.failure-with-count]
+original={{count}} failure
+translation={{count}} chyba
+
+[nouns.failure-with-count_plural]
+original={{count}} failures
+translation={{count}} chyb
+
+[nouns.second-with-count]
+original={{count}} second
+translation={{count}} sekunda
+
+[nouns.second-with-count_plural]
+original={{count}} seconds
+translation={{count}} sekund
+
+[nouns.relation-placeholder-with-count]
+original={{count}} relation placeholder
+translation={{count}} zástupný symbol relace
+
+[nouns.relation-placeholder-with-count_plural]
+original={{count}} relation placeholders
+translation={{count}} zástupných symbolů relací
+
+[nouns.linked-database-with-count]
+original={{count}} linked database
+translation={{count}} propojená databáze
+
+[nouns.linked-database-with-count_plural]
+original={{count}} linked databases
+translation={{count}} propojených databází
+
+[nouns.mention-link-with-count]
+original={{count}} mention link
+translation={{count}} odkaz zmínky
+
+[nouns.mention-link-with-count_plural]
+original={{count}} mention links
+translation={{count}} odkazů zmínek
+
+[nouns.synced-reference-with-count]
+original={{count}} synced child reference
+translation={{count}} synchronizovaný podřízený odkaz
+
+[nouns.synced-reference-with-count_plural]
+original={{count}} synced child references
+translation={{count}} synchronizovaných podřízených odkazů
+
+[nouns.new-item-with-count]
+original={{count}} new item
+translation={{count}} nová položka
+
+[nouns.new-item-with-count_plural]
+original={{count}} new items
+translation={{count}} nových položek
+
+[nouns.page-with-count]
+original={{count}} page
+translation={{count}} stránka
+
+[nouns.page-with-count_plural]
+original={{count}} pages
+translation={{count}} stránek
+
+[group.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[group.notion.name]
+original=Notion
+translation=Notion
+
+[outliner.name-flatten-outlines]
+original=Flatten outlines
+translation=Zploštit osnovy
+
+[outliner.desc-flatten-outlines]
+original=Convert outlines into paragraphs, headings, and lists.
+translation=Převést osnovy na odstavce, nadpisy a seznamy.
+
+[modal.title-pick-format]
+original=Import data into Obsidian
+translation=Importovat data do Obsidian
+
+[modal.title-choose-method]
+original=Choose how to import
+translation=Vybrat způsob importu
+
+[modal.title-import-from]
+original=Import from {{format}}
+translation=Importovat z {{format}}
+
+[modal.search-placeholder]
+original=Filter...
+translation=Filtr...
+
+[modal.msg-no-formats]
+original=No formats found.
+translation=Nebyly nalezeny žádné formáty.
+
+[modal.msg-drop-to-import]
+original=Drop files to import
+translation=Pusťte soubory pro import
+
+[modal.button-show-all-formats]
+original=Show all formats
+translation=Zobrazit vše formáty
+
+[modal.button-continue]
+original=Continue
+translation=Pokračovat
+
+[modal.button-import]
+original=Import
+translation=Importovat
+
+[modal.button-back]
+original=Back
+translation=Zpět
+
+[modal.button-help]
+original=Help
+translation=Nápověda
+
+[modal.button-pause]
+original=Pause
+translation=Pozastavit
+
+[modal.button-resume]
+original=Resume
+translation=Obnovit
+
+[modal.button-stop]
+original=Stop
+translation=Zastavit
+
+[modal.button-save-report]
+original=Save report
+translation=Uložit zprávu
+
+[modal.msg-report-failed]
+original=Could not save the import report.
+translation=Nepodařilo se uložit zprávu o importu.
+
+[modal.button-import-more]
+original=Import more
+translation=Importovat další
+
+[modal.button-done]
+original=Done
+translation=Hotovo
+
+[modal.msg-unexpected-auth]
+original=Unexpected auth event. Please restart the auth process.
+translation=Neočekávaná událost autorizace. Prosím restartujte proces autorizace.
+
+[progress.stat-imported]
+original=imported
+translation=importováno
+
+[progress.stat-attachments]
+original=attachments
+translation=Přílohy
+
+[progress.stat-remaining]
+original=remaining
+translation=zbývá
+
+[progress.stat-skipped]
+original=skipped
+translation=Přeskočeno
+
+[progress.stat-failed]
+original=failed
+translation=Nezdařilo se
+
+[progress.label-skipped]
+original=Skipped: 
+translation=Přeskočeno: 
+
+[progress.label-failed]
+original=Failed: 
+translation=Neúspěšné: 
+
+[progress.label-entry]
+original="{{name}}"
+translation="{{name}}"
+
+[progress.label-entry-with-reason]
+original="{{name}}" because {{reason}}
+translation="{{name}}", důvod: {{reason}}
+
+[progress.label-paused]
+original=Paused
+translation=Pozastaveno
+
+[progress.label-paused-with]
+original=Paused - {{status}}
+translation=Pozastaveno – {{status}}
+
+[progress.label-importing]
+original=Importing
+translation=Importování
+
+[progress.label-remaining]
+original={{count}} remaining...
+translation=Zbývá {{count}}...
+
+[progress.label-remaining_plural]
+original={{count}} remaining...
+translation=Zbývá {{count}}...
+
+[progress.label-paused-remaining]
+original=Paused - {{count}} remaining
+translation=Pozastaveno – zbývá {{count}}
+
+[progress.label-paused-remaining_plural]
+original=Paused - {{count}} remaining
+translation=Pozastaveno – zbývá {{count}}
+
+[progress.status-stopping]
+original=Stopping...
+translation=Zastavování...
+
+[progress.msg-stopped]
+original=Import stopped.
+translation=Import zastaven.
+
+[progress.msg-errors]
+original=Import finished with errors.
+translation=Import dokončen s chybami.
+
+[progress.msg-complete]
+original=Import complete.
+translation=Import dokončen.
+
+[progress.msg-imported-count]
+original={{count}} note imported
+translation={{count}} poznámka importována
+
+[progress.msg-imported-count_plural]
+original={{count}} notes imported
+translation={{count}} poznámek importováno
+
+[progress.msg-click-to-show]
+original={{counts}}. Select to show.
+translation={{counts}}. Kliknutím zobrazíte.
+
+[progress.status-waiting]
+original=Waiting {{duration}} ({{reason}})
+translation=Čekání {{duration}} ({{reason}})
+
+[progress.status-standardizing]
+original=Standardizing Markdown ({{current}}/{{total}})
+translation=Standardizace Markdown ({{current}}/{{total}})
+
+[progress.label-finalization]
+original=Markdown finalization
+translation=Finalizace Markdown
+
+[report.file-name]
+original={{date}} {{importer}} import log
+translation={{date}} protokol importu {{importer}}
+
+[report.title]
+original={{importer}} import
+translation=Import {{importer}}
+
+[report.msg-finished]
+original=Finished {{when}}. {{counts}}.
+translation=Dokončeno {{when}}. {{counts}}.
+
+[report.msg-stopped]
+original=Stopped {{when}}. {{counts}}.
+translation=Zastaveno {{when}}. {{counts}}.
+
+[report.heading-failed]
+original=Failed ({{count}})
+translation=Neúspěšné ({{count}})
+
+[report.heading-skipped]
+original=Skipped ({{count}})
+translation=Přeskočeno ({{count}})
+
+[report.heading-messages]
+original=Messages
+translation=Zprávy
+
+[report.count-notes]
+original={{count}} note imported
+translation={{count}} poznámka importována
+
+[report.count-notes_plural]
+original={{count}} notes imported
+translation={{count}} poznámek importováno
+
+[report.count-attachments]
+original={{count}} attachment downloaded
+translation={{count}} příloha stažena
+
+[report.count-attachments_plural]
+original={{count}} attachments downloaded
+translation={{count}} příloh staženo
+
+[report.count-skipped]
+original={{count}} item skipped
+translation={{count}} položka přeskočena
+
+[report.count-skipped_plural]
+original={{count}} items skipped
+translation={{count}} položek přeskočeno
+
+[report.count-failed]
+original={{count}} item failed
+translation={{count}} položka selhala
+
+[report.count-failed_plural]
+original={{count}} items failed
+translation={{count}} položek selhalo
+
+[source.desc]
+original=Drag and drop, or choose files to import.
+translation=Přetáhněte a pusťte, nebo vyberte soubory k importu.
+
+[source.desc-choose]
+original=Choose files to import.
+translation=Vyberte soubory k importu.
+
+[source.button-choose-file]
+original=Choose file
+translation=Vybrat soubor
+
+[source.button-choose-files]
+original=Choose files
+translation=Vybrat soubory
+
+[source.button-choose-folders]
+original=Choose folders
+translation=Vybrat složky
+
+[source.dialog-pick-files]
+original=Pick files to import
+translation=Vyberte soubory k importu
+
+[source.dialog-pick-folders]
+original=Folders to import
+translation=Složky k importu
+
+[source.desc-folders]
+original=Everything in checked folders is imported. Uncheck folders to exclude them.
+translation=Vše v zaškrtnutých složkách bude importováno. Odškrtněte složky, které chcete vyloučit.
+
+[source.msg-pick-source-first]
+original=Choose files or folders first.
+translation=Nejprve vyberte soubory nebo složky.
+
+[source.msg-reading-folders]
+original=Reading folders...
+translation=Čtení složek...
+
+[source.msg-no-folders]
+original=No folders found.
+translation=Nebyly nalezeny žádné složky.
+
+[source.msg-android-folder-failed]
+original=Could not choose that folder.
+translation=Nepodařilo se vybrat tuto složku.
+
+[source.msg-android-folder-read-failed]
+original=Could not read that folder.
+translation=Nepodařilo se přečíst tuto složku.
+
+[source.msg-android-folder-unavailable]
+original=Folder selection is unavailable on this device.
+translation=Výběr složky není na tomto zařízení dostupný.
+
+[source.msg-android-root-folder]
+original=Choose a folder other than the root of your device.
+translation=Vyberte jinou složku než kořenovou složku vašeho zařízení.
+
+[source.msg-flat-files]
+original={{count}} file will be imported.
+translation={{count}} soubor bude importován.
+
+[source.msg-flat-files_plural]
+original={{count}} files will be imported.
+translation={{count}} souborů bude importováno.
+
+[source.msg-nothing-to-import]
+original=Nothing to import there. Pick {{extensions}} files, or a folder holding some.
+translation=Není tu nic k importu. Vyberte soubory {{extensions}}, nebo složku, která je obsahuje.
+
+[source.msg-will-import]
+original={{files}} will be imported: 
+translation={{files}} bude importováno: 
+
+[source.msg-more-files]
+original=and {{count}} more file
+translation=a {{count}} dalších soubor
+
+[source.msg-more-files_plural]
+original=and {{count}} more files
+translation=a {{count}} dalších souborů
+
+[source.button-remove-file]
+original=Remove from the import
+translation=Odebrat z importu
+
+[output.label-source-id]
+original=source ID
+translation=ID zdroje
+
+[output.name-save-source-id]
+original=Save {{label}}
+translation=Uložit {{label}}
+
+[output.desc-save-source-id]
+original=Add the {{label}} to note properties so future imports can recognize moved or renamed notes.
+translation=Přidat {{label}} do vlastností poznámky, aby budoucí importy mohly rozpoznat přesunuté nebo přejmenované poznámky.
+
+[output.name-folder]
+original=Output folder
+translation=Výstupní složka
+
+[output.desc-folder]
+original=Where imported notes will be saved. Leave blank to use the top level of the vault.
+translation=Kde budou importované poznámky uloženy. Ponechte prázdné pro použití kořenové úrovně trezoru.
+
+[output.name-template]
+original=Template
+translation=šablona
+
+[output.desc-template]
+original=Optional Markdown template from this vault. Use variables such as {{title}}, {{content}}, and {{date}}.
+translation=Volitelná Markdown šablona z tohoto trezoru. Použijte proměnné jako {{title}}, {{content}} a {{date}}.
+
+[output.placeholder-template]
+original=Templates/Import.md
+translation=Šablony/Import.md
+
+[output.msg-template-not-found]
+original=Template must be a Markdown file in this vault: {{path}}
+translation=Šablona musí být soubor Markdown v tomto trezoru: {{path}}
+
+[output.name-attachments]
+original=Attachment location
+translation=Umístění příloh
+
+[output.desc-attachments]
+original=Where imported images and files will be saved.
+translation=Kde budou importované obrázky a soubory uloženy.
+
+[output.name-subfolder]
+original=Subfolder name
+translation=Název podsložky
+
+[output.desc-subfolder]
+original=Folder to use inside each imported note's folder.
+translation=Složka pro použití uvnitř složky každé importované poznámky.
+
+[output.name-attachment-folder]
+original=Attachment folder
+translation=Složka příloh
+
+[output.desc-attachment-folder]
+original=Folder path from the top level of the vault.
+translation=Cesta složky od kořenové úrovně trezoru.
+
+[output.name-duplicates]
+original=Existing notes
+translation=Existující poznámky
+
+[output.desc-duplicates]
+original=Choose what to do when an imported note matches one in your vault. "{{update}}" skips unchanged notes and preserves newer local edits when modification dates are available.
+translation=Vyberte, co dělat, když importovaná poznámka odpovídá poznámce ve vašem trezoru. "{{update}}" přeskočí nezměněné poznámky a zachová novější místní úpravy, pokud jsou k dispozici data úprav.
+
+[output.option-create-copy]
+original=Create a copy
+translation=Vytvořit kopii
+
+[output.option-skip]
+original=Skip
+translation=Přeskočit
+
+[output.option-update]
+original=Update
+translation=Aktualizace
+
+[output.option-attachments-vault]
+original=Vault folder
+translation=Kořen trezoru
+
+[output.option-attachments-folder]
+original=In the folder specified below
+translation=Ve složce specifikované níže
+
+[output.option-attachments-note]
+original=Same folder as the note
+translation=Stejná složka jako poznámka
+
+[output.option-attachments-subfolder]
+original=In subfolder under the note
+translation=V podsložce pod poznámkou
+
+[common.msg-pick-file]
+original=Please pick at least one file to import.
+translation=Vyberte prosím alespoň jeden soubor k importu.
+
+[common.msg-pick-output]
+original=Please select a location to export to.
+translation=Vyberte prosím umístění pro export.
+
+[common.msg-pick-import-location]
+original=Please select a location to import your files to.
+translation=Vyberte prosím umístění pro import vašich souborů.
+
+[common.msg-unknown-error]
+original=Unknown error
+translation=Neznámá chyba
+
+[common.name-export]
+original=Export your data
+translation=Exportujte svá data
+
+[common.label-learn-more]
+original=Learn more
+translation=Zjistit více
+
+[common.button-instructions]
+original=Instructions
+translation=Pokyny
+
+[common.button-open]
+original=Open
+translation=Otevřít
+
+[common.status-processing]
+original=Processing {{name}}
+translation=Zpracování {{name}}
+
+[common.status-importing-note]
+original=Importing note {{name}}
+translation=Import poznámky {{name}}
+
+[common.status-importing-attachment]
+original=Importing attachment {{name}}
+translation=Import přílohy {{name}}
+
+[common.status-cancelled]
+original=Import cancelled
+translation=Import zrušen
+
+[reason.already-in-vault]
+original=it is already in the vault
+translation=je již v trezoru
+
+[reason.unchanged-since-import]
+original=it has not changed since the last import
+translation=od posledního importu se nezměnila
+
+[reason.edited-since-import]
+original=it has been edited in Obsidian since the last import
+translation=byla upravena v Obsidian od posledního importu
+
+[reason.file-not-in-vault]
+original=The imported file did not appear in the vault.
+translation=Importovaný soubor se v trezoru neobjevil.
+
+[reason.folder-not-created]
+original=Failed to create folder at "{{path}}"
+translation=Neúspěšné vytvoření složky na "{{path}}"
+
+[tree.button-select-all]
+original=Select all
+translation=Vybrat vše
+
+[tree.button-deselect-all]
+original=Deselect all
+translation=Odznačit vše
+
+[tree.button-load]
+original=Load
+translation=Načíst
+
+[tree.button-loading]
+original=Loading...
+translation=Načítání...
+
+[tree.button-refresh]
+original=Refresh
+translation=Obnovit
+
+[tree.placeholder-filter]
+original=Filter...
+translation=Filtr...
+
+[tree.msg-no-matches]
+original=No results found.
+translation=Žádné výsledky.
+
+[request.msg-unauthorized]
+original={{service}} did not accept the request for {{subject}}. {{credential}}
+translation={{service}} nepřijal požadavek na {{subject}}. {{credential}}
+
+[request.msg-forbidden]
+original={{service}} would not give access to {{subject}}. {{credential}}
+translation={{service}} neudělil přístup k {{subject}}. {{credential}}
+
+[request.msg-not-found]
+original={{service}} could not find {{subject}}.
+translation={{service}} nemohl najít {{subject}}.
+
+[request.msg-rate-limited]
+original={{service}} is limiting how fast {{subject}} can be read. Wait a few minutes and try again.
+translation={{service}} omezuje rychlost čtení {{subject}}. Počkejte několik minut a zkuste to znovu.
+
+[request.msg-timed-out]
+original={{service}} took too long to return {{subject}}. Try again shortly.
+translation={{service}} příliš dlouho vracel {{subject}}. Zkuste to znovu za chvíli.
+
+[request.msg-unavailable]
+original={{service}} could not return {{subject}} right now. Try again shortly.
+translation={{service}} nyní nemůže vrátit {{subject}}. Zkuste to znovu za chvíli.
+
+[request.msg-failed-with-code]
+original=Could not read {{subject}}: {{message}} ({{code}})
+translation=Nelze přečíst {{subject}}: {{message}} ({{code}})
+
+[request.msg-failed-with-message]
+original=Could not read {{subject}}: {{message}}
+translation=Nelze přečíst {{subject}}: {{message}}
+
+[request.msg-failed-with-reported-code]
+original=Could not read {{subject}}. {{service}} reported {{code}}.
+translation=Nelze přečíst {{subject}}. {{service}} ohlásil {{code}}.
+
+[request.msg-failed]
+original=Could not read {{subject}}.
+translation=Nelze přečíst {{subject}}.
+
+[template.msg-intro]
+original=Configure how your data should be imported. Use {{syntax}} syntax to reference field values.
+translation=Nastavte, jak mají být vaše data importována. Použijte syntaxi {{syntax}} pro odkazování na hodnoty polí.
+
+[template.msg-note-template-intro]
+original=Review examples of how your notes will be imported.
+translation=Prohlédněte si příklady, jak budou vaše poznámky importovány.
+
+[template.name-title]
+original=Note title
+translation=Rename file
+
+[template.desc-title]
+original=Template for the note title. Use variables like {{field_name}} to insert values.
+translation=Šablona pro název poznámky. Použijte proměnné jako {{field_name}} pro vložení hodnot.
+
+[template.name-location]
+original=Note location
+translation=Umístění poznámky
+
+[template.desc-location]
+original=Template for note location/path. Use {{field_name}} to organize notes.
+translation=Šablona pro umístění/cestu poznámky. Použijte {{field_name}} pro organizaci poznámek.
+
+[template.name-content]
+original=Note content
+translation=Obsah poznámky
+
+[template.desc-content]
+original=Template for the note content. Use variables like {{field_name}} to insert values.
+translation=Šablona pro obsah poznámky. Použijte proměnné jako {{field_name}} pro vložení hodnot.
+
+[template.name-template-file]
+original=Template
+translation=šablona
+
+[template.desc-template-file]
+original=Optional. Choose a template from your vault to format the note content. See Help for {{link}}.
+translation=Volitelné. Vyberte šablonu z vašeho trezoru pro formátování obsahu poznámky. Další informace najdete v nápovědě: {{link}}.
+
+[template.link-template-syntax]
+original=template syntax
+translation=syntax šablon
+
+[template.heading-preview]
+original=Preview
+translation=Náhled
+
+[template.status-loading-preview]
+original=Loading preview...
+translation=Načítání náhledu…
+
+[template.button-edit-template]
+original=Edit
+translation=Upravit
+
+[template.button-save-template]
+original=Save
+translation=Uložit
+
+[template.button-reset-template]
+original=Reset to default
+translation=Obnovit výchozí
+
+[template.button-start-import]
+original=Start import
+translation=Spustit import
+
+[template.link-show-more]
+original=Show more
+translation=Zobrazit více
+
+[template.name-template-editor]
+original=Template source
+translation=Zdroj šablony
+
+[template.label-edit-import-template]
+original=Edit import template
+translation=Upravit šablonu importu
+
+[template.button-add-property]
+original=Add property
+translation=Přidat vlastnost
+
+[template.button-previous-preview]
+original=Previous preview
+translation=Předchozí náhled
+
+[template.button-next-preview]
+original=Next preview
+translation=Následující náhled
+
+[template.msg-diagnostic]
+original=Line {{line}}: {{message}}
+translation=Řádek {{line}}: {{message}}
+
+[template.heading-properties]
+original=Properties
+translation=Vlastnosti
+
+[template.column-property-name]
+original=Property name
+translation=Název vlastnosti
+
+[template.column-property-value]
+original=Property value
+translation=Hodnota vlastnosti
+
+[template.column-example]
+original=Example
+translation=Příklad
+
+[template.action-delete-property]
+original=Delete property
+translation=Smazat vlastnost
+
+[template.msg-title-required]
+original=Please provide a note title template.
+translation=Zadejte prosím šablonu pro název poznámky.
+
+[importer.airtable-api.name]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.option-text]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-id]
+original=Airtable record ID
+translation=ID záznamu Airtable
+
+[importer.airtable-api.name-token]
+original=Airtable personal access token
+translation=Osobní přístupový token Airtable
+
+[importer.airtable-api.desc-token]
+original=Create a personal access token in your Airtable account settings.
+translation=Vytvořte si osobní přístupový token v nastavení svého účtu Airtable.
+
+[importer.airtable-api.link-get-token]
+original=Get token
+translation=Získat token
+
+[importer.airtable-api.name-tables]
+original=Tables to import
+translation=Tabulky k importu
+
+[importer.airtable-api.desc-tables]
+original=Load your Airtable bases and tables, then choose what to import.
+translation=Načtěte své Airtable báze a tabulky, pak vyberte, co chcete importovat.
+
+[importer.airtable-api.hint-tables]
+original=Load your Airtable bases and tables to get started.
+translation=Pro začátek načtěte své Airtable báze a tabulky.
+
+[importer.airtable-api.msg-fetching-bases]
+original=Fetching bases...
+translation=Načítání bází...
+
+[importer.airtable-api.msg-no-bases]
+original=No bases found.
+translation=Nebyly nalezeny žádné báze.
+
+[importer.airtable-api.label-service]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-subject]
+original=your bases
+translation=vaše báze
+
+[importer.airtable-api.label-credential]
+original=Check that your personal access token is current and has access to them.
+translation=Zkontrolujte, zda je váš osobní přístupový token platný a má k nim přístup.
+
+[importer.airtable-api.name-formulas]
+original=Convert formulas
+translation=Převést vzorce
+
+[importer.airtable-api.desc-formulas]
+original=Try to convert formulas to Obsidian syntax, or import as static values.
+translation=Pokusit se převést vzorce do syntaxe Obsidian, nebo importovat jako statické hodnoty.
+
+[importer.airtable-api.option-formula-hybrid]
+original=Obsidian syntax (with fallback)
+translation=Syntaxe Obsidian (s náhradní variantou)
+
+[importer.airtable-api.option-formula-static]
+original=Static values only
+translation=Pouze statické hodnoty
+
+[importer.airtable-api.name-download-attachments]
+original=Download attachments
+translation=Stáhnout přílohy
+
+[importer.airtable-api.desc-download-attachments]
+original=Download attachment files to local vault. If disabled or download fails, external URLs will be used.
+translation=Stáhnout soubory příloh do lokálního trezoru. Pokud je stahování vypnuto nebo selže, budou použity externí URL.
+
+[importer.airtable-api.name-view-property]
+original=View property name
+translation=Název vlastnosti zobrazení
+
+[importer.airtable-api.desc-view-property]
+original=Property name to track which views a record belongs to. Each record will have a list of view names it appears in.
+translation=Název vlastnosti pro sledování, do kterých zobrazení záznam patří. Každý záznam bude obsahovat seznam názvů zobrazení, ve kterých se nachází.
+
+[importer.airtable-api.msg-token-first]
+original=Please enter your Airtable personal access token first.
+translation=Nejprve prosím zadejte svůj osobní přístupový token Airtable.
+
+[importer.airtable-api.msg-token-missing]
+original=Please enter your Airtable personal access token.
+translation=Zadejte prosím svůj osobní přístupový token Airtable.
+
+[importer.airtable-api.msg-load-bases-failed]
+original=Failed to load bases: {{error}}
+translation=Nepodařilo se načíst báze: {{error}}
+
+[importer.airtable-api.msg-load-tables-failed]
+original=Failed to load tables for "{{base}}": {{error}}
+translation=Nepodařilo se načíst tabulky pro "{{base}}": {{error}}
+
+[importer.airtable-api.msg-pick-table]
+original=Please select at least one table to import.
+translation=Vyberte prosím alespoň jednu tabulku k importu.
+
+[importer.airtable-api.msg-loading-fields]
+original=Loading fields...
+translation=Načítání polí...
+
+[importer.airtable-api.msg-no-fields]
+original=No fields found in selected tables. Please check your selection.
+translation=Ve vybraných tabulkách nebyla nalezena žádná pole. Zkontrolujte prosím svůj výběr.
+
+[importer.airtable-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=Import selhal: {{error}}
+
+[importer.airtable-api.label-base-position]
+original= (base {{index}} of {{total}})
+translation= (báze {{index}} z {{total}})
+
+[importer.airtable-api.label-base]
+original=Base: {{name}}
+translation=Báze: {{name}}
+
+[importer.airtable-api.label-linked-table]
+original=Linked table: {{name}}
+translation=Propojená tabulka: {{name}}
+
+[importer.airtable-api.label-table-view]
+original={{table}} > {{view}}
+translation={{table}} > {{view}}
+
+[importer.airtable-api.label-import]
+original=Airtable API import
+translation=Import přes Airtable API
+
+[importer.airtable-api.status-connecting]
+original=Connecting to Airtable API
+translation=Připojování k Airtable API
+
+[importer.airtable-api.status-loading-tables]
+original=Loading tables for {{base}}
+translation=Načítání tabulek pro {{base}}
+
+[importer.airtable-api.status-fetching-tables]
+original=Fetching tables for base {{base}}...
+translation=Stahování tabulek pro bázi {{base}}...
+
+[importer.airtable-api.status-found-bases]
+original=Found {{bases}} to import
+translation=Nalezeno {{bases}} k importu
+
+[importer.airtable-api.status-fetching-base]
+original=Fetching data from {{base}}{{position}}
+translation=Stahování dat z {{base}}{{position}}
+
+[importer.airtable-api.status-preparing-records]
+original=Preparing records from {{base}}{{position}}
+translation=Příprava záznamů z {{base}}{{position}}
+
+[importer.airtable-api.status-reading-names]
+original=Reading names from {{table}}{{position}}
+translation=Čtení názvů z {{table}}{{position}}
+
+[importer.airtable-api.status-planning]
+original=Working out where {{table}}{{position}} goes
+translation=Zjišťování, kam {{table}}{{position}} patří
+
+[importer.airtable-api.status-fetching-records]
+original=Fetching records from {{table}}{{position}}
+translation=Stahování záznamů z {{table}}{{position}}
+
+[importer.airtable-api.status-fetched-records]
+original=Fetched {{records}} from {{table}}{{position}}
+translation=Staženo {{records}} z {{table}}{{position}}
+
+[importer.airtable-api.status-fetching-view]
+original=Fetching view {{view}} from {{table}}{{position}}
+translation=Stahování zobrazení {{view}} z {{table}}{{position}}
+
+[importer.airtable-api.status-creating-notes]
+original=Creating notes in {{table}}{{position}}
+translation=Vytváření poznámek v {{table}}{{position}}
+
+[importer.airtable-api.status-updating-types]
+original=Updating property types
+translation=Aktualizace typů vlastností
+
+[importer.airtable-api.status-complete]
+original=Import complete
+translation=Import dokončen
+
+[importer.airtable-api.status-rate-limited]
+original=Rate limited, waiting {{seconds}}s (attempt {{attempt}}/{{total}})...
+translation=Omezení rychlosti, čekání {{seconds}} s (pokus {{attempt}}/{{total}})...
+
+[importer.airtable-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}
+translation=Stahování přílohy: {{name}}
+
+[importer.airtable-api.reason-no-record-names]
+original=Could not read record names
+translation=Nepodařilo se přečíst názvy záznamů
+
+[importer.airtable-api.reason-empty-record]
+original=Empty record
+translation=Prázdný záznam
+
+[importer.airtable-api.desc-no-modified-time]
+original=Airtable does not say when a record last changed, so "{{update}}" compares the note with the record instead. A note you have edited yourself reads as changed, and will be written over.
+translation=Airtable neuvádí, kdy byl záznam naposledy změněn, takže "{{update}}" porovnává poznámku se záznamem. Poznámka, kterou jste sami upravili, se zobrazí jako změněná a bude přepsána.
+
+[importer.apple-notes.name]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.option-text]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.label-id]
+original=Apple Notes ID
+translation=Apple Notes ID
+
+[importer.apple-notes.msg-platform]
+original=Due to platform limitations, Apple Notes cannot be exported from this device. Open your vault on a Mac to export from Apple Notes.
+translation=Kvůli omezením platformy nelze Apple Notes exportovat z tohoto zařízení. Otevřete svůj trezor na Mac pro export z Apple Notes.
+
+[importer.apple-notes.name-prefix-format]
+original=File prefix format
+translation=Formát předpony souboru
+
+[importer.apple-notes.desc-prefix-format]
+original=Format for the creation date prefix in filenames. Use YYYY, MM, DD for year, month, day. Leave blank for no prefix.
+translation=Formát předpony data vytvoření v názvech souborů. Použijte YYYY, MM, DD pro rok, měsíc, den. Ponechte prázdné pro žádnou předponu.
+
+[importer.apple-notes.name-omit-first-line]
+original=Omit first line
+translation=Vynechat první řádek
+
+[importer.apple-notes.desc-omit-first-line]
+original=Don't include the first line in the text, since Apple Notes uses it as the title. It will still be used as the note name.
+translation=Nezahrnovat první řádek do textu, protože Apple Notes ho používá jako název. Stále bude použit jako název poznámky.
+
+[importer.apple-notes.name-handwriting]
+original=Include handwriting text
+translation=Zahrnout text z rukopisu
+
+[importer.apple-notes.desc-handwriting]
+original=When Apple Notes has detected handwriting in drawings, include it as text before the drawing.
+translation=Pokud Apple Notes rozpoznal rukopis v kresbách, zahrnout ho jako text před kresbou.
+
+[importer.apple-notes.name-data-folder]
+original=Apple Notes data folder
+translation=Datová složka Apple Notes
+
+[importer.apple-notes.desc-data-folder]
+original=macOS only lets Obsidian read your notes once you have pointed it at the folder they are kept in.
+translation=macOS umožní Obsidian číst vaše poznámky až poté, co mu ukážete složku, ve které jsou uloženy.
+
+[importer.apple-notes.button-select-folder]
+original=Select folder
+translation=Vybrat složku
+
+[importer.apple-notes.msg-wrong-folder]
+original=Ensure you have selected the correct Apple Notes data folder.
+translation=Ujistěte se, že jste vybrali správnou datovou složku Apple Notes.
+
+[importer.apple-notes.msg-dialog-folder]
+original=Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data.
+translation=Vyberte složku "group.com.apple.notes", aby Obsidian mohl číst data Apple Notes.
+
+[importer.apple-notes.msg-import-failed]
+original=Data import failed. Ensure you have selected the correct Apple Notes data folder.
+translation=Import dat selhal. Ujistěte se, že jste vybrali správnou datovou složku Apple Notes.
+
+[importer.apple-notes.msg-pick-folders]
+original=Please select at least one folder to import.
+translation=Vyberte prosím alespoň jednu složku k importu.
+
+[importer.apple-notes.name-folders]
+original=Folders to import
+translation=Složky k importu
+
+[importer.apple-notes.desc-folders]
+original=Pick the folders whose notes to bring across.
+translation=Vyberte složky, jejichž poznámky chcete přenést.
+
+[importer.apple-notes.msg-no-access]
+original=Allow access to your notes to see the folders in them.
+translation=Povolte přístup ke svým poznámkám, abyste viděli jejich složky.
+
+[importer.apple-notes.msg-no-folders]
+original=No folders found.
+translation=Nebyly nalezeny žádné složky.
+
+[importer.apple-notes.msg-database-busy]
+original=Your Apple Notes database is in use. Quit Notes and try again.
+translation=Databáze Apple Notes se právě používá. Ukončete aplikaci Notes a zkuste to znovu.
+
+[importer.apple-notes.msg-database-unreadable]
+original=Could not open your Apple Notes database. {{hint}}
+translation=Nepodařilo se otevřít databázi Apple Notes. {{hint}}
+
+[importer.apple-notes.msg-read-failed-with-detail]
+original=Could not read your notes: {{detail}}
+translation=Nepodařilo se přečíst vaše poznámky: {{detail}}
+
+[importer.apple-notes.msg-read-failed]
+original=Could not read your notes.
+translation=Nepodařilo se přečíst vaše poznámky.
+
+[importer.apple-notes.reason-password-protected]
+original=note is password protected
+translation=poznámka je chráněna heslem
+
+[importer.apple-notes.reason-duplicate]
+original=note is a duplicate
+translation=poznámka je duplikát
+
+[importer.apple-notes.reason-unchanged]
+original=note unchanged since last import
+translation=poznámka se od posledního importu nezměnila
+
+[importer.apple-notes.reason-attachment-exists]
+original=attachment already exists
+translation=příloha již existuje
+
+[importer.apple-notes.reason-attachment-unchanged]
+original=attachment unchanged since last import
+translation=příloha se od posledního importu nezměnila
+
+[importer.apple-notes.reason-not-downloaded]
+original=it has not been downloaded from iCloud - open the note in Apple Notes to fetch it
+translation=nebylo staženo z iCloud – otevřete poznámku v Apple Notes, aby se stáhla
+
+[importer.apple-notes.label-attachment]
+original=Attachment {{id}}
+translation=Příloha {{id}}
+
+[importer.apple-notes.reason-no-attachment-row]
+original=no {{uti}} row to read it from
+translation=žádný Řádek {{uti}}, ze kterého by šlo číst
+
+[importer.apple-notes.label-attachment-in-note]
+original={{name}} in {{note}}
+translation={{name}} v {{note}}
+
+[importer.apple-journal.name]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.option-text]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.file-type]
+original=Journal entries
+translation=Záznamy z deníku
+
+[importer.apple-journal.desc-files]
+original=Export your entries from the Journal app, then pick the HTML files it wrote to iCloud Drive.
+translation=Exportujte své záznamy z aplikace Journal app a poté vyberte HTML soubory, které byly zapsány na iCloud Drive.
+
+[importer.apple-journal.heading-metadata]
+original=Journal metadata
+translation=Metadata deníku
+
+[importer.apple-journal.name-front-matter]
+original=Add metadata as frontmatter
+translation=Přidat metadata jako úvodní metadata
+
+[importer.apple-journal.desc-front-matter]
+original=Capture state-of-mind, contact, and similar tokens in YAML when available.
+translation=Uložit náladu, kontakty a podobné údaje do YAML, pokud jsou k dispozici.
+
+[importer.apple-journal.reason-index-file]
+original=index file is not a journal entry
+translation=indexový soubor není záznam deníku
+
+[importer.bear.name]
+original=Bear
+translation=Bear
+
+[importer.bear.option-text]
+original=Bear (.bear2bk, .zip)
+translation=Bear (.bear2bk, .zip)
+
+[importer.bear.file-type]
+original=Bear backups
+translation=Zálohy Bear
+
+[importer.bear.label-id]
+original=Bear ID
+translation=Bear ID
+
+[importer.bear.desc-export]
+original=Back up your notes in Bear and choose the resulting .bear2bk file. On iPhone and iPad, you can also export Application Data and choose its .zip file.
+translation=Zálohujte své poznámky v Bear a vyberte výsledný soubor .bear2bk. Na iPhone a iPad můžete také exportovat data aplikace a vybrat soubor .zip.
+
+[importer.bear.name-tags-property]
+original=Move tags to a property
+translation=Přesunout tagy do vlastnosti
+
+[importer.bear.desc-tags-property]
+original=When enabled, tags are taken out of the note and listed in its tags property. Bear keeps tags in the text of a note, and Obsidian reads them there too.
+translation=Pokud je zapnuté, tagy jsou odebrány z poznámky a uvedeny v její vlastnosti tags. Bear uchovává tagy v textu poznámky a Obsidian je tam také čte.
+
+[importer.bear.name-flatten-tags]
+original=Flatten nested tags
+translation=Zploštit vnořené tagy
+
+[importer.bear.desc-flatten-tags]
+original=When enabled, tags will be split on slashes (/) during import.
+translation=Pokud je zapnuté, tagy budou při importu rozděleny podle lomítek (/).
+
+[importer.bear.status-importing-asset]
+original=Importing asset {{name}}
+translation=Importování prostředku {{name}}
+
+[importer.bear.status-updating-links]
+original=Updating internal links…
+translation=Aktualizace interních odkazů…
+
+[importer.bear.reason-unknown-type]
+original=unknown type of file
+translation=Neznáma typ souboru
+
+[importer.bear.reason-encrypted]
+original=encrypted note
+translation=zašifrovaná poznámka
+
+[importer.bear.reason-missing-attachment]
+original=the attachment is missing from the export
+translation=příloha v exportu chybí
+
+[importer.csv.name]
+original=CSV
+translation=CSV
+
+[importer.csv.option-text]
+original=CSV (.csv)
+translation=CSV (.csv)
+
+[importer.csv.file-type]
+original=CSV
+translation=CSV
+
+[importer.csv.desc-export]
+original=Export your table as CSV from the app it lives in, such as Excel, Google Sheets, Numbers, Notion, or Airtable.
+translation=Exportujte tabulku jako CSV z aplikace, ve které se nachází, například Excel, Google Sheets, Numbers, Notion nebo Airtable.
+
+[importer.csv.name-header-row]
+original=CSV has header row
+translation=CSV obsahuje řádek záhlaví
+
+[importer.csv.desc-header-row]
+original=If enabled, the first row of the CSV file will be treated as column headers.
+translation=Pokud je zapnuté, první řádek CSV souboru bude použit jako záhlaví sloupců.
+
+[importer.csv.name-source-title]
+original=Source title
+translation=Zdrojový název
+
+[importer.csv.desc-source-title]
+original=Creates the {{title}} value used by the final note title template. Use CSV column variables like {{column_name}}.
+translation=Vytvoří hodnotu {{title}} použitou v šabloně názvu výsledné poznámky. Použijte proměnné sloupců CSV jako {{column_name}}.
+
+[importer.csv.msg-pick-file]
+original=Please pick at least one CSV file to import.
+translation=Vyberte prosím alespoň jeden CSV soubor k importu.
+
+[importer.csv.msg-one-at-a-time]
+original=CSV files must be imported one at a time.
+translation=CSV soubory musí být importovány jednotlivě.
+
+[importer.csv.msg-no-data]
+original=No data found in {{name}}.
+translation=V souboru {{name}} nebyla nalezena žádná data.
+
+[importer.csv.msg-no-configuration]
+original=Configuration is missing.
+translation=Chybí konfigurace.
+
+[importer.csv.status-parsing]
+original=Parsing {{name}}
+translation=Zpracování {{name}}
+
+[importer.csv.status-creating-note]
+original=Creating note: {{title}}
+translation=Vytváření poznámky: {{title}}
+
+[importer.csv.label-row]
+original=Row {{number}}
+translation=Řádek {{number}}
+
+[importer.csv.reason-empty-title]
+original=Empty title
+translation=Prázdné název
+
+[importer.files.name]
+original=Files and folders
+translation=Soubory a složky
+
+[importer.files.option-text]
+original=Copy files and folders into your vault
+translation=Kopírovat soubory a složky do vašeho trezoru
+
+[importer.files.name-source]
+original=Files to copy
+translation=Soubory ke kopírování
+
+[importer.files.desc-source]
+original=Drop files or folders anywhere in the window to copy them into your vault.
+translation=Pusťte soubory nebo složky kamkoli v okně a zkopírujte je do svého trezoru.
+
+[importer.evernote.name]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.option-text]
+original=Evernote (.enex)
+translation=Evernote (.enex)
+
+[importer.evernote.file-type]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.desc-export]
+original=Export your notebooks in ENEX format, you will receive one .enex file per notebook.
+translation=Exportujte své poznámkové bloky ve formátu ENEX, obdržíte jeden soubor .enex za každý blok.
+
+[importer.evernote.msg-unresolved-links]
+original={{count}} link could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} odkaz nemohl být přiřazen k poznámce. Export ENEX neuvádí, na kterou poznámku odkaz směřuje, pouze název zobrazený v Evernote, takže poznámka přejmenovaná po vytvoření odkazu mu již neodpovídá. Obsidian je zobrazuje jako nevyřešené odkazy.
+
+[importer.evernote.msg-unresolved-links_plural]
+original={{count}} links could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} odkazů nemohlo být přiřazeno k poznámce. Export ENEX neuvádí, na kterou poznámku odkaz směřuje, pouze název zobrazený v Evernote, takže poznámka přejmenovaná po vytvoření odkazu mu již neodpovídá. Obsidian je zobrazuje jako nevyřešené odkazy.
+
+[importer.keep.name]
+original=Google Keep
+translation=Google Keep
+
+[importer.keep.option-text]
+original=Google Keep (.zip, .json)
+translation=Google Keep (.zip, .json)
+
+[importer.keep.file-type]
+original=Notes & attachments
+translation=Poznámky a přílohy
+
+[importer.keep.desc-export]
+original=Get your Google Keep data from Google Takeout.
+translation=Získejte svá data z Google Keep pomocí Google Takeout.
+
+[importer.keep.name-archived]
+original=Import archived notes
+translation=Importovat archivované poznámky
+
+[importer.keep.desc-archived]
+original=If imported, files archived in Google Keep will be tagged as archived.
+translation=Pokud budou importovány, soubory archivované v Google Keep budou označeny jako archivované.
+
+[importer.keep.name-deleted]
+original=Import deleted notes
+translation=Importovat smazané poznámky
+
+[importer.keep.desc-deleted]
+original=If imported, files deleted in Google Keep will be tagged as deleted. Deleted notes will only exist in your Google export if deleted recently.
+translation=Pokud budou importovány, soubory smazané v Google Keep budou označeny jako smazané. Smazané poznámky budou ve vašem exportu z Google pouze pokud byly smazány nedávno.
+
+[importer.keep.reason-invalid-json]
+original=Invalid Google Keep JSON
+translation=Neplatný JSON z Google Keep
+
+[importer.keep.reason-archived]
+original=Archived note
+translation=Archivovaná poznámka
+
+[importer.keep.reason-deleted]
+original=Deleted note
+translation=Smazaná poznámka
+
+[importer.html.name]
+original=HTML files
+translation=HTML soubory
+
+[importer.html.option-text]
+original=HTML (.html, .zip)
+translation=HTML (.html, .zip)
+
+[importer.html.label-id]
+original=HTML source path
+translation=Zdrojová cesta HTML
+
+[importer.html.desc-source-identity]
+original=Changing which folder or zip file you choose can change the source path, so existing notes may not be recognized.
+translation=Změna vybrané složky nebo souboru zip může změnit zdrojovou cestu, takže existující poznámky nemusí být rozpoznány.
+
+[importer.html.file-type]
+original=HTML
+translation=HTML
+
+[importer.html.desc-export]
+original=Save the pages you want to keep as HTML. If the app they are in has an importer of its own, use that instead: it keeps more of your data.
+translation=Uložte stránky, které si chcete ponechat, jako HTML. Pokud má aplikace, ve které se nacházejí, vlastní importér, použijte raději ten – zachová více vašich dat.
+
+[importer.html.desc-source]
+original=Choose individual HTML files, whole folders, or zip files. Pages in folders stay organized the same way.
+translation=Vyberte jednotlivé HTML soubory, celé složky nebo soubory zip. Stránky ve složkách zůstanou uspořádány stejným způsobem.
+
+[importer.html.name-extract-main-content]
+original=Extract main content
+translation=Extrahovat hlavní obsah
+
+[importer.html.desc-extract-main-content]
+original=Remove navigation, sidebars, footers, and other page clutter.
+translation=Odebrat navigaci, postranní panely, zápatí a další nepotřebné prvky stránky.
+
+[importer.html.name-size-limit]
+original=Attachment size limit (MB)
+translation=Limit velikosti příloh (MB)
+
+[importer.html.name-minimum-image-size]
+original=Minimum image size (px)
+translation=Minimální velikost obrázku (px)
+
+[importer.html.desc-set-zero-to-disable]
+original=Set 0 to disable.
+translation=Nastavte 0 pro vypnutí.
+
+[importer.html.status-downloading]
+original=Downloading attachment for {{name}}
+translation=Stahování přílohy pro {{name}}
+
+[importer.markdown.name]
+original=Markdown
+translation=Markdown
+
+[importer.markdown.option-text]
+original=Markdown (.md, .txt, .zip)
+translation=Markdown (.md, .txt, .zip)
+
+[importer.markdown.file-type]
+original=Markdown and text
+translation=Markdown a Text
+
+[importer.markdown.desc-source]
+original=Choose individual Markdown or text files, whole folders, or zip files. Everything in folders stays organized the same way.
+translation=Vyberte jednotlivé soubory Markdown nebo Text, celé složky nebo soubory zip. Vše ve složkách zůstane uspořádáno stejným způsobem.
+
+[importer.markdown.name-standardize-formatting]
+original=Standardize formatting
+translation=Standardizovat formátování
+
+[importer.markdown.desc-standardize-formatting]
+original=Use this vault's settings for lists, indentation, and links.
+translation=Použít nastavení tohoto trezoru pro seznamy, odsazení a odkazy.
+
+[importer.markdown.name-tags-as-properties]
+original=Convert inline tags to properties
+translation=Převést inline tagy na vlastnosti
+
+[importer.markdown.desc-tags-as-properties]
+original=Move tags written in the body of a note into its tags property.
+translation=Přesunout tagy zapsané v textu poznámky do její vlastnosti tagy.
+
+[importer.logseq.name]
+original=Logseq
+translation=Logseq
+
+[importer.logseq.option-text]
+original=Logseq (.md)
+translation=Logseq (.md)
+
+[importer.logseq.label-id]
+original=Logseq source
+translation=Zdroj Logseq
+
+[importer.logseq.desc-instructions]
+original=Read the instructions for importing from Logseq.
+translation=Přečtěte si pokyny pro import z Logseq.
+
+[importer.logseq.desc-files]
+original=Choose one graph folder containing pages, journals, and assets.
+translation=Vyberte jednu složku grafu obsahující stránky, deníky a přílohy.
+
+[importer.logseq.name-use-daily-notes]
+original=Use daily notes settings
+translation=Použít nastavení každodenních poznámek
+
+[importer.logseq.desc-use-daily-notes]
+original=Write journals to the configured daily notes folder and filename format.
+translation=Zapsat deníky do nakonfigurované složky každodenních poznámek a formátu názvů souborů.
+
+[importer.logseq.name-queries]
+original=Keep queries
+translation=Zachovat dotazy
+
+[importer.logseq.desc-queries]
+original=Obsidian doesn't support Logseq's query format, so queries are imported as code blocks.
+translation=Obsidian nepodporuje formát dotazů Logseq, proto jsou dotazy importovány jako bloky kódu.
+
+[importer.logseq.name-flashcards]
+original=Keep flashcards
+translation=Zachovat kartičky
+
+[importer.logseq.desc-flashcards]
+original=Obsidian doesn't support Logseq's flashcards, so card markers and cloze wrappers are imported as plain text.
+translation=Obsidian nepodporuje kartičky Logseq, proto jsou značky kartiček a cloze wrappery importovány jako prostý text.
+
+[importer.logseq.name-time-tracking]
+original=Keep time tracking
+translation=Zachovat sledování času
+
+[importer.logseq.desc-time-tracking]
+original=Obsidian doesn't support Logseq's time tracking, so LOGBOOK and CLOCK entries are imported as plain text.
+translation=Obsidian nepodporuje sledování času v Logseq, proto jsou záznamy LOGBOOK a CLOCK importovány jako prostý text.
+
+[importer.logseq.msg-pick-graph]
+original=Please choose one Logseq graph folder.
+translation=Vyberte jednu složku grafu Logseq.
+
+[importer.logseq.msg-no-notes]
+original=The selected folder has no Markdown notes under pages or journals.
+translation=Vybraná složka neobsahuje žádné Markdown poznámky ve složkách pages ani journals.
+
+[importer.logseq.reason-empty-page]
+original=The converted page is empty
+translation=Převedená stránka je prázdná
+
+[importer.logseq.reason-missing-asset]
+original=Referenced by {{name}}, but missing from the graph
+translation=Odkazováno z {{name}}, ale v grafu chybí
+
+[importer.logseq.reason-whiteboards]
+original=Logseq whiteboards are not supported by Obsidian
+translation=Tabule Logseq nejsou v Obsidian podporovány
+
+[importer.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.option-text]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.method-name]
+original=Microsoft account
+translation=Microsoft účet
+
+[importer.onenote.method-desc]
+original=Sign into your Microsoft account and import the notebooks that are synced to OneDrive. Requires an internet connection.
+translation=Přihlaste se ke svému Microsoft účtu a importujte poznámkové bloky synchronizované na OneDrive. Vyžaduje připojení k internetu.
+
+[importer.onenote.label-id]
+original=OneNote ID
+translation=OneNote ID
+
+[importer.onenote.name-incompatible]
+original=Import incompatible attachments
+translation=Importovat nekompatibilní přílohy
+
+[importer.onenote.desc-incompatible]
+original=Imports incompatible attachments which cannot be embedded in Obsidian, such as .exe files.
+translation=Importuje nekompatibilní přílohy, které nelze vložit do Obsidian, například soubory .exe.
+
+[importer.onenote.name-account]
+original=Microsoft account
+translation=Microsoft účet
+
+[importer.onenote.desc-sign-in]
+original=Sign in to import your OneNote notebooks.
+translation=Přihlaste se pro import vašich OneNote poznámkových bloků.
+
+[importer.onenote.desc-sign-in-organization]
+original=Sign in to import your OneNote notebooks. A work or school account may need your organization to approve access.
+translation=Přihlaste se pro import vašich OneNote poznámkových bloků. Pracovní nebo školní účet může vyžadovat schválení přístupu vaší organizací.
+
+[importer.onenote.desc-signed-in]
+original=Signed in as {{name}} ({{email}}).
+translation=Přihlášeno jako {{name}} ({{email}}).
+
+[importer.onenote.button-sign-in]
+original=Sign in
+translation=Přihlásit se
+
+[importer.onenote.button-sign-out]
+original=Sign out
+translation=Odhlásit se
+
+[importer.onenote.button-work-account]
+original=Use work or school access
+translation=Použít pracovní nebo školní přístup
+
+[importer.onenote.msg-sign-in-failed]
+original=An error occurred while trying to sign you in.
+translation=Při pokusu o přihlášení došlo k chybě.
+
+[importer.onenote.msg-sign-in-details]
+original=Show error details
+translation=Zobrazit podrobnosti chyby
+
+[importer.onenote.msg-signed-out]
+original=Sign in to see your OneNote notebooks.
+translation=Přihlaste se pro zobrazení vašich OneNote poznámkových bloků.
+
+[importer.onenote.msg-please-sign-in]
+original=Please sign in to your Microsoft account.
+translation=Prosím přihlaste se ke svému Microsoft účtu.
+
+[importer.onenote.name-sections]
+original=Sections to import
+translation=Sekce k importu
+
+[importer.onenote.desc-sections]
+original=Select a notebook, or sections within it.
+translation=Vyberte poznámkový blok nebo jeho sekce.
+
+[importer.onenote.msg-loading-notebooks]
+original=Loading notebooks...
+translation=Načítání poznámkových bloků...
+
+[importer.onenote.msg-no-notebooks]
+original=No notebooks found.
+translation=Nebyly nalezeny žádné poznámkové bloky.
+
+[importer.onenote.msg-scope-refused]
+original=OneNote did not grant this sign-in access to your notebooks. Sign out and sign in again to ask for work or school access, which your organization may need to approve.
+translation=OneNote neudělil tomuto přihlášení přístup k vašim poznámkovým blokům. Odhlaste se a znovu se přihlaste pro vyžádání pracovního nebo školního přístupu, který vaše organizace může potřebovat schválit.
+
+[importer.onenote.label-service]
+original=OneNote
+translation=OneNote
+
+[importer.onenote.label-subject]
+original=your notebooks
+translation=vaše poznámkové bloky
+
+[importer.onenote.label-credential]
+original=Sign out and back in to try again.
+translation=Odhlaste se a znovu se přihlaste pro opakování pokusu.
+
+[importer.onenote.status-finding]
+original=Finding notes to import
+translation=Hledání poznámek k importu
+
+[importer.onenote.status-finding-in]
+original=Finding notes in {{section}}
+translation=Hledání poznámek v {{section}}
+
+[importer.onenote.status-finding-in-section]
+original=Finding notes in {{section}} (section {{index}} of {{total}})
+translation=Hledání poznámek v {{section}} (sekce {{index}} z {{total}})
+
+[importer.onenote.status-importing-notes]
+original=Importing {{notes}}
+translation=Importování {{notes}}
+
+[importer.onenote.status-downloading]
+original=Downloading attachment {{name}}
+translation=Stahování přílohy {{name}}
+
+[importer.onenote.msg-too-many-errors]
+original=Microsoft OneNote returned too many consecutive errors.
+translation=Microsoft OneNote vrátil příliš mnoho po sobě jdoucích chyb.
+
+[importer.onenote.label-unknown-page]
+original=<unknown>
+translation=<Neznáma>
+
+[importer.onenote.reason-too-many-failures]
+original=import was canceled (after too many pages failed to load)
+translation=import byl zrušen (po příliš mnoha stránkách, které se nepodařilo načíst)
+
+[importer.onenote.label-ink]
+original={{page}} - Ink.svg
+translation={{page}} - Ink.svg
+
+[importer.onenote.label-attachment]
+original=OneNote attachment
+translation=OneNote příloha
+
+[importer.onenote.label-image]
+original=OneNote image
+translation=OneNote obrázek
+
+[importer.onenote.reason-no-attachment-name]
+original=the attachment did not say what it was called
+translation=příloha neobsahovala svůj název
+
+[importer.onenote.reason-no-attachment-url]
+original=the attachment did not include a download URL
+translation=příloha neobsahovala URL ke stažení
+
+[importer.onenote.reason-no-image-url]
+original=the image did not include a download URL
+translation=obrázek neobsahoval URL ke stažení
+
+[importer.onenote-file.name]
+original=Microsoft OneNote (export file)
+translation=Microsoft OneNote (exportovaný soubor)
+
+[importer.onenote-file.option-text]
+original=Microsoft OneNote (.one, .onepkg)
+translation=Microsoft OneNote (.one, .onepkg)
+
+[importer.onenote-file.method-name]
+original=File import
+translation=Import ze souboru
+
+[importer.onenote-file.method-desc]
+original=Import using OneNote export files (.one, .onepkg) from your computer. Requires no account or internet connection, and works for notebooks that were never synced.
+translation=Import pomocí exportovaných souborů OneNote (.one, .onepkg) z vašeho počítače. Nevyžaduje účet ani připojení k internetu a funguje i pro poznámkové bloky, které nebyly nikdy synchronizovány.
+
+[importer.onenote-file.file-type]
+original=OneNote export
+translation=Export OneNote
+
+[importer.onenote-file.label-id]
+original=OneNote ID
+translation=OneNote ID
+
+[importer.onenote-file.desc-backup-folder]
+original=OneNote for Windows keeps its own backups, and this opens there. Pick the notebooks or sections you want.
+translation=OneNote pro Windows uchovává vlastní zálohy a toto je otevře. Vyberte poznámkové bloky nebo sekce, které chcete.
+
+[importer.onenote-file.desc-export]
+original=In OneNote for Windows, right-click a notebook and export it to save a .onepkg file, or export a single section as .one.
+translation=V OneNote pro Windows klikněte pravým tlačítkem na poznámkový blok a exportujte jej jako soubor .onepkg, nebo exportujte jednotlivou sekci jako .one.
+
+[importer.onenote-file.name-sections]
+original=Sections to import
+translation=Sekce k importu
+
+[importer.onenote-file.desc-sections]
+original=Choose which sections to import.
+translation=Vyberte, které sekce chcete importovat.
+
+[importer.onenote-file.msg-loading-sections]
+original=Reading sections…
+translation=Čtení sekcí…
+
+[importer.onenote-file.msg-no-sections]
+original=No sections found in this file.
+translation=V tomto souboru nebyly nalezeny žádné sekce.
+
+[importer.onenote-file.msg-pick-file-first]
+original=Choose a OneNote file first.
+translation=Nejprve vyberte soubor OneNote.
+
+[importer.onenote-file.status-reading-section]
+original=Reading {{name}}
+translation=Čtení {{name}}
+
+[importer.onenote-file.status-importing-section]
+original=Importing {{name}} ({{index}} of {{total}})
+translation=Import {{name}} ({{index}} z {{total}})
+
+[importer.onenote-file.reason-rights-protected]
+original=the file is rights-protected, and can only be opened by an account with permission to it
+translation=soubor je chráněn právy a může být otevřen pouze účtem s příslušným oprávněním
+
+[importer.onenote-file.reason-unsupported]
+original=the file uses a OneNote format this importer cannot read yet
+translation=soubor používá formát OneNote, který tento importér zatím neumí přečíst
+
+[importer.onenote-file.reason-malformed]
+original=the file does not describe the OneNote structures it claims to
+translation=soubor neobsahuje struktury OneNote, které deklaruje
+
+[importer.onenote-file.reason-too-large]
+original=the file is larger than this importer is willing to expand
+translation=soubor je větší, než je tento importér ochoten rozbalit
+
+[importer.onenote-file.reason-no-attachment-data]
+original=the attachment held no data
+translation=příloha neobsahovala žádná data
+
+[importer.notion-api.name]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.option-text]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.method-name]
+original=Notion account (recommended)
+translation=Účet Notion (doporučeno)
+
+[importer.notion-api.method-desc]
+original=Imports your entire workspace, including databases and formulas which are converted to bases. Requires a Notion integration token and an internet connection.
+translation=Importuje celý váš pracovní prostor, včetně databází a vzorců, které se převedou na báze. Vyžaduje integrační token Notion a připojení k internetu.
+
+[importer.notion-api.label-id]
+original=Notion ID
+translation=Notion ID
+
+[importer.notion-api.name-token]
+original=Notion API token
+translation=Notion API token
+
+[importer.notion-api.desc-token]
+original=To get an API token create a connection in Notion and give it access to pages in your workspace.
+translation=Pro získání API tokenu vytvořte připojení v Notion a udělte mu přístup ke stránkám ve vašem pracovním prostoru.
+
+[importer.notion-api.link-get-token]
+original=Get API token
+translation=Získat API token
+
+[importer.notion-api.name-pages]
+original=Pages to import
+translation=Stránky k importu
+
+[importer.notion-api.desc-pages]
+original=Load your Notion pages and databases, then choose what to import. If a page or database is missing, check that your Notion connection has access to it.
+translation=Načtěte své stránky a databáze z Notion a poté vyberte, co chcete importovat. Pokud stránka nebo databáze chybí, zkontrolujte, zda k ní má vaše připojení v Notion přístup.
+
+[importer.notion-api.hint-pages]
+original=Load your Notion pages and databases to get started.
+translation=Pro začátek načtěte své stránky a databáze z Notion.
+
+[importer.notion-api.msg-loading-pages]
+original=Loading pages and databases...
+translation=Načítání stránek a databází...
+
+[importer.notion-api.msg-no-pages]
+original=No pages or databases found. Make sure your connection has access to the pages you want to import.
+translation=Nebyly nalezeny žádné stránky ani databáze. Ujistěte se, že vaše připojení má přístup ke stránkám, které chcete importovat.
+
+[importer.notion-api.label-service]
+original=Notion
+translation=Notion
+
+[importer.notion-api.label-subject]
+original=your pages
+translation=vaše stránky
+
+[importer.notion-api.label-credential]
+original=Check that your token is current and that the connection has access to them.
+translation=Zkontrolujte, zda je váš token aktuální a zda k nim má připojení přístup.
+
+[importer.notion-api.name-formulas]
+original=Convert formulas
+translation=Převést vzorce
+
+[importer.notion-api.desc-formulas]
+original=By default Notion formulas are converted to Obsidian syntax. If any Notion syntax is not supported the static values will be saved instead. Alternatively you can import all formulas as static values.
+translation=Ve výchozím nastavení se vzorce Notion převádějí do syntaxe Obsidian. Pokud některá syntaxe Notion není podporována, uloží se místo toho statické hodnoty. Alternativně můžete importovat všechny vzorce jako statické hodnoty.
+
+[importer.notion-api.option-formula-hybrid]
+original=Obsidian syntax
+translation=Syntaxe Obsidian
+
+[importer.notion-api.option-formula-static]
+original=Static values
+translation=Statické hodnoty
+
+[importer.notion-api.name-download-external]
+original=Download external attachments
+translation=Stáhnout externí přílohy
+
+[importer.notion-api.desc-download-external]
+original=Download external attachments (external URLs) to local files. Notion-hosted files are always downloaded.
+translation=Stáhnout externí přílohy (externí URL) do lokálních souborů. Soubory hostované na Notion se stahují vždy.
+
+[importer.notion-api.name-single-line-breaks]
+original=Single line breaks
+translation=Jednoduché zalomení řádků
+
+[importer.notion-api.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break instead of two. Some blocks (lists, toggles, tables) will still use double line breaks when required for proper Markdown syntax.
+translation=Oddělovat bloky Notion pouze jedním zalomením řádku místo dvou. Některé bloky (seznamy, přepínače, tabulky) budou stále používat dvojité zalomení řádků, pokud to vyžaduje správná syntaxe Markdown.
+
+[importer.notion-api.name-cover-property]
+original=Cover property name
+translation=Název vlastnosti pro obálku
+
+[importer.notion-api.desc-cover-property]
+original=Property name for page cover image in YAML frontmatter. 
+translation=Název vlastnosti pro obrázek obálky stránky v YAML úvodních metadatech. 
+
+[importer.notion-api.desc-cover-property-conflicts]
+original=Leave as "cover" if you don't have conflicts with existing properties.
+translation=Ponechte jako "cover", pokud nemáte konflikty s existujícími vlastnostmi.
+
+[importer.notion-api.name-database-property]
+original=Database property name
+translation=Název vlastnosti databáze
+
+[importer.notion-api.desc-database-property]
+original=Property name in page frontmatter to link pages to their database .base file (default: "base")
+translation=Název vlastnosti v úvodních metadatech stránky pro propojení stránek s jejich databázovým souborem .base (výchozí: "base")
+
+[importer.notion-api.name-linked-databases]
+original=Import linked databases
+translation=Importovat propojené databáze
+
+[importer.notion-api.desc-linked-databases]
+original=Also import databases that the selected pages link to, so relations become links rather than names. This imports pages you did not select.
+translation=Importovat také databáze, na které vybrané stránky odkazují, aby se relace staly odkazy místo názvů. Tím se importují i stránky, které jste nevybrali.
+
+[importer.notion-api.msg-token-first]
+original=Please enter your Notion API token first.
+translation=Nejprve zadejte svůj Notion API token.
+
+[importer.notion-api.msg-token-missing]
+original=Please enter your Notion API token.
+translation=Zadejte svůj Notion API token.
+
+[importer.notion-api.msg-load-pages-failed]
+original=Failed to load pages: {{error}}
+translation=Nepodařilo se načíst stránky: {{error}}
+
+[importer.notion-api.msg-pick-page]
+original=Please select at least one page or database to import.
+translation=Vyberte alespoň jednu stránku nebo databázi k importu.
+
+[importer.notion-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=Import selhal: {{error}}
+
+[importer.notion-api.status-loading-items]
+original=Loading... ({{items}}, page {{page}})
+translation=Načítání... ({{items}}, stránka {{page}})
+
+[importer.notion-api.status-connecting]
+original=Connecting to Notion API...
+translation=Připojování k Notion API...
+
+[importer.notion-api.status-fetching]
+original=Fetching page content from Notion...
+translation=Načítání obsahu stránek z Notion...
+
+[importer.notion-api.status-preparing]
+original=Preparing to import {{items}}...
+translation=Příprava importu {{items}}...
+
+[importer.notion-api.status-importing-items]
+original=Importing {{items}}...
+translation=Importování {{items}}...
+
+[importer.notion-api.status-importing-item]
+original=Importing item {{index}}/{{total}}...
+translation=Importování položky {{index}}/{{total}}...
+
+[importer.notion-api.status-importing-title]
+original=Importing: {{title}}
+translation=Importování: {{title}}
+
+[importer.notion-api.status-relation-links]
+original=Processing relation links...
+translation=Zpracování odkazů relací...
+
+[importer.notion-api.status-mention-links]
+original=Processing mention links...
+translation=Zpracování odkazů zmínek...
+
+[importer.notion-api.status-synced-blocks]
+original=Processing synced block child references...
+translation=Zpracování odkazů na podřízené synchronizované bloky...
+
+[importer.notion-api.status-cleaning-ids]
+original=Cleaning up notion-id attributes...
+translation=Odstraňování atributů notion-id...
+
+[importer.notion-api.status-done]
+original=Import completed successfully!
+translation=Import byl úspěšně dokončen!
+
+[importer.notion-api.status-replacing-relations]
+original=Replacing {{placeholders}}...
+translation=Nahrazování {{placeholders}}...
+
+[importer.notion-api.status-replacing-relation-links]
+original=Replacing relation placeholders with wiki links...
+translation=Nahrazování zástupných symbolů relací wiki odkazy...
+
+[importer.notion-api.status-importing-linked-databases]
+original=Importing {{databases}}...
+translation=Importování {{databases}}...
+
+[importer.notion-api.status-importing-unimported]
+original=Importing unimported database {{id}}...
+translation=Importování dosud neimportované databáze {{id}}...
+
+[importer.notion-api.status-replacing-mentions]
+original=Replacing mention placeholders...
+translation=Nahrazování zástupných symbolů zmínek...
+
+[importer.notion-api.status-replaced-mentions]
+original=Replaced {{links}} in {{files}}.
+translation=Nahrazeno {{links}} v {{files}}.
+
+[importer.notion-api.status-replacing-synced]
+original=Replacing synced block child references...
+translation=Nahrazování odkazů na podřízené synchronizované bloky...
+
+[importer.notion-api.status-replaced-synced]
+original=Replaced {{references}} in {{files}} (imported {{imported}}).
+translation=Nahrazeno {{references}} v {{files}} (importováno {{imported}}).
+
+[importer.notion-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}...
+translation=Stahování přílohy: {{name}}...
+
+[importer.notion-api.status-rate-limited]
+original=Rate limited. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=Omezení rychlosti. Čekání {{seconds}} sekund před dalším pokusem ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying]
+original=Notion returned {{status}}. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=Notion vrátil {{status}}. Čekání {{seconds}} sekund před dalším pokusem ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying-attachment]
+original={{name}}: {{failure}}. Retrying in {{seconds}} seconds ({{attempt}}/{{total}})...
+translation={{name}}: {{failure}}. Opakování za {{seconds}} sekund ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-processing-data-source]
+original=Processing database from data source: {{id}}...
+translation=Zpracování databáze ze zdroje dat: {{id}}...
+
+[importer.notion-api.status-processing-database]
+original=Processing database: {{title}}...
+translation=Zpracování databáze: {{title}}...
+
+[importer.notion-api.status-found-pages]
+original=Found {{pages}} in database {{title}}
+translation=Nalezeno {{pages}} v databázi {{title}}
+
+[importer.notion-api.status-found-templates]
+original=Found {{templates}} in database {{title}}
+translation=Nalezeno {{templates}} v databázi {{title}}
+
+[importer.notion-api.status-importing-template]
+original=Importing template: {{name}}...
+translation=Importování šablony: {{name}}...
+
+[importer.notion-api.label-import]
+original=Notion API import
+translation=Import z Notion API
+
+[importer.notion-api.label-item]
+original=Import item {{id}}
+translation=Importovaná položka {{id}}
+
+[importer.notion-api.label-page]
+original=Page {{id}}
+translation=Stránka {{id}}
+
+[importer.notion-api.label-page-with-title]
+original=Page: {{title}} ({{id}})
+translation=Stránka: {{title}} ({{id}})
+
+[importer.notion-api.label-relation-page]
+original=Relation page {{id}}
+translation=Stránka relace {{id}}
+
+[importer.notion-api.label-database-with-id]
+original=Database: {{title}} ({{id}})
+translation=Databáze: {{title}} ({{id}})
+
+[importer.notion-api.label-mention-file]
+original=Mention file {{path}}
+translation=Soubor zmínky {{path}}
+
+[importer.notion-api.label-synced-block-file]
+original=Synced block file {{path}}
+translation=Soubor synchronizovaného bloku {{path}}
+
+[importer.notion-api.label-attachment]
+original=Attachment: {{name}}
+translation=Příloha: {{name}}
+
+[importer.notion-api.label-child-page]
+original=Child page: {{title}}
+translation=Podstránka: {{title}}
+
+[importer.notion-api.label-synced-block]
+original=Synced block: {{name}}
+translation=Synchronizovaný blok: {{name}}
+
+[importer.notion-api.label-attachment-image]
+original=Image attachment
+translation=Příloha obrázku
+
+[importer.notion-api.label-attachment-video]
+original=Video attachment
+translation=Příloha videa
+
+[importer.notion-api.label-attachment-audio]
+original=Audio attachment
+translation=Zvuková příloha
+
+[importer.notion-api.label-attachment-file]
+original=File attachment
+translation=Příloha souboru
+
+[importer.notion-api.label-attachment-pdf]
+original=PDF attachment
+translation=Příloha PDF
+
+[importer.notion-api.label-preview-child-page]
+original=Child page
+translation=Podstránka
+
+[importer.notion-api.label-preview-database]
+original=Database
+translation=Databáze
+
+[importer.notion-api.msg-preview-nested-content]
+original=Nested content is not loaded in the preview.
+translation=Vnořený obsah není v náhledu načten.
+
+[importer.notion-api.msg-preview-content-not-loaded]
+original={{type}} is not loaded in the preview.
+translation={{type}} není v náhledu načten.
+
+[importer.notion-api.msg-preview-content-not-loaded-with-caption]
+original={{type}}: {{caption}} is not loaded in the preview.
+translation={{type}}: {{caption}} není v náhledu načten.
+
+[importer.notion-api.msg-preview-block-not-expanded]
+original={{type}} is not expanded in the preview.
+translation={{type}} není v náhledu rozbalen.
+
+[importer.notion-api.label-fetch-children]
+original=Fetch children for {{context}} {{id}}
+translation=Načtení potomků pro {{context}} {{id}}
+
+[importer.notion-api.block-paragraph]
+original=paragraph
+translation=Odstavec
+
+[importer.notion-api.block-bulleted-list-item]
+original=bulleted list item
+translation=položka odrážkového seznamu
+
+[importer.notion-api.block-numbered-list-item]
+original=numbered list item
+translation=položka číslovaného seznamu
+
+[importer.notion-api.block-todo-item]
+original=to-do item
+translation=položka úkolu
+
+[importer.notion-api.block-quote]
+original=quote block
+translation=blok citace
+
+[importer.notion-api.block-callout]
+original=callout block
+translation=zvýrazněný blok
+
+[importer.notion-api.block-toggle]
+original=toggle block
+translation=přepínací blok
+
+[importer.notion-api.block-toggleable-heading]
+original=toggleable heading
+translation=přepínatelný nadpis
+
+[importer.notion-api.block-column]
+original=column
+translation=Sloupec
+
+[importer.notion-api.block-column-list]
+original=column list
+translation=seznam sloupců
+
+[importer.notion-api.block-table]
+original=table
+translation=Tabulka
+
+[importer.notion-api.block-generic]
+original=block
+translation=blok
+
+[importer.notion-api.label-meeting-notes]
+original=Meeting notes: {{name}}
+translation=Poznámky ze schůzky: {{name}}
+
+[importer.notion-api.label-meeting-notes-section]
+original=Meeting notes: {{name}} ({{section}})
+translation=Poznámky ze schůzky: {{name}} ({{section}})
+
+[importer.notion-api.label-untitled-meeting]
+original=Meeting notes {{id}}
+translation=Poznámky ze schůzky {{id}}
+
+[importer.notion-api.section-summary]
+original=summary
+translation=Shrnutí
+
+[importer.notion-api.section-notes]
+original=notes
+translation=poznámky
+
+[importer.notion-api.section-transcript]
+original=transcript
+translation=přepis
+
+[importer.notion-api.label-fetch-children-block]
+original=Fetch children for block {{id}}
+translation=Načtení potomků bloku {{id}}
+
+[importer.notion-api.reason-not-in-tree]
+original=Item not found in tree
+translation=Položka nebyla nalezena ve stromu
+
+[importer.notion-api.reason-unknown-type]
+original=Unknown type: {{type}}
+translation=Neznámý typ: {{type}}
+
+[importer.notion-api.reason-earlier-import]
+original=an earlier import had already written it
+translation=dřívější import ji již zapsal
+
+[importer.notion-api.reason-attachment-exists]
+original={{path}} is already in the vault, the same size (incremental import)
+translation={{path}} se již nachází v trezoru se stejnou velikostí (inkrementální import)
+
+[importer.notion-api.reason-http-status]
+original=HTTP {{status}}
+translation=HTTP {{status}}
+
+[importer.notion-api.reason-meeting-notes-pending]
+original=Notion has not finished generating them ({{status}})
+translation=Notion je ještě nedokončil generovat ({{status}})
+
+[importer.notion-api.reason-rate-limit-gave-up]
+original=rate limited, and gave up after {{retries}} retries
+translation=omezení rychlosti, vzdáno po {{retries}} pokusech
+
+[importer.notion-api.reason-gave-up]
+original={{reason}}, and gave up after {{retries}} retries
+translation={{reason}}, vzdáno po {{retries}} pokusech
+
+[importer.notion-api.reason-kept-link]
+original={{reason}}; kept the link to {{url}}
+translation={{reason}}; ponechán odkaz na {{url}}
+
+[importer.notion.name]
+original=Notion
+translation=Notion
+
+[importer.notion.option-text]
+original=Notion (.zip)
+translation=Notion (.zip)
+
+[importer.notion.method-name]
+original=File import
+translation=Import ze souboru
+
+[importer.notion.method-desc]
+original=Imports using a Notion export file (.zip). Requires no API token or internet connection, but does not preserve databases.
+translation=Importuje pomocí exportovaného souboru z Notion (.zip). Nevyžaduje API token ani připojení k internetu, ale nezachová databáze.
+
+[importer.notion.file-type]
+original=Exported Notion
+translation=Exportovaný Notion
+
+[importer.notion.label-id]
+original=Notion ID
+translation=Notion ID
+
+[importer.notion.desc-export]
+original=Export your workspace in HTML format, you will receive a zip file.
+translation=Exportujte svůj pracovní prostor ve formátu HTML, obdržíte soubor zip.
+
+[importer.notion.desc-files]
+original=Pick the zip file Notion sent you.
+translation=Vyberte soubor zip, který vám Notion zaslal.
+
+[importer.notion.name-subfolders]
+original=Save parent pages in subfolders
+translation=Uložit nadřazené stránky do podsložek
+
+[importer.notion.desc-subfolders]
+original=Places the parent database pages in the same folder as the nested content.
+translation=Umístí nadřazené stránky databáze do stejné složky jako vnořený obsah.
+
+[importer.notion.name-single-line-breaks]
+original=Single line breaks
+translation=Jednoduché zalomení řádků
+
+[importer.notion.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break (default is 2).
+translation=Oddělí bloky z Notion pouze jedním zalomením řádku (výchozí jsou 2).
+
+[importer.notion.msg-unknown-property]
+original=Property "{{property}}" has an unknown type ({{type}}); kept its value as text.
+translation=Vlastnost "{{property}}" má neznámý typ ({{type}}); její hodnota byla ponechána jako Text.
+
+[importer.notion.msg-unparsed-date]
+original=Could not determine the date in property "{{property}}": {{value}}. Kept its value as text.
+translation=Nepodařilo se určit Datum ve vlastnosti "{{property}}": {{value}}. Hodnota byla ponechána jako Text.
+
+[importer.notion.status-looking]
+original=Looking for files to import
+translation=Hledání souborů k importu
+
+[importer.notion.status-resolving]
+original=Resolving links and de-duplicating files
+translation=Zpracovávání odkazů a odstraňování duplicitních souborů
+
+[importer.notion.status-starting]
+original=Starting import
+translation=Zahajování importu
+
+[importer.notion.msg-markdown-export]
+original=This is a Markdown export. Export your Notion workspace as HTML instead.
+translation=Toto je export ve formátu Markdown. Exportujte svůj Notion pracovní prostor jako HTML.
+
+[importer.notion.reason-markdown-export]
+original=it is a Markdown export; export your Notion workspace as HTML instead
+translation=jedná se o export v Markdown; exportujte svůj pracovní prostor z Notion jako HTML
+
+[importer.notion.reason-no-page-body]
+original=page body was not found
+translation=tělo stránky nebylo nalezeno
+
+[importer.roam-json.name]
+original=Roam Research
+translation=Roam Research
+
+[importer.roam-json.option-text]
+original=Roam Research (.json)
+translation=Roam Research (.json)
+
+[importer.roam-json.file-type]
+original=Roam (.json)
+translation=Roam (.json)
+
+[importer.roam-json.label-id]
+original=Roam UID
+translation=Roam UID
+
+[importer.roam-json.desc-export]
+original=Export your data in JSON format.
+translation=Exportujte svá data ve formátu JSON.
+
+[importer.roam-json.desc-files]
+original=Pick the JSON file from your Roam export.
+translation=Vyberte soubor JSON z vašeho exportu z Roam.
+
+[importer.roam-json.name-embed-block-references]
+original=Show referenced blocks in place
+translation=Zobrazit odkazované bloky na místě
+
+[importer.roam-json.desc-embed-block-references]
+original=Roam shows the contents of a referenced block where the reference stands. If enabled, references become embeds rather than links.
+translation=Roam zobrazuje obsah odkazovaného bloku na místě, kde stojí odkaz. Pokud je zapnuté, odkazy se změní na vložení místo odkazů.
+
+[importer.roam-json.name-drop-unresolved-references]
+original=Remove references to missing blocks
+translation=Odebrat odkazy na chybějící bloky
+
+[importer.roam-json.desc-drop-unresolved-references]
+original=Some references name a block that is not in the export. If enabled, they are removed; if not, they are kept as Roam wrote them.
+translation=Některé odkazy odkazují na blok, který v exportu není. Pokud je zapnuté, budou odebrány; pokud ne, zůstanou tak, jak je zapsal Roam.
+
+[importer.roam-json.name-convert-attributes]
+original=Convert attributes to properties
+translation=Převést atributy na vlastnosti
+
+[importer.roam-json.desc-convert-attributes]
+original=Convert eligible top-level Roam attributes into Obsidian properties. Referenced attributes remain in the note so links to them keep working.
+translation=Převede způsobilé atributy nejvyšší úrovně z Roam Research na Obsidian vlastnosti. Odkazované atributy zůstanou v poznámce, aby odkazy na ně nadále fungovaly.
+
+[importer.roam-json.name-tags-as-links]
+original=Convert tags to links
+translation=Převést štítky na odkazy
+
+[importer.roam-json.desc-tags-as-links]
+original=A tag in Roam is a reference to the page of that name. If enabled, "#tag" becomes "[[tag]]".
+translation=Štítek v Roam je odkaz na stránku stejného názvu. Pokud je zapnuté, "#tag" se změní na "[[tag]]".
+
+[importer.roam-json.name-drop-queries]
+original=Remove queries
+translation=Odebrat dotazy
+
+[importer.roam-json.desc-drop-queries]
+original=If enabled, queries are removed. If not, a query becomes an Obsidian search that shows its results in the note.
+translation=Pokud je zapnuté, dotazy budou odebrány. Pokud ne, dotaz se změní na vyhledávání v Obsidian, které zobrazí výsledky v poznámce.
+
+[importer.roam-json.reason-empty-title]
+original=Title is empty
+translation=Název je prázdný
+
+[importer.roam-json.reason-unexpected-extension]
+original=Unexpected file extension
+translation=Neočekávaná extension souboru
+
+[importer.textbundle.name]
+original=Textbundle files
+translation=Soubory Textbundle
+
+[importer.textbundle.option-text]
+original=Textbundle (.textbundle, .textpack)
+translation=Textbundle (.textbundle, .textpack)
+
+[importer.textbundle.file-type]
+original=Textbundle
+translation=Textbundle
+
+[importer.textbundle.desc-export]
+original=Export your notes as textbundle or textpack, which Agenda, Craft, Taio, Ulysses and Zettlr can all write.
+translation=Exportujte své poznámky jako textbundle nebo textpack, což umí Agenda, Craft, Taio, Ulysses a Zettlr.
+
+[importer.textbundle.msg-platform]
+original=Due to platform limitations, only textpack and zip files can be imported from this device. Open your vault on a Mac to import textbundle files.
+translation=Kvůli omezením platformy lze z tohoto zařízení importovat pouze soubory textpack a zip. Otevřete svůj trezor na Mac a importujte soubory textbundle.
+
+[importer.textbundle.reason-no-markdown]
+original=The textbundle does not contain markdown
+translation=Textbundle neobsahuje Markdown
+
+[importer.textbundle.reason-not-media]
+original=the file is not a media or markdown file.
+translation=soubor není mediální soubor ani soubor Markdown.
+
+[importer.textbundle.reason-already-exists]
+original=the file already exists.
+translation=soubor již existuje.
+
+[importer.tomboy.name]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.option-text]
+original=Tomboy/Gnote (.note)
+translation=Tomboy/Gnote (.note)
+
+[importer.tomboy.file-type]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.label-id]
+original=Tomboy ID
+translation=Tomboy ID
+
+[importer.tomboy.desc-files-mac]
+original=Tomboy notes are typically found in: ~/Library/Application Support/Tomboy
+translation=Poznámky Tomboy se obvykle nacházejí v: ~/Library/Application Support/Tomboy
+
+[importer.tomboy.desc-files-windows]
+original=Tomboy notes are typically found in: %APPDATA%\\Tomboy
+translation=Poznámky Tomboy se obvykle nacházejí v: %APPDATA%\\Tomboy
+
+[importer.tomboy.desc-files-linux]
+original=Tomboy notes are typically found in: ~/.local/share/tomboy - or GNote: ~/.local/share/gnote
+translation=Poznámky Tomboy se obvykle nacházejí v: ~/.local/share/tomboy – nebo GNote: ~/.local/share/gnote
+
+[importer.tomboy.name-todo]
+original=Convert TODO lists to checkboxes
+translation=Převést seznamy TODO na zaškrtávací pole
+
+[importer.tomboy.desc-todo]
+original=When enabled, lists in notes with "TODO" in the title will be converted to task lists with checkboxes. Strikethrough items will be marked as completed.
+translation=Když je zapnuté, seznamy v poznámkách s "TODO" v názvu budou převedeny na seznamy úkolů se zaškrtávacími poli. Položky s přeškrtnutím budou označeny jako dokončené.
+
+[importer.tomboy.name-keep-title]
+original=Keep title in Markdown
+translation=Ponechat název v Markdown
+
+[importer.tomboy.desc-keep-title]
+original=Choose whether to keep the note title in the Markdown content. The automatic option keeps titles only when special characters are lost in filename conversion.
+translation=Vybrat, zda ponechat název poznámky v obsahu Markdown. Automaticky ponechá názvy pouze v případě, kdy se při převodu na název souboru ztratí speciální znaky.
+
+[importer.tomboy.option-automatic]
+original=Automatic
+translation=Automaticky
+
+[importer.tomboy.option-keep-titles]
+original=Keep titles
+translation=Ponechat názvy
+
+[importer.tomboy.option-filename-only]
+original=Filename only
+translation=Pouze název souboru

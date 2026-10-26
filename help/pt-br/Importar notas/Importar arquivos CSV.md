@@ -1,0 +1,43 @@
+---
+permalink: import/csv
+cssclasses:
+  - soft-embed
+---
+O Obsidian permite importar dados de arquivos CSV usando o [[Importador|plugin Importador]] oficial. Isso é útil se você tem dados tabulares armazenados em aplicativos como Excel, Google Sheets, Numbers, Notion ou Airtable.
+
+A importação de CSV gera arquivos Markdown para cada linha e um arquivo [[Introdução ao Bases|Base]] que exibe todos os arquivos importados como uma tabela.
+
+Se você está importando notas de um aplicativo específico, pode ser útil primeiro revisar a lista de aplicativos suportados pelo [[Importador|plugin Importador]] para verificar se existe um conversor específico que preservará melhor os dados que você está migrando.
+
+## Criar notas a partir de dados CSV no Obsidian
+
+Você precisará do plugin oficial [[Importador]] do Obsidian, que pode ser [instalado aqui](obsidian://show-plugin?id=obsidian-importer).
+
+1. Abra as **[[Configurações]]**.
+2. Vá em **Plugins da comunidade** e [instale o Importador](obsidian://show-plugin?id=obsidian-importer).
+3. Ative o plugin Importador.
+4. Abra o plugin **Importador** usando a paleta de comandos ou o ícone no menu lateral.
+5. Em **Formatar arquivo** escolha **CSV (.csv).**
+6. Selecione a destinação do seu arquivo CSV.
+7. Selecione **Importar** para configurar como os dados no seu arquivo CSV serão convertidos em notas com [[Propriedades]].
+8. Selecione **Continuar** para revisar o modelo gerado e visualizar exemplos das suas linhas.
+9. Selecione **Importar** e aguarde até que a importação seja concluída.
+
+## Configurar como os campos CSV são importados
+
+Na etapa de configuração de campos, você pode escolher como os dados são importados. O Importador gera um modelo a partir dos cabeçalhos do CSV, usa a primeira coluna para o nome inicial da nota e cria uma propriedade para cada coluna.
+
+## Modelos
+
+Use [[Modelos do importador|modelos do Importador]] para configurar completamente como seus dados são importados.
+
+Cada coluna do CSV está disponível usando seu cabeçalho. Se uma coluna não tem cabeçalho, o Importador usa o nome de coluna gerado.
+
+Use a notação de colchetes para que espaços e pontuação sejam tratados com segurança:
+
+```liquid
+{{source["Project name"]}}
+{{source["Price ($)"]|yaml}}
+```
+
+![[Modelos do importador#Variables]]

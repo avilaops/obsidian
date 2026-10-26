@@ -1,0 +1,253 @@
+/**
+ * Does Notion still return what the fixture says it does?
+ *
+ * The recorded conversion in convert.test.ts runs against saved responses,
+ * which is what makes it deterministic and offline - and also what makes it go
+ * stale without saying so. This asks the real API the same questions the
+ * importer asks and checks the answers still have the shape the fixture and the
+ * converters assume.
+ *
+ * It needs a token, so it skips unless one is set. Put it in .env, which is not
+ * committed:
+ *
+ *   NOTION_TOKEN=ntn_...
+ *   NOTION_PAGE_ID=...   # optional, otherwise the first page search returns
+ *
+ * An internal integration token with read access is enough. Nothing here
+ * writes anything.
+ */
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+
+import { NOTION_VERSION } from '../../src/formats/notion-api/types';
+import { env } from '../helpers';
+
+
+const token = env('NOTION_TOKEN');
+const skip = token ? false : 'set NOTION_TOKEN in .env to check the fixture against the live API';
+
+async function api(path: string, body?: unknown): Promise<any> {
+	const response = await fetch(`https://api.notion.com/v1${path}`, {
+		method: body ? 'POST' : 'GET',
+		headers: {
+			'Authorization': `Bearer ${token}`,
+			'Notion-Version': NOTION_VERSION,
+			...(body ? { 'Content-Type': 'application/json' } : {}),
+		},
+		body: body ? JSON.stringify(body) : undefined,
+	});
+
+	// Read once: building the message consumes the body, so it cannot be done
+	// inside the assertion.
+	const text = await response.text();
+	assert.equal(response.status, 200, `${path} returned ${response.status}: ${text}`);
+
+	return JSON.parse(text);
+}
+
+/** The keys the converter reads, and what it expects to find. */
+function assertShape(value: any, shape: Record<string, string>, what: string): void {
+	assert.equal(typeof value, 'object', `${what} should be an object`);
+
+	for (const [key, type] of Object.entries(shape)) {
+		const actual = Array.isArray(value[key]) ? 'array' : typeof value[key];
+		assert.equal(actual, type, `${what}.${key} should be ${type}, got ${actual}`);
+	}
+}
+
+test('the API still returns the shape the fixture is written to', { skip }, async () => {
+	const pageId = env('NOTION_PAGE_ID');
+
+	/**
+	 * A page with blocks in it, since a page with none says nothing about the
+	 * shape of a block.
+	 *
+	 * Without NOTION_PAGE_ID this has to go looking, and what search returns
+	 * first is whatever the workspace happens to hold - in one with a database
+	 * that is a row, which carries its content in properties and has no blocks
+	 * at all. So it reads candidates until one has some rather than trusting
+	 * the first.
+	 */
+	async function findPageWithBlocks(): Promise<{ id: string, children: any }> {
+		if (pageId) return { id: pageId, children: await api(`/blocks/${pageId}/children?page_size=100`) };
+
+		const found = await api('/search', { filter: { property: 'object', value: 'page' }, page_size: 25 });
+		assert.ok(Array.isArray(found.results), 'search should return a list');
+
+		const pages = found.results.filter((r: any) => r.object === 'page');
+		assert.ok(pages.length > 0, 'no page to read - share one with the integration, or set NOTION_PAGE_ID');
+
+		for (const page of pages) {
+			const children = await api(`/blocks/${page.id}/children?page_size=100`);
+			if (children.results?.length > 0) return { id: page.id, children };
+		}
+
+		assert.fail(`none of the ${pages.length} pages shared with the integration has any blocks - set NOTION_PAGE_ID to one that does`);
+	}
+
+	const { children } = await findPageWithBlocks();
+
+	assertShape(children, { object: 'string', results: 'array', has_more: 'boolean' }, 'children');
+	assert.equal(children.object, 'list');
+	assert.ok(children.results.length > 0, 'the page should have blocks');
+
+	const types = new Set<string>();
+
+	for (const block of children.results) {
+		assertShape(block, {
+			object: 'string',
+			id: 'string',
+			type: 'string',
+			has_children: 'boolean',
+		}, 'block');
+
+		types.add(block.type);
+
+		// Every block carries its payload under a key named after its type
+		assert.ok(block.type in block, `a ${block.type} block should carry a ${block.type} key`);
+
+		// Rich text is where most of the conversion happens
+		const richText = block[block.type]?.rich_text;
+		if (!Array.isArray(richText)) continue;
+
+		for (const item of richText) {
+			assertShape(item, { type: 'string', plain_text: 'string', annotations: 'object' }, `rich text in ${block.type}`);
+			assertShape(item.annotations, {
+				bold: 'boolean',
+				italic: 'boolean',
+				strikethrough: 'boolean',
+				underline: 'boolean',
+				code: 'boolean',
+				color: 'string',
+			}, 'annotations');
+		}
+	}
+
+	// Not a failure, but worth seeing: what this page exercises
+	console.log(`   block types seen: ${[...types].sort().join(', ')}`);
+});
+
+/**
+ * Does an attachment URL still answer a request for a byte range?
+ *
+ * downloadAttachment asks how big an attachment is before fetching it, so that
+ * one an earlier import already wrote costs a byte rather than the whole file.
+ * That rests on two things Notion does not promise: that its storage refuses a
+ * HEAD, and that it honours a Range.
+ *
+ * Both were measured, and this is what would notice them changing. Nothing
+ * breaks if they do - the importer falls back to downloading, as it did before
+ * - but the saving quietly stops, which is worth being told about.
+ */
+test('an attachment URL answers a ranged GET', { skip }, async () => {
+	const search = await api('/search', { filter: { property: 'object', value: 'page' }, page_size: 100 });
+
+	let url: string | null = null;
+	for (const page of search.results) {
+		const { results } = await api(`/blocks/${page.id}/children?page_size=100`);
+
+		for (const block of results) {
+			const data = block.image ?? block.file ?? block.pdf ?? block.video;
+			if (data?.type === 'file' && data.file?.url) url = data.file.url;
+			if (url) break;
+		}
+		if (url) break;
+	}
+
+	if (!url) {
+		console.log('   no attachment among the pages this integration can see; nothing to ask');
+		return;
+	}
+
+	// A presigned URL is signed for one method, so a HEAD is refused. That is
+	// why the size is asked for with a range rather than a HEAD.
+	const head = await fetch(url, { method: 'HEAD' });
+	assert.notEqual(head.status, 200, 'a HEAD is expected to be refused; if it is allowed, it is the cheaper probe');
+
+	const ranged = await fetch(url, { headers: { Range: 'bytes=0-0' } });
+	assert.equal(ranged.status, 206, 'the range should be honoured, or every probe costs a whole download');
+
+	const contentRange = ranged.headers.get('content-range');
+	assert.match(contentRange ?? '', /^bytes 0-0\/\d+$/, 'the total length is read off the end of this');
+
+	const received = (await ranged.arrayBuffer()).byteLength;
+	const total = Number(/\/(\d+)$/.exec(contentRange ?? '')?.[1]);
+	assert.equal(received, 1, 'only the byte asked for should arrive');
+	assert.ok(total > 1, 'the range should report a length larger than what it sent');
+
+	console.log(`   ${total} bytes learned from ${received}`);
+});
+
+/**
+ * Does a data source still name the database it belongs to?
+ *
+ * A database whose first data source belongs to another database is treated as
+ * a linked view and skipped, so that it cannot copy its owner's rows. If Notion
+ * stopped reporting the owner this way, ordinary databases would be skipped as
+ * linked, which is the failure worth being told about.
+ */
+test('a data source names the database that lists it', { skip }, async () => {
+	const search = await api('/search', { filter: { property: 'object', value: 'data_source' }, page_size: 10 });
+
+	if (search.results.length === 0) {
+		console.log('   no database among what this integration can see; nothing to ask');
+		return;
+	}
+
+	for (const found of search.results) {
+		const dataSource = await api(`/data_sources/${found.id}`);
+		assertShape(dataSource.parent, { database_id: 'string' }, 'data source parent');
+
+		const database = await api(`/databases/${dataSource.parent.database_id}`);
+		assert.equal(database.id, dataSource.parent.database_id, 'the owner is asked for by the ID the data source gives');
+		assert.ok(database.data_sources.some((listed: any) => listed.id === dataSource.id), 'the owner should list the data source');
+	}
+
+	console.log(`   ${search.results.length} data sources name their own database`);
+});
+
+test('a meeting notes block still points at its summary, notes and transcript', { skip }, async () => {
+	const response = await fetch('https://api.notion.com/v1/blocks/meeting_notes/query', {
+		method: 'POST',
+		headers: {
+			'Authorization': `Bearer ${token}`,
+			'Notion-Version': NOTION_VERSION,
+			'Content-Type': 'application/json',
+		},
+		body: JSON.stringify({ limit: 1 }),
+	});
+
+	const text = await response.text();
+
+	if (response.status !== 200) {
+		// A workspace without the feature answers 400 rather than an empty list
+		console.log(`   no AI meeting notes to ask about: ${response.status} ${text.slice(0, 120)}`);
+		return;
+	}
+
+	const { results } = JSON.parse(text);
+	assert.ok(Array.isArray(results), 'the query should return a list');
+
+	if (results.length === 0) {
+		console.log('   the workspace has the feature but no meetings recorded');
+		return;
+	}
+
+	const [block] = results;
+	assertShape(block, { object: 'string', id: 'string', type: 'string' }, 'meeting notes block');
+	assert.ok(['transcription', 'meeting_notes'].includes(block.type), `the converter does not know a ${block.type} block`);
+
+	const meetingNotes = block[block.type];
+	assertShape(meetingNotes, { status: 'string', children: 'object' }, block.type);
+
+	const { summary_block_id, notes_block_id, transcript_block_id } = meetingNotes.children;
+	for (const [name, id] of Object.entries({ summary_block_id, notes_block_id, transcript_block_id })) {
+		if (id === undefined) continue;
+		assert.equal(typeof id, 'string', `${name} should be an id`);
+
+		const children = await api(`/blocks/${id}/children?page_size=100`);
+		assert.ok(Array.isArray(children.results), `${name} should have children to convert`);
+	}
+
+	console.log(`   ${meetingNotes.status}, sections: ${Object.keys(meetingNotes.children).join(', ')}`);
+});

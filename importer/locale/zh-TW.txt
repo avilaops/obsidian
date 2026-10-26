@@ -1,0 +1,2499 @@
+[command.import-notes]
+original=Import notes
+translation=匯入筆記
+
+[nouns.file-with-count]
+original={{count}} file
+translation={{count}} 個檔案
+
+[nouns.file-with-count_plural]
+original={{count}} files
+translation={{count}} 個檔案
+
+[nouns.note-with-count]
+original={{count}} note
+translation={{count}} 則筆記
+
+[nouns.note-with-count_plural]
+original={{count}} notes
+translation={{count}} 則筆記
+
+[nouns.item-with-count]
+original={{count}} item
+translation={{count}} 個項目
+
+[nouns.item-with-count_plural]
+original={{count}} items
+translation={{count}} 個項目
+
+[nouns.record-with-count]
+original={{count}} record
+translation={{count}} 筆記錄
+
+[nouns.record-with-count_plural]
+original={{count}} records
+translation={{count}} 筆記錄
+
+[nouns.base-with-count]
+original={{count}} base
+translation={{count}} 個資料庫
+
+[nouns.base-with-count_plural]
+original={{count}} bases
+translation={{count}} 個資料庫
+
+[nouns.template-with-count]
+original={{count}} template
+translation={{count}} 個範本
+
+[nouns.template-with-count_plural]
+original={{count}} templates
+translation={{count}} 個範本
+
+[nouns.failure-with-count]
+original={{count}} failure
+translation={{count}} 個失敗
+
+[nouns.failure-with-count_plural]
+original={{count}} failures
+translation={{count}} 個失敗
+
+[nouns.second-with-count]
+original={{count}} second
+translation={{count}} 秒
+
+[nouns.second-with-count_plural]
+original={{count}} seconds
+translation={{count}} 秒
+
+[nouns.relation-placeholder-with-count]
+original={{count}} relation placeholder
+translation={{count}} 個關聯佔位符
+
+[nouns.relation-placeholder-with-count_plural]
+original={{count}} relation placeholders
+translation={{count}} 個關聯佔位符
+
+[nouns.linked-database-with-count]
+original={{count}} linked database
+translation={{count}} 個連結資料庫
+
+[nouns.linked-database-with-count_plural]
+original={{count}} linked databases
+translation={{count}} 個連結資料庫
+
+[nouns.mention-link-with-count]
+original={{count}} mention link
+translation={{count}} 個提及連結
+
+[nouns.mention-link-with-count_plural]
+original={{count}} mention links
+translation={{count}} 個提及連結
+
+[nouns.synced-reference-with-count]
+original={{count}} synced child reference
+translation={{count}} 個已同步子參照
+
+[nouns.synced-reference-with-count_plural]
+original={{count}} synced child references
+translation={{count}} 個已同步子參照
+
+[nouns.new-item-with-count]
+original={{count}} new item
+translation={{count}} 個新建項目
+
+[nouns.new-item-with-count_plural]
+original={{count}} new items
+translation={{count}} 個新建項目
+
+[nouns.page-with-count]
+original={{count}} page
+translation={{count}} 個頁面
+
+[nouns.page-with-count_plural]
+original={{count}} pages
+translation={{count}} 個頁面
+
+[group.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[group.notion.name]
+original=Notion
+translation=Notion
+
+[outliner.name-flatten-outlines]
+original=Flatten outlines
+translation=展平大綱
+
+[outliner.desc-flatten-outlines]
+original=Convert outlines into paragraphs, headings, and lists.
+translation=將大綱轉換為段落、標題和列表。
+
+[modal.title-pick-format]
+original=Import data into Obsidian
+translation=將資料匯入 Obsidian
+
+[modal.title-choose-method]
+original=Choose how to import
+translation=選擇匯入方式
+
+[modal.title-import-from]
+original=Import from {{format}}
+translation=從 {{format}} 匯入
+
+[modal.search-placeholder]
+original=Filter...
+translation=搜尋……
+
+[modal.msg-no-formats]
+original=No formats found.
+translation=未找到任何格式。
+
+[modal.msg-drop-to-import]
+original=Drop files to import
+translation=放下檔案以匯入
+
+[modal.button-show-all-formats]
+original=Show all formats
+translation=顯示所有格式
+
+[modal.button-continue]
+original=Continue
+translation=繼續
+
+[modal.button-import]
+original=Import
+translation=匯入
+
+[modal.button-back]
+original=Back
+translation=返回
+
+[modal.button-help]
+original=Help
+translation=說明
+
+[modal.button-pause]
+original=Pause
+translation=暫停
+
+[modal.button-resume]
+original=Resume
+translation=重新執行
+
+[modal.button-stop]
+original=Stop
+translation=停止
+
+[modal.button-save-report]
+original=Save report
+translation=儲存報告
+
+[modal.msg-report-failed]
+original=Could not save the import report.
+translation=無法儲存匯入報告。
+
+[modal.button-import-more]
+original=Import more
+translation=匯入更多
+
+[modal.button-done]
+original=Done
+translation=完成
+
+[modal.msg-unexpected-auth]
+original=Unexpected auth event. Please restart the auth process.
+translation=發生意外的驗證事件。請重新啟動驗證流程。
+
+[progress.stat-imported]
+original=imported
+translation=已匯入
+
+[progress.stat-attachments]
+original=attachments
+translation=附件
+
+[progress.stat-remaining]
+original=remaining
+translation=剩餘
+
+[progress.stat-skipped]
+original=skipped
+translation=已跳過
+
+[progress.stat-failed]
+original=failed
+translation=已失敗
+
+[progress.label-skipped]
+original=Skipped: 
+translation=已跳過： 
+
+[progress.label-failed]
+original=Failed: 
+translation=失敗： 
+
+[progress.label-entry]
+original="{{name}}"
+translation=「{{name}}」
+
+[progress.label-entry-with-reason]
+original="{{name}}" because {{reason}}
+translation=「{{name}}」因為 {{reason}}
+
+[progress.label-paused]
+original=Paused
+translation=已暫停
+
+[progress.label-paused-with]
+original=Paused - {{status}}
+translation=已暫停 - {{status}}
+
+[progress.label-importing]
+original=Importing
+translation=匯入中
+
+[progress.label-remaining]
+original={{count}} remaining...
+translation=剩餘 {{count}} 項⋯
+
+[progress.label-remaining_plural]
+original={{count}} remaining...
+translation=剩餘 {{count}} 項⋯
+
+[progress.label-paused-remaining]
+original=Paused - {{count}} remaining
+translation=已暫停 - 剩餘 {{count}} 項
+
+[progress.label-paused-remaining_plural]
+original=Paused - {{count}} remaining
+translation=已暫停 - 剩餘 {{count}} 項
+
+[progress.status-stopping]
+original=Stopping...
+translation=正在停止⋯
+
+[progress.msg-stopped]
+original=Import stopped.
+translation=匯入已停止。
+
+[progress.msg-errors]
+original=Import finished with errors.
+translation=匯入完成，但有錯誤。
+
+[progress.msg-complete]
+original=Import complete.
+translation=匯入完成。
+
+[progress.msg-imported-count]
+original={{count}} note imported
+translation=已匯入 {{count}} 則筆記
+
+[progress.msg-imported-count_plural]
+original={{count}} notes imported
+translation=已匯入 {{count}} 則筆記
+
+[progress.msg-click-to-show]
+original={{counts}}. Select to show.
+translation={{counts}}。選取以顯示。
+
+[progress.status-waiting]
+original=Waiting {{duration}} ({{reason}})
+translation=等待中 {{duration}}（{{reason}}）
+
+[progress.status-standardizing]
+original=Standardizing Markdown ({{current}}/{{total}})
+translation=標準化 Markdown 中（{{current}}/{{total}}）
+
+[progress.label-finalization]
+original=Markdown finalization
+translation=Markdown 最終處理
+
+[report.file-name]
+original={{date}} {{importer}} import log
+translation={{date}} {{importer}} 匯入紀錄
+
+[report.title]
+original={{importer}} import
+translation={{importer}} 匯入
+
+[report.msg-finished]
+original=Finished {{when}}. {{counts}}.
+translation=完成於 {{when}}。{{counts}}。
+
+[report.msg-stopped]
+original=Stopped {{when}}. {{counts}}.
+translation=停止於 {{when}}。{{counts}}。
+
+[report.heading-failed]
+original=Failed ({{count}})
+translation=失敗（{{count}}）
+
+[report.heading-skipped]
+original=Skipped ({{count}})
+translation=已跳過（{{count}}）
+
+[report.heading-messages]
+original=Messages
+translation=訊息
+
+[report.count-notes]
+original={{count}} note imported
+translation=已匯入 {{count}} 則筆記
+
+[report.count-notes_plural]
+original={{count}} notes imported
+translation=已匯入 {{count}} 則筆記
+
+[report.count-attachments]
+original={{count}} attachment downloaded
+translation=已下載 {{count}} 個附件
+
+[report.count-attachments_plural]
+original={{count}} attachments downloaded
+translation=已下載 {{count}} 個附件
+
+[report.count-skipped]
+original={{count}} item skipped
+translation=已跳過 {{count}} 個項目
+
+[report.count-skipped_plural]
+original={{count}} items skipped
+translation=已跳過 {{count}} 個項目
+
+[report.count-failed]
+original={{count}} item failed
+translation={{count}} 個項目失敗
+
+[report.count-failed_plural]
+original={{count}} items failed
+translation={{count}} 個項目失敗
+
+[source.desc]
+original=Drag and drop, or choose files to import.
+translation=拖曳並放下，或選擇要匯入的檔案。
+
+[source.desc-choose]
+original=Choose files to import.
+translation=選擇要匯入的檔案。
+
+[source.button-choose-file]
+original=Choose file
+translation=選擇檔案
+
+[source.button-choose-files]
+original=Choose files
+translation=選擇檔案
+
+[source.button-choose-folders]
+original=Choose folders
+translation=選擇資料夾
+
+[source.dialog-pick-files]
+original=Pick files to import
+translation=選擇要匯入的檔案
+
+[source.dialog-pick-folders]
+original=Folders to import
+translation=要匯入的資料夾
+
+[source.desc-folders]
+original=Everything in checked folders is imported. Uncheck folders to exclude them.
+translation=已勾選的資料夾中的所有內容都會被匯入。取消勾選資料夾以排除它們。
+
+[source.msg-pick-source-first]
+original=Choose files or folders first.
+translation=請先選擇檔案或資料夾。
+
+[source.msg-reading-folders]
+original=Reading folders...
+translation=正在閱讀資料夾...
+
+[source.msg-no-folders]
+original=No folders found.
+translation=找不到資料夾。
+
+[source.msg-android-folder-failed]
+original=Could not choose that folder.
+translation=無法選擇該資料夾。
+
+[source.msg-android-folder-read-failed]
+original=Could not read that folder.
+translation=無法讀取該資料夾。
+
+[source.msg-android-folder-unavailable]
+original=Folder selection is unavailable on this device.
+translation=在此設備上無法使用資料夾選擇功能。
+
+[source.msg-android-root-folder]
+original=Choose a folder other than the root of your device.
+translation=請選擇裝置根目錄以外的其他資料夾。
+
+[source.msg-flat-files]
+original={{count}} file will be imported.
+translation=將匯入 {{count}} 個檔案。
+
+[source.msg-flat-files_plural]
+original={{count}} files will be imported.
+translation=將匯入 {{count}} 個檔案。
+
+[source.msg-nothing-to-import]
+original=Nothing to import there. Pick {{extensions}} files, or a folder holding some.
+translation=沒有可匯入的內容。請選擇 {{extensions}} 檔案，或包含這些檔案的資料夾。
+
+[source.msg-will-import]
+original={{files}} will be imported: 
+translation=將匯入 {{files}}： 
+
+[source.msg-more-files]
+original=and {{count}} more file
+translation=且還有 {{count}} 個檔案
+
+[source.msg-more-files_plural]
+original=and {{count}} more files
+translation=且還有 {{count}} 個檔案
+
+[source.button-remove-file]
+original=Remove from the import
+translation=從匯入中移除
+
+[output.label-source-id]
+original=source ID
+translation=原始內容 ID
+
+[output.name-save-source-id]
+original=Save {{label}}
+translation=儲存{{label}}
+
+[output.desc-save-source-id]
+original=Add the {{label}} to note properties so future imports can recognize moved or renamed notes.
+translation=將{{label}}新增至筆記屬性，以便未來匯入時能識別已移動或重新命名的筆記。
+
+[output.name-folder]
+original=Output folder
+translation=輸出資料夾
+
+[output.desc-folder]
+original=Where imported notes will be saved. Leave blank to use the top level of the vault.
+translation=匯入的筆記將儲存至此處。留空則使用保管庫的頂層目錄。
+
+[output.name-template]
+original=Template
+translation=範本
+
+[output.desc-template]
+original=Optional Markdown template from this vault. Use variables such as {{title}}, {{content}}, and {{date}}.
+translation=來自此保管庫的可選 Markdown 範本。使用 {{title}}、{{content}} 和 {{date}} 等變數。
+
+[output.placeholder-template]
+original=Templates/Import.md
+translation=Templates/Import.md
+
+[output.msg-template-not-found]
+original=Template must be a Markdown file in this vault: {{path}}
+translation=範本必須是此保管庫中的 Markdown 檔案：{{path}}
+
+[output.name-attachments]
+original=Attachment location
+translation=附件位置
+
+[output.desc-attachments]
+original=Where imported images and files will be saved.
+translation=匯入的圖片和檔案將儲存至此處。
+
+[output.name-subfolder]
+original=Subfolder name
+translation=子目錄名稱
+
+[output.desc-subfolder]
+original=Folder to use inside each imported note's folder.
+translation=在每個匯入筆記的資料夾內使用的資料夾。
+
+[output.name-attachment-folder]
+original=Attachment folder
+translation=附件資料夾
+
+[output.desc-attachment-folder]
+original=Folder path from the top level of the vault.
+translation=從保管庫頂層目錄算起的資料夾路徑。
+
+[output.name-duplicates]
+original=Existing notes
+translation=既有筆記
+
+[output.desc-duplicates]
+original=Choose what to do when an imported note matches one in your vault. "{{update}}" skips unchanged notes and preserves newer local edits when modification dates are available.
+translation=選擇當匯入的筆記與保管庫中的筆記相符時要如何處理。「{{update}}」會跳過未變更的筆記，且在有修改日期可用時保留較新的本機編輯。
+
+[output.option-create-copy]
+original=Create a copy
+translation=建立複製
+
+[output.option-skip]
+original=Skip
+translation=跳過
+
+[output.option-update]
+original=Update
+translation=更新
+
+[output.option-attachments-vault]
+original=Vault folder
+translation=儲存庫的根目錄
+
+[output.option-attachments-folder]
+original=In the folder specified below
+translation=下方指定的資料夾
+
+[output.option-attachments-note]
+original=Same folder as the note
+translation=與筆記相同的資料夾
+
+[output.option-attachments-subfolder]
+original=In subfolder under the note
+translation=在筆記下方的子資料夾中
+
+[common.msg-pick-file]
+original=Please pick at least one file to import.
+translation=請至少選擇一個要匯入的檔案。
+
+[common.msg-pick-output]
+original=Please select a location to export to.
+translation=請選擇匯出的位置。
+
+[common.msg-pick-import-location]
+original=Please select a location to import your files to.
+translation=請選擇匯入檔案的位置。
+
+[common.msg-unknown-error]
+original=Unknown error
+translation=未知錯誤
+
+[common.name-export]
+original=Export your data
+translation=匯出您的資料
+
+[common.label-learn-more]
+original=Learn more
+translation=深入了解
+
+[common.button-instructions]
+original=Instructions
+translation=說明
+
+[common.button-open]
+original=Open
+translation=開啟
+
+[common.status-processing]
+original=Processing {{name}}
+translation=正在處理 {{name}}
+
+[common.status-importing-note]
+original=Importing note {{name}}
+translation=正在匯入筆記 {{name}}
+
+[common.status-importing-attachment]
+original=Importing attachment {{name}}
+translation=正在匯入附件 {{name}}
+
+[common.status-cancelled]
+original=Import cancelled
+translation=匯入已取消
+
+[reason.already-in-vault]
+original=it is already in the vault
+translation=已存在於保管庫中
+
+[reason.unchanged-since-import]
+original=it has not changed since the last import
+translation=自上次匯入以來未變更
+
+[reason.edited-since-import]
+original=it has been edited in Obsidian since the last import
+translation=自上次匯入以來已在 Obsidian 中編輯
+
+[reason.file-not-in-vault]
+original=The imported file did not appear in the vault.
+translation=匯入的檔案未出現在保管庫中。
+
+[reason.folder-not-created]
+original=Failed to create folder at "{{path}}"
+translation=在「{{path}}」建立資料夾失敗
+
+[tree.button-select-all]
+original=Select all
+translation=全選
+
+[tree.button-deselect-all]
+original=Deselect all
+translation=取消全選
+
+[tree.button-load]
+original=Load
+translation=載入
+
+[tree.button-loading]
+original=Loading...
+translation=載入中...
+
+[tree.button-refresh]
+original=Refresh
+translation=重新整理
+
+[tree.placeholder-filter]
+original=Filter...
+translation=搜尋……
+
+[tree.msg-no-matches]
+original=No results found.
+translation=無符合結果。
+
+[request.msg-unauthorized]
+original={{service}} did not accept the request for {{subject}}. {{credential}}
+translation={{service}} 未接受對 {{subject}} 的請求。{{credential}}
+
+[request.msg-forbidden]
+original={{service}} would not give access to {{subject}}. {{credential}}
+translation={{service}} 拒絕授予 {{subject}} 的存取權限。{{credential}}
+
+[request.msg-not-found]
+original={{service}} could not find {{subject}}.
+translation={{service}} 找不到 {{subject}}。
+
+[request.msg-rate-limited]
+original={{service}} is limiting how fast {{subject}} can be read. Wait a few minutes and try again.
+translation={{service}} 正在限制讀取 {{subject}} 的速度。請等待幾分鐘後再試一次。
+
+[request.msg-timed-out]
+original={{service}} took too long to return {{subject}}. Try again shortly.
+translation={{service}} 回傳 {{subject}} 花費太久。請稍後再試一次。
+
+[request.msg-unavailable]
+original={{service}} could not return {{subject}} right now. Try again shortly.
+translation={{service}} 目前無法回傳 {{subject}}。請稍後再試一次。
+
+[request.msg-failed-with-code]
+original=Could not read {{subject}}: {{message}} ({{code}})
+translation=無法讀取 {{subject}}：{{message}}（{{code}}）
+
+[request.msg-failed-with-message]
+original=Could not read {{subject}}: {{message}}
+translation=無法讀取 {{subject}}：{{message}}
+
+[request.msg-failed-with-reported-code]
+original=Could not read {{subject}}. {{service}} reported {{code}}.
+translation=無法讀取 {{subject}}。{{service}} 回報了 {{code}}。
+
+[request.msg-failed]
+original=Could not read {{subject}}.
+translation=無法讀取 {{subject}}。
+
+[template.msg-intro]
+original=Configure how your data should be imported. Use {{syntax}} syntax to reference field values.
+translation=設定資料的匯入方式。使用 {{syntax}} 語法來引用欄位值。
+
+[template.msg-note-template-intro]
+original=Review examples of how your notes will be imported.
+translation=檢視筆記匯入後的範例效果。
+
+[template.name-title]
+original=Note title
+translation=重新命名
+
+[template.desc-title]
+original=Template for the note title. Use variables like {{field_name}} to insert values.
+translation=筆記標題的範本。使用 {{field_name}} 等變數來插入值。
+
+[template.name-location]
+original=Note location
+translation=筆記位置
+
+[template.desc-location]
+original=Template for note location/path. Use {{field_name}} to organize notes.
+translation=筆記位置／路徑的範本。使用 {{field_name}} 來整理筆記。
+
+[template.name-content]
+original=Note content
+translation=筆記內容
+
+[template.desc-content]
+original=Template for the note content. Use variables like {{field_name}} to insert values.
+translation=筆記內容的範本。使用 {{field_name}} 等變數來插入值。
+
+[template.name-template-file]
+original=Template
+translation=範本
+
+[template.desc-template-file]
+original=Optional. Choose a template from your vault to format the note content. See Help for {{link}}.
+translation=選填。從保管庫中選擇範本來格式化筆記內容。請參閱說明以了解 {{link}}。
+
+[template.link-template-syntax]
+original=template syntax
+translation=範本語法
+
+[template.heading-preview]
+original=Preview
+translation=預覽
+
+[template.status-loading-preview]
+original=Loading preview...
+translation=正在載入預覽…
+
+[template.button-edit-template]
+original=Edit
+translation=編輯
+
+[template.button-save-template]
+original=Save
+translation=儲存
+
+[template.button-reset-template]
+original=Reset to default
+translation=重設為預設
+
+[template.button-start-import]
+original=Start import
+translation=開始匯入
+
+[template.link-show-more]
+original=Show more
+translation=顯示更多
+
+[template.name-template-editor]
+original=Template source
+translation=範本原始內容
+
+[template.label-edit-import-template]
+original=Edit import template
+translation=編輯匯入範本
+
+[template.button-add-property]
+original=Add property
+translation=新增屬性
+
+[template.button-previous-preview]
+original=Previous preview
+translation=上一個預覽
+
+[template.button-next-preview]
+original=Next preview
+translation=下一個預覽
+
+[template.msg-diagnostic]
+original=Line {{line}}: {{message}}
+translation=第 {{line}} 行：{{message}}
+
+[template.heading-properties]
+original=Properties
+translation=屬性
+
+[template.column-property-name]
+original=Property name
+translation=屬性名稱
+
+[template.column-property-value]
+original=Property value
+translation=屬性值
+
+[template.column-example]
+original=Example
+translation=範例
+
+[template.action-delete-property]
+original=Delete property
+translation=刪除屬性
+
+[template.msg-title-required]
+original=Please provide a note title template.
+translation=請提供筆記標題範本。
+
+[importer.airtable-api.name]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.option-text]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-id]
+original=Airtable record ID
+translation=Airtable 記錄 ID
+
+[importer.airtable-api.name-token]
+original=Airtable personal access token
+translation=Airtable 個人存取權杖
+
+[importer.airtable-api.desc-token]
+original=Create a personal access token in your Airtable account settings.
+translation=在您的 Airtable 帳戶設定中建立個人存取權杖。
+
+[importer.airtable-api.link-get-token]
+original=Get token
+translation=取得權杖
+
+[importer.airtable-api.name-tables]
+original=Tables to import
+translation=要匯入的資料表
+
+[importer.airtable-api.desc-tables]
+original=Load your Airtable bases and tables, then choose what to import.
+translation=載入您的 Airtable 資料庫與資料表，然後選擇要匯入的內容。
+
+[importer.airtable-api.hint-tables]
+original=Load your Airtable bases and tables to get started.
+translation=載入您的 Airtable 資料庫與資料表以開始使用。
+
+[importer.airtable-api.msg-fetching-bases]
+original=Fetching bases...
+translation=正在擷取資料庫⋯
+
+[importer.airtable-api.msg-no-bases]
+original=No bases found.
+translation=找不到資料庫。
+
+[importer.airtable-api.label-service]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-subject]
+original=your bases
+translation=您的資料庫
+
+[importer.airtable-api.label-credential]
+original=Check that your personal access token is current and has access to them.
+translation=請確認您的個人存取權杖仍然有效，且具有存取權限。
+
+[importer.airtable-api.name-formulas]
+original=Convert formulas
+translation=轉換公式
+
+[importer.airtable-api.desc-formulas]
+original=Try to convert formulas to Obsidian syntax, or import as static values.
+translation=嘗試將公式轉換為 Obsidian 語法，或以靜態值匯入。
+
+[importer.airtable-api.option-formula-hybrid]
+original=Obsidian syntax (with fallback)
+translation=Obsidian 語法（含備援）
+
+[importer.airtable-api.option-formula-static]
+original=Static values only
+translation=僅靜態值
+
+[importer.airtable-api.name-download-attachments]
+original=Download attachments
+translation=下載附件
+
+[importer.airtable-api.desc-download-attachments]
+original=Download attachment files to local vault. If disabled or download fails, external URLs will be used.
+translation=將附件檔案下載至本機保管庫。若停用或下載失敗，將使用外部 URL。
+
+[importer.airtable-api.name-view-property]
+original=View property name
+translation=檢視屬性名稱
+
+[importer.airtable-api.desc-view-property]
+original=Property name to track which views a record belongs to. Each record will have a list of view names it appears in.
+translation=用於追蹤記錄所屬檢視的屬性名稱。每筆記錄將包含其所出現的檢視名稱清單。
+
+[importer.airtable-api.msg-token-first]
+original=Please enter your Airtable personal access token first.
+translation=請先輸入您的 Airtable 個人存取權杖。
+
+[importer.airtable-api.msg-token-missing]
+original=Please enter your Airtable personal access token.
+translation=請輸入您的 Airtable 個人存取權杖。
+
+[importer.airtable-api.msg-load-bases-failed]
+original=Failed to load bases: {{error}}
+translation=載入資料庫失敗：{{error}}
+
+[importer.airtable-api.msg-load-tables-failed]
+original=Failed to load tables for "{{base}}": {{error}}
+translation=載入「{{base}}」的表格失敗：{{error}}
+
+[importer.airtable-api.msg-pick-table]
+original=Please select at least one table to import.
+translation=請至少選取一個表格進行匯入。
+
+[importer.airtable-api.msg-loading-fields]
+original=Loading fields...
+translation=正在載入欄位…
+
+[importer.airtable-api.msg-no-fields]
+original=No fields found in selected tables. Please check your selection.
+translation=在已選取的表格中找不到欄位。請檢查您的選取項目。
+
+[importer.airtable-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=匯入失敗：{{error}}
+
+[importer.airtable-api.label-base-position]
+original= (base {{index}} of {{total}})
+translation= （資料庫 {{index}}/{{total}}）
+
+[importer.airtable-api.label-base]
+original=Base: {{name}}
+translation=資料庫：{{name}}
+
+[importer.airtable-api.label-linked-table]
+original=Linked table: {{name}}
+translation=關聯表格：{{name}}
+
+[importer.airtable-api.label-table-view]
+original={{table}} > {{view}}
+translation={{table}} > {{view}}
+
+[importer.airtable-api.label-import]
+original=Airtable API import
+translation=Airtable API 匯入
+
+[importer.airtable-api.status-connecting]
+original=Connecting to Airtable API
+translation=正在連線至 Airtable API
+
+[importer.airtable-api.status-loading-tables]
+original=Loading tables for {{base}}
+translation=正在載入 {{base}} 的表格
+
+[importer.airtable-api.status-fetching-tables]
+original=Fetching tables for base {{base}}...
+translation=正在擷取 {{base}} 的表格…
+
+[importer.airtable-api.status-found-bases]
+original=Found {{bases}} to import
+translation=找到 {{bases}} 可供匯入
+
+[importer.airtable-api.status-fetching-base]
+original=Fetching data from {{base}}{{position}}
+translation=正在從 {{base}}{{position}} 擷取資料
+
+[importer.airtable-api.status-preparing-records]
+original=Preparing records from {{base}}{{position}}
+translation=正在準備 {{base}}{{position}} 的記錄
+
+[importer.airtable-api.status-reading-names]
+original=Reading names from {{table}}{{position}}
+translation=正在閱讀 {{table}}{{position}} 的名稱
+
+[importer.airtable-api.status-planning]
+original=Working out where {{table}}{{position}} goes
+translation=正在規劃 {{table}}{{position}} 的存放位置
+
+[importer.airtable-api.status-fetching-records]
+original=Fetching records from {{table}}{{position}}
+translation=正在擷取 {{table}}{{position}} 的記錄
+
+[importer.airtable-api.status-fetched-records]
+original=Fetched {{records}} from {{table}}{{position}}
+translation=已從 {{table}}{{position}} 擷取 {{records}} 筆記錄
+
+[importer.airtable-api.status-fetching-view]
+original=Fetching view {{view}} from {{table}}{{position}}
+translation=正在從 {{table}}{{position}} 擷取檢視 {{view}}
+
+[importer.airtable-api.status-creating-notes]
+original=Creating notes in {{table}}{{position}}
+translation=正在 {{table}}{{position}} 中建立筆記
+
+[importer.airtable-api.status-updating-types]
+original=Updating property types
+translation=正在更新屬性類型
+
+[importer.airtable-api.status-complete]
+original=Import complete
+translation=匯入完成
+
+[importer.airtable-api.status-rate-limited]
+original=Rate limited, waiting {{seconds}}s (attempt {{attempt}}/{{total}})...
+translation=已被速率限制，等待 {{seconds}} 秒（第 {{attempt}}/{{total}} 次嘗試）…
+
+[importer.airtable-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}
+translation=正在下載附件：{{name}}
+
+[importer.airtable-api.reason-no-record-names]
+original=Could not read record names
+translation=無法讀取記錄名稱
+
+[importer.airtable-api.reason-empty-record]
+original=Empty record
+translation=空白記錄
+
+[importer.airtable-api.desc-no-modified-time]
+original=Airtable does not say when a record last changed, so "{{update}}" compares the note with the record instead. A note you have edited yourself reads as changed, and will be written over.
+translation=Airtable 不會記錄記錄的最後變更時間，因此「{{update}}」會將筆記與記錄進行比較。您自行編輯過的筆記會被視為已變更，並將被覆寫。
+
+[importer.apple-notes.name]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.option-text]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.label-id]
+original=Apple Notes ID
+translation=Apple Notes ID
+
+[importer.apple-notes.msg-platform]
+original=Due to platform limitations, Apple Notes cannot be exported from this device. Open your vault on a Mac to export from Apple Notes.
+translation=由於平台限制，無法從此裝置匯出 Apple Notes。請在 Mac 上開啟您的保管庫以匯出 Apple Notes。
+
+[importer.apple-notes.name-prefix-format]
+original=File prefix format
+translation=檔案前綴格式
+
+[importer.apple-notes.desc-prefix-format]
+original=Format for the creation date prefix in filenames. Use YYYY, MM, DD for year, month, day. Leave blank for no prefix.
+translation=檔案名稱中建立日期前綴的格式。使用 YYYY、MM、DD 代表年、月、日。留空白則不加前綴。
+
+[importer.apple-notes.name-omit-first-line]
+original=Omit first line
+translation=省略第一行
+
+[importer.apple-notes.desc-omit-first-line]
+original=Don't include the first line in the text, since Apple Notes uses it as the title. It will still be used as the note name.
+translation=不在文字中包含第一行，因為 Apple Notes 會將其作為標題使用。它仍會被用作筆記名稱。
+
+[importer.apple-notes.name-handwriting]
+original=Include handwriting text
+translation=包含手寫文字
+
+[importer.apple-notes.desc-handwriting]
+original=When Apple Notes has detected handwriting in drawings, include it as text before the drawing.
+translation=當 Apple Notes 在繪圖中偵測到手寫內容時，將其作為文字插入繪圖之前。
+
+[importer.apple-notes.name-data-folder]
+original=Apple Notes data folder
+translation=Apple Notes 資料夾
+
+[importer.apple-notes.desc-data-folder]
+original=macOS only lets Obsidian read your notes once you have pointed it at the folder they are kept in.
+translation=macOS 需要您先指定筆記所在的資料夾，才能讓 Obsidian 讀取您的筆記。
+
+[importer.apple-notes.button-select-folder]
+original=Select folder
+translation=選取資料夾
+
+[importer.apple-notes.msg-wrong-folder]
+original=Ensure you have selected the correct Apple Notes data folder.
+translation=請確認您已選取正確的 Apple Notes 資料夾。
+
+[importer.apple-notes.msg-dialog-folder]
+original=Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data.
+translation=選取「group.com.apple.notes」資料夾以允許 Obsidian 讀取 Apple Notes 資料。
+
+[importer.apple-notes.msg-import-failed]
+original=Data import failed. Ensure you have selected the correct Apple Notes data folder.
+translation=資料匯入失敗。請確認您已選取正確的 Apple Notes 資料夾。
+
+[importer.apple-notes.msg-pick-folders]
+original=Please select at least one folder to import.
+translation=請至少選取一個要匯入的資料夾。
+
+[importer.apple-notes.name-folders]
+original=Folders to import
+translation=要匯入的資料夾
+
+[importer.apple-notes.desc-folders]
+original=Pick the folders whose notes to bring across.
+translation=選擇要匯入哪些資料夾中的筆記。
+
+[importer.apple-notes.msg-no-access]
+original=Allow access to your notes to see the folders in them.
+translation=請允許存取您的筆記以查看其中的資料夾。
+
+[importer.apple-notes.msg-no-folders]
+original=No folders found.
+translation=找不到資料夾。
+
+[importer.apple-notes.msg-database-busy]
+original=Your Apple Notes database is in use. Quit Notes and try again.
+translation=您的 Apple Notes 資料庫正在使用中。請退出「備忘錄」後再試一次。
+
+[importer.apple-notes.msg-database-unreadable]
+original=Could not open your Apple Notes database. {{hint}}
+translation=無法開啟您的 Apple Notes 資料庫。{{hint}}
+
+[importer.apple-notes.msg-read-failed-with-detail]
+original=Could not read your notes: {{detail}}
+translation=無法讀取您的筆記：{{detail}}
+
+[importer.apple-notes.msg-read-failed]
+original=Could not read your notes.
+translation=無法讀取您的筆記。
+
+[importer.apple-notes.reason-password-protected]
+original=note is password protected
+translation=筆記受密碼保護
+
+[importer.apple-notes.reason-duplicate]
+original=note is a duplicate
+translation=筆記為建立副本
+
+[importer.apple-notes.reason-unchanged]
+original=note unchanged since last import
+translation=筆記自上次匯入後未變更
+
+[importer.apple-notes.reason-attachment-exists]
+original=attachment already exists
+translation=附件已存在
+
+[importer.apple-notes.reason-attachment-unchanged]
+original=attachment unchanged since last import
+translation=附件自上次匯入後未變更
+
+[importer.apple-notes.reason-not-downloaded]
+original=it has not been downloaded from iCloud - open the note in Apple Notes to fetch it
+translation=尚未從 iCloud 下載——請在 Apple Notes 中開啟該筆記以取得內容
+
+[importer.apple-notes.label-attachment]
+original=Attachment {{id}}
+translation=附件 {{id}}
+
+[importer.apple-notes.reason-no-attachment-row]
+original=no {{uti}} row to read it from
+translation=沒有可讀取的 {{uti}} 橫列
+
+[importer.apple-notes.label-attachment-in-note]
+original={{name}} in {{note}}
+translation={{note}} 中的 {{name}}
+
+[importer.apple-journal.name]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.option-text]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.file-type]
+original=Journal entries
+translation=Journal 條目
+
+[importer.apple-journal.desc-files]
+original=Export your entries from the Journal app, then pick the HTML files it wrote to iCloud Drive.
+translation=從 Journal app 匯出你的條目，然後選取它寫入 iCloud Drive 的 HTML 檔案。
+
+[importer.apple-journal.heading-metadata]
+original=Journal metadata
+translation=Journal 中繼資料
+
+[importer.apple-journal.name-front-matter]
+original=Add metadata as frontmatter
+translation=將中繼資料新增為前置中繼資料
+
+[importer.apple-journal.desc-front-matter]
+original=Capture state-of-mind, contact, and similar tokens in YAML when available.
+translation=在可用時，將心情狀態、聯絡人及類似標記擷取為 YAML。
+
+[importer.apple-journal.reason-index-file]
+original=index file is not a journal entry
+translation=索引檔案不是日誌條目
+
+[importer.bear.name]
+original=Bear
+translation=Bear
+
+[importer.bear.option-text]
+original=Bear (.bear2bk, .zip)
+translation=Bear (.bear2bk, .zip)
+
+[importer.bear.file-type]
+original=Bear backups
+translation=Bear 備份
+
+[importer.bear.label-id]
+original=Bear ID
+translation=Bear ID
+
+[importer.bear.desc-export]
+original=Back up your notes in Bear and choose the resulting .bear2bk file. On iPhone and iPad, you can also export Application Data and choose its .zip file.
+translation=在 Bear 中備份您的筆記，然後選擇產生的 .bear2bk 檔案。在 iPhone 和 iPad 上，您也可以匯出應用程式資料並選擇其 .zip 檔案。
+
+[importer.bear.name-tags-property]
+original=Move tags to a property
+translation=將標籤移至屬性
+
+[importer.bear.desc-tags-property]
+original=When enabled, tags are taken out of the note and listed in its tags property. Bear keeps tags in the text of a note, and Obsidian reads them there too.
+translation=已啟用時，標籤會從筆記中移除並列在其標籤屬性中。Bear 將標籤保留在筆記的文字中，Obsidian 也會從該處讀取。
+
+[importer.bear.name-flatten-tags]
+original=Flatten nested tags
+translation=展平巢狀標籤
+
+[importer.bear.desc-flatten-tags]
+original=When enabled, tags will be split on slashes (/) during import.
+translation=已啟用時，匯入期間標籤會以斜線 (/) 分割。
+
+[importer.bear.status-importing-asset]
+original=Importing asset {{name}}
+translation=正在匯入素材 {{name}}
+
+[importer.bear.status-updating-links]
+original=Updating internal links…
+translation=正在更新內部連結…
+
+[importer.bear.reason-unknown-type]
+original=unknown type of file
+translation=未知的檔案類型
+
+[importer.bear.reason-encrypted]
+original=encrypted note
+translation=加密的筆記
+
+[importer.bear.reason-missing-attachment]
+original=the attachment is missing from the export
+translation=附件在匯出中遺失
+
+[importer.csv.name]
+original=CSV
+translation=CSV
+
+[importer.csv.option-text]
+original=CSV (.csv)
+translation=CSV (.csv)
+
+[importer.csv.file-type]
+original=CSV
+translation=CSV
+
+[importer.csv.desc-export]
+original=Export your table as CSV from the app it lives in, such as Excel, Google Sheets, Numbers, Notion, or Airtable.
+translation=從表格所在的應用程式中將其匯出為 CSV，例如 Excel、Google Sheets、Numbers、Notion 或 Airtable。
+
+[importer.csv.name-header-row]
+original=CSV has header row
+translation=CSV 包含標題列
+
+[importer.csv.desc-header-row]
+original=If enabled, the first row of the CSV file will be treated as column headers.
+translation=若已啟用，CSV 檔案的第一橫列將被視為直欄標題。
+
+[importer.csv.name-source-title]
+original=Source title
+translation=來源標題
+
+[importer.csv.desc-source-title]
+original=Creates the {{title}} value used by the final note title template. Use CSV column variables like {{column_name}}.
+translation=建立最終筆記標題範本所使用的 {{title}} 值。使用 CSV 直欄變數，如 {{column_name}}。
+
+[importer.csv.msg-pick-file]
+original=Please pick at least one CSV file to import.
+translation=請至少選擇一個 CSV 檔案來匯入。
+
+[importer.csv.msg-one-at-a-time]
+original=CSV files must be imported one at a time.
+translation=CSV 檔案必須逐一匯入。
+
+[importer.csv.msg-no-data]
+original=No data found in {{name}}.
+translation=在 {{name}} 中找不到資料。
+
+[importer.csv.msg-no-configuration]
+original=Configuration is missing.
+translation=缺少設定。
+
+[importer.csv.status-parsing]
+original=Parsing {{name}}
+translation=正在解析 {{name}}
+
+[importer.csv.status-creating-note]
+original=Creating note: {{title}}
+translation=正在建立筆記：{{title}}
+
+[importer.csv.label-row]
+original=Row {{number}}
+translation=橫列 {{number}}
+
+[importer.csv.reason-empty-title]
+original=Empty title
+translation=空白標題
+
+[importer.files.name]
+original=Files and folders
+translation=檔案與資料夾
+
+[importer.files.option-text]
+original=Copy files and folders into your vault
+translation=複製檔案與資料夾到您的保管庫
+
+[importer.files.name-source]
+original=Files to copy
+translation=要複製的檔案
+
+[importer.files.desc-source]
+original=Drop files or folders anywhere in the window to copy them into your vault.
+translation=將檔案或資料夾放下到視窗中的任意位置，即可複製到您的保管庫。
+
+[importer.evernote.name]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.option-text]
+original=Evernote (.enex)
+translation=Evernote (.enex)
+
+[importer.evernote.file-type]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.desc-export]
+original=Export your notebooks in ENEX format, you will receive one .enex file per notebook.
+translation=以 ENEX 格式匯出您的筆記本，每個筆記本會產生一個 .enex 檔案。
+
+[importer.evernote.msg-unresolved-links]
+original={{count}} link could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} 個連結無法對應到筆記。ENEX 匯出檔不會記錄連結指向哪篇筆記，只會記錄它在 Evernote 中顯示的標題，因此在建立連結後重新命名的筆記將無法被對應。Obsidian 會將這些列在未解析的連結中。
+
+[importer.evernote.msg-unresolved-links_plural]
+original={{count}} links could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} 個連結無法對應到筆記。ENEX 匯出檔不會記錄連結指向哪篇筆記，只會記錄它在 Evernote 中顯示的標題，因此在建立連結後重新命名的筆記將無法被對應。Obsidian 會將這些列在未解析的連結中。
+
+[importer.keep.name]
+original=Google Keep
+translation=Google Keep
+
+[importer.keep.option-text]
+original=Google Keep (.zip, .json)
+translation=Google Keep (.zip, .json)
+
+[importer.keep.file-type]
+original=Notes & attachments
+translation=筆記與附件
+
+[importer.keep.desc-export]
+original=Get your Google Keep data from Google Takeout.
+translation=從 Google Takeout 取得您的 Google Keep 資料。
+
+[importer.keep.name-archived]
+original=Import archived notes
+translation=匯入已封存的筆記
+
+[importer.keep.desc-archived]
+original=If imported, files archived in Google Keep will be tagged as archived.
+translation=若匯入，在 Google Keep 中封存的檔案將被標記為已封存。
+
+[importer.keep.name-deleted]
+original=Import deleted notes
+translation=匯入已刪除的筆記
+
+[importer.keep.desc-deleted]
+original=If imported, files deleted in Google Keep will be tagged as deleted. Deleted notes will only exist in your Google export if deleted recently.
+translation=若匯入，在 Google Keep 中已刪除的檔案將被標記為已刪除。已刪除的筆記只有在近期刪除的情況下才會出現在您的 Google 匯出資料中。
+
+[importer.keep.reason-invalid-json]
+original=Invalid Google Keep JSON
+translation=無效的 Google Keep JSON
+
+[importer.keep.reason-archived]
+original=Archived note
+translation=已封存的筆記
+
+[importer.keep.reason-deleted]
+original=Deleted note
+translation=已刪除的筆記
+
+[importer.html.name]
+original=HTML files
+translation=HTML 檔案
+
+[importer.html.option-text]
+original=HTML (.html, .zip)
+translation=HTML (.html, .zip)
+
+[importer.html.label-id]
+original=HTML source path
+translation=HTML 原始內容路徑
+
+[importer.html.desc-source-identity]
+original=Changing which folder or zip file you choose can change the source path, so existing notes may not be recognized.
+translation=變更所選的資料夾或 zip 檔案可能會改變原始內容路徑，因此現有筆記可能無法被識別。
+
+[importer.html.file-type]
+original=HTML
+translation=HTML
+
+[importer.html.desc-export]
+original=Save the pages you want to keep as HTML. If the app they are in has an importer of its own, use that instead: it keeps more of your data.
+translation=將您想保留的頁面儲存為 HTML。如果頁面所在的應用程式有自己的匯入工具，請改用該工具：它能保留更多資料。
+
+[importer.html.desc-source]
+original=Choose individual HTML files, whole folders, or zip files. Pages in folders stay organized the same way.
+translation=選擇個別 HTML 檔案、整個資料夾或 zip 檔案。資料夾中的頁面會保持相同的組織方式。
+
+[importer.html.name-extract-main-content]
+original=Extract main content
+translation=擷取主要內容
+
+[importer.html.desc-extract-main-content]
+original=Remove navigation, sidebars, footers, and other page clutter.
+translation=移除導覽、側邊欄、頁尾及其他頁面雜訊。
+
+[importer.html.name-size-limit]
+original=Attachment size limit (MB)
+translation=附件大小限制 (MB)
+
+[importer.html.name-minimum-image-size]
+original=Minimum image size (px)
+translation=最小圖片尺寸 (px)
+
+[importer.html.desc-set-zero-to-disable]
+original=Set 0 to disable.
+translation=設為 0 以停用。
+
+[importer.html.status-downloading]
+original=Downloading attachment for {{name}}
+translation=正在下載 {{name}} 的附件
+
+[importer.markdown.name]
+original=Markdown
+translation=Markdown
+
+[importer.markdown.option-text]
+original=Markdown (.md, .txt, .zip)
+translation=Markdown（.md、.txt、.zip）
+
+[importer.markdown.file-type]
+original=Markdown and text
+translation=Markdown 且文字
+
+[importer.markdown.desc-source]
+original=Choose individual Markdown or text files, whole folders, or zip files. Everything in folders stays organized the same way.
+translation=選擇個別 Markdown 或文字檔案、整個資料夾或 zip 檔案。資料夾中的所有內容會保持相同的結構。
+
+[importer.markdown.name-standardize-formatting]
+original=Standardize formatting
+translation=標準化格式
+
+[importer.markdown.desc-standardize-formatting]
+original=Use this vault's settings for lists, indentation, and links.
+translation=使用此保管庫的設定來處理列表、縮排且連結。
+
+[importer.markdown.name-tags-as-properties]
+original=Convert inline tags to properties
+translation=將內嵌標籤轉換為屬性
+
+[importer.markdown.desc-tags-as-properties]
+original=Move tags written in the body of a note into its tags property.
+translation=將寫在筆記內容中的標籤移至其標籤屬性中。
+
+[importer.logseq.name]
+original=Logseq
+translation=Logseq
+
+[importer.logseq.option-text]
+original=Logseq (.md)
+translation=Logseq (.md)
+
+[importer.logseq.label-id]
+original=Logseq source
+translation=Logseq 原始內容
+
+[importer.logseq.desc-instructions]
+original=Read the instructions for importing from Logseq.
+translation=閱讀從 Logseq 匯入的說明。
+
+[importer.logseq.desc-files]
+original=Choose one graph folder containing pages, journals, and assets.
+translation=選擇一個包含頁面、日誌和附件的圖譜資料夾。
+
+[importer.logseq.name-use-daily-notes]
+original=Use daily notes settings
+translation=使用每日筆記設定
+
+[importer.logseq.desc-use-daily-notes]
+original=Write journals to the configured daily notes folder and filename format.
+translation=將日誌寫入已設定的每日筆記資料夾和檔名格式。
+
+[importer.logseq.name-queries]
+original=Keep queries
+translation=保留查詢
+
+[importer.logseq.desc-queries]
+original=Obsidian doesn't support Logseq's query format, so queries are imported as code blocks.
+translation=Obsidian 不支援 Logseq 的查詢格式，因此查詢會以程式碼區塊匯入。
+
+[importer.logseq.name-flashcards]
+original=Keep flashcards
+translation=保留閃卡
+
+[importer.logseq.desc-flashcards]
+original=Obsidian doesn't support Logseq's flashcards, so card markers and cloze wrappers are imported as plain text.
+translation=Obsidian 不支援 Logseq 的閃卡，因此卡片標記和克漏字包裝會以純文字匯入。
+
+[importer.logseq.name-time-tracking]
+original=Keep time tracking
+translation=保留時間追蹤
+
+[importer.logseq.desc-time-tracking]
+original=Obsidian doesn't support Logseq's time tracking, so LOGBOOK and CLOCK entries are imported as plain text.
+translation=Obsidian 不支援 Logseq 的時間追蹤，因此 LOGBOOK 和 CLOCK 項目會以純文字匯入。
+
+[importer.logseq.msg-pick-graph]
+original=Please choose one Logseq graph folder.
+translation=請選擇一個 Logseq 圖譜資料夾。
+
+[importer.logseq.msg-no-notes]
+original=The selected folder has no Markdown notes under pages or journals.
+translation=已選取的資料夾在 pages 或 journals 下沒有 Markdown 筆記。
+
+[importer.logseq.reason-empty-page]
+original=The converted page is empty
+translation=轉換後的頁面為空
+
+[importer.logseq.reason-missing-asset]
+original=Referenced by {{name}}, but missing from the graph
+translation=被 {{name}} 引用，但在圖譜中找不到
+
+[importer.logseq.reason-whiteboards]
+original=Logseq whiteboards are not supported by Obsidian
+translation=Obsidian 不支援 Logseq 白板
+
+[importer.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.option-text]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.method-name]
+original=Microsoft account
+translation=Microsoft 帳戶
+
+[importer.onenote.method-desc]
+original=Sign into your Microsoft account and import the notebooks that are synced to OneDrive. Requires an internet connection.
+translation=登入您的 Microsoft 帳戶並匯入已同步至 OneDrive 的筆記本。需要網路連線。
+
+[importer.onenote.label-id]
+original=OneNote ID
+translation=OneNote ID
+
+[importer.onenote.name-incompatible]
+original=Import incompatible attachments
+translation=匯入不相容的附件
+
+[importer.onenote.desc-incompatible]
+original=Imports incompatible attachments which cannot be embedded in Obsidian, such as .exe files.
+translation=匯入無法嵌入 Obsidian 的不相容附件，例如 .exe 檔案。
+
+[importer.onenote.name-account]
+original=Microsoft account
+translation=Microsoft 帳戶
+
+[importer.onenote.desc-sign-in]
+original=Sign in to import your OneNote notebooks.
+translation=登入以匯入您的 OneNote 筆記本。
+
+[importer.onenote.desc-sign-in-organization]
+original=Sign in to import your OneNote notebooks. A work or school account may need your organization to approve access.
+translation=登入以匯入您的 OneNote 筆記本。工作或學校帳戶可能需要您的組織核准存取權限。
+
+[importer.onenote.desc-signed-in]
+original=Signed in as {{name}} ({{email}}).
+translation=已以 {{name}} ({{email}}) 身分登入。
+
+[importer.onenote.button-sign-in]
+original=Sign in
+translation=登入
+
+[importer.onenote.button-sign-out]
+original=Sign out
+translation=登出
+
+[importer.onenote.button-work-account]
+original=Use work or school access
+translation=使用工作或學校存取權限
+
+[importer.onenote.msg-sign-in-failed]
+original=An error occurred while trying to sign you in.
+translation=嘗試登入時發生錯誤。
+
+[importer.onenote.msg-sign-in-details]
+original=Show error details
+translation=顯示錯誤詳情
+
+[importer.onenote.msg-signed-out]
+original=Sign in to see your OneNote notebooks.
+translation=登入以查看您的 OneNote 筆記本。
+
+[importer.onenote.msg-please-sign-in]
+original=Please sign in to your Microsoft account.
+translation=請登入您的 Microsoft 帳戶。
+
+[importer.onenote.name-sections]
+original=Sections to import
+translation=要匯入的節
+
+[importer.onenote.desc-sections]
+original=Select a notebook, or sections within it.
+translation=選擇筆記本或其中的節。
+
+[importer.onenote.msg-loading-notebooks]
+original=Loading notebooks...
+translation=正在載入筆記本…
+
+[importer.onenote.msg-no-notebooks]
+original=No notebooks found.
+translation=找不到筆記本。
+
+[importer.onenote.msg-scope-refused]
+original=OneNote did not grant this sign-in access to your notebooks. Sign out and sign in again to ask for work or school access, which your organization may need to approve.
+translation=OneNote 未授予此次登入存取您筆記本的權限。請登出後重新登入以請求工作或學校存取權限，您的組織可能需要核准此權限。
+
+[importer.onenote.label-service]
+original=OneNote
+translation=OneNote
+
+[importer.onenote.label-subject]
+original=your notebooks
+translation=您的筆記本
+
+[importer.onenote.label-credential]
+original=Sign out and back in to try again.
+translation=請登出後重新登入以再試一次。
+
+[importer.onenote.status-finding]
+original=Finding notes to import
+translation=正在尋找要匯入的筆記
+
+[importer.onenote.status-finding-in]
+original=Finding notes in {{section}}
+translation=正在尋找 {{section}} 中的筆記
+
+[importer.onenote.status-finding-in-section]
+original=Finding notes in {{section}} (section {{index}} of {{total}})
+translation=正在尋找 {{section}} 中的筆記（第 {{index}} 節，共 {{total}} 節）
+
+[importer.onenote.status-importing-notes]
+original=Importing {{notes}}
+translation=正在匯入 {{notes}}
+
+[importer.onenote.status-downloading]
+original=Downloading attachment {{name}}
+translation=正在下載附件 {{name}}
+
+[importer.onenote.msg-too-many-errors]
+original=Microsoft OneNote returned too many consecutive errors.
+translation=Microsoft OneNote 回傳了過多連續錯誤。
+
+[importer.onenote.label-unknown-page]
+original=<unknown>
+translation=<無標題>
+
+[importer.onenote.reason-too-many-failures]
+original=import was canceled (after too many pages failed to load)
+translation=匯入已取消（因為過多頁面載入失敗）
+
+[importer.onenote.label-ink]
+original={{page}} - Ink.svg
+translation={{page}} - Ink.svg
+
+[importer.onenote.label-attachment]
+original=OneNote attachment
+translation=OneNote 附件
+
+[importer.onenote.label-image]
+original=OneNote image
+translation=OneNote 圖片
+
+[importer.onenote.reason-no-attachment-name]
+original=the attachment did not say what it was called
+translation=附件未提供其名稱
+
+[importer.onenote.reason-no-attachment-url]
+original=the attachment did not include a download URL
+translation=附件未包含下載 URL
+
+[importer.onenote.reason-no-image-url]
+original=the image did not include a download URL
+translation=圖片未包含下載 URL
+
+[importer.onenote-file.name]
+original=Microsoft OneNote (export file)
+translation=Microsoft OneNote（匯出檔案）
+
+[importer.onenote-file.option-text]
+original=Microsoft OneNote (.one, .onepkg)
+translation=Microsoft OneNote（.one、.onepkg）
+
+[importer.onenote-file.method-name]
+original=File import
+translation=檔案匯入
+
+[importer.onenote-file.method-desc]
+original=Import using OneNote export files (.one, .onepkg) from your computer. Requires no account or internet connection, and works for notebooks that were never synced.
+translation=使用電腦上的 OneNote 匯出檔案（.one、.onepkg）進行匯入。不需要帳戶或網路連線，也適用於從未已同步的筆記本。
+
+[importer.onenote-file.file-type]
+original=OneNote export
+translation=OneNote 匯出
+
+[importer.onenote-file.label-id]
+original=OneNote ID
+translation=OneNote ID
+
+[importer.onenote-file.desc-backup-folder]
+original=OneNote for Windows keeps its own backups, and this opens there. Pick the notebooks or sections you want.
+translation=Windows 版 OneNote 會自行保留備份，此功能會開啟該位置。請選取您要的筆記本或節。
+
+[importer.onenote-file.desc-export]
+original=In OneNote for Windows, right-click a notebook and export it to save a .onepkg file, or export a single section as .one.
+translation=在 Windows 版 OneNote 中，右鍵點擊筆記本並匯出以儲存 .onepkg 檔案，或將單一節匯出為 .one。
+
+[importer.onenote-file.name-sections]
+original=Sections to import
+translation=要匯入的節
+
+[importer.onenote-file.desc-sections]
+original=Choose which sections to import.
+translation=選擇要匯入的節。
+
+[importer.onenote-file.msg-loading-sections]
+original=Reading sections…
+translation=正在閱讀節⋯
+
+[importer.onenote-file.msg-no-sections]
+original=No sections found in this file.
+translation=在此檔案中找不到任何節。
+
+[importer.onenote-file.msg-pick-file-first]
+original=Choose a OneNote file first.
+translation=請先選擇一個 OneNote 檔案。
+
+[importer.onenote-file.status-reading-section]
+original=Reading {{name}}
+translation=正在閱讀 {{name}}
+
+[importer.onenote-file.status-importing-section]
+original=Importing {{name}} ({{index}} of {{total}})
+translation=正在匯入 {{name}}（{{index}} / {{total}}）
+
+[importer.onenote-file.reason-rights-protected]
+original=the file is rights-protected, and can only be opened by an account with permission to it
+translation=此檔案受版權保護，只有擁有權限的帳戶才能開啟
+
+[importer.onenote-file.reason-unsupported]
+original=the file uses a OneNote format this importer cannot read yet
+translation=此檔案使用的 OneNote 格式目前尚不支援
+
+[importer.onenote-file.reason-malformed]
+original=the file does not describe the OneNote structures it claims to
+translation=此檔案未正確描述其宣稱的 OneNote 結構
+
+[importer.onenote-file.reason-too-large]
+original=the file is larger than this importer is willing to expand
+translation=此檔案超過匯入工具願意展開的大小上限
+
+[importer.onenote-file.reason-no-attachment-data]
+original=the attachment held no data
+translation=該附件不包含任何資料
+
+[importer.notion-api.name]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.option-text]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.method-name]
+original=Notion account (recommended)
+translation=Notion 帳戶（推薦）
+
+[importer.notion-api.method-desc]
+original=Imports your entire workspace, including databases and formulas which are converted to bases. Requires a Notion integration token and an internet connection.
+translation=匯入您的整個工作區，包括資料庫與公式，這些將轉換為 bases。需要 Notion 整合權杖與網路連線。
+
+[importer.notion-api.label-id]
+original=Notion ID
+translation=Notion ID
+
+[importer.notion-api.name-token]
+original=Notion API token
+translation=Notion API 權杖
+
+[importer.notion-api.desc-token]
+original=To get an API token create a connection in Notion and give it access to pages in your workspace.
+translation=若要取得 API 權杖，請在 Notion 中建立連線，並授予其存取工作區中頁面的權限。
+
+[importer.notion-api.link-get-token]
+original=Get API token
+translation=取得 API 權杖
+
+[importer.notion-api.name-pages]
+original=Pages to import
+translation=要匯入的頁面
+
+[importer.notion-api.desc-pages]
+original=Load your Notion pages and databases, then choose what to import. If a page or database is missing, check that your Notion connection has access to it.
+translation=載入您的 Notion 頁面和資料庫，然後選擇要匯入的內容。如果缺少某個頁面或資料庫，請確認您的 Notion 連線具有存取權限。
+
+[importer.notion-api.hint-pages]
+original=Load your Notion pages and databases to get started.
+translation=載入您的 Notion 頁面和資料庫以開始使用。
+
+[importer.notion-api.msg-loading-pages]
+original=Loading pages and databases...
+translation=正在載入頁面與資料庫⋯
+
+[importer.notion-api.msg-no-pages]
+original=No pages or databases found. Make sure your connection has access to the pages you want to import.
+translation=找不到任何頁面或資料庫。請確認您的連線已有存取您要匯入的頁面的權限。
+
+[importer.notion-api.label-service]
+original=Notion
+translation=Notion
+
+[importer.notion-api.label-subject]
+original=your pages
+translation=您的頁面
+
+[importer.notion-api.label-credential]
+original=Check that your token is current and that the connection has access to them.
+translation=請確認您的權杖仍然有效，且連線已有存取這些頁面的權限。
+
+[importer.notion-api.name-formulas]
+original=Convert formulas
+translation=轉換公式
+
+[importer.notion-api.desc-formulas]
+original=By default Notion formulas are converted to Obsidian syntax. If any Notion syntax is not supported the static values will be saved instead. Alternatively you can import all formulas as static values.
+translation=預設情況下，Notion 公式會轉換為 Obsidian 語法。若有不支援的 Notion 語法，將改為儲存靜態值。您也可以選擇將全部公式匯入為靜態值。
+
+[importer.notion-api.option-formula-hybrid]
+original=Obsidian syntax
+translation=Obsidian 語法
+
+[importer.notion-api.option-formula-static]
+original=Static values
+translation=靜態值
+
+[importer.notion-api.name-download-external]
+original=Download external attachments
+translation=下載外部附件
+
+[importer.notion-api.desc-download-external]
+original=Download external attachments (external URLs) to local files. Notion-hosted files are always downloaded.
+translation=將外部附件（外部 URL）下載為本機檔案。Notion 託管的檔案總是會被下載。
+
+[importer.notion-api.name-single-line-breaks]
+original=Single line breaks
+translation=單行換行
+
+[importer.notion-api.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break instead of two. Some blocks (lists, toggles, tables) will still use double line breaks when required for proper Markdown syntax.
+translation=Notion 區塊之間僅使用一個換行符而非兩個。某些區塊（清單、摺疊、表格）在需要正確 Markdown 語法時仍會使用雙換行。
+
+[importer.notion-api.name-cover-property]
+original=Cover property name
+translation=封面屬性名稱
+
+[importer.notion-api.desc-cover-property]
+original=Property name for page cover image in YAML frontmatter. 
+translation=YAML 前置中繼資料中頁面封面圖片的屬性名稱。 
+
+[importer.notion-api.desc-cover-property-conflicts]
+original=Leave as "cover" if you don't have conflicts with existing properties.
+translation=如果與現有屬性沒有衝突，請保持為 "cover"。
+
+[importer.notion-api.name-database-property]
+original=Database property name
+translation=資料庫屬性名稱
+
+[importer.notion-api.desc-database-property]
+original=Property name in page frontmatter to link pages to their database .base file (default: "base")
+translation=頁面前置中繼資料中用於將頁面連結至其資料庫 .base 檔案的屬性名稱（預設："base"）
+
+[importer.notion-api.name-linked-databases]
+original=Import linked databases
+translation=匯入連結的資料庫
+
+[importer.notion-api.desc-linked-databases]
+original=Also import databases that the selected pages link to, so relations become links rather than names. This imports pages you did not select.
+translation=同時匯入已選取頁面所連結的資料庫，使關聯成為連結而非名稱。這會匯入您未選取的頁面。
+
+[importer.notion-api.msg-token-first]
+original=Please enter your Notion API token first.
+translation=請先輸入您的 Notion API 權杖。
+
+[importer.notion-api.msg-token-missing]
+original=Please enter your Notion API token.
+translation=請輸入您的 Notion API 權杖。
+
+[importer.notion-api.msg-load-pages-failed]
+original=Failed to load pages: {{error}}
+translation=載入頁面失敗：{{error}}
+
+[importer.notion-api.msg-pick-page]
+original=Please select at least one page or database to import.
+translation=請至少選取一個頁面或資料庫來匯入。
+
+[importer.notion-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=匯入失敗：{{error}}
+
+[importer.notion-api.status-loading-items]
+original=Loading... ({{items}}, page {{page}})
+translation=載入中...（{{items}}，第 {{page}} 頁）
+
+[importer.notion-api.status-connecting]
+original=Connecting to Notion API...
+translation=正在連線至 Notion API...
+
+[importer.notion-api.status-fetching]
+original=Fetching page content from Notion...
+translation=正在從 Notion 擷取頁面內容...
+
+[importer.notion-api.status-preparing]
+original=Preparing to import {{items}}...
+translation=正在準備匯入 {{items}}...
+
+[importer.notion-api.status-importing-items]
+original=Importing {{items}}...
+translation=正在匯入 {{items}}...
+
+[importer.notion-api.status-importing-item]
+original=Importing item {{index}}/{{total}}...
+translation=正在匯入項目 {{index}}/{{total}}...
+
+[importer.notion-api.status-importing-title]
+original=Importing: {{title}}
+translation=正在匯入：{{title}}
+
+[importer.notion-api.status-relation-links]
+original=Processing relation links...
+translation=正在處理關聯連結...
+
+[importer.notion-api.status-mention-links]
+original=Processing mention links...
+translation=正在處理提及連結...
+
+[importer.notion-api.status-synced-blocks]
+original=Processing synced block child references...
+translation=正在處理已同步區塊的子參照...
+
+[importer.notion-api.status-cleaning-ids]
+original=Cleaning up notion-id attributes...
+translation=正在清理 notion-id 屬性...
+
+[importer.notion-api.status-done]
+original=Import completed successfully!
+translation=匯入成功完成！
+
+[importer.notion-api.status-replacing-relations]
+original=Replacing {{placeholders}}...
+translation=正在替換 {{placeholders}}...
+
+[importer.notion-api.status-replacing-relation-links]
+original=Replacing relation placeholders with wiki links...
+translation=正在將關聯佔位符替換為 wiki 連結...
+
+[importer.notion-api.status-importing-linked-databases]
+original=Importing {{databases}}...
+translation=正在匯入 {{databases}}...
+
+[importer.notion-api.status-importing-unimported]
+original=Importing unimported database {{id}}...
+translation=正在匯入未匯入的資料庫 {{id}}...
+
+[importer.notion-api.status-replacing-mentions]
+original=Replacing mention placeholders...
+translation=正在替換提及佔位符...
+
+[importer.notion-api.status-replaced-mentions]
+original=Replaced {{links}} in {{files}}.
+translation=已在 {{files}} 中替換 {{links}}。
+
+[importer.notion-api.status-replacing-synced]
+original=Replacing synced block child references...
+translation=正在替換已同步區塊的子參照...
+
+[importer.notion-api.status-replaced-synced]
+original=Replaced {{references}} in {{files}} (imported {{imported}}).
+translation=已在 {{files}} 中替換 {{references}}（已匯入 {{imported}}）。
+
+[importer.notion-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}...
+translation=正在下載附件：{{name}}...
+
+[importer.notion-api.status-rate-limited]
+original=Rate limited. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=已達速率限制。等待 {{seconds}} 秒後重試（{{attempt}}/{{total}}）...
+
+[importer.notion-api.status-retrying]
+original=Notion returned {{status}}. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=Notion 回傳 {{status}}。等待 {{seconds}} 秒後重試（{{attempt}}/{{total}}）...
+
+[importer.notion-api.status-retrying-attachment]
+original={{name}}: {{failure}}. Retrying in {{seconds}} seconds ({{attempt}}/{{total}})...
+translation={{name}}：{{failure}}。將在 {{seconds}} 秒後重試（{{attempt}}/{{total}}）...
+
+[importer.notion-api.status-processing-data-source]
+original=Processing database from data source: {{id}}...
+translation=正在處理資料來源中的資料庫：{{id}}...
+
+[importer.notion-api.status-processing-database]
+original=Processing database: {{title}}...
+translation=正在處理資料庫：{{title}}...
+
+[importer.notion-api.status-found-pages]
+original=Found {{pages}} in database {{title}}
+translation=在資料庫 {{title}} 中找到 {{pages}}
+
+[importer.notion-api.status-found-templates]
+original=Found {{templates}} in database {{title}}
+translation=在資料庫 {{title}} 中找到 {{templates}}
+
+[importer.notion-api.status-importing-template]
+original=Importing template: {{name}}...
+translation=正在匯入範本：{{name}}...
+
+[importer.notion-api.label-import]
+original=Notion API import
+translation=Notion API 匯入
+
+[importer.notion-api.label-item]
+original=Import item {{id}}
+translation=匯入項目 {{id}}
+
+[importer.notion-api.label-page]
+original=Page {{id}}
+translation=頁面 {{id}}
+
+[importer.notion-api.label-page-with-title]
+original=Page: {{title}} ({{id}})
+translation=頁面：{{title}}（{{id}}）
+
+[importer.notion-api.label-relation-page]
+original=Relation page {{id}}
+translation=關聯頁面 {{id}}
+
+[importer.notion-api.label-database-with-id]
+original=Database: {{title}} ({{id}})
+translation=資料庫：{{title}}（{{id}}）
+
+[importer.notion-api.label-mention-file]
+original=Mention file {{path}}
+translation=提及檔案 {{path}}
+
+[importer.notion-api.label-synced-block-file]
+original=Synced block file {{path}}
+translation=已同步區塊檔案 {{path}}
+
+[importer.notion-api.label-attachment]
+original=Attachment: {{name}}
+translation=附件：{{name}}
+
+[importer.notion-api.label-child-page]
+original=Child page: {{title}}
+translation=子頁面：{{title}}
+
+[importer.notion-api.label-synced-block]
+original=Synced block: {{name}}
+translation=已同步區塊：{{name}}
+
+[importer.notion-api.label-attachment-image]
+original=Image attachment
+translation=圖片附件
+
+[importer.notion-api.label-attachment-video]
+original=Video attachment
+translation=影片附件
+
+[importer.notion-api.label-attachment-audio]
+original=Audio attachment
+translation=音訊附件
+
+[importer.notion-api.label-attachment-file]
+original=File attachment
+translation=檔案附件
+
+[importer.notion-api.label-attachment-pdf]
+original=PDF attachment
+translation=PDF 附件
+
+[importer.notion-api.label-preview-child-page]
+original=Child page
+translation=子頁面
+
+[importer.notion-api.label-preview-database]
+original=Database
+translation=資料庫
+
+[importer.notion-api.msg-preview-nested-content]
+original=Nested content is not loaded in the preview.
+translation=巢狀內容未在預覽中載入。
+
+[importer.notion-api.msg-preview-content-not-loaded]
+original={{type}} is not loaded in the preview.
+translation={{type}} 未在預覽中載入。
+
+[importer.notion-api.msg-preview-content-not-loaded-with-caption]
+original={{type}}: {{caption}} is not loaded in the preview.
+translation={{type}}：{{caption}} 未在預覽中載入。
+
+[importer.notion-api.msg-preview-block-not-expanded]
+original={{type}} is not expanded in the preview.
+translation={{type}} 未在預覽中展開。
+
+[importer.notion-api.label-fetch-children]
+original=Fetch children for {{context}} {{id}}
+translation=擷取 {{context}} {{id}} 的子項目
+
+[importer.notion-api.block-paragraph]
+original=paragraph
+translation=段落
+
+[importer.notion-api.block-bulleted-list-item]
+original=bulleted list item
+translation=項目符號清單項目
+
+[importer.notion-api.block-numbered-list-item]
+original=numbered list item
+translation=有序列表項目
+
+[importer.notion-api.block-todo-item]
+original=to-do item
+translation=待辦項目
+
+[importer.notion-api.block-quote]
+original=quote block
+translation=引用區塊
+
+[importer.notion-api.block-callout]
+original=callout block
+translation=標註塊區塊
+
+[importer.notion-api.block-toggle]
+original=toggle block
+translation=摺疊區塊
+
+[importer.notion-api.block-toggleable-heading]
+original=toggleable heading
+translation=可摺疊標題
+
+[importer.notion-api.block-column]
+original=column
+translation=直欄
+
+[importer.notion-api.block-column-list]
+original=column list
+translation=直欄清單
+
+[importer.notion-api.block-table]
+original=table
+translation=表格
+
+[importer.notion-api.block-generic]
+original=block
+translation=區塊
+
+[importer.notion-api.label-meeting-notes]
+original=Meeting notes: {{name}}
+translation=會議筆記：{{name}}
+
+[importer.notion-api.label-meeting-notes-section]
+original=Meeting notes: {{name}} ({{section}})
+translation=會議筆記：{{name}}（{{section}}）
+
+[importer.notion-api.label-untitled-meeting]
+original=Meeting notes {{id}}
+translation=會議筆記 {{id}}
+
+[importer.notion-api.section-summary]
+original=summary
+translation=摘要
+
+[importer.notion-api.section-notes]
+original=notes
+translation=筆記
+
+[importer.notion-api.section-transcript]
+original=transcript
+translation=逐字稿
+
+[importer.notion-api.label-fetch-children-block]
+original=Fetch children for block {{id}}
+translation=擷取區塊 {{id}} 的子項目
+
+[importer.notion-api.reason-not-in-tree]
+original=Item not found in tree
+translation=在樹狀結構中未找到項目
+
+[importer.notion-api.reason-unknown-type]
+original=Unknown type: {{type}}
+translation=未知類型：{{type}}
+
+[importer.notion-api.reason-earlier-import]
+original=an earlier import had already written it
+translation=先前的匯入已寫入該項目
+
+[importer.notion-api.reason-attachment-exists]
+original={{path}} is already in the vault, the same size (incremental import)
+translation={{path}} 已存在於保管庫中，大小相同（增量匯入）
+
+[importer.notion-api.reason-http-status]
+original=HTTP {{status}}
+translation=HTTP {{status}}
+
+[importer.notion-api.reason-meeting-notes-pending]
+original=Notion has not finished generating them ({{status}})
+translation=Notion 尚未完成生成（{{status}}）
+
+[importer.notion-api.reason-rate-limit-gave-up]
+original=rate limited, and gave up after {{retries}} retries
+translation=速率受限，在重試 {{retries}} 次後放棄
+
+[importer.notion-api.reason-gave-up]
+original={{reason}}, and gave up after {{retries}} retries
+translation={{reason}}，在重試 {{retries}} 次後放棄
+
+[importer.notion-api.reason-kept-link]
+original={{reason}}; kept the link to {{url}}
+translation={{reason}}；已保留指向 {{url}} 的連結
+
+[importer.notion.name]
+original=Notion
+translation=Notion
+
+[importer.notion.option-text]
+original=Notion (.zip)
+translation=Notion (.zip)
+
+[importer.notion.method-name]
+original=File import
+translation=檔案匯入
+
+[importer.notion.method-desc]
+original=Imports using a Notion export file (.zip). Requires no API token or internet connection, but does not preserve databases.
+translation=使用 Notion 匯出檔案（.zip）匯入。不需要 API 權杖或網路連線，但無法保留資料庫。
+
+[importer.notion.file-type]
+original=Exported Notion
+translation=已匯出的 Notion
+
+[importer.notion.label-id]
+original=Notion ID
+translation=Notion ID
+
+[importer.notion.desc-export]
+original=Export your workspace in HTML format, you will receive a zip file.
+translation=以 HTML 格式匯出您的工作區，您會收到一個 zip 檔案。
+
+[importer.notion.desc-files]
+original=Pick the zip file Notion sent you.
+translation=選擇 Notion 傳送給您的 zip 檔案。
+
+[importer.notion.name-subfolders]
+original=Save parent pages in subfolders
+translation=將父頁面儲存在子資料夾中
+
+[importer.notion.desc-subfolders]
+original=Places the parent database pages in the same folder as the nested content.
+translation=將父資料庫頁面放置在與巢狀內容相同的資料夾中。
+
+[importer.notion.name-single-line-breaks]
+original=Single line breaks
+translation=單行換行
+
+[importer.notion.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break (default is 2).
+translation=Notion 區塊之間僅使用一個換行分隔（預設為 2）。
+
+[importer.notion.msg-unknown-property]
+original=Property "{{property}}" has an unknown type ({{type}}); kept its value as text.
+translation=屬性「{{property}}」的類型無法辨識（{{type}}）；已將其值保留為文字。
+
+[importer.notion.msg-unparsed-date]
+original=Could not determine the date in property "{{property}}": {{value}}. Kept its value as text.
+translation=無法判斷屬性「{{property}}」中的日期：{{value}}。已將其值保留為文字。
+
+[importer.notion.status-looking]
+original=Looking for files to import
+translation=正在尋找要匯入的檔案
+
+[importer.notion.status-resolving]
+original=Resolving links and de-duplicating files
+translation=正在解析連結和去除重複檔案
+
+[importer.notion.status-starting]
+original=Starting import
+translation=正在開始匯入
+
+[importer.notion.msg-markdown-export]
+original=This is a Markdown export. Export your Notion workspace as HTML instead.
+translation=這是 Markdown 匯出。請改為將您的 Notion 工作區匯出為 HTML。
+
+[importer.notion.reason-markdown-export]
+original=it is a Markdown export; export your Notion workspace as HTML instead
+translation=這是 Markdown 匯出；請改以 HTML 格式匯出您的 Notion 工作區
+
+[importer.notion.reason-no-page-body]
+original=page body was not found
+translation=找不到頁面內容
+
+[importer.roam-json.name]
+original=Roam Research
+translation=Roam Research
+
+[importer.roam-json.option-text]
+original=Roam Research (.json)
+translation=Roam Research (.json)
+
+[importer.roam-json.file-type]
+original=Roam (.json)
+translation=Roam (.json)
+
+[importer.roam-json.label-id]
+original=Roam UID
+translation=Roam UID
+
+[importer.roam-json.desc-export]
+original=Export your data in JSON format.
+translation=以 JSON 格式匯出您的資料。
+
+[importer.roam-json.desc-files]
+original=Pick the JSON file from your Roam export.
+translation=選擇從 Roam 匯出的 JSON 檔案。
+
+[importer.roam-json.name-embed-block-references]
+original=Show referenced blocks in place
+translation=就地顯示參照的區塊
+
+[importer.roam-json.desc-embed-block-references]
+original=Roam shows the contents of a referenced block where the reference stands. If enabled, references become embeds rather than links.
+translation=Roam 會在參照所在位置顯示被參照區塊的內容。若已啟用，參照會變成嵌入而非連結。
+
+[importer.roam-json.name-drop-unresolved-references]
+original=Remove references to missing blocks
+translation=移除指向缺失區塊的參照
+
+[importer.roam-json.desc-drop-unresolved-references]
+original=Some references name a block that is not in the export. If enabled, they are removed; if not, they are kept as Roam wrote them.
+translation=部分參照指向匯出中不存在的區塊。若已啟用，這些參照會被移除；若未啟用，則保留 Roam 原始寫入的內容。
+
+[importer.roam-json.name-convert-attributes]
+original=Convert attributes to properties
+translation=將 Roam 屬性轉換為 Obsidian 屬性
+
+[importer.roam-json.desc-convert-attributes]
+original=Convert eligible top-level Roam attributes into Obsidian properties. Referenced attributes remain in the note so links to them keep working.
+translation=將符合條件的頂層 Roam 屬性轉換為 Obsidian 屬性。被參照的屬性會保留在筆記中，以便指向它們的連結繼續運作。
+
+[importer.roam-json.name-tags-as-links]
+original=Convert tags to links
+translation=將標籤轉換為連結
+
+[importer.roam-json.desc-tags-as-links]
+original=A tag in Roam is a reference to the page of that name. If enabled, "#tag" becomes "[[tag]]".
+translation=Roam 中的標籤是對同名頁面的參照。若已啟用，"#tag" 會變成 "[[tag]]"。
+
+[importer.roam-json.name-drop-queries]
+original=Remove queries
+translation=移除查詢
+
+[importer.roam-json.desc-drop-queries]
+original=If enabled, queries are removed. If not, a query becomes an Obsidian search that shows its results in the note.
+translation=若已啟用，查詢會被移除。若未啟用，查詢會轉換為 Obsidian 搜尋，並在筆記中顯示其結果。
+
+[importer.roam-json.reason-empty-title]
+original=Title is empty
+translation=標題為空
+
+[importer.roam-json.reason-unexpected-extension]
+original=Unexpected file extension
+translation=非預期的副檔名
+
+[importer.textbundle.name]
+original=Textbundle files
+translation=Textbundle 檔案
+
+[importer.textbundle.option-text]
+original=Textbundle (.textbundle, .textpack)
+translation=Textbundle (.textbundle, .textpack)
+
+[importer.textbundle.file-type]
+original=Textbundle
+translation=Textbundle
+
+[importer.textbundle.desc-export]
+original=Export your notes as textbundle or textpack, which Agenda, Craft, Taio, Ulysses and Zettlr can all write.
+translation=將您的筆記匯出為 textbundle 或 textpack，Agenda、Craft、Taio、Ulysses 和 Zettlr 都支援此格式。
+
+[importer.textbundle.msg-platform]
+original=Due to platform limitations, only textpack and zip files can be imported from this device. Open your vault on a Mac to import textbundle files.
+translation=由於平台限制，此裝置僅能匯入 textpack 和 zip 檔案。請在 Mac 上開啟您的保管庫以匯入 textbundle 檔案。
+
+[importer.textbundle.reason-no-markdown]
+original=The textbundle does not contain markdown
+translation=該 textbundle 不包含 Markdown
+
+[importer.textbundle.reason-not-media]
+original=the file is not a media or markdown file.
+translation=該檔案不是媒體或 Markdown 檔案。
+
+[importer.textbundle.reason-already-exists]
+original=the file already exists.
+translation=該檔案已存在。
+
+[importer.tomboy.name]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.option-text]
+original=Tomboy/Gnote (.note)
+translation=Tomboy/Gnote (.note)
+
+[importer.tomboy.file-type]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.label-id]
+original=Tomboy ID
+translation=Tomboy ID
+
+[importer.tomboy.desc-files-mac]
+original=Tomboy notes are typically found in: ~/Library/Application Support/Tomboy
+translation=Tomboy 筆記通常位於：~/Library/Application Support/Tomboy
+
+[importer.tomboy.desc-files-windows]
+original=Tomboy notes are typically found in: %APPDATA%\\Tomboy
+translation=Tomboy 筆記通常位於：%APPDATA%\\Tomboy
+
+[importer.tomboy.desc-files-linux]
+original=Tomboy notes are typically found in: ~/.local/share/tomboy - or GNote: ~/.local/share/gnote
+translation=Tomboy 筆記通常位於：~/.local/share/tomboy，或 GNote：~/.local/share/gnote
+
+[importer.tomboy.name-todo]
+original=Convert TODO lists to checkboxes
+translation=將 TODO 列表轉換為核取方塊
+
+[importer.tomboy.desc-todo]
+original=When enabled, lists in notes with "TODO" in the title will be converted to task lists with checkboxes. Strikethrough items will be marked as completed.
+translation=已啟用時，標題中包含「TODO」的筆記中的列表將被轉換為帶有核取方塊的任務列表。刪除線項目將標記為已完成。
+
+[importer.tomboy.name-keep-title]
+original=Keep title in Markdown
+translation=在 Markdown 中保留標題
+
+[importer.tomboy.desc-keep-title]
+original=Choose whether to keep the note title in the Markdown content. The automatic option keeps titles only when special characters are lost in filename conversion.
+translation=選擇是否在 Markdown 內容中保留筆記標題。自動選項僅在特殊字元於檔案名稱轉換時遺失的情況下保留標題。
+
+[importer.tomboy.option-automatic]
+original=Automatic
+translation=自動
+
+[importer.tomboy.option-keep-titles]
+original=Keep titles
+translation=保留標題
+
+[importer.tomboy.option-filename-only]
+original=Filename only
+translation=僅檔案名稱

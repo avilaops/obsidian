@@ -1,0 +1,2499 @@
+[command.import-notes]
+original=Import notes
+translation=Tuo muistiinpanot
+
+[nouns.file-with-count]
+original={{count}} file
+translation={{count}} tiedosto
+
+[nouns.file-with-count_plural]
+original={{count}} files
+translation={{count}} tiedostoa
+
+[nouns.note-with-count]
+original={{count}} note
+translation={{count}} muistiinpano
+
+[nouns.note-with-count_plural]
+original={{count}} notes
+translation={{count}} muistiinpanoa
+
+[nouns.item-with-count]
+original={{count}} item
+translation={{count}} kohde
+
+[nouns.item-with-count_plural]
+original={{count}} items
+translation={{count}} kohdetta
+
+[nouns.record-with-count]
+original={{count}} record
+translation={{count}} tietue
+
+[nouns.record-with-count_plural]
+original={{count}} records
+translation={{count}} tietuetta
+
+[nouns.base-with-count]
+original={{count}} base
+translation={{count}} tietokanta
+
+[nouns.base-with-count_plural]
+original={{count}} bases
+translation={{count}} tietokantaa
+
+[nouns.template-with-count]
+original={{count}} template
+translation={{count}} pohja
+
+[nouns.template-with-count_plural]
+original={{count}} templates
+translation={{count}} pohjaa
+
+[nouns.failure-with-count]
+original={{count}} failure
+translation={{count}} virhe
+
+[nouns.failure-with-count_plural]
+original={{count}} failures
+translation={{count}} virhettä
+
+[nouns.second-with-count]
+original={{count}} second
+translation={{count}} sekunti
+
+[nouns.second-with-count_plural]
+original={{count}} seconds
+translation={{count}} sekuntia
+
+[nouns.relation-placeholder-with-count]
+original={{count}} relation placeholder
+translation={{count}} relaation paikkamerkki
+
+[nouns.relation-placeholder-with-count_plural]
+original={{count}} relation placeholders
+translation={{count}} relaation paikkamerkkiä
+
+[nouns.linked-database-with-count]
+original={{count}} linked database
+translation={{count}} linkitetty tietokanta
+
+[nouns.linked-database-with-count_plural]
+original={{count}} linked databases
+translation={{count}} linkitettyä tietokantaa
+
+[nouns.mention-link-with-count]
+original={{count}} mention link
+translation={{count}} mainitalinkki
+
+[nouns.mention-link-with-count_plural]
+original={{count}} mention links
+translation={{count}} mainintalinkkiä
+
+[nouns.synced-reference-with-count]
+original={{count}} synced child reference
+translation={{count}} synkronoitu lapsiviittaus
+
+[nouns.synced-reference-with-count_plural]
+original={{count}} synced child references
+translation={{count}} synkronoitua lapsiviittausta
+
+[nouns.new-item-with-count]
+original={{count}} new item
+translation={{count}} uusi kohde
+
+[nouns.new-item-with-count_plural]
+original={{count}} new items
+translation={{count}} uutta kohdetta
+
+[nouns.page-with-count]
+original={{count}} page
+translation={{count}} sivu
+
+[nouns.page-with-count_plural]
+original={{count}} pages
+translation={{count}} sivua
+
+[group.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[group.notion.name]
+original=Notion
+translation=Notion
+
+[outliner.name-flatten-outlines]
+original=Flatten outlines
+translation=Litistä jäsennykset
+
+[outliner.desc-flatten-outlines]
+original=Convert outlines into paragraphs, headings, and lists.
+translation=Muunna jäsennykset kappaleiksi, otsikoiksi ja listoiksi.
+
+[modal.title-pick-format]
+original=Import data into Obsidian
+translation=Tuo tietoja Obsidianiin
+
+[modal.title-choose-method]
+original=Choose how to import
+translation=Valitse tuontitapa
+
+[modal.title-import-from]
+original=Import from {{format}}
+translation=Tuo lähteestä {{format}}
+
+[modal.search-placeholder]
+original=Filter...
+translation=Suodata...
+
+[modal.msg-no-formats]
+original=No formats found.
+translation=Muotoja ei löytynyt.
+
+[modal.msg-drop-to-import]
+original=Drop files to import
+translation=Pudota tiedostot tuotaviksi
+
+[modal.button-show-all-formats]
+original=Show all formats
+translation=Näytä kaikki muodot
+
+[modal.button-continue]
+original=Continue
+translation=Jatka
+
+[modal.button-import]
+original=Import
+translation=Tuo
+
+[modal.button-back]
+original=Back
+translation=Takaisin
+
+[modal.button-help]
+original=Help
+translation=Apua
+
+[modal.button-pause]
+original=Pause
+translation=Keskeytä
+
+[modal.button-resume]
+original=Resume
+translation=Jatka
+
+[modal.button-stop]
+original=Stop
+translation=Pysäytä
+
+[modal.button-save-report]
+original=Save report
+translation=Tallenna raportti
+
+[modal.msg-report-failed]
+original=Could not save the import report.
+translation=Tuontiraportin tallentaminen epäonnistui.
+
+[modal.button-import-more]
+original=Import more
+translation=Tuo lisää
+
+[modal.button-done]
+original=Done
+translation=Valmis
+
+[modal.msg-unexpected-auth]
+original=Unexpected auth event. Please restart the auth process.
+translation=Odottamaton todennustapahtuma. Aloita todennusprosessi uudelleen.
+
+[progress.stat-imported]
+original=imported
+translation=tuotu
+
+[progress.stat-attachments]
+original=attachments
+translation=Liitteet
+
+[progress.stat-remaining]
+original=remaining
+translation=jäljellä
+
+[progress.stat-skipped]
+original=skipped
+translation=Ohitetut
+
+[progress.stat-failed]
+original=failed
+translation=Virhe
+
+[progress.label-skipped]
+original=Skipped: 
+translation=Ohitetut: 
+
+[progress.label-failed]
+original=Failed: 
+translation=Epäonnistui: 
+
+[progress.label-entry]
+original="{{name}}"
+translation="{{name}}"
+
+[progress.label-entry-with-reason]
+original="{{name}}" because {{reason}}
+translation="{{name}}", koska {{reason}}
+
+[progress.label-paused]
+original=Paused
+translation=Keskeytetty
+
+[progress.label-paused-with]
+original=Paused - {{status}}
+translation=Keskeytetty – {{status}}
+
+[progress.label-importing]
+original=Importing
+translation=Tuodaan
+
+[progress.label-remaining]
+original={{count}} remaining...
+translation={{count}} jäljellä...
+
+[progress.label-remaining_plural]
+original={{count}} remaining...
+translation={{count}} jäljellä...
+
+[progress.label-paused-remaining]
+original=Paused - {{count}} remaining
+translation=Keskeytetty – {{count}} jäljellä
+
+[progress.label-paused-remaining_plural]
+original=Paused - {{count}} remaining
+translation=Keskeytetty – {{count}} jäljellä
+
+[progress.status-stopping]
+original=Stopping...
+translation=Pysäytetään...
+
+[progress.msg-stopped]
+original=Import stopped.
+translation=Tuonti pysäytetty.
+
+[progress.msg-errors]
+original=Import finished with errors.
+translation=Tuonti valmistui virhein.
+
+[progress.msg-complete]
+original=Import complete.
+translation=Tuonti valmis.
+
+[progress.msg-imported-count]
+original={{count}} note imported
+translation={{count}} muistiinpano tuotu
+
+[progress.msg-imported-count_plural]
+original={{count}} notes imported
+translation={{count}} muistiinpanoa tuotu
+
+[progress.msg-click-to-show]
+original={{counts}}. Select to show.
+translation={{counts}}. Valitse näyttääksesi.
+
+[progress.status-waiting]
+original=Waiting {{duration}} ({{reason}})
+translation=Odotetaan {{duration}} ({{reason}})
+
+[progress.status-standardizing]
+original=Standardizing Markdown ({{current}}/{{total}})
+translation=Yhtenäistetään Markdown ({{current}}/{{total}})
+
+[progress.label-finalization]
+original=Markdown finalization
+translation=Markdown-viimeistely
+
+[report.file-name]
+original={{date}} {{importer}} import log
+translation={{date}} {{importer}} tuontiloki
+
+[report.title]
+original={{importer}} import
+translation={{importer}}-tuonti
+
+[report.msg-finished]
+original=Finished {{when}}. {{counts}}.
+translation=Valmistui {{when}}. {{counts}}.
+
+[report.msg-stopped]
+original=Stopped {{when}}. {{counts}}.
+translation=Pysäytetty {{when}}. {{counts}}.
+
+[report.heading-failed]
+original=Failed ({{count}})
+translation=Epäonnistui ({{count}})
+
+[report.heading-skipped]
+original=Skipped ({{count}})
+translation=Ohitetut ({{count}})
+
+[report.heading-messages]
+original=Messages
+translation=Viestit
+
+[report.count-notes]
+original={{count}} note imported
+translation={{count}} muistiinpano tuotu
+
+[report.count-notes_plural]
+original={{count}} notes imported
+translation={{count}} muistiinpanoa tuotu
+
+[report.count-attachments]
+original={{count}} attachment downloaded
+translation={{count}} liite ladattu
+
+[report.count-attachments_plural]
+original={{count}} attachments downloaded
+translation={{count}} liitettä ladattu
+
+[report.count-skipped]
+original={{count}} item skipped
+translation={{count}} kohde ohitettu
+
+[report.count-skipped_plural]
+original={{count}} items skipped
+translation={{count}} kohdetta ohitettu
+
+[report.count-failed]
+original={{count}} item failed
+translation={{count}} kohde epäonnistui
+
+[report.count-failed_plural]
+original={{count}} items failed
+translation={{count}} kohdetta epäonnistui
+
+[source.desc]
+original=Drag and drop, or choose files to import.
+translation=Raahaa ja pudota tai valitse tuotavat tiedostot.
+
+[source.desc-choose]
+original=Choose files to import.
+translation=Valitse tuotavat tiedostot.
+
+[source.button-choose-file]
+original=Choose file
+translation=Valitse tiedosto
+
+[source.button-choose-files]
+original=Choose files
+translation=Valitse tiedostot
+
+[source.button-choose-folders]
+original=Choose folders
+translation=Valitse kansiot
+
+[source.dialog-pick-files]
+original=Pick files to import
+translation=Valitse tuotavat tiedostot
+
+[source.dialog-pick-folders]
+original=Folders to import
+translation=Tuotavat kansiot
+
+[source.desc-folders]
+original=Everything in checked folders is imported. Uncheck folders to exclude them.
+translation=Kaikki valituissa kansioissa oleva tuodaan. Poista valinta kansioista, jotka haluat jättää pois.
+
+[source.msg-pick-source-first]
+original=Choose files or folders first.
+translation=Valitse ensin tiedostot tai kansiot.
+
+[source.msg-reading-folders]
+original=Reading folders...
+translation=Luetaan kansioita...
+
+[source.msg-no-folders]
+original=No folders found.
+translation=Kansioita ei löytynyt.
+
+[source.msg-android-folder-failed]
+original=Could not choose that folder.
+translation=Kansion valitseminen epäonnistui.
+
+[source.msg-android-folder-read-failed]
+original=Could not read that folder.
+translation=Kansion lukeminen epäonnistui.
+
+[source.msg-android-folder-unavailable]
+original=Folder selection is unavailable on this device.
+translation=Kansion valinta ei ole käytettävissä tällä laitteella.
+
+[source.msg-android-root-folder]
+original=Choose a folder other than the root of your device.
+translation=Valitse jokin muu kansio kuin laitteesi juurikansio.
+
+[source.msg-flat-files]
+original={{count}} file will be imported.
+translation={{count}} tiedosto tuodaan.
+
+[source.msg-flat-files_plural]
+original={{count}} files will be imported.
+translation={{count}} tiedostoa tuodaan.
+
+[source.msg-nothing-to-import]
+original=Nothing to import there. Pick {{extensions}} files, or a folder holding some.
+translation=Ei mitään tuotavaa. Valitse {{extensions}}-tiedostoja tai kansio, joka sisältää niitä.
+
+[source.msg-will-import]
+original={{files}} will be imported: 
+translation={{files}} tuodaan: 
+
+[source.msg-more-files]
+original=and {{count}} more file
+translation=ja {{count}} lisää tiedosto
+
+[source.msg-more-files_plural]
+original=and {{count}} more files
+translation=ja {{count}} lisää tiedostoa
+
+[source.button-remove-file]
+original=Remove from the import
+translation=Poista tuonnista
+
+[output.label-source-id]
+original=source ID
+translation=lähdetunnus
+
+[output.name-save-source-id]
+original=Save {{label}}
+translation=Tallenna {{label}}
+
+[output.desc-save-source-id]
+original=Add the {{label}} to note properties so future imports can recognize moved or renamed notes.
+translation=Lisää {{label}} muistiinpanon määreisiin, jotta tulevat tuonnit tunnistavat siirretyt tai uudelleennimetyt muistiinpanot.
+
+[output.name-folder]
+original=Output folder
+translation=Tulostekansio
+
+[output.desc-folder]
+original=Where imported notes will be saved. Leave blank to use the top level of the vault.
+translation=Minne tuodut muistiinpanot tallennetaan. Jätä tyhjäksi, jos haluat käyttää holvin juuritasoa.
+
+[output.name-template]
+original=Template
+translation=pohja/pohjatiedosto
+
+[output.desc-template]
+original=Optional Markdown template from this vault. Use variables such as {{title}}, {{content}}, and {{date}}.
+translation=Valinnainen Markdown-pohja tästä holvista. Käytä muuttujia kuten {{title}}, {{content}} ja {{date}}.
+
+[output.placeholder-template]
+original=Templates/Import.md
+translation=Templates/Import.md
+
+[output.msg-template-not-found]
+original=Template must be a Markdown file in this vault: {{path}}
+translation=Pohjan on oltava Markdown-tiedosto tässä holvissa: {{path}}
+
+[output.name-attachments]
+original=Attachment location
+translation=Liitteiden sijainti
+
+[output.desc-attachments]
+original=Where imported images and files will be saved.
+translation=Minne tuodut kuvat ja tiedostot tallennetaan.
+
+[output.name-subfolder]
+original=Subfolder name
+translation=Alikansion nimi
+
+[output.desc-subfolder]
+original=Folder to use inside each imported note's folder.
+translation=Kansio, jota käytetään kunkin tuodun muistiinpanon kansion sisällä.
+
+[output.name-attachment-folder]
+original=Attachment folder
+translation=Liitekansio
+
+[output.desc-attachment-folder]
+original=Folder path from the top level of the vault.
+translation=Kansion polku holvin juuritasolta.
+
+[output.name-duplicates]
+original=Existing notes
+translation=Olemassa olevat muistiinpanot
+
+[output.desc-duplicates]
+original=Choose what to do when an imported note matches one in your vault. "{{update}}" skips unchanged notes and preserves newer local edits when modification dates are available.
+translation=Valitse, mitä tehdään, kun tuotu muistiinpano vastaa holvissa olevaa. "{{update}}" ohittaa muuttumattomat muistiinpanot ja säilyttää uudemmat paikalliset muokkaukset, kun muokkauspäivämäärät ovat saatavilla.
+
+[output.option-create-copy]
+original=Create a copy
+translation=Luo kopio
+
+[output.option-skip]
+original=Skip
+translation=Ohita
+
+[output.option-update]
+original=Update
+translation=Päivitä
+
+[output.option-attachments-vault]
+original=Vault folder
+translation=Holvin juurikansio
+
+[output.option-attachments-folder]
+original=In the folder specified below
+translation=Alla määritelty kansio
+
+[output.option-attachments-note]
+original=Same folder as the note
+translation=Sama kansio kuin muistiinpanolla
+
+[output.option-attachments-subfolder]
+original=In subfolder under the note
+translation=Muistiinpanon alikansiossa
+
+[common.msg-pick-file]
+original=Please pick at least one file to import.
+translation=Valitse vähintään yksi tuotava tiedosto.
+
+[common.msg-pick-output]
+original=Please select a location to export to.
+translation=Valitse sijainti, johon viedään.
+
+[common.msg-pick-import-location]
+original=Please select a location to import your files to.
+translation=Valitse sijainti, johon tiedostot tuodaan.
+
+[common.msg-unknown-error]
+original=Unknown error
+translation=Tuntematon virhe
+
+[common.name-export]
+original=Export your data
+translation=Vie tietosi
+
+[common.label-learn-more]
+original=Learn more
+translation=Lue lisää
+
+[common.button-instructions]
+original=Instructions
+translation=Ohjeet
+
+[common.button-open]
+original=Open
+translation=Avaa
+
+[common.status-processing]
+original=Processing {{name}}
+translation=Käsitellään {{name}}
+
+[common.status-importing-note]
+original=Importing note {{name}}
+translation=Tuodaan muistiinpano {{name}}
+
+[common.status-importing-attachment]
+original=Importing attachment {{name}}
+translation=Tuodaan liite {{name}}
+
+[common.status-cancelled]
+original=Import cancelled
+translation=Tuonti peruttu
+
+[reason.already-in-vault]
+original=it is already in the vault
+translation=se on jo holvissa
+
+[reason.unchanged-since-import]
+original=it has not changed since the last import
+translation=se ei ole muuttunut edellisen tuonnin jälkeen
+
+[reason.edited-since-import]
+original=it has been edited in Obsidian since the last import
+translation=sitä on muokattu Obsidianissa edellisen tuonnin jälkeen
+
+[reason.file-not-in-vault]
+original=The imported file did not appear in the vault.
+translation=Tuotu tiedosto ei ilmestynyt holviin.
+
+[reason.folder-not-created]
+original=Failed to create folder at "{{path}}"
+translation=Kansion luominen epäonnistui kohteeseen "{{path}}"
+
+[tree.button-select-all]
+original=Select all
+translation=Valitse kaikki
+
+[tree.button-deselect-all]
+original=Deselect all
+translation=Poista valinnat
+
+[tree.button-load]
+original=Load
+translation=Lataa
+
+[tree.button-loading]
+original=Loading...
+translation=Ladataan...
+
+[tree.button-refresh]
+original=Refresh
+translation=Päivitä
+
+[tree.placeholder-filter]
+original=Filter...
+translation=Suodata...
+
+[tree.msg-no-matches]
+original=No results found.
+translation=Ei tuloksia.
+
+[request.msg-unauthorized]
+original={{service}} did not accept the request for {{subject}}. {{credential}}
+translation={{service}} ei hyväksynyt pyyntöä kohteelle {{subject}}. {{credential}}
+
+[request.msg-forbidden]
+original={{service}} would not give access to {{subject}}. {{credential}}
+translation={{service}} ei myöntänyt pääsyä kohteeseen {{subject}}. {{credential}}
+
+[request.msg-not-found]
+original={{service}} could not find {{subject}}.
+translation={{service}} ei löytänyt kohdetta {{subject}}.
+
+[request.msg-rate-limited]
+original={{service}} is limiting how fast {{subject}} can be read. Wait a few minutes and try again.
+translation={{service}} rajoittaa nopeutta, jolla {{subject}} voidaan lukea. Odota muutama minuutti ja yritä uudelleen.
+
+[request.msg-timed-out]
+original={{service}} took too long to return {{subject}}. Try again shortly.
+translation={{service}} kesti liian kauan palauttaessaan kohdetta {{subject}}. Yritä pian uudelleen.
+
+[request.msg-unavailable]
+original={{service}} could not return {{subject}} right now. Try again shortly.
+translation={{service}} ei pystynyt palauttamaan kohdetta {{subject}} juuri nyt. Yritä pian uudelleen.
+
+[request.msg-failed-with-code]
+original=Could not read {{subject}}: {{message}} ({{code}})
+translation=Kohdetta {{subject}} ei voitu lukea: {{message}} ({{code}})
+
+[request.msg-failed-with-message]
+original=Could not read {{subject}}: {{message}}
+translation=Kohdetta {{subject}} ei voitu lukea: {{message}}
+
+[request.msg-failed-with-reported-code]
+original=Could not read {{subject}}. {{service}} reported {{code}}.
+translation=Kohdetta {{subject}} ei voitu lukea. {{service}} ilmoitti koodin {{code}}.
+
+[request.msg-failed]
+original=Could not read {{subject}}.
+translation=Kohdetta {{subject}} ei voitu lukea.
+
+[template.msg-intro]
+original=Configure how your data should be imported. Use {{syntax}} syntax to reference field values.
+translation=Määritä, miten tiedot tuodaan. Käytä {{syntax}}-syntaksia kenttäarvoihin viittaamiseen.
+
+[template.msg-note-template-intro]
+original=Review examples of how your notes will be imported.
+translation=Tarkastele esimerkkejä siitä, miten muistiinpanosi tuodaan.
+
+[template.name-title]
+original=Note title
+translation=Tiedoston otsikko
+
+[template.desc-title]
+original=Template for the note title. Use variables like {{field_name}} to insert values.
+translation=Pohja muistiinpanon otsikkoa varten. Käytä muuttujia kuten {{field_name}} arvojen lisäämiseen.
+
+[template.name-location]
+original=Note location
+translation=Muistiinpanon sijainti
+
+[template.desc-location]
+original=Template for note location/path. Use {{field_name}} to organize notes.
+translation=Muistiinpanon sijainnin/polun pohja. Käytä {{field_name}} muistiinpanojen järjestämiseen.
+
+[template.name-content]
+original=Note content
+translation=Muistiinpanon sisältö
+
+[template.desc-content]
+original=Template for the note content. Use variables like {{field_name}} to insert values.
+translation=Pohja muistiinpanon sisältöä varten. Käytä muuttujia kuten {{field_name}} arvojen lisäämiseen.
+
+[template.name-template-file]
+original=Template
+translation=pohja/pohjatiedosto
+
+[template.desc-template-file]
+original=Optional. Choose a template from your vault to format the note content. See Help for {{link}}.
+translation=Valinnainen. Valitse pohja holvistasi muistiinpanon sisällön muotoiluun. Katso ohje: {{link}}.
+
+[template.link-template-syntax]
+original=template syntax
+translation=pohjasyntaksi
+
+[template.heading-preview]
+original=Preview
+translation=Esikatsele
+
+[template.status-loading-preview]
+original=Loading preview...
+translation=Ladataan esikatselua...
+
+[template.button-edit-template]
+original=Edit
+translation=Muokkaa
+
+[template.button-save-template]
+original=Save
+translation=Tallenna
+
+[template.button-reset-template]
+original=Reset to default
+translation=Palauta oletukseen
+
+[template.button-start-import]
+original=Start import
+translation=Aloita tuonti
+
+[template.link-show-more]
+original=Show more
+translation=Näytä lisää
+
+[template.name-template-editor]
+original=Template source
+translation=Pohjan lähdekoodi
+
+[template.label-edit-import-template]
+original=Edit import template
+translation=Muokkaa tuontipohjaa
+
+[template.button-add-property]
+original=Add property
+translation=Lisää määre
+
+[template.button-previous-preview]
+original=Previous preview
+translation=Edellinen esikatselu
+
+[template.button-next-preview]
+original=Next preview
+translation=Seuraava esikatselu
+
+[template.msg-diagnostic]
+original=Line {{line}}: {{message}}
+translation=Rivi {{line}}: {{message}}
+
+[template.heading-properties]
+original=Properties
+translation=Määreet
+
+[template.column-property-name]
+original=Property name
+translation=Määreen nimi
+
+[template.column-property-value]
+original=Property value
+translation=Määreen arvo
+
+[template.column-example]
+original=Example
+translation=Esimerkki
+
+[template.action-delete-property]
+original=Delete property
+translation=Poista määre
+
+[template.msg-title-required]
+original=Please provide a note title template.
+translation=Anna muistiinpanon otsikon pohja.
+
+[importer.airtable-api.name]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.option-text]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-id]
+original=Airtable record ID
+translation=Airtable-tietueen ID
+
+[importer.airtable-api.name-token]
+original=Airtable personal access token
+translation=Airtable-henkilökohtainen käyttöoikeustunniste
+
+[importer.airtable-api.desc-token]
+original=Create a personal access token in your Airtable account settings.
+translation=Luo henkilökohtainen käyttöoikeustunniste Airtable-tilisi asetuksissa.
+
+[importer.airtable-api.link-get-token]
+original=Get token
+translation=Hanki tunniste
+
+[importer.airtable-api.name-tables]
+original=Tables to import
+translation=Tuotavat taulut
+
+[importer.airtable-api.desc-tables]
+original=Load your Airtable bases and tables, then choose what to import.
+translation=Lataa Airtable-tietokannat ja taulut ja valitse tuotavat.
+
+[importer.airtable-api.hint-tables]
+original=Load your Airtable bases and tables to get started.
+translation=Lataa Airtable-tietokannat ja taulut aloittaaksesi.
+
+[importer.airtable-api.msg-fetching-bases]
+original=Fetching bases...
+translation=Haetaan tietokantoja...
+
+[importer.airtable-api.msg-no-bases]
+original=No bases found.
+translation=Tietokantoja ei löytynyt.
+
+[importer.airtable-api.label-service]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-subject]
+original=your bases
+translation=tietokantojasi
+
+[importer.airtable-api.label-credential]
+original=Check that your personal access token is current and has access to them.
+translation=Tarkista, että henkilökohtainen käyttöoikeustunnisteesi on voimassa ja sillä on pääsy niihin.
+
+[importer.airtable-api.name-formulas]
+original=Convert formulas
+translation=Muunna kaavat
+
+[importer.airtable-api.desc-formulas]
+original=Try to convert formulas to Obsidian syntax, or import as static values.
+translation=Yritä muuntaa kaavat Obsidian-syntaksiin tai tuo staattisina arvoina.
+
+[importer.airtable-api.option-formula-hybrid]
+original=Obsidian syntax (with fallback)
+translation=Obsidian-syntaksi (varavaihtoehdolla)
+
+[importer.airtable-api.option-formula-static]
+original=Static values only
+translation=Vain staattiset arvot
+
+[importer.airtable-api.name-download-attachments]
+original=Download attachments
+translation=Lataa liitteet
+
+[importer.airtable-api.desc-download-attachments]
+original=Download attachment files to local vault. If disabled or download fails, external URLs will be used.
+translation=Lataa liitetiedostot paikalliseen holviin. Jos poistettu käytöstä tai lataus epäonnistuu, käytetään ulkoisia URL-osoitteita.
+
+[importer.airtable-api.name-view-property]
+original=View property name
+translation=Näkymän määreen nimi
+
+[importer.airtable-api.desc-view-property]
+original=Property name to track which views a record belongs to. Each record will have a list of view names it appears in.
+translation=Määreen nimi, jolla seurataan mihin näkymiin tietue kuuluu. Jokaisella tietueella on luettelo näkymistä, joissa se esiintyy.
+
+[importer.airtable-api.msg-token-first]
+original=Please enter your Airtable personal access token first.
+translation=Anna ensin Airtable-henkilökohtainen käyttöoikeustunnisteesi.
+
+[importer.airtable-api.msg-token-missing]
+original=Please enter your Airtable personal access token.
+translation=Anna Airtable-henkilökohtainen käyttöoikeustunnisteesi.
+
+[importer.airtable-api.msg-load-bases-failed]
+original=Failed to load bases: {{error}}
+translation=Kantojen lataaminen epäonnistui: {{error}}
+
+[importer.airtable-api.msg-load-tables-failed]
+original=Failed to load tables for "{{base}}": {{error}}
+translation=Taulukoiden lataaminen kannalle "{{base}}" epäonnistui: {{error}}
+
+[importer.airtable-api.msg-pick-table]
+original=Please select at least one table to import.
+translation=Valitse vähintään yksi taulukko tuotavaksi.
+
+[importer.airtable-api.msg-loading-fields]
+original=Loading fields...
+translation=Ladataan kenttiä...
+
+[importer.airtable-api.msg-no-fields]
+original=No fields found in selected tables. Please check your selection.
+translation=Valituista taulukoista ei löytynyt kenttiä. Tarkista valintasi.
+
+[importer.airtable-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=Tuonti epäonnistui: {{error}}
+
+[importer.airtable-api.label-base-position]
+original= (base {{index}} of {{total}})
+translation= (kanta {{index}}/{{total}})
+
+[importer.airtable-api.label-base]
+original=Base: {{name}}
+translation=Kanta: {{name}}
+
+[importer.airtable-api.label-linked-table]
+original=Linked table: {{name}}
+translation=Linkitetty taulukko: {{name}}
+
+[importer.airtable-api.label-table-view]
+original={{table}} > {{view}}
+translation={{table}} > {{view}}
+
+[importer.airtable-api.label-import]
+original=Airtable API import
+translation=Airtable API -tuonti
+
+[importer.airtable-api.status-connecting]
+original=Connecting to Airtable API
+translation=Yhdistetään Airtable API:in
+
+[importer.airtable-api.status-loading-tables]
+original=Loading tables for {{base}}
+translation=Ladataan taulukoita kannalle {{base}}
+
+[importer.airtable-api.status-fetching-tables]
+original=Fetching tables for base {{base}}...
+translation=Noudetaan taulukoita kannalle {{base}}...
+
+[importer.airtable-api.status-found-bases]
+original=Found {{bases}} to import
+translation=Löydettiin {{bases}} tuotavaksi
+
+[importer.airtable-api.status-fetching-base]
+original=Fetching data from {{base}}{{position}}
+translation=Noudetaan tietoja kannasta {{base}}{{position}}
+
+[importer.airtable-api.status-preparing-records]
+original=Preparing records from {{base}}{{position}}
+translation=Valmistellaan tietueita kannasta {{base}}{{position}}
+
+[importer.airtable-api.status-reading-names]
+original=Reading names from {{table}}{{position}}
+translation=Luetaan nimiä taulukosta {{table}}{{position}}
+
+[importer.airtable-api.status-planning]
+original=Working out where {{table}}{{position}} goes
+translation=Selvitetään minne {{table}}{{position}} sijoitetaan
+
+[importer.airtable-api.status-fetching-records]
+original=Fetching records from {{table}}{{position}}
+translation=Noudetaan tietueita taulukosta {{table}}{{position}}
+
+[importer.airtable-api.status-fetched-records]
+original=Fetched {{records}} from {{table}}{{position}}
+translation=Noudettiin {{records}} taulukosta {{table}}{{position}}
+
+[importer.airtable-api.status-fetching-view]
+original=Fetching view {{view}} from {{table}}{{position}}
+translation=Noudetaan näkymä {{view}} taulukosta {{table}}{{position}}
+
+[importer.airtable-api.status-creating-notes]
+original=Creating notes in {{table}}{{position}}
+translation=Luodaan muistiinpanoja taulukkoon {{table}}{{position}}
+
+[importer.airtable-api.status-updating-types]
+original=Updating property types
+translation=Päivitetään määreiden tyyppejä
+
+[importer.airtable-api.status-complete]
+original=Import complete
+translation=Tuonti valmis
+
+[importer.airtable-api.status-rate-limited]
+original=Rate limited, waiting {{seconds}}s (attempt {{attempt}}/{{total}})...
+translation=Pyyntörajoitus, odotetaan {{seconds}} s (yritys {{attempt}}/{{total}})...
+
+[importer.airtable-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}
+translation=Ladataan liitettä: {{name}}
+
+[importer.airtable-api.reason-no-record-names]
+original=Could not read record names
+translation=Tietueiden nimiä ei voitu lukea
+
+[importer.airtable-api.reason-empty-record]
+original=Empty record
+translation=Tyhjä tietue
+
+[importer.airtable-api.desc-no-modified-time]
+original=Airtable does not say when a record last changed, so "{{update}}" compares the note with the record instead. A note you have edited yourself reads as changed, and will be written over.
+translation=Airtable ei kerro, milloin tietuetta on viimeksi muutettu, joten "{{update}}" vertaa muistiinpanoa tietueeseen. Itse muokkaamasi muistiinpano näkyy muutettuna ja ylikirjoitetaan.
+
+[importer.apple-notes.name]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.option-text]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.label-id]
+original=Apple Notes ID
+translation=Apple Notes -tunnus
+
+[importer.apple-notes.msg-platform]
+original=Due to platform limitations, Apple Notes cannot be exported from this device. Open your vault on a Mac to export from Apple Notes.
+translation=Alustarajoitusten vuoksi Apple Notes -muistiinpanoja ei voi viedä tältä laitteelta. Avaa holvi Mac-tietokoneella viedäksesi Apple Notes -muistiinpanot.
+
+[importer.apple-notes.name-prefix-format]
+original=File prefix format
+translation=Tiedostonimen etuliitemuoto
+
+[importer.apple-notes.desc-prefix-format]
+original=Format for the creation date prefix in filenames. Use YYYY, MM, DD for year, month, day. Leave blank for no prefix.
+translation=Luontipäivämäärän etuliitteen muoto tiedostonimissä. Käytä YYYY, MM, DD vuodelle, kuukaudelle ja päivälle. Jätä tyhjäksi, jos et halua etuliitettä.
+
+[importer.apple-notes.name-omit-first-line]
+original=Omit first line
+translation=Jätä ensimmäinen rivi pois
+
+[importer.apple-notes.desc-omit-first-line]
+original=Don't include the first line in the text, since Apple Notes uses it as the title. It will still be used as the note name.
+translation=Älä sisällytä ensimmäistä riviä tekstiin, koska Apple Notes käyttää sitä otsikkona. Sitä käytetään silti muistiinpanon nimenä.
+
+[importer.apple-notes.name-handwriting]
+original=Include handwriting text
+translation=Sisällytä käsinkirjoitusteksti
+
+[importer.apple-notes.desc-handwriting]
+original=When Apple Notes has detected handwriting in drawings, include it as text before the drawing.
+translation=Kun Apple Notes on tunnistanut käsinkirjoitusta piirroksissa, lisää se tekstinä ennen piirrosta.
+
+[importer.apple-notes.name-data-folder]
+original=Apple Notes data folder
+translation=Apple Notes -datakansio
+
+[importer.apple-notes.desc-data-folder]
+original=macOS only lets Obsidian read your notes once you have pointed it at the folder they are kept in.
+translation=macOS sallii Obsidianin lukea muistiinpanosi vasta, kun olet osoittanut sille kansion, jossa ne säilytetään.
+
+[importer.apple-notes.button-select-folder]
+original=Select folder
+translation=Valitse kansio
+
+[importer.apple-notes.msg-wrong-folder]
+original=Ensure you have selected the correct Apple Notes data folder.
+translation=Varmista, että olet valinnut oikean Apple Notes -datakansion.
+
+[importer.apple-notes.msg-dialog-folder]
+original=Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data.
+translation=Valitse "group.com.apple.notes" -kansio, jotta Obsidian voi lukea Apple Notes -dataa.
+
+[importer.apple-notes.msg-import-failed]
+original=Data import failed. Ensure you have selected the correct Apple Notes data folder.
+translation=Datan tuonti epäonnistui. Varmista, että olet valinnut oikean Apple Notes -datakansion.
+
+[importer.apple-notes.msg-pick-folders]
+original=Please select at least one folder to import.
+translation=Valitse vähintään yksi kansio tuotavaksi.
+
+[importer.apple-notes.name-folders]
+original=Folders to import
+translation=Tuotavat kansiot
+
+[importer.apple-notes.desc-folders]
+original=Pick the folders whose notes to bring across.
+translation=Valitse kansiot, joiden muistiinpanot haluat tuoda.
+
+[importer.apple-notes.msg-no-access]
+original=Allow access to your notes to see the folders in them.
+translation=Salli pääsy muistiinpanoihisi nähdäksesi niissä olevat kansiot.
+
+[importer.apple-notes.msg-no-folders]
+original=No folders found.
+translation=Kansioita ei löytynyt.
+
+[importer.apple-notes.msg-database-busy]
+original=Your Apple Notes database is in use. Quit Notes and try again.
+translation=Apple Notes -tietokanta on käytössä. Sulje Notes ja yritä uudelleen.
+
+[importer.apple-notes.msg-database-unreadable]
+original=Could not open your Apple Notes database. {{hint}}
+translation=Apple Notes -tietokantaa ei voitu avata. {{hint}}
+
+[importer.apple-notes.msg-read-failed-with-detail]
+original=Could not read your notes: {{detail}}
+translation=Muistiinpanojasi ei voitu lukea: {{detail}}
+
+[importer.apple-notes.msg-read-failed]
+original=Could not read your notes.
+translation=Muistiinpanojasi ei voitu lukea.
+
+[importer.apple-notes.reason-password-protected]
+original=note is password protected
+translation=muistiinpano on salasanasuojattu
+
+[importer.apple-notes.reason-duplicate]
+original=note is a duplicate
+translation=muistiinpano on kaksoiskappale
+
+[importer.apple-notes.reason-unchanged]
+original=note unchanged since last import
+translation=muistiinpano ei ole muuttunut edellisen tuonnin jälkeen
+
+[importer.apple-notes.reason-attachment-exists]
+original=attachment already exists
+translation=liite on jo olemassa
+
+[importer.apple-notes.reason-attachment-unchanged]
+original=attachment unchanged since last import
+translation=liite ei ole muuttunut edellisen tuonnin jälkeen
+
+[importer.apple-notes.reason-not-downloaded]
+original=it has not been downloaded from iCloud - open the note in Apple Notes to fetch it
+translation=sitä ei ole ladattu iCloud-palvelusta – avaa muistiinpano Apple Notesissa noutaaksesi sen
+
+[importer.apple-notes.label-attachment]
+original=Attachment {{id}}
+translation=Liite {{id}}
+
+[importer.apple-notes.reason-no-attachment-row]
+original=no {{uti}} row to read it from
+translation=ei {{uti}}-riviä, josta lukea se
+
+[importer.apple-notes.label-attachment-in-note]
+original={{name}} in {{note}}
+translation={{name}} muistiinpanossa {{note}}
+
+[importer.apple-journal.name]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.option-text]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.file-type]
+original=Journal entries
+translation=Päiväkirjamerkinnät
+
+[importer.apple-journal.desc-files]
+original=Export your entries from the Journal app, then pick the HTML files it wrote to iCloud Drive.
+translation=Vie merkintäsi Journal app -sovelluksesta ja valitse sen iCloud Drive -kansioon kirjoittamat HTML-tiedostot.
+
+[importer.apple-journal.heading-metadata]
+original=Journal metadata
+translation=Journal-metatiedot
+
+[importer.apple-journal.name-front-matter]
+original=Add metadata as frontmatter
+translation=Lisää metatiedot alkulehteiksi
+
+[importer.apple-journal.desc-front-matter]
+original=Capture state-of-mind, contact, and similar tokens in YAML when available.
+translation=Tallenna mielentila-, yhteystieto- ja vastaavat tiedot YAML-muodossa, kun niitä on saatavilla.
+
+[importer.apple-journal.reason-index-file]
+original=index file is not a journal entry
+translation=hakemistotiedosto ei ole päiväkirjamerkintä
+
+[importer.bear.name]
+original=Bear
+translation=Bear
+
+[importer.bear.option-text]
+original=Bear (.bear2bk, .zip)
+translation=Bear (.bear2bk, .zip)
+
+[importer.bear.file-type]
+original=Bear backups
+translation=Bear-varmuuskopiot
+
+[importer.bear.label-id]
+original=Bear ID
+translation=Bear ID
+
+[importer.bear.desc-export]
+original=Back up your notes in Bear and choose the resulting .bear2bk file. On iPhone and iPad, you can also export Application Data and choose its .zip file.
+translation=Varmuuskopioi muistiinpanosi Bear-sovelluksessa ja valitse tuloksena oleva .bear2bk-tiedosto. iPhonessa ja iPadissa voit myös viedä sovellustiedot ja valita sen .zip-tiedoston.
+
+[importer.bear.name-tags-property]
+original=Move tags to a property
+translation=Siirrä tunnisteet määreeseen
+
+[importer.bear.desc-tags-property]
+original=When enabled, tags are taken out of the note and listed in its tags property. Bear keeps tags in the text of a note, and Obsidian reads them there too.
+translation=Kun käytössä, tunnisteet poistetaan muistiinpanosta ja lisätään sen tunnisteet-määreeseen. Bear säilyttää tunnisteet muistiinpanon tekstissä, ja Obsidian lukee ne sieltä myös.
+
+[importer.bear.name-flatten-tags]
+original=Flatten nested tags
+translation=Litistä sisäkkäiset tunnisteet
+
+[importer.bear.desc-flatten-tags]
+original=When enabled, tags will be split on slashes (/) during import.
+translation=Kun käytössä, tunnisteet jaetaan kauttaviivojen (/) kohdalta tuonnin aikana.
+
+[importer.bear.status-importing-asset]
+original=Importing asset {{name}}
+translation=Tuodaan resurssia {{name}}
+
+[importer.bear.status-updating-links]
+original=Updating internal links…
+translation=Päivitetään sisäisiä linkkejä…
+
+[importer.bear.reason-unknown-type]
+original=unknown type of file
+translation=tuntematon tiedostotyyppi
+
+[importer.bear.reason-encrypted]
+original=encrypted note
+translation=salattu muistiinpano
+
+[importer.bear.reason-missing-attachment]
+original=the attachment is missing from the export
+translation=liite puuttuu viennistä
+
+[importer.csv.name]
+original=CSV
+translation=CSV
+
+[importer.csv.option-text]
+original=CSV (.csv)
+translation=CSV (.csv)
+
+[importer.csv.file-type]
+original=CSV
+translation=CSV
+
+[importer.csv.desc-export]
+original=Export your table as CSV from the app it lives in, such as Excel, Google Sheets, Numbers, Notion, or Airtable.
+translation=Vie taulukko CSV-muodossa sovelluksesta, jossa se sijaitsee, kuten Excel, Google Sheets, Numbers, Notion tai Airtable.
+
+[importer.csv.name-header-row]
+original=CSV has header row
+translation=CSV:ssä on otsikkorivi
+
+[importer.csv.desc-header-row]
+original=If enabled, the first row of the CSV file will be treated as column headers.
+translation=Kun käytössä, CSV-tiedoston ensimmäistä riviä käsitellään sarakeotsikoina.
+
+[importer.csv.name-source-title]
+original=Source title
+translation=Lähteen otsikko
+
+[importer.csv.desc-source-title]
+original=Creates the {{title}} value used by the final note title template. Use CSV column variables like {{column_name}}.
+translation=Luo {{title}}-arvon, jota lopullisen muistiinpanon otsikkopohja käyttää. Käytä CSV-sarakemuuttujia kuten {{column_name}}.
+
+[importer.csv.msg-pick-file]
+original=Please pick at least one CSV file to import.
+translation=Valitse vähintään yksi CSV-tiedosto tuotavaksi.
+
+[importer.csv.msg-one-at-a-time]
+original=CSV files must be imported one at a time.
+translation=CSV-tiedostot on tuotava yksi kerrallaan.
+
+[importer.csv.msg-no-data]
+original=No data found in {{name}}.
+translation=Tietoja ei löytynyt tiedostosta {{name}}.
+
+[importer.csv.msg-no-configuration]
+original=Configuration is missing.
+translation=Asetukset puuttuvat.
+
+[importer.csv.status-parsing]
+original=Parsing {{name}}
+translation=Jäsennetään {{name}}
+
+[importer.csv.status-creating-note]
+original=Creating note: {{title}}
+translation=Luodaan muistiinpano: {{title}}
+
+[importer.csv.label-row]
+original=Row {{number}}
+translation=Rivi {{number}}
+
+[importer.csv.reason-empty-title]
+original=Empty title
+translation=Tyhjä otsikko
+
+[importer.files.name]
+original=Files and folders
+translation=Tiedostot ja kansiot
+
+[importer.files.option-text]
+original=Copy files and folders into your vault
+translation=Kopioi tiedostot ja kansiot holviisi
+
+[importer.files.name-source]
+original=Files to copy
+translation=Kopioitavat tiedostot
+
+[importer.files.desc-source]
+original=Drop files or folders anywhere in the window to copy them into your vault.
+translation=Pudota tiedostot tai kansiot mihin tahansa ikkunaan kopioidaksesi ne holviisi.
+
+[importer.evernote.name]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.option-text]
+original=Evernote (.enex)
+translation=Evernote (.enex)
+
+[importer.evernote.file-type]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.desc-export]
+original=Export your notebooks in ENEX format, you will receive one .enex file per notebook.
+translation=Vie muistikirjasi ENEX-muodossa. Saat yhden .enex-tiedoston muistikirjaa kohden.
+
+[importer.evernote.msg-unresolved-links]
+original={{count}} link could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} linkki ei vastannut mitään muistiinpanoa. ENEX-vienti ei kerro, mihin muistiinpanoon linkki osoittaa, vaan ainoastaan otsikon, joka näkyi Evernotessa. Jos muistiinpano on nimetty uudelleen linkin luomisen jälkeen, sitä ei enää tunnisteta. Obsidian listaa nämä ratkaisemattomiin linkkeihin.
+
+[importer.evernote.msg-unresolved-links_plural]
+original={{count}} links could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} linkkiä ei vastannut mitään muistiinpanoa. ENEX-vienti ei kerro, mihin muistiinpanoon linkki osoittaa, vaan ainoastaan otsikon, joka näkyi Evernotessa. Jos muistiinpano on nimetty uudelleen linkin luomisen jälkeen, sitä ei enää tunnisteta. Obsidian listaa nämä ratkaisemattomiin linkkeihin.
+
+[importer.keep.name]
+original=Google Keep
+translation=Google Keep
+
+[importer.keep.option-text]
+original=Google Keep (.zip, .json)
+translation=Google Keep (.zip, .json)
+
+[importer.keep.file-type]
+original=Notes & attachments
+translation=Muistiinpanot ja liitteet
+
+[importer.keep.desc-export]
+original=Get your Google Keep data from Google Takeout.
+translation=Hae Google Keep -tietosi Google Takeout -palvelusta.
+
+[importer.keep.name-archived]
+original=Import archived notes
+translation=Tuo arkistoidut muistiinpanot
+
+[importer.keep.desc-archived]
+original=If imported, files archived in Google Keep will be tagged as archived.
+translation=Jos tuodaan, Google Keepissä arkistoidut tiedostot merkitään arkistoiduiksi.
+
+[importer.keep.name-deleted]
+original=Import deleted notes
+translation=Tuo poistetut muistiinpanot
+
+[importer.keep.desc-deleted]
+original=If imported, files deleted in Google Keep will be tagged as deleted. Deleted notes will only exist in your Google export if deleted recently.
+translation=Jos tuodaan, Google Keepissä poistetut tiedostot merkitään poistetuiksi. Poistetut muistiinpanot ovat Google-viennissä vain, jos ne on poistettu äskettäin.
+
+[importer.keep.reason-invalid-json]
+original=Invalid Google Keep JSON
+translation=Virheellinen Google Keep JSON
+
+[importer.keep.reason-archived]
+original=Archived note
+translation=Arkistoitu muistiinpano
+
+[importer.keep.reason-deleted]
+original=Deleted note
+translation=Poistettu muistiinpano
+
+[importer.html.name]
+original=HTML files
+translation=HTML-tiedostot
+
+[importer.html.option-text]
+original=HTML (.html, .zip)
+translation=HTML (.html, .zip)
+
+[importer.html.label-id]
+original=HTML source path
+translation=HTML-lähdepolku
+
+[importer.html.desc-source-identity]
+original=Changing which folder or zip file you choose can change the source path, so existing notes may not be recognized.
+translation=Valitun kansion tai zip-tiedoston vaihtaminen voi muuttaa lähdepolkua, jolloin aiemmin tuotuja muistiinpanoja ei ehkä tunnisteta.
+
+[importer.html.file-type]
+original=HTML
+translation=HTML
+
+[importer.html.desc-export]
+original=Save the pages you want to keep as HTML. If the app they are in has an importer of its own, use that instead: it keeps more of your data.
+translation=Tallenna säilytettävät sivut HTML-muodossa. Jos sovelluksella, jossa ne ovat, on oma tuontityökalu, käytä sitä: se säilyttää enemmän tietojasi.
+
+[importer.html.desc-source]
+original=Choose individual HTML files, whole folders, or zip files. Pages in folders stay organized the same way.
+translation=Valitse yksittäisiä HTML-tiedostoja, kokonaisia kansioita tai zip-tiedostoja. Kansioissa olevat sivut säilyttävät alkuperäisen rakenteensa.
+
+[importer.html.name-extract-main-content]
+original=Extract main content
+translation=Poimi pääsisältö
+
+[importer.html.desc-extract-main-content]
+original=Remove navigation, sidebars, footers, and other page clutter.
+translation=Poista siirtyminen, sivupalkit, alatunnisteet ja muu sivun ylimääräinen sisältö.
+
+[importer.html.name-size-limit]
+original=Attachment size limit (MB)
+translation=Liitteen kokorajoitus (MB)
+
+[importer.html.name-minimum-image-size]
+original=Minimum image size (px)
+translation=Kuvan vähimmäiskoko (px)
+
+[importer.html.desc-set-zero-to-disable]
+original=Set 0 to disable.
+translation=Aseta 0 poistaaksesi käytöstä.
+
+[importer.html.status-downloading]
+original=Downloading attachment for {{name}}
+translation=Ladataan liitettä muistiinpanolle {{name}}
+
+[importer.markdown.name]
+original=Markdown
+translation=Markdown
+
+[importer.markdown.option-text]
+original=Markdown (.md, .txt, .zip)
+translation=Markdown (.md, .txt, .zip)
+
+[importer.markdown.file-type]
+original=Markdown and text
+translation=Markdown ja Teksti
+
+[importer.markdown.desc-source]
+original=Choose individual Markdown or text files, whole folders, or zip files. Everything in folders stays organized the same way.
+translation=Valitse yksittäisiä Markdown- tai tekstitiedostoja, kokonaisia kansioita tai zip-tiedostoja. Kansioiden sisältö säilyttää alkuperäisen rakenteensa.
+
+[importer.markdown.name-standardize-formatting]
+original=Standardize formatting
+translation=Yhdenmukaista muotoilu
+
+[importer.markdown.desc-standardize-formatting]
+original=Use this vault's settings for lists, indentation, and links.
+translation=Käytä tämän holvin asetuksia listoille, sisennyksille ja linkeille.
+
+[importer.markdown.name-tags-as-properties]
+original=Convert inline tags to properties
+translation=Muunna tekstin sisäiset tunnisteet määreiksi
+
+[importer.markdown.desc-tags-as-properties]
+original=Move tags written in the body of a note into its tags property.
+translation=Siirrä muistiinpanon leipätekstiin kirjoitetut tunnisteet sen tunnistemääreeseen.
+
+[importer.logseq.name]
+original=Logseq
+translation=Logseq
+
+[importer.logseq.option-text]
+original=Logseq (.md)
+translation=Logseq (.md)
+
+[importer.logseq.label-id]
+original=Logseq source
+translation=Logseq-lähde
+
+[importer.logseq.desc-instructions]
+original=Read the instructions for importing from Logseq.
+translation=Lue ohjeet Logseq-tuontia varten.
+
+[importer.logseq.desc-files]
+original=Choose one graph folder containing pages, journals, and assets.
+translation=Valitse yksi graafin kansio, joka sisältää sivut, päiväkirjat ja liitetiedostot.
+
+[importer.logseq.name-use-daily-notes]
+original=Use daily notes settings
+translation=Käytä päivittäisten muistiinpanojen asetuksia
+
+[importer.logseq.desc-use-daily-notes]
+original=Write journals to the configured daily notes folder and filename format.
+translation=Kirjoita päiväkirjat määritettyyn päivittäisten muistiinpanojen kansioon ja tiedostonimimuotoon.
+
+[importer.logseq.name-queries]
+original=Keep queries
+translation=Säilytä kyselyt
+
+[importer.logseq.desc-queries]
+original=Obsidian doesn't support Logseq's query format, so queries are imported as code blocks.
+translation=Obsidian ei tue Logseq-kyselymuotoa, joten kyselyt tuodaan koodilohkoina.
+
+[importer.logseq.name-flashcards]
+original=Keep flashcards
+translation=Säilytä muistikortit
+
+[importer.logseq.desc-flashcards]
+original=Obsidian doesn't support Logseq's flashcards, so card markers and cloze wrappers are imported as plain text.
+translation=Obsidian ei tue Logseq-muistikortteja, joten korttien merkit ja aukkotäyttöjen käärerakenteet tuodaan tekstinä ilman muotoilua.
+
+[importer.logseq.name-time-tracking]
+original=Keep time tracking
+translation=Säilytä ajanseuranta
+
+[importer.logseq.desc-time-tracking]
+original=Obsidian doesn't support Logseq's time tracking, so LOGBOOK and CLOCK entries are imported as plain text.
+translation=Obsidian ei tue Logseq-ajanseurantaa, joten LOGBOOK- ja CLOCK-merkinnät tuodaan tekstinä ilman muotoilua.
+
+[importer.logseq.msg-pick-graph]
+original=Please choose one Logseq graph folder.
+translation=Valitse yksi Logseq-graafin kansio.
+
+[importer.logseq.msg-no-notes]
+original=The selected folder has no Markdown notes under pages or journals.
+translation=Valittu kansio ei sisällä Markdown-muistiinpanoja pages- tai journals-kansioissa.
+
+[importer.logseq.reason-empty-page]
+original=The converted page is empty
+translation=Muunnettu sivu on tyhjä
+
+[importer.logseq.reason-missing-asset]
+original=Referenced by {{name}}, but missing from the graph
+translation=Viitattu muistiinpanosta {{name}}, mutta puuttuu graafista
+
+[importer.logseq.reason-whiteboards]
+original=Logseq whiteboards are not supported by Obsidian
+translation=Obsidian ei tue Logseq-valkotauluja
+
+[importer.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.option-text]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.method-name]
+original=Microsoft account
+translation=Microsoft-tili
+
+[importer.onenote.method-desc]
+original=Sign into your Microsoft account and import the notebooks that are synced to OneDrive. Requires an internet connection.
+translation=Kirjaudu Microsoft-tilillesi ja tuo OneDriveen synkronoidut muistikirjat. Vaatii internetyhteyden.
+
+[importer.onenote.label-id]
+original=OneNote ID
+translation=OneNote-tunnus
+
+[importer.onenote.name-incompatible]
+original=Import incompatible attachments
+translation=Tuo yhteensopimattomat liitteet
+
+[importer.onenote.desc-incompatible]
+original=Imports incompatible attachments which cannot be embedded in Obsidian, such as .exe files.
+translation=Tuo yhteensopimattomat liitteet, joita ei voi upottaa Obsidianiin, kuten .exe-tiedostot.
+
+[importer.onenote.name-account]
+original=Microsoft account
+translation=Microsoft-tili
+
+[importer.onenote.desc-sign-in]
+original=Sign in to import your OneNote notebooks.
+translation=Kirjaudu tuodaksesi OneNote-muistikirjasi.
+
+[importer.onenote.desc-sign-in-organization]
+original=Sign in to import your OneNote notebooks. A work or school account may need your organization to approve access.
+translation=Kirjaudu tuodaksesi OneNote-muistikirjasi. Työ- tai koulutili saattaa vaatia organisaatiosi hyväksynnän.
+
+[importer.onenote.desc-signed-in]
+original=Signed in as {{name}} ({{email}}).
+translation=Kirjautuneena nimellä {{name}} ({{email}}).
+
+[importer.onenote.button-sign-in]
+original=Sign in
+translation=Kirjaudu
+
+[importer.onenote.button-sign-out]
+original=Sign out
+translation=Kirjaudu ulos
+
+[importer.onenote.button-work-account]
+original=Use work or school access
+translation=Käytä työ- tai koulutiliä
+
+[importer.onenote.msg-sign-in-failed]
+original=An error occurred while trying to sign you in.
+translation=Kirjautumisen aikana tapahtui virhe.
+
+[importer.onenote.msg-sign-in-details]
+original=Show error details
+translation=Näytä virhetiedot
+
+[importer.onenote.msg-signed-out]
+original=Sign in to see your OneNote notebooks.
+translation=Kirjaudu nähdäksesi OneNote-muistikirjasi.
+
+[importer.onenote.msg-please-sign-in]
+original=Please sign in to your Microsoft account.
+translation=Kirjaudu Microsoft-tilillesi.
+
+[importer.onenote.name-sections]
+original=Sections to import
+translation=Tuotavat osiot
+
+[importer.onenote.desc-sections]
+original=Select a notebook, or sections within it.
+translation=Valitse muistikirja tai sen osioita.
+
+[importer.onenote.msg-loading-notebooks]
+original=Loading notebooks...
+translation=Ladataan muistikirjoja...
+
+[importer.onenote.msg-no-notebooks]
+original=No notebooks found.
+translation=Muistikirjoja ei löytynyt.
+
+[importer.onenote.msg-scope-refused]
+original=OneNote did not grant this sign-in access to your notebooks. Sign out and sign in again to ask for work or school access, which your organization may need to approve.
+translation=OneNote ei myöntänyt tälle kirjautumiselle pääsyä muistikirjoihisi. Kirjaudu ulos ja uudelleen sisään pyytääksesi työ- tai koulutilipääsyä, jonka organisaatiosi saattaa joutua hyväksymään.
+
+[importer.onenote.label-service]
+original=OneNote
+translation=OneNote
+
+[importer.onenote.label-subject]
+original=your notebooks
+translation=muistikirjasi
+
+[importer.onenote.label-credential]
+original=Sign out and back in to try again.
+translation=Kirjaudu ulos ja takaisin sisään yrittääksesi uudelleen.
+
+[importer.onenote.status-finding]
+original=Finding notes to import
+translation=Etsitään tuotavia muistiinpanoja
+
+[importer.onenote.status-finding-in]
+original=Finding notes in {{section}}
+translation=Etsitään muistiinpanoja osiosta {{section}}
+
+[importer.onenote.status-finding-in-section]
+original=Finding notes in {{section}} (section {{index}} of {{total}})
+translation=Etsitään muistiinpanoja osiosta {{section}} (osio {{index}}/{{total}})
+
+[importer.onenote.status-importing-notes]
+original=Importing {{notes}}
+translation=Tuodaan {{notes}}
+
+[importer.onenote.status-downloading]
+original=Downloading attachment {{name}}
+translation=Ladataan liitettä {{name}}
+
+[importer.onenote.msg-too-many-errors]
+original=Microsoft OneNote returned too many consecutive errors.
+translation=Microsoft OneNote palautti liian monta peräkkäistä virhettä.
+
+[importer.onenote.label-unknown-page]
+original=<unknown>
+translation=<Tuntematon>
+
+[importer.onenote.reason-too-many-failures]
+original=import was canceled (after too many pages failed to load)
+translation=tuonti peruutettiin (liian monen sivun lataus epäonnistui)
+
+[importer.onenote.label-ink]
+original={{page}} - Ink.svg
+translation={{page}} - Ink.svg
+
+[importer.onenote.label-attachment]
+original=OneNote attachment
+translation=OneNote-liite
+
+[importer.onenote.label-image]
+original=OneNote image
+translation=OneNote-kuva
+
+[importer.onenote.reason-no-attachment-name]
+original=the attachment did not say what it was called
+translation=liitteellä ei ollut nimeä
+
+[importer.onenote.reason-no-attachment-url]
+original=the attachment did not include a download URL
+translation=liite ei sisältänyt lataus-URL:ää
+
+[importer.onenote.reason-no-image-url]
+original=the image did not include a download URL
+translation=kuva ei sisältänyt lataus-URL:ää
+
+[importer.onenote-file.name]
+original=Microsoft OneNote (export file)
+translation=Microsoft OneNote (vientitiedosto)
+
+[importer.onenote-file.option-text]
+original=Microsoft OneNote (.one, .onepkg)
+translation=Microsoft OneNote (.one, .onepkg)
+
+[importer.onenote-file.method-name]
+original=File import
+translation=Tiedostotuonti
+
+[importer.onenote-file.method-desc]
+original=Import using OneNote export files (.one, .onepkg) from your computer. Requires no account or internet connection, and works for notebooks that were never synced.
+translation=Tuo OneNote-vientitiedostoista (.one, .onepkg) tietokoneeltasi. Ei vaadi tiliä tai internetyhteyttä, ja toimii muistikirjoille, joita ei koskaan synkronoitu.
+
+[importer.onenote-file.file-type]
+original=OneNote export
+translation=OneNote-vienti
+
+[importer.onenote-file.label-id]
+original=OneNote ID
+translation=OneNote ID
+
+[importer.onenote-file.desc-backup-folder]
+original=OneNote for Windows keeps its own backups, and this opens there. Pick the notebooks or sections you want.
+translation=OneNote for Windows säilyttää omia varmuuskopioitaan, ja tämä avautuu sinne. Valitse haluamasi muistikirjat tai osiot.
+
+[importer.onenote-file.desc-export]
+original=In OneNote for Windows, right-click a notebook and export it to save a .onepkg file, or export a single section as .one.
+translation=Napsauta OneNote for Windows -sovelluksessa muistikirjaa hiiren oikealla painikkeella ja vie se .onepkg-tiedostoksi, tai vie yksittäinen osio .one-tiedostona.
+
+[importer.onenote-file.name-sections]
+original=Sections to import
+translation=Tuotavat osiot
+
+[importer.onenote-file.desc-sections]
+original=Choose which sections to import.
+translation=Valitse tuotavat osiot.
+
+[importer.onenote-file.msg-loading-sections]
+original=Reading sections…
+translation=Luetaan osioita…
+
+[importer.onenote-file.msg-no-sections]
+original=No sections found in this file.
+translation=Tästä tiedostosta ei löytynyt osioita.
+
+[importer.onenote-file.msg-pick-file-first]
+original=Choose a OneNote file first.
+translation=Valitse ensin OneNote-tiedosto.
+
+[importer.onenote-file.status-reading-section]
+original=Reading {{name}}
+translation=Luetaan {{name}}
+
+[importer.onenote-file.status-importing-section]
+original=Importing {{name}} ({{index}} of {{total}})
+translation=Tuodaan {{name}} ({{index}}/{{total}})
+
+[importer.onenote-file.reason-rights-protected]
+original=the file is rights-protected, and can only be opened by an account with permission to it
+translation=tiedosto on käyttöoikeuksilla suojattu, ja vain tili, jolla on käyttöoikeus, voi avata sen
+
+[importer.onenote-file.reason-unsupported]
+original=the file uses a OneNote format this importer cannot read yet
+translation=tiedosto käyttää OneNote-muotoa, jota tämä tuontityökalu ei vielä osaa lukea
+
+[importer.onenote-file.reason-malformed]
+original=the file does not describe the OneNote structures it claims to
+translation=tiedosto ei vastaa OneNote-rakenteita, joita se väittää sisältävänsä
+
+[importer.onenote-file.reason-too-large]
+original=the file is larger than this importer is willing to expand
+translation=tiedosto on suurempi kuin mitä tämä tuontityökalu suostuu purkamaan
+
+[importer.onenote-file.reason-no-attachment-data]
+original=the attachment held no data
+translation=liite ei sisältänyt tietoja
+
+[importer.notion-api.name]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.option-text]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.method-name]
+original=Notion account (recommended)
+translation=Notion-tili (Suositeltu)
+
+[importer.notion-api.method-desc]
+original=Imports your entire workspace, including databases and formulas which are converted to bases. Requires a Notion integration token and an internet connection.
+translation=Tuo koko työtilasi, mukaan lukien tietokannat ja kaavat, jotka muunnetaan tietokannoiksi. Vaatii Notion-integraatiotokenin ja internetyhteyden.
+
+[importer.notion-api.label-id]
+original=Notion ID
+translation=Notion ID
+
+[importer.notion-api.name-token]
+original=Notion API token
+translation=Notion API -token
+
+[importer.notion-api.desc-token]
+original=To get an API token create a connection in Notion and give it access to pages in your workspace.
+translation=Saadaksesi API-tunnisteen luo yhteys Notion-sovelluksessa ja anna sille pääsy työtilasi sivuihin.
+
+[importer.notion-api.link-get-token]
+original=Get API token
+translation=Hae API-tunniste
+
+[importer.notion-api.name-pages]
+original=Pages to import
+translation=Tuotavat sivut
+
+[importer.notion-api.desc-pages]
+original=Load your Notion pages and databases, then choose what to import. If a page or database is missing, check that your Notion connection has access to it.
+translation=Lataa Notion-sivusi ja -tietokantasi ja valitse tuotavat kohteet. Jos sivu tai tietokanta puuttuu, tarkista, että Notion-yhteydellä on pääsy siihen.
+
+[importer.notion-api.hint-pages]
+original=Load your Notion pages and databases to get started.
+translation=Lataa Notion-sivusi ja -tietokantasi aloittaaksesi.
+
+[importer.notion-api.msg-loading-pages]
+original=Loading pages and databases...
+translation=Ladataan sivuja ja tietokantoja...
+
+[importer.notion-api.msg-no-pages]
+original=No pages or databases found. Make sure your connection has access to the pages you want to import.
+translation=Sivuja tai tietokantoja ei löytynyt. Varmista, että yhteydellä on pääsy sivuihin, jotka haluat tuoda.
+
+[importer.notion-api.label-service]
+original=Notion
+translation=Notion
+
+[importer.notion-api.label-subject]
+original=your pages
+translation=sivusi
+
+[importer.notion-api.label-credential]
+original=Check that your token is current and that the connection has access to them.
+translation=Tarkista, että tokenisi on voimassa ja että yhteydellä on pääsy niihin.
+
+[importer.notion-api.name-formulas]
+original=Convert formulas
+translation=Muunna kaavat
+
+[importer.notion-api.desc-formulas]
+original=By default Notion formulas are converted to Obsidian syntax. If any Notion syntax is not supported the static values will be saved instead. Alternatively you can import all formulas as static values.
+translation=Oletuksena Notion-kaavat muunnetaan Obsidian-syntaksiksi. Jos jotakin Notion-syntaksia ei tueta, staattiset arvot tallennetaan sen sijaan. Vaihtoehtoisesti voit tuoda kaikki kaavat staattisina arvoina.
+
+[importer.notion-api.option-formula-hybrid]
+original=Obsidian syntax
+translation=Obsidian-syntaksi
+
+[importer.notion-api.option-formula-static]
+original=Static values
+translation=Staattiset arvot
+
+[importer.notion-api.name-download-external]
+original=Download external attachments
+translation=Lataa ulkoiset liitteet
+
+[importer.notion-api.desc-download-external]
+original=Download external attachments (external URLs) to local files. Notion-hosted files are always downloaded.
+translation=Lataa ulkoiset liitteet (ulkoiset URL-osoitteet) paikallisiksi tiedostoiksi. Notion-palvelimella olevat tiedostot ladataan aina.
+
+[importer.notion-api.name-single-line-breaks]
+original=Single line breaks
+translation=Yksinkertaiset rivinvaihdot
+
+[importer.notion-api.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break instead of two. Some blocks (lists, toggles, tables) will still use double line breaks when required for proper Markdown syntax.
+translation=Erota Notion-lohkot vain yhdellä rivinvaihdolla kahden sijaan. Jotkin lohkot (listat, avattavat lohkot, taulukot) käyttävät silti kaksoisrivinvaihtoa, kun oikea Markdown-syntaksi sitä vaatii.
+
+[importer.notion-api.name-cover-property]
+original=Cover property name
+translation=Kansikuvan määreen nimi
+
+[importer.notion-api.desc-cover-property]
+original=Property name for page cover image in YAML frontmatter. 
+translation=Sivun kansikuvan määreen nimi YAML-alkulehtisissä. 
+
+[importer.notion-api.desc-cover-property-conflicts]
+original=Leave as "cover" if you don't have conflicts with existing properties.
+translation=Jätä arvoksi "cover", jos ristiriitoja olemassa olevien määreiden kanssa ei ole.
+
+[importer.notion-api.name-database-property]
+original=Database property name
+translation=Tietokantamääreen nimi
+
+[importer.notion-api.desc-database-property]
+original=Property name in page frontmatter to link pages to their database .base file (default: "base")
+translation=Määreen nimi sivun alkulehtisissä, jolla sivut linkitetään tietokannan .base-tiedostoon (oletus: "base")
+
+[importer.notion-api.name-linked-databases]
+original=Import linked databases
+translation=Tuo linkitetyt tietokannat
+
+[importer.notion-api.desc-linked-databases]
+original=Also import databases that the selected pages link to, so relations become links rather than names. This imports pages you did not select.
+translation=Tuo myös tietokannat, joihin valitut sivut linkittävät, jotta relaatioista tulee linkkejä nimien sijaan. Tämä tuo sivuja, joita et valinnut.
+
+[importer.notion-api.msg-token-first]
+original=Please enter your Notion API token first.
+translation=Anna ensin Notion API -tunnuksesi.
+
+[importer.notion-api.msg-token-missing]
+original=Please enter your Notion API token.
+translation=Anna Notion API -tunnuksesi.
+
+[importer.notion-api.msg-load-pages-failed]
+original=Failed to load pages: {{error}}
+translation=Sivujen lataaminen epäonnistui: {{error}}
+
+[importer.notion-api.msg-pick-page]
+original=Please select at least one page or database to import.
+translation=Valitse vähintään yksi sivu tai tietokanta tuotavaksi.
+
+[importer.notion-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=Tuonti epäonnistui: {{error}}
+
+[importer.notion-api.status-loading-items]
+original=Loading... ({{items}}, page {{page}})
+translation=Ladataan... ({{items}}, sivu {{page}})
+
+[importer.notion-api.status-connecting]
+original=Connecting to Notion API...
+translation=Yhdistetään Notion API:in...
+
+[importer.notion-api.status-fetching]
+original=Fetching page content from Notion...
+translation=Haetaan sivun sisältöä Notionista...
+
+[importer.notion-api.status-preparing]
+original=Preparing to import {{items}}...
+translation=Valmistellaan tuontia: {{items}}...
+
+[importer.notion-api.status-importing-items]
+original=Importing {{items}}...
+translation=Tuodaan {{items}}...
+
+[importer.notion-api.status-importing-item]
+original=Importing item {{index}}/{{total}}...
+translation=Tuodaan kohdetta {{index}}/{{total}}...
+
+[importer.notion-api.status-importing-title]
+original=Importing: {{title}}
+translation=Tuodaan: {{title}}
+
+[importer.notion-api.status-relation-links]
+original=Processing relation links...
+translation=Käsitellään relaatiolinkkejä...
+
+[importer.notion-api.status-mention-links]
+original=Processing mention links...
+translation=Käsitellään mainintoja linkkeinä...
+
+[importer.notion-api.status-synced-blocks]
+original=Processing synced block child references...
+translation=Käsitellään synkronoitujen lohkojen lapsiviittauksia...
+
+[importer.notion-api.status-cleaning-ids]
+original=Cleaning up notion-id attributes...
+translation=Siivotaan notion-id-attribuutteja...
+
+[importer.notion-api.status-done]
+original=Import completed successfully!
+translation=Tuonti onnistui!
+
+[importer.notion-api.status-replacing-relations]
+original=Replacing {{placeholders}}...
+translation=Korvataan {{placeholders}}...
+
+[importer.notion-api.status-replacing-relation-links]
+original=Replacing relation placeholders with wiki links...
+translation=Korvataan relaatiopaikkamerkit wikilinkeillä...
+
+[importer.notion-api.status-importing-linked-databases]
+original=Importing {{databases}}...
+translation=Tuodaan {{databases}}...
+
+[importer.notion-api.status-importing-unimported]
+original=Importing unimported database {{id}}...
+translation=Tuodaan tuomatonta tietokantaa {{id}}...
+
+[importer.notion-api.status-replacing-mentions]
+original=Replacing mention placeholders...
+translation=Korvataan mainintapaikkamerkkejä...
+
+[importer.notion-api.status-replaced-mentions]
+original=Replaced {{links}} in {{files}}.
+translation=Korvattiin {{links}} tiedostoissa {{files}}.
+
+[importer.notion-api.status-replacing-synced]
+original=Replacing synced block child references...
+translation=Korvataan synkronoitujen lohkojen lapsiviittauksia...
+
+[importer.notion-api.status-replaced-synced]
+original=Replaced {{references}} in {{files}} (imported {{imported}}).
+translation=Korvattiin {{references}} tiedostoissa {{files}} (tuotiin {{imported}}).
+
+[importer.notion-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}...
+translation=Ladataan liitettä: {{name}}...
+
+[importer.notion-api.status-rate-limited]
+original=Rate limited. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=Pyyntöraja saavutettu. Odotetaan {{seconds}} sekuntia ennen uutta yritystä ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying]
+original=Notion returned {{status}}. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=Notion palautti {{status}}. Odotetaan {{seconds}} sekuntia ennen uutta yritystä ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying-attachment]
+original={{name}}: {{failure}}. Retrying in {{seconds}} seconds ({{attempt}}/{{total}})...
+translation={{name}}: {{failure}}. Yritetään uudelleen {{seconds}} sekunnin kuluttua ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-processing-data-source]
+original=Processing database from data source: {{id}}...
+translation=Käsitellään tietokantaa tietolähteestä: {{id}}...
+
+[importer.notion-api.status-processing-database]
+original=Processing database: {{title}}...
+translation=Käsitellään tietokantaa: {{title}}...
+
+[importer.notion-api.status-found-pages]
+original=Found {{pages}} in database {{title}}
+translation=Löydettiin {{pages}} tietokannasta {{title}}
+
+[importer.notion-api.status-found-templates]
+original=Found {{templates}} in database {{title}}
+translation=Löydettiin {{templates}} tietokannasta {{title}}
+
+[importer.notion-api.status-importing-template]
+original=Importing template: {{name}}...
+translation=Tuodaan pohjaa: {{name}}...
+
+[importer.notion-api.label-import]
+original=Notion API import
+translation=Notion API -tuonti
+
+[importer.notion-api.label-item]
+original=Import item {{id}}
+translation=Tuontikohde {{id}}
+
+[importer.notion-api.label-page]
+original=Page {{id}}
+translation=Sivu {{id}}
+
+[importer.notion-api.label-page-with-title]
+original=Page: {{title}} ({{id}})
+translation=Sivu: {{title}} ({{id}})
+
+[importer.notion-api.label-relation-page]
+original=Relation page {{id}}
+translation=Relaatiosivu {{id}}
+
+[importer.notion-api.label-database-with-id]
+original=Database: {{title}} ({{id}})
+translation=Tietokanta: {{title}} ({{id}})
+
+[importer.notion-api.label-mention-file]
+original=Mention file {{path}}
+translation=Mainittu tiedosto {{path}}
+
+[importer.notion-api.label-synced-block-file]
+original=Synced block file {{path}}
+translation=Synkronoitu lohkotiedosto {{path}}
+
+[importer.notion-api.label-attachment]
+original=Attachment: {{name}}
+translation=Liite: {{name}}
+
+[importer.notion-api.label-child-page]
+original=Child page: {{title}}
+translation=Alasivu: {{title}}
+
+[importer.notion-api.label-synced-block]
+original=Synced block: {{name}}
+translation=Synkronoitu lohko: {{name}}
+
+[importer.notion-api.label-attachment-image]
+original=Image attachment
+translation=Kuvaliite
+
+[importer.notion-api.label-attachment-video]
+original=Video attachment
+translation=Videoliite
+
+[importer.notion-api.label-attachment-audio]
+original=Audio attachment
+translation=Ääniliite
+
+[importer.notion-api.label-attachment-file]
+original=File attachment
+translation=Tiedostoliite
+
+[importer.notion-api.label-attachment-pdf]
+original=PDF attachment
+translation=PDF-liite
+
+[importer.notion-api.label-preview-child-page]
+original=Child page
+translation=Alisivut
+
+[importer.notion-api.label-preview-database]
+original=Database
+translation=Tietokanta
+
+[importer.notion-api.msg-preview-nested-content]
+original=Nested content is not loaded in the preview.
+translation=Sisäkkäistä sisältöä ei ladata esikatselussa.
+
+[importer.notion-api.msg-preview-content-not-loaded]
+original={{type}} is not loaded in the preview.
+translation={{type}} ei ladata esikatselussa.
+
+[importer.notion-api.msg-preview-content-not-loaded-with-caption]
+original={{type}}: {{caption}} is not loaded in the preview.
+translation={{type}}: {{caption}} ei ladata esikatselussa.
+
+[importer.notion-api.msg-preview-block-not-expanded]
+original={{type}} is not expanded in the preview.
+translation={{type}} ei laajenneta esikatselussa.
+
+[importer.notion-api.label-fetch-children]
+original=Fetch children for {{context}} {{id}}
+translation=Haetaan lapsia kohteelle {{context}} {{id}}
+
+[importer.notion-api.block-paragraph]
+original=paragraph
+translation=Kappale
+
+[importer.notion-api.block-bulleted-list-item]
+original=bulleted list item
+translation=luettelokohta
+
+[importer.notion-api.block-numbered-list-item]
+original=numbered list item
+translation=numeroitu luettelokohta
+
+[importer.notion-api.block-todo-item]
+original=to-do item
+translation=tehtäväkohta
+
+[importer.notion-api.block-quote]
+original=quote block
+translation=lainauslohko
+
+[importer.notion-api.block-callout]
+original=callout block
+translation=nostolaatikkolohko
+
+[importer.notion-api.block-toggle]
+original=toggle block
+translation=avattava lohko
+
+[importer.notion-api.block-toggleable-heading]
+original=toggleable heading
+translation=avattava otsikko
+
+[importer.notion-api.block-column]
+original=column
+translation=Sarake
+
+[importer.notion-api.block-column-list]
+original=column list
+translation=sarakeluettelo
+
+[importer.notion-api.block-table]
+original=table
+translation=Taulukko
+
+[importer.notion-api.block-generic]
+original=block
+translation=lohko
+
+[importer.notion-api.label-meeting-notes]
+original=Meeting notes: {{name}}
+translation=Kokousmuistiinpanot: {{name}}
+
+[importer.notion-api.label-meeting-notes-section]
+original=Meeting notes: {{name}} ({{section}})
+translation=Kokousmuistiinpanot: {{name}} ({{section}})
+
+[importer.notion-api.label-untitled-meeting]
+original=Meeting notes {{id}}
+translation=Kokousmuistiinpanot {{id}}
+
+[importer.notion-api.section-summary]
+original=summary
+translation=Yhteenveto
+
+[importer.notion-api.section-notes]
+original=notes
+translation=muistiinpanot
+
+[importer.notion-api.section-transcript]
+original=transcript
+translation=litterointi
+
+[importer.notion-api.label-fetch-children-block]
+original=Fetch children for block {{id}}
+translation=Haetaan lapsia lohkolle {{id}}
+
+[importer.notion-api.reason-not-in-tree]
+original=Item not found in tree
+translation=Kohdetta ei löydy puurakenteesta
+
+[importer.notion-api.reason-unknown-type]
+original=Unknown type: {{type}}
+translation=Tuntematon tyyppi: {{type}}
+
+[importer.notion-api.reason-earlier-import]
+original=an earlier import had already written it
+translation=aiempi tuonti oli jo kirjoittanut sen
+
+[importer.notion-api.reason-attachment-exists]
+original={{path}} is already in the vault, the same size (incremental import)
+translation={{path}} on jo holvissa samankokoisena (inkrementaalinen tuonti)
+
+[importer.notion-api.reason-http-status]
+original=HTTP {{status}}
+translation=HTTP {{status}}
+
+[importer.notion-api.reason-meeting-notes-pending]
+original=Notion has not finished generating them ({{status}})
+translation=Notion ei ole vielä luonut niitä valmiiksi ({{status}})
+
+[importer.notion-api.reason-rate-limit-gave-up]
+original=rate limited, and gave up after {{retries}} retries
+translation=pyyntörajoitus ylitetty, luovutettiin {{retries}} uudelleenyrityksen jälkeen
+
+[importer.notion-api.reason-gave-up]
+original={{reason}}, and gave up after {{retries}} retries
+translation={{reason}}, luovutettiin {{retries}} uudelleenyrityksen jälkeen
+
+[importer.notion-api.reason-kept-link]
+original={{reason}}; kept the link to {{url}}
+translation={{reason}}; säilytettiin linkki kohteeseen {{url}}
+
+[importer.notion.name]
+original=Notion
+translation=Notion
+
+[importer.notion.option-text]
+original=Notion (.zip)
+translation=Notion (.zip)
+
+[importer.notion.method-name]
+original=File import
+translation=Tiedostosta tuonti
+
+[importer.notion.method-desc]
+original=Imports using a Notion export file (.zip). Requires no API token or internet connection, but does not preserve databases.
+translation=Tuo Notion-vientitiedostosta (.zip). Ei vaadi API-avainta tai internet-yhteyttä, mutta ei säilytä tietokantoja.
+
+[importer.notion.file-type]
+original=Exported Notion
+translation=Viety Notion
+
+[importer.notion.label-id]
+original=Notion ID
+translation=Notion-tunnus
+
+[importer.notion.desc-export]
+original=Export your workspace in HTML format, you will receive a zip file.
+translation=Vie työtilasi HTML-muodossa, saat zip-tiedoston.
+
+[importer.notion.desc-files]
+original=Pick the zip file Notion sent you.
+translation=Valitse Notionin lähettämä zip-tiedosto.
+
+[importer.notion.name-subfolders]
+original=Save parent pages in subfolders
+translation=Tallenna ylätason sivut alikansioihin
+
+[importer.notion.desc-subfolders]
+original=Places the parent database pages in the same folder as the nested content.
+translation=Sijoittaa ylätason tietokantasivut samaan kansioon sisäkkäisen sisällön kanssa.
+
+[importer.notion.name-single-line-breaks]
+original=Single line breaks
+translation=Yksinkertaiset rivinvaihdot
+
+[importer.notion.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break (default is 2).
+translation=Erottaa Notion-lohkot vain yhdellä rivinvaihdolla (oletus on 2).
+
+[importer.notion.msg-unknown-property]
+original=Property "{{property}}" has an unknown type ({{type}}); kept its value as text.
+translation=Määreen "{{property}}" tyyppi on tuntematon ({{type}}); arvo säilytettiin tekstinä.
+
+[importer.notion.msg-unparsed-date]
+original=Could not determine the date in property "{{property}}": {{value}}. Kept its value as text.
+translation=Määreen "{{property}}" päiväystä ei voitu tunnistaa: {{value}}. Arvo säilytettiin tekstinä.
+
+[importer.notion.status-looking]
+original=Looking for files to import
+translation=Etsitään tuotavia tiedostoja
+
+[importer.notion.status-resolving]
+original=Resolving links and de-duplicating files
+translation=Ratkaistaan linkkejä ja poistetaan tiedostojen kaksoiskappaleita
+
+[importer.notion.status-starting]
+original=Starting import
+translation=Aloitetaan tuonti
+
+[importer.notion.msg-markdown-export]
+original=This is a Markdown export. Export your Notion workspace as HTML instead.
+translation=Tämä on Markdown-vienti. Vie Notion-työtilasi HTML-muodossa sen sijaan.
+
+[importer.notion.reason-markdown-export]
+original=it is a Markdown export; export your Notion workspace as HTML instead
+translation=kyseessä on Markdown-vienti; vie Notion-työtilasi HTML-muodossa sen sijaan
+
+[importer.notion.reason-no-page-body]
+original=page body was not found
+translation=sivun leipätekstiä ei löytynyt
+
+[importer.roam-json.name]
+original=Roam Research
+translation=Roam Research
+
+[importer.roam-json.option-text]
+original=Roam Research (.json)
+translation=Roam Research (.json)
+
+[importer.roam-json.file-type]
+original=Roam (.json)
+translation=Roam (.json)
+
+[importer.roam-json.label-id]
+original=Roam UID
+translation=Roam UID
+
+[importer.roam-json.desc-export]
+original=Export your data in JSON format.
+translation=Vie tietosi JSON-muodossa.
+
+[importer.roam-json.desc-files]
+original=Pick the JSON file from your Roam export.
+translation=Valitse Roam-viennin JSON-tiedosto.
+
+[importer.roam-json.name-embed-block-references]
+original=Show referenced blocks in place
+translation=Näytä viitattujen lohkojen sisältö paikallaan
+
+[importer.roam-json.desc-embed-block-references]
+original=Roam shows the contents of a referenced block where the reference stands. If enabled, references become embeds rather than links.
+translation=Roam näyttää viitatun lohkon sisällön viittauksen kohdalla. Jos käytössä, viittauksista tulee upotuksia linkkien sijaan.
+
+[importer.roam-json.name-drop-unresolved-references]
+original=Remove references to missing blocks
+translation=Poista viittaukset puuttuviin lohkoihin
+
+[importer.roam-json.desc-drop-unresolved-references]
+original=Some references name a block that is not in the export. If enabled, they are removed; if not, they are kept as Roam wrote them.
+translation=Jotkin viittaukset osoittavat lohkoon, jota ei ole viennissä. Jos käytössä, ne poistetaan; muuten ne säilytetään sellaisina kuin Roam ne kirjoitti.
+
+[importer.roam-json.name-convert-attributes]
+original=Convert attributes to properties
+translation=Muunna attribuutit määreiksi
+
+[importer.roam-json.desc-convert-attributes]
+original=Convert eligible top-level Roam attributes into Obsidian properties. Referenced attributes remain in the note so links to them keep working.
+translation=Muunna kelvolliset ylätason Roam-attribuutit Obsidian-määreiksi. Viitatut attribuutit säilyvät muistiinpanossa, jotta linkit niihin toimivat edelleen.
+
+[importer.roam-json.name-tags-as-links]
+original=Convert tags to links
+translation=Muunna tunnisteet linkeiksi
+
+[importer.roam-json.desc-tags-as-links]
+original=A tag in Roam is a reference to the page of that name. If enabled, "#tag" becomes "[[tag]]".
+translation=Roamissa tunniste on viittaus samannimiseen sivuun. Jos käytössä, "#tunniste" muuttuu muotoon "[[tunniste]]".
+
+[importer.roam-json.name-drop-queries]
+original=Remove queries
+translation=Poista kyselyt
+
+[importer.roam-json.desc-drop-queries]
+original=If enabled, queries are removed. If not, a query becomes an Obsidian search that shows its results in the note.
+translation=Jos käytössä, kyselyt poistetaan. Muussa tapauksessa kysely muuttuu Obsidian-hauksi, joka näyttää tulokset muistiinpanossa.
+
+[importer.roam-json.reason-empty-title]
+original=Title is empty
+translation=Otsikko on tyhjä
+
+[importer.roam-json.reason-unexpected-extension]
+original=Unexpected file extension
+translation=Odottamaton tiedostopääte
+
+[importer.textbundle.name]
+original=Textbundle files
+translation=Textbundle-tiedostot
+
+[importer.textbundle.option-text]
+original=Textbundle (.textbundle, .textpack)
+translation=Textbundle (.textbundle, .textpack)
+
+[importer.textbundle.file-type]
+original=Textbundle
+translation=Textbundle
+
+[importer.textbundle.desc-export]
+original=Export your notes as textbundle or textpack, which Agenda, Craft, Taio, Ulysses and Zettlr can all write.
+translation=Vie muistiinpanosi textbundle- tai textpack-muodossa, jota Agenda, Craft, Taio, Ulysses ja Zettlr tukevat.
+
+[importer.textbundle.msg-platform]
+original=Due to platform limitations, only textpack and zip files can be imported from this device. Open your vault on a Mac to import textbundle files.
+translation=Alustarajoitusten vuoksi tältä laitteelta voidaan tuoda vain textpack- ja zip-tiedostoja. Avaa holvisi Mac-tietokoneella tuodaksesi textbundle-tiedostoja.
+
+[importer.textbundle.reason-no-markdown]
+original=The textbundle does not contain markdown
+translation=Textbundle ei sisällä Markdown-sisältöä
+
+[importer.textbundle.reason-not-media]
+original=the file is not a media or markdown file.
+translation=tiedosto ei ole media- tai Markdown-tiedosto.
+
+[importer.textbundle.reason-already-exists]
+original=the file already exists.
+translation=tiedosto on jo olemassa.
+
+[importer.tomboy.name]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.option-text]
+original=Tomboy/Gnote (.note)
+translation=Tomboy/Gnote (.note)
+
+[importer.tomboy.file-type]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.label-id]
+original=Tomboy ID
+translation=Tomboy ID
+
+[importer.tomboy.desc-files-mac]
+original=Tomboy notes are typically found in: ~/Library/Application Support/Tomboy
+translation=Tomboy-muistiinpanot löytyvät yleensä polusta: ~/Library/Application Support/Tomboy
+
+[importer.tomboy.desc-files-windows]
+original=Tomboy notes are typically found in: %APPDATA%\\Tomboy
+translation=Tomboy-muistiinpanot löytyvät yleensä polusta: %APPDATA%\\Tomboy
+
+[importer.tomboy.desc-files-linux]
+original=Tomboy notes are typically found in: ~/.local/share/tomboy - or GNote: ~/.local/share/gnote
+translation=Tomboy-muistiinpanot löytyvät yleensä polusta: ~/.local/share/tomboy – tai GNote: ~/.local/share/gnote
+
+[importer.tomboy.name-todo]
+original=Convert TODO lists to checkboxes
+translation=Muunna TODO-listat valintaruuduiksi
+
+[importer.tomboy.desc-todo]
+original=When enabled, lists in notes with "TODO" in the title will be converted to task lists with checkboxes. Strikethrough items will be marked as completed.
+translation=Kun käytössä, muistiinpanojen listat, joiden otsikossa on "TODO", muunnetaan tehtävälistoiksi valintaruutuineen. Yliviivatut kohdat merkitään valmiiksi.
+
+[importer.tomboy.name-keep-title]
+original=Keep title in Markdown
+translation=Säilytä otsikko Markdown-sisällössä
+
+[importer.tomboy.desc-keep-title]
+original=Choose whether to keep the note title in the Markdown content. The automatic option keeps titles only when special characters are lost in filename conversion.
+translation=Valitse, säilytetäänkö muistiinpanon otsikko Markdown-sisällössä. Automaattinen vaihtoehto säilyttää otsikot vain, kun erikoismerkkejä menetetään tiedostonimen muunnoksessa.
+
+[importer.tomboy.option-automatic]
+original=Automatic
+translation=Automaattinen
+
+[importer.tomboy.option-keep-titles]
+original=Keep titles
+translation=Säilytä otsikot
+
+[importer.tomboy.option-filename-only]
+original=Filename only
+translation=Vain tiedostonimi

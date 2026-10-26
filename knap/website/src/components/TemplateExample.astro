@@ -1,0 +1,93 @@
+---
+import CodeBlock from './CodeBlock.astro';
+import PlaygroundLink from './PlaygroundLink.astro';
+
+interface Example {
+  key: string;
+  label: string;
+  template: string;
+  markdown: string;
+  variables: Record<string, unknown>;
+}
+
+interface Props {
+  examples: Example[];
+  defaultExample?: string;
+}
+
+const { examples, defaultExample = examples[0]?.key } = Astro.props;
+const selectedExample = examples.find((example) => example.key === defaultExample) ?? examples[0];
+const playground = { input: JSON.stringify(selectedExample.variables, null, 2), template: selectedExample.template };
+const tabs = [
+  { key: 'template', label: 'Template' },
+  { key: 'markdown', label: 'Output' },
+] as const;
+---
+
+<div class="template-example" data-template-example>
+  <div class="template-example-toolbar">
+    <div class="example-tabs segmented-control" style="--segment-count: 2" role="tablist" aria-label="Code example">
+      {tabs.map((tab, index) => (
+        <button
+          type="button"
+          role="tab"
+          id={`home-example-${tab.key}-tab`}
+          aria-controls={`home-example-${tab.key}`}
+          aria-selected={index === 0}
+          tabindex={index === 0 ? 0 : -1}
+        >
+          {tab.label}
+        </button>
+      ))}
+    </div>
+
+    <PlaygroundLink {...playground} />
+  </div>
+
+  <div class="code-tab-panels">
+    {tabs.map((tab, index) => (
+      <div
+        id={`home-example-${tab.key}`}
+        role="tabpanel"
+        aria-labelledby={`home-example-${tab.key}-tab`}
+        tabindex="0"
+        hidden={index !== 0}
+      >
+        <CodeBlock
+          language={tab.key === 'markdown' ? 'md' : 'knap'}
+          code={tab.key === 'markdown' ? selectedExample.markdown : selectedExample.template}
+        />
+      </div>
+    ))}
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-template-example]').forEach((example) => {
+    const tabs = [...example.querySelectorAll<HTMLButtonElement>('[role="tab"]')];
+    const panels = [...example.querySelectorAll<HTMLElement>('[role="tabpanel"]')];
+    const selectTab = (selected: HTMLButtonElement) => {
+      tabs.forEach((tab) => {
+        tab.setAttribute('aria-selected', String(tab === selected));
+        tab.tabIndex = tab === selected ? 0 : -1;
+      });
+      panels.forEach((panel) => { panel.hidden = panel.id !== selected.getAttribute('aria-controls'); });
+    };
+
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => selectTab(tab));
+      tab.addEventListener('keydown', (event) => {
+        let nextIndex: number;
+        if (event.key === 'ArrowRight') nextIndex = (index + 1) % tabs.length;
+        else if (event.key === 'ArrowLeft') nextIndex = (index - 1 + tabs.length) % tabs.length;
+        else if (event.key === 'Home') nextIndex = 0;
+        else if (event.key === 'End') nextIndex = tabs.length - 1;
+        else return;
+        event.preventDefault();
+        const nextTab = tabs[nextIndex];
+        selectTab(nextTab);
+        nextTab.focus();
+      });
+    });
+  });
+</script>

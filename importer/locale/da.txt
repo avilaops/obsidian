@@ -1,0 +1,2499 @@
+[command.import-notes]
+original=Import notes
+translation=Importér noter
+
+[nouns.file-with-count]
+original={{count}} file
+translation={{count}} fil
+
+[nouns.file-with-count_plural]
+original={{count}} files
+translation={{count}} filer
+
+[nouns.note-with-count]
+original={{count}} note
+translation={{count}} note
+
+[nouns.note-with-count_plural]
+original={{count}} notes
+translation={{count}} noter
+
+[nouns.item-with-count]
+original={{count}} item
+translation={{count}} element
+
+[nouns.item-with-count_plural]
+original={{count}} items
+translation={{count}} elementer
+
+[nouns.record-with-count]
+original={{count}} record
+translation={{count}} post
+
+[nouns.record-with-count_plural]
+original={{count}} records
+translation={{count}} poster
+
+[nouns.base-with-count]
+original={{count}} base
+translation={{count}} base
+
+[nouns.base-with-count_plural]
+original={{count}} bases
+translation={{count}} baser
+
+[nouns.template-with-count]
+original={{count}} template
+translation={{count}} skabelon
+
+[nouns.template-with-count_plural]
+original={{count}} templates
+translation={{count}} skabeloner
+
+[nouns.failure-with-count]
+original={{count}} failure
+translation={{count}} fejl
+
+[nouns.failure-with-count_plural]
+original={{count}} failures
+translation={{count}} fejl
+
+[nouns.second-with-count]
+original={{count}} second
+translation={{count}} sekund
+
+[nouns.second-with-count_plural]
+original={{count}} seconds
+translation={{count}} sekunder
+
+[nouns.relation-placeholder-with-count]
+original={{count}} relation placeholder
+translation={{count}} relationspladsholder
+
+[nouns.relation-placeholder-with-count_plural]
+original={{count}} relation placeholders
+translation={{count}} relationspladsholderе
+
+[nouns.linked-database-with-count]
+original={{count}} linked database
+translation={{count}} linket database
+
+[nouns.linked-database-with-count_plural]
+original={{count}} linked databases
+translation={{count}} linkede databaser
+
+[nouns.mention-link-with-count]
+original={{count}} mention link
+translation={{count}} omtale-link
+
+[nouns.mention-link-with-count_plural]
+original={{count}} mention links
+translation={{count}} omtale-links
+
+[nouns.synced-reference-with-count]
+original={{count}} synced child reference
+translation={{count}} synkroniseret underreference
+
+[nouns.synced-reference-with-count_plural]
+original={{count}} synced child references
+translation={{count}} synkroniserede underreferencer
+
+[nouns.new-item-with-count]
+original={{count}} new item
+translation={{count}} nyt element
+
+[nouns.new-item-with-count_plural]
+original={{count}} new items
+translation={{count}} nye elementer
+
+[nouns.page-with-count]
+original={{count}} page
+translation={{count}} side
+
+[nouns.page-with-count_plural]
+original={{count}} pages
+translation={{count}} sider
+
+[group.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[group.notion.name]
+original=Notion
+translation=Notion
+
+[outliner.name-flatten-outlines]
+original=Flatten outlines
+translation=Fladgør dispositioner
+
+[outliner.desc-flatten-outlines]
+original=Convert outlines into paragraphs, headings, and lists.
+translation=Konvertér dispositioner til afsnit, overskrifter og lister.
+
+[modal.title-pick-format]
+original=Import data into Obsidian
+translation=Importér data til Obsidian
+
+[modal.title-choose-method]
+original=Choose how to import
+translation=Vælg importmetode
+
+[modal.title-import-from]
+original=Import from {{format}}
+translation=Importér fra {{format}}
+
+[modal.search-placeholder]
+original=Filter...
+translation=Filtrér...
+
+[modal.msg-no-formats]
+original=No formats found.
+translation=Ingen formater fundet.
+
+[modal.msg-drop-to-import]
+original=Drop files to import
+translation=Slip filer for at importere
+
+[modal.button-show-all-formats]
+original=Show all formats
+translation=Vis alle formater
+
+[modal.button-continue]
+original=Continue
+translation=Fortsæt
+
+[modal.button-import]
+original=Import
+translation=Importér
+
+[modal.button-back]
+original=Back
+translation=Tilbage
+
+[modal.button-help]
+original=Help
+translation=Hjælp
+
+[modal.button-pause]
+original=Pause
+translation=Sæt på pause
+
+[modal.button-resume]
+original=Resume
+translation=Fortsæt
+
+[modal.button-stop]
+original=Stop
+translation=Stop
+
+[modal.button-save-report]
+original=Save report
+translation=Gem rapport
+
+[modal.msg-report-failed]
+original=Could not save the import report.
+translation=Kunne ikke gemme importrapporten.
+
+[modal.button-import-more]
+original=Import more
+translation=Importér mere
+
+[modal.button-done]
+original=Done
+translation=Færdig
+
+[modal.msg-unexpected-auth]
+original=Unexpected auth event. Please restart the auth process.
+translation=Uventet godkendelseshændelse. Genstart venligst godkendelsesprocessen.
+
+[progress.stat-imported]
+original=imported
+translation=importeret
+
+[progress.stat-attachments]
+original=attachments
+translation=Vedhæftninger
+
+[progress.stat-remaining]
+original=remaining
+translation=resterende
+
+[progress.stat-skipped]
+original=skipped
+translation=Sprunget over
+
+[progress.stat-failed]
+original=failed
+translation=Mislykket
+
+[progress.label-skipped]
+original=Skipped: 
+translation=Sprunget over: 
+
+[progress.label-failed]
+original=Failed: 
+translation=Fejlede: 
+
+[progress.label-entry]
+original="{{name}}"
+translation="{{name}}"
+
+[progress.label-entry-with-reason]
+original="{{name}}" because {{reason}}
+translation="{{name}}" fordi {{reason}}
+
+[progress.label-paused]
+original=Paused
+translation=Sat på pause
+
+[progress.label-paused-with]
+original=Paused - {{status}}
+translation=Sat på pause - {{status}}
+
+[progress.label-importing]
+original=Importing
+translation=Importerer
+
+[progress.label-remaining]
+original={{count}} remaining...
+translation={{count}} tilbage...
+
+[progress.label-remaining_plural]
+original={{count}} remaining...
+translation={{count}} tilbage...
+
+[progress.label-paused-remaining]
+original=Paused - {{count}} remaining
+translation=Sat på pause - {{count}} tilbage
+
+[progress.label-paused-remaining_plural]
+original=Paused - {{count}} remaining
+translation=Sat på pause - {{count}} tilbage
+
+[progress.status-stopping]
+original=Stopping...
+translation=Stopper...
+
+[progress.msg-stopped]
+original=Import stopped.
+translation=Import stoppet.
+
+[progress.msg-errors]
+original=Import finished with errors.
+translation=Import afsluttet med fejl.
+
+[progress.msg-complete]
+original=Import complete.
+translation=Import fuldført.
+
+[progress.msg-imported-count]
+original={{count}} note imported
+translation={{count}} note importeret
+
+[progress.msg-imported-count_plural]
+original={{count}} notes imported
+translation={{count}} noter importeret
+
+[progress.msg-click-to-show]
+original={{counts}}. Select to show.
+translation={{counts}}. Vælg for at vise.
+
+[progress.status-waiting]
+original=Waiting {{duration}} ({{reason}})
+translation=Venter {{duration}} ({{reason}})
+
+[progress.status-standardizing]
+original=Standardizing Markdown ({{current}}/{{total}})
+translation=Standardiserer Markdown ({{current}}/{{total}})
+
+[progress.label-finalization]
+original=Markdown finalization
+translation=Markdown-færdiggørelse
+
+[report.file-name]
+original={{date}} {{importer}} import log
+translation={{date}} {{importer}} importlog
+
+[report.title]
+original={{importer}} import
+translation={{importer}}-import
+
+[report.msg-finished]
+original=Finished {{when}}. {{counts}}.
+translation=Afsluttet {{when}}. {{counts}}.
+
+[report.msg-stopped]
+original=Stopped {{when}}. {{counts}}.
+translation=Stoppet {{when}}. {{counts}}.
+
+[report.heading-failed]
+original=Failed ({{count}})
+translation=Fejlede ({{count}})
+
+[report.heading-skipped]
+original=Skipped ({{count}})
+translation=Sprunget over ({{count}})
+
+[report.heading-messages]
+original=Messages
+translation=Meddelelser
+
+[report.count-notes]
+original={{count}} note imported
+translation={{count}} note importeret
+
+[report.count-notes_plural]
+original={{count}} notes imported
+translation={{count}} noter importeret
+
+[report.count-attachments]
+original={{count}} attachment downloaded
+translation={{count}} vedhæftning downloadet
+
+[report.count-attachments_plural]
+original={{count}} attachments downloaded
+translation={{count}} vedhæftninger downloadet
+
+[report.count-skipped]
+original={{count}} item skipped
+translation={{count}} element sprunget over
+
+[report.count-skipped_plural]
+original={{count}} items skipped
+translation={{count}} elementer sprunget over
+
+[report.count-failed]
+original={{count}} item failed
+translation={{count}} element fejlede
+
+[report.count-failed_plural]
+original={{count}} items failed
+translation={{count}} elementer fejlede
+
+[source.desc]
+original=Drag and drop, or choose files to import.
+translation=Træk og slip, eller vælg filer at importere.
+
+[source.desc-choose]
+original=Choose files to import.
+translation=Vælg filer at importere.
+
+[source.button-choose-file]
+original=Choose file
+translation=Vælg fil
+
+[source.button-choose-files]
+original=Choose files
+translation=Vælg filer
+
+[source.button-choose-folders]
+original=Choose folders
+translation=Vælg mapper
+
+[source.dialog-pick-files]
+original=Pick files to import
+translation=Vælg filer til import
+
+[source.dialog-pick-folders]
+original=Folders to import
+translation=Mapper til import
+
+[source.desc-folders]
+original=Everything in checked folders is imported. Uncheck folders to exclude them.
+translation=Alt i markerede mapper importeres. Fjern markeringen fra mapper for at udelukke dem.
+
+[source.msg-pick-source-first]
+original=Choose files or folders first.
+translation=Vælg filer eller mapper først.
+
+[source.msg-reading-folders]
+original=Reading folders...
+translation=Læser mapper...
+
+[source.msg-no-folders]
+original=No folders found.
+translation=Ingen mapper fundet.
+
+[source.msg-android-folder-failed]
+original=Could not choose that folder.
+translation=Kunne ikke vælge den mappe.
+
+[source.msg-android-folder-read-failed]
+original=Could not read that folder.
+translation=Kunne ikke læse den mappe.
+
+[source.msg-android-folder-unavailable]
+original=Folder selection is unavailable on this device.
+translation=Mappevalg er ikke tilgængeligt på denne enhed.
+
+[source.msg-android-root-folder]
+original=Choose a folder other than the root of your device.
+translation=Vælg en anden mappe end roden af din enhed.
+
+[source.msg-flat-files]
+original={{count}} file will be imported.
+translation={{count}} fil vil blive importeret.
+
+[source.msg-flat-files_plural]
+original={{count}} files will be imported.
+translation={{count}} filer vil blive importeret.
+
+[source.msg-nothing-to-import]
+original=Nothing to import there. Pick {{extensions}} files, or a folder holding some.
+translation=Intet at importere dér. Vælg {{extensions}}-filer eller en mappe, der indeholder nogle.
+
+[source.msg-will-import]
+original={{files}} will be imported: 
+translation={{files}} vil blive importeret: 
+
+[source.msg-more-files]
+original=and {{count}} more file
+translation=og {{count}} flere fil
+
+[source.msg-more-files_plural]
+original=and {{count}} more files
+translation=og {{count}} flere filer
+
+[source.button-remove-file]
+original=Remove from the import
+translation=Fjern fra importen
+
+[output.label-source-id]
+original=source ID
+translation=kilde-ID
+
+[output.name-save-source-id]
+original=Save {{label}}
+translation=Gem {{label}}
+
+[output.desc-save-source-id]
+original=Add the {{label}} to note properties so future imports can recognize moved or renamed notes.
+translation=Tilføj {{label}} til notens egenskaber, så fremtidige importer kan genkende flyttede eller omdøbte noter.
+
+[output.name-folder]
+original=Output folder
+translation=Outputmappe
+
+[output.desc-folder]
+original=Where imported notes will be saved. Leave blank to use the top level of the vault.
+translation=Hvor importerede noter vil blive gemt. Lad feltet være tomt for at bruge det øverste niveau af boksen.
+
+[output.name-template]
+original=Template
+translation=skabelon
+
+[output.desc-template]
+original=Optional Markdown template from this vault. Use variables such as {{title}}, {{content}}, and {{date}}.
+translation=Valgfri Markdown-skabelon fra denne boks. Brug variabler som {{title}}, {{content}} og {{date}}.
+
+[output.placeholder-template]
+original=Templates/Import.md
+translation=Skabeloner/Import.md
+
+[output.msg-template-not-found]
+original=Template must be a Markdown file in this vault: {{path}}
+translation=Skabelon skal være en Markdown-fil i denne boks: {{path}}
+
+[output.name-attachments]
+original=Attachment location
+translation=Placering af vedhæftninger
+
+[output.desc-attachments]
+original=Where imported images and files will be saved.
+translation=Hvor importerede billeder og filer vil blive gemt.
+
+[output.name-subfolder]
+original=Subfolder name
+translation=Navn på undermappe
+
+[output.desc-subfolder]
+original=Folder to use inside each imported note's folder.
+translation=Mappe at bruge inden i hver importeret notes mappe.
+
+[output.name-attachment-folder]
+original=Attachment folder
+translation=Vedhæftningsmappe
+
+[output.desc-attachment-folder]
+original=Folder path from the top level of the vault.
+translation=Mappesti fra det øverste niveau af boksen.
+
+[output.name-duplicates]
+original=Existing notes
+translation=Eksisterende noter
+
+[output.desc-duplicates]
+original=Choose what to do when an imported note matches one in your vault. "{{update}}" skips unchanged notes and preserves newer local edits when modification dates are available.
+translation=Vælg hvad der skal ske, når en importeret note matcher en i din boks. "{{update}}" springer uændrede noter over og bevarer nyere lokale ændringer, når ændringsdatoer er tilgængelige.
+
+[output.option-create-copy]
+original=Create a copy
+translation=Opret en kopi
+
+[output.option-skip]
+original=Skip
+translation=Spring over
+
+[output.option-update]
+original=Update
+translation=Opdater
+
+[output.option-attachments-vault]
+original=Vault folder
+translation=Boksmappe
+
+[output.option-attachments-folder]
+original=In the folder specified below
+translation=I mappen angivet nedenfor
+
+[output.option-attachments-note]
+original=Same folder as the note
+translation=Samme mappe som noten
+
+[output.option-attachments-subfolder]
+original=In subfolder under the note
+translation=I undermappe under noten
+
+[common.msg-pick-file]
+original=Please pick at least one file to import.
+translation=Vælg venligst mindst én fil til import.
+
+[common.msg-pick-output]
+original=Please select a location to export to.
+translation=Vælg venligst en placering at eksportere til.
+
+[common.msg-pick-import-location]
+original=Please select a location to import your files to.
+translation=Vælg venligst en placering at importere dine filer til.
+
+[common.msg-unknown-error]
+original=Unknown error
+translation=Ukendt fejl
+
+[common.name-export]
+original=Export your data
+translation=Eksportér dine data
+
+[common.label-learn-more]
+original=Learn more
+translation=Få mere at vide
+
+[common.button-instructions]
+original=Instructions
+translation=Vejledning
+
+[common.button-open]
+original=Open
+translation=Åbn
+
+[common.status-processing]
+original=Processing {{name}}
+translation=Behandler {{name}}
+
+[common.status-importing-note]
+original=Importing note {{name}}
+translation=Importerer note {{name}}
+
+[common.status-importing-attachment]
+original=Importing attachment {{name}}
+translation=Importerer vedhæftning {{name}}
+
+[common.status-cancelled]
+original=Import cancelled
+translation=Import annulleret
+
+[reason.already-in-vault]
+original=it is already in the vault
+translation=den er allerede i boksen
+
+[reason.unchanged-since-import]
+original=it has not changed since the last import
+translation=den er ikke ændret siden sidste import
+
+[reason.edited-since-import]
+original=it has been edited in Obsidian since the last import
+translation=den er blevet redigeret i Obsidian siden sidste import
+
+[reason.file-not-in-vault]
+original=The imported file did not appear in the vault.
+translation=Den importerede fil dukkede ikke op i boksen.
+
+[reason.folder-not-created]
+original=Failed to create folder at "{{path}}"
+translation=Fejlede med at oprette mappe ved "{{path}}"
+
+[tree.button-select-all]
+original=Select all
+translation=Vælg alle
+
+[tree.button-deselect-all]
+original=Deselect all
+translation=Fravælg alle
+
+[tree.button-load]
+original=Load
+translation=Indlæs
+
+[tree.button-loading]
+original=Loading...
+translation=Indlæser...
+
+[tree.button-refresh]
+original=Refresh
+translation=Opdatér
+
+[tree.placeholder-filter]
+original=Filter...
+translation=Filtrér...
+
+[tree.msg-no-matches]
+original=No results found.
+translation=Ingen resultater fundet.
+
+[request.msg-unauthorized]
+original={{service}} did not accept the request for {{subject}}. {{credential}}
+translation={{service}} accepterede ikke anmodningen om {{subject}}. {{credential}}
+
+[request.msg-forbidden]
+original={{service}} would not give access to {{subject}}. {{credential}}
+translation={{service}} ville ikke give adgang til {{subject}}. {{credential}}
+
+[request.msg-not-found]
+original={{service}} could not find {{subject}}.
+translation={{service}} kunne ikke finde {{subject}}.
+
+[request.msg-rate-limited]
+original={{service}} is limiting how fast {{subject}} can be read. Wait a few minutes and try again.
+translation={{service}} begrænser, hvor hurtigt {{subject}} kan læses. Vent et par minutter, og prøv igen.
+
+[request.msg-timed-out]
+original={{service}} took too long to return {{subject}}. Try again shortly.
+translation={{service}} var for længe om at returnere {{subject}}. Prøv igen om lidt.
+
+[request.msg-unavailable]
+original={{service}} could not return {{subject}} right now. Try again shortly.
+translation={{service}} kunne ikke returnere {{subject}} lige nu. Prøv igen om lidt.
+
+[request.msg-failed-with-code]
+original=Could not read {{subject}}: {{message}} ({{code}})
+translation=Kunne ikke læse {{subject}}: {{message}} ({{code}})
+
+[request.msg-failed-with-message]
+original=Could not read {{subject}}: {{message}}
+translation=Kunne ikke læse {{subject}}: {{message}}
+
+[request.msg-failed-with-reported-code]
+original=Could not read {{subject}}. {{service}} reported {{code}}.
+translation=Kunne ikke læse {{subject}}. {{service}} rapporterede {{code}}.
+
+[request.msg-failed]
+original=Could not read {{subject}}.
+translation=Kunne ikke læse {{subject}}.
+
+[template.msg-intro]
+original=Configure how your data should be imported. Use {{syntax}} syntax to reference field values.
+translation=Konfigurer, hvordan dine data skal importeres. Brug {{syntax}}-syntaks til at referere til feltværdier.
+
+[template.msg-note-template-intro]
+original=Review examples of how your notes will be imported.
+translation=Gennemgå eksempler på, hvordan dine noter vil blive importeret.
+
+[template.name-title]
+original=Note title
+translation=Notetitel
+
+[template.desc-title]
+original=Template for the note title. Use variables like {{field_name}} to insert values.
+translation=Skabelon til notetitlen. Brug variabler som {{field_name}} til at indsætte værdier.
+
+[template.name-location]
+original=Note location
+translation=Noteplacering
+
+[template.desc-location]
+original=Template for note location/path. Use {{field_name}} to organize notes.
+translation=Skabelon til noteplacering/sti. Brug {{field_name}} til at organisere noter.
+
+[template.name-content]
+original=Note content
+translation=Noteindhold
+
+[template.desc-content]
+original=Template for the note content. Use variables like {{field_name}} to insert values.
+translation=Skabelon til noteindholdet. Brug variabler som {{field_name}} til at indsætte værdier.
+
+[template.name-template-file]
+original=Template
+translation=skabelon
+
+[template.desc-template-file]
+original=Optional. Choose a template from your vault to format the note content. See Help for {{link}}.
+translation=Valgfrit. Vælg en skabelon fra din boks til at formatere noteindholdet. Se hjælp for {{link}}.
+
+[template.link-template-syntax]
+original=template syntax
+translation=skabelonsyntaks
+
+[template.heading-preview]
+original=Preview
+translation=Forhåndsvis
+
+[template.status-loading-preview]
+original=Loading preview...
+translation=Indlæser forhåndsvisning...
+
+[template.button-edit-template]
+original=Edit
+translation=Rediger
+
+[template.button-save-template]
+original=Save
+translation=Gem
+
+[template.button-reset-template]
+original=Reset to default
+translation=Nulstil til standard
+
+[template.button-start-import]
+original=Start import
+translation=Start import
+
+[template.link-show-more]
+original=Show more
+translation=Vis mere
+
+[template.name-template-editor]
+original=Template source
+translation=Skabelonkilde
+
+[template.label-edit-import-template]
+original=Edit import template
+translation=Rediger importskabelon
+
+[template.button-add-property]
+original=Add property
+translation=Tilføj egenskab
+
+[template.button-previous-preview]
+original=Previous preview
+translation=Forrige forhåndsvisning
+
+[template.button-next-preview]
+original=Next preview
+translation=Næste forhåndsvisning
+
+[template.msg-diagnostic]
+original=Line {{line}}: {{message}}
+translation=Linje {{line}}: {{message}}
+
+[template.heading-properties]
+original=Properties
+translation=Egenskaber
+
+[template.column-property-name]
+original=Property name
+translation=Egenskabsnavn
+
+[template.column-property-value]
+original=Property value
+translation=Egenskabsværdi
+
+[template.column-example]
+original=Example
+translation=Eksempel
+
+[template.action-delete-property]
+original=Delete property
+translation=Slet egenskab
+
+[template.msg-title-required]
+original=Please provide a note title template.
+translation=Angiv venligst en skabelon til notetitlen.
+
+[importer.airtable-api.name]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.option-text]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-id]
+original=Airtable record ID
+translation=Airtable-post-ID
+
+[importer.airtable-api.name-token]
+original=Airtable personal access token
+translation=Airtable personligt adgangstoken
+
+[importer.airtable-api.desc-token]
+original=Create a personal access token in your Airtable account settings.
+translation=Opret et personligt adgangstoken i dine Airtable-kontoindstillinger.
+
+[importer.airtable-api.link-get-token]
+original=Get token
+translation=Hent token
+
+[importer.airtable-api.name-tables]
+original=Tables to import
+translation=Tabeller til import
+
+[importer.airtable-api.desc-tables]
+original=Load your Airtable bases and tables, then choose what to import.
+translation=Indlæs dine Airtable-baser og -tabeller, og vælg derefter, hvad der skal importeres.
+
+[importer.airtable-api.hint-tables]
+original=Load your Airtable bases and tables to get started.
+translation=Indlæs dine Airtable-baser og -tabeller for at komme i gang.
+
+[importer.airtable-api.msg-fetching-bases]
+original=Fetching bases...
+translation=Henter baser...
+
+[importer.airtable-api.msg-no-bases]
+original=No bases found.
+translation=Ingen baser fundet.
+
+[importer.airtable-api.label-service]
+original=Airtable
+translation=Airtable
+
+[importer.airtable-api.label-subject]
+original=your bases
+translation=dine baser
+
+[importer.airtable-api.label-credential]
+original=Check that your personal access token is current and has access to them.
+translation=Kontrollér, at dit personlige adgangstoken er gyldigt og har adgang til dem.
+
+[importer.airtable-api.name-formulas]
+original=Convert formulas
+translation=Konvertér formler
+
+[importer.airtable-api.desc-formulas]
+original=Try to convert formulas to Obsidian syntax, or import as static values.
+translation=Forsøg at konvertere formler til Obsidian-syntaks, eller importér som statiske værdier.
+
+[importer.airtable-api.option-formula-hybrid]
+original=Obsidian syntax (with fallback)
+translation=Obsidian-syntaks (med fallback)
+
+[importer.airtable-api.option-formula-static]
+original=Static values only
+translation=Kun statiske værdier
+
+[importer.airtable-api.name-download-attachments]
+original=Download attachments
+translation=Hent vedhæftninger
+
+[importer.airtable-api.desc-download-attachments]
+original=Download attachment files to local vault. If disabled or download fails, external URLs will be used.
+translation=Hent vedhæftningsfiler til lokal boks. Hvis deaktiveret, eller hvis download fejler, bruges eksterne URL'er.
+
+[importer.airtable-api.name-view-property]
+original=View property name
+translation=Egenskabsnavn for visning
+
+[importer.airtable-api.desc-view-property]
+original=Property name to track which views a record belongs to. Each record will have a list of view names it appears in.
+translation=Egenskabsnavn til at spore, hvilke visninger en post tilhører. Hver post vil have en liste over visningsnavne, den optræder i.
+
+[importer.airtable-api.msg-token-first]
+original=Please enter your Airtable personal access token first.
+translation=Indtast venligst dit Airtable personlige adgangstoken først.
+
+[importer.airtable-api.msg-token-missing]
+original=Please enter your Airtable personal access token.
+translation=Indtast venligst dit Airtable personlige adgangstoken.
+
+[importer.airtable-api.msg-load-bases-failed]
+original=Failed to load bases: {{error}}
+translation=Kunne ikke indlæse baser: {{error}}
+
+[importer.airtable-api.msg-load-tables-failed]
+original=Failed to load tables for "{{base}}": {{error}}
+translation=Kunne ikke indlæse tabeller for "{{base}}": {{error}}
+
+[importer.airtable-api.msg-pick-table]
+original=Please select at least one table to import.
+translation=Vælg venligst mindst én tabel at importere.
+
+[importer.airtable-api.msg-loading-fields]
+original=Loading fields...
+translation=Indlæser felter...
+
+[importer.airtable-api.msg-no-fields]
+original=No fields found in selected tables. Please check your selection.
+translation=Ingen felter fundet i de valgte tabeller. Kontrollér venligst dit valg.
+
+[importer.airtable-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=Import fejlede: {{error}}
+
+[importer.airtable-api.label-base-position]
+original= (base {{index}} of {{total}})
+translation= (base {{index}} af {{total}})
+
+[importer.airtable-api.label-base]
+original=Base: {{name}}
+translation=Base: {{name}}
+
+[importer.airtable-api.label-linked-table]
+original=Linked table: {{name}}
+translation=Forbundet tabel: {{name}}
+
+[importer.airtable-api.label-table-view]
+original={{table}} > {{view}}
+translation={{table}} > {{view}}
+
+[importer.airtable-api.label-import]
+original=Airtable API import
+translation=Airtable API-import
+
+[importer.airtable-api.status-connecting]
+original=Connecting to Airtable API
+translation=Opretter forbindelse til Airtable API
+
+[importer.airtable-api.status-loading-tables]
+original=Loading tables for {{base}}
+translation=Indlæser tabeller for {{base}}
+
+[importer.airtable-api.status-fetching-tables]
+original=Fetching tables for base {{base}}...
+translation=Henter tabeller for base {{base}}...
+
+[importer.airtable-api.status-found-bases]
+original=Found {{bases}} to import
+translation=Fandt {{bases}} at importere
+
+[importer.airtable-api.status-fetching-base]
+original=Fetching data from {{base}}{{position}}
+translation=Henter data fra {{base}}{{position}}
+
+[importer.airtable-api.status-preparing-records]
+original=Preparing records from {{base}}{{position}}
+translation=Forbereder poster fra {{base}}{{position}}
+
+[importer.airtable-api.status-reading-names]
+original=Reading names from {{table}}{{position}}
+translation=Læser navne fra {{table}}{{position}}
+
+[importer.airtable-api.status-planning]
+original=Working out where {{table}}{{position}} goes
+translation=Beregner hvor {{table}}{{position}} skal placeres
+
+[importer.airtable-api.status-fetching-records]
+original=Fetching records from {{table}}{{position}}
+translation=Henter poster fra {{table}}{{position}}
+
+[importer.airtable-api.status-fetched-records]
+original=Fetched {{records}} from {{table}}{{position}}
+translation=Hentede {{records}} fra {{table}}{{position}}
+
+[importer.airtable-api.status-fetching-view]
+original=Fetching view {{view}} from {{table}}{{position}}
+translation=Henter visning {{view}} fra {{table}}{{position}}
+
+[importer.airtable-api.status-creating-notes]
+original=Creating notes in {{table}}{{position}}
+translation=Opretter noter i {{table}}{{position}}
+
+[importer.airtable-api.status-updating-types]
+original=Updating property types
+translation=Opdaterer egenskabstyper
+
+[importer.airtable-api.status-complete]
+original=Import complete
+translation=Import fuldført
+
+[importer.airtable-api.status-rate-limited]
+original=Rate limited, waiting {{seconds}}s (attempt {{attempt}}/{{total}})...
+translation=Hastighedsbegrænset, venter {{seconds}}s (forsøg {{attempt}}/{{total}})...
+
+[importer.airtable-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}
+translation=Downloader vedhæftning: {{name}}
+
+[importer.airtable-api.reason-no-record-names]
+original=Could not read record names
+translation=Kunne ikke læse postnavne
+
+[importer.airtable-api.reason-empty-record]
+original=Empty record
+translation=Tom post
+
+[importer.airtable-api.desc-no-modified-time]
+original=Airtable does not say when a record last changed, so "{{update}}" compares the note with the record instead. A note you have edited yourself reads as changed, and will be written over.
+translation=Airtable oplyser ikke, hvornår en post sidst blev ændret, så "{{update}}" sammenligner noten med posten i stedet. En note, du selv har redigeret, læses som ændret og vil blive overskrevet.
+
+[importer.apple-notes.name]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.option-text]
+original=Apple Notes
+translation=Apple Notes
+
+[importer.apple-notes.label-id]
+original=Apple Notes ID
+translation=Apple Notes ID
+
+[importer.apple-notes.msg-platform]
+original=Due to platform limitations, Apple Notes cannot be exported from this device. Open your vault on a Mac to export from Apple Notes.
+translation=På grund af platformsbegrænsninger kan Apple Notes ikke eksporteres fra denne enhed. Åbn din boks på en Mac for at eksportere fra Apple Notes.
+
+[importer.apple-notes.name-prefix-format]
+original=File prefix format
+translation=Filpræfiks-format
+
+[importer.apple-notes.desc-prefix-format]
+original=Format for the creation date prefix in filenames. Use YYYY, MM, DD for year, month, day. Leave blank for no prefix.
+translation=Format for oprettelsesdato-præfikset i filnavne. Brug YYYY, MM, DD for år, måned, dag. Lad feltet stå tomt for intet præfiks.
+
+[importer.apple-notes.name-omit-first-line]
+original=Omit first line
+translation=Udelad første linje
+
+[importer.apple-notes.desc-omit-first-line]
+original=Don't include the first line in the text, since Apple Notes uses it as the title. It will still be used as the note name.
+translation=Medtag ikke den første linje i teksten, da Apple Notes bruger den som titel. Den vil stadig blive brugt som notenavnet.
+
+[importer.apple-notes.name-handwriting]
+original=Include handwriting text
+translation=Medtag håndskrevet tekst
+
+[importer.apple-notes.desc-handwriting]
+original=When Apple Notes has detected handwriting in drawings, include it as text before the drawing.
+translation=Når Apple Notes har registreret håndskrift i tegninger, medtag den som tekst før tegningen.
+
+[importer.apple-notes.name-data-folder]
+original=Apple Notes data folder
+translation=Apple Notes datamappe
+
+[importer.apple-notes.desc-data-folder]
+original=macOS only lets Obsidian read your notes once you have pointed it at the folder they are kept in.
+translation=macOS lader kun Obsidian læse dine noter, når du har peget den hen til mappen, de er gemt i.
+
+[importer.apple-notes.button-select-folder]
+original=Select folder
+translation=Vælg mappe
+
+[importer.apple-notes.msg-wrong-folder]
+original=Ensure you have selected the correct Apple Notes data folder.
+translation=Sørg for, at du har valgt den korrekte Apple Notes datamappe.
+
+[importer.apple-notes.msg-dialog-folder]
+original=Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data.
+translation=Vælg mappen "group.com.apple.notes" for at Tillad Obsidian at læse Apple Notes data.
+
+[importer.apple-notes.msg-import-failed]
+original=Data import failed. Ensure you have selected the correct Apple Notes data folder.
+translation=Dataimport mislykkedes. Sørg for, at du har valgt den korrekte Apple Notes datamappe.
+
+[importer.apple-notes.msg-pick-folders]
+original=Please select at least one folder to import.
+translation=Vælg venligst mindst én mappe at importere.
+
+[importer.apple-notes.name-folders]
+original=Folders to import
+translation=Mapper at importere
+
+[importer.apple-notes.desc-folders]
+original=Pick the folders whose notes to bring across.
+translation=Vælg de mapper, hvis noter du vil overføre.
+
+[importer.apple-notes.msg-no-access]
+original=Allow access to your notes to see the folders in them.
+translation=Tillad adgang til dine noter for at se mapperne i dem.
+
+[importer.apple-notes.msg-no-folders]
+original=No folders found.
+translation=Ingen mapper fundet.
+
+[importer.apple-notes.msg-database-busy]
+original=Your Apple Notes database is in use. Quit Notes and try again.
+translation=Din Apple Notes-database er i brug. Luk Notes og prøv igen.
+
+[importer.apple-notes.msg-database-unreadable]
+original=Could not open your Apple Notes database. {{hint}}
+translation=Kunne ikke åbne din Apple Notes-database. {{hint}}
+
+[importer.apple-notes.msg-read-failed-with-detail]
+original=Could not read your notes: {{detail}}
+translation=Kunne ikke læse dine noter: {{detail}}
+
+[importer.apple-notes.msg-read-failed]
+original=Could not read your notes.
+translation=Kunne ikke læse dine noter.
+
+[importer.apple-notes.reason-password-protected]
+original=note is password protected
+translation=noten er beskyttet med adgangskode
+
+[importer.apple-notes.reason-duplicate]
+original=note is a duplicate
+translation=noten er en duplikat
+
+[importer.apple-notes.reason-unchanged]
+original=note unchanged since last import
+translation=noten er uændret siden sidste import
+
+[importer.apple-notes.reason-attachment-exists]
+original=attachment already exists
+translation=vedhæftning findes allerede
+
+[importer.apple-notes.reason-attachment-unchanged]
+original=attachment unchanged since last import
+translation=vedhæftning uændret siden sidste import
+
+[importer.apple-notes.reason-not-downloaded]
+original=it has not been downloaded from iCloud - open the note in Apple Notes to fetch it
+translation=den er ikke blevet hentet fra iCloud – åbn noten i Apple Notes for at hente den
+
+[importer.apple-notes.label-attachment]
+original=Attachment {{id}}
+translation=Vedhæftning {{id}}
+
+[importer.apple-notes.reason-no-attachment-row]
+original=no {{uti}} row to read it from
+translation=ingen {{uti}} Række at læse den fra
+
+[importer.apple-notes.label-attachment-in-note]
+original={{name}} in {{note}}
+translation={{name}} i {{note}}
+
+[importer.apple-journal.name]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.option-text]
+original=Apple Journal
+translation=Apple Journal
+
+[importer.apple-journal.file-type]
+original=Journal entries
+translation=Journal-indlæg
+
+[importer.apple-journal.desc-files]
+original=Export your entries from the Journal app, then pick the HTML files it wrote to iCloud Drive.
+translation=Eksportér dine indlæg fra Journal app, og vælg derefter de HTML-filer, den skrev til iCloud Drive.
+
+[importer.apple-journal.heading-metadata]
+original=Journal metadata
+translation=Journal-metadata
+
+[importer.apple-journal.name-front-matter]
+original=Add metadata as frontmatter
+translation=Tilføj metadata som metadata
+
+[importer.apple-journal.desc-front-matter]
+original=Capture state-of-mind, contact, and similar tokens in YAML when available.
+translation=Gem sindstilstand, kontakt og lignende tokens i YAML, når de er tilgængelige.
+
+[importer.apple-journal.reason-index-file]
+original=index file is not a journal entry
+translation=indeksfil er ikke et Journal-indlæg
+
+[importer.bear.name]
+original=Bear
+translation=Bear
+
+[importer.bear.option-text]
+original=Bear (.bear2bk, .zip)
+translation=Bear (.bear2bk, .zip)
+
+[importer.bear.file-type]
+original=Bear backups
+translation=Bear-sikkerhedskopier
+
+[importer.bear.label-id]
+original=Bear ID
+translation=Bear ID
+
+[importer.bear.desc-export]
+original=Back up your notes in Bear and choose the resulting .bear2bk file. On iPhone and iPad, you can also export Application Data and choose its .zip file.
+translation=Sikkerhedskopier dine noter i Bear og Vælg den resulterende .bear2bk-fil. På iPhone og iPad kan du også eksportere Application Data og Vælg dens .zip-fil.
+
+[importer.bear.name-tags-property]
+original=Move tags to a property
+translation=Flyt Tags til en egenskab
+
+[importer.bear.desc-tags-property]
+original=When enabled, tags are taken out of the note and listed in its tags property. Bear keeps tags in the text of a note, and Obsidian reads them there too.
+translation=Når aktiveret, fjernes Tags fra noten og opføres i dens Tags-egenskab. Bear gemmer Tags i teksten af en note, og Obsidian læser dem der også.
+
+[importer.bear.name-flatten-tags]
+original=Flatten nested tags
+translation=Fladgør indlejrede tags
+
+[importer.bear.desc-flatten-tags]
+original=When enabled, tags will be split on slashes (/) during import.
+translation=Når aktiveret, vil tags blive opdelt ved skråstreger (/) under import.
+
+[importer.bear.status-importing-asset]
+original=Importing asset {{name}}
+translation=Importerer ressource {{name}}
+
+[importer.bear.status-updating-links]
+original=Updating internal links…
+translation=Opdaterer interne links…
+
+[importer.bear.reason-unknown-type]
+original=unknown type of file
+translation=Ukendt filtype
+
+[importer.bear.reason-encrypted]
+original=encrypted note
+translation=krypteret note
+
+[importer.bear.reason-missing-attachment]
+original=the attachment is missing from the export
+translation=vedhæftningen mangler i eksporten
+
+[importer.csv.name]
+original=CSV
+translation=CSV
+
+[importer.csv.option-text]
+original=CSV (.csv)
+translation=CSV (.csv)
+
+[importer.csv.file-type]
+original=CSV
+translation=CSV
+
+[importer.csv.desc-export]
+original=Export your table as CSV from the app it lives in, such as Excel, Google Sheets, Numbers, Notion, or Airtable.
+translation=Eksportér din tabel som CSV fra den applikation, den findes i, f.eks. Excel, Google Sheets, Numbers, Notion eller Airtable.
+
+[importer.csv.name-header-row]
+original=CSV has header row
+translation=CSV har en overskriftsrække
+
+[importer.csv.desc-header-row]
+original=If enabled, the first row of the CSV file will be treated as column headers.
+translation=Hvis aktiveret, vil den første række i CSV-filen blive behandlet som kolonneoverskrifter.
+
+[importer.csv.name-source-title]
+original=Source title
+translation=Kildetitel
+
+[importer.csv.desc-source-title]
+original=Creates the {{title}} value used by the final note title template. Use CSV column variables like {{column_name}}.
+translation=Opretter {{title}}-værdien, der bruges af den endelige notetitelskabelon. Brug CSV-kolonnevariabler som {{column_name}}.
+
+[importer.csv.msg-pick-file]
+original=Please pick at least one CSV file to import.
+translation=Vælg venligst mindst én CSV-fil til import.
+
+[importer.csv.msg-one-at-a-time]
+original=CSV files must be imported one at a time.
+translation=CSV-filer skal importeres én ad gangen.
+
+[importer.csv.msg-no-data]
+original=No data found in {{name}}.
+translation=Ingen data fundet i {{name}}.
+
+[importer.csv.msg-no-configuration]
+original=Configuration is missing.
+translation=Konfiguration mangler.
+
+[importer.csv.status-parsing]
+original=Parsing {{name}}
+translation=Analyserer {{name}}
+
+[importer.csv.status-creating-note]
+original=Creating note: {{title}}
+translation=Opretter note: {{title}}
+
+[importer.csv.label-row]
+original=Row {{number}}
+translation=Række {{number}}
+
+[importer.csv.reason-empty-title]
+original=Empty title
+translation=Tom titel
+
+[importer.files.name]
+original=Files and folders
+translation=Filer og mapper
+
+[importer.files.option-text]
+original=Copy files and folders into your vault
+translation=Kopiér filer og mapper ind i din boks
+
+[importer.files.name-source]
+original=Files to copy
+translation=Filer at kopiére
+
+[importer.files.desc-source]
+original=Drop files or folders anywhere in the window to copy them into your vault.
+translation=Slip filer eller mapper hvor som helst i vinduet for at kopiére dem ind i din boks.
+
+[importer.evernote.name]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.option-text]
+original=Evernote (.enex)
+translation=Evernote (.enex)
+
+[importer.evernote.file-type]
+original=Evernote
+translation=Evernote
+
+[importer.evernote.desc-export]
+original=Export your notebooks in ENEX format, you will receive one .enex file per notebook.
+translation=Eksportér dine notesbøger i ENEX-format, du modtager én .enex-fil per notesbog.
+
+[importer.evernote.msg-unresolved-links]
+original={{count}} link could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} link kunne ikke matches til en note. En ENEX-eksport angiver ikke, hvilken note et link peger på, kun den titel det viste i Evernote, så en note omdøbt efter linket blev oprettet svarer ikke længere til det. Obsidian viser disse under uopløste links.
+
+[importer.evernote.msg-unresolved-links_plural]
+original={{count}} links could not be matched to a note. An ENEX export does not say which note a link points to, only the title it showed in Evernote, so a note renamed since the link was made no longer answers to it. Obsidian lists these under unresolved links.
+translation={{count}} links kunne ikke matches til en note. En ENEX-eksport angiver ikke, hvilken note et link peger på, kun den titel det viste i Evernote, så en note omdøbt efter linket blev oprettet svarer ikke længere til det. Obsidian viser disse under uopløste links.
+
+[importer.keep.name]
+original=Google Keep
+translation=Google Keep
+
+[importer.keep.option-text]
+original=Google Keep (.zip, .json)
+translation=Google Keep (.zip, .json)
+
+[importer.keep.file-type]
+original=Notes & attachments
+translation=Noter og vedhæftninger
+
+[importer.keep.desc-export]
+original=Get your Google Keep data from Google Takeout.
+translation=Hent dine Google Keep-data fra Google Takeout.
+
+[importer.keep.name-archived]
+original=Import archived notes
+translation=Importér arkiverede noter
+
+[importer.keep.desc-archived]
+original=If imported, files archived in Google Keep will be tagged as archived.
+translation=Hvis importeret, vil filer arkiveret i Google Keep blive tagget som arkiverede.
+
+[importer.keep.name-deleted]
+original=Import deleted notes
+translation=Importér slettede noter
+
+[importer.keep.desc-deleted]
+original=If imported, files deleted in Google Keep will be tagged as deleted. Deleted notes will only exist in your Google export if deleted recently.
+translation=Hvis importeret, vil filer slettet i Google Keep blive tagget som slettet. Slettede noter vil kun findes i din Google-eksport, hvis de er slettet for nylig.
+
+[importer.keep.reason-invalid-json]
+original=Invalid Google Keep JSON
+translation=Ugyldig Google Keep JSON
+
+[importer.keep.reason-archived]
+original=Archived note
+translation=Arkiveret note
+
+[importer.keep.reason-deleted]
+original=Deleted note
+translation=Slettet note
+
+[importer.html.name]
+original=HTML files
+translation=HTML-filer
+
+[importer.html.option-text]
+original=HTML (.html, .zip)
+translation=HTML (.html, .zip)
+
+[importer.html.label-id]
+original=HTML source path
+translation=HTML-kildesti
+
+[importer.html.desc-source-identity]
+original=Changing which folder or zip file you choose can change the source path, so existing notes may not be recognized.
+translation=Ændring af hvilken mappe eller zip-fil du vælger, kan ændre kildestien, så eksisterende noter muligvis ikke genkendes.
+
+[importer.html.file-type]
+original=HTML
+translation=HTML
+
+[importer.html.desc-export]
+original=Save the pages you want to keep as HTML. If the app they are in has an importer of its own, use that instead: it keeps more of your data.
+translation=Gem de sider, du vil beholde, som HTML. Hvis den applikation, de er i, har sin egen importør, så brug den i stedet: den bevarer flere af dine data.
+
+[importer.html.desc-source]
+original=Choose individual HTML files, whole folders, or zip files. Pages in folders stay organized the same way.
+translation=Vælg individuelle HTML-filer, hele mapper eller zip-filer. Sider i mapper bevarer deres organisering.
+
+[importer.html.name-extract-main-content]
+original=Extract main content
+translation=Udtræk hovedindhold
+
+[importer.html.desc-extract-main-content]
+original=Remove navigation, sidebars, footers, and other page clutter.
+translation=Fjern navigation, sidepaneler, sidefødder og andet rod på siden.
+
+[importer.html.name-size-limit]
+original=Attachment size limit (MB)
+translation=Størrelsesgrænse for vedhæftninger (MB)
+
+[importer.html.name-minimum-image-size]
+original=Minimum image size (px)
+translation=Minimum billedstørrelse (px)
+
+[importer.html.desc-set-zero-to-disable]
+original=Set 0 to disable.
+translation=Sæt til 0 for at deaktivere.
+
+[importer.html.status-downloading]
+original=Downloading attachment for {{name}}
+translation=Downloader vedhæftning til {{name}}
+
+[importer.markdown.name]
+original=Markdown
+translation=Markdown
+
+[importer.markdown.option-text]
+original=Markdown (.md, .txt, .zip)
+translation=Markdown (.md, .txt, .zip)
+
+[importer.markdown.file-type]
+original=Markdown and text
+translation=Markdown og Tekst
+
+[importer.markdown.desc-source]
+original=Choose individual Markdown or text files, whole folders, or zip files. Everything in folders stays organized the same way.
+translation=Vælg individuelle Markdown- eller tekstfiler, hele mapper eller zip-filer. Alt i mapper forbliver organiseret på samme måde.
+
+[importer.markdown.name-standardize-formatting]
+original=Standardize formatting
+translation=Standardisér formatering
+
+[importer.markdown.desc-standardize-formatting]
+original=Use this vault's settings for lists, indentation, and links.
+translation=Brug denne boks' indstillinger for lister, indrykning og Links.
+
+[importer.markdown.name-tags-as-properties]
+original=Convert inline tags to properties
+translation=Konvertér inline-tags til Egenskaber
+
+[importer.markdown.desc-tags-as-properties]
+original=Move tags written in the body of a note into its tags property.
+translation=Flyt Tags skrevet i Brødteksten af en note til dens tags-egenskab.
+
+[importer.logseq.name]
+original=Logseq
+translation=Logseq
+
+[importer.logseq.option-text]
+original=Logseq (.md)
+translation=Logseq (.md)
+
+[importer.logseq.label-id]
+original=Logseq source
+translation=Logseq-kilde
+
+[importer.logseq.desc-instructions]
+original=Read the instructions for importing from Logseq.
+translation=Læs instruktionerne for import fra Logseq.
+
+[importer.logseq.desc-files]
+original=Choose one graph folder containing pages, journals, and assets.
+translation=Vælg én graf-mappe, der indeholder sider, journaler og assets.
+
+[importer.logseq.name-use-daily-notes]
+original=Use daily notes settings
+translation=Brug indstillinger for Daglige noter
+
+[importer.logseq.desc-use-daily-notes]
+original=Write journals to the configured daily notes folder and filename format.
+translation=Skriv journaler til den konfigurerede mappe og filnavnformat for Daglige noter.
+
+[importer.logseq.name-queries]
+original=Keep queries
+translation=Behold forespørgsler
+
+[importer.logseq.desc-queries]
+original=Obsidian doesn't support Logseq's query format, so queries are imported as code blocks.
+translation=Obsidian understøtter ikke Logseq's forespørgselsformat, så forespørgsler importeres som kodeblokke.
+
+[importer.logseq.name-flashcards]
+original=Keep flashcards
+translation=Behold flashcards
+
+[importer.logseq.desc-flashcards]
+original=Obsidian doesn't support Logseq's flashcards, so card markers and cloze wrappers are imported as plain text.
+translation=Obsidian understøtter ikke Logseq's flashcards, så kort-markører og cloze-indpakninger importeres som almindelig tekst.
+
+[importer.logseq.name-time-tracking]
+original=Keep time tracking
+translation=Behold tidssporing
+
+[importer.logseq.desc-time-tracking]
+original=Obsidian doesn't support Logseq's time tracking, so LOGBOOK and CLOCK entries are imported as plain text.
+translation=Obsidian understøtter ikke Logseq's tidssporing, så LOGBOOK- og CLOCK-poster importeres som almindelig tekst.
+
+[importer.logseq.msg-pick-graph]
+original=Please choose one Logseq graph folder.
+translation=Vælg venligst én Logseq graf-mappe.
+
+[importer.logseq.msg-no-notes]
+original=The selected folder has no Markdown notes under pages or journals.
+translation=Den valgte mappe indeholder ingen Markdown-noter under pages eller journals.
+
+[importer.logseq.reason-empty-page]
+original=The converted page is empty
+translation=Den konverterede side er tom
+
+[importer.logseq.reason-missing-asset]
+original=Referenced by {{name}}, but missing from the graph
+translation=Refereret af {{name}}, men mangler i grafen
+
+[importer.logseq.reason-whiteboards]
+original=Logseq whiteboards are not supported by Obsidian
+translation=Logseq whiteboards understøttes ikke af Obsidian
+
+[importer.onenote.name]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.option-text]
+original=Microsoft OneNote
+translation=Microsoft OneNote
+
+[importer.onenote.method-name]
+original=Microsoft account
+translation=Microsoft-konto
+
+[importer.onenote.method-desc]
+original=Sign into your Microsoft account and import the notebooks that are synced to OneDrive. Requires an internet connection.
+translation=Log ind på din Microsoft-konto og importér de notesbøger, der er synkroniseret til OneDrive. Kræver internetforbindelse.
+
+[importer.onenote.label-id]
+original=OneNote ID
+translation=OneNote ID
+
+[importer.onenote.name-incompatible]
+original=Import incompatible attachments
+translation=Importér inkompatible vedhæftninger
+
+[importer.onenote.desc-incompatible]
+original=Imports incompatible attachments which cannot be embedded in Obsidian, such as .exe files.
+translation=Importerer inkompatible vedhæftninger, som ikke kan indlejres i Obsidian, f.eks. .exe-filer.
+
+[importer.onenote.name-account]
+original=Microsoft account
+translation=Microsoft-konto
+
+[importer.onenote.desc-sign-in]
+original=Sign in to import your OneNote notebooks.
+translation=Log ind for at importere dine OneNote-notesbøger.
+
+[importer.onenote.desc-sign-in-organization]
+original=Sign in to import your OneNote notebooks. A work or school account may need your organization to approve access.
+translation=Log ind for at importere dine OneNote-notesbøger. En arbejds- eller skolekonto kan kræve, at din organisation godkender adgang.
+
+[importer.onenote.desc-signed-in]
+original=Signed in as {{name}} ({{email}}).
+translation=Logget ind som {{name}} ({{email}}).
+
+[importer.onenote.button-sign-in]
+original=Sign in
+translation=Log ind
+
+[importer.onenote.button-sign-out]
+original=Sign out
+translation=Log ud
+
+[importer.onenote.button-work-account]
+original=Use work or school access
+translation=Brug arbejds- eller skoleadgang
+
+[importer.onenote.msg-sign-in-failed]
+original=An error occurred while trying to sign you in.
+translation=Der opstod en fejl under forsøg på at logge dig ind.
+
+[importer.onenote.msg-sign-in-details]
+original=Show error details
+translation=Vis fejldetaljer
+
+[importer.onenote.msg-signed-out]
+original=Sign in to see your OneNote notebooks.
+translation=Log ind for at se dine OneNote-notesbøger.
+
+[importer.onenote.msg-please-sign-in]
+original=Please sign in to your Microsoft account.
+translation=Log ind på din Microsoft-konto.
+
+[importer.onenote.name-sections]
+original=Sections to import
+translation=Sektioner der skal importeres
+
+[importer.onenote.desc-sections]
+original=Select a notebook, or sections within it.
+translation=Vælg en notesbog eller sektioner i den.
+
+[importer.onenote.msg-loading-notebooks]
+original=Loading notebooks...
+translation=Indlæser notesbøger...
+
+[importer.onenote.msg-no-notebooks]
+original=No notebooks found.
+translation=Ingen notesbøger fundet.
+
+[importer.onenote.msg-scope-refused]
+original=OneNote did not grant this sign-in access to your notebooks. Sign out and sign in again to ask for work or school access, which your organization may need to approve.
+translation=OneNote gav ikke denne login adgang til dine notesbøger. Log ud og log ind igen for at anmode om arbejds- eller skoleadgang, som din organisation muligvis skal godkende.
+
+[importer.onenote.label-service]
+original=OneNote
+translation=OneNote
+
+[importer.onenote.label-subject]
+original=your notebooks
+translation=dine notesbøger
+
+[importer.onenote.label-credential]
+original=Sign out and back in to try again.
+translation=Log ud og ind igen for at prøve igen.
+
+[importer.onenote.status-finding]
+original=Finding notes to import
+translation=Finder noter til import
+
+[importer.onenote.status-finding-in]
+original=Finding notes in {{section}}
+translation=Finder noter i {{section}}
+
+[importer.onenote.status-finding-in-section]
+original=Finding notes in {{section}} (section {{index}} of {{total}})
+translation=Finder noter i {{section}} (sektion {{index}} af {{total}})
+
+[importer.onenote.status-importing-notes]
+original=Importing {{notes}}
+translation=Importerer {{notes}}
+
+[importer.onenote.status-downloading]
+original=Downloading attachment {{name}}
+translation=Henter vedhæftning {{name}}
+
+[importer.onenote.msg-too-many-errors]
+original=Microsoft OneNote returned too many consecutive errors.
+translation=Microsoft OneNote returnerede for mange fortløbende fejl.
+
+[importer.onenote.label-unknown-page]
+original=<unknown>
+translation=<Ukendt>
+
+[importer.onenote.reason-too-many-failures]
+original=import was canceled (after too many pages failed to load)
+translation=import blev annulleret (efter for mange sider ikke kunne indlæses)
+
+[importer.onenote.label-ink]
+original={{page}} - Ink.svg
+translation={{page}} - Ink.svg
+
+[importer.onenote.label-attachment]
+original=OneNote attachment
+translation=OneNote-vedhæftning
+
+[importer.onenote.label-image]
+original=OneNote image
+translation=OneNote-billede
+
+[importer.onenote.reason-no-attachment-name]
+original=the attachment did not say what it was called
+translation=vedhæftningen angav ikke sit navn
+
+[importer.onenote.reason-no-attachment-url]
+original=the attachment did not include a download URL
+translation=vedhæftningen indeholdt ikke en URL til download
+
+[importer.onenote.reason-no-image-url]
+original=the image did not include a download URL
+translation=billedet indeholdt ikke en URL til download
+
+[importer.onenote-file.name]
+original=Microsoft OneNote (export file)
+translation=Microsoft OneNote (eksportfil)
+
+[importer.onenote-file.option-text]
+original=Microsoft OneNote (.one, .onepkg)
+translation=Microsoft OneNote (.one, .onepkg)
+
+[importer.onenote-file.method-name]
+original=File import
+translation=Filimport
+
+[importer.onenote-file.method-desc]
+original=Import using OneNote export files (.one, .onepkg) from your computer. Requires no account or internet connection, and works for notebooks that were never synced.
+translation=Importér ved hjælp af OneNote-eksportfiler (.one, .onepkg) fra din computer. Kræver ingen konto eller internetforbindelse og fungerer med notesbøger, der aldrig blev synkroniseret.
+
+[importer.onenote-file.file-type]
+original=OneNote export
+translation=OneNote-eksport
+
+[importer.onenote-file.label-id]
+original=OneNote ID
+translation=OneNote ID
+
+[importer.onenote-file.desc-backup-folder]
+original=OneNote for Windows keeps its own backups, and this opens there. Pick the notebooks or sections you want.
+translation=OneNote til Windows gemmer sine egne sikkerhedskopier, og dette åbner dér. Vælg de notesbøger eller sektioner, du ønsker.
+
+[importer.onenote-file.desc-export]
+original=In OneNote for Windows, right-click a notebook and export it to save a .onepkg file, or export a single section as .one.
+translation=Højreklik på en notesbog i OneNote til Windows, og eksportér den for at gemme en .onepkg-fil, eller eksportér en enkelt sektion som .one.
+
+[importer.onenote-file.name-sections]
+original=Sections to import
+translation=Sektioner at importere
+
+[importer.onenote-file.desc-sections]
+original=Choose which sections to import.
+translation=Vælg hvilke sektioner der skal importeres.
+
+[importer.onenote-file.msg-loading-sections]
+original=Reading sections…
+translation=Læser sektioner…
+
+[importer.onenote-file.msg-no-sections]
+original=No sections found in this file.
+translation=Ingen sektioner fundet i denne fil.
+
+[importer.onenote-file.msg-pick-file-first]
+original=Choose a OneNote file first.
+translation=Vælg en OneNote-fil først.
+
+[importer.onenote-file.status-reading-section]
+original=Reading {{name}}
+translation=Læser {{name}}
+
+[importer.onenote-file.status-importing-section]
+original=Importing {{name}} ({{index}} of {{total}})
+translation=Importerer {{name}} ({{index}} af {{total}})
+
+[importer.onenote-file.reason-rights-protected]
+original=the file is rights-protected, and can only be opened by an account with permission to it
+translation=filen er rettighedsbeskyttet og kan kun åbnes af en konto med tilladelse til den
+
+[importer.onenote-file.reason-unsupported]
+original=the file uses a OneNote format this importer cannot read yet
+translation=filen bruger et OneNote-format, som denne importør endnu ikke kan læse
+
+[importer.onenote-file.reason-malformed]
+original=the file does not describe the OneNote structures it claims to
+translation=filen beskriver ikke de OneNote-strukturer, den hævder at indeholde
+
+[importer.onenote-file.reason-too-large]
+original=the file is larger than this importer is willing to expand
+translation=filen er større, end denne importør er villig til at udpakke
+
+[importer.onenote-file.reason-no-attachment-data]
+original=the attachment held no data
+translation=vedhæftningen indeholdt ingen data
+
+[importer.notion-api.name]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.option-text]
+original=Notion (API)
+translation=Notion (API)
+
+[importer.notion-api.method-name]
+original=Notion account (recommended)
+translation=Notion-konto (Anbefalet)
+
+[importer.notion-api.method-desc]
+original=Imports your entire workspace, including databases and formulas which are converted to bases. Requires a Notion integration token and an internet connection.
+translation=Importerer hele dit arbejdsområde, herunder databaser og formler, som konverteres til baser. Kræver et Notion-integrationstoken og en internetforbindelse.
+
+[importer.notion-api.label-id]
+original=Notion ID
+translation=Notion ID
+
+[importer.notion-api.name-token]
+original=Notion API token
+translation=Notion API-token
+
+[importer.notion-api.desc-token]
+original=To get an API token create a connection in Notion and give it access to pages in your workspace.
+translation=For at få et API-token skal du oprette en forbindelse i Notion og give den adgang til sider i dit arbejdsområde.
+
+[importer.notion-api.link-get-token]
+original=Get API token
+translation=Hent API-token
+
+[importer.notion-api.name-pages]
+original=Pages to import
+translation=Sider at importere
+
+[importer.notion-api.desc-pages]
+original=Load your Notion pages and databases, then choose what to import. If a page or database is missing, check that your Notion connection has access to it.
+translation=Indlæs dine Notion-sider og -databaser, og vælg derefter, hvad der skal importeres. Hvis en side eller database mangler, skal du kontrollere, at din Notion-forbindelse har adgang til den.
+
+[importer.notion-api.hint-pages]
+original=Load your Notion pages and databases to get started.
+translation=Indlæs dine Notion-sider og -databaser for at komme i gang.
+
+[importer.notion-api.msg-loading-pages]
+original=Loading pages and databases...
+translation=Indlæser sider og databaser...
+
+[importer.notion-api.msg-no-pages]
+original=No pages or databases found. Make sure your connection has access to the pages you want to import.
+translation=Ingen sider eller databaser fundet. Sørg for, at din forbindelse har adgang til de sider, du vil importere.
+
+[importer.notion-api.label-service]
+original=Notion
+translation=Notion
+
+[importer.notion-api.label-subject]
+original=your pages
+translation=dine sider
+
+[importer.notion-api.label-credential]
+original=Check that your token is current and that the connection has access to them.
+translation=Kontrollér, at dit token er gyldigt, og at forbindelsen har adgang til dem.
+
+[importer.notion-api.name-formulas]
+original=Convert formulas
+translation=Konvertér formler
+
+[importer.notion-api.desc-formulas]
+original=By default Notion formulas are converted to Obsidian syntax. If any Notion syntax is not supported the static values will be saved instead. Alternatively you can import all formulas as static values.
+translation=Som standard konverteres Notion-formler til Obsidian-syntaks. Hvis en Notion-syntaks ikke understøttes, gemmes de statiske værdier i stedet. Alternativt kan du importere alle formler som statiske værdier.
+
+[importer.notion-api.option-formula-hybrid]
+original=Obsidian syntax
+translation=Obsidian-syntaks
+
+[importer.notion-api.option-formula-static]
+original=Static values
+translation=Statiske værdier
+
+[importer.notion-api.name-download-external]
+original=Download external attachments
+translation=Hent eksterne vedhæftninger
+
+[importer.notion-api.desc-download-external]
+original=Download external attachments (external URLs) to local files. Notion-hosted files are always downloaded.
+translation=Hent eksterne vedhæftninger (eksterne URL'er) til lokale filer. Filer hostet på Notion hentes Altid.
+
+[importer.notion-api.name-single-line-breaks]
+original=Single line breaks
+translation=Enkelt linjeskift
+
+[importer.notion-api.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break instead of two. Some blocks (lists, toggles, tables) will still use double line breaks when required for proper Markdown syntax.
+translation=Adskil Notion-blokke med kun ét linjeskift i stedet for to. Nogle blokke (lister, foldbare blokke, tabeller) vil stadig bruge dobbelt linjeskift, når det er nødvendigt for korrekt Markdown-syntaks.
+
+[importer.notion-api.name-cover-property]
+original=Cover property name
+translation=Navn på cover-egenskab
+
+[importer.notion-api.desc-cover-property]
+original=Property name for page cover image in YAML frontmatter. 
+translation=Egenskabsnavn for sidens coverbillede i YAML-metadata. 
+
+[importer.notion-api.desc-cover-property-conflicts]
+original=Leave as "cover" if you don't have conflicts with existing properties.
+translation=Behold som "cover", hvis du ikke har konflikter med eksisterende egenskaber.
+
+[importer.notion-api.name-database-property]
+original=Database property name
+translation=Navn på database-egenskab
+
+[importer.notion-api.desc-database-property]
+original=Property name in page frontmatter to link pages to their database .base file (default: "base")
+translation=Egenskabsnavn i sidens metadata til at linke sider til deres database-.base-fil (standard: "base")
+
+[importer.notion-api.name-linked-databases]
+original=Import linked databases
+translation=Importér linkede databaser
+
+[importer.notion-api.desc-linked-databases]
+original=Also import databases that the selected pages link to, so relations become links rather than names. This imports pages you did not select.
+translation=Importér også databaser, som de valgte sider linker til, så relationer bliver links i stedet for navne. Dette importerer sider, du ikke har valgt.
+
+[importer.notion-api.msg-token-first]
+original=Please enter your Notion API token first.
+translation=Indtast venligst dit Notion API-token først.
+
+[importer.notion-api.msg-token-missing]
+original=Please enter your Notion API token.
+translation=Indtast venligst dit Notion API-token.
+
+[importer.notion-api.msg-load-pages-failed]
+original=Failed to load pages: {{error}}
+translation=Kunne ikke indlæse sider: {{error}}
+
+[importer.notion-api.msg-pick-page]
+original=Please select at least one page or database to import.
+translation=Vælg venligst mindst én side eller database til import.
+
+[importer.notion-api.msg-import-failed]
+original=Import failed: {{error}}
+translation=Import fejlede: {{error}}
+
+[importer.notion-api.status-loading-items]
+original=Loading... ({{items}}, page {{page}})
+translation=Indlæser... ({{items}}, side {{page}})
+
+[importer.notion-api.status-connecting]
+original=Connecting to Notion API...
+translation=Opretter forbindelse til Notion API...
+
+[importer.notion-api.status-fetching]
+original=Fetching page content from Notion...
+translation=Henter sideindhold fra Notion...
+
+[importer.notion-api.status-preparing]
+original=Preparing to import {{items}}...
+translation=Forbereder import af {{items}}...
+
+[importer.notion-api.status-importing-items]
+original=Importing {{items}}...
+translation=Importerer {{items}}...
+
+[importer.notion-api.status-importing-item]
+original=Importing item {{index}}/{{total}}...
+translation=Importerer element {{index}}/{{total}}...
+
+[importer.notion-api.status-importing-title]
+original=Importing: {{title}}
+translation=Importerer: {{title}}
+
+[importer.notion-api.status-relation-links]
+original=Processing relation links...
+translation=Behandler relationslinks...
+
+[importer.notion-api.status-mention-links]
+original=Processing mention links...
+translation=Behandler omtalelinks...
+
+[importer.notion-api.status-synced-blocks]
+original=Processing synced block child references...
+translation=Behandler synkroniserede blok-underreferencer...
+
+[importer.notion-api.status-cleaning-ids]
+original=Cleaning up notion-id attributes...
+translation=Rydder op i notion-id-attributter...
+
+[importer.notion-api.status-done]
+original=Import completed successfully!
+translation=Import gennemført!
+
+[importer.notion-api.status-replacing-relations]
+original=Replacing {{placeholders}}...
+translation=Erstatter {{placeholders}}...
+
+[importer.notion-api.status-replacing-relation-links]
+original=Replacing relation placeholders with wiki links...
+translation=Erstatter relationspladsholdere med wiki-links...
+
+[importer.notion-api.status-importing-linked-databases]
+original=Importing {{databases}}...
+translation=Importerer {{databases}}...
+
+[importer.notion-api.status-importing-unimported]
+original=Importing unimported database {{id}}...
+translation=Importerer ikke-importeret database {{id}}...
+
+[importer.notion-api.status-replacing-mentions]
+original=Replacing mention placeholders...
+translation=Erstatter omtalepladsholdere...
+
+[importer.notion-api.status-replaced-mentions]
+original=Replaced {{links}} in {{files}}.
+translation=Erstattede {{links}} i {{files}}.
+
+[importer.notion-api.status-replacing-synced]
+original=Replacing synced block child references...
+translation=Erstatter synkroniserede blok-underreferencer...
+
+[importer.notion-api.status-replaced-synced]
+original=Replaced {{references}} in {{files}} (imported {{imported}}).
+translation=Erstattede {{references}} i {{files}} (importerede {{imported}}).
+
+[importer.notion-api.status-downloading-attachment]
+original=Downloading attachment: {{name}}...
+translation=Henter vedhæftning: {{name}}...
+
+[importer.notion-api.status-rate-limited]
+original=Rate limited. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=Hastighedsbegrænset. Venter {{seconds}} sekunder før nyt forsøg ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying]
+original=Notion returned {{status}}. Waiting {{seconds}} seconds before retry ({{attempt}}/{{total}})...
+translation=Notion returnerede {{status}}. Venter {{seconds}} sekunder før nyt forsøg ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-retrying-attachment]
+original={{name}}: {{failure}}. Retrying in {{seconds}} seconds ({{attempt}}/{{total}})...
+translation={{name}}: {{failure}}. Prøver igen om {{seconds}} sekunder ({{attempt}}/{{total}})...
+
+[importer.notion-api.status-processing-data-source]
+original=Processing database from data source: {{id}}...
+translation=Behandler database fra datakilde: {{id}}...
+
+[importer.notion-api.status-processing-database]
+original=Processing database: {{title}}...
+translation=Behandler database: {{title}}...
+
+[importer.notion-api.status-found-pages]
+original=Found {{pages}} in database {{title}}
+translation=Fandt {{pages}} i database {{title}}
+
+[importer.notion-api.status-found-templates]
+original=Found {{templates}} in database {{title}}
+translation=Fandt {{templates}} i database {{title}}
+
+[importer.notion-api.status-importing-template]
+original=Importing template: {{name}}...
+translation=Importerer skabelon: {{name}}...
+
+[importer.notion-api.label-import]
+original=Notion API import
+translation=Notion API-import
+
+[importer.notion-api.label-item]
+original=Import item {{id}}
+translation=Importelement {{id}}
+
+[importer.notion-api.label-page]
+original=Page {{id}}
+translation=Side {{id}}
+
+[importer.notion-api.label-page-with-title]
+original=Page: {{title}} ({{id}})
+translation=Side: {{title}} ({{id}})
+
+[importer.notion-api.label-relation-page]
+original=Relation page {{id}}
+translation=Relationsside {{id}}
+
+[importer.notion-api.label-database-with-id]
+original=Database: {{title}} ({{id}})
+translation=Database: {{title}} ({{id}})
+
+[importer.notion-api.label-mention-file]
+original=Mention file {{path}}
+translation=Omtalt fil {{path}}
+
+[importer.notion-api.label-synced-block-file]
+original=Synced block file {{path}}
+translation=Synkroniseret blokfil {{path}}
+
+[importer.notion-api.label-attachment]
+original=Attachment: {{name}}
+translation=Vedhæftning: {{name}}
+
+[importer.notion-api.label-child-page]
+original=Child page: {{title}}
+translation=Underside: {{title}}
+
+[importer.notion-api.label-synced-block]
+original=Synced block: {{name}}
+translation=Synkroniseret blok: {{name}}
+
+[importer.notion-api.label-attachment-image]
+original=Image attachment
+translation=Billedvedhæftning
+
+[importer.notion-api.label-attachment-video]
+original=Video attachment
+translation=Videovedhæftning
+
+[importer.notion-api.label-attachment-audio]
+original=Audio attachment
+translation=Lydvedhæftning
+
+[importer.notion-api.label-attachment-file]
+original=File attachment
+translation=Filvedhæftning
+
+[importer.notion-api.label-attachment-pdf]
+original=PDF attachment
+translation=PDF-vedhæftning
+
+[importer.notion-api.label-preview-child-page]
+original=Child page
+translation=Underside
+
+[importer.notion-api.label-preview-database]
+original=Database
+translation=Database
+
+[importer.notion-api.msg-preview-nested-content]
+original=Nested content is not loaded in the preview.
+translation=Indlejret indhold indlæses ikke i forhåndsvisningen.
+
+[importer.notion-api.msg-preview-content-not-loaded]
+original={{type}} is not loaded in the preview.
+translation={{type}} indlæses ikke i forhåndsvisningen.
+
+[importer.notion-api.msg-preview-content-not-loaded-with-caption]
+original={{type}}: {{caption}} is not loaded in the preview.
+translation={{type}}: {{caption}} indlæses ikke i forhåndsvisningen.
+
+[importer.notion-api.msg-preview-block-not-expanded]
+original={{type}} is not expanded in the preview.
+translation={{type}} er ikke udvidet i forhåndsvisningen.
+
+[importer.notion-api.label-fetch-children]
+original=Fetch children for {{context}} {{id}}
+translation=Hent underelementer for {{context}} {{id}}
+
+[importer.notion-api.block-paragraph]
+original=paragraph
+translation=Afsnit
+
+[importer.notion-api.block-bulleted-list-item]
+original=bulleted list item
+translation=punktlisteelement
+
+[importer.notion-api.block-numbered-list-item]
+original=numbered list item
+translation=nummereret listeelement
+
+[importer.notion-api.block-todo-item]
+original=to-do item
+translation=opgaveelement
+
+[importer.notion-api.block-quote]
+original=quote block
+translation=citatblok
+
+[importer.notion-api.block-callout]
+original=callout block
+translation=bobleblok
+
+[importer.notion-api.block-toggle]
+original=toggle block
+translation=skifteblok
+
+[importer.notion-api.block-toggleable-heading]
+original=toggleable heading
+translation=overskrift med skift
+
+[importer.notion-api.block-column]
+original=column
+translation=Kolonne
+
+[importer.notion-api.block-column-list]
+original=column list
+translation=kolonneliste
+
+[importer.notion-api.block-table]
+original=table
+translation=Tabel
+
+[importer.notion-api.block-generic]
+original=block
+translation=blok
+
+[importer.notion-api.label-meeting-notes]
+original=Meeting notes: {{name}}
+translation=Mødenoter: {{name}}
+
+[importer.notion-api.label-meeting-notes-section]
+original=Meeting notes: {{name}} ({{section}})
+translation=Mødenoter: {{name}} ({{section}})
+
+[importer.notion-api.label-untitled-meeting]
+original=Meeting notes {{id}}
+translation=Mødenoter {{id}}
+
+[importer.notion-api.section-summary]
+original=summary
+translation=Opsummering
+
+[importer.notion-api.section-notes]
+original=notes
+translation=noter
+
+[importer.notion-api.section-transcript]
+original=transcript
+translation=transskription
+
+[importer.notion-api.label-fetch-children-block]
+original=Fetch children for block {{id}}
+translation=Hent underelementer for blok {{id}}
+
+[importer.notion-api.reason-not-in-tree]
+original=Item not found in tree
+translation=Element ikke fundet i træet
+
+[importer.notion-api.reason-unknown-type]
+original=Unknown type: {{type}}
+translation=Ukendt type: {{type}}
+
+[importer.notion-api.reason-earlier-import]
+original=an earlier import had already written it
+translation=en tidligere import havde allerede skrevet den
+
+[importer.notion-api.reason-attachment-exists]
+original={{path}} is already in the vault, the same size (incremental import)
+translation={{path}} er allerede i boksen med samme størrelse (trinvis import)
+
+[importer.notion-api.reason-http-status]
+original=HTTP {{status}}
+translation=HTTP {{status}}
+
+[importer.notion-api.reason-meeting-notes-pending]
+original=Notion has not finished generating them ({{status}})
+translation=Notion er ikke færdig med at generere dem ({{status}})
+
+[importer.notion-api.reason-rate-limit-gave-up]
+original=rate limited, and gave up after {{retries}} retries
+translation=hastighedsbegrænset, og gav op efter {{retries}} forsøg
+
+[importer.notion-api.reason-gave-up]
+original={{reason}}, and gave up after {{retries}} retries
+translation={{reason}}, og gav op efter {{retries}} forsøg
+
+[importer.notion-api.reason-kept-link]
+original={{reason}}; kept the link to {{url}}
+translation={{reason}}; beholdt linket til {{url}}
+
+[importer.notion.name]
+original=Notion
+translation=Notion
+
+[importer.notion.option-text]
+original=Notion (.zip)
+translation=Notion (.zip)
+
+[importer.notion.method-name]
+original=File import
+translation=Filimport
+
+[importer.notion.method-desc]
+original=Imports using a Notion export file (.zip). Requires no API token or internet connection, but does not preserve databases.
+translation=Importerer ved hjælp af en Notion-eksportfil (.zip). Kræver ingen API-nøgle eller internetforbindelse, men bevarer ikke databaser.
+
+[importer.notion.file-type]
+original=Exported Notion
+translation=Eksporteret Notion
+
+[importer.notion.label-id]
+original=Notion ID
+translation=Notion ID
+
+[importer.notion.desc-export]
+original=Export your workspace in HTML format, you will receive a zip file.
+translation=Eksportér dit arbejdsområde i HTML-format, du vil modtage en zip-fil.
+
+[importer.notion.desc-files]
+original=Pick the zip file Notion sent you.
+translation=Vælg den zip-fil, Notion sendte dig.
+
+[importer.notion.name-subfolders]
+original=Save parent pages in subfolders
+translation=Gem overordnede sider i undermapper
+
+[importer.notion.desc-subfolders]
+original=Places the parent database pages in the same folder as the nested content.
+translation=Placerer de overordnede databasesider i samme mappe som det indlejrede indhold.
+
+[importer.notion.name-single-line-breaks]
+original=Single line breaks
+translation=Enkelt linjeskift
+
+[importer.notion.desc-single-line-breaks]
+original=Separate Notion blocks with only one line break (default is 2).
+translation=Adskil Notion-blokke med kun ét linjeskift (standard er 2).
+
+[importer.notion.msg-unknown-property]
+original=Property "{{property}}" has an unknown type ({{type}}); kept its value as text.
+translation=Egenskaben "{{property}}" har en ukendt type ({{type}}); dens værdi er bevaret som tekst.
+
+[importer.notion.msg-unparsed-date]
+original=Could not determine the date in property "{{property}}": {{value}}. Kept its value as text.
+translation=Kunne ikke bestemme datoen i egenskaben "{{property}}": {{value}}. Dens værdi er bevaret som tekst.
+
+[importer.notion.status-looking]
+original=Looking for files to import
+translation=Leder efter filer at importere
+
+[importer.notion.status-resolving]
+original=Resolving links and de-duplicating files
+translation=Opløser links og fjerner duplikerede filer
+
+[importer.notion.status-starting]
+original=Starting import
+translation=Starter import
+
+[importer.notion.msg-markdown-export]
+original=This is a Markdown export. Export your Notion workspace as HTML instead.
+translation=Dette er en Markdown-eksport. Eksportér dit Notion-arbejdsområde som HTML i stedet.
+
+[importer.notion.reason-markdown-export]
+original=it is a Markdown export; export your Notion workspace as HTML instead
+translation=det er en Markdown-eksport; eksportér dit Notion-arbejdsområde som HTML i stedet
+
+[importer.notion.reason-no-page-body]
+original=page body was not found
+translation=sidens brødtekst blev ikke fundet
+
+[importer.roam-json.name]
+original=Roam Research
+translation=Roam Research
+
+[importer.roam-json.option-text]
+original=Roam Research (.json)
+translation=Roam Research (.json)
+
+[importer.roam-json.file-type]
+original=Roam (.json)
+translation=Roam (.json)
+
+[importer.roam-json.label-id]
+original=Roam UID
+translation=Roam UID
+
+[importer.roam-json.desc-export]
+original=Export your data in JSON format.
+translation=Eksportér dine data i JSON-format.
+
+[importer.roam-json.desc-files]
+original=Pick the JSON file from your Roam export.
+translation=Vælg JSON-filen fra din Roam-eksport.
+
+[importer.roam-json.name-embed-block-references]
+original=Show referenced blocks in place
+translation=Vis refererede blokke på stedet
+
+[importer.roam-json.desc-embed-block-references]
+original=Roam shows the contents of a referenced block where the reference stands. If enabled, references become embeds rather than links.
+translation=Roam viser indholdet af en refereret blok, hvor referencen står. Hvis aktiveret, bliver referencer til indlejringer i stedet for Links.
+
+[importer.roam-json.name-drop-unresolved-references]
+original=Remove references to missing blocks
+translation=Fjern referencer til manglende blokke
+
+[importer.roam-json.desc-drop-unresolved-references]
+original=Some references name a block that is not in the export. If enabled, they are removed; if not, they are kept as Roam wrote them.
+translation=Nogle referencer navngiver en blok, der ikke findes i eksporten. Hvis aktiveret, fjernes de; ellers bevares de, som Roam skrev dem.
+
+[importer.roam-json.name-convert-attributes]
+original=Convert attributes to properties
+translation=Konvertér attributter til egenskaber
+
+[importer.roam-json.desc-convert-attributes]
+original=Convert eligible top-level Roam attributes into Obsidian properties. Referenced attributes remain in the note so links to them keep working.
+translation=Konvertér kvalificerede Roam-attributter på øverste niveau til Obsidian-egenskaber. Refererede attributter forbliver i noten, så links til dem fortsat virker.
+
+[importer.roam-json.name-tags-as-links]
+original=Convert tags to links
+translation=Konvertér tags til Links
+
+[importer.roam-json.desc-tags-as-links]
+original=A tag in Roam is a reference to the page of that name. If enabled, "#tag" becomes "[[tag]]".
+translation=Et tag i Roam er en reference til siden med det navn. Hvis aktiveret, bliver "#tag" til "[[tag]]".
+
+[importer.roam-json.name-drop-queries]
+original=Remove queries
+translation=Fjern forespørgsler
+
+[importer.roam-json.desc-drop-queries]
+original=If enabled, queries are removed. If not, a query becomes an Obsidian search that shows its results in the note.
+translation=Hvis aktiveret, fjernes forespørgsler. Ellers bliver en forespørgsel til en Obsidian-søgning, der viser resultaterne i noten.
+
+[importer.roam-json.reason-empty-title]
+original=Title is empty
+translation=Titel er tom
+
+[importer.roam-json.reason-unexpected-extension]
+original=Unexpected file extension
+translation=Uventet filtype
+
+[importer.textbundle.name]
+original=Textbundle files
+translation=Textbundle-filer
+
+[importer.textbundle.option-text]
+original=Textbundle (.textbundle, .textpack)
+translation=Textbundle (.textbundle, .textpack)
+
+[importer.textbundle.file-type]
+original=Textbundle
+translation=Textbundle
+
+[importer.textbundle.desc-export]
+original=Export your notes as textbundle or textpack, which Agenda, Craft, Taio, Ulysses and Zettlr can all write.
+translation=Eksportér dine noter som textbundle eller textpack, hvilket Agenda, Craft, Taio, Ulysses og Zettlr alle kan skrive.
+
+[importer.textbundle.msg-platform]
+original=Due to platform limitations, only textpack and zip files can be imported from this device. Open your vault on a Mac to import textbundle files.
+translation=På grund af platformsbegrænsninger kan kun textpack- og zip-filer importeres fra denne enhed. Åbn din boks på en Mac for at importere textbundle-filer.
+
+[importer.textbundle.reason-no-markdown]
+original=The textbundle does not contain markdown
+translation=Textbundle-filen indeholder ikke Markdown
+
+[importer.textbundle.reason-not-media]
+original=the file is not a media or markdown file.
+translation=filen er ikke en medie- eller Markdown-fil.
+
+[importer.textbundle.reason-already-exists]
+original=the file already exists.
+translation=filen findes allerede.
+
+[importer.tomboy.name]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.option-text]
+original=Tomboy/Gnote (.note)
+translation=Tomboy/Gnote (.note)
+
+[importer.tomboy.file-type]
+original=Tomboy/Gnote
+translation=Tomboy/Gnote
+
+[importer.tomboy.label-id]
+original=Tomboy ID
+translation=Tomboy ID
+
+[importer.tomboy.desc-files-mac]
+original=Tomboy notes are typically found in: ~/Library/Application Support/Tomboy
+translation=Tomboy-noter findes typisk i: ~/Library/Application Support/Tomboy
+
+[importer.tomboy.desc-files-windows]
+original=Tomboy notes are typically found in: %APPDATA%\\Tomboy
+translation=Tomboy-noter findes typisk i: %APPDATA%\\Tomboy
+
+[importer.tomboy.desc-files-linux]
+original=Tomboy notes are typically found in: ~/.local/share/tomboy - or GNote: ~/.local/share/gnote
+translation=Tomboy-noter findes typisk i: ~/.local/share/tomboy - eller GNote: ~/.local/share/gnote
+
+[importer.tomboy.name-todo]
+original=Convert TODO lists to checkboxes
+translation=Konvertér TODO-lister til afkrydsningsfelter
+
+[importer.tomboy.desc-todo]
+original=When enabled, lists in notes with "TODO" in the title will be converted to task lists with checkboxes. Strikethrough items will be marked as completed.
+translation=Når aktiveret, vil lister i noter med "TODO" i titlen blive konverteret til opgavelister med afkrydsningsfelter. Gennemstregede elementer markeres som fuldførte.
+
+[importer.tomboy.name-keep-title]
+original=Keep title in Markdown
+translation=Behold titel i Markdown
+
+[importer.tomboy.desc-keep-title]
+original=Choose whether to keep the note title in the Markdown content. The automatic option keeps titles only when special characters are lost in filename conversion.
+translation=Vælg om notetitlen skal bevares i Markdown-indholdet. Den automatiske indstilling beholder kun titler, når specialtegn mistes ved konvertering af filnavne.
+
+[importer.tomboy.option-automatic]
+original=Automatic
+translation=Automatisk
+
+[importer.tomboy.option-keep-titles]
+original=Keep titles
+translation=Behold titler
+
+[importer.tomboy.option-filename-only]
+original=Filename only
+translation=Kun filnavn
