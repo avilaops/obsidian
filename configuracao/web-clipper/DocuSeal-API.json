@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "DocuSeal API",
+  "behavior": "create",
+  "noteNameFormat": "{{title}}",
+  "path": "Clippings/API",
+  "noteContentFormat": "{{content}}",
+  "properties": [
+    {
+      "name": "title",
+      "value": "{{title}}",
+      "type": "text"
+    },
+    {
+      "name": "source",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "tipo",
+      "value": "referencia-api",
+      "type": "text"
+    },
+    {
+      "name": "created",
+      "value": "{{date}}",
+      "type": "text"
+    },
+    {
+      "name": "tags",
+      "value": "clippings, referencia-api",
+      "type": "multitext"
+    }
+  ],
+  "triggers": [
+    "https://www.docuseal.com/docs/api"
+  ]
+}

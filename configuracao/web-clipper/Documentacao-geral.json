@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "Documentacao geral",
+  "behavior": "create",
+  "noteNameFormat": "{{title}}",
+  "path": "Clippings/Documentacao",
+  "noteContentFormat": "{{content}}",
+  "properties": [
+    {
+      "name": "title",
+      "value": "{{title}}",
+      "type": "text"
+    },
+    {
+      "name": "source",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "tipo",
+      "value": "documentacao",
+      "type": "text"
+    },
+    {
+      "name": "created",
+      "value": "{{date}}",
+      "type": "text"
+    },
+    {
+      "name": "tags",
+      "value": "clippings, documentacao",
+      "type": "multitext"
+    }
+  ],
+  "triggers": []
+}

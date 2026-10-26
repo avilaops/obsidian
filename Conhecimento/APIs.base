@@ -1,0 +1,12 @@
+filters:
+  and:
+    - 'tipo == "endpoint"'
+views:
+  - type: table
+    name: Endpoints
+    order:
+      - file.name
+      - servico
+      - metodo
+      - rota
+      - source
